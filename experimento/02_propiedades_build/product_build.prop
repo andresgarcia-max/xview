@@ -1,0 +1,48 @@
+﻿####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Viettel
+ro.product.product.device=MediaBox_B866V2
+ro.product.product.manufacturer=ZTE
+ro.product.product.model=B866V2
+ro.product.product.name=ViettelBox_B866V2
+ro.product.build.date=Mon Nov  6 10:45:13 UTC 2023
+ro.product.build.date.utc=1699267513
+ro.product.build.fingerprint=Viettel/ViettelBox_B866V2/MediaBox_B866V2:12/SC/V84711310.1024:user/release-keys
+ro.product.build.id=SC
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=eng.ztestb.20231106.184649
+ro.product.build.version.release=12
+ro.product.build.version.release_or_codename=12
+ro.product.build.version.sdk=31
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=31
+ro.build.characteristics=tv,nosdcard
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.notification_sound=pixiedust.ogg
+debug.sf.disable_backpressure=1
+debug.sf.latch_unsignaled=1
+debug.sf.vsync_reactor_ignore_present_fences=1
+ro.sf.disable_triple_buffer=0
+camera.disable_zsl_mode=1
+rw.camera.usb.faceback=true
+ro.boot.fake_battery=42
+ro.af.client_heap_size_kbyte=2048
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
+vendor.useaml.hotplug=1
+ro.hdmi.cec.source.playback_device_action_on_routing_control=wake_up_and_send_active_source
+ro.hdmi.cec.source.send_standby_on_sleep=broadcast
+ro.llk.ignorelist.parent=com.antutu.ABenchMark
+ro.lmk.use_new_strategy=true
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file

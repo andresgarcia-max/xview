@@ -1,0 +1,59 @@
+name: Kernel QEMU boot test (not STB validation)
+on:
+  workflow_dispatch:
+    inputs:
+      trust_probe:
+        description: Uji sertifikat publik asli pada keyring QEMU (tanpa load driver STB)
+        type: boolean
+        default: false
+      loader_probe:
+        description: Uji load fixture sintetis, signature dan protected export di QEMU saja
+        type: boolean
+        default: false
+      signature_probe:
+        description: Uji crypto 46 signature asli memakai digest saja, tanpa binary driver
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: kernel-qemu
+  cancel-in-progress: false
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Install runner build and emulation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang-18 lld-18 llvm-18 flex bison libssl-dev libelf-dev bc patch gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi libc6-dev-arm64-cross qemu-system-arm
+      - name: Check trust experiment guards and guest syntax
+        run: |
+          python3 -m unittest discover -s tools -p 'test_kernel*probe.py' -v
+          python3 -m unittest discover -s tools -p 'test_kernel_patch_match.py' -v
+          python3 -m unittest discover -s tools -p 'test_security_bulletin_inventory.py' -v
+          aarch64-linux-gnu-gcc -static -O2 -Wall -Wextra -Werror -fsyntax-only tools/qemu_socket_init.c
+          aarch64-linux-gnu-gcc -static -O2 -Wall -Wextra -Werror -DB866F_TRUST_PROBE=1 -fsyntax-only tools/qemu_init.c
+          aarch64-linux-gnu-gcc -static -O2 -Wall -Wextra -Werror -DB866F_TRUST_PROBE=1 -DB866F_LOADER_PROBE=1 -fsyntax-only tools/qemu_init.c
+          aarch64-linux-gnu-gcc -static -O2 -Wall -Wextra -Werror -DB866F_TRUST_PROBE=1 -DB866F_PKCS7_PROBE=1 -fsyntax-only tools/qemu_init.c
+          aarch64-linux-gnu-gcc -static -O2 -Wall -Wextra -Werror -DB866F_TRUST_PROBE=1 -DB866F_ORIGINAL_LOAD_PROBE=1 -fsyntax-only tools/qemu_init.c
+          aarch64-linux-gnu-gcc -static -O2 -Wall -Wextra -Werror -DB866F_TRUST_PROBE=1 -DB866F_ORIGINAL_LOAD_PROBE=1 -DB866F_ZRAM_IO_PROBE=1 -DB866F_HID_LOAD_PROBE=1 -fsyntax-only tools/qemu_init.c
+      - name: Build emulator configuration and test boot
+        env:
+          KERNEL_SOURCE: coreelec-5.15.196
+          TRUST_PROBE: ${{ inputs.trust_probe && '1' || '0' }}
+          LOADER_PROBE: ${{ inputs.loader_probe && '1' || '0' }}
+          SIGNATURE_PROBE: ${{ inputs.signature_probe && '1' || '0' }}
+        run: python3 tools/kernel_qemu.py
+      - name: Save logs and configuration only
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: kernel-qemu-diagnostics
+          path: build/qemu-report/
+          if-no-files-found: warn
+          retention-days: 14

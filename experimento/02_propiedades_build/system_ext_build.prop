@@ -1,0 +1,25 @@
+﻿####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=Viettel
+ro.product.system_ext.device=MediaBox_B866V2
+ro.product.system_ext.manufacturer=ZTE
+ro.product.system_ext.model=B866V2
+ro.product.system_ext.name=ViettelBox_B866V2
+ro.system_ext.build.date=Mon Nov  6 10:45:13 UTC 2023
+ro.system_ext.build.date.utc=1699267513
+ro.system_ext.build.fingerprint=Viettel/ViettelBox_B866V2/MediaBox_B866V2:12/SC/V84711310.1024:user/release-keys
+ro.system_ext.build.id=SC
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=eng.ztestb.20231106.184649
+ro.system_ext.build.version.release=12
+ro.system_ext.build.version.release_or_codename=12
+ro.system_ext.build.version.sdk=31
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file

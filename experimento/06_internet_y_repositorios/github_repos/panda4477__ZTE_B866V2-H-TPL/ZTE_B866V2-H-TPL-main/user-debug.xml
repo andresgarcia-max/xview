@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+
+    <!-- USER 01 -->
+    <user>
+        <username>admin</username>
+        <password>aisadmin</password>
+    </user>
+
+    <!-- USER 02 -->
+    <user>
+        <username>user2</username>
+        <password>CHANGE_ME_2</password>
+    </user>
+
+    <!-- USER 03 -->
+    <user>
+        <username>user3</username>
+        <password>CHANGE_ME_3</password>
+    </user>
+
+</users>

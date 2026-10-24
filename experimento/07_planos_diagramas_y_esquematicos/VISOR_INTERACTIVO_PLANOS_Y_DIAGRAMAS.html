@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Planos, Diagramas y Esquemáticos — ZTE ZXV10 B866V2 / Xview+ (2019–2027)</title>
+  <style>
+    :root {
+      --bg: #070d19;
+      --card: #0f1b2d;
+      --border: #1e3a8a;
+      --accent: #38bdf8;
+      --green: #4ade80;
+      --amber: #fbbf24;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      line-height: 1.5;
+    }
+    header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 28px;
+      margin-bottom: 24px;
+    }
+    h1 { margin: 0 0 8px 0; color: var(--accent); font-size: 24px; }
+    h2 { color: var(--amber); border-bottom: 1px solid #1e293b; padding-bottom: 8px; margin-top: 0; }
+    .subtitle { color: var(--muted); font-size: 14px; }
+    .section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 22px;
+      margin-bottom: 24px;
+    }
+    .blueprint-box {
+      width: 100%;
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid #1e293b;
+      background: #0b121e;
+    }
+    .blueprint-box img, .blueprint-box object {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 13.5px;
+    }
+    th, td {
+      border: 1px solid #1e293b;
+      padding: 10px 12px;
+      text-align: left;
+    }
+    th { background: #172554; color: #93c5fd; }
+    tr:nth-child(even) { background: #0b1526; }
+    code, pre {
+      font-family: Consolas, monospace;
+      background: #060b14;
+      color: #67e8f9;
+      border-radius: 5px;
+    }
+    pre { padding: 14px; overflow-x: auto; border: 1px solid #1e293b; }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: bold;
+    }
+    .b-green { background: #064e3b; color: #6ee7b7; }
+    .b-blue { background: #1e3a8a; color: #93c5fd; }
+    .b-amber { background: #78350f; color: #fde68a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manual de Ingeniería, Planos y Diagramas: Xview+ / ZTE Serie B866 (2019–2027)</h1>
+    <div class="subtitle">
+      Equipo analizado en vivo: <b>ZTE ZXV10 B866V2</b> (IP: <code>192.168.1.20</code>) | SoC: <b>Amlogic S905X2 (g12a / franklin)</b> | ROM: <b>DMC.v2.25 (Android 12)</b>
+    </div>
+  </header>
+
+  <div class="section">
+    <h2>Plano 1: Disposición de Placa Base (PCB), Pinout ISP eMMC, Modo MaskROM y Puerto UART</h2>
+    <p>Esquema técnico de la placa <code>franklin</code> (referencia Amlogic <code>u212</code>) con la ubicación física de los puntos de prueba (Test Points) para desbloqueo por hardware, consola serial UART (<code>115200 8N1</code>) y puerto USB 2 OTG para <i>Amlogic USB Burning Tool</i>:</p>
+    <div class="blueprint-box">
+      <object type="image/svg+xml" data="PLANO_PCB_ZTE_B866V2_PINOUT_ISP_UART.svg"></object>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Plano 2: Mapa de Particiones eMMC, Secuencia de Arranque y Pipeline de Video (B866V2 vs B866V6 2027)</h2>
+    <p>Estructura física de los bloques de memoria eMMC (<code>/dev/block/mmcblk0</code>) extraída de tu dispositivo y comparativa del motor de procesado de video frente al modelo 2027 (<code>B866V6</code> con Amlogic S905X5M en 6 nm):</p>
+    <div class="blueprint-box">
+      <object type="image/svg+xml" data="DIAGRAMA_ARQUITECTURA_VIDEO_Y_PARTICIONES.svg"></object>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Tabla Técnica de Señales y Voltajes (Pinout de Hardware)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Interfaz</th>
+          <th>Señal / Pin</th>
+          <th>Voltaje / Nivel</th>
+          <th>Función Técnica en el ZTE B866V2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="badge b-green">MaskROM / ISP</span></td>
+          <td><code>DAT0</code></td>
+          <td>1.8V Lógica</td>
+          <td>Línea de datos 0 de la eMMC. Puentear a <code>GND</code> durante los primeros 3 segundos de encendido fuerza al SoC Amlogic S905X2 a entrar en modo <b>USB MaskROM (WorldCup Device 1b8e:c003)</b>.</td>
+        </tr>
+        <tr>
+          <td><span class="badge b-green">ISP eMMC</span></td>
+          <td><code>CLK / CMD</code></td>
+          <td>1.8V Lógica</td>
+          <td>Reloj y línea de comandos bidireccional para lectura/escritura directa de la eMMC con programadores externos (UFI / EasyJTAG / Hydra).</td>
+        </tr>
+        <tr>
+          <td><span class="badge b-amber">Alimentación</span></td>
+          <td><code>VCC / VCCQ</code></td>
+          <td>3.3V / 1.8V</td>
+          <td>Alimentación del núcleo NAND (3.3V) y controlador I/O (1.8V) de la memoria eMMC.</td>
+        </tr>
+        <tr>
+          <td><span class="badge b-blue">UART Serial</span></td>
+          <td><code>TX / RX / GND</code></td>
+          <td>3.3V TTL (115200 8N1)</td>
+          <td>Consola de depuración del bootloader U-Boot y kernel Linux. <b>Advertencia:</b> Conectar únicamente <code>TX</code>, <code>RX</code> y <code>GND</code> (nunca conectar el pin de 3.3V del adaptador USB-TTL).</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

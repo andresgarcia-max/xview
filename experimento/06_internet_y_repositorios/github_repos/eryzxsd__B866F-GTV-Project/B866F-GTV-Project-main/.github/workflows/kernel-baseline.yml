@@ -1,0 +1,55 @@
+name: Kernel ABI baseline (diagnostic only)
+run-name: Kernel ${{ inputs.source }} — ${{ inputs.object_preflight && 'media object preflight' || 'full ABI experiment' }}
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Sumber eksperimen ABI (tidak untuk flashing)
+        type: choice
+        required: true
+        default: khadas-android14
+        options:
+          - khadas-android14
+          - coreelec-5.15.196
+      driver_probe:
+        description: Uji build driver media bersama kernel CoreELEC (diagnostik saja)
+        type: boolean
+        default: false
+      object_preflight:
+        description: Hanya kompilasi objek media terpilih (CoreELEC + driver_probe)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kernel-baseline-${{ inputs.source || 'khadas-android14' }}-${{ inputs.object_preflight && 'objects' || 'full' }}
+  cancel-in-progress: false
+
+jobs:
+  baseline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Install build dependencies on runner
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang-18 lld-18 llvm-18 flex bison libssl-dev libelf-dev bc patch gcc-aarch64-linux-gnu gcc-arm-linux-gnueabi
+      - name: Build baseline and compare vendor ABI
+        env:
+          KERNEL_SOURCE: ${{ inputs.source || 'khadas-android14' }}
+          DRIVER_PROBE: ${{ inputs.driver_probe && '1' || '0' }}
+          OBJECT_PREFLIGHT: ${{ inputs.object_preflight && '1' || '0' }}
+        run: python3 tools/kernel_baseline.py
+      - name: Save diagnostic reports (no kernel images)
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: kernel-baseline-diagnostics
+          path: build/kernel-report/
+          if-no-files-found: warn
+          retention-days: 14

@@ -1,0 +1,38 @@
+#line 1 "device/amlogic/common/sepolicy/product/private/property_contexts"
+ro.hdmi.set_menu_language    u:object_r:vendor_cec_prop:s0
+ro.hdmi.volume.passthrough   u:object_r:vendor_cec_prop:s0
+#line 1 "device/amlogic/common/oem_sepolicy/property_contexts"
+ro.product.mktcode u:object_r:config_prop:s0
+ro.product.opercode u:object_r:config_prop:s0
+ro.product.deviceid u:object_r:config_prop:s0
+ro.product.boardid u:object_r:config_prop:s0
+ro.product.stb.stbid u:object_r:config_prop:s0
+ro.product.stb.serialnum u:object_r:config_prop:s0
+ro.product.stb.tvid u:object_r:config_prop:s0
+ro.product.snoui u:object_r:config_prop:s0
+ro.product.mac u:object_r:config_prop:s0
+ro.boot.mac u:object_r:config_prop:s0
+ro.deviceid u:object_r:config_prop:s0
+ro.cm.stb.MAC u:object_r:config_prop:s0
+ro.product.serialno u:object_r:config_prop:s0
+ro.stb.hardware.chipid u:object_r:config_prop:s0
+ro.mac u:object_r:config_prop:s0
+ro.cm.stb.STBID u:object_r:config_prop:s0
+#/*添加wifitest和wifi_bt_prop_set的selinux权限 */
+ro.product.             u:object_r:system_prop:s0
+
+#/*更新widevinekey */
+#persist.product.        u:object_r:keyupdate_prop:s0
+
+persist.sys.dinosaur u:object_r:config_prop:s0
+
+ro.zte.					u:object_r:config_prop:s0
+#config.media.vmx.iptv.drm		u:object_r:config_prop:s0
+#config.media.vmx.iptv.emmpid	u:object_r:config_prop:s0
+#config.media.vmx.iptv.ecmpid	u:object_r:config_prop:s0
+#config.media.vmx.iptv.programnum	u:object_r:config_prop:s0
+#config.media.vmx.iptv.certpath	u:object_r:config_prop:s0
+#config.media.vmx.iptv.serveraddr	u:object_r:config_prop:s0
+#config.media.vmx.iptv.port	u:object_r:config_prop:s0
+ubootenv.var.screenmode         u:object_r:config_prop:s0
+persist.vendor.dvb.audio_delay u:object_r:config_prop:s0

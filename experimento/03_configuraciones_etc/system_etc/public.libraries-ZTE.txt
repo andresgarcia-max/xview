@@ -1,0 +1,3 @@
+libSubtitleClient.ZTE.so
+libaml_mp_sdk.ZTE.so
+libsecmem.ZTE.so

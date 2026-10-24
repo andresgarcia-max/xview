@@ -1,0 +1,17 @@
+# Configuración del Servidor FRP (frps) v0.50+
+# Este archivo se coloca en tu Servidor VPS / Servidor Central
+
+# Puerto de control en el que el servidor FRP escucha a los clientes (TV Boxes)
+bindPort = 7000
+
+# Token de autenticación de seguridad (Cambia este token por una clave secreta propia)
+auth.token = "XviewRemoteControl2026SecretKey"
+
+# Dashboard web opcional para monitorear las conexiones de las cajas en tiempo real
+webServer.addr = "0.0.0.0"
+webServer.port = 7500
+webServer.user = "admin"
+webServer.password = "admin123"
+
+# Rango de puertos autorizados para las TV Box (ej. de 7001 a 7999)
+# Cada caja ocupará un puerto dentro de este rango para el control con Scrcpy

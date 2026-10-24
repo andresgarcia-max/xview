@@ -1,0 +1,34 @@
+service ztepropertyd /system/bin/ztepropertyd
+    class core
+    oneshot
+
+service wifi_bt_prop_set /vendor/bin/wifi_bt_prop_set
+    class core
+    oneshot
+
+service prop_set_lists /system/bin/prop_set_lists
+    class core
+    group root
+    oneshot
+
+#add zte FactoryTestTool start
+service fttc /system/bin/FactoryTestTool_C
+       disabled
+       oneshot
+
+on property:sys.boot_completed=1
+    start cobshell
+
+service cobshell /system/bin/cobshell
+    class main
+    oneshot
+
+#add zte FactoryTestTool end
+
+#add CA Process start
+service caprocess /system/bin/caprocess
+    class core
+    oneshot
+    group root system
+    user root
+#add CA Proces end

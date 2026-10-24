@@ -1,0 +1,326 @@
+﻿[
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "7Ji/amlogic-s9xxx-archlinuxarm",
+        "HtmlUrl":  "https://github.com/7Ji/amlogic-s9xxx-archlinuxarm",
+        "Description":  "ArchLinux ARM for Amlogic s9xxx tv box.",
+        "DefaultBranch":  "master",
+        "SizeKB":  191,
+        "Stars":  79
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "actions-marketplace-validations/ophub_amlogic-s9xxx-armbian",
+        "HtmlUrl":  "https://github.com/actions-marketplace-validations/ophub_amlogic-s9xxx-armbian",
+        "Description":  null,
+        "DefaultBranch":  "main",
+        "SizeKB":  44924,
+        "Stars":  37
+    },
+    {
+        "Query":  "AmlogicKitchen",
+        "FullName":  "althafvly/AmlogicKitchen",
+        "HtmlUrl":  "https://github.com/althafvly/AmlogicKitchen",
+        "Description":  "Android firmware kitchen for amlogic devices",
+        "DefaultBranch":  "master",
+        "SizeKB":  89918,
+        "Stars":  221
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "An-rus/ZTE-ZXV10-B826C-A12-STB-Security-Research",
+        "HtmlUrl":  "https://github.com/An-rus/ZTE-ZXV10-B826C-A12-STB-Security-Research",
+        "Description":  "STB Security Research on ZTE ZXV10 B826C-A12 (Hi3798M). Hardware reverse engineering, UART exploitation.",
+        "DefaultBranch":  "main",
+        "SizeKB":  2,
+        "Stars":  1
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "Ayx03/ChashCode",
+        "HtmlUrl":  "https://github.com/Ayx03/ChashCode",
+        "Description":  "中兴盒子 adb 解锁码计算器？适用于移动宽带附赠中兴 ZXV10 B860AV2.1 电视盒子，其余自行测试",
+        "DefaultBranch":  "ChashCode",
+        "SizeKB":  647,
+        "Stars":  8
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "bg4hkq/meson-gxl-s905mb-p211",
+        "HtmlUrl":  "https://github.com/bg4hkq/meson-gxl-s905mb-p211",
+        "Description":  "ZXV10 B860AV1.2 电视盒子dump 出来的dtb 文件",
+        "DefaultBranch":  "main",
+        "SizeKB":  182,
+        "Stars":  1
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "cbrewer1337/simple-proxy-b8663",
+        "HtmlUrl":  "https://github.com/cbrewer1337/simple-proxy-b8663",
+        "Description":  null,
+        "DefaultBranch":  "dev",
+        "SizeKB":  317,
+        "Stars":  0
+    },
+    {
+        "Query":  "pyamlboot",
+        "FullName":  "crb132/pyamlboot",
+        "HtmlUrl":  "https://github.com/crb132/pyamlboot",
+        "Description":  null,
+        "DefaultBranch":  "master",
+        "SizeKB":  15015,
+        "Stars":  0
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "eryzxsd/B866F-GTV-Project",
+        "HtmlUrl":  "https://github.com/eryzxsd/B866F-GTV-Project",
+        "Description":  "Kustomisasi Google TV untuk B866F V1.1 EBS Android 14: Settings dua panel, pemilih launcher, dan Samba. Dokumentasi Bahasa Indonesia. Developer preview; bukan ROM atau pembaruan keamanan.",
+        "DefaultBranch":  "main",
+        "SizeKB":  685,
+        "Stars":  0
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "Explorer9952/b600",
+        "HtmlUrl":  "https://github.com/Explorer9952/b600",
+        "Description":  "site of firmwares ZTE ZXV10 STB only Beltelecom.by",
+        "DefaultBranch":  "main",
+        "SizeKB":  0,
+        "Stars":  0
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "Explorer9952/zte-b700v5-binder-devkit",
+        "HtmlUrl":  "https://github.com/Explorer9952/zte-b700v5-binder-devkit",
+        "Description":  "Toolkit for developing and reverse-engineering Binder-based services on ZTE ZXV10 B700V5 STB. Includes file structure, IPC templates, service hooks. Designed for reproducible, scriptable exploration.",
+        "DefaultBranch":  "main",
+        "SizeKB":  1,
+        "Stars":  0
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "helmiau/HelmiWrt-OS-Immortal",
+        "HtmlUrl":  "https://github.com/helmiau/HelmiWrt-OS-Immortal",
+        "Description":  "Custom ImmortalWrt build for Raspberry Pi, x86, NanoPi, OrangePi and various Amlogic s9xxx devices.",
+        "DefaultBranch":  "main",
+        "SizeKB":  396,
+        "Stars":  12
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "ixoneno-shy-oule/documents-b8662723",
+        "HtmlUrl":  "https://github.com/ixoneno-shy-oule/documents-b8662723",
+        "Description":  "Created by GitHub batch publisher",
+        "DefaultBranch":  "main",
+        "SizeKB":  219,
+        "Stars":  0
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "jamyu-li/Armbian-on-B860A-S812-TVBOX",
+        "HtmlUrl":  "https://github.com/jamyu-li/Armbian-on-B860A-S812-TVBOX",
+        "Description":  "Use this Build Armbian for your ZTE  ZXV10 B860A (An Amlogic S812) TVBox.",
+        "DefaultBranch":  "main",
+        "SizeKB":  69,
+        "Stars":  2
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "jerbe/armbian_amlogic-s9xxx",
+        "HtmlUrl":  "https://github.com/jerbe/armbian_amlogic-s9xxx",
+        "Description":  "Forked from https://github.com/ophub/amlogic-s9xxx-armbian",
+        "DefaultBranch":  "main",
+        "SizeKB":  30038,
+        "Stars":  11
+    },
+    {
+        "Query":  "pyamlboot",
+        "FullName":  "joshuajeschek/pyamlboot-flake",
+        "HtmlUrl":  "https://github.com/joshuajeschek/pyamlboot-flake",
+        "Description":  null,
+        "DefaultBranch":  "main",
+        "SizeKB":  1,
+        "Stars":  0
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "khodorchukvs22-cmyk/vprod-347-b8662701",
+        "HtmlUrl":  "https://github.com/khodorchukvs22-cmyk/vprod-347-b8662701",
+        "Description":  null,
+        "DefaultBranch":  "main",
+        "SizeKB":  10,
+        "Stars":  0
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "Maizil41/amlogic-s9xxx-old",
+        "HtmlUrl":  "https://github.com/Maizil41/amlogic-s9xxx-old",
+        "Description":  null,
+        "DefaultBranch":  "main",
+        "SizeKB":  1637,
+        "Stars":  3
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "maplepixel51/documents-b8665717",
+        "HtmlUrl":  "https://github.com/maplepixel51/documents-b8665717",
+        "Description":  "Created by GitHub batch publisher",
+        "DefaultBranch":  "main",
+        "SizeKB":  1146,
+        "Stars":  0
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "MatJeheyy/amlogic-s9xxx-openwrt-old",
+        "HtmlUrl":  "https://github.com/MatJeheyy/amlogic-s9xxx-openwrt-old",
+        "Description":  "OpenWrt for Amlogic s9xxx tv box. Support s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, etc. including install to EMMC and update related functions.",
+        "DefaultBranch":  "main",
+        "SizeKB":  110674,
+        "Stars":  0
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "mirko-geno/b866v2-debian",
+        "HtmlUrl":  "https://github.com/mirko-geno/b866v2-debian",
+        "Description":  "debian minimal working on b866v2 with mt7661lsn wifi + bluetooth chip",
+        "DefaultBranch":  "main",
+        "SizeKB":  10,
+        "Stars":  1
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "ndunks/indihome-zte-zxv10-b760h-debian",
+        "HtmlUrl":  "https://github.com/ndunks/indihome-zte-zxv10-b760h-debian",
+        "Description":  "Indihome ZTE ZXV10 B760H Debian with Original Kernel",
+        "DefaultBranch":  "master",
+        "SizeKB":  591302,
+        "Stars":  8
+    },
+    {
+        "Query":  "pyamlboot",
+        "FullName":  "OpenMandrivaAssociation/python-pyamlboot",
+        "HtmlUrl":  "https://github.com/OpenMandrivaAssociation/python-pyamlboot",
+        "Description":  "Amlogic SoC USB Boot utility",
+        "DefaultBranch":  "master",
+        "SizeKB":  3,
+        "Stars":  0
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "ophub/amlogic-s9xxx-armbian",
+        "HtmlUrl":  "https://github.com/ophub/amlogic-s9xxx-armbian",
+        "Description":  "Supports running Armbian on Amlogic, Allwinner, and Rockchip devices. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.",
+        "DefaultBranch":  "main",
+        "SizeKB":  48499,
+        "Stars":  10200
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "ophub/amlogic-s9xxx-openwrt",
+        "HtmlUrl":  "https://github.com/ophub/amlogic-s9xxx-openwrt",
+        "Description":  "Supports running OpenWrt on Amlogic, Allwinner, and Rockchip devices. Support a311d, s922x, s905x3, s905x2, s912, s905d, s905x, s905w, s905, s905l, rk3588, rk3568, rk3399, rk3328, h6, etc.",
+        "DefaultBranch":  "main",
+        "SizeKB":  7641,
+        "Stars":  3058
+    },
+    {
+        "Query":  "B866V2",
+        "FullName":  "panda4477/ZTE_B866V2-H-TPL",
+        "HtmlUrl":  "https://github.com/panda4477/ZTE_B866V2-H-TPL",
+        "Description":  null,
+        "DefaultBranch":  "main",
+        "SizeKB":  1,
+        "Stars":  0
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "rose-gh-agent/agent-b8669e71",
+        "HtmlUrl":  "https://github.com/rose-gh-agent/agent-b8669e71",
+        "Description":  "Auto-created workspace for Rose Labs agent",
+        "DefaultBranch":  "main",
+        "SizeKB":  0,
+        "Stars":  0
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "stasinopoulos/ZTExploit",
+        "HtmlUrl":  "https://github.com/stasinopoulos/ZTExploit",
+        "Description":  "ZTE ZXV10 H108L Router with \u003c= V1.0.01_WIND_A01 - Remote root RCE Exploit",
+        "DefaultBranch":  "master",
+        "SizeKB":  6489,
+        "Stars":  54
+    },
+    {
+        "Query":  "pyamlboot",
+        "FullName":  "superna9999/pyamlboot",
+        "HtmlUrl":  "https://github.com/superna9999/pyamlboot",
+        "Description":  "Amlogic USB Boot Protocol Library",
+        "DefaultBranch":  "master",
+        "SizeKB":  14958,
+        "Stars":  140
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "Tibly-ai/basics-plus-b866",
+        "HtmlUrl":  "https://github.com/Tibly-ai/basics-plus-b866",
+        "Description":  "Basics Plus — generated by Tibly (https://basics-plus-b866.sites.tibly.ai)",
+        "DefaultBranch":  "main",
+        "SizeKB":  114,
+        "Stars":  0
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "TommySaunders84/notion-docs-site-b8661",
+        "HtmlUrl":  "https://github.com/TommySaunders84/notion-docs-site-b8661",
+        "Description":  null,
+        "DefaultBranch":  "main",
+        "SizeKB":  34,
+        "Stars":  0
+    },
+    {
+        "Query":  "B866",
+        "FullName":  "vorshen/paraflow-project-b86662c5",
+        "HtmlUrl":  "https://github.com/vorshen/paraflow-project-b86662c5",
+        "Description":  "Project created for b86662c5",
+        "DefaultBranch":  "main",
+        "SizeKB":  61,
+        "Stars":  0
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "w2xg2022/actions4ztebv310",
+        "HtmlUrl":  "https://github.com/w2xg2022/actions4ztebv310",
+        "Description":  "Actions for ZTE ZXV10-BV310 (s905l3 TVbox) armbian firmware",
+        "DefaultBranch":  "main",
+        "SizeKB":  446,
+        "Stars":  7
+    },
+    {
+        "Query":  "ZXV10",
+        "FullName":  "wuhao1477/b860av1-t-armbian-burn-builder",
+        "HtmlUrl":  "https://github.com/wuhao1477/b860av1-t-armbian-burn-builder",
+        "Description":  "Private cloud builder for ZXV10 B860AV1.1-T Amlogic v2 burn.img",
+        "DefaultBranch":  "main",
+        "SizeKB":  10474,
+        "Stars":  0
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "wujingqueqian/dd-ray-amlogic-s9xxx-armbian",
+        "HtmlUrl":  "https://github.com/wujingqueqian/dd-ray-amlogic-s9xxx-armbian",
+        "Description":  "本仓库fork自dd-ray amlogic-s9xxx-armbian，个人测试用，下载刷机请找dd-ray大佬",
+        "DefaultBranch":  "main",
+        "SizeKB":  15823,
+        "Stars":  0
+    },
+    {
+        "Query":  "amlogic-s9xxx",
+        "FullName":  "Yvan86/amlogic-s9xxx-armbian",
+        "HtmlUrl":  "https://github.com/Yvan86/amlogic-s9xxx-armbian",
+        "Description":  null,
+        "DefaultBranch":  "main",
+        "SizeKB":  159174,
+        "Stars":  2
+    }
+]

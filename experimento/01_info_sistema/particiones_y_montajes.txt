@@ -1,0 +1,125 @@
+﻿=== BY-NAME ===
+total 0
+drwxr-xr-x 2 root root  540 2015-01-01 00:00 .
+drwxr-xr-x 6 root root 1360 2015-01-01 00:00 ..
+lrwxrwxrwx 1 root root   15 2015-01-01 00:00 boot -> /dev/block/boot
+lrwxrwxrwx 1 root root   21 2015-01-01 00:00 bootloader -> /dev/block/bootloader
+lrwxrwxrwx 1 root root   22 2015-01-01 00:00 bootloader0 -> /dev/block/bootloader0
+lrwxrwxrwx 1 root root   22 2015-01-01 00:00 bootloader1 -> /dev/block/bootloader1
+lrwxrwxrwx 1 root root   16 2015-01-01 00:00 cache -> /dev/block/cache
+lrwxrwxrwx 1 root root   15 2015-01-01 00:00 conf -> /dev/block/conf
+lrwxrwxrwx 1 root root   19 2015-01-01 00:00 cri_data -> /dev/block/cri_data
+lrwxrwxrwx 1 root root   15 2015-01-01 00:00 dtbo -> /dev/block/dtbo
+lrwxrwxrwx 1 root root   14 2015-01-01 00:00 env -> /dev/block/env
+lrwxrwxrwx 1 root root   18 2015-01-01 00:00 factory -> /dev/block/factory
+lrwxrwxrwx 1 root root   15 2015-01-01 00:00 logo -> /dev/block/logo
+lrwxrwxrwx 1 root root   19 2015-01-01 00:00 metadata -> /dev/block/metadata
+lrwxrwxrwx 1 root root   15 2015-01-01 00:00 misc -> /dev/block/misc
+lrwxrwxrwx 1 root root   18 2015-01-01 00:00 mmcblk0 -> /dev/block/mmcblk0
+lrwxrwxrwx 1 root root   23 2015-01-01 00:00 mmcblk0boot0 -> /dev/block/mmcblk0boot0
+lrwxrwxrwx 1 root root   23 2015-01-01 00:00 mmcblk0boot1 -> /dev/block/mmcblk0boot1
+lrwxrwxrwx 1 root root   22 2015-01-01 00:00 mmcblk0rpmb -> /dev/block/mmcblk0rpmb
+lrwxrwxrwx 1 root root   14 2015-01-01 00:00 oem -> /dev/block/oem
+lrwxrwxrwx 1 root root   16 2015-01-01 00:00 param -> /dev/block/param
+lrwxrwxrwx 1 root root   19 2015-01-01 00:00 recovery -> /dev/block/recovery
+lrwxrwxrwx 1 root root   19 2015-01-01 00:00 reserved -> /dev/block/reserved
+lrwxrwxrwx 1 root root   16 2015-01-01 00:00 super -> /dev/block/super
+lrwxrwxrwx 1 root root   14 2015-01-01 00:00 tee -> /dev/block/tee
+lrwxrwxrwx 1 root root   19 2015-01-01 00:00 userdata -> /dev/block/userdata
+lrwxrwxrwx 1 root root   17 2015-01-01 00:00 vbmeta -> /dev/block/vbmeta
+=== PARTITIONS ===
+cat: /proc/partitions: Permission denied
+=== DF -H ===
+Filesystem          Size Used Avail Use% Mounted on
+tmpfs               969M 1.1M  968M   1% /dev
+tmpfs               969M    0  969M   0% /mnt
+/dev/block/metadata  11M 120K   11M   2% /metadata
+/dev/block/dm-2     713M 698M   48K 100% /
+/dev/block/dm-3     132M 130M     0 100% /vendor
+/dev/block/dm-1     538M 502M   26M  96% /product
+/dev/block/dm-0     2.0M 1.9M     0 100% /odm
+tmpfs               969M 8.0K  969M   1% /apex
+/dev/block/userdata 4.0G 500M  3.4G  13% /data
+/dev/block/cache    968M  40K  942M   1% /cache
+/dev/fuse           4.0G 500M  3.4G  13% /storage/emulated
+=== MOUNT ===
+tmpfs on /dev type tmpfs (rw,seclabel,nosuid,relatime,mode=755)
+devpts on /dev/pts type devpts (rw,seclabel,relatime,mode=600,ptmxmode=000)
+proc on /proc type proc (rw,relatime,gid=3009,hidepid=2)
+sysfs on /sys type sysfs (rw,seclabel,relatime)
+selinuxfs on /sys/fs/selinux type selinuxfs (rw,relatime)
+tmpfs on /mnt type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000)
+/dev/block/metadata on /metadata type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,errors=panic,data=ordered)
+/dev/block/dm-2 on / type ext4 (ro,seclabel,nodev,relatime)
+/dev/block/dm-3 on /vendor type ext4 (ro,seclabel,relatime)
+/dev/block/dm-1 on /product type ext4 (ro,seclabel,relatime)
+/dev/block/dm-0 on /odm type ext4 (ro,seclabel,relatime)
+tmpfs on /apex type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755)
+tmpfs on /linkerconfig type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755)
+tmpfs on /mnt/installer type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000)
+tmpfs on /mnt/androidwritable type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000)
+/dev/block/dm-2 on /apex/com.android.adbd type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.appsearch type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.art type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.conscrypt type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.extservices type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.i18n type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.ipsec type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.media type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.media.swcodec type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.mediaprovider type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.neuralnetworks type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.os.statsd type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.permission type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.resolv type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.runtime type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.scheduling type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.sdkext type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.tethering type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.tzdata type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.vndk.v31 type ext4 (ro,seclabel,relatime)
+/dev/block/dm-2 on /apex/com.android.wifi type ext4 (ro,seclabel,relatime)
+none on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime)
+none on /dev/cpuctl type cgroup (rw,nosuid,nodev,noexec,relatime,cpu)
+none on /dev/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset,noprefix,release_agent=/sbin/cpuset_release_agent)
+none on /dev/memcg type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+none on /dev/stune type cgroup (rw,nosuid,nodev,noexec,relatime,schedtune)
+tmpfs on /linkerconfig type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755)
+tracefs on /sys/kernel/tracing type tracefs (rw,seclabel,relatime)
+none on /config type configfs (rw,nosuid,nodev,noexec,relatime)
+none on /sys/fs/fuse/connections type fusectl (rw,relatime)
+bpf on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime)
+pstore on /sys/fs/pstore type pstore (rw,seclabel,nosuid,nodev,noexec,relatime)
+/dev/block/userdata on /data type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,resgid=1065,errors=panic,data=ordered)
+/dev/block/cache on /cache type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,errors=panic,data=ordered)
+/dev/block/param on /mnt/vendor/param type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,errors=panic,data=ordered)
+/dev/block/tee on /mnt/vendor/tee type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,errors=panic,data=ordered)
+/dev/block/factory on /mnt/vendor/factory type vfat (rw,nosuid,noexec,noatime,nodiratime,fmask=0000,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+tmpfs on /storage type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000)
+/dev/block/userdata on /data/user/0 type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,resgid=1065,errors=panic,data=ordered)
+tmpfs on /data_mirror type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=700,gid=1000)
+/dev/block/userdata on /data_mirror/data_ce/null type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,resgid=1065,errors=panic,data=ordered)
+/dev/block/userdata on /data_mirror/data_ce/null/0 type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,resgid=1065,errors=panic,data=ordered)
+/dev/block/userdata on /data_mirror/data_de/null type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,resgid=1065,errors=panic,data=ordered)
+/dev/block/userdata on /data_mirror/cur_profiles type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,resgid=1065,errors=panic,data=ordered)
+/dev/block/userdata on /data_mirror/ref_profiles type ext4 (rw,seclabel,nosuid,nodev,noatime,nodelalloc,resgid=1065,errors=panic,data=ordered)
+adb on /dev/usb-ffs/adb type functionfs (rw,relatime)
+mtp on /dev/usb-ffs/mtp type functionfs (rw,relatime)
+ptp on /dev/usb-ffs/ptp type functionfs (rw,relatime)
+/data/media on /mnt/runtime/default/emulated type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /mnt/runtime/read/emulated type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=9997,multiuser,mask=23,derive_gid,default_normal)
+/data/media on /mnt/runtime/write/emulated type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=9997,multiuser,mask=7,derive_gid,default_normal)
+/data/media on /mnt/runtime/full/emulated type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=9997,multiuser,mask=7,derive_gid,default_normal)
+/dev/fuse on /mnt/user/0/emulated type fuse (rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other)
+/dev/fuse on /mnt/installer/0/emulated type fuse (rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other)
+/dev/fuse on /mnt/androidwritable/0/emulated type fuse (rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other)
+/dev/fuse on /storage/emulated type fuse (rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other)
+/data/media on /mnt/pass_through/0/emulated type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=9997,multiuser,mask=7,derive_gid,default_normal)
+/data/media on /mnt/user/0/emulated/0/Android/data type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /storage/emulated/0/Android/data type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /mnt/androidwritable/0/emulated/0/Android/data type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /mnt/installer/0/emulated/0/Android/data type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /mnt/user/0/emulated/0/Android/obb type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /storage/emulated/0/Android/obb type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /mnt/androidwritable/0/emulated/0/Android/obb type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=1015,multiuser,mask=6,derive_gid,default_normal)
+/data/media on /mnt/installer/0/emulated/0/Android/obb type sdcardfs (rw,nosuid,nodev,noexec,noatime,fsuid=1023,fsgid=1023,gid=9997,multiuser,mask=7,derive_gid,default_normal)

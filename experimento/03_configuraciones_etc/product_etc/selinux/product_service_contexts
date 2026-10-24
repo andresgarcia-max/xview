@@ -1,0 +1,6 @@
+#line 1 "device/amlogic/common/oem_sepolicy/service_contexts"
+
+#/*zte:system_app向eventmanager添加查询服务的权限 */
+eventManager                                u:object_r:basecomp_service:s0
+#/*android 9上需要添加，目前正在调试，调试完成后再补充 */
+#/data/misc/nexus(/.*)?    u:object_r:nexus_data_file:s0

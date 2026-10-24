@@ -1,0 +1,90 @@
+﻿=== UNAME ===
+Linux localhost 4.9.269 #1 SMP PREEMPT Mon Nov 6 18:42:04 CST 2023 armv8l
+=== VERSION ===
+Linux version 4.9.269 (root@69a9327fe901) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Nov 6 18:42:04 CST 2023
+=== CMDLINE ===
+cat: /proc/cmdline: Permission denied
+=== CPUINFO ===
+processor	: 0
+model name	: ARMv8 Processor rev 4 (v8l)
+BogoMIPS	: 48.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt lpae evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+model name	: ARMv8 Processor rev 4 (v8l)
+BogoMIPS	: 48.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt lpae evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+model name	: ARMv8 Processor rev 4 (v8l)
+BogoMIPS	: 48.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt lpae evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+model name	: ARMv8 Processor rev 4 (v8l)
+BogoMIPS	: 48.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt lpae evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+Serial		: 280e400001262d00000e383630543050
+Hardware	: Amlogic
+
+=== MEMINFO ===
+MemTotal:        1984568 kB
+MemFree:          344612 kB
+MemAvailable:     812124 kB
+Buffers:           20500 kB
+Cached:           613440 kB
+SwapCached:          796 kB
+Active:           704580 kB
+Inactive:         471468 kB
+Active(anon):     433280 kB
+Inactive(anon):   211292 kB
+Active(file):     271300 kB
+Inactive(file):   260176 kB
+Unevictable:       97392 kB
+Mlocked:           97392 kB
+SwapTotal:        393212 kB
+SwapFree:         380756 kB
+Dirty:                48 kB
+Writeback:             0 kB
+AnonPages:        639320 kB
+Mapped:           377048 kB
+Shmem:              5796 kB
+Slab:             127224 kB
+SReclaimable:      50376 kB
+SUnreclaim:        76848 kB
+KernelStack:       27232 kB
+PageTables:        39124 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1385496 kB
+Committed_AS:   37723020 kB
+VmallocTotal:   263061440 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+CmaTotal:         647168 kB
+CmaFree:          138240 kB
+VmapStack:          6956 kB
+VmapFault:           240 kB
+VmapPfault:            0 kB

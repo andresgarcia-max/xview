@@ -1,0 +1,14 @@
+# Configuración de Cliente FRP (frpc) para TV Box Android
+# Este archivo se envía a la caja en /data/local/tmp/frpc.toml
+
+serverAddr = "87.99.155.111"
+serverPort = 7000
+
+auth.token = "XviewRemoteControl2026SecretKey"
+
+[[proxies]]
+name = "caja_remote_scrcpy"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 5555
+remotePort = 7001

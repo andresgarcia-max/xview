@@ -1,0 +1,119 @@
+﻿:
+total 112
+drwxr-xr-x  26 root   root       4096 2025-02-05 12:25 .
+drwxr-xr-x  26 root   root       4096 2025-02-05 12:25 ..
+drwxr-xr-x   2 root   root       4096 2025-02-05 12:24 acct
+drwxr-xr-x  23 root   root        480 2015-01-01 00:00 apex
+lrw-r--r--   1 root   root         11 2025-02-05 12:24 bin -> /system/bin
+lrw-r--r--   1 root   root         50 2025-02-05 12:25 bugreports -> /data/user_de/0/com.android.shell/files/bugreports
+drwxrwx---   6 system cache      4096 2026-10-24 17:43 cache
+drwxr-xr-x   4 root   root          0 1970-01-01 00:00 config
+lrw-r--r--   1 root   root         17 2025-02-05 12:25 d -> /sys/kernel/debug
+drwxrwx--x  49 system system     4096 2025-02-05 12:25 data
+d?????????   ? ?      ?             ?                ? data_mirror
+drwxr-xr-x   2 root   root       4096 2025-02-05 12:25 debug_ramdisk
+drwxr-xr-x  23 root   root       6100 2025-02-05 12:25 dev
+lrw-r--r--   1 root   root         11 2025-02-05 12:25 etc -> /system/etc
+l?????????   ? ?      ?             ?                ? init -> ?
+-rwxr-x---   1 root   shell       463 2025-02-05 12:25 init.environ.rc
+-rwxr-x---   1 root   shell     16805 2025-02-05 12:25 init.recovery.amlogic.rc
+d?????????   ? ?      ?             ?                ? linkerconfig
+drwx------   2 root   root      16384 2025-02-05 14:10 lost+found
+drwxr-xr-x  12 root   root       4096 2026-10-23 21:23 metadata
+drwxr-xr-x  15 root   system      320 2015-01-01 00:00 mnt
+drwxr-xr-x   5 root   root       4096 2025-02-05 12:24 odm
+drwxr-xr-x   2 root   root       4096 2025-02-05 12:25 odm_dlkm
+drwxr-xr-x   2 root   root       4096 2025-02-05 12:25 oem
+d?????????   ? ?      ?             ?                ? postinstall
+dr-xr-xr-x 301 root   root          0 1970-01-01 00:00 proc
+drwxr-xr-x  10 root   root       4096 2025-02-05 12:24 product
+lrw-r--r--   1 root   root         21 2025-02-05 12:25 sdcard -> /storage/self/primary
+drwxr-xr-x   2 root   root       4096 2025-02-05 12:25 second_stage_resources
+drwx--x---   4 shell  everybody    80 2015-01-01 00:00 storage
+dr-xr-xr-x  12 root   root          0 2015-01-01 00:00 sys
+drwxr-xr-x  13 root   root       4096 2025-02-05 12:25 system
+lrw-r--r--   1 root   root         18 2025-02-05 12:25 system_ext -> /system/system_ext
+drwxr-xr-x  12 root   root       4096 2025-02-05 12:25 vendor
+drwxr-xr-x   2 root   root       4096 2025-02-05 12:25 vendor_dlkm
+
+/odm:
+total 32
+drwxr-xr-x  5 root root  4096 2025-02-05 12:24 .
+drwxr-xr-x 26 root root  4096 2025-02-05 12:25 ..
+drwxr-xr-x  5 root root  4096 2025-02-05 12:24 etc
+drwxr-xr-x  2 root root  4096 2025-02-05 12:24 lib
+drwx------  2 root root 16384 2025-02-05 14:10 lost+found
+-?????????  ? ?    ?        ?                ? ueventd.rc
+
+/oem:
+total 8
+drwxr-xr-x  2 root root 4096 2025-02-05 12:25 .
+drwxr-xr-x 26 root root 4096 2025-02-05 12:25 ..
+
+/product:
+total 52
+drwxr-xr-x 10 root root  4096 2025-02-05 12:24 .
+drwxr-xr-x 26 root root  4096 2025-02-05 12:25 ..
+drwxr-xr-x  9 root root  4096 2025-02-05 13:49 app
+drwxr-xr-x  7 root root  4096 2025-02-05 12:24 etc
+drwxr-xr-x  2 root root  4096 2025-02-05 12:24 lib
+drwx------  2 root root 16384 2025-02-05 14:10 lost+found
+drwxr-xr-x  3 root root  4096 2025-02-05 12:24 media
+drwxr-xr-x  2 root root  4096 2025-02-05 14:01 overlay
+drwxr-xr-x 13 root root  4096 2025-02-05 12:24 priv-app
+drwxr-xr-x  5 root root  4096 2025-02-05 12:24 usr
+
+/sdcard:
+total 120
+drwxrwx--- 3 root everybody 4096 2026-10-24 16:21 Alarms
+drwxrwx--- 5 root everybody 4096 2025-02-05 12:26 Android
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 Audiobooks
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 DCIM
+drwxrwx--- 3 root everybody 4096 2026-10-24 16:18 DataCollection
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 Documents
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 Download
+drwxrwx--- 3 root everybody 4096 2025-02-05 12:26 Movies
+drwxrwx--- 3 root everybody 4096 2025-02-05 12:26 Music
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 Notifications
+drwxrwx--- 3 root everybody 4096 2025-02-05 12:26 Pictures
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 Podcasts
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 Recordings
+drwxrwx--- 2 root everybody 4096 2025-02-05 12:26 Ringtones
+-rw-rw---- 1 root everybody  360 2025-02-05 12:25 SMW_TOOLS_FTT.txt
+
+/system:
+total 92
+drwxr-xr-x 13 root root   4096 2025-02-05 12:25 .
+drwxr-xr-x 26 root root   4096 2025-02-05 12:25 ..
+drwxr-xr-x 23 root root   4096 2025-02-05 12:25 apex
+drwxr-xr-x 29 root root   4096 2025-02-05 12:33 app
+drwxr-x--x  4 root shell  8192 2025-02-05 12:25 bin
+-rw-------  1 root root   5040 2025-02-05 12:41 build.prop
+drwxr-xr-x 16 root root   4096 2025-02-05 12:25 etc
+drwxr-xr-x  2 root root   8192 2025-02-05 12:25 fonts
+drwxr-xr-x  4 root root   4096 2025-02-05 12:25 framework
+drwxr-xr-x  5 root root  24576 2025-02-05 12:25 lib
+drwxr-xr-x  2 root root   4096 2025-02-05 12:25 media
+drwxr-xr-x 26 root root   4096 2025-02-05 12:25 priv-app
+lrw-r--r--  1 root root      8 2025-02-05 12:25 product -> /product
+drwxr-xr-x  7 root root   4096 2025-02-05 12:25 system_ext
+drwxr-xr-x  7 root root   4096 2025-02-05 12:25 usr
+lrw-r--r--  1 root root      7 2025-02-05 12:25 vendor -> /vendor
+
+/vendor:
+total 68
+drwxr-xr-x 12 root root   4096 2025-02-05 12:25 .
+drwxr-xr-x 26 root root   4096 2025-02-05 12:25 ..
+drwxr-x--x  3 root shell  4096 2025-02-05 12:25 bin
+-?????????  ? ?    ?         ?                ? build.prop
+drwxr-xr-x 11 root shell  4096 2025-02-05 12:26 etc
+drwxr-xr-x  2 root shell  4096 2025-02-05 12:25 firmware
+drwxr-xr-x  3 root shell  4096 2025-02-05 12:25 framework
+drwxr-xr-x 10 root shell 12288 2025-02-05 12:25 lib
+drwx------  2 root root  16384 2025-02-05 14:11 lost+found
+lrw-r--r--  1 root root      4 2025-02-05 12:25 odm -> /odm
+drwxr-xr-x  3 root shell  4096 2025-02-05 12:25 odm_dlkm
+drwxr-xr-x  2 root shell  4096 2025-02-05 12:25 overlay
+-?????????  ? ?    ?         ?                ? ueventd.rc
+drwxr-xr-x  4 root shell  4096 2025-02-05 12:25 usr
+drwxr-xr-x  3 root shell  4096 2025-02-05 12:25 vendor_dlkm

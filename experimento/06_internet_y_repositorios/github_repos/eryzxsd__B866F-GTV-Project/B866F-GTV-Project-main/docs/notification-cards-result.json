@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-16",
+  "device": "B866F V1.1, Android 14",
+  "component": "com.local.b866f.notificationcards",
+  "version": "0.3",
+  "apk_sha256": "2c22189581c26e956bf07888b45478a367694977dcbb21920c56845b1189dd31",
+  "posted_notification_card": true,
+  "focus_retained": true,
+  "auto_dismiss": true,
+  "low_priority_suppressed": true,
+  "ongoing_suppressed": true,
+  "removal_dismisses": true,
+  "hold_home_details_implemented": false,
+  "reboot_tested": false,
+  "root_in_card_app": false,
+  "internet_permission": false,
+  "accessibility_service_present": false,
+  "home_key_interception": false,
+  "navigation_recovered_after_disabling_handler_user_confirmed": true
+}

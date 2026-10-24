@@ -1,0 +1,59 @@
+custom_name = EvocaTV
+custom_code = 0x80DD
+release_delay = 80
+
+key_begin
+	0xDC 116	# power
+	0xce 353	# DPAD_CENTER
+	0xce 352	# KEY_OK
+	0x82 158	# back
+	0xca 103	# up
+	0xd2 108	# down
+	0x99 105	# left
+	0xc1 106	# right
+	0x9c 113	# mute
+	0x80 115	# volum up
+	0x81 114	# volum down
+	0x98 172	# home
+	0x1 2		# 1
+	0x2 3		# 2
+	0x3 4		# 3
+	0x4 5		# 4
+	0x5 6		# 5
+	0x6 7		# 6
+	0x7 8		# 7
+	0x8 9		# 8
+	0x9 10		# 9
+	0x0 11		# 0
+	0xde 580	# All Apps	
+	0x37 14		# del
+	0x3f 358	# INFO
+	0x95 189	# Settings
+	0xe1 63		# F4 - Viettel APP 
+	0xe0 378	# F7 - Video
+	0x38 71 	# Channel list
+	0x96 66		# GUIDE
+	#0x77 67		# AT
+
+	0x97 119    # MEDIA_PLAY_PAUSE
+	#0x0B 128    # MEDIA_STOP
+	0x31 121    # MEDIA_REWIND
+	0x34 120    # MEDIA_FAST_FORWARD
+	
+	#0x7E 127	# Search
+		
+	#0x05 398	# PROG_RED
+	#0x09 399   	# PROG_GREEN
+	#0x42 400   	# PROG_YELLOW
+	#0x43 401   	# PROG_BLUE
+	0x85 402	# CH+
+	0x86 403	# CH-
+	
+	#0x2C 66		# GUIDE
+	#0x74 217	# IR ASSISTANT 
+	
+	#0x21 192    # movies
+	#0x38 64     # account
+	#0x4C 183    # playlist
+	
+key_end
