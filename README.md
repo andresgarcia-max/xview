@@ -21,8 +21,13 @@ Repositorio completo con el análisis de hardware, firmware (`DMC.v2.25` Android
 * **[`08_device_trees_uboot_y_configs_firmware/`](./experimento/08_device_trees_uboot_y_configs_firmware):** Archivos fuente de Device Tree (`.dts` / `.dtsi`) para Amlogic `meson-g12a` (`S905X2`) y `meson-s4` (`S905Y4`), configuración de entorno U-Boot (`uboot_env_franklin_b866v2.cfg`), plantilla de empaquetado (`aml_upgrade_package.conf`) y script de optimización ADB.
 * **[`09_analisis_archivos_usuario/`](./experimento/09_analisis_archivos_usuario):** Scripts desofuscados (`B866V2-FlashATV12_Evoca_DESOFUSCADO.bat`) y configuraciones extraídas para auditoría.
 
-### 2. [`V2/`](./V2) — Imágenes de Partición y Herramientas Fastboot (`B866V2 Android 12`)
+### 2. [`diagramas/`](./diagramas) — Fotografías Reales de Placas Base y Análisis Comparativo (`STBAR_C` vs `STBAR_J`)
+* **[`ANALISIS_COMPARATIVO_PLACAS_STBAR_C_VS_STBAR_J.md`](./diagramas/ANALISIS_COMPARATIVO_PLACAS_STBAR_C_VS_STBAR_J.md):** Análisis forense comparando cara superior e inferior de las dos revisiones físicas de placa base ZTE (`71162`):
+  * **Revisión `STBAR_C` (`190602` / Junio 2019):** 4 chips RAM UnilC (`SCB13H4G160AF-11M`, 2 en cada cara), eMMC SanDisk (`SDINBDG4-8G`), chip Wi-Fi/BT MediaTek `MT7668RSN` soldado directo al PCB con antena coaxial externa y disipador de aluminio con aletas.
+  * **Revisión `STBAR_J` (`200400` / `ASKPCB 2212` / Marzo 2022):** 2 chips RAM DDR4 `CXMT` (`CXDQ3BFAM-CG`) solo en cara superior (bancos inferiores vacíos), eMMC Samsung (`KLM8G1GETF-B041`), módulo Wi-Fi/BT almenado MediaTek `MT7661RSN` con antenas integradas en PCB y disipador plano negro.
+
+### 3. [`V2/`](./V2) — Imágenes de Partición y Herramientas Fastboot (`B866V2 Android 12`)
 * Incluye `boot.img`, `bootloader.img`, `dtb.img` (`g12a_u212_2g`), `dtbo.img`, `factory.img` (`KEYBOX PARTFAT12`), `logo.img`, `param.img`, `conf.img`, `cri_data.img`, `oem.img` y utilidades de plataforma.
 
-### 3. Librerías Nativas Extraídas (`.so`) y APK Base
+### 4. Librerías Nativas Extraídas (`.so`) y APK Base
 * Librerías nativas ARM64 (`libranger-jni.so`, `libijkffmpeg.so`, `libijkplayer.so`, `libijksdl.so`, `libtnet-3.1.14.so`, etc.) y `xuper hydra.apk`.
