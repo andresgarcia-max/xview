@@ -206,6 +206,23 @@ Siguiendo la regla de documentar cada prueba, error y solución aplicada durante
 - **Hallazgo en `conf.img`:** Al intentar desencriptar los sectores de `conf.img` (`MultiplexConfigFile` en `0x5800`) con la llave estática `k1`, los bloques no contenían texto ASCII.
   - **Causa y solución:** Se localizó y extrajo `/vendor/lib/lib_emmcfs.so` desde `super.img` (`0x419b6000`, `Evidence: ev_204a4307fddc2806bcba34f6a686af6e20933113b6918c8dcdb2a7c6423990fc`). Al desensamblar `FfsRead` (`0x2878`) y `__Flash_cid_read` (`0x27f4`), se demostró que mientras `lib_einifile.so` usa la llave estática `k1`, `/vendor/lib/lib_emmcfs.so` **vincula la llave AES-128-CBC al hardware físico de cada caja** leyendo los 16 bytes del registro `CID` de la memoria eMMC (`/sys/class/mmc_host/emmc/emmc:0001/cid`) como `Key` y manteniendo `k2` (`d3bd0a6cf761bb9639bf5a2bf9c61fc6`) como `IV`.
 
+### Prueba 11: Comando `get-binary-info` en `rea-agents` al inspeccionar librerías JNI de USB (`libztebasecomp_jni.so`, `libztestbcfg_jni.so`)
+- **Comando ejecutado:**
+  ```powershell
+  node --import $shim $rea get-binary-info "libztebasecomp_jni.so" --json
+  ```
+- **Error obtenido:**
+  - `{"code":"command_not_found","category":"invalid_input","message":"Unknown command: get-binary-info"}`
+- **Causa raíz:** En `rea-agents@6.8.0`, el subcomando CLI para inspeccionar cabeceras ELF/PE y tablas de exportación es `inspect-native-exports` (mientras que `get_binary_info` es el nombre interno de la herramienta MCP).
+- **Solución:** Se ejecutó `node --import $shim $rea inspect-native-exports <ruta.so> --json`, extrayendo con éxito los símbolos JNI exportados (`Java_com_ztestb_basecomp_BaseComponentServiceJni_external_1storage_1pull_1in`, `Java_com_ztestb_stbcfg_RemoteStbCfgServiceJni_SettingStartNativeService`, etc.) con sus respectivos `evidence_id`.
+
+### Prueba 12: Resolución de ruta de módulos al desensamblar bytecode Dalvik de receptores USB (`BootCompletedReceiver`, `TestToolBroadcast`, `DiskReceiver`)
+- **Acción:** Se intentó importar `@reverse-engineer-anything/JVM/dist/index.js` desde `rea/node_modules/` en el script `inspect_qadebug_and_settings.mjs`.
+- **Error obtenido:**
+  - `Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'c:\Users\CORSAIR\Desktop\xview\rea\node_modules\@reverse-engineer-anything\JVM\dist\index.js'`
+- **Causa raíz:** El repositorio local `rea/` utiliza una estructura de *monorepo* donde los paquetes fuente residen bajo `rea/packages/` en lugar de `node_modules/@reverse-engineer-anything/`.
+- **Solución:** Se integró directamente el decodificador de entradas ZIP (`inflateRawSync`) y el analizador de tablas `string_ids`, `type_ids`, `method_ids`, `field_ids` y `class_defs` del formato Dalvik Executable (`DEX 035/039`) dentro de `inspect_qadebug_and_settings.mjs`, permitiendo desensamblar todas las instrucciones de `com.ztestb.basecomp.apk`, `com.zte.factorytesttool.apk`, `com.android.tv.settings.apk` y `com.droidlogic.apk`.
+
 ---
 
 ## PARTE 4: Análisis con REA de Llaves Criptográficas y Configuraciones ZTE / Megacable (`4301_5`)
@@ -407,4 +424,88 @@ MTU=1452
 [Other]
 STBToolConnectFac=0
 ```
+
+---
+
+## PARTE 5: Arquitectura de Reconocimiento USB, Restricciones de Megacable (`4301_5`), Archivos de Diagnóstico y Verificación de Firmas
+
+Para responder con precisión técnica cómo procesa el **ZTE ZXV10 B866V2 (Megacable Xview+ `4301_5`)** la inserción de una memoria USB y en qué capas intervienen las llaves simétricas extraídas frente a las firmas asimétricas RSA-2048, se analizaron con REA y desensamblado Dalvik los 4 niveles de la pila de almacenamiento y diagnóstico del firmware:
+
+### 5.1. Capa 1: Montaje en Sistema Operativo (`vold`, `fstab.amlogic`, `com.android.tv.settings.apk`) y Ocultamiento de UI por `4301_5`
+
+1. **Montaje físico a nivel de Kernel / Android (`vold`):**
+   - En [`fstab.amlogic`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/03_configuraciones_etc/vendor_etc/fstab.amlogic) y [`init.amlogic.usb.rc`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/03_configuraciones_etc/vendor_etc/init/hw/init.amlogic.usb.rc), los puertos USB (`auto /devices/platform/ffe09000.usb*`) están gestionados por `vold` con `voldmanaged=usb:auto`.
+   - **No existe firma criptográfica requerida para montar una memoria USB estándar (FAT32 / EXT4 / NTFS).** Cuando se inserta una memoria USB, el kernel Linux y `vold` la montan automáticamente en `/mnt/media_rw/<UUID>` y `/storage/<UUID>`, emitiendo los broadcasts `android.os.storage.action.VOLUME_STATE_CHANGED` y `android.intent.action.MEDIA_MOUNTED`.
+   - En [`com.android.tv.settings.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/com.android.tv.settings.apk), el receptor `Lcom/android/tv/settings/device/storage/DiskReceiver;` escucha `VOLUME_STATE_CHANGED` y registra el volumen montado.
+
+2. **Por qué parece "rechazada" o invisible en la interfaz de Megacable (`4301_5`):**
+   - Al desensamblar `Lcom/android/tv/settings/jarframework/MarketUtil;` y `Lcom/android/tv/settings/jarframework/device/StorageSummaryFragmentCode;` dentro de [`com.android.tv.settings.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/com.android.tv.settings.apk), se identificó la lógica exacta de restricción visual por operador:
+     - `MarketUtil->isMEXICO_MEGACABLE_OTT()` concatena `SystemProperties.get("config.MarketCode")` + `" "` + `SystemProperties.get("config.OperatorCode")` y comprueba si es igual a **`"4301 5"`**.
+     - En `StorageSummaryFragmentCode->refreshCode()`, el método invoca `MarketUtil->isMEXICO_MEGACABLE_OTT()` y lee la propiedad `sys.loginstatus`. Cuando detecta el perfil de Megacable (`"4301 5"`), ejecuta `Landroidx/preference/PreferenceGroup;->removePreference` sobre `system_storage` (`systemStoragePref`), ocultando el acceso de almacenamiento en el menú de Ajustes.
+     - Adicionalmente, en `Lcom/android/tv/settings/jarframework/MainFragmentCode;`, cuando `isMEXICO_MEGACABLE_OTT()` devuelve `true`, el código registra en log **`"Megacable,set invisible"`** y oculta menús de sistema mediante `Landroidx/preference/Preference;->setVisible(false)`.
+   - En conclusión: **el sistema operativo sí monta la memoria USB en `/storage/<UUID>`**, y cualquier gestor de archivos o aplicación instalada en Android tiene acceso de lectura/escritura al volumen sin requerir firma de Megacable; lo que hace el código `"4301 5"` es ocultar las opciones del menú nativo de Ajustes (`com.android.tv.settings`).
+
+---
+
+### 5.2. Capa 2: Hook USB del Middleware ZTE (`com.ztestb.basecomp.apk` $\rightarrow$ `/QADEBUG.ini`)
+
+Cuando se inserta una memoria USB, el receptor `Lcom/ztestb/basecomp/BootCompletedReceiver;` en [`com.ztestb.basecomp.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/com.ztestb.basecomp.apk) intercepta `android.intent.action.MEDIA_MOUNTED` y `zte.intent.action.MEDIA_MOUNTED`:
+
+1. Invoca el método nativo `BaseComponentServiceJni.external_storage_pull_in(usbPath)` en `libztebasecomp_jni.so` (`Evidence: ev_cc3ca27b9bf6df585ef54f0bb7991944943568cb8cd72947f59a0e4cb6a28d8b`) y escribe la ruta del USB en `/data/data/com.ztestb.basecomp/files/ztecfg/ExternalStorage.ini`.
+2. Llama a `Lcom/ztestb/stbcfg/RemoteStbCfgService;->checkUdisk(String usbPath)`, el cual ejecuta `check_QADEBUG_ini(usbPath)`:
+   - Busca en la raíz de la memoria USB el archivo **`/QADEBUG.ini`**.
+   - Si no existe, imprime en log: `"QADEBUG.ini do not exist, cfgagent silent!"`.
+   - Si existe, lee hasta `1024` bytes y los pasa por `RemoteStbCfgService->transString(byte[])`:
+     - El desensamblado de `transString` (`codeOff = 23064`) muestra las instrucciones Dalvik `aget-byte v2, v4, v1` (`0x48`) seguidas de **`add-int/lit8 v2, v2, 1` (`0xd8 0x02 0x02 0x01`)** e `int-to-byte` (`0x8d`). Es decir, **suma `+1` a cada byte** del archivo `/QADEBUG.ini` (por lo que para producir un carácter ASCII `c` en memoria, el archivo en el USB debe contener el byte `c - 1`).
+   - Verifica que la cadena resultante contenga simultáneamente:
+     1. El valor exacto de la propiedad del sistema `ro.product.version.software` (`SystemProperties.get("ro.product.version.software")`).
+     2. La cabecera de sección **`"[Common]"`**.
+   - Si ambas condiciones se cumplen, registra `"QADEBUG.ini match, start cfgagent..."` e invoca `RemoteStbCfgServiceJni.SettingStartNativeService()` en `libztestbcfg_jni.so` (`Evidence: ev_84f3622296a0d19e584050de95e1a036c2f0d921970744e77629873b919d2738`) para iniciar el servicio nativo `stbcfg` (`cfgagent`). Si no coinciden, registra `"QADEBUG.ini illegal, cfgagent silent!"`.
+
+---
+
+### 5.3. Capa 3: Hook USB de Pruebas de Fábrica ZTE (`com.zte.factorytesttool.apk` $\rightarrow$ `QADEBUGTOOL.ini` y Archivos de Test)
+
+En [`com.zte.factorytesttool.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/com.zte.factorytesttool.apk), el receptor `Lcom/zte/factorytesttool/TestToolBroadcast;` escucha `BOOT_COMPLETED` y `android.intent.action.MEDIA_MOUNTED`:
+
+1. **Verificación de firma del APK (`Lcom/zte/util/ThirdParty;`):**
+   - `ThirdParty->isThirdPartyVersion()` calcula el hash `MD5` del certificado con el que está firmado el propio APK (`PackageInfo.signatures`) y lo compara contra 5 hashes MD5 internos de ZTE:
+     - `SIGNATURE_ZTE = "2768dfb0d80822599332813edf30fe89"`
+     - `SIGNATURE_CTS = "bcd6ce964f18d5e445da25baa60500ce"`
+     - `SIGNATURE_B820CA18 = "8f17b808a778804726d66c6465d8c771"`
+     - `SIGNATURE_SHANGGAO = "8ddb342f2da5408402d7568af21e29f9"`
+     - `SIGNATURE_IPANEL = "4ae682862e96f234bccff89aebe45d6f"`
+   - En el firmware de este dispositivo, `com.zte.factorytesttool.apk` está firmado con la llave oficial de ZTE (`MD5 = 2768dfb0d80822599332813edf30fe89`), por lo que `bFlagThirdPartyVersion` es `false` y en `MEDIA_MOUNTED` registra `"thirdParty version false,do nothing"`.
+   - Adicionalmente, `ThirdParty->isThirdPartyMode()` comprueba si `ro.product.hardware.id` coincide con `STBAR-ANDROIDSTB-079` o `STBAR-ANDROIDSTB-191`.
+
+2. **Estructura y cifrado de `QADEBUGTOOL.ini` (`SecureUtil`):**
+   - Cuando `TestToolBroadcast` inspecciona un volumen USB (`findFileByName("QADEBUGTOOL.ini")`), pasa el archivo por `decodeQADEBUGTOOL`, que invoca `Lcom/zte/util/SecureUtil;->Decrypt(String)`.
+   - El desensamblado de `SecureUtil` revela que utiliza el mismo cifrado de sustitución monoalfabética definido en `assets/basecfg/data.eini` (`UCap_Upper_TranslateMap` / `UCap_Lower_TranslateMap`):
+     - **Alfabeto plano (`strOriginal`):** `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz`
+     - **Alfabeto cifrado (`strCryp`):** `RSTUVWXYZPONMLKEDCBAQJIHGFrstuvwxyzponmlkedcbaqjihgf`
+     - Los caracteres no alfabéticos (`[`, `]`, `=`, dígitos, saltos de línea) permanecen sin cambio.
+   - `TestToolBroadcast->IsStartApkService(String)` verifica que el texto desencriptado contenga `SystemProperties.get("ro.product.version.base")` y `"[Common]"`.
+
+3. **Archivos de prueba de puertos USB (`CommonFunc` / `USBTest` / `USBSpeedTest`):**
+   - Durante la ejecución del diagnóstico de fábrica (puerto UDP `15000`), el servicio verifica la presencia y contenido de archivos de prueba específicos en la raíz del USB:
+     - `/usb_left.txt` (contenido esperado: `"1234567890"`)
+     - `/usb_right.txt` (contenido esperado: `"9876543210"`)
+     - `/sd_card.txt` (contenido esperado: `"1234567890"`)
+     - `/UsbTest.bin` (prueba de velocidad de lectura/escritura en `USBSpeedTest`)
+
+---
+
+### 5.4. Capa 4: Frontera Criptográfica — Dónde Sí Se Requiere Firma Asimétrica RSA-2048
+
+Es fundamental distinguir entre las **llaves simétricas/locales extraídas** (que permiten desencriptar configuraciones `.eini` o comunicarse con demonios de diagnóstico si ya están activos) y las **validaciones con llave pública RSA-2048** (donde el dispositivo sólo almacena la llave pública `PublicKey` y la llave privada `PrivateKey` nunca estuvo dentro del firmware):
+
+| Subsistema / Operación | Mecanismo Criptográfico en el Dispositivo | ¿La Llave para Firmar / Desencriptar Está en el Firmware? | Explicación Técnica |
+| :--- | :--- | :--- | :--- |
+| **Montaje de Memoria USB (`FAT32`/`EXT4`/`NTFS`)** | Ninguno (`vold` / `fstab.amlogic`) | **No requiere llave** | El kernel monta cualquier USB estándar en `/storage/<UUID>`. El código `4301_5` sólo oculta el menú en `com.android.tv.settings.apk`. |
+| **Desencriptación de perfiles `.eini` (`4301_5/config.eini`, `data.eini`)** | Simétrico `AES-128-CBC` (`FfsDecryption` en `lib_einifile.so`) | **Sí (`Key = 61851d4ed786ff73e100b61f36504786`, `IV = d3bd0a6cf761bb9639bf5a2bf9c61fc6`)** | Al ser cifrado simétrico, la misma llave `k1` sirve para leer y generar archivos `.eini` con checksum `MD5`. |
+| **Demonio `cfgagent` por USB (`/QADEBUG.ini`)** | Ofuscación byte `+1` (`transString` en `com.ztestb.basecomp.apk`) | **Sí (reversible al 100%)** | No usa firma RSA; sólo verifica que tras sumar `+1` a cada byte aparezcan `ro.product.version.software` y `[Common]`. |
+| **Desbloqueo de ADB por UI / QR (`com.zte.adb.apk` + `libencryCode.so`)** | **Asimétrico `RSA-2048`** (`MarketCode = 4301`, `.rodata @ 0x133a`) + `AmxAdbCheckService` | **No (Sólo está la Llave Pública RSA-2048 en `libencryCode.so`)** | `libencryCode.so` verifica con la llave pública RSA-2048 de México (`4301`) que el código de respuesta haya sido firmado con la llave privada de ZTE/Megacable. Además, en builds `user`, `AmxAdbCheckService` en `com.android.tv.settings.apk` revisa `/cache/recovery/last_QR` y `/cache/recovery/last_QR_Time` y apaga `adb_enabled` cuando expira. |
+| **Instalación de paquete OTA desde USB en Recovery (`update.zip`)** | **Asimétrico `RSA-2048` X.509** (`/system/etc/security/otacerts.zip`) | **No (Sólo está el Certificado Público X.509 en `otacerts.zip`)** | El Recovery valida la firma PKCS#7 de `update.zip` contra el certificado público de `otacerts.zip` (`CN=Android, O=ZTE, L=SHANGHAI`, SHA-256: `4DE61CA3...`). Ninguna de las llaves privadas RSA halladas en los APKs (`private_key_zte`/`private_key_vp` en `productcfg` o `PrivateKey1`/`PrivateKey2` en `key.dat`) corresponde al módulo de `otacerts.zip`. |
+| **Arranque U-Boot desde USB (`bootloader.img` / `aml_upgrade_package.img`)** | **Amlogic Secure Boot V3** (`CONFIG_AML_SECURE_BOOT_V3`, `check_Burning_key_status`) | **No (Verificado por BootROM / eFUSE / U-Boot)** | En [`uboot_env_franklin_b866v2.cfg`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/08_device_trees_uboot_y_configs_firmware/uboot_env_franklin_b866v2.cfg), `storeboot` arranca directamente de la eMMC sin buscar `s905_autoscript` en USB, y U-Boot valida `Secure Boot V3`. |
+
 
