@@ -33,6 +33,10 @@ Repositorio completo con el análisis de hardware, firmware (`DMC.v2.25` Android
 * Librerías nativas ARM64 (`libranger-jni.so`, `libijkffmpeg.so`, `libijkplayer.so`, `libijksdl.so`, `libtnet-3.1.14.so`, etc.) y `xuper hydra.apk`.
 
 ### 5. Ingeniería Inversa con REA ([`rea/`](./rea) y [`ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md`](./ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md))
-* **[`ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md`](./ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md):** Reporte forense completo con REA (`rea-agents@6.8.0`), incluyendo comparación binaria entre `xuper hydra.apk` y `com.xuper.netxxus.apk` (`XSairec`), desencriptación Triple-DES (`DESede/ECB/PKCS5Padding`) de la `PORTAL_KEY` y los 13 dominios ocultos en `resources.arsc`, parches Dalvik en `classes2.dex`, análisis de las 10 imágenes de partición del firmware `B866V2` Android 12 (`20231106`) y bitácora detallada de pruebas, errores y soluciones.
+* **[`ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md`](./ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md):** Reporte forense completo con REA (`rea-agents@6.8.0`), incluyendo:
+  * Comparación binaria entre `xuper hydra.apk` y `com.xuper.netxxus.apk` (`XSairec`), desencriptación Triple-DES (`DESede/ECB/PKCS5Padding`) de la `PORTAL_KEY` y los 13 dominios ocultos en `resources.arsc`, y parches Dalvik en `classes2.dex`.
+  * Análisis de las 10 imágenes de partición del firmware `B866V2` Android 12 (`20231106`).
+  * Extracción de llaves criptográficas de las 8 APKs del sistema ZTE y librerías nativas (`.so`): llaves `FfsDecryption` (`Key = 61851d4ed786ff73e100b61f36504786`, `IV = d3bd0a6cf761bb9639bf5a2bf9c61fc6`), `aes_key` (`zte_stb_860av1.1`), `SECRETKEY` (`|!jFa8o4`), `pcKey` (`20_jD9!2y-dW8`), `SystemPwd` (`12001`), `STBCFG_INIT_SYSPWD` (`654321`), llave de `unifykeys` (`abcdefghij987654`), llave pública RSA-2048 de ADB para México/Megacable (`MarketCode = 4301`, `OperatorCode = 5`) y desencriptación íntegra del perfil `assets/zte/4301_5/config.eini` (Megacable Xview+) y demás operadores mexicanos (`4301_3` Totalplay, `4301_4` Izzi, `4301_6` Claro Video).
+  * Bitácora detallada de pruebas, errores y soluciones técnicas (Pruebas 1 a 10).
 * **[`rea/`](./rea):** Copia local completa del framework de ingeniería inversa `morluto/rea` ([documentación en español](./rea/docs/readme/README_es.md)).
 
