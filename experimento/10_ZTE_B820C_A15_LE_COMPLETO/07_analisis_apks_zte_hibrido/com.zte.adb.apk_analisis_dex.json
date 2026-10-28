@@ -1,0 +1,594 @@
+﻿{
+    "ApkName":  "com.zte.adb.apk",
+    "FileSize":  2022416,
+    "ZipEntries":  [
+                       {
+                           "FullName":  "lib/armeabi/libbase.so",
+                           "Length":  171224
+                       },
+                       {
+                           "FullName":  "lib/armeabi/libc++.so",
+                           "Length":  485440
+                       },
+                       {
+                           "FullName":  "lib/armeabi/libcrypto.so",
+                           "Length":  903576
+                       },
+                       {
+                           "FullName":  "lib/armeabi/libcutils.so",
+                           "Length":  57952
+                       },
+                       {
+                           "FullName":  "lib/armeabi/libencryCode.so",
+                           "Length":  21448
+                       },
+                       {
+                           "FullName":  "lib/armeabi/liblog.so",
+                           "Length":  72252
+                       },
+                       {
+                           "FullName":  "res/drawable-mdpi-v4/button_bg_focus.png",
+                           "Length":  5259
+                       },
+                       {
+                           "FullName":  "res/drawable-mdpi-v4/button_bg_focus_disable.png",
+                           "Length":  1415
+                       },
+                       {
+                           "FullName":  "res/drawable-mdpi-v4/button_bg_normal.png",
+                           "Length":  1584
+                       },
+                       {
+                           "FullName":  "res/drawable-mdpi-v4/button_bg_normal_disable.png",
+                           "Length":  1312
+                       },
+                       {
+                           "FullName":  "res/drawable/background_title.png",
+                           "Length":  157
+                       },
+                       {
+                           "FullName":  "res/drawable/bg.jpg",
+                           "Length":  105406
+                       },
+                       {
+                           "FullName":  "res/drawable/button_bg_focus.png",
+                           "Length":  5259
+                       },
+                       {
+                           "FullName":  "res/drawable/button_bg_focus_disable.png",
+                           "Length":  1415
+                       },
+                       {
+                           "FullName":  "res/drawable/button_bg_normal.png",
+                           "Length":  1584
+                       },
+                       {
+                           "FullName":  "res/drawable/button_bg_normal_disable.png",
+                           "Length":  1312
+                       },
+                       {
+                           "FullName":  "res/drawable/dialog_bg.9.png",
+                           "Length":  380
+                       },
+                       {
+                           "FullName":  "res/drawable/ic_launcher.png",
+                           "Length":  3112
+                       },
+                       {
+                           "FullName":  "res/drawable/input_long_bg_focus.png",
+                           "Length":  2348
+                       },
+                       {
+                           "FullName":  "res/drawable/input_long_bg_normal.png",
+                           "Length":  1879
+                       },
+                       {
+                           "FullName":  "res/drawable/ipaddr_editbox_default.png",
+                           "Length":  2206
+                       },
+                       {
+                           "FullName":  "res/drawable/ipaddr_editbox_selected.png",
+                           "Length":  2689
+                       },
+                       {
+                           "FullName":  "res/drawable/setting_focus_bg.png",
+                           "Length":  3489
+                       },
+                       {
+                           "FullName":  "res/drawable/subitem_focus.png",
+                           "Length":  197
+                       },
+                       {
+                           "FullName":  "resources.arsc",
+                           "Length":  21368
+                       },
+                       {
+                           "FullName":  "AndroidManifest.xml",
+                           "Length":  3824
+                       },
+                       {
+                           "FullName":  "META-INF/com/android/otacert",
+                           "Length":  1334
+                       },
+                       {
+                           "FullName":  "classes.dex",
+                           "Length":  189872
+                       },
+                       {
+                           "FullName":  "com/zte/adb/common/ClientManager.java.bak",
+                           "Length":  13190
+                       },
+                       {
+                           "FullName":  "com/zte/adb/common/UtilsInstance.java.bak",
+                           "Length":  4741
+                       },
+                       {
+                           "FullName":  "res/drawable/amx_selector_button.xml",
+                           "Length":  760
+                       },
+                       {
+                           "FullName":  "res/drawable/amx_shape_bg_cursor.xml",
+                           "Length":  556
+                       },
+                       {
+                           "FullName":  "res/drawable/amx_shape_button_focus.xml",
+                           "Length":  540
+                       },
+                       {
+                           "FullName":  "res/drawable/amx_shape_button_normal.xml",
+                           "Length":  540
+                       },
+                       {
+                           "FullName":  "res/drawable/amx_shape_button_press.xml",
+                           "Length":  540
+                       },
+                       {
+                           "FullName":  "res/drawable/amx_shape_edit.xml",
+                           "Length":  704
+                       },
+                       {
+                           "FullName":  "res/drawable/amx_shape_frame_white.xml",
+                           "Length":  704
+                       },
+                       {
+                           "FullName":  "res/drawable/btn_selector.xml",
+                           "Length":  760
+                       },
+                       {
+                           "FullName":  "res/drawable/button_text_selector.xml",
+                           "Length":  576
+                       },
+                       {
+                           "FullName":  "res/drawable/buttonstyle.xml",
+                           "Length":  2804
+                       },
+                       {
+                           "FullName":  "res/drawable/color_cursor.xml",
+                           "Length":  556
+                       },
+                       {
+                           "FullName":  "res/drawable/edittext_selector.xml",
+                           "Length":  560
+                       },
+                       {
+                           "FullName":  "res/drawable/ipaddr_editbox_selector.xml",
+                           "Length":  560
+                       },
+                       {
+                           "FullName":  "res/drawable/itemcolor.xml",
+                           "Length":  576
+                       },
+                       {
+                           "FullName":  "res/drawable/subitem_selector.xml",
+                           "Length":  480
+                       },
+                       {
+                           "FullName":  "res/layout/activity_main.xml",
+                           "Length":  1416
+                       },
+                       {
+                           "FullName":  "res/layout/activity_start_adb.xml",
+                           "Length":  1620
+                       },
+                       {
+                           "FullName":  "res/layout/activity_start_adb_amx.xml",
+                           "Length":  7320
+                       },
+                       {
+                           "FullName":  "res/layout/activity_start_adb_atv9.xml",
+                           "Length":  960
+                       },
+                       {
+                           "FullName":  "res/layout/authalertdialog.xml",
+                           "Length":  1600
+                       },
+                       {
+                           "FullName":  "res/layout/commom_dialog.xml",
+                           "Length":  2188
+                       },
+                       {
+                           "FullName":  "res/layout/commom_dialog_fr.xml",
+                           "Length":  2188
+                       },
+                       {
+                           "FullName":  "res/layout/connect_cfgtool.xml",
+                           "Length":  4316
+                       },
+                       {
+                           "FullName":  "res/layout/operation_main_item.xml",
+                           "Length":  1084
+                       },
+                       {
+                           "FullName":  "res/layout/usb_log.xml",
+                           "Length":  3308
+                       },
+                       {
+                           "FullName":  "META-INF/CERT.SF",
+                           "Length":  5886
+                       },
+                       {
+                           "FullName":  "META-INF/CERT.RSA",
+                           "Length":  1427
+                       },
+                       {
+                           "FullName":  "META-INF/MANIFEST.MF",
+                           "Length":  5786
+                       }
+                   ],
+    "DexStringsCount":  1221,
+    "InterestingStrings":  [
+                               "adbStatus=",
+                               "zte.stbtool.randomcode",
+                               "-------wf_adb-------=",
+                               ".port.length=",
+                               "action",
+                               "AZTEC",
+                               "AZTEC_LAYERS",
+                               "AdbConnectTool",
+                               "AdbSetting_amx",
+                               "Block",
+                               "Aztec",
+                               "GetConfigInteger",
+                               "GetConfigString",
+                               "JAZZTEL_MARKET",
+                               "KEY_EXT_SECTION",
+                               "KEY_SECTION",
+                               "OnKeyListener;",
+                               "Landroid/content/Intent;",
+                               "Landroid/content/ServiceConnection;",
+                               "Landroid/content/res/Configuration;",
+                               "Config;",
+                               "Landroid/os/SystemClock;",
+                               "Landroid/os/SystemProperties;",
+                               "Landroid/view/KeyEvent;",
+                               "OnEditorActionListener;",
+                               "9Lcom/android/settings/porting/PrivateSettingCommon",
+                               "3Lcom/android/settings/porting/PrivateSettingCommon;",
+                               "Lcom/android/settings/porting/UtilsInstance;",
+                               "Lcom/android/settings/porting/a;",
+                               "Lcom/android/settings/porting/b;",
+                               "Lcom/android/settings/porting/c;",
+                               "Lcom/android/settings/porting/d;",
+                               "Lcom/zte/a/a/a;",
+                               "Lcom/zte/a/a/b;",
+                               "Lcom/zte/a/a/c;",
+                               "Lcom/zte/adb/AdbMainActivity;",
+                               "Lcom/zte/adb/AdbSetting;",
+                               "Lcom/zte/adb/AdbSetting_amx;",
+                               "Lcom/zte/adb/AdbSetting_atv9;",
+                               "Lcom/zte/adb/Bizz;",
+                               "Lcom/zte/adb/UsbLog;",
+                               "Lcom/zte/adb/a;",
+                               "Lcom/zte/adb/aa;",
+                               "Lcom/zte/adb/ab;",
+                               "Lcom/zte/adb/ac;",
+                               "Lcom/zte/adb/ad;",
+                               "Lcom/zte/adb/ae;",
+                               "Lcom/zte/adb/af;",
+                               "Lcom/zte/adb/ag;",
+                               "Lcom/zte/adb/ah;",
+                               "Lcom/zte/adb/ai;",
+                               "Lcom/zte/adb/aj;",
+                               "Lcom/zte/adb/ak;",
+                               "Lcom/zte/adb/al;",
+                               "Lcom/zte/adb/am;",
+                               "Lcom/zte/adb/an;",
+                               "Lcom/zte/adb/b;",
+                               "Lcom/zte/adb/c;",
+                               "Lcom/zte/adb/common/ZteEditText;",
+                               "Lcom/zte/adb/common/a;",
+                               "Lcom/zte/adb/d;",
+                               "Lcom/zte/adb/e;",
+                               "Lcom/zte/adb/f;",
+                               "Lcom/zte/adb/g;",
+                               "Lcom/zte/adb/h;",
+                               "Lcom/zte/adb/i;",
+                               "Lcom/zte/adb/j;",
+                               "Lcom/zte/adb/k;",
+                               "Lcom/zte/adb/l;",
+                               "Lcom/zte/adb/m;",
+                               "Lcom/zte/adb/n;",
+                               "Lcom/zte/adb/o;",
+                               "Lcom/zte/adb/p;",
+                               "Lcom/zte/adb/q;",
+                               "Lcom/zte/adb/r;",
+                               "Lcom/zte/adb/s;",
+                               "Lcom/zte/adb/t;",
+                               "Lcom/zte/adb/u;",
+                               "Lcom/zte/adb/v;",
+                               "Lcom/zte/adb/w;",
+                               "Lcom/zte/adb/x;",
+                               "Lcom/zte/adb/y;",
+                               "Lcom/zte/adb/z;",
+                               "\u0026Ljava/io/UnsupportedEncodingException;",
+                               ".Ljava/nio/charset/UnsupportedCharsetException;",
+                               "MCSP_InvokeService",
+                               "support",
+                               "PDF417_COMPACTION",
+                               "PROP_NAME_MAX",
+                               "PROP_VALUE_MAX",
+                               "blocks",
+                               "SetConfigInteger",
+                               "SetConfigString",
+                               "report",
+                               "AdbMainActivity",
+                               "AdbSetting",
+                               "GetConfigBytes",
+                               "ZteEditText",
+                               "onKeyDown",
+                               "keyCode=",
+                               "KEYCODE_BACK",
+                               "onKeyUp",
+                               "setOnKeyListener",
+                               "onServiceConnected",
+                               "service",
+                               "showConfirmDialog",
+                               "actionId",
+                               "adb_enabled",
+                               "adb_num",
+                               "android.intent.action.REBOOT",
+                               "android.os.SystemProperties",
+                               "bindService",
+                               "com.android.settings.porting.UtilsInstance",
+                               "com.android.settings.porting.c",
+                               "com.zte.combkey.clear_usb_log",
+                               "com.zte.combkey.copy_usb_log",
+                               "com.zte.combkey.grab_log",
+                               "com.zte.combkey.grab_log_stop",
+                               "com.zte.eventinfocode",
+                               "0com.zte.mediaplayer.aidl.IMediaPlayerAIDLService",
+                               "com.zte.mediapleyer.aidl.AIDL_SERVICE",
+                               "com.zte.netmanager",
+                               "com.zte.stb.tool.connect",
+                               "com.zte.testnetwork",
+                               "com.zte.testnetwork.NetworkTest",
+                               "config.MarketCode",
+                               "config.OperatorCode",
+                               "config.OperatorsCode",
+                               "containsKey",
+                               "getAction",
+                               "getConfigInteger",
+                               "getConfiguration",
+                               "getKeyCode",
+                               "getSystemService",
+                               "getconfigstring",
+                               "init.svc.adbd",
+                               "keycode",
+                               "net.zte.eth.netstate",
+                               "net.zte.wifi.netstate",
+                               "onEditorAction",
+                               "onKey",
+                               "onServiceDisconnected",
+                               "persist.sys.usb.config",
+                               "persist.sys.zte.adb.random",
+                               "port=",
+                               "readByteArray",
+                               "reboot",
+                               "setAction",
+                               "setConfigInteger",
+                               "setOnEditorActionListener",
+                               "6setOnKeyListener",
+                               "setconfigstring",
+                               "setprop",
+                               "service.adb.tcp.port",
+                               "strPort=",
+                               "sys.adb.login_chances",
+                               "sys.zte.adb.misstoomuch",
+                               "sys.zte.adb.random",
+                               "zte.stbtool.connect",
+                               "zte.stbtool.status"
+                           ],
+    "AllClasses":  [
+                       "Landroid/animation/TimeInterpolator;",
+                       "Landroid/animation/ValueAnimator;",
+                       "Landroid/app/Activity;",
+                       "Landroid/app/AlertDialog;",
+                       "Landroid/app/Dialog;",
+                       "Landroid/content/ComponentName;",
+                       "Landroid/content/ContentResolver;",
+                       "Landroid/content/Context;",
+                       "Landroid/content/DialogInterface;",
+                       "Landroid/content/Intent;",
+                       "Landroid/content/ServiceConnection;",
+                       "Landroid/content/res/Configuration;",
+                       "Landroid/content/res/Resources;",
+                       "Landroid/graphics/Bitmap;",
+                       "Landroid/graphics/Canvas;",
+                       "Landroid/graphics/Color;",
+                       "Landroid/graphics/DrawFilter;",
+                       "Landroid/graphics/Paint;",
+                       "Landroid/graphics/PaintFlagsDrawFilter;",
+                       "Landroid/net/ConnectivityManager;",
+                       "Landroid/net/NetworkInfo;",
+                       "Landroid/os/Binder;",
+                       "Landroid/os/Build;",
+                       "Landroid/os/Bundle;",
+                       "Landroid/os/Handler;",
+                       "Landroid/os/IBinder;",
+                       "Landroid/os/IInterface;",
+                       "Landroid/os/Looper;",
+                       "Landroid/os/Message;",
+                       "Landroid/os/Parcel;",
+                       "Landroid/os/PowerManager;",
+                       "Landroid/os/Process;",
+                       "Landroid/os/SystemClock;",
+                       "Landroid/os/SystemProperties;",
+                       "Landroid/text/Editable;",
+                       "Landroid/text/TextUtils;",
+                       "Landroid/util/AttributeSet;",
+                       "Landroid/util/DisplayMetrics;",
+                       "Landroid/util/Log;",
+                       "Landroid/view/Display;",
+                       "Landroid/view/KeyEvent;",
+                       "Landroid/view/LayoutInflater;",
+                       "Landroid/view/View;",
+                       "Landroid/view/ViewGroup;",
+                       "Landroid/view/ViewTreeObserver;",
+                       "Landroid/view/Window;",
+                       "Landroid/view/WindowManager;",
+                       "Landroid/widget/AdapterView;",
+                       "Landroid/widget/BaseAdapter;",
+                       "Landroid/widget/Button;",
+                       "Landroid/widget/CheckBox;",
+                       "Landroid/widget/CompoundButton;",
+                       "Landroid/widget/EditText;",
+                       "Landroid/widget/ImageView;",
+                       "Landroid/widget/LinearLayout;",
+                       "Landroid/widget/ListAdapter;",
+                       "Landroid/widget/ListView;",
+                       "Landroid/widget/TextView;",
+                       "Landroid/widget/Toast;",
+                       "Lcom/a/a/a/a/a;",
+                       "Lcom/a/a/a/a/b;",
+                       "Lcom/a/a/a/a/c;",
+                       "Lcom/a/a/a/a/d;",
+                       "Lcom/a/a/a/a/e;",
+                       "Lcom/a/a/a/a/f;",
+                       "Lcom/a/a/a/a/g;",
+                       "Lcom/a/a/a/a/h;",
+                       "Lcom/a/a/a/a;",
+                       "Lcom/a/a/a;",
+                       "Lcom/a/a/b/a/a;",
+                       "Lcom/a/a/b/a/b;",
+                       "Lcom/a/a/b/a/c;",
+                       "Lcom/a/a/b/a;",
+                       "Lcom/a/a/b/b;",
+                       "Lcom/a/a/b/c;",
+                       "Lcom/a/a/b;",
+                       "Lcom/a/a/c/a/a;",
+                       "Lcom/a/a/c/a/b;",
+                       "Lcom/a/a/c/a/c;",
+                       "Lcom/a/a/c/a/d;",
+                       "Lcom/a/a/c/a/e;",
+                       "Lcom/a/a/c/a/f;",
+                       "Lcom/a/a/c/a/g;",
+                       "Lcom/a/a/c/a/h;",
+                       "Lcom/a/a/c/a/i;",
+                       "Lcom/a/a/c/a/j;",
+                       "Lcom/a/a/c/a/k;",
+                       "Lcom/a/a/c/a/l;",
+                       "Lcom/a/a/c/a/m;",
+                       "Lcom/a/a/c/a/n;",
+                       "Lcom/a/a/c/a;",
+                       "Lcom/a/a/c;",
+                       "Lcom/a/a/d/a;",
+                       "Lcom/a/a/d/b;",
+                       "Lcom/a/a/d/c;",
+                       "Lcom/a/a/d/d;",
+                       "Lcom/a/a/d/e;",
+                       "Lcom/a/a/d/f;",
+                       "Lcom/a/a/d/g;",
+                       "Lcom/a/a/d/h;",
+                       "Lcom/a/a/d/i;",
+                       "Lcom/a/a/d/j;",
+                       "Lcom/a/a/d/k;",
+                       "Lcom/a/a/d/l;",
+                       "Lcom/a/a/d/m;",
+                       "Lcom/a/a/d/n;",
+                       "Lcom/a/a/d/o;",
+                       "Lcom/a/a/d/p;",
+                       "Lcom/a/a/d;",
+                       "Lcom/a/a/e/a/a;",
+                       "Lcom/a/a/e/a/b;",
+                       "Lcom/a/a/e/a/c;",
+                       "Lcom/a/a/e/a/d;",
+                       "Lcom/a/a/e/a/e;",
+                       "Lcom/a/a/e/a/f;",
+                       "Lcom/a/a/e/a/g;",
+                       "Lcom/a/a/e/a;",
+                       "Lcom/a/a/e;",
+                       "Lcom/a/a/f/a/a;",
+                       "Lcom/a/a/f/a/b;",
+                       "Lcom/a/a/f/a/c;",
+                       "Lcom/a/a/f/a/d;",
+                       "Lcom/a/a/f/a/e;",
+                       "Lcom/a/a/f/a;",
+                       "Lcom/a/a/f/b/a;",
+                       "Lcom/a/a/f/b/b;",
+                       "Lcom/a/a/f/b/c;",
+                       "Lcom/a/a/f/b/d;",
+                       "Lcom/a/a/f/b/e;",
+                       "Lcom/a/a/f/b/f;",
+                       "Lcom/a/a/f/b/g;",
+                       "Lcom/a/a/f;",
+                       "Lcom/a/a/g;",
+                       "Lcom/a/a/h;",
+                       "Lcom/a/a/i;",
+                       "Lcom/android/settings/porting/UtilsInstance;",
+                       "Lcom/android/settings/porting/a;",
+                       "Lcom/android/settings/porting/b;",
+                       "Lcom/android/settings/porting/c;",
+                       "Lcom/android/settings/porting/d;",
+                       "Lcom/zte/a/a/a;",
+                       "Lcom/zte/a/a/b;",
+                       "Lcom/zte/a/a/c;",
+                       "Lcom/zte/adb/AdbMainActivity;",
+                       "Lcom/zte/adb/AdbSetting;",
+                       "Lcom/zte/adb/AdbSetting_amx;",
+                       "Lcom/zte/adb/AdbSetting_atv9;",
+                       "Lcom/zte/adb/Bizz;",
+                       "Lcom/zte/adb/UsbLog;",
+                       "Lcom/zte/adb/a;",
+                       "Lcom/zte/adb/aa;",
+                       "Lcom/zte/adb/ab;",
+                       "Lcom/zte/adb/ac;",
+                       "Lcom/zte/adb/ad;",
+                       "Lcom/zte/adb/ae;",
+                       "Lcom/zte/adb/af;",
+                       "Lcom/zte/adb/ag;",
+                       "Lcom/zte/adb/ah;",
+                       "Lcom/zte/adb/ai;",
+                       "Lcom/zte/adb/aj;",
+                       "Lcom/zte/adb/ak;",
+                       "Lcom/zte/adb/al;",
+                       "Lcom/zte/adb/am;",
+                       "Lcom/zte/adb/an;",
+                       "Lcom/zte/adb/b;",
+                       "Lcom/zte/adb/c;",
+                       "Lcom/zte/adb/common/ZteEditText;",
+                       "Lcom/zte/adb/common/a;",
+                       "Lcom/zte/adb/d;",
+                       "Lcom/zte/adb/e;",
+                       "Lcom/zte/adb/f;",
+                       "Lcom/zte/adb/g;",
+                       "Lcom/zte/adb/h;",
+                       "Lcom/zte/adb/i;",
+                       "Lcom/zte/adb/j;",
+                       "Lcom/zte/adb/k;",
+                       "Lcom/zte/adb/l;",
+                       "Lcom/zte/adb/m;",
+                       "Lcom/zte/adb/n;",
+                       "Lcom/zte/adb/o;",
+                       "Lcom/zte/adb/p;",
+                       "Lcom/zte/adb/q;",
+                       "Lcom/zte/adb/r;",
+                       "Lcom/zte/adb/s;",
+                       "Lcom/zte/adb/t;",
+                       "Lcom/zte/adb/u;",
+                       "Lcom/zte/adb/v;",
+                       "Lcom/zte/adb/w;",
+                       "Lcom/zte/adb/x;",
+                       "Lcom/zte/adb/y;",
+                       "Lcom/zte/adb/z;"
+                   ]
+}

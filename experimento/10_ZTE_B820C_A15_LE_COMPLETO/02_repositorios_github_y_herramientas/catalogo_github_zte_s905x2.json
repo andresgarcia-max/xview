@@ -1,0 +1,282 @@
+﻿[
+    {
+        "FullName":  "alafrizy2-code/Launcher-b866f",
+        "HtmlUrl":  "https://github.com/alafrizy2-code/Launcher-b866f",
+        "CloneUrl":  "https://github.com/alafrizy2-code/Launcher-b866f.git",
+        "Description":  null,
+        "Stars":  0
+    },
+    {
+        "FullName":  "aml-streambox/dvb",
+        "HtmlUrl":  "https://github.com/aml-streambox/dvb",
+        "CloneUrl":  "https://github.com/aml-streambox/dvb.git",
+        "Description":  "Migrated from Yocto project (aml-comp/vendor/amlogic/dvb)",
+        "Stars":  0
+    },
+    {
+        "FullName":  "andresgarcia-max/xview",
+        "HtmlUrl":  "https://github.com/andresgarcia-max/xview",
+        "CloneUrl":  "https://github.com/andresgarcia-max/xview.git",
+        "Description":  "Recopilacion tecnica Xview ZTE ZXV10 B866V2: firmware, configuraciones, planos, diagramas y analisis",
+        "Stars":  0
+    },
+    {
+        "FullName":  "Anemonastrum/AnemoWRT",
+        "HtmlUrl":  "https://github.com/Anemonastrum/AnemoWRT",
+        "CloneUrl":  "https://github.com/Anemonastrum/AnemoWRT.git",
+        "Description":  "Openwrt for b860h v1/v2 and hg680p (S905X)",
+        "Stars":  2
+    },
+    {
+        "FullName":  "An-rus/ZTE-ZXV10-B826C-A12-STB-Security-Research",
+        "HtmlUrl":  "https://github.com/An-rus/ZTE-ZXV10-B826C-A12-STB-Security-Research",
+        "CloneUrl":  "https://github.com/An-rus/ZTE-ZXV10-B826C-A12-STB-Security-Research.git",
+        "Description":  "STB Security Research on ZTE ZXV10 B826C-A12 (Hi3798M). Hardware reverse engineering, UART exploitation.",
+        "Stars":  1
+    },
+    {
+        "FullName":  "availink/amlogic_meson_dvb4linux",
+        "HtmlUrl":  "https://github.com/availink/amlogic_meson_dvb4linux",
+        "CloneUrl":  "https://github.com/availink/amlogic_meson_dvb4linux.git",
+        "Description":  "Availink demod (and tuner) Linux drivers for Amlogic Meson SoC",
+        "Stars":  2
+    },
+    {
+        "FullName":  "Ayx03/ChashCode",
+        "HtmlUrl":  "https://github.com/Ayx03/ChashCode",
+        "CloneUrl":  "https://github.com/Ayx03/ChashCode.git",
+        "Description":  "中兴盒子 adb 解锁码计算器？适用于移动宽带附赠中兴 ZXV10 B860AV2.1 电视盒子，其余自行测试",
+        "Stars":  8
+    },
+    {
+        "FullName":  "bg4hkq/meson-gxl-s905mb-p211",
+        "HtmlUrl":  "https://github.com/bg4hkq/meson-gxl-s905mb-p211",
+        "CloneUrl":  "https://github.com/bg4hkq/meson-gxl-s905mb-p211.git",
+        "Description":  "ZXV10 B860AV1.2 电视盒子dump 出来的dtb 文件",
+        "Stars":  1
+    },
+    {
+        "FullName":  "cbrewer1337/simple-proxy-b8663",
+        "HtmlUrl":  "https://github.com/cbrewer1337/simple-proxy-b8663",
+        "CloneUrl":  "https://github.com/cbrewer1337/simple-proxy-b8663.git",
+        "Description":  null,
+        "Stars":  0
+    },
+    {
+        "FullName":  "edukanesia/b860h",
+        "HtmlUrl":  "https://github.com/edukanesia/b860h",
+        "CloneUrl":  "https://github.com/edukanesia/b860h.git",
+        "Description":  "DTB untuk B860H agar WIFI internal berfungsi dengan baik.",
+        "Stars":  4
+    },
+    {
+        "FullName":  "ewwink/driver-usb-vcom-stb-b860h-760h-amlogic-mediatek",
+        "HtmlUrl":  "https://github.com/ewwink/driver-usb-vcom-stb-b860h-760h-amlogic-mediatek",
+        "CloneUrl":  "https://github.com/ewwink/driver-usb-vcom-stb-b860h-760h-amlogic-mediatek.git",
+        "Description":  "Self signed libusb-win32 or worldcup_device Usb Driver",
+        "Stars":  23
+    },
+    {
+        "FullName":  "Explorer9952/b600",
+        "HtmlUrl":  "https://github.com/Explorer9952/b600",
+        "CloneUrl":  "https://github.com/Explorer9952/b600.git",
+        "Description":  "site of firmwares ZTE ZXV10 STB only Beltelecom.by",
+        "Stars":  0
+    },
+    {
+        "FullName":  "felipemogollon/dvb",
+        "HtmlUrl":  "https://github.com/felipemogollon/dvb",
+        "CloneUrl":  "https://github.com/felipemogollon/dvb.git",
+        "Description":  "amlogic dvb code ",
+        "Stars":  0
+    },
+    {
+        "FullName":  "hafidhh/B860H-HG680P-Armbian",
+        "HtmlUrl":  "https://github.com/hafidhh/B860H-HG680P-Armbian",
+        "CloneUrl":  "https://github.com/hafidhh/B860H-HG680P-Armbian.git",
+        "Description":  "Armbian untuk B860H/HG680P (Amlogic s905x) dan dtb (wifi on) b860h",
+        "Stars":  96
+    },
+    {
+        "FullName":  "hardkernel/buildroot_vendor_amlogic_dvb",
+        "HtmlUrl":  "https://github.com/hardkernel/buildroot_vendor_amlogic_dvb",
+        "CloneUrl":  "https://github.com/hardkernel/buildroot_vendor_amlogic_dvb.git",
+        "Description":  null,
+        "Stars":  1
+    },
+    {
+        "FullName":  "ixoneno-shy-oule/documents-b8662723",
+        "HtmlUrl":  "https://github.com/ixoneno-shy-oule/documents-b8662723",
+        "CloneUrl":  "https://github.com/ixoneno-shy-oule/documents-b8662723.git",
+        "Description":  "Created by GitHub batch publisher",
+        "Stars":  0
+    },
+    {
+        "FullName":  "jamyu-li/Armbian-on-B860A-S812-TVBOX",
+        "HtmlUrl":  "https://github.com/jamyu-li/Armbian-on-B860A-S812-TVBOX",
+        "CloneUrl":  "https://github.com/jamyu-li/Armbian-on-B860A-S812-TVBOX.git",
+        "Description":  "Use this Build Armbian for your ZTE  ZXV10 B860A (An Amlogic S812) TVBox.",
+        "Stars":  2
+    },
+    {
+        "FullName":  "khadas/android_vendor_amlogic_dvb",
+        "HtmlUrl":  "https://github.com/khadas/android_vendor_amlogic_dvb",
+        "CloneUrl":  "https://github.com/khadas/android_vendor_amlogic_dvb.git",
+        "Description":  null,
+        "Stars":  0
+    },
+    {
+        "FullName":  "khadas/buildroot_vendor_amlogic_dvb",
+        "HtmlUrl":  "https://github.com/khadas/buildroot_vendor_amlogic_dvb",
+        "CloneUrl":  "https://github.com/khadas/buildroot_vendor_amlogic_dvb.git",
+        "Description":  null,
+        "Stars":  1
+    },
+    {
+        "FullName":  "khodorchukvs22-cmyk/vprod-347-b8662701",
+        "HtmlUrl":  "https://github.com/khodorchukvs22-cmyk/vprod-347-b8662701",
+        "CloneUrl":  "https://github.com/khodorchukvs22-cmyk/vprod-347-b8662701.git",
+        "Description":  null,
+        "Stars":  0
+    },
+    {
+        "FullName":  "Manssizz/CendrawasihTV",
+        "HtmlUrl":  "https://github.com/Manssizz/CendrawasihTV",
+        "CloneUrl":  "https://github.com/Manssizz/CendrawasihTV.git",
+        "Description":  "CendrawasihTV is customize rom for Amlogic S905X device. Be specific this ROM build for ZTE B860H and untest for another device.",
+        "Stars":  12
+    },
+    {
+        "FullName":  "maplepixel51/documents-b8665717",
+        "HtmlUrl":  "https://github.com/maplepixel51/documents-b8665717",
+        "CloneUrl":  "https://github.com/maplepixel51/documents-b8665717.git",
+        "Description":  "Created by GitHub batch publisher",
+        "Stars":  0
+    },
+    {
+        "FullName":  "mirko-geno/b866v2-debian",
+        "HtmlUrl":  "https://github.com/mirko-geno/b866v2-debian",
+        "CloneUrl":  "https://github.com/mirko-geno/b866v2-debian.git",
+        "Description":  "debian minimal working on b866v2 with mt7661lsn wifi + bluetooth chip",
+        "Stars":  1
+    },
+    {
+        "FullName":  "nabakdev/S905X-ArchLinuxARM",
+        "HtmlUrl":  "https://github.com/nabakdev/S905X-ArchLinuxARM",
+        "CloneUrl":  "https://github.com/nabakdev/S905X-ArchLinuxARM.git",
+        "Description":  "Arch Linux ARM for Set Top Box (HG680P \u0026 B860H)",
+        "Stars":  11
+    },
+    {
+        "FullName":  "nangzzz/openwrt",
+        "HtmlUrl":  "https://github.com/nangzzz/openwrt",
+        "CloneUrl":  "https://github.com/nangzzz/openwrt.git",
+        "Description":  "OpenWrt 21.02 for ZTE B860H and FiberHome HG680P | This script is taken from ophub",
+        "Stars":  1
+    },
+    {
+        "FullName":  "ndunks/indihome-zte-zxv10-b760h-debian",
+        "HtmlUrl":  "https://github.com/ndunks/indihome-zte-zxv10-b760h-debian",
+        "CloneUrl":  "https://github.com/ndunks/indihome-zte-zxv10-b760h-debian.git",
+        "Description":  "Indihome ZTE ZXV10 B760H Debian with Original Kernel",
+        "Stars":  10
+    },
+    {
+        "FullName":  "nicknumb/buildroot_vendor_amlogic_dvb",
+        "HtmlUrl":  "https://github.com/nicknumb/buildroot_vendor_amlogic_dvb",
+        "CloneUrl":  "https://github.com/nicknumb/buildroot_vendor_amlogic_dvb.git",
+        "Description":  null,
+        "Stars":  0
+    },
+    {
+        "FullName":  "rose-gh-agent/agent-b8669e71",
+        "HtmlUrl":  "https://github.com/rose-gh-agent/agent-b8669e71",
+        "CloneUrl":  "https://github.com/rose-gh-agent/agent-b8669e71.git",
+        "Description":  "Auto-created workspace for Rose Labs agent",
+        "Stars":  0
+    },
+    {
+        "FullName":  "rtaserver/RTA-WRT",
+        "HtmlUrl":  "https://github.com/rtaserver/RTA-WRT",
+        "CloneUrl":  "https://github.com/rtaserver/RTA-WRT.git",
+        "Description":  "Custom OpenWrt Official",
+        "Stars":  25
+    },
+    {
+        "FullName":  "Stane1983/amlogic_dvb",
+        "HtmlUrl":  "https://github.com/Stane1983/amlogic_dvb",
+        "CloneUrl":  "https://github.com/Stane1983/amlogic_dvb.git",
+        "Description":  null,
+        "Stars":  0
+    },
+    {
+        "FullName":  "Stane1983/amlogic_dvb_old",
+        "HtmlUrl":  "https://github.com/Stane1983/amlogic_dvb_old",
+        "CloneUrl":  "https://github.com/Stane1983/amlogic_dvb_old.git",
+        "Description":  "Amlogic DVB drivers",
+        "Stars":  0
+    },
+    {
+        "FullName":  "stasinopoulos/ZTExploit",
+        "HtmlUrl":  "https://github.com/stasinopoulos/ZTExploit",
+        "CloneUrl":  "https://github.com/stasinopoulos/ZTExploit.git",
+        "Description":  "ZTE ZXV10 H108L Router with \u003c= V1.0.01_WIND_A01 - Remote root RCE Exploit",
+        "Stars":  54
+    },
+    {
+        "FullName":  "tanmyid/boot-stb",
+        "HtmlUrl":  "https://github.com/tanmyid/boot-stb",
+        "CloneUrl":  "https://github.com/tanmyid/boot-stb.git",
+        "Description":  "file boot STB HG680p \u0026 B860H (Amlogic)",
+        "Stars":  9
+    },
+    {
+        "FullName":  "Tibly-ai/basics-plus-b866",
+        "HtmlUrl":  "https://github.com/Tibly-ai/basics-plus-b866",
+        "CloneUrl":  "https://github.com/Tibly-ai/basics-plus-b866.git",
+        "Description":  "Basics Plus — generated by Tibly (https://basics-plus-b866.sites.tibly.ai)",
+        "Stars":  0
+    },
+    {
+        "FullName":  "tohenk/b860hv5-os10-root",
+        "HtmlUrl":  "https://github.com/tohenk/b860hv5-os10-root",
+        "CloneUrl":  "https://github.com/tohenk/b860hv5-os10-root.git",
+        "Description":  "ZTE B860H v5 OS10 Root",
+        "Stars":  18
+    },
+    {
+        "FullName":  "tomatotech/mmallow_vendor_amlogic_dvb",
+        "HtmlUrl":  "https://github.com/tomatotech/mmallow_vendor_amlogic_dvb",
+        "CloneUrl":  "https://github.com/tomatotech/mmallow_vendor_amlogic_dvb.git",
+        "Description":  null,
+        "Stars":  1
+    },
+    {
+        "FullName":  "TommySaunders84/notion-docs-site-b8661",
+        "HtmlUrl":  "https://github.com/TommySaunders84/notion-docs-site-b8661",
+        "CloneUrl":  "https://github.com/TommySaunders84/notion-docs-site-b8661.git",
+        "Description":  null,
+        "Stars":  0
+    },
+    {
+        "FullName":  "vorshen/paraflow-project-b86662c5",
+        "HtmlUrl":  "https://github.com/vorshen/paraflow-project-b86662c5",
+        "CloneUrl":  "https://github.com/vorshen/paraflow-project-b86662c5.git",
+        "Description":  "Project created for b86662c5",
+        "Stars":  0
+    },
+    {
+        "FullName":  "w2xg2022/actions4ztebv310",
+        "HtmlUrl":  "https://github.com/w2xg2022/actions4ztebv310",
+        "CloneUrl":  "https://github.com/w2xg2022/actions4ztebv310.git",
+        "Description":  "Actions for ZTE ZXV10-BV310 (s905l3 TVbox) armbian firmware",
+        "Stars":  7
+    },
+    {
+        "FullName":  "wuhao1477/b860av1-t-armbian-burn-builder",
+        "HtmlUrl":  "https://github.com/wuhao1477/b860av1-t-armbian-burn-builder",
+        "CloneUrl":  "https://github.com/wuhao1477/b860av1-t-armbian-burn-builder.git",
+        "Description":  "Private cloud builder for ZXV10 B860AV1.1-T Amlogic v2 burn.img",
+        "Stars":  0
+    }
+]

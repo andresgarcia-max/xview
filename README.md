@@ -41,3 +41,11 @@ Repositorio completo con el análisis de hardware, firmware (`DMC.v2.25` Android
   * Bitácora detallada de pruebas, errores y soluciones técnicas (Pruebas 1 a 12).
 * **[`rea/`](./rea):** Copia local completa del framework de ingeniería inversa `morluto/rea` ([documentación en español](./rea/docs/readme/README_es.md)).
 
+### 6. Bitácora de Opciones Sin Abrir la Caja, Llaves Cifradas y Errores Descartados
+* **[`BITACORA_PRUEBAS_OPCIONES_Y_ERRORES_XVIEW.md`](./BITACORA_PRUEBAS_OPCIONES_Y_ERRORES_XVIEW.md):** Registro maestro de todas las pruebas reales, opciones descartadas (para no repetirlas), errores resueltos de `SmarTTY` / `CP2102` (`silabser.inf` CRLF, bloqueo de `COM3`, falso contacto de `GND`, protección de `Widevine L1`) y métodos verificados para entrar al sistema con o sin abrir la caja.
+* **[`LIBERAR_SIN_ABRIR_CAJA.bat`](./LIBERAR_SIN_ABRIR_CAJA.bat):** Script automatizado para liberar una caja cerrada por ADB (USB o Red) o enviarla directamente a modo `Fastboot` (`adb reboot bootloader`) sin abrir la carcasa.
+* **[`QADEBUG.ini`](./QADEBUG.ini) y [`QADEBUGTOOL.ini`](./QADEBUGTOOL.ini):** Archivos cifrados de `138 bytes` (cabecera `0x60` + cifrado de sustitución de 52 caracteres de ZTE) válidos para `V82815417.2033` y `V84711310.1024`.
+* **[`INSTALAR_DRIVERS_TTL_Y_ABRIR_SMARTTY.bat`](./INSTALAR_DRIVERS_TTL_Y_ABRIR_SMARTTY.bat) y [`Drivers_TTL/`](./Drivers_TTL):** Instalador firmado y configurador automático (`115200 8N1`) para el adaptador USB-TTL `Silicon Labs CP2102` y [`SmarTTY.exe`](./SmarTTY.exe).
+* **[`experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/`](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE):** Validación criptográfica (`AVB 1.0` y `otacerts.zip` RSA-2048) de cada partición del firmware `B866V2 Android 12` y script seguro [`FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat`](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat).
+* **[`experimento/10_ZTE_B820C_A15_LE_COMPLETO/`](./experimento/10_ZTE_B820C_A15_LE_COMPLETO):** Investigación completa y análisis forense de APKs híbridas ZTE (`B820C-A15 LE` / `B866V2`) y desbloqueo de partición `conf`.
+

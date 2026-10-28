@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 880" width="100%" height="100%" style="background:#0b0f19;font-family:'Segoe UI',Roboto,monospace;">
+  <!-- Header -->
+  <rect x="20" y="15" width="1360" height="68" rx="8" fill="#111827" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="40" y="44" fill="#c084fc" font-size="21" font-weight="bold">ARQUITECTURA DE DOBLE PIPELINE HÍBRIDO (DVB-C QAM + OTT IP) Y MAPA eMMC — ZTE B820C-A15 LE</text>
+  <text x="40" y="67" fill="#94a3b8" font-size="13">Comparativa de flujo de señal, seguridad condicional (Nagra CAS + Widevine L1), middleware Mirada Iris y particiones Amlogic S905X2</text>
+
+  <!-- PIPELINE 1: BROADCAST COAXIAL DVB-C / QAM -->
+  <rect x="25" y="105" width="665" height="330" rx="10" fill="#111827" stroke="#ef4444" stroke-width="2"/>
+  <text x="45" y="135" fill="#f87171" font-size="16" font-weight="bold">PIPELINE 1: TELEVISIÓN EN VIVO POR CABLE COAXIAL (SIN CONSUMO DE INTERNET)</text>
+
+  <rect x="45" y="155" width="175" height="85" rx="6" fill="#1e293b" stroke="#f87171" stroke-width="1.5"/>
+  <text x="132" y="182" fill="#fecaca" font-size="12" font-weight="bold" text-anchor="middle">ENTRADA RF COAXIAL</text>
+  <text x="132" y="202" fill="#cbd5e1" font-size="11" text-anchor="middle">54 MHz – 860 MHz (75Ω)</text>
+  <text x="132" y="220" fill="#94a3b8" font-size="10.5" text-anchor="middle">Portadoras QAM 64 / 256</text>
+
+  <path d="M 220 197 L 255 197" stroke="#f87171" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="255" y="155" width="190" height="85" rx="6" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="350" y="182" fill="#fde047" font-size="12" font-weight="bold" text-anchor="middle">DEMODULADOR DVB-C / J.83B</text>
+  <text x="350" y="202" fill="#cbd5e1" font-size="11" text-anchor="middle">Controlado por I2C2 (0x60)</text>
+  <text x="350" y="220" fill="#94a3b8" font-size="10.5" text-anchor="middle">Entrega MPEG-2 TS por TS0</text>
+
+  <path d="M 445 197 L 480 197" stroke="#fbbf24" stroke-width="2.5"/>
+
+  <rect x="480" y="155" width="190" height="85" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="575" y="182" fill="#7dd3fc" font-size="12" font-weight="bold" text-anchor="middle">AMLOGIC HW DEMUX + CAS</text>
+  <text x="575" y="202" fill="#cbd5e1" font-size="11" text-anchor="middle">/dev/dvb0.demux0 + Nagra TA</text>
+  <text x="575" y="220" fill="#94a3b8" font-size="10.5" text-anchor="middle">Desencriptación en OP-TEE</text>
+
+  <rect x="45" y="265" width="625" height="148" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+  <text x="65" y="292" fill="#fde047" font-size="13" font-weight="bold">Servicios Android TV involucrados en el Pipeline Coaxial Híbrido:</text>
+  <text x="65" y="315" fill="#cbd5e1" font-size="11.5">• Driver Kernel: aml_fe / dvb-extern + dvb-demux (Transport Stream paralelo en TS0).</text>
+  <text x="65" y="336" fill="#cbd5e1" font-size="11.5">• Servicio Audio/Video: com.droidlogic.dvbaudioservice (Decodificación Dolby AC-3 / MPEG Audio).</text>
+  <text x="65" y="357" fill="#cbd5e1" font-size="11.5">• Android TV Input Framework (TIF): Expone los canales QAM al guía EPG de Mirada Iris.</text>
+  <text x="65" y="378" fill="#fca5a5" font-size="11.5" font-weight="bold">• Nota: Si se instala un firmware genérico de B866V2, se pierde el sintonizador coaxial porque el DTB del B866V2 no declara dvb-extern.</text>
+
+  <!-- PIPELINE 2: OTT / IPTV OVER WI-FI & ETHERNET -->
+  <rect x="710" y="105" width="665" height="330" rx="10" fill="#111827" stroke="#22c55e" stroke-width="2"/>
+  <text x="730" y="135" fill="#4ade80" font-size="16" font-weight="bold">PIPELINE 2: STREAMING OTT / VOD / REPLAY Y APPS (WI-FI 5 / ETHERNET)</text>
+
+  <rect x="730" y="155" width="175" height="85" rx="6" fill="#1e293b" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="817" y="182" fill="#bbf7d0" font-size="12" font-weight="bold" text-anchor="middle">RED IP (LAN / WLAN)</text>
+  <text x="817" y="202" fill="#cbd5e1" font-size="11" text-anchor="middle">Wi-Fi 802.11ac 2x2 / RJ45</text>
+  <text x="817" y="220" fill="#94a3b8" font-size="10.5" text-anchor="middle">HLS / MPEG-DASHHttps</text>
+
+  <path d="M 905 197 L 940 197" stroke="#4ade80" stroke-width="2.5"/>
+
+  <rect x="940" y="155" width="190" height="85" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="1035" y="182" fill="#7dd3fc" font-size="12" font-weight="bold" text-anchor="middle">WIDEVINE L1 + CODEC2</text>
+  <text x="1035" y="202" fill="#cbd5e1" font-size="11" text-anchor="middle">Keybox en factory.img</text>
+  <text x="1035" y="220" fill="#94a3b8" font-size="10.5" text-anchor="middle">HEVC / VP9 / H.264 4K60</text>
+
+  <path d="M 1130 197 L 1165 197" stroke="#38bdf8" stroke-width="2.5"/>
+
+  <rect x="1165" y="155" width="190" height="85" rx="6" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+  <text x="1260" y="182" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">SURFACEFLINGER 4K</text>
+  <text x="1260" y="202" fill="#cbd5e1" font-size="11" text-anchor="middle">HDMI 2.1 HDR10 / HLG</text>
+  <text x="1260" y="220" fill="#94a3b8" font-size="10.5" text-anchor="middle">+ Salida Mini-AV CVBS</text>
+
+  <rect x="730" y="265" width="625" height="148" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+  <text x="750" y="292" fill="#4ade80" font-size="13" font-weight="bold">Capas de Software y Métodos de Liberación del Pipeline OTT:</text>
+  <text x="750" y="315" fill="#cbd5e1" font-size="11.5">• Middleware Operador: Mirada Iris + Agentes ZTE (com.zte.tv.act, com.zte.android.productcfg).</text>
+  <text x="750" y="336" fill="#cbd5e1" font-size="11.5">• Agente ADB ZTE: com.zte.adb + bloqueo de política en la partición 'conf' (4 MB).</text>
+  <text x="750" y="357" fill="#cbd5e1" font-size="11.5">• Bypass sin abrir la caja: Usar botón Google Assistant (Voz) o teclado USB → Abrir Play Store →</text>
+  <text x="750" y="378" fill="#86efac" font-size="11.5" font-weight="bold">  Instalar Projectivy Launcher + Button Mapper (activar servicio en Accesibilidad para redirigir Home).</text>
+
+  <!-- PARTITION MAP & BOOTLOADER / CONF UNLOCK DIAGRAM -->
+  <rect x="25" y="455" width="1350" height="400" rx="10" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+  <text x="45" y="488" fill="#38bdf8" font-size="16" font-weight="bold">MAPA DE PARTICIONES eMMC (AMLOGIC PART_TYPE_AML) Y FLUJO DE DESBLOQUEO VÍA USB WORLDCUP</text>
+
+  <!-- Partition Blocks Row 1 -->
+  <g font-size="11" font-weight="bold" text-anchor="middle">
+    <rect x="45" y="510" width="125" height="75" rx="5" fill="#7f1d1d" stroke="#f87171" stroke-width="2"/>
+    <text x="107" y="535" fill="#fecaca">00: bootloader</text>
+    <text x="107" y="553" fill="#fca5a5" font-size="10">4 MB (0x400000)</text>
+    <text x="107" y="570" fill="#fde047" font-size="9.5">¡TIMINGS DDR3!</text>
+
+    <rect x="180" y="510" width="125" height="75" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+    <text x="242" y="535" fill="#e2e8f0">01: reserved</text>
+    <text x="242" y="553" fill="#94a3b8" font-size="10">64 MB (0x4000000)</text>
+    <text x="242" y="570" fill="#38bdf8" font-size="9.5">Tabla + _aml_dtb</text>
+
+    <rect x="315" y="510" width="125" height="75" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="377" y="535" fill="#e2e8f0">03: env</text>
+    <text x="377" y="553" fill="#94a3b8" font-size="10">8 MB (0x800000)</text>
+    <text x="377" y="570" fill="#86efac" font-size="9.5">lock=10100000</text>
+
+    <rect x="450" y="510" width="125" height="75" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+    <text x="512" y="535" fill="#e2e8f0">05: recovery</text>
+    <text x="512" y="553" fill="#94a3b8" font-size="10">24 MB (0x1800000)</text>
+    <text x="512" y="570" fill="#cbd5e1" font-size="9.5">Stock / TWRP S905X2</text>
+
+    <rect x="585" y="510" width="145" height="75" rx="5" fill="#14532d" stroke="#4ade80" stroke-width="2.5"/>
+    <text x="657" y="535" fill="#bbf7d0">07: conf (CLAVE)</text>
+    <text x="657" y="553" fill="#86efac" font-size="10">4 MB (0x400000)</text>
+    <text x="657" y="570" fill="#fde047" font-size="9.5">Bloqueo ADB Operador</text>
+
+    <rect x="740" y="510" width="135" height="75" rx="5" fill="#78350f" stroke="#fbbf24" stroke-width="2"/>
+    <text x="807" y="535" fill="#fde68a">09: cri_data</text>
+    <text x="807" y="553" fill="#fcd34d" font-size="10">8 MB (0x800000)</text>
+    <text x="807" y="570" fill="#fecaca" font-size="9.5">MAC / Serial (NO TOCAR)</text>
+
+    <rect x="885" y="510" width="135" height="75" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="952" y="535" fill="#e2e8f0">11: boot</text>
+    <text x="952" y="553" fill="#94a3b8" font-size="10">16 MB (0x1000000)</text>
+    <text x="952" y="570" fill="#7dd3fc" font-size="9.5">Kernel 4.9 + Magisk</text>
+
+    <rect x="1030" y="510" width="145" height="75" rx="5" fill="#78350f" stroke="#fbbf24" stroke-width="2"/>
+    <text x="1102" y="535" fill="#fde68a">16: factory</text>
+    <text x="1102" y="553" fill="#fcd34d" font-size="10">8 MB (0x800000)</text>
+    <text x="1102" y="570" fill="#fecaca" font-size="9.5">Widevine L1 Keybox</text>
+
+    <rect x="1185" y="510" width="170" height="75" rx="5" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="1270" y="535" fill="#e9d5ff">17: super + 18: data</text>
+    <text x="1270" y="553" fill="#d8b4fe" font-size="10">1.5–1.8 GB + Userdata</text>
+    <text x="1270" y="570" fill="#cbd5e1" font-size="9.5">system/vendor/product</text>
+  </g>
+
+  <!-- Step-by-Step WorldCup Unlock & Backup Box -->
+  <rect x="45" y="605" width="1310" height="230" rx="8" fill="#090d16" stroke="#334155" stroke-width="1.5"/>
+  <text x="65" y="633" fill="#fde047" font-size="14" font-weight="bold">PROTOCOLO SEGURO DE VOLCADO COMPLETO (BACKUP) Y DESBLOQUEO CON UPDATE.EXE (CABLE USB MACHO-MACHO):</text>
+
+  <text x="65" y="662" fill="#38bdf8" font-size="12" font-weight="bold">PASO 1 (Detectar en modo WorldCup):</text>
+  <text x="330" y="662" fill="#e2e8f0" font-size="12">update.exe scan   →   Debe responder:  port[xxx] (Dispositivo Amlogic WorldCup conectado)</text>
+
+  <text x="65" y="690" fill="#38bdf8" font-size="12" font-weight="bold">PASO 2 (Respaldar particiones críticas):</text>
+  <text x="330" y="690" fill="#e2e8f0" font-size="12">update.exe mread store bootloader normal 0x400000 bootloader.bak   (¡Respalda el BL2 DDR3 original!)</text>
+  <text x="330" y="712" fill="#e2e8f0" font-size="12">update.exe mread store conf normal 0x400000 conf.bak   |   update.exe mread store factory normal 0x800000 factory.bak</text>
+
+  <text x="65" y="742" fill="#4ade80" font-size="12" font-weight="bold">PASO 3 (Desbloquear Bootloader y ADB):</text>
+  <text x="330" y="742" fill="#86efac" font-size="12">update.exe bulkcmd "setenv -f lock 10100000"   &amp;&amp;   update.exe bulkcmd "saveenv"</text>
+  <text x="330" y="764" fill="#86efac" font-size="12">update.exe partition conf conf.PARTITION   (Flashea la partición conf limpia para desbloquear Opciones de Desarrollador)</text>
+
+  <text x="65" y="794" fill="#c084fc" font-size="12" font-weight="bold">PASO 4 (Conectar ADB por Red o USB):</text>
+  <text x="330" y="794" fill="#e9d5ff" font-size="12">Al encender Android TV: Ajustes → Información → Pulsar 7 veces en Compilación → Activar Depuración USB / Red</text>
+  <text x="330" y="816" fill="#e9d5ff" font-size="12">adb connect &lt;IP_DECO&gt;:5555   →   Instalar Projectivy Launcher / Magisk y deshabilitar bloatware con pm disable-user</text>
+</svg>

@@ -1,0 +1,45 @@
+<app-recommendations
+    row_title="title" >
+   <app
+      <!-- Name of app displayed in the recommendations row --> 
+      name="app name"
+      <!-- Package name of the app to launch --> 
+      package_name="package.name"
+      <!-- Location of the app's banner to display.
+           Size of banner (in pixels): 208w x 117h 
+           --> 
+      banner_uri="content://banner"
+      <!-- Data uri added to the intent launching the app. Optional for
+           native apps
+           -->
+      data_uri="content://data"
+      <!-- Used to determine where to install an app. Used for virtual apps only
+           -->
+      is_game="true"
+      <!-- Tell the system to treat this item as a shortcut instead of a
+           native app
+           -->
+      is_virtual_app="true">
+   <app
+      name="app name 2"
+      package_name="package.name2"
+      banner_uri="content://banner2"
+      data_uri="content://data2"
+      is_game="true"
+      is_virtual_app="true">
+      developer="developer name"
+      category="strategy_games"
+      description="..."
+      <screenshot
+          uri=”android.resource://com.google.android.sample/raw/screenshot_1”/>
+      <screenshot
+          uri=”android.resource://com.google.android.sample/raw/screenshot_2”/>
+   </app>
+   <app
+      name="app name 3"
+      package_name="package.name3"
+      banner_uri="content://banner3"
+      data_uri="content://data3"
+      is_virtual_app="false">
+   </app>
+</app-recommendations>

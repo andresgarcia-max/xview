@@ -1,0 +1,202 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Device Tree Source para ZTE ZXV10 B820C-A15 LE (izzitv Smart / Hybrid DVB-C + OTT STB)
+ * SoC: Amlogic S905X2 (Meson G12A - 12nm Quad-Core Cortex-A53 + Mali-G31 MP2)
+ * RAM: 2 GB DDR3 (0x00000000 - 0x80000000)
+ * Almacenamiento: 4 GB / 8 GB eMMC 5.1 + Sintonizador Hibrido DVB-C / ITU-T J.83B QAM
+ * FCC ID: Q78-ZXV10B820CA15
+ */
+
+/dts-v1/;
+
+#include "meson-g12a.dtsi"
+
+/ {
+	compatible = "zte,zxv10-b820c-a15", "amlogic,g12a";
+	model = "ZTE ZXV10 B820C-A15 LE Hybrid STB (Amlogic S905X2 DDR3)";
+	amlogic-dt-id = "g12a_u212_2g_b820c";
+
+	aliases {
+		serial0 = &uart_AO;
+		serial1 = &uart_A;
+		ethernet0 = &ethmac;
+		mmc0 = &sd_emmc_c; /* eMMC */
+		mmc1 = &sd_emmc_a; /* SDIO Wi-Fi/BT */
+	};
+
+	chosen {
+		stdout-path = "serial0:115200n8";
+		bootargs = "init=/init console=ttyS0,115200 no_console_suspend earlycon=aml-uart,0xff803000 ramoops.pstore_en=1 ramoops.record_size=0x8000 ramoops.console_size=0x4000 androidboot.hardware=amlogic androidboot.dtbo_idx=0";
+	};
+
+	/* 2 GB DDR3 Memory Map (ZTE B820C-A15 LE) */
+	memory@0 {
+		device_type = "memory";
+		reg = <0x0 0x0 0x0 0x80000000>; /* 2048 MB DDR3 */
+	};
+
+	reserved-memory {
+		#address-cells = <2>;
+		#size-cells = <2>;
+		ranges;
+
+		/* BL31 / TEE Secure Monitor & Widevine L1 / Nagra CAS */
+		secmon_reserved: linux,secmon {
+			compatible = "shared-dma-pool";
+			reusable;
+			size = <0x0 0x3400000>; /* 52 MB para OP-TEE + Widevine L1 + Nagra TA */
+			alignment = <0x0 0x400000>;
+			alloc-ranges = <0x0 0x05000000 0x0 0x3400000>;
+		};
+
+		/* Buffer de hardware para decodificacion 4K HEVC/VP9 y Demux DVB-C */
+		codec_mm_cma: linux,codec-mm-cma {
+			compatible = "shared-dma-pool";
+			reusable;
+			size = <0x0 0x13c00000>; /* 316 MB CMA para pipeline hibrido 4K + QAM */
+			alignment = <0x0 0x400000>;
+		};
+	};
+
+	/* Reguladores de alimentacion (Entrada principal 12V DC -> Buck 5V -> 3.3V / 1.8V) */
+	dc_12v: regulator-dc-12v {
+		compatible = "regulator-fixed";
+		regulator-name = "12V_DC_IN";
+		regulator-min-microvolt = <12000000>;
+		regulator-max-microvolt = <12000000>;
+		regulator-always-on;
+	};
+
+	vcc_5v: regulator-vcc-5v {
+		compatible = "regulator-fixed";
+		regulator-name = "VCC5V_MAIN";
+		regulator-min-microvolt = <5000000>;
+		regulator-max-microvolt = <5000000>;
+		vin-supply = <&dc_12v>;
+		regulator-always-on;
+	};
+
+	vddao_3v3: regulator-vddao-3v3 {
+		compatible = "regulator-fixed";
+		regulator-name = "VDDAO_3V3";
+		regulator-min-microvolt = <3300000>;
+		regulator-max-microvolt = <3300000>;
+		vin-supply = <&vcc_5v>;
+		regulator-always-on;
+	};
+
+	vddio_ao18: regulator-vddio-ao18 {
+		compatible = "regulator-fixed";
+		regulator-name = "VDDIO_AO18_EMMC";
+		regulator-min-microvolt = <1800000>;
+		regulator-max-microvolt = <1800000>;
+		vin-supply = <&vddao_3v3>;
+		regulator-always-on;
+	};
+
+	/* Subsistema Hibrido DVB-C / QAM Annex B (Coaxial RF 54-860 MHz) */
+	dvb-extern {
+		compatible = "amlogic, dvb-extern";
+		dev_name = "dvb-extern";
+		status = "okay";
+
+		fe_num = <1>;
+		fe0_demod = "internal_or_mxl214_avl6381";
+		fe0_i2c_adap_id = <&i2c2>;
+		fe0_demod_i2c_addr = <0x60>;
+		fe0_tuner0_i2c_addr = <0x10>;
+		fe0_ts_in = <0>; /* Conectado a TS0 de Amlogic S905X2 */
+		fe0_delivery_system = "DVBC_ANNEX_A", "DVBC_ANNEX_B"; /* QAM 64/256 */
+	};
+
+	dvb-demux {
+		compatible = "amlogic, dvb-demux";
+		dev_name = "dvb-demux";
+		status = "okay";
+		ts0 = "parallel";
+		ts0_control = <0x0>;
+		ts0_invert = <0x0>;
+	};
+
+	/* LEDs de estado frontal (Rojo = Standby / Boot, Verde = Activo / Recovery) */
+	leds {
+		compatible = "gpio-leds";
+
+		led-power-green {
+			label = "b820c:green:power";
+			gpios = <&gpio_ao GPIOAO_11 GPIO_ACTIVE_HIGH>;
+			default-state = "on";
+		};
+
+		led-standby-red {
+			label = "b820c:red:standby";
+			gpios = <&gpio_ao GPIOAO_10 GPIO_ACTIVE_HIGH>;
+			default-state = "off";
+		};
+	};
+
+	/* Boton fisico superior/frontal de Encendido y entrada a Recovery (30s) */
+	gpio-keys-polled {
+		compatible = "gpio-keys-polled";
+		poll-interval = <100>;
+
+		button-power {
+			label = "power_recovery_key";
+			linux,code = <KEY_POWER>;
+			gpios = <&gpio_ao GPIOAO_3 GPIO_ACTIVE_LOW>;
+		};
+	};
+};
+
+/* Consola Serial UART (115200 8N1 - Puntos TP11/TP12 en PCB) */
+&uart_AO {
+	status = "okay";
+	pinctrl-0 = <&uart_ao_a_pins>;
+	pinctrl-names = "default";
+};
+
+/* Ethernet 10/100 Mbps (PHY interno Amlogic G12A RMII) */
+&ethmac {
+	status = "okay";
+	phy-handle = <&internal_ephy>;
+	phy-mode = "rmii";
+};
+
+/* Almacenamiento interno eMMC (4 GB / 8 GB) + Tabla de particiones ZTE */
+&sd_emmc_c {
+	status = "okay";
+	pinctrl-0 = <&emmc_ctrl_pins>, <&emmc_data_8b_pins>, <&emmc_ds_pins>;
+	pinctrl-1 = <&emmc_clk_gate_pins>;
+	pinctrl-names = "default", "clk-gate";
+
+	bus-width = <8>;
+	cap-mmc-highspeed;
+	mmc-ddr-1_8v;
+	mmc-hs200-1_8v;
+	max-frequency = <200000000>;
+	non-removable;
+	disable-wp;
+
+	partitions {
+		compatible = "amlogic,emmc-partitions";
+		bootloader { offset = <0x0 0x00000000>; size = <0x0 0x00400000>; }; /* 4 MB BL2/FIP DDR3 */
+		reserved   { offset = <0x0 0x02400000>; size = <0x0 0x04000000>; }; /* 64 MB DTB/Tabla */
+		cache      { offset = <0x0 0x06c00000>; size = <0x0 0x20000000>; }; /* 512 MB Cache */
+		env        { offset = <0x0 0x27400000>; size = <0x0 0x00800000>; }; /* 8 MB U-Boot Env */
+		logo       { offset = <0x0 0x28400000>; size = <0x0 0x00800000>; }; /* 8 MB Splash izzi/ZTE */
+		recovery   { offset = <0x0 0x29400000>; size = <0x0 0x01800000>; }; /* 24 MB Recovery */
+		misc       { offset = <0x0 0x2b400000>; size = <0x0 0x00800000>; }; /* 8 MB BCB */
+		dtbo       { offset = <0x0 0x2c400000>; size = <0x0 0x00800000>; }; /* 8 MB DTBO */
+		cri_data   { offset = <0x0 0x2d400000>; size = <0x0 0x00800000>; }; /* 8 MB MAC/Serial ZTE */
+		param      { offset = <0x0 0x2e400000>; size = <0x0 0x01000000>; }; /* 16 MB Parametros Amlogic */
+		boot       { offset = <0x0 0x2fc00000>; size = <0x0 0x01000000>; }; /* 16 MB Kernel + Ramdisk */
+		tee        { offset = <0x0 0x31400000>; size = <0x0 0x02000000>; }; /* 32 MB OP-TEE / CAS */
+		factory    { offset = <0x0 0x33c00000>; size = <0x0 0x00800000>; }; /* 8 MB Widevine L1 Keybox */
+		conf       { offset = <0x0 0x34c00000>; size = <0x0 0x00400000>; }; /* 4 MB ZTE Config */
+		oem        { offset = <0x0 0x35800000>; size = <0x0 0x01000000>; }; /* 16 MB OEM Operator */
+		vbmeta     { offset = <0x0 0x37000000>; size = <0x0 0x00200000>; }; /* 2 MB AVB 2.0 */
+		metadata   { offset = <0x0 0x37a00000>; size = <0x0 0x01000000>; }; /* 16 MB Metadata */
+		super      { offset = <0x0 0x39200000>; size = <0x0 0x60000000>; }; /* 1.5 GB Dynamic Partitions */
+		userdata   { offset = <0x0 0x99a00000>; size = <0x0 0x00000000>; }; /* Resto de la eMMC */
+	};
+};

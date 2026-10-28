@@ -1,0 +1,14 @@
+# Archivos mayores al limite de 100 MB de GitHub
+V2/B866v2 Android 12/B866v2 Android 12/B866V2/super.img
+V2/B866v2 Android 12/B866v2 Android 12/B866V2/product.img
+Liberacion_Xview_B866V2_Portatil.exe
+
+# Carpetas duplicadas o archivos ajenos al proyecto Xview
+xview/
+drivers_ttl_cp2102/
+PROVISIONADOR_MASIVO_HG8141X7b-50_v3_BLINDADO.exe
+ControlDeAccesoLegends.lnk
+autorun.inf
+bootmgr
+bootmgr.efi
+setup.exe

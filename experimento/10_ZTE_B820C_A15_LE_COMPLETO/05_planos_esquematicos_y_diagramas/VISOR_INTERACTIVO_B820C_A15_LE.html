@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro Técnico Interactivo — ZTE ZXV10 B820C-A15 LE vs B866V2</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #111827;
+      --border: #1f2937;
+      --accent: #38bdf8;
+      --green: #4ade80;
+      --amber: #fbbf24;
+      --red: #f87171;
+      --purple: #c084fc;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      padding: 24px;
+    }
+    header {
+      background: linear-gradient(135deg, #111827 0%, #1e293b 100%);
+      border: 1px solid var(--accent);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    header h1 { color: var(--accent); font-size: 1.8rem; margin-bottom: 8px; }
+    header p { color: var(--muted); font-size: 0.98rem; }
+    .tabs {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .tab-btn {
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: #1e293b;
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .panel { display: none; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
+    .panel.active { display: block; }
+    h2 { color: var(--accent); margin-bottom: 14px; font-size: 1.35rem; }
+    h3 { color: var(--amber); margin: 18px 0 8px; font-size: 1.1rem; }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.93rem; }
+    th, td { border: 1px solid #334155; padding: 10px 12px; text-align: left; }
+    th { background: #1e293b; color: var(--accent); }
+    tr:nth-child(even) { background: #0f172a; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; }
+    .badge-red { background: #7f1d1d; color: #fecaca; }
+    .badge-green { background: #14532d; color: #bbf7d0; }
+    .badge-amber { background: #78350f; color: #fde68a; }
+    pre { background: #090d16; border: 1px solid #334155; padding: 14px; border-radius: 8px; overflow-x: auto; color: #86efac; margin: 10px 0; }
+    .svg-box { width: 100%; overflow-x: auto; background: #090d16; border-radius: 10px; padding: 12px; border: 1px solid #334155; }
+    .svg-box object, .svg-box img { width: 100%; height: auto; display: block; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Centro de Ingeniería Inversa: ZTE ZXV10 B820C-A15 LE (Hybrid DVB-C + Android TV)</h1>
+    <p>FCC ID: Q78-ZXV10B820CA15 | SoC: Amlogic S905X2 (meson-g12a) | RAM: 2 GB DDR3 | Sintonizador Coaxial DVB-C / QAM J.83B</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="showTab('pcb', this)">1. Plano Técnico PCB y Pinout</button>
+    <button class="tab-btn" onclick="showTab('arch', this)">2. Arquitectura Híbrida y Particiones eMMC</button>
+    <button class="tab-btn" onclick="showTab('comp', this)">3. Comparativa B820C-A15 LE vs B866V2 vs B826C-A12</button>
+    <button class="tab-btn" onclick="showTab('unlock', this)">4. Trucos, Desbloqueo conf y Comandos</button>
+  </div>
+
+  <div id="pcb" class="panel active">
+    <h2>Plano de Placa Base (PCB), Puntos MaskROM (CLK), ISP eMMC, UART y Sintonizador RF</h2>
+    <div class="svg-box">
+      <img src="./PLANO_PCB_ZTE_B820C_A15_LE_HIBRIDO_PINOUT_UART_ISP_TUNER.svg" alt="Plano PCB ZTE B820C-A15 LE" />
+    </div>
+  </div>
+
+  <div id="arch" class="panel">
+    <h2>Arquitectura de Doble Pipeline (Coaxial DVB-C + OTT IP) y Mapa de Particiones</h2>
+    <div class="svg-box">
+      <img src="./DIAGRAMA_ARQUITECTURA_HIBRIDA_DVBC_OTT_B820C_A15.svg" alt="Diagrama Arquitectura Hibrida B820C-A15 LE" />
+    </div>
+  </div>
+
+  <div id="comp" class="panel">
+    <h2>Tabla Comparativa de Decodificadores ZTE en México y Latinoamérica</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Característica</th>
+          <th>ZTE ZXV10 B820C-A15 LE (izzi)</th>
+          <th>ZTE ZXV10 B866V2 (Xview+ Megacable)</th>
+          <th>ZTE ZXV10 B826C-A12 (Megacable Híbrido)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>SoC (Procesador)</strong></td>
+          <td><span class="badge badge-green">Amlogic S905X2</span> (Cortex-A53 1.8 GHz)</td>
+          <td><span class="badge badge-green">Amlogic S905X2</span> (Cortex-A53 1.8 GHz)</td>
+          <td><span class="badge badge-amber">HiSilicon Hi3798M</span> (Cortex-A53)</td>
+        </tr>
+        <tr>
+          <td><strong>Memoria RAM</strong></td>
+          <td><span class="badge badge-amber">2 GB DDR3 (1.5V)</span></td>
+          <td><span class="badge badge-green">2 GB DDR4 (1.2V)</span></td>
+          <td>1 GB / 2 GB DDR3</td>
+        </tr>
+        <tr>
+          <td><strong>Almacenamiento eMMC</strong></td>
+          <td>4 GB / 8 GB eMMC 5.1</td>
+          <td>8 GB eMMC 5.1</td>
+          <td>4 GB / 8 GB eMMC</td>
+        </tr>
+        <tr>
+          <td><strong>Sintonizador Coaxial RF</strong></td>
+          <td><strong>Sí — DVB-C / QAM J.83B (54–860 MHz)</strong></td>
+          <td>No (100% IPTV/OTT)</td>
+          <td>Sí — DVB-C / ATSC</td>
+        </tr>
+        <tr>
+          <td><strong>Puertos USB</strong></td>
+          <td>1x USB 2.0</td>
+          <td>2x USB (1x USB 2.0 OTG + 1x Host) + MicroSD</td>
+          <td>1x USB 2.0 + 1x USB 3.0</td>
+        </tr>
+        <tr>
+          <td><strong>Alimentación DC</strong></td>
+          <td>12V DC (1.5A)</td>
+          <td>12V DC (1.0A) / 5V según lote</td>
+          <td>12V DC</td>
+        </tr>
+        <tr>
+          <td><strong>Código en MarketUtil ZTE</strong></td>
+          <td><code>MEXICO_IZZI</code> (<code>isRestrictedIzzi</code>)</td>
+          <td><code>Megacable+Xview++B866V2_ZTE</code></td>
+          <td><code>DVBCUA 72358</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="unlock" class="panel">
+    <h2>Guía de Desbloqueo, Respaldo por Cable USB Macho-Macho y Trucos</h2>
+    <h3>1. Volcado completo y desbloqueo de la partición <code>conf</code> (Habilita Opciones de Desarrollador)</h3>
+    <pre>
+:: 1. Conectar cable USB-A Macho a Macho en modo WorldCup (CLK a GND o comando 'update' en UART)
+update.exe scan
+
+:: 2. Respaldar particiones originales (¡NUNCA sobrescribir bootloader DDR3 ni factory!)
+update.exe mread store bootloader normal 0x400000 bootloader_b820c_ddr3.img
+update.exe mread store conf normal 0x400000 conf_original.img
+update.exe mread store factory normal 0x800000 factory_widevine_l1.img
+
+:: 3. Desbloquear U-Boot y flashear partición conf limpia
+update.exe bulkcmd "setenv -f lock 10100000"
+update.exe bulkcmd "saveenv"
+update.exe partition conf conf.PARTITION
+    </pre>
+
+    <h3>2. Hard Reset / Modo Recovery con Teclado USB</h3>
+    <pre>
+1. Desconectar fuente de 12V DC.
+2. Conectar un teclado USB de PC al puerto USB del decodificador.
+3. Mantener presionado el botón físico POWER en el decodificador mientras se conecta la fuente de 12V.
+4. Sostener durante ~30 segundos hasta que el LED pase de Rojo a Verde.
+5. Con las flechas del teclado USB seleccionar: Wipe data/factory reset -> Wipe cache partition -> Reboot.
+    </pre>
+  </div>
+
+  <script>
+    function showTab(id, btn) {
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      btn.classList.add('active');
+    }
+  </script>
+</body>
+</html>

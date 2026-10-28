@@ -1,0 +1,9 @@
+package tv.settings.aidl;
+
+interface ApplicationInterface {
+	Map getCategory();
+	Map getLastUseDate();
+	Map getStatus();
+	Map getAuthorization();
+	Map getActions();
+}

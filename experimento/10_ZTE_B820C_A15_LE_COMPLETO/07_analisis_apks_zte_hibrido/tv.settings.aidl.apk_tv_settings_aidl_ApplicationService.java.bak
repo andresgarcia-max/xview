@@ -1,0 +1,378 @@
+package tv.settings.aidl;
+
+import android.app.ActivityManager;
+import android.app.Application;
+import android.app.Service;
+import android.app.usage.UsageStats;
+import android.app.usage.UsageStatsManager;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.IBinder;
+import android.os.RemoteException;
+import android.os.SystemClock;
+import android.os.UserHandle;
+import android.text.format.DateUtils;
+import android.util.ArrayMap;
+import android.util.Log;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+
+import com.android.settingslib.applications.ApplicationsState;
+import com.android.settingslib.applications.AppUtils;
+import com.android.settingslib.utils.StringUtil;
+
+public class ApplicationService extends Service {
+    public static final String TAG = "[TvSettingsAidlService]";
+    public static final String FILE = "[ApplicationService]";
+
+    private Context mContext;
+    private PackageManager mPm;
+    private ApplicationsState mApplicationsState;
+    private UsageStatsManager mUsageStatsManager;
+    private int mUserId;
+    private List<UsageStats> mStats;
+    private Calendar mCal;
+
+    private static final int CATEGORY_UNDEFINED = -1;
+    private static final int CATEGORY_GAME = 0;
+    private static final int CATEGORY_AUDIO = 1;
+    private static final int CATEGORY_VIDEO = 2;
+    private static final int CATEGORY_IMAGE = 3;
+    private static final int CATEGORY_SOCIAL = 4;
+    private static final int CATEGORY_NEWS = 5;
+    private static final int CATEGORY_MAPS = 6;
+    private static final int CATEGORY_PRODUCTIVITY = 7;
+
+    private static final String STRING_CATEGORY_UNDEFINED = "Undefined";
+    private static final String STRING_CATEGORY_GAME = "Game";
+    private static final String STRING_CATEGORY_AUDIO = "Audio";
+    private static final String STRING_CATEGORY_VIDEO = "Video";
+    private static final String STRING_CATEGORY_IMAGE = "Image";
+    private static final String STRING_CATEGORY_SOCIAL = "Social";
+    private static final String STRING_CATEGORY_NEWS = "News";
+    private static final String STRING_CATEGORY_MAPS = "Maps";
+    private static final String STRING_CATEGORY_PRODUCTIVITY = "Productivity";
+
+    @Override
+    public void onCreate() {
+        // TODO Auto-generated method stub
+        super.onCreate();
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        // TODO Auto-generated method stub
+        Log.d(TAG, FILE + "<onStartCommand> ");
+        return super.onStartCommand(intent, flags, startId);
+    }
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        Log.d(TAG, FILE + "<onBind> ");
+        mContext = this;
+        mApplicationsState = ApplicationsState.getInstance((Application) mContext.getApplicationContext());
+        mUsageStatsManager =
+                (UsageStatsManager) mContext.getSystemService(Context.USAGE_STATS_SERVICE);
+        mPm = mContext.getPackageManager();
+        mUserId = UserHandle.myUserId();
+        mCal = Calendar.getInstance();
+        mCal.add(Calendar.DAY_OF_YEAR, -1);
+        mStats = mUsageStatsManager.queryUsageStats(
+                UsageStatsManager.INTERVAL_BEST, mCal.getTimeInMillis(),
+                System.currentTimeMillis());
+        return new ApplicationBinder();
+    }
+
+    public class ApplicationBinder extends ApplicationInterface.Stub {
+
+        public Map<String, String> getCategory() throws RemoteException {
+            Log.d(TAG, FILE + "<getCategory> ");
+            Map<String, String> appCategoryMap = new ArrayMap();
+            List<ApplicationsState.AppEntry> mAppEntryList = getAppEntryList();
+            for (ApplicationsState.AppEntry appEntry : mAppEntryList) {
+                if (appEntry == null) {
+                    continue;
+                }
+                String pckName = appEntry.info.packageName;
+                Log.d(TAG, FILE + "<getCategory> pckName = " + pckName);
+                int appCategory = appEntry.info.category;
+                String categoryString = Int2Category(appCategory);
+                Log.d(TAG, FILE + "<getCategory> appCategory = " + appCategory);
+                Log.d(TAG, FILE + "<getCategory> categoryString = " + categoryString);
+                appCategoryMap.put(pckName, /*appCategory*/categoryString);
+            }
+            if (isInstalled("tv.o2.o2") && !appCategoryMap.containsKey("tv.o2.o2")) {
+                appCategoryMap.put("tv.o2.o2", "Undefined");
+            }
+            return appCategoryMap;
+        }
+
+        public Map<String, String> getLastUseDate() throws RemoteException {
+            Log.d(TAG, FILE + "<getLastUseDate> ");
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            List<UsageStats> appList = getAppList();
+            Map<String, String> appLastUseDateMap = new ArrayMap();
+            for (UsageStats mUsageStats : appList) {
+                //final UsageStats stat = recentApps.get(i);
+                final String pkgName = mUsageStats.getPackageName();
+                String lastUseDate = "Null";
+                /*String lastUseDate = StringUtil.formatRelativeTime(mContext,
+                        System.currentTimeMillis() - mUsageStats.getLastTimeUsed(), false).toString();*/
+                long lastUsedTime = mUsageStats.getLastTimeUsed();
+                Log.d(TAG, FILE + "<getLastUseDate> lastUsedTime = " + lastUsedTime);
+                if (lastUsedTime > 0) {
+                    CharSequence lastUseDate1 = StringUtil.formatRelativeTime(mContext,
+                            System.currentTimeMillis() - /*mUsageStats.getLastTimeUsed()*/lastUsedTime, false);
+                    /*String */
+                    //lastUseDate = String.valueOf(lastUseDate1);
+                    lastUseDate = dateFormat.format(lastUsedTime);
+                }
+                if (lastUseDate != null) {
+                    Log.d(TAG, FILE + "<getLastUseDate> pkgName = " + pkgName);
+                    Log.d(TAG, FILE + "<getLastUseDate> lastUseDate = " + lastUseDate);
+                    appLastUseDateMap.put(pkgName, lastUseDate);
+                }
+            }
+            if (isInstalled("tv.o2.o2") && !appLastUseDateMap.containsKey("tv.o2.o2")) {
+                appLastUseDateMap.put("tv.o2.o2", /*String.valueOf(StringUtil.formatRelativeTime(mContext,
+                        System.currentTimeMillis() - SystemClock.elapsedRealtime(), false))*/
+                        dateFormat.format(System.currentTimeMillis() - SystemClock.elapsedRealtime()));
+                Log.d(TAG, FILE + "<getLastUseDate> time = " + dateFormat.format(System.currentTimeMillis() - SystemClock.elapsedRealtime()));
+                /*Log.d(TAG, FILE + "<getLastUseDate> tv.o2.o2 = " +
+                        String.valueOf(
+                                StringUtil.formatRelativeTime(mContext,
+                                        SystemClock.elapsedRealtime(),
+                                        false)
+                        )
+                );*/
+            } else if (appLastUseDateMap.containsKey("tv.o2.o2") && "Null".equals(appLastUseDateMap.get("tv.o2.o2"))) {
+                appLastUseDateMap.put("tv.o2.o2", dateFormat.format(System.currentTimeMillis() - SystemClock.elapsedRealtime()));
+                Log.d(TAG, FILE + "<getLastUseDate> time = " + dateFormat.format(System.currentTimeMillis() - SystemClock.elapsedRealtime()));
+            }
+            return appLastUseDateMap;
+        }
+
+        public Map<String, Boolean> getStatus() throws RemoteException {
+            Log.d(TAG, FILE + "<getStatus> ");
+            ActivityManager mActivityManager = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
+            List<String> runningAppList = new ArrayList<String>();
+            List<ActivityManager.RunningAppProcessInfo> processList = mActivityManager.getRunningAppProcesses();
+            for (ActivityManager.RunningAppProcessInfo info : processList) {
+                String processName = info.processName;
+                Log.d(TAG, FILE + "<getStatus> processName = " + processName);
+                runningAppList.add(info.processName);
+            }
+
+            List<UsageStats> appList = getAppList();
+            Map<String, Boolean> appStatusMap = new ArrayMap();
+            for (UsageStats mUsageStats : appList) {
+                //final UsageStats stat = recentApps.get(i);
+                final String pkgName = mUsageStats.getPackageName();
+                boolean isRunning = runningAppList.contains(pkgName);
+                Log.d(TAG, FILE + "<getStatus> pkgName = " + pkgName + ", isRunning = " + isRunning);
+                appStatusMap.put(pkgName, isRunning);
+            }
+            if (isInstalled("tv.o2.o2") && !appStatusMap.containsKey("tv.o2.o2")) {
+                appStatusMap.put("tv.o2.o2", runningAppList.contains("tv.o2.o2"));
+                //Log.d(TAG, FILE + "<getStatus> tv.o2.o2 = " + runningAppList.contains("tv.o2.o2"));
+            }
+            return appStatusMap;
+        }
+
+        public Map<String, String> getAuthorization() throws RemoteException {
+            Log.d(TAG, FILE + "<getAuthorization> ");
+            Map<String, String> appAuthorizationMap = new ArrayMap<String, String>();
+            List<ApplicationsState.AppEntry> mAppEntryList = getAppEntryList();
+            for (ApplicationsState.AppEntry appEntry : mAppEntryList) {
+                if (appEntry == null) {
+                    continue;
+                }
+                String pckName = appEntry.info.packageName;
+                Log.d(TAG, FILE + "<getAuthorization> pckName = " + pckName);
+                String appPermission = appEntry.info.permission;
+                Log.d(TAG, FILE + "<getAuthorization> appPermission = " + appPermission);
+                appAuthorizationMap.put(pckName, appPermission);
+            }
+            if (isInstalled("tv.o2.o2") && !appAuthorizationMap.containsKey("tv.o2.o2")) {
+                appAuthorizationMap.put("tv.o2.o2", "null");
+            }
+            return appAuthorizationMap;
+
+        }
+
+        public Map<String, String> getActions() throws RemoteException {
+            Log.d(TAG, FILE + "<getActions> ");
+            Map<String, String> appActionsMap = new ArrayMap<String, String>();
+            List<ApplicationsState.AppEntry> mAppEntryList = getAppEntryList();
+            for (ApplicationsState.AppEntry appEntry : mAppEntryList) {
+                if (appEntry == null) {
+                    Log.d(TAG, FILE + "<getActions> continue");
+                    continue;
+                }
+                String pckName = appEntry.info.packageName;
+                Log.d(TAG, FILE + "<getActions> pckName = " + pckName);
+                Intent appLaunchIntent =
+                        mPm.getLeanbackLaunchIntentForPackage(pckName);
+                if (appLaunchIntent == null) {
+                    Log.d(TAG, FILE + "<getActions> appLaunchIntent == null");
+                    appLaunchIntent = mPm.getLaunchIntentForPackage(pckName);
+                }
+                if (appLaunchIntent != null) {
+                    String action = appLaunchIntent.getAction();
+                    if (!action.isEmpty()) {
+                        appActionsMap.put(pckName, action);
+                        Log.d(TAG, FILE + "<getActions> action = " + action);
+                    }
+                }
+            }
+            if (isInstalled("tv.o2.o2") && !appActionsMap.containsKey("tv.o2.o2")) {
+                appActionsMap.put("tv.o2.o2", "android.intent.action.MAIN");
+            }
+            return appActionsMap;
+        }
+    }
+
+    private List<UsageStats> getAppList() {
+        final List<UsageStats> apps = new ArrayList();
+        final Map<String, UsageStats> map = new ArrayMap();
+        final int statCount = mStats.size();
+        for (int i = 0; i < statCount; i++) {
+            final UsageStats pkgStats = mStats.get(i);
+            final String pkgName = pkgStats.getPackageName();
+            Log.d(TAG, FILE + "<getAppList> pkgName = " + pkgName);
+            if (!shouldIncludePkgInRecents(pkgStats)) {
+                continue;
+            }
+
+            final UsageStats existingStats = map.get(pkgName);
+            if (existingStats == null) {
+                map.put(pkgName, pkgStats);
+            } else {
+                existingStats.add(pkgStats);
+            }
+        }
+        final List<UsageStats> packageStats = new ArrayList();
+        packageStats.addAll(map.values());
+        //Collections.sort(packageStats, this /* comparator */);
+        //int count = 0;
+        for (UsageStats stat : packageStats) {
+            final ApplicationsState.AppEntry appEntry = mApplicationsState.getEntry(
+                    stat.getPackageName(), mUserId);
+            if (appEntry == null) {
+                continue;
+            }
+            apps.add(stat);
+            /*count++;
+            if (count >= SHOW_RECENT_APP_COUNT) {
+                break;
+            }*/
+        }
+        return apps;
+    }
+
+    /**
+     * Whether or not the app should be included in recent list.
+     */
+    private boolean shouldIncludePkgInRecents(UsageStats stat) {
+        final String pkgName = stat.getPackageName();
+        /*if (stat.getLastTimeUsed() < mCal.getTimeInMillis()) {
+            Log.d(TAG, "Invalid timestamp, skipping " + pkgName);
+            return false;
+        }*/
+
+        /*if (SKIP_SYSTEM_PACKAGES.contains(pkgName)) {
+            Log.d(TAG, "System package, skipping " + pkgName);
+            return false;
+        }*/
+        final Intent launchIntent = new Intent().addCategory(Intent.CATEGORY_LEANBACK_LAUNCHER)
+                .setPackage(pkgName);
+
+        if (mPm.resolveActivity(launchIntent, 0) == null) {
+            // Not visible on launcher -> likely not a user visible app, skip if non-instant.
+            final ApplicationsState.AppEntry appEntry =
+                    mApplicationsState.getEntry(pkgName, mUserId);
+            if (appEntry == null || appEntry.info == null /*|| !AppUtils.isInstant(appEntry.info)*/) {
+                Log.d(TAG, FILE + "Not a user visible or instant app, skipping " + pkgName);
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public List<ApplicationsState.AppEntry> getAppEntryList() {
+        Log.d(TAG, FILE + "<getAppEntryList> ");
+        List<ApplicationsState.AppEntry> mAppEntryList = new ArrayList<ApplicationsState.AppEntry>();
+
+        final List<UsageStats> apps = new ArrayList();
+        final Map<String, UsageStats> map = new ArrayMap();
+        final int statCount = mStats.size();
+        for (int i = 0; i < statCount; i++) {
+            final UsageStats pkgStats = mStats.get(i);
+            if (!shouldIncludePkgInRecents(pkgStats)) {
+                continue;
+            }
+            final String pkgName = pkgStats.getPackageName();
+            final UsageStats existingStats = map.get(pkgName);
+            if (existingStats == null) {
+                map.put(pkgName, pkgStats);
+            } else {
+                existingStats.add(pkgStats);
+            }
+        }
+        final List<UsageStats> packageStats = new ArrayList();
+        packageStats.addAll(map.values());
+        //Collections.sort(packageStats, this /* comparator */);
+
+        for (UsageStats stat : packageStats) {
+            final ApplicationsState.AppEntry appEntry = mApplicationsState.getEntry(
+                    stat.getPackageName(), mUserId);
+            if (appEntry == null) {
+                continue;
+            }
+            mAppEntryList.add(appEntry);
+        }
+        return mAppEntryList;
+    }
+
+    private String Int2Category(int category) {
+        switch (category) {
+            case CATEGORY_UNDEFINED:
+                return STRING_CATEGORY_UNDEFINED;
+            case CATEGORY_GAME:
+                return STRING_CATEGORY_GAME;
+            case CATEGORY_AUDIO:
+                return STRING_CATEGORY_AUDIO;
+            case CATEGORY_VIDEO:
+                return STRING_CATEGORY_VIDEO;
+            case CATEGORY_IMAGE:
+                return STRING_CATEGORY_IMAGE;
+            case CATEGORY_SOCIAL:
+                return STRING_CATEGORY_SOCIAL;
+            case CATEGORY_NEWS:
+                return STRING_CATEGORY_NEWS;
+            case CATEGORY_MAPS:
+                return STRING_CATEGORY_MAPS;
+            case CATEGORY_PRODUCTIVITY:
+                return STRING_CATEGORY_PRODUCTIVITY;
+        }
+        return STRING_CATEGORY_UNDEFINED;
+    }
+
+    private boolean isInstalled(String packName) {
+        PackageManager mPackageManager = getPackageManager();
+        try {
+            mPackageManager.getPackageInfo(packName, PackageManager.GET_ACTIVITIES);
+            Log.d(TAG, FILE + "<isInstalled> true");
+            return true;
+        } catch (Exception e) {
+            Log.d(TAG, FILE + "<isInstalled> false");
+            return false;
+        }
+    }
+}

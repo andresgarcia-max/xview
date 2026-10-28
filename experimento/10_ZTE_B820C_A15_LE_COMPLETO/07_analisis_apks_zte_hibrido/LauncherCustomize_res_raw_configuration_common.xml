@@ -1,0 +1,6 @@
+
+<configuration>
+	<partner-package-notification-whitelist>
+		<package-name>com.zte.netmanager</package-name>
+	</partner-package-notification-whitelist>
+</configuration>

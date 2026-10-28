@@ -1,0 +1,10 @@
+*.inf binary
+*.cat binary
+*.sys binary
+*.ini binary
+*.PARTITION binary
+*.img binary
+*.so binary
+*.apk binary
+*.exe binary
+*.dll binary

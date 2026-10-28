@@ -1,0 +1,160 @@
+package com.zte.adb.common;
+
+import android.content.Context;
+import android.util.Log;
+
+class UtilsInstance{
+	private static final String TAG = "[Settings]";
+	private static final String FILE = "[UtilsInstance]";
+	private static final String KEY_SECTION = "Common";
+	private static final String KEY_EXT_SECTION = "Common_ext"; 
+	//private static ClientManager clientManagerProxy = new ClientManager();
+	private static int mMarketCode = 0;
+	private static int mOperatorsCode = 0;
+	private Context mContext;
+
+	/*static
+	{
+		mMarketCode = clientManagerProxy.GetConfigInteger(KEY_SECTION, "MarketCode");
+		mOperatorsCode = clientManagerProxy.GetConfigInteger(KEY_SECTION, "OperatorsCode");
+		Log.d(TAG, FILE + " [static] class UtilsInstance --> mMarketCode = " + mMarketCode
+			+ ", mOperatorsCode = " +	mOperatorsCode);
+	}*/
+
+	/**
+	* return IPTV operators code, such as PrivateSettingCommon.CHINA_DIANXIN and so on.
+	*/
+	public static int getOperatorsCode()
+	{
+	    return mOperatorsCode;
+	}
+
+	/**
+	* return IPTV operators code, such as PrivateSettingCommon.BEIJING and so on.
+	*/
+	public static int getMarketCode()
+	{
+	    return mMarketCode;
+	}
+
+
+	public static boolean isUTF8(byte[] rawtext) {
+        int score = 0; 
+        int i, rawtextlen = 0; 
+        int goodbytes = 0, asciibytes = 0; 
+        // Maybe also use UTF8 Byte Order Mark: EF BB BF 
+        // Check to see if characters fit into acceptable ranges 
+        rawtextlen = rawtext.length; 
+        for (i = 0; i < rawtextlen; i++) { 
+            if ((rawtext[i] & (byte) 0x7F) == rawtext[i]) {  
+                asciibytes++; 
+                // Ignore ASCII, can throw off count 
+            } else if (-64 <= rawtext[i] && rawtext[i] <= -33 
+                //-0x40~-0x21 
+                && // Two bytes 
+                i + 1 < rawtextlen && -128 <= rawtext[i + 1] 
+                && rawtext[i + 1] <= -65) { 
+                goodbytes += 2; 
+                i++; 
+            } else if (-32 <= rawtext[i] 
+                && rawtext[i] <= -17
+                && // Three bytes
+                i + 2 < rawtextlen && -128 <= rawtext[i + 1]
+                && rawtext[i + 1] <= -65 && -128 <= rawtext[i + 2]
+                && rawtext[i + 2] <= -65) {
+                goodbytes += 3;
+                i += 2;
+            } 
+        } 
+        if (asciibytes == rawtextlen) { 
+            return false; 
+        } 
+        score = 100 * goodbytes / (rawtextlen - asciibytes); 
+        // If not above 98, reduce to zero to prevent coincidental matches 
+        // Allows for some (few) bad formed sequences 
+        if (score > 98) { 
+            return true; 
+        } else if (score > 95 && goodbytes > 30) { 
+            return true; 
+        } else { 
+            return false;
+        }
+    } 
+
+    /**
+    * @hide
+    */
+    public static String bytes2HexString(byte[] aData/*, int len*/) {
+        StringBuilder stringBuilder = new StringBuilder("");
+        if (null == aData || aData.length <= 0) {
+            return null;
+        }
+        for (int i = 0; i < aData.length; i++) {
+            int v = aData[i] & 0xFF;
+            String hv = Integer.toHexString(v);
+            if (hv.length() < 2) {
+                stringBuilder.append(0);
+            }
+            stringBuilder.append(hv);
+        }
+		String strHex = stringBuilder.toString();
+		Log.d(TAG, FILE + " [bytes2HexString] ====> bytes2HexLog -- strHex = " + strHex);
+		
+        return strHex;
+    }
+
+	/**
+	* @hide
+	*/
+	public static byte[] intToByte(int item){
+		byte bArray[] = new byte[4];
+		for (int i = 0; i < bArray.length; i++){
+			bArray[i] = (new Integer(item & 0xff)).byteValue();
+			item >>= 8;
+		}
+
+		return bArray;
+	}
+
+	/**
+	* @hide
+	*/
+	public static int byteToInt(byte bArray[]){
+		int a = 0;
+		for (int i = 0; i < bArray.length; i++)
+			a += (bArray[i] & 0xff) << 8 * i;
+
+		return a;
+	}
+
+	public static int getIPVersion(ClientManager cm)
+	{
+	    int ipVersion = 0;
+	    int configVersion = cm.GetConfigInteger(KEY_SECTION, "IPVersion");
+	    switch(configVersion)
+	    {
+	    case 0://IPv4
+	        ipVersion = 0;
+	        break;
+	    case 1://IPv4 or IPv6
+	        ipVersion = 2;
+	        break;
+	    case 2://IPv6
+	        ipVersion = 1;
+	        break;
+	    default:
+	        break;
+	    }
+	    return ipVersion;
+	}
+
+	/*public static int GetConfigInteger(String szSection, String szKey)
+	{
+		return clientManagerProxy.GetConfigInteger(szSection, szKey);
+	}
+
+	public static int SetConfigInteger(String szSection, String szKey, int iValue)
+	{
+		return clientManagerProxy.SetConfigInteger(szSection, szKey, iValue);
+	}*/
+}
