@@ -1,0 +1,629 @@
+﻿================ ANCHOR: BL2 Built : (at 5713566) ================
+BL2 Built : 14:43:12, Jun 17 2020. g12a g5b1c0d3 - shen.liu@droid11
+-sz
+Board ID = 8
+Set cpu clk to 24M
+Set clk81 to 24M
+CPU clk: 1200 MHz
+Set clk81 to 166.6M
+eMMC boot @ 0
+sw8 s
+OTP_ARB=00000001
+DDR driver_vesion: LPDDR4_PHY_V_0_1_21 build time: Jun 17 2020 14:4
+3:08
+Get wrong ddr fw magic! Error!!
+fw parse done
+Load ddrfw from eMMC, src: 0x00060200, des: 0xfffd0000, size: 0x000
+0c000, part: 0
+Load ddrfw from eMMC, src: 0x00038200, des: 0xfffd0000, size: 0x000
+04000, part: 0
+PIEI prepare done
+00000000
+emmc switch 1 ok
+00000000
+emmc switch 2 ok
+fastboot data verify
+result: 255
+Cfg max: 12, cur: 1. Board id: 255. Force loop cfg
+DDR4 probe
+ddr clk to 1176MHz
+Load ddrfw from eMMC, src: 0x00014200, des: 0xfffd0000, size: 0x000
+dmc_version 0000
+Check phy result
+INFO : End of initialization
+INFO : End of read enable training
+INFO : End of fine write leveling
+INFO : End of read dq deskew training
+INFO : ERROR : Training has failed!
+1D training failed
+Cfg max: 12, cur: 2. Board id: 255. Force loop cfg
+DDR4 probe
+ddr clk to 1176MHz
+Load ddrfw from eMMC, src: 0x00014200, des: 0xfffd0000, size: 0x000
+0c000, part: 0
+dmc_version 0000
+Check phy result
+INFO : End of initialization
+INFO : End of read enable training
+INFO : End of fine write leveling
+INFO : End of read dq deskew training
+INFO : End of MPR read delay center optimization
+INFO : End of Write leveling coarse delay
+INFO : End of write delay center optimization
+INFO : End of read delay center optimization
+INFO : End of max read latency training
+INFO : Training has run successfully!
+1D training succeed
+Load ddrfw from eMMC, src: 0x00020200, des: 0xfffd0000, size: 0x000
+0c000, part: 0
+INFO : End of 2D write delay Voltage center optimization
+INFO : Training has run successfully!
+soc_vref_reg_value 0x 00000033 00000032 00000032 00000033 00000033 
+00000035 00000033 00000032 00000034 00000033 00000034 00000035 0000
+0031 00000032 00000035 00000033 00000036 00000032 00000034 00000033
+ 00000035 00000035 00000031 00000032 00000036 00000036 00000035 000
+00032 00000030 00000032 00000034 00000033 dwc_ddrphy_apb_wr((0<<20)
+|(2<<16)|(0<<12)|(0xb0):0001 
+ dram_vref_reg_value 0x 0000001c
+2D training succeed
+aml_ddr_fw_vesion: LPDDR4_PHY_V_0_1_21 build time: Nov 19 2019 17:2
+1:16
+auto size-- 65535DDR cs0 size: 2048MB
+DDR cs1 size: 0MB
+DMC_DDR_CTRL: 0050002cDDR size: 2048MB
+cs0 DataBus test pass
+cs0 AddrBus test pass
+non-sec scramble use zero key
+ddr scramble enabled
+100bdlr_step_size ps== 438
+result report
+boot times 0Enable ddr reg access
+00000000
+emmc switch 3 ok
+BL2: rpmb counter: 0x0000005e
+00000000
+emmc switch 0 ok
+Load BL3X from eMMC, src: 0x0006c200, des: 0x0175c000, size: 0x0014
+0000, part: 0
+0.0;0.0;M3 CHK:0;cm4_sp_mode 0
+MVN_1=0x00000000
+MVN_2=0x00000000
+[Image: g12a_v1.1.3382-173caa3 2019-09-26 18:26:21 luan.yuan@droid1
+5-sz]
+OPS=0x40
+ring efuse init
+28 0c 40 00 01 19 10 00 00 0e 34 32 35 57 33 50 
+[0.052071 Inits done]
+secure task start!
+high task start!
+low task start!
+run into bl31
+NOTICE:  BL31: v1.3(release):f941450
+NOTICE:  BL31: Built : 20:39:13, Sep 24 2019
+NOTICE:  BL31: G12A secure boot!
+NOTICE:  BL31: BL33 decompress pass
+INFO:    BL3-2: ATOS-V2.4.2-36-g1b730d08 #1 Wed Feb 5 17:47:09 2020
+ +0800 arm
+INFO:    BL3-2: Chip: G12A Rev: C (28:C - 40:2)
+INFO:    BL3-2: crypto engine DMA
+INFO:    BL3-2: secure time TEE
+INFO:    BL3-2: CONFIG_DEVICE_SECURE 0xb200000e
+U-Boot 2015.01-gc7c0e9b (Jul 08 2021 - 07:12:09)
+DRAM:  2 GiB
+Relocation Offset is: 76d59000
+spi_post_bind(spifc): req_seq = 0
+register usb cfg[0][1] = 0000000077e945c0
+[CANVAS]canvas init
+================ ANCHOR: U-Boot 2015.01 (at 5718980) ================
+ +0800 arm
+INFO:    BL3-2: Chip: G12A Rev: C (28:C - 40:2)
+INFO:    BL3-2: crypto engine DMA
+INFO:    BL3-2: secure time TEE
+INFO:    BL3-2: CONFIG_DEVICE_SECURE 0xb200000e
+U-Boot 2015.01-gc7c0e9b (Jul 08 2021 - 07:12:09)
+DRAM:  2 GiB
+Relocation Offset is: 76d59000
+spi_post_bind(spifc): req_seq = 0
+register usb cfg[0][1] = 0000000077e945c0
+[CANVAS]canvas init
+NAND:  get_sys_clk_rate_mtd() 270, clock setting 200!
+NAND device id: 0 ff ff ff ff ff 
+No NAND device found!!!
+nand init failed: -6
+get_sys_clk_rate_mtd() 270, clock setting 200!
+NAND device id: 0 ff ff ff ff ff 
+No NAND device found!!!
+nand init failed: -6
+MMC:   aml_priv->desc_buf = 0x0000000073d49710
+aml_priv->desc_buf = 0x0000000073d4ba50
+SDIO Port B: 0, SDIO Port C: 1
+co-phase 0x2, tx-dly 0, clock 400000
+emmc/sd response timeout, cmd8, status=0x1ff2800
+emmc/sd response timeout, cmd55, status=0x1ff2800
+co-phase 0x2, tx-dly 0, clock 40000000
+[set_emmc_calc_fixed_adj][866]find fixed adj_delay=20
+init_part() 297: PART_TYPE_AML
+[mmc_init] mmc init success
+      Amlogic multi-dtb tool
+      GZIP format, decompress...
+      Multi dtb detected
+saradc get val = 688
+saradc_ext get val = 85
+-----board_version[20], board_version_ext[1]
+checkhw - board_id:0x14
+checkhw - ddr_size: 0x80000000
+checkhw - name: g12a_u212_2g1, loc_name: g12a_u212_2g1
+      Multi dtb tool version: v2 .
+      Support 3 dtbs.
+        aml_dt soc: g12a platform: u212 variant: 2g1
+        dtb 0 soc: g12a   plat: u212   vari: 1g
+        dtb 1 soc: g12a   plat: u212   vari: 2g
+        dtb 2 soc: g12a   plat: u212   vari: 2g1
+      Find match dtb: 2
+start dts,buffer=0000000073d4e2c0,dt_addr=0000000073d4e2c0
+get_partition_from_dts() 71: ret 0
+      Amlogic multi-dtb tool
+      Single dtb detected
+parts: 18
+00:      logo   0000000000800000 1
+01:  recovery   0000000001800000 1
+02:      misc   0000000000800000 1
+03:      conf   0000000000400000 1
+04:      dtbo   0000000000800000 1
+05:  cri_data   0000000000800000 2
+06:     param   0000000001000000 2
+07:      boot   0000000001000000 1
+set has_boot_slot = 0
+08:       rsv   0000000001000000 1
+09:  metadata   0000000001000000 1
+10:    vbmeta   0000000000200000 1
+11:       tee   0000000002000000 1
+12:     cache   000000003e800000 2
+13:    vendor   0000000010000000 1
+14:       odm   0000000002000000 1
+15:    system   000000005c000000 1
+16:   product   0000000002000000 1
+17:      data   ffffffffffffffff 4
+init_part() 297: PART_TYPE_AML
+eMMC/TSD partition table have been checked OK!
+crc32_s:0x1577dad == storage crc_pattern:0x1577dad!!!
+crc32_s:0xee152b83 == storage crc_pattern:0xee152b83!!!
+crc32_s:0x7fd3b243 == storage crc_pattern:0x7fd3b243!!!
+mmc env offset: 0x45c00000 
+In:    serial
+Out:   serial
+Err:   serial
+reboot_mode(0xff80023c)=0x0
+reboot_mode=cold_boot
+smallsnap do gpio input GPIOH_8 now_ldh
+gpio: pin GPIOH_8 (gpio 39) value is 0
+gpio: pin GPIOH_5 (gpio 36) value is 0
+gpio: pin GPIOAO_4 (gpio 4) value is 1
+gpio: pin GPIOAO_2 (gpio 2) value is 0
+[store]To run cmd[emmc dtb_read 0x1000000 0x40000]
+_verify_dtb_checksum()-3477: calc 71722745, store 71722745
+dtb_read()-3694: total valid 2
+update_old_dtb()-3675: do nothing
+      Amlogic multi-dtb tool
+      GZIP format, decompress...
+      Multi dtb detected
+saradc get val = 689
+================ ANCHOR: Kernel command line: init=/init (at 5745173) ================
+on CPU0
+[    0.000000@0] CPU features: enabling workaround for ARM erratum 
+845719
+[    0.000000@0] Built 1 zonelists in Zone order, mobility grouping
+ on.  Total pages: 516096
+[    0.000000@0] Kernel command line: init=/init ramoops.pstore_en=
+1 ramoops.record_size=0x8000 ramoops.console_size=0x4000 console=tt
+yS0,115200 no_console_suspend earlyprintk=aml-uart,0xff803000 hdr_p
+riority= otg_device=0 reboot_mode_android=normal logo=osd0,loaded,0
+x3d800000 vout=1080p60hz,enable panel_type=lcd_1 hdmitx=,420,12bit 
+hdmimode=1080p60hz hdmichecksum=0xe3770000 dolby_vision_on=0 frac_r
+ate_policy=1 hdmi_read_edid=1 cvbsmode=480cvbs osd_reverse=0 video_
+reverse=0 irq_check_en=0 androidboot.selinux=enforcing androidboot.
+firstboot=0 jtag=disable androidboot.hardware=amlogic androidboot.s
+erialno=1234567890 init=/init ramoops.pstore_en=1 ramoops.record_si
+ze=0x8000 ramoops.console_size=0x4000 console=ttyS0,115200 no_conso
+le_suspend earlyprintk=aml-uart,0xff803000 hdr_priority= otg_device
+=0 reboot_mode_android=normal logo=osd0,loaded,0x3d800000 vout=1080
+p60hz,enable panel_type=lcd_1 hdmitx=,420,12bit hdmimode=1080p60hz 
+hdmichecksum=0xe3770000 dolby_vision_on=0 frac_rate_policy=1 hdmi_r
+[    0.000000@0] fb: osd0
+[    0.000000@0] fb: loaded
+[    0.000000@0] fb: 0x3d800000
+[    0.000000@0] vout: 1080p60hz
+[    0.000000@0] vout: enable: 1
+[    0.000000@0] lcd: panel_type: lcd_1
+[    0.000000@0] vout: get hdmimode: 1080p60hz
+[    0.000000@0] vout: get hdmi checksum: 0xe3770000
+[    0.000000@0] get_dolby_on: 0
+[    0.000000@0] hdmitx: hdmitx boot frac_rate_policy: 1
+[    0.000000@0] vout: get cvbsmode: 480cvbs
+[    0.000000@0] vpp_axis_reverse: bootargs is 0
+[    0.000000@0] DI: di_read_canvas_reverse: bootargs is 0.
+[    0.000000@0] vdin_get_video_reverse: bootargs is 0.
+[    0.000000@0] phlock_phase_config: bootargs is 0.
+[    0.000000@0] jtag: jtag select disable
+[    0.000000@0] fb: osd0
+[    0.000000@0] fb: loaded
+[    0.000000@0] fb: 0x3d800000
+[    0.000000@0] vout: 1080p60hz
+[    0.000000@0] vout: enable: 1
+[    0.000000@0] lcd: panel_type: lcd_1
+[    0.000000@0] vout: get hdmimode: 1080p60hz
+[    0.000000@0] vout: get hdmi checksum: 0xe3770000
+[    0.000000@0] get_dolby_on: 0
+[    0.000000@0] hdmitx: hdmitx boot frac_rate_policy: 1
+[    0.000000@0] vout: get cvbsmode: 480cvbs
+[    0.000000@0] vpp_axis_reverse: bootargs is 0
+[    0.000000@0] DI: di_read_canvas_reverse: bootargs is 0.
+[    0.000000@0] vdin_get_video_reverse: bootargs is 0.
+[    0.000000@0] phlock_phase_config: bootargs is 0.
+[    0.000000@0] jtag: jtag select disable
+[    0.000000@0] system = recovery,set system_mode=recovery
+[    0.000000@0] board_type = 20
+[    0.000000@0] device-mapper: init: will configure 1 devices
+[    0.000000@0] PID hash table entries: 4096 (order: 3, 32768 byte
+s)
+[    0.000000@0] Dentry cache hash table entries: 262144 (order: 9,
+ 2097152 bytes)
+[    0.000000@0] Inode-cache hash table entries: 131072 (order: 8, 
+1048576 bytes)
+[    0.000000@0] Memory: 1353096K/2097152K available (13820K kernel
+ code, 1844K rwdata, 5588K rodata, 5184K init, 1541K bss, 72312K re
+served, 671744K cma-reserved)
+[    0.000000@0] Virtual kernel memory layout:
+[    0.000000@0]     modules : 0xffffff8000000000 - 0xffffff8008000
+000   (   128 MB)
+[    0.000000@0]     vmalloc : 0xffffff8008000000 - 0xffffffbebfff0
+000   (   250 GB)
+[    0.000000@0]       .text : 0xffffff8009080000 - 0xffffff8009e00
+000   ( 13824 KB)
+[    0.000000@0]     .rodata : 0xffffff8009e00000 - 0xffffff800a380
+000   (  5632 KB)
+[    0.000000@0]       .init : 0xffffff800a380000 - 0xffffff800a890
+000   (  5184 KB)
+[    0.000000@0]       .data : 0xffffff800a890000 - 0xffffff800aa5d
+200   (  1845 KB)
+[    0.000000@0]        .bss : 0xffffff800aa5d200 - 0xffffff800abde
+72c   (  1542 KB)
+[    0.000000@0]     fixed   : 0xffffffbefe7fd000 - 0xffffffbefec00
+000   (  4108 KB)
+[    0.000000@0]     PCI I/O : 0xffffffbefee00000 - 0xffffffbeffe00
+000   (    16 MB)
+[    0.000000@0]     vmemmap : 0xffffffbf00000000 - 0xffffffc000000
+000   (     4 GB maximum)
+[    0.000000@0]               0xffffffbf00000000 - 0xffffffbf02000
+000   (    32 MB actual)
+[    0.000000@0]     memo
+================ ANCHOR: [mmcblk0p01] (at 5805700) ================
+[    3.948668@3] meson-mmc: Enter aml_emmc_partition_ops
+[    3.949000@3] meson-mmc: [mmc_read_partition_tbl] mmc read parti
+tion OK!
+[    3.949002@3] meson-mmc: add_emmc_partition
+[    3.949159@3] meson-mmc: [mmcblk0p01]           bootloader  offs
+et 0x000000000000, size 0x000000400000 
+[    3.949289@3] meson-mmc: [mmcblk0p02]             reserved  offs
+et 0x000002400000, size 0x000004000000 
+[    3.949403@3] meson-mmc: [mmcblk0p03]                cache  offs
+et 0x000006c00000, size 0x00003e800000 
+[    3.949511@3] meson-mmc: [mmcblk0p04]                  env  offs
+et 0x000045c00000, size 0x000000800000 
+[    3.949628@3] meson-mmc: [mmcblk0p05]                 logo  offs
+et 0x000046c00000, size 0x000000800000 
+[    3.949740@3] meson-mmc: [mmcblk0p06]             recovery  offs
+et 0x000047c00000, size 0x000001800000 
+[    3.949855@3] meson-mmc: [mmcblk0p07]                 misc  offs
+et 0x000049c00000, size 0x000000800000 
+[    3.950041@3] meson-mmc: [mmcblk0p08]                 conf  offs
+et 0x00004ac00000, size 0x000000400000 
+[    3.950155@3] meson-mmc: [mmcblk0p09]                 dtbo  offs
+et 0x00004b800000, size 0x000000800000 
+[    3.950284@3] meson-mmc: [mmcblk0p10]             cri_data  offs
+et 0x00004c800000, size 0x000000800000 
+[    3.950408@3] meson-mmc: [mmcblk0p11]                param  offs
+et 0x00004d800000, size 0x000001000000 
+[    3.950517@3] meson-mmc: [mmcblk0p12]                 boot  offs
+et 0x00004f000000, size 0x000001000000 
+[    3.950629@3] meson-mmc: [mmcblk0p13]                  rsv  offs
+et 0x000050800000, size 0x000001000000 
+[    3.950741@3] meson-mmc: [mmcblk0p14]             metadata  offs
+et 0x000052000000, size 0x000001000000 
+[    3.950889@3] meson-mmc: [mmcblk0p15]               vbmeta  offs
+et 0x000053800000, size 0x000000200000 
+[    3.951003@3] meson-mmc: [mmcblk0p16]                  tee  offs
+et 0x000054200000, size 0x000002000000 
+[    3.951112@3] meson-mmc: [mmcblk0p17]               vendor  offs
+et 0x000056a00000, size 0x000010000000 
+[    3.951236@3] meson-mmc: [mmcblk0p18]                  odm  offs
+et 0x000067200000, size 0x000002000000 
+[    3.951347@3] meson-mmc: [mmcblk0p19]               system  offs
+et 0x000069a00000, size 0x00005c000000 
+[    3.951457@3] meson-mmc: [mmcblk0p20]              product  offs
+et 0x0000c6200000, size 0x000002000000 
+[    3.951569@3] meson-mmc: [mmcblk0p21]                 data  offs
+et 0x0000c8a00000, size 0x000109600000 
+[    3.951592@3] card key: card_blk_probe.
+[    3.951597@3] emmc_key_init:183 emmc key lba_start:0x12020,lba_e
+nd:0x12220
+[    3.951600@3] emmc key: emmc_key_init:205 ok.
+[    3.953611@3] meson-mmc: amlmmc_dtb_init: register dtb chardev
+[    3.953612@3] meson-mmc: calc 71722745, store 71722745
+[    3.954887@1] meson-mmc: meson_mmc_probe() : success!
+[    3.955099@1] amlogic mtd driver init
+[    3.955486@3] meson-mmc: calc 71722745, store 71722745
+[    3.955488@3] meson-mmc: total valid 2
+[    3.955751@3] meson-mmc: amlmmc_dtb_init: register dtb chardev O
+[    3.955751@3] meson-mmc: Exit aml_emmc_partition_ops OK.
+[    3.956013@0] aml_vrtc rtc: rtc core: registered aml_vrtc as rtc
+[    3.957037@0] cectx ff80023c.aocec: cec driver date:2020/03/16:r
+eduece no msg in sleep time
+[    3.957037@0] 
+[    3.957497@1] input: cec_input as /devices/virtual/input/input2
+[    3.957635@3] cectx ff80023c.aocec: not find 'port_num'
+[    3.957639@3] cectx ff80023c.aocec: using cec:1
+[    3.957682@3] cectx ff80023c.aocec: no hdmirx regs
+[    3.957684@3] cectx ff80023c.aocec: no hhi regs
+[    3.957695@3] cectx ff80023c.aocec: not find 'output'
+[    3.957707@3] cec: wake up flag:0
+[    3.959208@3] cectx ff80023c.aocec: irq cnt:2
+[    3.959446@3] cectx ff80023c.aocec: wakeup_reason:0x0
+[    3.959530@3] cectx ff80023c.aocec: cev val1: 0x0;val2: 0x0
+[    3.959534@3] cectx ff80023c.aocec: aml_cec_probe success end
+[    3.959916@3] unifykey: storage in base: 0xffffffc005000000
+[    3.959917@3] unifykey: storage out base: 0xffffffc005040000
+[    3.959919@3] unifykey: storage block base: 0xffffffc005080000
+[    3.959920@3] unifykey: probe done!
+[    3.960355@3] unifykey: no efuse-version set, use default value:
+ -1
+[    3.960357@3] unifykey: key unify config unifykey-num is 16
+[    3.960442@3] unifykey: key unify fact unifykey-num is 16
+[    3.960451@3] uni
+================ ANCHOR: dwc3 ff500000 (at 5829815) ================
+0 mapping ok
+[    5.269215@1] snd_card_add_kcontrols card:ffffffc055497018
+[    5.269245@1] effect_v2 is not init
+[    5.269249@1] Failed to add VAD controls
+[    5.269266@1] eq/drc v1 function enable
+[    5.295811@1] dwc3 ff500000.dwc3: Configuration mismatch. dr_mod
+e forced to host
+[    5.298652@1] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    5.298670@1] xhci-hcd xhci-hcd.0.auto: new USB bus registered, 
+assigned bus number 1
+[    5.299056@1] xhci-hcd xhci-hcd.0.auto: hcc params 0x0228fe6c hc
+i version 0x110 quirks 0x20010010
+[    5.299153@1] xhci-hcd xhci-hcd.0.auto: irq 14, io mem 0xff50000
+[    5.299924@3] hub 1-0:1.0: USB hub found
+[    5.299950@3] hub 1-0:1.0: 2 ports detected
+[    5.300283@3] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    5.300294@3] xhci-hcd xhci-hcd.0.auto: new USB bus registered, 
+assigned bus number 2
+[    5.300350@3] usb usb2: We don't know the algorithms for LPM for
+ this host, disabling LPM.
+[    5.300866@0] hub 2-0:1.0: USB hub found
+[    5.300888@0] hub 2-0:1.0: 1 port detected
+[    5.301536@0] aml_vrtc rtc: setting system clock to 2015-01-01 0
+0:00:14 UTC (1420070414)
+[    5.301986@0] dwc_otg: usb0: type: 2 speed: 0, config: 0, dma: 0
+, id: 0, phy: ffe09000, ctrl: 0
+[    5.301989@0] dwc_otg_driver_probe host only, not probe usb_otg!
+!!
+[    5.303499@0] meson_cdev probe
+[    5.303514@0] thermal: read gpupp failed
+[    5.303687@0] meson_cdev index: 0
+[    5.303836@0] thermal: read gpupp failed
+[    5.303900@0] meson_cdev index: 1
+[    5.303905@0] cpucore_cooling_register, max_cpu_core_num:4
+[    5.304026@0] meson_cdev index: 2
+[    5.304032@0] thermal: read gpupp failed
+[    5.304050@0] meson_cdev index: 3
+[    5.304091@0] find tzd id: 0
+[    5.304245@0] find tzd id: 0
+[    5.304284@0] meson_cdev probe done
+[    5.304479@0] gxbb_pm: enter meson_pm_probe!
+[    5.304541@0] gxbb_pm: meson_pm_probe done
+[    5.305021@0] ALSA device list:
+[    5.305023[    6.677685@3] meson_uart ff803000.serial: ttyS0 use
+ xtal(24M) 24000000 change 115200 to 115200
+[    6.682587@3] Freeing unused kernel memory: 5184K
+[    6.685348@3] lcd vlock_en=1, vlock_mode=0x4
+[    6.702995@3] init: init first stage started!
+[    6.703087@3] init: First stage mount skipped (recovery mode)
+[    6.707997@3] init: Using Android DT directory /proc/device-tree
+/firmware/android/
+[    6.761518@3] init: [libfs_mgr]Returning avb_handle with status:
+ 0
+[    6.762693@3] init: Loading SELinux policy
+[    6.883095@3] audit: type=1403 audit(1420070416.080:2): policy l
+oaded auid=4294967295 ses=4294967295
+[    6.886854@3] selinux: SELinux: Loaded policy from /sepolicy
+[    6.886854@3] 
+[    6.894629@3] audit: type=1404 audit(1420070416.088:3): enforcin
+g=1 old_enforcing=0 auid=4294967295 ses=4294967295
+[    6.926927@3] selinux: SELinux: Loaded file_contexts
+[    6.926927@3] 
+[    6.931235@3] init: init second stage started!
+[    6.954434@3] init: Using Android DT directory /proc/device-tree
+/firmware/android/
+[    6.957607@3] init: Init cannot set 'ro.boot.selinux' to 'enforc
+ing': Read-only property was already set
+[    6.965883@3] init: Init cannot set 'ro.boot.firstboot' to '0': 
+Read-only property was already set
+[    6.974795@3] init: Init cannot set 'ro.boot.hardware' to 'amlog
+ic': Read-only property was already set
+[    6.984165@3] init: Init cannot set 'ro.boot.serialno' to '12345
+67890': Read-only property was already set
+[    6.997867@3] selinux: SELinux: Loaded file_contexts
+[    6.997867@3] 
+[    7.000346@3] init: Running restorecon...
+[    7.012420@3] init: waitid failed: No child processes
+[    7.012523@3] init: Couldn't load property file '/system/etc/pro
+p.default': open() failed: No such file or directory: No such file 
+or directory
+[    7.034686@3] audit: type=1400 audit(1420070416.228:4): avc:  de
+nied  { create } for  pid=1 comm="init" name="cgroup.procs" scontex
+t=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=
+[    7.038434@0] ueventd: ueventd started!
+[    7.042251@0] selinux: SELinux: Loaded file_contexts
+[    7.042251@0] 
+[    7.042316@0] ueventd: Parsing file /ueventd.rc...
+[    7.043147@0] ueventd: Parsing file /vendor/ueventd.rc...
+[    7.043200@0] ueventd: Unable to read config file '/vendor/ueven
+================ ANCHOR: init first stage started (at 5832567) ================
+[    6.677685@3] meson_uart ff803000.serial: ttyS0 use
+ xtal(24M) 24000000 change 115200 to 115200
+[    6.682587@3] Freeing unused kernel memory: 5184K
+[    6.685348@3] lcd vlock_en=1, vlock_mode=0x4
+[    6.702995@3] init: init first stage started!
+[    6.703087@3] init: First stage mount skipped (recovery mode)
+[    6.707997@3] init: Using Android DT directory /proc/device-tree
+/firmware/android/
+[    6.761518@3] init: [libfs_mgr]Returning avb_handle with status:
+ 0
+[    6.762693@3] init: Loading SELinux policy
+[    6.883095@3] audit: type=1403 audit(1420070416.080:2): policy l
+oaded auid=4294967295 ses=4294967295
+[    6.886854@3] selinux: SELinux: Loaded policy from /sepolicy
+[    6.886854@3] 
+[    6.894629@3] audit: type=1404 audit(1420070416.088:3): enforcin
+g=1 old_enforcing=0 auid=4294967295 ses=4294967295
+[    6.926927@3] selinux: SELinux: Loaded file_contexts
+[    6.926927@3] 
+[    6.931235@3] init: init second stage started!
+[    6.954434@3] init: Using Android DT directory /proc/device-tree
+/firmware/android/
+[    6.957607@3] init: Init cannot set 'ro.boot.selinux' to 'enforc
+ing': Read-only property was already set
+[    6.965883@3] init: Init cannot set 'ro.boot.firstboot' to '0': 
+Read-only property was already set
+[    6.974795@3] init: Init cannot set 'ro.boot.hardware' to 'amlog
+ic': Read-only property was already set
+[    6.984165@3] init: Init cannot set 'ro.boot.serialno' to '12345
+67890': Read-only property was already set
+[    6.997867@3] selinux: SELinux: Loaded file_contexts
+[    6.997867@3] 
+[    7.000346@3] init: Running restorecon...
+[    7.012420@3] init: waitid failed: No child processes
+[    7.012523@3] init: Couldn't load property file '/system/etc/pro
+p.default': open() failed: No such file or directory: No such file 
+or directory
+[    7.034686@3] audit: type=1400 audit(1420070416.228:4): avc:  de
+nied  { create } for  pid=1 comm="init" name="cgroup.procs" scontex
+t=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=
+[    7.038434@0] ueventd: ueventd started!
+[    7.042251@0] selinux: SELinux: Loaded file_contexts
+[    7.042251@0] 
+[    7.042316@0] ueventd: Parsing file /ueventd.rc...
+[    7.043147@0] ueventd: Parsing file /vendor/ueventd.rc...
+[    7.043200@0] ueventd: Unable to read config file '/vendor/ueven
+td.rc': open() failed: No such file or directory
+[    7.043233@0] ueventd: Parsing file /odm/ueventd.rc...
+[    7.043272@0] ueventd: Unable to read config file '/odm/ueventd.
+rc': open() failed: No such file or directory
+[    7.043374@0] ueventd: Parsing file /ueventd.amlogic.rc...
+[    7.043415@0] ueventd: Unable to read config file '/ueventd.amlo
+gic.rc': open() failed: No such file or directory
+[    7.465396@0] ueventd: Coldboot took 0.419 seconds
+[    7.474706@3] audit: type=1400 audit(1420070416.668:5): avc:  de
+nied  { setattr } for  pid=1 comm="init" name="system" dev="rootfs"
+ ino=1221 scontext=u:r:init:s0 tcontext=u:object_r:rootfs:s0 tclass
+=lnk_file permissive=0
+[    7.489607@3] audit: type=1400 audit(1420070416.684:6): avc:  de
+nied  { write } for  pid=1 comm="init" name="watermark_scale_factor
+" dev="proc" ino=2394 scontext=u:r:init:s0 tcontext=u:object_r:proc
+:s0 tclass=file permissive=0
+[    7.508981@3] audit: type=1400 audit(1420070416.704:7): avc:  de
+nied  { write } for  pid=1 comm="init" name="min_free_kbytes" dev="
+proc" ino=2395 scontext=u:r:init:s0 tcontext=u:object_r:proc:s0 tcl
+ass=file permissive=0
+[    7.539281@1] audit: type=1400 audit(1420070416.736:8): avc:  de
+nied  { read } for  pid=2900 comm="charger" name="type" dev="sysfs"
+ ino=17020 scontext=u:r:charger:s0 tcontext=u:object_r:sysfs:s0 tcl
+ass=file permissive=0
+[    7.547376@3] file system registered
+[    7.548161@0] meson-remote ff808040.rc: default protocol = 0x1 a
+nd id = 0
+[    7.548165@0] meson-remote ff808040.rc: reg=0x0, val=0x1f40190
+[    7.548167@0] meson-remote ff808040.rc: reg=0x4, val=0x12c00c8
+[    7.548170@0] meson-remote ff808040.rc: reg=0x8, val=0x960050
+[    7.548172@0] meson-remote ff808040.rc: reg=0xc, val=0x480028
+[    7.548175@0] meson-remote ff808040.rc: reg=0x10, val=0x70dac013
+[    7.548177@0] meson-remote ff808040.rc: reg=0x18, val=0x8616800
+[    7.548180@0] meson-remote ff808040.rc: reg=0x1c, val=0x9f00
+[    7.548182@0] meson-remote ff808040.rc: reg=0x20, val=0x0
+================ ANCHOR: systemcontrol: [ubootenv] (at 5860081) ================
+[   11.653300@0] _____1331 > proc_w_power_green 
+[   11.657606@0] set_ledlight_state -> dev=1, state=1
+[   11.662373@0] _____923 > set_led_power_green status[1]
+[   11.667478@0] _____288 > set_led status[1]
+[   11.682479@0] systemcontrol: [ubootenv] using /dev/block/env wit
+h size(65536) (65532)systemcontrol: [ubootenv] set property count: 
+[   11.688815@0] systemcontrol: display mode config path: /etc/meso
+ndisplay.cfgsystemcontrol: [ubootenv] update value name [upgrade_st
+ep]: value [1] 
+[   11.701869@2] systemcontrol: [ubootenv] upgrade_step is not a ub
+ootenv variable.
+[   11.710089@2] systemcontrol: Error opening file '/vendor/etc/fil
+teredid.cfg', No such file or directory.systemcontrol: Error -2 ope
+ning display config file /etc/mesondisplay.cfg.systemcontrol: Forma
+tColorDepth setFilterEdidList size = 0systemcontrol: getBootEnv key
+:ubootenv.var.reboot_mode_android value:normalsystemcontrol: reboot
+_mode :normal
+[   11.740802@0] audit: type=1400 audit(1420070420.936:9): avc:  de
+nied  { read } for  pid=2901 comm="recovery" name="u:object_r:vendo
+r_persist_prop:s0" dev="tmpfs" ino=2276 scontext=u:r:recovery:s0 tc
+ontext=u:object_r:vendor_persist_prop:s0 tclass=file permissive=0
+[   11.763011@0] audit: type=1400 audit(1420070420.960:10): avc:  d
+enied  { read } for  pid=2901 comm="recovery" name="u:object_r:vend
+or_persist_prop:s0" dev="tmpfs" ino=2276 scontext=u:r:recovery:s0 t
+context=u:object_r:vendor_persist_prop:s0 tclass=file permissive=0
+[   11.786201@0] audit: type=1400 audit(1420070420.980:11): avc:  d
+enied  { read } for  pid=2901 comm="recovery" name="u:object_r:vend
+or_persist_prop:s0" dev="tmpfs" ino=2276 scontext=u:r:recovery:s0 t
+context=u:object_r:vendor_persist_prop:s0 tclass=file permissive=0
+[   11.812342@0] fb: osd[0] enable: 0 (recovery)
+[   11.815155@0] fb: osd[1] enable: 0 (recovery)
+[   11.832069@0] hdmitx: system: set hdcp_pwr 1
+[   11.875581@2] hdmitx: system: restore hdcp_pwr 0
+[   11.878390@2] hdmitx: system: sname = 2160p60hz
+[   11.879103@2] hdmitx: system: char_clk = 594000
+[   11.883583@2] hdmitx: system: cd = 6
+[   11.887150@2] hdmitx: system: cs = 3
+[   11.890680@2] hdmitx: RX tmds clk: 600   Calc clk: 445
+[   11.895956@2] vout: vmode set to 2160p60hz
+[   11.901894@2] fb: current vmode=2160p60hz, cmd: 0x10000
+[   11.905095@2] vlock: event MODE_CHANGE_PRE 0
+[   11.909352@2] hdmitx: hdmitx_set_current_vmode[3927]
+[   11.914265@2] hdmitx: system: recalc before 2160p60hz 60 1
+[   11.915164@0] hdmitx: hdmitx_set_drm_pkt: HDR->SDR, DRM_DB[0]=2
+[   11.915330@0] hdmitx: hdr_work_func: send zero DRM
+[   11.930384@2] hdmitx: system: recalc after 2160p60hz 2997 50
+[   11.936016@2] hdmitx: system: get current mode: 2160p60hz
+[   11.941392@2] hdmitx: system: update physcial size: 1020 570
+[   11.947055@2] hdmitx: video: already init VIC = 0  Now VIC = 353
+[   11.953008@2] hdmitx: hw: div40: 1
+[   11.984847@2] hdmitx: frac_rate = 1
+[   11.984865@2] hdmitx: config HPLL = 4455000 frac_rate = 1
+[   11.988129@2] hdmitx: HPLL: 0xdb0004b9
+[   11.991801@2] hdmitx: config HPLL done
+[   11.995530@2] hdmitx: set_hpll_od3_clk_div[643] div = 15
+[   12.000817@2] hdmitx: j = 8  vid_clk_div = 1
+[   12.005069@2] hdmitx: set enc for VIC: 353
+[   12.050842@2] hdmitx: hw:  config hdmitx IP vic = 353 cd:6 cs: 3
+[   12.061293@2] hdmitx: video: Sink is HDMI device
+[   12.061339@2] hdmitx: hw: set audio
+[   12.063744@2] hdmitx: hw: hdmitx tx_aud_src = 0
+[   12.068260@2] hdmitx: fs = 3, cd = 6, tmds_clk = 593407
+[   12.073450@2] hdmitx: hw: aud_n_para = 6144
+[   12.077613@2] hdmitx: hw: set channel status
+[   12.081897@2] hdmitx: audio: Audio Type: PCM
+[   12.086105@2] hdmitx: system: update rx hdr info d
+[   12.090872@2] vout: new mode 2160p60hz set ok
+[   12.095203@2] fb: current vmode=2160p60hz, cmd: 0x20000
+[   12.100408@2] fb: outputmode changed to 2160p60hz, reset osd0, (
+0, 0, 1919, 1079) -> (0, 0, 3839, 2159)
+[   12.128438@2] fb: osd[0] enable: 1 (recovery)
+[   12.145128@2] DOLBY: vout_notify_callback: VOUT_EVENT_MODE_CHANG
+[   12.145575@2] vlock: event MODE_
+

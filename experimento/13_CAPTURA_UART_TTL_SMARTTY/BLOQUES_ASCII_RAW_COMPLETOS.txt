@@ -1,0 +1,225 @@
+﻿[  188.874860@0] _____1267 > proc_w_power_red 
+[  188.874880@0] set_ledlight_state -> dev=0, state=0
+[  188.878164@0] _____834 >set_led_power_red status[0]
+[  188.883019@0] _____288 > set_led status[0]
+[  188.887116@0] _____1331 > proc_w_power_green 
+[  188.891458@0] set_ledlight_state -> dev=1, state=1
+[  188.896199@0] _____923 > set_led_power_green status[1]
+[  188.901304@0] _____288 > set_led status[1]
+2] 
+[   13.802842@2] fb: logo_index=0,fb_index=0
+[   13.806819@2] fb: ---------------clear fb0 memory ffffff800abe4000
+[   13.816683@2] fb: osd[0] canvas.idx =0x40
+[   13.816958@2] fb: osd[0] canvas.addr=0x77800000
+[   13.821473@2] fb: osd[0] canvas.width=7680
+[   13.825545@2] fb: osd[0] canvas.height=2160
+[   13.829705@2] fb: osd[0] frame.width=1920
+[   13.833692@2] fb: osd[0] frame.height=1080
+[   13.837764@2] fb: osd[0] out_addr_id =0x1
+c_type=2
+[   13.759478@2] meson-fb meson-fb: create ion_client ffffffc054d97240, handle=ffffffc0025e3680
+
+[  187.844244@0] _____1267 > proc_w_power_red 
+[  187.844263@0] set_ledlight_state -> dev=0, state=0
+[  187.847562@0] _____834 >set_led_power_red status[0]
+[  187.852403@0] _____288 > set_led status[0]
+[  187.856509@0] _____1331 > proc_w_power_green 
+[  187.860819@0] set_ledlight_state -> dev=1, state=1
+[  187.865584@0] _____923 > set_led_power_green status[1]
+[  187.870690@0] _____288 > set_led status[1]
+
+[  188.874860@0] _____1267 > proc_w_power_red 
+[  188.874880@0] set_ledlight_state -> dev=0, state=0
+[  188.878164@0] _____834 >set_led_power_red status[0]
+[  188.883019@0] _____288 > set_led status[0]
+[  188.887116@0] _____1331 > proc_w_power_green 
+[  188.891458@0] set_ledlight_state -> dev=1, state=1
+[  188.896199@0] _____923 > set_led_power_green status[1]
+[  188.901304@0] _____288 > set_led status[1]
+
+[  184.752446@0] _____1267 > proc_w_power_red 
+[  184.752465@0] set_ledlight_state -> dev=0, state=0
+[  184.755763@0] _____834 >set_led_power_red status[0]
+[  184.760605@0] _____288 > set_led status[0]
+[  184.764687@0] _____1331 > proc_w_power_green 
+[  184.769044@0] set_ledlight_state -> dev=1, state=1
+[  184.773788@0] _____923 > set_led_power_green status[1]
+[  184.778891@0] _____288 > set_led status[1]
+
+[  185.783037@0] _____1267 > proc_w_power_red 
+[  185.783056@0] set_ledlight_state -> dev=0, state=0
+[  185.786364@0] _____834 >set_led_power_red status[0]
+[  185.791193@0] _____288 > set_led status[0]
+[  185.795278@0] _____1331 > proc_w_power_green 
+[  185.799608@0] set_ledlight_state -> dev=1, state=1
+[  185.804399@0] _____923 > set_led_power_green status[1]
+[  185.809479@0] _____288 > set_led status[1]
+
+[  186.813626@0] _____1267 > proc_w_power_red 
+[  186.813645@0] set_ledlight_state -> dev=0, state=0
+[  186.816947@0] _____834 >set_led_power_red status[0]
+[  186.821790@0] _____288 > set_led status[0]
+[  186.825895@0] _____1331 > proc_w_power_green 
+[  186.830206@0] set_ledlight_state -> dev=1, state=1
+[  186.834972@0] _____923 > set_led_power_green status[1]
+[  186.840076@0] _____288 > set_led status[1]
+
+?[  180.630024@0] _____1267 > proc_w_power_red 
+[  180.630044@0] set_ledlight_state -> dev=0, state=0
+[  180.633366@0] _____834 >set_led_power_red status[0]
+[  180.638184@0] _____288 > set_led status[0]
+[  180.642267@0] _____1331 > proc_w_power_green 
+[  180.646598@0] set_ledlight_state -> dev=1, state=1
+[  180.651388@0] _____923 > set_led_power_green status[1]
+[  180.656470@0] _____288 > set_led status[1]
+.rc: reg=0xc, val=0x480028
+[    7.551258@2] meson-remote ff808040.rc: reg=0x10, val=0x70dac013
+[    7.551260@2] meson-remote ff808040.rc: reg=0x18, val=0x8616800
+[    7.551263@2] meson-remote ff808040.rc: reg=0x1c, val=0x9f00
+[    7.551265@2] meson-remote ff808040.rc: reg=0x20, val=0x0
+[    7.551268@2] meson-remote ff808040.rc: reg=0x24, val=0x0
+[    7.551270@2] meson-remote ff808040.rc: reg=0x28, val=0x0
+[    7.554611@3] assign_ffs_buffer FFS_BUFFER_MAX=100!!!
+[    7.558370@2] meson-remote ff808040.rc: default protocol = 0x1 and id = 0
+
+?[  184.752446@0] _____1267 > proc_w_power_red 
+[  184.752465@0] set_ledlight_state -> dev=0, state=0
+[  184.755763@0] _____834 >set_led_power_red status[0]
+[  184.760605@0] _____288 > set_led status[0]
+[  184.764687@0] _____1331 > proc_w_power_green 
+[  184.769044@0] set_ledlight_state -> dev=1, state=1
+[  184.773788@0] _____923 > set_led_power_green status[1]
+[  184.778891@0] _____288 > set_led status[1]
+M
+[   12.086105@2] hdmitx: system: update rx hdr info d
+[   12.090872@2] vout: new mode 2160p60hz set ok
+[   12.095203@2] fb: current vmode=2160p60hz, cmd: 0x20000
+[   12.100408@2] fb: outputmode changed to 2160p60hz, reset osd0, (0, 0, 1919, 1079) -> (0, 0, 3839, 2159)
+[   12.128438@2] fb: osd[0] enable: 1 (recovery)
+[   12.145128@2] DOLBY: vout_notify_callback: VOUT_EVENT_MODE_CHANGE
+[   12.145575@2] vlock: event MODE_CHANGE
+[   12.149520@2] audit_printk_skb: 123 callbacks suppressed
+
+?[  186.813626@0] _____1267 > proc_w_power_red 
+[  186.813645@0] set_ledlight_state -> dev=0, state=0
+[  186.816947@0] _____834 >set_led_power_red status[0]
+[  186.821790@0] _____288 > set_led status[0]
+[  186.825895@0] _____1331 > proc_w_power_green 
+[  186.830206@0] set_ledlight_state -> dev=1, state=1
+[  186.834972@0] _____923 > set_led_power_green status[1]
+[  186.840076@0] _____288 > set_led status[1]
+[   11.682479@0] systemcontrol: [ubootenv] using /dev/block/env with size(65536) (65532)systemcontrol: [ubootenv] set property count: 0
+[   11.688815@0] systemcontrol: display mode config path: /etc/mesondisplay.cfgsystemcontrol: [ubootenv] update value name [upgrade_step]: value [1] 
+[   11.701869@2] systemcontrol: [ubootenv] upgrade_step is not a ubootenv variable.
+
+?[  187.844244@0] _____1267 > proc_w_power_red 
+[  187.844263@0] set_ledlight_state -> dev=0, state=0
+[  187.847562@0] _____834 >set_led_power_red status[0]
+[  187.852403@0] _____288 > set_led status[0]
+[  187.856509@0] _____1331 > proc_w_power_green 
+[  187.860819@0] set_ledlight_state -> dev=1, state=1
+[  187.865584@0] _____923 > set_led_power_green status[1]
+[  187.870690@0] _____288 > set_led status[1]
+2] 
+[   13.802842@2] fb: logo_index=0,fb_index=0
+[   13.806819@2] fb: ---------------clear fb0 memory ffffff800abe4000
+[   13.816683@2] fb: osd[0] canvas.idx =0x40
+[   13.816958@2] fb: osd[0] canvas.addr=0x77800000
+[   13.821473@2] fb: osd[0] canvas.width=7680
+[   13.825545@2] fb: osd[0] canvas.height=2160
+[   13.829705@2] fb: osd[0] frame.width=1920
+[   13.833692@2] fb: osd[0] frame.height=1080
+[   13.837764@2] fb: osd[0] out_addr_id =0x1
+covery" name="u:object_r:netflix_prop:s0" dev="tmpfs" ino=2251 scontext=u:r:recovery:s0 tcontext=u:object_r:netflix_prop:s0 tclass=file permissive=0
+
+?[  188.874860@0] _____1267 > proc_w_power_red 
+[  188.874880@0] set_ledlight_state -> dev=0, state=0
+[  188.878164@0] _____834 >set_led_power_red status[0]
+[  188.883019@0] _____288 > set_led status[0]
+[  188.887116@0] _____1331 > proc_w_power_green 
+[  188.891458@0] set_ledlight_state -> dev=1, state=1
+[  188.896199@0] _____923 > set_led_power_green status[1]
+[  188.901304@0] _____288 > set_led status[1]
+ hub 2-0:1.0: USB hub found
+[    5.300888@0] hub 2-0:1.0: 1 port detected
+[    5.301536@0] aml_vrtc rtc: setting system clock to 2015-01-01 00:00:14 UTC (1420070414)
+[    5.301986@0] dwc_otg: usb0: type: 2 speed: 0, config: 0, dma: 0, id: 0, phy: ffe09000, ctrl: 0
+[    5.301989@0] dwc_otg_driver_probe host only, not probe usb_otg!!!
+[    5.303499@0] meson_cdev probe
+[    5.303514@0] thermal: read gpupp failed
+[    5.303687@0] meson_cdev index: 0
+[    5.303836@0] thermal: read gpupp failed
+[    5.303900@0] meson_cdev index: 1
+[    5.303905@0] cpucore_cooling_register, max_cpu_core_num:4
+
+?[  189.905472@0] _____1267 > proc_w_power_red 
+[  189.905492@0] set_ledlight_state -> dev=0, state=0
+[  189.908819@0] _____834 >set_led_power_red status[0]
+[  189.913632@0] _____288 > set_led status[0]
+[  189.917714@0] _____1331 > proc_w_power_green 
+[  189.922047@0] set_ledlight_state -> dev=1, state=1
+[  189.926854@0] _____923 > set_led_power_green status[1]
+[  189.931918@0] _____288 > set_led status[1]
+ct_r:vendor_persist_prop:s0 tclass=property_service permissive=0
+[   12.276148@0] 
+[   12.296241@0] init: Unable to set property 'persist.vendor.sys.hdr.state' to '2' from uid:0 gid:0 pid:2901: SELinux permission check failed
+[   12.309050@0] selinux: avc:  denied  { set } for property=persist.vendor.sys.sdr.state pid=2901 uid=0 gid=0 scontext=u:r:recovery:s0 tcontext=u:object_r:vendor_persist_prop:s0 tclass=property_service permissive=0
+[   12.309050@0] 
+
+?[  183.721831@0] _____1267 > proc_w_power_red 
+[  183.721850@0] set_ledlight_state -> dev=0, state=0
+[  183.725167@0] _____834 >set_led_power_red status[0]
+[  183.729992@0] _____288 > set_led status[0]
+[  183.734097@0] _____1331 > proc_w_power_green 
+[  183.738406@0] set_ledlight_state -> dev=1, state=1
+[  183.743173@0] _____923 > set_led_power_green status[1]
+[  183.748278@0] _____288 > set_led status[1]
+ledlight_state -> dev=0, state=0
+[   13.702302@0] _____834 >set_led_power_red status[0]
+[   13.702312@0] _____288 > set_led status[0]
+[   13.702318@0] _____1331 > proc_w_power_green 
+[   13.702320@0] set_ledlight_state -> dev=1, state=1
+[   13.702323@0] _____923 > set_led_power_green status[1]
+[   13.702326@0] _____288 > set_led status[1]
+[   13.743256@2] fb: use ion buffer for fb memory, fb_index=0
+[   13.748716@2] fb: OSD0 as afbcd mode,afbc_type=2
+[   13.759478@2] meson-fb meson-fb: create ion_client ffffffc054d97240, handle=ffffffc0025e3680
+
+?[  181.660633@0] _____1267 > proc_w_power_red 
+[  181.660652@0] set_ledlight_state -> dev=0, state=0
+[  181.663948@0] _____834 >set_led_power_red status[0]
+[  181.668789@0] _____288 > set_led status[0]
+[  181.672896@0] _____1331 > proc_w_power_green 
+[  181.677204@0] set_ledlight_state -> dev=1, state=1
+[  181.682004@0] _____923 > set_led_power_green status[1]
+[  181.687075@0] _____288 > set_led status[1]
+5@2] vlock: event MODE_CHANGE_PRE 0
+[   11.909352@2] hdmitx: hdmitx_set_current_vmode[3927]
+[   11.914265@2] hdmitx: system: recalc before 2160p60hz 60 1
+[   11.915164@0] hdmitx: hdmitx_set_drm_pkt: HDR->SDR, DRM_DB[0]=2
+[   11.915330@0] hdmitx: hdr_work_func: send zero DRM
+[   11.930384@2] hdmitx: system: recalc after 2160p60hz 2997 50
+[   11.936016@2] hdmitx: system: get current mode: 2160p60hz
+[   11.941392@2] hdmitx: system: update physcial size: 1020 570
+[   11.947055@2] hdmitx: video: already init VIC = 0  Now VIC = 353
+[   11.953008@2] hdmitx: hw: div40: 1
+sh
+
+?[  185.783037@0] _____1267 > proc_w_power_red 
+[  185.783056@0] set_ledlight_state -> dev=0, state=0
+[  185.786364@0] _____834 >set_led_power_red status[0]
+[  185.791193@0] _____288 > set_led status[0]
+[  185.795278@0] _____1331 > proc_w_power_green 
+[  185.799608@0] set_ledlight_state -> dev=1, state=1
+[  185.804399@0] _____923 > set_led_power_green status[1]
+[  185.809479@0] _____288 > set_led status[1]
+ clk!
+[    1.007205@2] meson_cpufreq_init: ignor dsu pre parent clk!
+[    1.007270@2] value of voltage_tolerance 0
+[    1.007283@2] meson_cpufreq_init:don't find the node <dynamic_gp1_clk>
+[    1.007292@2] value of gp1_clk_target 0
+[    1.008819@2] cpu cpu0: meson_cpufreq_init: CPU 0 initialized
+[    1.010003@2] ff803000.serial: clock gate not found
+[    1.010072@2] meson_uart ff803000.serial: ==uart0 reg addr = ffffff800843e000
+[    1.010144@2] ff803000.serial: ttyS0 at MMIO 0xff803000 (irq = 21, base_baud = 1500000) is a meson_uart
+
