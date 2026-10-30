@@ -223,6 +223,33 @@ Siguiendo la regla de documentar cada prueba, error y solución aplicada durante
 - **Causa raíz:** El repositorio local `rea/` utiliza una estructura de *monorepo* donde los paquetes fuente residen bajo `rea/packages/` en lugar de `node_modules/@reverse-engineer-anything/`.
 - **Solución:** Se integró directamente el decodificador de entradas ZIP (`inflateRawSync`) y el analizador de tablas `string_ids`, `type_ids`, `method_ids`, `field_ids` y `class_defs` del formato Dalvik Executable (`DEX 035/039`) dentro de `inspect_qadebug_and_settings.mjs`, permitiendo desensamblar todas las instrucciones de `com.ztestb.basecomp.apk`, `com.zte.factorytesttool.apk`, `com.android.tv.settings.apk` y `com.droidlogic.apk`.
 
+### Prueba 13: Monitoreo no intrusivo del puerto serie UART TTL (COM3/COM8) en tiempo real desde la memoria de SmarTTY.exe
+- **Acción:** Se requería capturar en vivo toda la telemetría UART TTL (115200 8N1) mientras el usuario interactuaba con SmarTTY.exe.
+- **Error / Limitación:** En Windows, el driver silabser.sys (CP210x) abre el puerto serie (COM3/COM8) en modo exclusivo; intentar abrir System.IO.Ports.SerialPort desde otro proceso arroja Acceso denegado al puerto COM.
+- **Acierto / Solución:** Se construyó [experimento/14_MONITOREO_EN_VIVO_SMARTTY/monitor_smartty.ps1](./experimento/14_MONITOREO_EN_VIVO_SMARTTY/monitor_smartty.ps1), que utiliza OpenProcess + VirtualQueryEx + ReadProcessMemory para inspeccionar las regiones privadas de memoria (MEM_COMMIT | MEM_PRIVATE) de SmarTTY.exe y reconstruir tanto los buffers ASCII del puerto serie como las celdas UTF-16LE de la terminal sin tocar ni interrumpir el puerto COM.
+
+### Prueba 14: Diagnóstico por UART del bucle de entrada automática a Recovery (GPIOAO_3 == 0) y ventana InUsbBurn
+- **Hallazgo en vivo:** En la primera unidad analizada por UART ([INFORME_FORENSE_UART_TTL_SMARTTY_REA.md](./experimento/13_CAPTURA_UART_TTL_SMARTTY/INFORME_FORENSE_UART_TTL_SMARTTY_REA.md)), la partición /cache (mmcblk0p03, 1000 MB) montaba limpio en EXT4 (7.62s), pero la caja seguía entrando siempre a Recovery.
+- **Causa raíz descubierta:** U-Boot imprimía gpio: pin GPIOAO_3 (gpio 3) value is 0 $\rightarrow$ detect upgrade key $\rightarrow$ InUsbBurn $\rightarrow$ 
+oSof $\rightarrow$ system = recovery. El botón físico RESET (GPIOAO_3, activo en bajo) estaba presionado/en corto, obligando a U-Boot a activar InUsbBurn durante 1.5s y luego saltar a Recovery. Al liberar GPIOAO_3 (alue is 1), U-Boot dejó de forzar Recovery.
+
+### Prueba 15: Rechazo de flasheo en U-Boot 2015.01-g220e992 por cb_oem_cmd() y lock state: 10001000 (Motivo A)
+- **Acción:** Desde la consola root # de Recovery en UART se ejecutó eboot bootloader (l31 reboot reason: 0x7), entrando exitosamente a Fastboot (g_dnl_register: g_dnl_driver.name = usb_dnl_fastboot), y se corrió el script de flasheo.
+- **Error capturado en UART:**
+  - t ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()
+  - lock state: 10001000 (info->lock_state = 1)
+  - ERROR: device is locked, can not run this cmd.Please flashing unlock & flashing unlock_critical en _fastboot.c:1075/cb_download() y _fastboot.c:1530/erase().
+- **Causa raíz:** Al fallar cb_oem_cmd() y no ejecutarse lashing unlock_critical / lashing unlock, cada astboot flash abortó en milisegundos y el script llegó inmediatamente a astboot reboot (cmd cb_reboot is reboot), sacando la placa de Fastboot.
+
+### Prueba 16: Reinicio por Watchdog de hardware en Fastboot (eboot_mode:::: watchdog_reboot) y escape a ztebsp: bootcmd=bootsys (Motivo B)
+- **Error capturado en UART ([INFORME_SESION_FASTBOOT_WATCHDOG_Y_SOLUCION.md](./experimento/14_MONITOREO_EN_VIVO_SMARTTY/INFORME_SESION_FASTBOOT_WATCHDOG_Y_SOLUCION.md)):**
+  - Mientras la placa permanecía en U-Boot 2015.01-g220e992 (Fastboot) sin tráfico USB (durante las pausas set /p y 	imeout /t 2 / 	imeout /t 4), el temporizador Watchdog de hardware reinició el SoC (eboot_mode=watchdog_reboot).
+  - En el siguiente reinicio, U-Boot ejecutó cb uboot-command, leyó [commannd:bootonce-bootloader] en misc y lo descartó (command mark(uboot-command) not match bootonce-bootloader,don't execute.), falló al buscar oot-recovery (ead boot-recovery from misc failed.) y cargó Android normal (ztebsp: bootcmd=bootsys).
+- **Acierto / Solución definitiva en 3 capas:**
+  1. Escribir echo -n "boot-recovery" > /dev/block/misc ; sync ; reboot bootloader desde la consola # de Recovery antes de saltar a Fastboot (así BL31 entra a Fastboot por el código  x7, pero si el Watchdog dispara watchdog_reboot, U-Boot lee oot-recovery en misc y regresa a Recovery en vez de ootsys).
+  2. Eliminar todos los 	imeout en [FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat) y enganchar la placa en < 200 ms con :WAIT_FASTBOOT, enviando astboot getvar version y astboot oem "watchdog off".
+  3. Crear [RETENER_FASTBOOT_ANTI_WATCHDOG.bat](./experimento/14_MONITOREO_EN_VIVO_SMARTTY/RETENER_FASTBOOT_ANTI_WATCHDOG.bat) con un pulso *Keep-Alive* cada 2 segundos para mantener activa la sesión Fastboot indefinidamente.
+
 ---
 
 ## PARTE 4: Análisis con REA de Llaves Criptográficas y Configuraciones ZTE / Megacable (`4301_5`)
