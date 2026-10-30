@@ -225,6 +225,7 @@ function Invoke-SinglePass {
         if ($newLinesCount -gt 0) {
             Write-Host $statusLine
         }
+        [GC]::Collect()
     }
 }
 
