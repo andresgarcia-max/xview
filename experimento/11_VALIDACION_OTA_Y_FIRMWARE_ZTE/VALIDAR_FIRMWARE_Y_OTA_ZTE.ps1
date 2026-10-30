@@ -1,5 +1,5 @@
 param(
-    [string]$TargetPath = "c:\Users\CORSAIR\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2"
+    [string]$TargetPath = (Join-Path $PSScriptRoot "..\..\V2\B866v2 Android 12\B866v2 Android 12\B866V2")
 )
 
 $ErrorActionPreference = "Stop"

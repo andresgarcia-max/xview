@@ -1,0 +1,185 @@
+﻿[2026-10-29 22:09:48] [ASCII] "C:\Users\andre\OneDrive\Desktop\xview\SmarTTY.exe"
+[2026-10-29 22:09:48] [ASCII] C:\Users\andre\OneDrive\Desktop\xview\SmarTTY.exe
+[2026-10-29 22:09:48] [ASCII] Created MessageBoxError telemetry
+[2026-10-29 22:09:48] [ASCII] kernel loaded at 0x01080000, end = 0x028bb008
+[2026-10-29 22:09:48] [ASCII] OK
+[2026-10-29 22:09:48] [ASCII] Start read misc partition datas!
+[2026-10-29 22:09:48] [ASCII] NOTICE:  BL31: BL33 decompress pass
+[2026-10-29 22:09:48] [ASCII] spi_post_bind(spifc): req_seq = 0
+[2026-10-29 22:09:48] [ASCII] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 22:09:48] [ASCII] Amlogic Multi-DTB tool
+[2026-10-29 22:09:48] [ASCII] adata	0000000001000000 1
+[2026-10-29 22:09:48] [ASCII] ess...
+[2026-10-29 22:09:48] [ASCII] amlkey_init() enter!
+[2026-10-29 22:09:48] [ASCII] do_sync_vout read conf item ok
+[2026-10-29 22:09:48] [ASCII] (from env)
+[2026-10-29 22:09:48] [ASCII] , hdmimode: 1080p60hz, colorattribute: 422,12bit
+[2026-10-29 22:09:48] [ASCII] r logo: 0x7f800000
+[2026-10-29 22:09:48] [ASCII] [decompressToRGB]: after the decompress_jpeg_rgb
+[2026-10-29 22:09:48] [ASCII] rx version is 2.0  div=10
+[2026-10-29 22:09:48] [ASCII] gpio: pin GPIOAO_3 (gpio 3) value is 1
+[2026-10-29 22:09:48] [ASCII] [setup_bootenv] COMControlFlag=>   value[1]=0, val=0
+[2026-10-29 22:09:48] [ASCII] pll tsensor avg: 0x1fea, u_efuse: 0xa7
+[2026-10-29 22:09:48] [ASCII] read_config_item successfully.
+[2026-10-29 22:09:48] [ASCII] avb2: 1
+[2026-10-29 22:09:48] [ASCII] [store]To run cmd[emmc dtb_read 0x0000000073e1ea50 0x40000]
+[2026-10-29 22:09:48] [ASCII] 110b072c		6t read conf item ok
+[2026-10-29 22:09:48] [ASCII] 0.0;
+[2026-10-29 22:09:48] [ASCII] =========logo_offset=0
+[2026-10-29 22:10:38.557] [ASCII] <?xml version="1.0" encoding="utf-8"?>
+[2026-10-29 22:10:38.557] [ASCII] <MATCHED_ENTRIES>
+[2026-10-29 22:10:38.557] [ASCII] </MATCHED_ENTRIES>
+[2026-10-29 22:10:38.557] [ASCII] Created MessageBoxError telemetry
+[2026-10-29 22:10:38.557] [ASCII] SESSIONNAME=Console
+[2026-10-29 22:10:38.557] [ASCII] 934e089"/>
+[2026-10-29 22:10:38.557] [ASCII] <section name="s
+[2026-10-29 22:10:38.557] [ASCII] q&C	q&-
+[2026-10-29 22:10:38.557] [ASCII] -nofoldaddrimmed
+[2026-10-29 22:10:38.557] [ASCII] </policyImporters>
+[2026-10-29 22:10:38.557] [ASCII] <wsdlImporters>
+[2026-10-29 22:10:38.557] [ASCII] <extension type="Synu
+[2026-10-29 22:10:38.557] [ASCII] -dumpDebugConsoleOutput
+[2026-10-29 22:10:38.557] [ASCII] 10/30 04:05:02.990,10108,1,Factory,state,ctor,0
+[2026-10-29 22:10:38.557] [ASCII] 10/30 04:05:02.990,10108,1,Factory,state,valid
+[2026-10-29 22:10:38.557] [ASCII] 10/30 04:05:03.547,10108,1,Factory,fcInit
+[2026-10-29 22:10:38.557] [ASCII] nArXnArPnAr@nAr0nAr
+[2026-10-29 22:10:38.557] [ASCII] "Po`&Ro\7Ro0
+[2026-10-29 22:10:38.557] [ASCII] Vo "Mo
+[2026-10-29 22:10:38.557] [ASCII] <_'
+[2026-10-29 22:10:38.557] [ASCII] L'
+[2026-10-29 22:10:38.557] [ASCII] 8'
+[2026-10-29 22:10:38.557] [ASCII] c#
+[2026-10-29 22:10:38.557] [ASCII] 7#
+[2026-10-29 22:10:38.557] [ASCII] #
+[2026-10-29 22:10:38.557] [ASCII] D#
+[2026-10-29 22:10:38.557] [ASCII] :#
+[2026-10-29 22:10:38.557] [ASCII] ,h"
+[2026-10-29 22:10:38.557] [ASCII] T_"
+[2026-10-29 22:10:38.557] [ASCII] HB"
+[2026-10-29 22:10:38.557] [ASCII] P
+[2026-10-29 22:10:38.557] [ASCII] $]"
+[2026-10-29 22:10:38.557] [ASCII] +"
+[2026-10-29 22:10:38.557] [ASCII] z!
+[2026-10-29 22:10:38.557] [ASCII] Xm!
+[2026-10-29 22:10:38.557] [ASCII] TabStripPlacement$
+[2026-10-29 22:10:38.557] [ASCII] )
+[2026-10-29 22:10:38.557] [ASCII] i
+[2026-10-29 22:10:38.557] [ASCII] j
+[2026-10-29 22:10:38.557] [ASCII] %
+[2026-10-29 22:10:38.557] [ASCII] +
+[2026-10-29 22:10:38.557] [ASCII] %
+[2026-10-29 22:10:38.557] [ASCII] XTXZU`C6C<X`CZC`K4CxC~C
+[2026-10-29 22:10:38.557] [ASCII] R@RFK K&K K&RLRRRXR^RdRjRpRvR|R
+[2026-10-29 22:10:38.557] [ASCII] !
+[2026-10-29 22:10:38.557] [ASCII] =
+[2026-10-29 22:10:38.557] [ASCII] !
+[2026-10-29 22:10:38.557] [ASCII] =
+[2026-10-29 22:10:38.557] [ASCII] UUUUUU1@UUUUUU1@UUUUUU1@q=
+[2026-10-29 22:10:38.557] [ASCII] kernel loaded at 0x01080000, end = 0x028bb008
+[2026-10-29 22:10:38.557] [ASCII] (from env)
+[2026-10-29 22:10:38.557] [ASCII] hpd_state=1
+[2026-10-29 22:10:38.557] [ASCII] do_hpd_detect: hdmimode=1080p60hz
+[2026-10-29 22:10:38.557] [ASCII] do_hpd_detect: colorattribute=422,12bit
+[2026-10-29 22:10:38.557] [ASCII] HDMI_EDID_BLOCK_TYPE_VENDER: pRXCap->ColorDeepSupport=0xb8
+[2026-10-29 22:10:38.557] [ASCII] Edid_ParsingVendSpec:ieeeoui=0x90848b,len=5
+[2026-10-29 22:10:38.557] [ASCII] pixel_clock 24150
+[2026-10-29 22:10:38.557] [ASCII] h_active 2560
+[2026-10-29 22:10:38.557] [ASCII] h_blank 160
+[2026-10-29 22:10:38.557] [ASCII] v_active 1440
+[2026-10-29 22:10:38.557] [ASCII] v_blank 41
+[2026-10-29 22:10:38.557] [ASCII] h_sync_offset 48
+[2026-10-29 22:10:38.557] [ASCII] h_sync 32
+[2026-10-29 22:10:38.557] [ASCII] v_sync_offset 3
+[2026-10-29 22:10:38.557] [ASCII] v_sync 5
+[2026-10-29 22:10:38.557] [ASCII] h_blank 253
+[2026-10-29 22:10:38.557] [ASCII] read hdmichecksum: 0xb0b40000
+[2026-10-29 22:10:38.557] [ASCII] , hdmimode: 1080p60hz, colorattribute: 422,12bit
+[2026-10-29 22:10:38.557] [ASCII] r logo: 0x7f800000
+[2026-10-29 22:10:38.557] [ASCII] =========logo_offset=0
+[2026-10-29 22:10:38.557] [ASCII] [draw_logo]: before read_logo_data
+[2026-10-29 22:10:38.557] [ASCII] [draw_logo]: draw_logo 1570
+[2026-10-29 22:10:38.557] [ASCII] [draw_logo]: draw_logo 1572
+[2026-10-29 22:10:38.557] [ASCII] [set_logoParam]: enter the set_logoParam
+[2026-10-29 22:10:38.557] [ASCII] [set_logoParam]:  Id		FileName		Type		No		 Addr			Size
+[2026-10-29 22:10:38.557] [ASCII] [set_logoParam]: before the get_logo_source PAL_LOGO_PICTURE
+[2026-10-29 22:10:38.557] [ASCII] [set_logoParam]:  <0>		LogoPic(480i)		0		1		0x11000288		541225
+[2026-10-29 22:10:38.557] [ASCII] [set_logoParam]:  <1>		LogoPic(576i)		0		2		0x110844b4		114717
+[2026-10-29 22:10:38.557] [ASCII] 1489
+[2026-10-29 22:10:38.557] [ASCII] [draw_logo]: draw_logo 1615
+[2026-10-29 22:10:38.557] [ASCII] before the  decompressToRGB
+[2026-10-29 22:10:38.557] [ASCII] Start to decode the LOGO jpeg ...
+[2026-10-29 22:10:38.557] [ASCII] [decompressToRGB]: before the decompress_jpeg_rgb
+[2026-10-29 22:10:38.557] [ASCII] [decompressToRGB]: Call decompress_pic_rgb565(id=3,addr=110b072c,size=61489,maxw=1920,maxh=1080,Bpp=3) ...
+[2026-10-29 22:10:38.557] [ASCII] [decompressToRGB]: after the decompress_jpeg_rgb
+[2026-10-29 22:10:38.557] [ASCII] gpio: pin GPIOAO_3 (gpio 3) value is 1
+[2026-10-29 22:10:38.557] [ASCII] [setup_bootenv] COMControlFlag=>   value[1]=0, val=0
+[2026-10-29 22:10:38.557] [ASCII] pll tsensor avg: 0x1fea, u_efuse: 0xa7
+[2026-10-29 22:10:38.557] [ASCII] read_config_item successfully.
+[2026-10-29 22:10:38.557] [ASCII] avb2: 1
+[2026-10-29 22:10:38.557] [ASCII] [store]To run cmd[emmc dtb_read 0x0000000073e1ea50 0x40000]
+[2026-10-29 22:10:38.557] [ASCII] T"T(T.T4T:T@T"T(TFTLTRTXT^TdTjTpTvT|T
+[2026-10-29 22:10:38.557] [ASCII] X$X*X0X6X<XBXHXNXTXZX`L
+[2026-10-29 22:10:38.557] [ASCII] MHNzLXMBMHO
+[2026-10-29 22:10:38.557] [ASCII] LdMNMTL^LdMNMTL^LdQ
+[2026-10-29 22:10:38.557] [ASCII] MNMTL^LdMNMTL^LdR:R@RFRLRRRXL
+[2026-10-29 22:10:38.557] [ASCII] U.U4U:U@UFULURUXU^UdU^UdMNMTUjUpR
+[2026-10-29 22:10:38.557] [ASCII] X@XFXLXRXXX^XdXjQ
+[2026-10-29 22:10:38.557] [ASCII] @0@6DD?
+[2026-10-29 22:10:38.557] [ASCII] @0@6?
+[2026-10-29 22:10:38.557] [ASCII] perf_details_pid3284.txt
+[2026-10-29 22:10:38.557] [ASCII] 0
+[2026-10-29 22:10:38.557] [ASCII] TU2System.Security.Permissions.FileIOPermissionAccess
+[2026-10-29 22:10:38.557] [ASCII] CJ0)C*09C
+[2026-10-29 22:10:38.557] [ASCII] 0ICI0YC	0iC
+[2026-10-29 22:10:38.557] [ASCII] Kernel9ocl_queuejPvjS_S_jS_j9ndrange_ti12ocl_clkevent
+[2026-10-29 22:10:38.557] [ASCII] -allowaddrtakenspill
+[2026-10-29 22:10:38.557] [ASCII] VEBOX Kernel Update
+[2026-10-29 22:10:38.557] [ASCII] greverse-kernels
+[2026-10-29 22:10:38.557] [ASCII] gvc-i64emu-strict-report-faddr
+[2026-10-29 22:10:38.557] [ASCII] genable-lsc-addr-fold-offset
+[2026-10-29 22:10:38.557] [ASCII] localMemStatelessWindowStartAddr
+[2026-10-29 22:10:38.557] [ASCII] gtwoaddr-reschedule
+[2026-10-29 22:10:38.557] [ASCII] gcmkernelargoffset-cmrt
+[2026-10-29 22:10:38.557] [ASCII] gvc-emit-debuggable-kernels
+[2026-10-29 22:10:38.557] [ASCII] gsafestack-use-pointer-address
+[2026-10-29 22:10:38.557] [ASCII] gdisable-complex-addr-modes
+[2026-10-29 22:10:38.557] [ASCII] genable-lsc-addr-fold-scale
+[2026-10-29 22:10:38.557] [ASCII] gmsan-check-access-address
+[2026-10-29 22:10:38.557] [ASCII] of Dynamic Shader Code
+[2026-10-29 22:10:38.557] [ASCII] igc-promote-resources-to-direct-addrspace
+[2026-10-29 22:10:38.557] [ASCII] igc-address-space-alias-analysis
+[2026-10-29 22:10:38.557] [ASCII] _et
+[2026-10-29 22:10:38.557] [ASCII] CTXKS#KQZX8!!Y!!!!Y-,I
+[2026-10-29 22:10:38.557] [ASCII] @8!Y-,KRX}zY-,
+[2026-10-29 22:10:38.557] [ASCII] 110b072c		6t read conf item ok
+[2026-10-29 22:10:38.557] [ASCII] status = "disabled"
+[2026-10-29 22:10:38.557] [ASCII] status = "okay"
+[2026-10-29 22:10:38.557] [ASCII] Net:   :  2 GiB
+[2026-10-29 22:10:38.557] [ASCII] _init() 59: already init!
+[2026-10-29 22:10:38.557] [ASCII] 0.0;
+[2026-10-29 22:10:38.557] [ASCII] sw8 s
+[2026-10-29 22:10:38.557] [ASCII] ac failed!!!
+[2026-10-29 22:10:38.557] [ASCII] getvar() 593: max-download-size
+[2026-10-29 22:10:38.557] [ASCII] getvar() 593: is-logical:cri_data
+[2026-10-29 22:10:38.557] [ASCII] partition is cri_data
+[2026-10-29 22:10:38.557] [ASCII] metaoffset: 12288
+[2026-10-29 22:10:38.557] [ASCII] at ../drinQ
+[2026-10-29 22:10:38.557] [ASCII] ess...
+[2026-10-29 22:10:38.557] [ASCII] heduleStartKernel
+[2026-10-29 22:10:38.557] [ASCII] -generateKernelIlL
+[2026-10-29 22:10:38.557] [ASCII] 1
+[2026-10-29 22:10:38.557] [ASCII] %
+[2026-10-29 22:10:38.557] [ASCII] l
+[2026-10-29 22:10:38.557] [ASCII] E
+[2026-10-29 22:10:38.557] [ASCII] m
+[2026-10-29 22:10:38.557] [ASCII] [
+[2026-10-29 22:10:38.557] [ASCII] 1
+[2026-10-29 22:10:38.557] [ASCII] RefEmit_InMemoryManifestModule
+[2026-10-29 22:10:38.557] [ASCII] refemit_inmemorymanifestmodule
+[2026-10-29 22:10:38.557] [ASCII] `D!!Y-,KS#KQZX8!!Y-,KTX8!!Y-,
+[2026-10-29 22:10:38.557] [ASCII] !!!!Y-,KS#KQZX
+[2026-10-29 22:10:38.557] [ASCII] CTXKS#KQZX8!!Y!!!!Y-,
+[2026-10-29 22:10:38.557] [ASCII] +
+[2026-10-29 22:10:38.557] [ASCII] !!Y-,KS#KQZX8!!Y-,KTX8!!Y-,
+[2026-10-29 22:10:38.557] [ASCII] CTXKS#KQZX8!!Y!!!!Y-
+[2026-10-29 22:10:38.557] [ASCII] RyB:R YK
