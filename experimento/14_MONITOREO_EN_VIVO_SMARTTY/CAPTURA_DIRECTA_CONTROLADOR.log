@@ -1,0 +1,1871 @@
+﻿[2026-10-29 23:03:53.057] === INICIANDO CONTROLADOR DIRECTO ANTIGRAVITY (UART COM8 + USB FASTBOOT) ===
+[2026-10-29 23:03:53.209] [+] CONECTADO DIRECTAMENTE A COM8 (115200 8N1) - Esperando datos de la caja...
+[2026-10-29 23:06:21.698] [+] CONECTADO DIRECTAMENTE A COM8 (115200 8N1) - Esperando datos de la caja...
+[2026-10-29 23:06:21.985] [UART-RX] G12A:BL:0253b8:61aa2d;FEAT:F2F939B2:32060;POC:F;RCY:0;READ:0;
+[2026-10-29 23:06:22.013] [!] DETECTADO ARRANQUE DE BOOTLOADER: Enviando rafaga de interrupcion hacia U-Boot...
+[2026-10-29 23:06:22.108] [UART-RX] ??_stage_init 0x01
+[2026-10-29 23:06:22.119] [UART-RX] bl2_stage_init 0x81
+[2026-10-29 23:06:22.140] [UART-RX] hw id: 0x0000 - pwm id 0x01
+[2026-10-29 23:06:22.165] [UART-RX] bl2_stage_init 0xc1
+[2026-10-29 23:06:22.196] [UART-RX] bl2_stage_init 0x02
+[2026-10-29 23:06:22.227] [UART-RX] L0:0000037f
+[2026-10-29 23:06:22.246] [UART-RX] L1:00000701
+[2026-10-29 23:06:22.269] [UART-RX] L2:00008067
+[2026-10-29 23:06:22.294] [UART-RX] L3:04000000
+[2026-10-29 23:06:22.321] [UART-RX] S1:00000000
+[2026-10-29 23:06:22.341] [UART-RX] B2:00032060
+[2026-10-29 23:06:22.374] [UART-RX] B1:f2f939b2
+[2026-10-29 23:06:22.397] [UART-RX] TE: 246072
+[2026-10-29 23:06:22.421] [UART-RX] BL2 Built : 10:48:42, May 12 2022. g12a g163d76f - jenkins@walle02-sh
+[2026-10-29 23:06:22.451] [UART-RX] Board ID = 8
+[2026-10-29 23:06:22.481] [UART-RX] Set cpu clk to 24M
+[2026-10-29 23:06:22.506] [UART-RX] Set clk81 to 24M
+[2026-10-29 23:06:22.530] [UART-RX] CPU clk: 1200 MHz
+[2026-10-29 23:06:22.550] [UART-RX] Set clk81 to 166.6M
+[2026-10-29 23:06:22.573] [UART-RX] eMMC boot @ 0
+[2026-10-29 23:06:22.603] [UART-RX] sw8 s
+[2026-10-29 23:06:22.622] [UART-RX] OTP_ARB=00000001
+[2026-10-29 23:06:22.653] [UART-RX] board id: 8
+[2026-10-29 23:06:22.680] [UART-RX] Load FIP HDR DDR from eMMC, src: 0x00010200, des: 0xfffd0000, size: 0x00004000, part: 0
+[2026-10-29 23:06:22.745] [UART-RX] fw parse done
+[2026-10-29 23:06:22.755] [UART-RX] PIEI prepare done
+[2026-10-29 23:06:22.782] [UART-RX] 00000000
+[2026-10-29 23:06:22.853] [UART-RX] emmc switch 1 ok
+[2026-10-29 23:06:22.877] [UART-RX] 00000000
+[2026-10-29 23:06:22.902] [UART-RX] emmc switch 2 ok
+[2026-10-29 23:06:22.920] [UART-RX]  NO find ddr boot_info from eMMC
+[2026-10-29 23:06:22.940] [UART-RX] fastboot data verify
+[2026-10-29 23:06:22.962] [UART-RX] result: 255
+[2026-10-29 23:06:22.994] [UART-RX] Cfg max: 12, cur: 1. Board id: 255. Force loop cfg
+[2026-10-29 23:06:23.013] [UART-RX] DDR4 probe
+[2026-10-29 23:06:23.044] [UART-RX] LPDDR4_PHY_V_0_1_24-Built : 15:01:24, Apr 25 2022. g12a g0c5c5f2 - bo.lv@droid13
+[2026-10-29 23:06:23.069] [UART-RX] ddr clk to 1176MHz
+[2026-10-29 23:06:23.093] [UART-RX] 00000000
+[2026-10-29 23:06:23.121] [UART-RX] emmc switch 0 ok
+[2026-10-29 23:06:23.151] [UART-RX] dmc_versi?????j
+[2026-10-29 23:06:23.176] [UART-RX] ?result
+[2026-10-29 23:06:23.202] [UART-RX] INFO : End of initialization
+[2026-10-29 23:06:23.235] [UART-RX] INFO : ERROR : Training has failed!
+[2026-10-29 23:06:23.261] [UART-RX] 1D training failed
+[2026-10-29 23:06:23.286] [UART-RX] Cfg max: 12, cur: 3. Board id: 255. Force loop cfg
+[2026-10-29 23:06:23.311] [UART-RX] DDR3 probe
+[2026-10-29 23:06:23.337] [UART-RX] ddr clk to 912MHz
+[2026-10-29 23:06:23.377] [UART-RX] dmc_version 0000
+[2026-10-29 23:06:23.402] [UART-RX] Check phy result
+[2026-10-29 23:06:23.425] [UART-RX] INFO : End of initialization
+[2026-10-29 23:06:23.443] [UART-RX] INFO : End of read enable training
+[2026-10-29 23:06:23.463] [UART-RX] INFO : End of fine write leveling
+[2026-10-29 23:06:23.482] [UART-RX] INFO : End of read dq deskew training
+[2026-10-29 23:06:23.506] [UART-RX] INFO : End of MPR read delay center optimization
+[2026-10-29 23:06:23.532] [UART-RX] INFO : End of Write leveling coarse delay
+[2026-10-29 23:06:23.565] [UART-RX] INFO : End of write delay center optimization
+[2026-10-29 23:06:23.594] [UART-RX] INFO : End of read delay center optimization
+[2026-10-29 23:06:23.620] [UART-RX] INFO : End of max read latency training
+[2026-10-29 23:06:23.650] [UART-RX] INFO : Training has run successfully!
+[2026-10-29 23:06:23.677] [UART-RX]  dwc_ddrphy_apb_wr((0<<20)|(2<<16)|(0<<12)|(0xb0):00e4 
+[2026-10-29 23:06:23.707] [UART-RX] 1D training succeed
+[2026-10-29 23:06:23.736] [UART-RX] auto size-- 65535DDR cs0 size: 1024MB
+[2026-10-29 23:06:23.761] [UART-RX] DDR cs1 size: 1024MB
+[2026-10-29 23:06:23.788] [UART-RX] DMC_DDR_CTRL: 0020001bDDR size: 2048MB
+[2026-10-29 23:06:23.810] [UART-RX] cs0 DataBus test pass
+[2026-10-29 23:06:23.836] [UART-RX] cs1 DataBus test pass
+[2026-10-29 23:06:23.858] [UART-RX] cs0 AddrBus test pass
+[2026-10-29 23:06:23.884] [UART-RX] cs1 AddrBus test pass
+[2026-10-29 23:06:23.914] [UART-RX] non-sec scramble use zero key
+[2026-10-29 23:06:23.937] [UART-RX] ddr scramble enabled
+[2026-10-29 23:06:23.971] [UART-RX] 100bdlr_step_size ps== 435
+[2026-10-29 23:06:24.002] [UART-RX] result report
+[2026-10-29 23:06:24.026] [UART-RX] boot times 0Enable ddr reg access
+[2026-10-29 23:06:24.046] [UART-RX] 00000000
+[2026-10-29 23:06:24.059] [UART-RX] emmc switch 3 ok
+[2026-10-29 23:06:24.086] [UART-RX] BL2: rpmb counter: 0x00008ffe
+[2026-10-29 23:06:24.104] [UART-RX] 00000000
+[2026-10-29 23:06:24.127] [UART-RX] emmc switch 0 ok
+[2026-10-29 23:06:24.155] [UART-RX] Load FIP HDR from eMMC, src: 0x00010200, des: 0x01700000, size: 0x00004000, part: 0
+[2026-10-29 23:06:24.182] [UART-RX] Load BL3X from eMMC, src: 0x00078200, des: 0x01768000, size: 0x0014b400, part: 0
+[2026-10-29 23:06:24.235] [UART-RX] 0.0;0.0;M3 CHK:0;cm4_sp_mode 0
+[2026-10-29 23:06:24.249] [UART-RX] OPS=0x40
+[2026-10-29 23:06:24.280] [UART-RX] ring efuse init
+[2026-10-29 23:06:24.307] [UART-RX] MVN_1=0x00000100
+[2026-10-29 23:06:24.332] [UART-RX] MVN_2=0x00000000
+[2026-10-29 23:06:24.359] [UART-RX] [Image: g12a_v1.1.3504-108cf9f3c 2021-06-25 13:59:25 jenkins@walle02-sh]
+[2026-10-29 23:06:24.383] [UART-RX] 28 0e 40 00 01 15 20 00 00 0b 31 34 59 56 56 50 
+[2026-10-29 23:06:24.411] [UART-RX] [0.052071 Inits done]
+[2026-10-29 23:06:24.436] [UART-RX] secure task start!
+[2026-10-29 23:06:24.473] [UART-RX] high task start!
+[2026-10-29 23:06:24.503] [UART-RX] low task start!
+[2026-10-29 23:06:24.526] [UART-RX] boot bl31
+[2026-10-29 23:06:24.556] [UART-RX] NOTICE:  BL31: v1.3(release):e23f9e8d7
+[2026-10-29 23:06:24.582] [UART-RX] NOTICE:  BL31: Built : 17:52:23, Oct  8 2022
+[2026-10-29 23:06:24.606] [UART-RX] NOTICE:  BL31: G12A secure boot!
+[2026-10-29 23:06:24.632] [UART-RX] NOTICE:  BL31: BL33 decompress pass
+[2026-10-29 23:06:24.657] [UART-RX] INFO:    BL3-2: ATOS-V2.4.4-155-g0ce7c357b #1 Mon Jul 31 23:21:06 2023 -0700 arm
+[2026-10-29 23:06:24.689] [UART-RX] INFO:    BL3-2: Chip: G12A Rev: E (28:E - 40:2)
+[2026-10-29 23:06:24.709] [UART-RX] INFO:    BL3-2: crypto engine DMA
+[2026-10-29 23:06:24.742] [UART-RX] INFO:    BL3-2: secure time TEE
+[2026-10-29 23:06:24.771] [UART-RX] INFO:    BL3-2: CONFIG_DEVICE_SECURE 0xb200000e
+[2026-10-29 23:06:24.790] [UART-RX] protect cbus registers
+[2026-10-29 23:06:24.810] [UART-RX] U-Boot 2015.01-g220e992 (Sep 05 2023 - 04:13:01)
+[2026-10-29 23:06:24.827] [UART-RX] DRAM:  2 GiB
+[2026-10-29 23:06:24.853] [UART-RX] Relocation Offset is: 76ded000
+[2026-10-29 23:06:24.882] [UART-RX] mmu cfg end: 0x80000000
+[2026-10-29 23:06:24.916] [UART-RX] mmu cfg end: 0x80000000
+[2026-10-29 23:06:24.945] [UART-RX] spi_post_bind(spifc): req_seq = 0
+[2026-10-29 23:06:24.965] [UART-RX] register usb cfg[0][1] = 0000000077f3ac20
+[2026-10-29 23:06:24.981] [UART-RX] [CANVAS]canvas init
+[2026-10-29 23:06:24.998] [UART-RX] NAND:  get_sys_clk_rate_mtd() 280, clock setting 200!
+[2026-10-29 23:06:25.042] [UART-RX] bus cycle0: 6,timing: 7
+[2026-10-29 23:06:25.066] [UART-RX] NAND device id: 0 ff ff ff ff ff 
+[2026-10-29 23:06:25.111] [UART-RX] No NAND device found!!!
+[2026-10-29 23:06:25.149] [UART-RX] nand init failed: -6
+[2026-10-29 23:06:25.176] [UART-RX] get_sys_clk_rate_mtd() 280, clock setting 200!
+[2026-10-29 23:06:25.200] [UART-RX] bus cycle0: 6,timing: 7
+[2026-10-29 23:06:25.222] [UART-RX] NAND device id: 0 ff ff ff ff ff 
+[2026-10-29 23:06:25.240] [UART-RX] No NAND device found!!!
+[2026-10-29 23:06:25.256] [UART-RX] nand init failed: -6
+[2026-10-29 23:06:25.280] [UART-RX] MMC:   aml_priv->desc_buf = 0x0000000073ddda70
+[2026-10-29 23:06:25.309] [UART-RX] aml_priv->desc_buf = 0x0000000073ddfdb0
+[2026-10-29 23:06:25.343] [UART-RX] SDIO Port B: 0, SDIO Port C: 1
+[2026-10-29 23:06:25.375] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:25.402] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:25.425] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:25.447] [UART-RX] emmc/sd response timeout, cmd8, cmd->cmdarg=0x1aa, status=0x1ff2800
+[2026-10-29 23:06:25.473] [UART-RX] emmc/sd response timeout, cmd55, cmd->cmdarg=0x0, status=0x1ff2800
+[2026-10-29 23:06:25.495] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:25.519] [UART-RX] co-phase 0x3, tx-dly 0, clock 40000000
+[2026-10-29 23:06:25.544] [UART-RX] [set_emmc_calc_fixed_adj][862]find fixed adj_delay=20
+[2026-10-29 23:06:25.569] [UART-RX] init_part() 297: PART_TYPE_AML
+[2026-10-29 23:06:25.592] [UART-RX] [mmc_init] mmc init success
+[2026-10-29 23:06:25.610] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:25.632] [UART-RX]       GZIP format, decompress...
+[2026-10-29 23:06:25.655] [UART-RX]       Multi DTB detected.
+[2026-10-29 23:06:25.681] [UART-RX]       Multi DTB tool version: v2.
+[2026-10-29 23:06:25.708] [UART-RX]       Support 2 DTBS.
+[2026-10-29 23:06:25.732] [UART-RX] saradc get val = 685
+[2026-10-29 23:06:25.762] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:25.794] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:25.819] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:25.841] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:25.875] [UART-RX]       Found DTB for "g12a_u212_2g"
+[2026-10-29 23:06:25.900] [UART-RX] start dts,buffer=0000000073de2620,dt_addr=0000000073de2620
+[2026-10-29 23:06:25.923] [UART-RX] get_partition_from_dts() 80: ret 0
+[2026-10-29 23:06:25.948] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:25.972] [UART-RX]       Single DTB detected
+[2026-10-29 23:06:26.000] [UART-RX] saradc get val = 685
+[2026-10-29 23:06:26.021] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:26.054] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:26.076] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:26.099] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:26.132] [UART-RX] parts: 16
+[2026-10-29 23:06:26.156] [UART-RX] 00:      logo	0000000000800000 1
+[2026-10-29 23:06:26.172] [UART-RX] 01:  recovery	0000000001800000 1
+[2026-10-29 23:06:26.212] [UART-RX] 02:      misc	0000000000800000 1
+[2026-10-29 23:06:26.238] [UART-RX] 03:      conf	0000000000400000 1
+[2026-10-29 23:06:26.265] [UART-RX] 04:      dtbo	0000000000800000 1
+[2026-10-29 23:06:26.287] [UART-RX] 05:  cri_data	0000000000800000 2
+[2026-10-29 23:06:26.310] [UART-RX] 06:     param	0000000001000000 2
+[2026-10-29 23:06:26.335] [UART-RX] 07:      boot	0000000001000000 1
+[2026-10-29 23:06:26.356] [UART-RX] set has_boot_slot = 0
+[2026-10-29 23:06:26.372] [UART-RX] 08:       oem	0000000001000000 1
+[2026-10-29 23:06:26.389] [UART-RX] 09:  metadata	0000000001000000 1
+[2026-10-29 23:06:26.421] [UART-RX] 10:    vbmeta	0000000000200000 1
+[2026-10-29 23:06:26.438] [UART-RX] 11:       tee	0000000002000000 1
+[2026-10-29 23:06:26.465] [UART-RX] 12:   factory	0000000000800000 11
+[2026-10-29 23:06:26.487] [UART-RX] 13:     super	0000000070800000 1
+[2026-10-29 23:06:26.501] [UART-RX] enable dynamic_partition
+[2026-10-29 23:06:26.526] [UART-RX] 14:     cache	000000003e800000 2
+[2026-10-29 23:06:26.549] [UART-RX] 15:  userdata	ffffffffffffffff 4
+[2026-10-29 23:06:26.574] [UART-RX] init_part() 297: PART_TYPE_AML
+[2026-10-29 23:06:26.591] [UART-RX] eMMC/TSD partition table have been checked OK!
+[2026-10-29 23:06:26.607] [UART-RX] crc32_s:0x1577dad == storage crc_pattern:0x1577dad!!!
+[2026-10-29 23:06:26.623] [UART-RX] crc32_s:0xee152b83 == storage crc_pattern:0xee152b83!!!
+[2026-10-29 23:06:26.640] [UART-RX] crc32_s:0x7fd3b243 == storage crc_pattern:0x7fd3b243!!!
+[2026-10-29 23:06:26.657] [UART-RX] mmc env offset: 0x45c00000 
+[2026-10-29 23:06:26.686] [UART-RX] In:    serial
+[2026-10-29 23:06:26.702] [UART-RX] Out:   serial
+[2026-10-29 23:06:26.726] [UART-RX] Err:   serial
+[2026-10-29 23:06:26.741] [UART-RX] reboot_mode=cold_boot
+[2026-10-29 23:06:26.765] [UART-RX] gpio: pin GPIOH_8 (gpio 39) value is 1
+[2026-10-29 23:06:26.781] [UART-RX] gpio: pin GPIOH_5 (gpio 36) value is 0
+[2026-10-29 23:06:26.797] [UART-RX] gpio: pin GPIOAO_4 (gpio 4) value is 1
+[2026-10-29 23:06:26.816] [UART-RX] [store]To run cmd[emmc dtb_read 0x1000000 0x40000]
+[2026-10-29 23:06:26.846] [UART-RX] _verify_dtb_checksum()-3354: calc d64b36f1, store d64b36f1
+[2026-10-29 23:06:26.871] [UART-RX] _verify_dtb_checksum()-3354: calc d64b36f1, store d64b36f1
+[2026-10-29 23:06:26.901] [UART-RX] dtb_read()-3569: total valid 2
+[2026-10-29 23:06:26.930] [UART-RX] update_old_dtb()-3550: do nothing
+[2026-10-29 23:06:26.955] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:27.006] [UART-RX]       GZIP format, decompress...
+[2026-10-29 23:06:27.036] [UART-RX]       Multi DTB detected.
+[2026-10-29 23:06:27.061] [UART-RX]       Multi DTB tool version: v2.
+[2026-10-29 23:06:27.075] [UART-RX]       Support 2 DTBS.
+[2026-10-29 23:06:27.107] [UART-RX] saradc get val = 685
+[2026-10-29 23:06:27.130] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:27.152] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:27.172] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:27.194] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:27.226] [UART-RX]       Found DTB for "g12a_u212_2g"
+[2026-10-29 23:06:27.245] [UART-RX] amlkey_init() enter!
+[2026-10-29 23:06:27.268] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:27.291] [UART-RX] vpu: driver version: v20190313
+[2026-10-29 23:06:27.315] [UART-RX] vpu: detect chip type: 8
+[2026-10-29 23:06:27.338] [UART-RX] vpu: clk_level default: 7(666667000Hz), max: 7(666667000Hz)
+[2026-10-29 23:06:27.372] [UART-RX] vpu: clk_level in dts: 7
+[2026-10-29 23:06:27.396] [UART-RX] vpu: vpu_power_on
+[2026-10-29 23:06:27.422] [UART-RX] vpu: set_vpu_clk
+[2026-10-29 23:06:27.441] [UART-RX] vpu: set clk: 666667000Hz, readback: 666666667Hz(0x100)
+[2026-10-29 23:06:27.457] [UART-RX] vpu: set_vpu_clk finish
+[2026-10-29 23:06:27.477] [UART-RX] vpu: vpu_module_init_config
+[2026-10-29 23:06:27.494] [UART-RX] vpp: vpp_init
+[2026-10-29 23:06:27.516] [UART-RX] vpp: vpp osd2 matrix rgb2yuv..............
+[2026-10-29 23:06:27.538] [UART-RX] hdr_func 4, hdr_process_select 0x1
+[2026-10-29 23:06:27.562] [UART-RX] hdr_func 1, hdr_process_select 0x1
+[2026-10-29 23:06:27.594] [UART-RX] hdr_func 2, hdr_process_select 0x1
+[2026-10-29 23:06:27.619] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:27.643] [UART-RX] do_sync_vout read conf item ok
+[2026-10-29 23:06:27.666] [UART-RX] do_sync_vout conf_hdmimode: Auto
+[2026-10-29 23:06:27.693] [UART-RX] do_sync_vout conf_cvbsmode: 480cvbs
+[2026-10-29 23:06:27.715] [UART-RX] cvbs: cpuid:0x28
+[2026-10-29 23:06:27.738] [UART-RX] cvbs: find clk_path: 0x0
+[2026-10-29 23:06:27.769] [UART-RX] cvbs: find performance_pal config
+[2026-10-29 23:06:27.793] [UART-RX] cvbs: find performance_ntsc config
+[2026-10-29 23:06:27.825] [UART-RX] aml_config_dtb 630
+[2026-10-29 23:06:27.849] [UART-RX] aml_config_dtb 660
+[2026-10-29 23:06:27.875] [UART-RX] co_phase = <0x00000003>
+[2026-10-29 23:06:27.902] [UART-RX] caps2 = "MMC_CAP2_HS200"
+[2026-10-29 23:06:27.930] [UART-RX] f_max = "??"
+[2026-10-29 23:06:27.958] [UART-RX] status = "disabled"
+[2026-10-29 23:06:27.979] [UART-RX] status = "okay"
+[2026-10-29 23:06:28.010] [UART-RX] Net:   dwmac.ff3f0000amlkey_init() enter!
+[2026-10-29 23:06:28.037] [UART-RX] amlkey_init() 59: already init!
+[2026-10-29 23:06:28.063] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:28.095] [UART-RX] Error: eth_get_efuse_mac failed!!!
+[2026-10-29 23:06:28.119] [UART-RX] MACADDR:02:00:00:20:15:01(from chipid)
+[2026-10-29 23:06:28.140] [UART-RX] MACADDR:(from env)
+[2026-10-29 23:06:28.161] [UART-RX] ramdump_init, add:0, size:0
+[2026-10-29 23:06:28.184] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:28.215] [UART-RX] active slot = 0
+[2026-10-29 23:06:28.236] [UART-RX] wipe_data=successful
+[2026-10-29 23:06:28.253] [UART-RX] wipe_cache=successful
+[2026-10-29 23:06:28.272] [UART-RX] upgrade_step=2
+[2026-10-29 23:06:28.290] [UART-RX] reboot_mode:::: cold_boot
+[2026-10-29 23:06:28.313] [UART-RX] s_version: U-Boot 2015.01-g220e992
+[2026-10-29 23:06:28.340] [UART-RX] amlkey_init() enter!
+[2026-10-29 23:06:28.370] [UART-RX] amlkey_init() 59: already init!
+[2026-10-29 23:06:28.395] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:28.411] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[usid] not programed yet
+[2026-10-29 23:06:28.444] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[mac] not programed yet
+[2026-10-29 23:06:28.472] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[deviceid] not programed yet
+[2026-10-29 23:06:28.494] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[oemkey] not programed yet
+[2026-10-29 23:06:28.521] [UART-RX] Interface:  MMC
+[2026-10-29 23:06:28.541] [UART-RX]   Device 1: Vendor: Man 000045 Snr d71cf119 Rev: 0.1 Prod: DG4008
+[2026-10-29 23:06:28.571] [UART-RX]             Type: Removable Hard Disk
+[2026-10-29 23:06:28.591] [UART-RX]             Capacity: 7457.8 MB = 7.2 GB (15273600 x 512)
+[2026-10-29 23:06:28.615] [UART-RX] Filesystem: FAT12 "KEYBOX PART"
+[2026-10-29 23:06:28.639] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:28.655] [UART-RX] hpd_state=1
+[2026-10-29 23:06:28.679] [UART-RX] do_hpd_detect: hdmimode=2160p60hz
+[2026-10-29 23:06:28.705] [UART-RX] do_hpd_detect: colorattribute=420,10bit
+[2026-10-29 23:06:28.720] [UART-RX] tvts_mode: 0
+[2026-10-29 23:06:28.745] [UART-RX] HDMI_EDID_BLOCK_TYPE_VENDER: pRXCap->ColorDeepSupport=0xb8
+[2026-10-29 23:06:28.760] [UART-RX] Edid_ParsingVen
+[2026-10-29 23:06:28.824] [UART-RX] dSpec:ieeeoui=0x90848b,len=5
+[2026-10-29 23:06:28.830] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:28.876] [UART-RX] pixel_clock 24150
+[2026-10-29 23:06:28.908] [UART-RX] h_active 2560
+[2026-10-29 23:06:28.924] [UART-RX] h_blank 160
+[2026-10-29 23:06:28.946] [UART-RX] v_active 1440
+[2026-10-29 23:06:28.964] [UART-RX] v_blank 41
+[2026-10-29 23:06:28.980] [UART-RX] h_sync_offset 48
+[2026-10-29 23:06:29.012] [UART-RX] h_sync 32
+[2026-10-29 23:06:29.036] [UART-RX] v_sync_offset 3
+[2026-10-29 23:06:29.063] [UART-RX] v_sync 5
+[2026-10-29 23:06:29.089] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:29.109] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:29.139] [UART-RX] h_active 0
+[2026-10-29 23:06:29.164] [UART-RX] h_blank 253
+[2026-10-29 23:06:29.190] [UART-RX] v_active 24
+[2026-10-29 23:06:29.212] [UART-RX] v_blank 3915
+[2026-10-29 23:06:29.244] [UART-RX] h_sync_offset 135
+[2026-10-29 23:06:29.270] [UART-RX] h_sync 60
+[2026-10-29 23:06:29.292] [UART-RX] v_sync_offset 32
+[2026-10-29 23:06:29.320] [UART-RX] v_sync 32
+[2026-10-29 23:06:29.342] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:29.365] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:29.393] [UART-RX] h_active 0
+[2026-10-29 23:06:29.416] [UART-RX] h_blank 252
+[2026-10-29 23:06:29.436] [UART-RX] v_active 1107
+[2026-10-29 23:06:29.467] [UART-RX] v_blank 3393
+[2026-10-29 23:06:29.492] [UART-RX] h_sync_offset 339
+[2026-10-29 23:06:29.510] [UART-RX] h_sync 85
+[2026-10-29 23:06:29.541] [UART-RX] v_sync_offset 20
+[2026-10-29 23:06:29.558] [UART-RX] v_sync 62
+[2026-10-29 23:06:29.590] [UART-RX] change preferred_mode from 16 to 97
+[2026-10-29 23:06:29.621] [UART-RX] find IEEEOUT
+[2026-10-29 23:06:29.641] [UART-RX] check sum invalid
+[2026-10-29 23:06:29.670] [UART-RX] check sum valid
+[2026-10-29 23:06:29.693] [UART-RX] sink preferred_mode is 2160p60hz[97]
+[2026-10-29 23:06:29.720] [UART-RX] hdr mode is 1
+[2026-10-29 23:06:29.745] [UART-RX] dv  mode is ver:0  len: 0
+[2026-10-29 23:06:29.769] [UART-RX] hdr10+ mode is 1
+[2026-10-29 23:06:29.809] [UART-RX] tvts_mode: 0
+[2026-10-29 23:06:29.840] [UART-RX] HDMI_EDID_BLOCK_TYPE_VENDER: pRXCap->ColorDeepSupport=0xb8
+[2026-10-29 23:06:29.866] [UART-RX] Edid_ParsingVendSpec:ieeeoui=0x90848b,len=5
+[2026-10-29 23:06:29.890] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:29.915] [UART-RX] pixel_clock 24150
+[2026-10-29 23:06:29.939] [UART-RX] h_active 2560
+[2026-10-29 23:06:29.970] [UART-RX] h_blank 160
+[2026-10-29 23:06:29.995] [UART-RX] v_active 1440
+[2026-10-29 23:06:30.019] [UART-RX] v_blank 41
+[2026-10-29 23:06:30.046] [UART-RX] h_sync_offset 48
+[2026-10-29 23:06:30.068] [UART-RX] h_sync 32
+[2026-10-29 23:06:30.089] [UART-RX] v_sync_offset 3
+[2026-10-29 23:06:30.114] [UART-RX] v_sync 5
+[2026-10-29 23:06:30.133] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:30.153] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:30.177] [UART-RX] h_active 0
+[2026-10-29 23:06:30.201] [UART-RX] h_blank 253
+[2026-10-29 23:06:30.240] [UART-RX] v_active 24
+[2026-10-29 23:06:30.267] [UART-RX] v_blank 3915
+[2026-10-29 23:06:30.291] [UART-RX] h_sync_offset 135
+[2026-10-29 23:06:30.315] [UART-RX] h_sync 60
+[2026-10-29 23:06:30.335] [UART-RX] v_sync_offset 32
+[2026-10-29 23:06:30.358] [UART-RX] v_sync 32
+[2026-10-29 23:06:30.376] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:30.409] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:30.424] [UART-RX] h_active 0
+[2026-10-29 23:06:30.449] [UART-RX] h_blank 252
+[2026-10-29 23:06:30.474] [UART-RX] v_active 1107
+[2026-10-29 23:06:30.507] [UART-RX] v_blank 3393
+[2026-10-29 23:06:30.539] [UART-RX] h_sync_offset 339
+[2026-10-29 23:06:30.567] [UART-RX] h_sync 85
+[2026-10-29 23:06:30.593] [UART-RX] v_sync_offset 20
+[2026-10-29 23:06:30.609] [UART-RX] v_sync 62
+[2026-10-29 23:06:30.633] [UART-RX] change preferred_mode from 16 to 97
+[2026-10-29 23:06:30.657] [UART-RX] find IEEEOUT
+[2026-10-29 23:06:30.680] [UART-RX] check sum valid
+[2026-10-29 23:06:30.703] [UART-RX] check sum valid
+[2026-10-29 23:06:30.723] [UART-RX] read hdmichecksum: 0xe3770000, hdmimode: 2160p60hz, colorattribute: 420,10bit
+[2026-10-29 23:06:30.740] [UART-RX] TV is the same, checksum: 0xe3770000
+[2026-10-29 23:06:30.761] [UART-RX] hdmitx_mask_rx_info hdr_info = 0
+[2026-10-29 23:06:30.778] [UART-RX] dolby_status 0 1
+[2026-10-29 23:06:30.811] [UART-RX] dolby_vision_process: hpd: dv disabled
+[2026-10-29 23:06:30.854] [UART-RX] Saving Environment to aml-storage...
+[2026-10-29 23:06:30.874] [UART-RX] mmc env offset: 0x45c00000 
+[2026-10-29 23:06:30.906] [UART-RX] Writing to MMC(1)... done
+[2026-10-29 23:06:30.930] [UART-RX] [OSD]load fb addr from dts:/meson-fb
+[2026-10-29 23:06:30.956] [UART-RX] [OSD]set initrd_high: 0x7f800000
+[2026-10-29 23:06:30.989] [UART-RX] [OSD]fb_addr for logo: 0x7f800000
+[2026-10-29 23:06:31.009] [UART-RX] [OSD]load fb addr from dts:/meson-fb
+[2026-10-29 23:06:31.032] [UART-RX] [OSD]fb_addr for logo: 0x7f800000
+[2026-10-29 23:06:31.057] [UART-RX] [OSD]VPP_OFIFO_SIZE:0xfff01fff
+[2026-10-29 23:06:31.088] [UART-RX] [CANVAS]addr=0x7f800000 width=5760, height=2160
+[2026-10-29 23:06:31.112] [UART-RX] Starting logo
+[2026-10-29 23:06:31.138] [UART-RX] [Logo_disp]: ====== Logo_disp ======
+[2026-10-29 23:06:31.160] [UART-RX] [OSD]load fb addr from dts:/meson-fb
+[2026-10-29 23:06:31.190] [UART-RX] [OSD]fb_addr for logo: 0x7f800000
+[2026-10-29 23:06:31.229] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:31.256] [UART-RX] =========logo_offset=0 
+[2026-10-29 23:06:31.273] [UART-RX] [draw_logo] size=0xd2460, ntohl(imgheader.len)=0xd2400, ntohs(imgheader.offset)=0x60
+[2026-10-29 23:06:31.295] [UART-RX] [draw_logo] after ALIGN, size=0xd2600
+[2026-10-29 23:06:31.314] [UART-RX] [draw_logo]: before read_logo_data 
+[2026-10-29 23:06:31.327] [UART-RX] [draw_logo]: draw_logo 1570
+[2026-10-29 23:06:31.350] [UART-RX] [draw_logo]: draw_logo 1572
+[2026-10-29 23:06:31.378] [UART-RX] [set_logoParam]: enter the set_logoParam
+[2026-10-29 23:06:31.391] [UART-RX] [set_logoParam]:  Id		FileName		Type		No		 Addr			Size
+[2026-10-29 23:06:31.414] [UART-RX] [set_logoParam]: before the get_logo_source PAL_LOGO_PICTURE
+[2026-10-29 23:06:31.432] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:31.447] [UART-RX] [set_logoParam]:  <0>		LogoPic(480i)		0		1		0x11000288		541225
+[2026-10-29 23:06:31.467] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:31.491] [UART-RX] ### get_logo_source: material.type=0, material.No=2
+[2026-10-29 23:06:31.522] [UART-RX] [set_logoParam]:  <1>		LogoPic(576i)		0		2		0x110844b4		114717
+[2026-10-29 23:06:31.558] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:31.584] [UART-RX] ### get_logo_source: material.type=0, material.No=2
+[2026-10-29 23:06:31.608] [UART-RX] ### get_logo_source: material.type=0, material.No=3
+[2026-10-29 23:06:31.631] [UART-RX] [set_logoParam]:  <2>		LogoPic(720p)		0		3		0x110a04d4		66136
+[2026-10-29 23:06:31.657] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:31.685] [UART-RX] ### get_logo_source: material.type=0, material.No=2
+[2026-10-29 23:06:31.711] [UART-RX] ### get_logo_source: material.type=0, material.No=3
+[2026-10-29 23:06:31.738] [UART-RX] ### get_logo_source: material.type=0, material.No=4
+[2026-10-29 23:06:31.759] [UART-RX] [set_logoParam]:  <3>		LogoPic(1080i_p)	0		2		0x110b072c		61489
+[2026-10-29 23:06:31.784] [UART-RX] [draw_logo]: draw_logo 1615
+[2026-10-29 23:06:31.811] [UART-RX] before the  decompressToRGB
+[2026-10-29 23:06:31.841] [UART-RX] Start to decode the LOGO jpeg ...
+[2026-10-29 23:06:31.872] [UART-RX] [decompressToRGB]: before the decompress_jpeg_rgb
+[2026-10-29 23:06:31.895] [UART-RX] [decompressToRGB]: Call decompress_pic_rgb565(id=3,addr=110b072c,size=61489,maxw=1920,maxh=1080,Bpp=3) ... 
+[2026-10-29 23:06:31.930] [UART-RX] [decompressToRGB]: after the decompress_jpeg_rgb
+[2026-10-29 23:06:31.964] [UART-RX] [draw_logo]: Success in decoding LOGO src file:	(w=1920,h=1080,Bpp=3,data=0x73e628c0)
+[2026-10-29 23:06:31.994] [UART-RX] [deinit_Logo]: all LOGO's resource (Exc. logoThread) are released 
+[2026-10-29 23:06:32.018] [UART-RX] Logo_disp ret: 0
+[2026-10-29 23:06:32.075] [UART-RX] [OSD]osd_hw.free_dst_data: 0,3839,0,2159
+[2026-10-29 23:06:32.102] [UART-RX] [OSD]osd1_update_disp_freescale_enable
+[2026-10-29 23:06:32.128] [UART-RX] cvbs: outputmode[2160p60hz] is invalid
+[2026-10-29 23:06:32.144] [UART-RX] vpp: vpp_matrix_update: 2
+[2026-10-29 23:06:32.172] [UART-RX] set hdmitx VIC = 97
+[2026-10-29 23:06:32.196] [UART-RX] aml_audio_init
+[2026-10-29 23:06:32.214] [UART-RX] config HPLL = 3712500 frac_rate = 1
+[2026-10-29 23:06:32.231] [UART-RX] HPLL: 0x3b00049a
+[2026-10-29 23:06:32.250] [UART-RX] HPLL: 0x1b00049a
+[2026-10-29 23:06:32.271] [UART-RX] HPLL: 0xdb00049a
+[2026-10-29 23:06:32.293] [UART-RX] config HPLL done
+[2026-10-29 23:06:32.309] [UART-RX] j = 9  vid_clk_div = 1
+[2026-10-29 23:06:32.326] [UART-RX] hdmitx: set enc for VIC: 353
+[2026-10-29 23:06:32.342] [UART-RX] hdmitx phy setting done
+[2026-10-29 23:06:32.357] [UART-RX] rx version is 2.0  div=40
+[2026-10-29 23:06:32.374] [UART-RX] hdmtix: set audio
+[2026-10-29 23:06:32.398] [UART-RX] hdmi_tx_set: save mode: 2160p60hz, attr: 420,10bit, hdmichecksum: 0xe3770000
+[2026-10-29 23:06:32.414] [UART-RX] dolby_status 0 1
+[2026-10-29 23:06:32.429] [UART-RX] dolby_status 0 1
+[2026-10-29 23:06:32.460] [UART-RX] hdr_packet
+[2026-10-29 23:06:32.484] [UART-RX] hdr_func 4, hdr_process_select 0x4
+[2026-10-29 23:06:32.503] [UART-RX] hdr_func 1, hdr_process_select 0x4
+[2026-10-29 23:06:32.518] [UART-RX] vpp: hdr_policy = 0
+[2026-10-29 23:06:32.535] [UART-RX] vpp: Rx hdr_info.hdr_sup_eotf_smpte_st_2084 = 1
+[2026-10-29 23:06:32.555] [UART-RX] s_version: U-Boot 2015.01-g220e992
+[2026-10-29 23:06:32.571] [UART-RX] amlkey_init() enter!
+[2026-10-29 23:06:32.591] [UART-RX] amlkey_init() 59: already init!
+[2026-10-29 23:06:32.615] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:32.636] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[usid] not programed yet
+[2026-10-29 23:06:32.651] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[mac] not programed yet
+[2026-10-29 23:06:32.674] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[deviceid] not programed yet
+[2026-10-29 23:06:32.701] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[oemkey] not programed yet
+[2026-10-29 23:06:32.736] [UART-RX] Interface:  MMC
+[2026-10-29 23:06:32.762] [UART-RX]   Device 1: Vendor: Man 000045 Snr d71cf119 Rev: 0.1 Prod: DG4008
+[2026-10-29 23:06:32.793] [UART-RX]             Type: Removable Hard Disk
+[2026-10-29 23:06:32.818] [UART-RX]             Capacity: 7457.8 MB = 7.2 GB (15273600 x 512)
+[2026-10-29 23:06:32.844] [UART-RX] Filesystem: FAT12 "KEYBOX PART"
+[2026-10-29 23:06:32.870] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:32.893] [UART-RX] gpio: pin GPIOAO_3 (gpio 3) value is 0
+[2026-10-29 23:06:32.920] [UART-RX] detect upgrade key
+[2026-10-29 23:06:32.945] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:32.970] [UART-RX] active slot = 0
+[2026-10-29 23:06:32.995] [UART-RX] active_slot: normal
+[2026-10-29 23:06:33.023] [UART-RX] itest - return true/false on integer compare
+[2026-10-29 23:06:33.050] [UART-RX] Usage:
+[2026-10-29 23:06:33.076] [UART-RX] itest [.b, .w, .l, .s] [*]value1 <op> [*]value2
+[2026-10-29 23:06:33.101] [UART-RX] Unknown command 'wipeisb' - try 'help'
+[2026-10-29 23:06:33.128] [UART-RX] avb2: 1
+[2026-10-29 23:06:33.153] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:33.171] [UART-RX] active slot = 0
+[2026-10-29 23:06:33.205] [UART-RX] active_slot is normal
+[2026-10-29 23:06:33.230] [UART-RX] ab_suffix is 
+[2026-10-29 23:06:33.254] [UART-RX] avb_slot_verify.c:682: DEBUG: Loading vbmeta struct from partition 'vbmeta'.
+[2026-10-29 23:06:33.285] [UART-RX] AVB2 verify with vendor kpub
+[2026-10-29 23:06:33.310] [UART-RX] AVB2 re-verify with default kpub
+[2026-10-29 23:06:33.335] [UART-RX] [store]To run cmd[emmc dtb_read 0x00000000748ea8d0 0x40000]
+[2026-10-29 23:06:33.357] [UART-RX] dtb_read_shortcut()-3412: short cut in...
+[2026-10-29 23:06:33.388] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:33.412] [UART-RX] active slot = 0
+[2026-10-29 23:06:33.429] [UART-RX] avb verification: locked = 1, result = 0
+[2026-10-29 23:06:33.453] [UART-RX] ee_gate_off ...
+[2026-10-29 23:06:33.481] [UART-RX] avb2: 1
+[2026-10-29 23:06:33.505] [UART-RX] ## Booting Android Image at 0x03080000 ...
+[2026-10-29 23:06:33.526] [UART-RX] Kernel command line: androidboot.dynamic_partitions=true androidboot.dtbo_idx=0 androidboot.boot_devices=ffe07000.emmc buildvariant=user
+[2026-10-29 23:06:33.557] [UART-RX] [store]Is good fdt check header, no need decrypt!
+[2026-10-29 23:06:33.581] [UART-RX] active_slot is normal
+[2026-10-29 23:06:33.609] [UART-RX] load dtb from 0x1000000 ......
+[2026-10-29 23:06:33.631] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:33.658] [UART-RX]       Single DTB detected
+[2026-10-29 23:06:33.679] [UART-RX] saradc get val = 685
+[2026-10-29 23:06:33.706] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:33.727] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:33.759] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:33.790] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:33.814] [UART-RX] find 1 dtbos
+[2026-10-29 23:06:33.838] [UART-RX] dtbos to be applied: 0
+[2026-10-29 23:06:33.866] [UART-RX] Apply dtbo 0
+[2026-10-29 23:06:33.888] [UART-RX]    Uncompressing Kernel Image ... OK
+[2026-10-29 23:06:33.911] [UART-RX]    kernel loaded at 0x01080000, end = 0x028bb008
+[2026-10-29 23:06:33.937] [UART-RX] libfdt fdt_getprop(): FDT_ERR_NOTFOUND
+[2026-10-29 23:06:33.956] [UART-RX]    Loading Ramdisk to 7337b000, end 73dda8bd ... OK
+[2026-10-29 23:06:33.978] [UART-RX]    Loading Device Tree to 000000001ffe8000, end 000000001ffff64a ... OK
+[2026-10-29 23:06:33.999] [UART-RX] fdt_fixup_memory_banks, reg:0000000000000000
+[2026-10-29 23:06:34.198] [UART-RX] uboot time: 5370782 us
+[2026-10-29 23:06:34.249] [UART-RX] prk: [    1.524518@3]s input: gpio, power_state: 1, power_key_state: 0
+[2026-10-29 23:06:34.257] [UART-RX] prk: [    2.916513@3]s input: gpio, power_state: 1, power_key_state: 1
+[2026-10-29 23:06:34.274] [UART-RX] prk: [    2.917140@3]s input: gpio_keypad_down_cnt: 60
+[2026-10-29 23:06:34.297] [UART-RX] prk: [    4.400513@3]s input: gpio, power_state: 1, power_key_state: 1
+[2026-10-29 23:06:34.337] [UART-RX] prk: [    4.401141@3]s input: gpio_keypad_down_cnt: 60
+[2026-10-29 23:06:34.362] [UART-RX] prk: [    5.880533@3]s input: gpio, power_state: 1, power_key_state: 1
+[2026-10-29 23:06:34.398] [UART-RX] prk: [    5.881166@3]s input: gpio_keypad_down_cnt: 60
+[2026-10-29 23:06:35.084] [UART-RX] prk: [    7.356551@3]s input: gpio, power_state: 1, power_key_state: 1
+[2026-10-29 23:06:35.106] [UART-RX] prk: [    7.357179@3]s input: gpio_keypad_down_cnt: 60
+[2026-10-29 23:06:36.636] [UART-RX] prk: [    8.828525@3]s input: gpio, power_state: 1, power_key_state: 1
+[2026-10-29 23:06:36.644] [UART-RX] prk: [    8.829150@3]s input: gpio_keypad_down_cnt: 60
+[2026-10-29 23:06:36.660] [+] Â¡CONSOLA ROOT (#) DE RECOVERY DETECTADA! Ejecutando diagnostico y parche CRC32 de /dev/block/env...
+[2026-10-29 23:06:37.193] [UART-TX -> COM8] echo === CONEXION_ROOT_ANTIGRAVITY_OK ===
+[2026-10-29 23:06:37.209] [UART-TX -> COM8] id; uname -a; getprop ro.serialno; getprop ro.build.display.id
+[2026-10-29 23:06:37.847] [UART-TX -> COM8] cat /proc/partitions
+[2026-10-29 23:06:38.467] [UART-TX -> COM8] strings /dev/block/env | grep -E 'lock|ethaddr|serial|bootcmd|version|selinux'
+[2026-10-29 23:06:39.098] [UART-TX -> COM8] setprop ubootenv.var.lock 10100000
+[2026-10-29 23:06:39.108] [UART-TX -> COM8] dd if=/dev/block/env of=/dev/env_orig.bin bs=65536 count=1 2>/dev/null; dd if=/dev/env_orig.bin bs=1 skip=4 count=65532 2>/dev/null | sed 's/lock=10001000/lock=10100000/g' > /dev/env_body.bin; gzip -c /dev/env_body.bin > /dev/env_body.gz; S=$(wc -c < /dev/env_body.gz); O=$((S - 8)); dd if=/dev/env_body.gz bs=1 skip=$O count=4 2>/dev/null > /dev/env_new.bin; cat /dev/env_body.bin >> /dev/env_new.bin; dd if=/dev/env_new.bin of=/dev/block/env bs=65536 count=1 2>/dev/null; sync; strings /dev/block/env | grep '^lock='; echo === PARCHE_ENV_COMPLETADO ===
+[2026-10-29 23:06:42.145] [ROOT-RX] # cat /proc/partitions
+[2026-10-29 23:06:42.157] [ROOT-RX] cat: /proc/partitions: Permission denied
+[2026-10-29 23:06:42.186] [ROOT-RX] # 
+[2026-10-29 23:06:42.269] [ROOT-RX] # prk: [   10.300516@3]s input: gpio, power_state: 1, power_key_state: 1
+[2026-10-29 23:06:42.325] [ROOT-RX] prk: [   10.301139@3]s input: gpio_keypad_down_cnt: 60
+[2026-10-29 23:06:42.354] [ROOT-RX] strings /dev/block/env | grep -E 'lock|ethaddr|serial|bootcmd|version|selinu| grep -E 'lock|ethaddr|serial|bootcmd|version|selinu                         <x'
+[2026-10-29 23:06:42.378] [ROOT-RX] strings: /dev/block/env: Permission denied
+[2026-10-29 23:06:42.402] [ROOT-RX] # 
+[2026-10-29 23:06:42.426] [ROOT-RX] # setprop ubootenv.var.lock 10100000
+[2026-10-29 23:06:42.457] [ROOT-RX] libc: Unable to set property "ubootenv.var.lock" to "10100000": error code: 0x18
+[2026-10-29 23:06:42.493] [ROOT-RX] Failed to set property 'ubootenv.var.lock' to '10100000'.
+[2026-10-29 23:06:42.509] [ROOT-RX] See dmesg for error reason.
+[2026-10-29 23:06:42.533] [ROOT-RX] dd if=/dev/block/env of=/dev/env_orig.bin bs=65536 count=1 2>/dev/null; dd if=/dev/env_orig.bin bs=1 skip=4 count=65532 2>/dev/null | sed 's/lock=10001000/lock=10100000/g' > /dev/env_body.bin; gzip -c /dev/env_body.bin > /dev/env_body.gz; S=$(wc -c < /dev/env_body.gz); O=$((S - 8)); dd if=/dev/env_body.gz bs=1 skip=$O count=4 2>/dev/null > /dev/env_new.bin; cat /dev/env_body.bin >> /dev/env_new.bin; dd if=/dev/env_new.bin of=/dev/block/env bs=65536 count=1 2>/dev/null; sync; strings /dev/block/env | grep '^lock='; echo === PARCHE_ENV_COMPLETADO ===
+[2026-10-29 23:06:42.549] [ROOT-RX] # 
+[2026-10-29 23:06:42.572] [ROOT-RX] # dd if=/dev/block/env of=/dev/env_orig.bin bs=65536 count=1 2>/dev/null; dd i=/dev/env_orig.bin bs=65536 count=1 2>/dev/null; dd i                         <f=/dev/env_orig.bin bs=1 36 count=1 2>/dev/null; dd if=/dev/env_orig.bin bs=1                          <skip=4 count=65532 2>/devd if=/dev/env_orig.bin bs=1 skip=4 count=65532 2>/dev                         </null | sed 's/lock=10001=1 skip=4 count=65532 2>/dev/null | sed 's/lock=10001                         <000/lock=10100000/g' > /ddev/null | sed 's/lock=10001000/lock=10100000/g' > /d                         <ev/env_body.bin; gzip -c 001000/lock=10100000/g' > /dev/env_body.bin; gzip -c                          </dev/env_body.bin > /dev/ /dev/env_body.bin; gzip -c /dev/env_body.bin > /dev/                         <env_body.gz; S=$(wc -c < -c /dev/env_body.bin > /dev/env_body.gz; S=$(wc -c <                          </dev/env_body.gz); O=$((Sev/env_body.gz; S=$(wc -c < /dev/env_body.gz); O=$((S                         < - 8)); dd if=/dev/env_bo < /dev/env_body.gz); O=$((S - 8)); dd if=/dev/env_bo                         <dy.gz bs=1 skip=$O count=((S - 8)); dd if=/dev/env_body.gz bs=1 skip=$O count=                         <4 2>/dev/null > /dev/env__body.gz bs=1 skip=$O count=4 2>/dev/null > /dev/env_                         <new.bin; cat /dev/env_bodnt=4 2>/dev/null > /dev/env_new.bin; cat /dev/env_bod                         <y.bin >> /dev/env_new.binnv_new.bin; cat /dev/env_body.bin >> /dev/env_new.bin                         <; dd if=/dev/env_new.bin body.bin >> /dev/env_new.bin; dd if=/dev/env_new.bin                          <of=/dev/block/env bs=6553bin; dd if=/dev/env_new.bin of=/dev/block/env bs=6553                         <6 count=1 2>/dev/null; syin of=/dev/block/env bs=65536 count=1 2>/dev/null; sy                         <nc; strings /dev/block/en5536 count=1 2>/dev/null; sync; strings /dev/block/en                         <v | grep '^lock='; echo = sync; strings /dev/block/env | grep '^lock='; echo =                         <== PARCHE_ENV_COMPLETADO /env | grep '^lock='; echo === PARCHE_ENV_COMPLETADO                          <===
+[2026-10-29 23:06:42.589] [ROOT-RX] /system/bin/sh: can't create /dev/env_body.bin: Permission denied
+[2026-10-29 23:06:42.617] [ROOT-RX] /system/bin/sh: can't create /dev/env_body.gz: Permission denied
+[2026-10-29 23:06:42.685] [ROOT-RX] /system/bin/sh: can't open /dev/env_body.gz: No such file or directory
+[2026-10-29 23:06:42.709] [ROOT-RX] /system/bin/sh: can't create /dev/env_new.bin: Permission denied
+[2026-10-29 23:06:42.738] [ROOT-RX] strings: /dev/block/env: Permission denied
+[2026-10-29 23:06:42.755] [ROOT-RX] === PARCHE_ENV_COMPLETADO ===
+[2026-10-29 23:06:42.774] [ROOT-RX] # 
+[2026-10-29 23:06:42.791] [ROOT-RX] # 
+[2026-10-29 23:06:42.807] [UART-TX -> COM8] reboot bootloader
+[2026-10-29 23:06:43.071] [UART-RX] reboot bootloader
+[2026-10-29 23:06:43.080] [UART-RX] prk: [   15.261091@0]- reboot: Restarting system with command 'bootloader'
+[2026-10-29 23:06:43.101] [UART-RX] bl31 reboot reason: 0xd
+[2026-10-29 23:06:43.130] [UART-RX] bl31 reboot reason: 0x7
+[2026-10-29 23:06:43.152] [UART-RX] system cmd  1.
+[2026-10-29 23:06:43.176] [UART-RX] G12A:BL:0253b8:61aa2d;FEAT:F2F939B2:32060;POC:F;RCY:0;EMMC:0;
+[2026-10-29 23:06:43.203] [!] DETECTADO ARRANQUE DE BOOTLOADER: Enviando rafaga de interrupcion hacia U-Boot...
+[2026-10-29 23:06:43.257] [UART-RX] READ:0;0.0;0.0;
+[2026-10-29 23:06:43.266] [UART-RX] bl2_stage_init 0x01
+[2026-10-29 23:06:43.289] [UART-RX] bl2_stage_init 0x81
+[2026-10-29 23:06:43.314] [UART-RX] hw id: 0x0000 - pwm id 0x01
+[2026-10-29 23:06:43.338] [UART-RX] bl2_stage_init 0xc1
+[2026-10-29 23:06:43.368] [UART-RX] bl2_stage_init 0x02
+[2026-10-29 23:06:43.400] [UART-RX] L0:0000037f
+[2026-10-29 23:06:43.425] [UART-RX] L1:00000701
+[2026-10-29 23:06:43.448] [UART-RX] L2:00008067
+[2026-10-29 23:06:43.472] [UART-RX] L3:04000000
+[2026-10-29 23:06:43.504] [UART-RX] S1:00000000
+[2026-10-29 23:06:43.532] [UART-RX] B2:00032060
+[2026-10-29 23:06:43.552] [UART-RX] B1:f2f939b2
+[2026-10-29 23:06:43.576] [UART-RX] TE: 233255
+[2026-10-29 23:06:43.601] [UART-RX] BL2 Built : 10:48:42, May 12 2022. g12a g163d76f - jenkins@walle02-sh
+[2026-10-29 23:06:43.622] [UART-RX] Board ID = 8
+[2026-10-29 23:06:43.638] [UART-RX] Set cpu clk to 24M
+[2026-10-29 23:06:43.656] [UART-RX] Set clk81 to 24M
+[2026-10-29 23:06:43.673] [UART-RX] CPU clk: 1200 MHz
+[2026-10-29 23:06:43.694] [UART-RX] Set clk81 to 166.6M
+[2026-10-29 23:06:43.713] [UART-RX] eMMC boot @ 0
+[2026-10-29 23:06:43.729] [UART-RX] sw8 s
+[2026-10-29 23:06:43.749] [UART-RX] OTP_ARB=00000001
+[2026-10-29 23:06:43.768] [UART-RX] board id: 8
+[2026-10-29 23:06:43.800] [UART-RX] Load FIP HDR DDR from eMMC, src: 0x00010200, des: 0xfffd0000, size: 0x00004000, part: 0
+[2026-10-29 23:06:43.869] [UART-RX] fw parse done
+[2026-10-29 23:06:43.879] [UART-RX] PIEI prepare done
+[2026-10-29 23:06:43.913] [UART-RX] 00000000
+[2026-10-29 23:06:43.941] [UART-RX] emmc switch 1 ok
+[2026-10-29 23:06:43.962] [UART-RX] 00000000
+[2026-10-29 23:06:43.987] [UART-RX] emmc switch 2 ok
+[2026-10-29 23:06:44.010] [UART-RX]  NO find ddr boot_info from eMMC
+[2026-10-29 23:06:44.040] [UART-RX] fastboot data verify
+[2026-10-29 23:06:44.052] [UART-RX] result: 255
+[2026-10-29 23:06:44.070] [UART-RX] Cfg max: 12, cur: 1. Board id: 255. Force loop cfg
+[2026-10-29 23:06:44.089] [UART-RX] DDR4 probe
+[2026-10-29 23:06:44.108] [UART-RX] LPDDR4_PHY_V_0_1_24-Built : 15:01:24, Apr 25 2022. g12a g0c5c5f2 - bo.lv@droid13
+[2026-10-29 23:06:44.137] [UART-RX] ddr clk to 1176MHz
+[2026-10-29 23:06:44.161] [UART-RX] 00000000
+[2026-10-29 23:06:44.183] [UART-RX] emmc switch 0 ok
+[2026-10-29 23:06:44.205] [UART-RX] dmc_version 0000
+[2026-10-29 23:06:44.225] [UART-RX] Check phy result
+[2026-10-29 23:06:44.240] [UART-RX] INFO : End of initialization
+[2026-10-29 23:06:44.269] [UART-RX] INFO : ERROR : Training has failed!
+[2026-10-29 23:06:44.289] [UART-RX] 1D training failed
+[2026-10-29 23:06:44.311] [UART-RX] Cfg max: 12, cur: 2. Board id: 255. Force loop cfg
+[2026-10-29 23:06:44.339] [UART-RX] DDR4 probe
+[2026-10-29 23:06:44.361] [UART-RX] ddr clk to 1176MHz
+[2026-10-29 23:06:44.393] [UART-RX] dmc_version 0000
+[2026-10-29 23:06:44.423] [UART-RX] Check phy result
+[2026-10-29 23:06:44.453] [UART-RX] INFO : End of initialization
+[2026-10-29 23:06:44.476] [UART-RX] INFO : ERROR : Training has failed!
+[2026-10-29 23:06:44.506] [UART-RX] 1D training failed
+[2026-10-29 23:06:44.533] [UART-RX] Cfg max: 12, cur: 3. Board id: 255. Force loop cfg
+[2026-10-29 23:06:44.561] [UART-RX] DDR3 probe
+[2026-10-29 23:06:44.585] [UART-RX] ddr clk to 912MHz
+[2026-10-29 23:06:44.610] [UART-RX] dmc_version 0000
+[2026-10-29 23:06:44.633] [UART-RX] Check phy result
+[2026-10-29 23:06:44.650] [UART-RX] INFO : End of initialization
+[2026-10-29 23:06:44.675] [UART-RX] INFO : End of read enable training
+[2026-10-29 23:06:44.691] [UART-RX] INFO : End of fine write leveling
+[2026-10-29 23:06:44.709] [UART-RX] INFO : End of read dq deskew training
+[2026-10-29 23:06:44.723] [UART-RX] INFO : End of MPR read delay center optimization
+[2026-10-29 23:06:44.739] [UART-RX] INFO : End of Write leveling coarse delay
+[2026-10-29 23:06:44.763] [UART-RX] INFO : End of write delay center optimization
+[2026-10-29 23:06:44.787] [UART-RX] INFO : End of read delay center optimization
+[2026-10-29 23:06:44.804] [UART-RX] INFO : End of max read latency training
+[2026-10-29 23:06:44.823] [UART-RX] INFO : Training has run successfully!
+[2026-10-29 23:06:44.838] [UART-RX]  dwc_ddrphy_apb_wr((0<<20)|(2<<16)|(0<<12)|(0xb0):00e4 
+[2026-10-29 23:06:44.858] [UART-RX] 1D training succeed
+[2026-10-29 23:06:44.875] [UART-RX] auto size-- 65535DDR cs0 size: 1024MB
+[2026-10-29 23:06:44.891] [UART-RX] DDR cs1 size: 1024MB
+[2026-10-29 23:06:44.907] [UART-RX] DMC_DDR_CTRL: 0020001bDDR size: 2048MB
+[2026-10-29 23:06:44.923] [UART-RX] cs0 DataBus test pass
+[2026-10-29 23:06:44.952] [UART-RX] cs1 DataBus test pass
+[2026-10-29 23:06:44.969] [UART-RX] cs0 AddrBus test pass
+[2026-10-29 23:06:44.986] [UART-RX] cs1 AddrBus test pass
+[2026-10-29 23:06:45.003] [UART-RX] non-sec scramble use zero key
+[2026-10-29 23:06:45.021] [UART-RX] ddr scramble enabled
+[2026-10-29 23:06:45.041] [UART-RX] 100bdlr_step_size ps== 435
+[2026-10-29 23:06:45.057] [UART-RX] result report
+[2026-10-29 23:06:45.073] [UART-RX] boot times 1Enable ddr reg access
+[2026-10-29 23:06:45.091] [UART-RX] 00000000
+[2026-10-29 23:06:45.107] [UART-RX] emmc switch 3 ok
+[2026-10-29 23:06:45.125] [UART-RX] BL2: rpmb counter: 0x00008ffe
+[2026-10-29 23:06:45.140] [UART-RX] 00000000
+[2026-10-29 23:06:45.162] [UART-RX] emmc switch 0 ok
+[2026-10-29 23:06:45.181] [UART-RX] Load FIP HDR from eMMC, src: 0x00010200, des: 0x01700000, size: 0x00004000, part: 0
+[2026-10-29 23:06:45.202] [UART-RX] Load BL3X from eMMC, src: 0x00078200, des: 0x01768000, size: 0x0014b400, part: 0
+[2026-10-29 23:06:45.259] [UART-RX] 0.0;0.0;M3 CHK:0;cm4_sp_mode 0
+[2026-10-29 23:06:45.269] [UART-RX] OPS=0x40
+[2026-10-29 23:06:45.287] [UART-RX] ring efuse init
+[2026-10-29 23:06:45.303] [UART-RX] MVN_1=0x00000100
+[2026-10-29 23:06:45.333] [UART-RX] MVN_2=0x00000000
+[2026-10-29 23:06:45.355] [UART-RX] [Image: g12a_v1.1.3504-108cf9f3c 2021-06-25 13:59:25 jenkins@walle02-sh]
+[2026-10-29 23:06:45.378] [UART-RX] 28 0e 40 00 01 15 20 00 00 0b 31 34 59 56 56 50 
+[2026-10-29 23:06:45.410] [UART-RX] [1.363123 Inits done]
+[2026-10-29 23:06:45.437] [UART-RX] secure task start!
+[2026-10-29 23:06:45.498] [UART-RX] high task start!
+[2026-10-29 23:06:45.536] [UART-RX] low task start!
+[2026-10-29 23:06:45.558] [UART-RX] boot bl31
+[2026-10-29 23:06:45.582] [UART-RX] NOTICE:  BL31: v1.3(release):e23f9e8d7
+[2026-10-29 23:06:45.604] [UART-RX] NOTICE:  BL31: Built : 17:52:23, Oct  8 2022
+[2026-10-29 23:06:45.619] [UART-RX] NOTICE:  BL31: G12A secure boot!
+[2026-10-29 23:06:45.635] [UART-RX] NOTICE:  BL31: BL33 decompress pass
+[2026-10-29 23:06:45.658] [UART-RX] INFO:    BL3-2: ATOS-V2.4.4-155-g0ce7c357b #1 Mon Jul 31 23:21:06 2023 -0700 arm
+[2026-10-29 23:06:45.676] [UART-RX] INFO:    BL3-2: Chip: G12A Rev: E (28:E - 40:2)
+[2026-10-29 23:06:45.691] [UART-RX] INFO:    BL3-2: crypto engine DMA
+[2026-10-29 23:06:45.706] [UART-RX] INFO:    BL3-2: secure time TEE
+[2026-10-29 23:06:45.726] [UART-RX] INFO:    BL3-2: CONFIG_DEVICE_SECURE 0xb200000e
+[2026-10-29 23:06:45.746] [UART-RX] protect cbus registers
+[2026-10-29 23:06:45.766] [UART-RX] U-Boot 2015.01-g220e992 (Sep 05 2023 - 04:13:01)
+[2026-10-29 23:06:45.786] [UART-RX] DRAM:  2 GiB
+[2026-10-29 23:06:45.802] [UART-RX] Relocation Offset is: 76ded000
+[2026-10-29 23:06:45.825] [UART-RX] mmu cfg end: 0x80000000
+[2026-10-29 23:06:45.853] [UART-RX] mmu cfg end: 0x80000000
+[2026-10-29 23:06:45.881] [UART-RX] spi_post_bind(spifc): req_seq = 0
+[2026-10-29 23:06:45.908] [UART-RX] register usb cfg[0][1] = 0000000077f3ac20
+[2026-10-29 23:06:45.942] [UART-RX] [CANVAS]canvas init
+[2026-10-29 23:06:45.961] [UART-RX] NAND:  get_sys_clk_rate_mtd() 280, clock setting 200!
+[2026-10-29 23:06:45.987] [UART-RX] bus cycle0: 6,timing: 7
+[2026-10-29 23:06:46.006] [UART-RX] NAND device id: 0 ff ff ff ff ff 
+[2026-10-29 23:06:46.019] [UART-RX] No NAND device found!!!
+[2026-10-29 23:06:46.037] [UART-RX] nand init failed: -6
+[2026-10-29 23:06:46.059] [UART-RX] get_sys_clk_rate_mtd() 280, clock setting 200!
+[2026-10-29 23:06:46.075] [UART-RX] bus cycle0: 6,timing: 7
+[2026-10-29 23:06:46.092] [UART-RX] NAND device id: 0 ff ff ff ff ff 
+[2026-10-29 23:06:46.116] [UART-RX] No NAND device found!!!
+[2026-10-29 23:06:46.135] [UART-RX] nand init failed: -6
+[2026-10-29 23:06:46.153] [UART-RX] MMC:   aml_priv->desc_buf = 0x0000000073ddda70
+[2026-10-29 23:06:46.172] [UART-RX] aml_priv->desc_buf = 0x0000000073ddfdb0
+[2026-10-29 23:06:46.186] [UART-RX] SDIO Port B: 0, SDIO Port C: 1
+[2026-10-29 23:06:46.205] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:46.226] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:46.244] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:46.257] [UART-RX] emmc/sd response timeout, cmd8, cmd->cmdarg=0x1aa, status=0x1ff2800
+[2026-10-29 23:06:46.281] [UART-RX] emmc/sd response timeout, cmd55, cmd->cmdarg=0x0, status=0x1ff2800
+[2026-10-29 23:06:46.299] [UART-RX] co-phase 0x3, tx-dly 0, clock 400000
+[2026-10-29 23:06:46.316] [UART-RX] co-phase 0x3, tx-dly 0, clock 40000000
+[2026-10-29 23:06:46.334] [UART-RX] [set_emmc_calc_fixed_adj][862]find fixed adj_delay=20
+[2026-10-29 23:06:46.353] [UART-RX] init_part() 297: PART_TYPE_AML
+[2026-10-29 23:06:46.378] [UART-RX] [mmc_init] mmc init success
+[2026-10-29 23:06:46.401] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:46.425] [UART-RX]       GZIP format, decompress...
+[2026-10-29 23:06:46.458] [UART-RX]       Multi DTB detected.
+[2026-10-29 23:06:46.484] [UART-RX]       Multi DTB tool version: v2.
+[2026-10-29 23:06:46.506] [UART-RX]       Support 2 DTBS.
+[2026-10-29 23:06:46.535] [UART-RX] saradc get val = 684
+[2026-10-29 23:06:46.553] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:46.618] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:46.635] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:46.660] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:46.688] [UART-RX]       Found DTB for "g12a_u212_2g"
+[2026-10-29 23:06:46.707] [UART-RX] start dts,buffer=0000000073de2620,dt_addr=0000000073de2620
+[2026-10-29 23:06:46.730] [UART-RX] get_partition_from_dts() 80: ret 0
+[2026-10-29 23:06:46.764] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:46.789] [UART-RX]       Single DTB detected
+[2026-10-29 23:06:46.816] [UART-RX] saradc get val = 685
+[2026-10-29 23:06:46.838] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:46.860] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:46.887] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:46.908] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:46.932] [UART-RX] parts: 16
+[2026-10-29 23:06:46.964] [UART-RX] 00:      logo	0000000000800000 1
+[2026-10-29 23:06:46.988] [UART-RX] 01:  recovery	0000000001800000 1
+[2026-10-29 23:06:47.015] [UART-RX] 02:      misc	0000000000800000 1
+[2026-10-29 23:06:47.037] [UART-RX] 03:      conf	0000000000400000 1
+[2026-10-29 23:06:47.067] [UART-RX] 04:      dtbo	0000000000800000 1
+[2026-10-29 23:06:47.094] [UART-RX] 05:  cri_data	0000000000800000 2
+[2026-10-29 23:06:47.120] [UART-RX] 06:     param	0000000001000000 2
+[2026-10-29 23:06:47.141] [UART-RX] 07:      boot	0000000001000000 1
+[2026-10-29 23:06:47.160] [UART-RX] set has_boot_slot = 0
+[2026-10-29 23:06:47.180] [UART-RX] 08:       oem	0000000001000000 1
+[2026-10-29 23:06:47.212] [UART-RX] 09:  metadata	0000000001000000 1
+[2026-10-29 23:06:47.233] [UART-RX] 10:    vbmeta	0000000000200000 1
+[2026-10-29 23:06:47.249] [UART-RX] 11:       tee	0000000002000000 1
+[2026-10-29 23:06:47.271] [UART-RX] 12:   factory	0000000000800000 11
+[2026-10-29 23:06:47.295] [UART-RX] 13:     super	0000000070800000 1
+[2026-10-29 23:06:47.318] [UART-RX] enable dynamic_partition
+[2026-10-29 23:06:47.347] [UART-RX] 14:     cache	000000003e800000 2
+[2026-10-29 23:06:47.367] [UART-RX] 15:  userdata	ffffffffffffffff 4
+[2026-10-29 23:06:47.401] [UART-RX] init_part() 297: PART_TYPE_AML
+[2026-10-29 23:06:47.430] [UART-RX] eMMC/TSD partition table have been checked OK!
+[2026-10-29 23:06:47.457] [UART-RX] crc32_s:0x1577dad == storage crc_pattern:0x1577dad!!!
+[2026-10-29 23:06:47.479] [UART-RX] crc32_s:0xee152b83 == storage crc_pattern:0xee152b83!!!
+[2026-10-29 23:06:47.503] [UART-RX] crc32_s:0x7fd3b243 == storage crc_pattern:0x7fd3b243!!!
+[2026-10-29 23:06:47.533] [UART-RX] mmc env offset: 0x45c00000 
+[2026-10-29 23:06:47.560] [UART-RX] In:    serial
+[2026-10-29 23:06:47.588] [UART-RX] Out:   serial
+[2026-10-29 23:06:47.619] [UART-RX] Err:   serial
+[2026-10-29 23:06:47.641] [UART-RX] reboot_mode=fastboot
+[2026-10-29 23:06:47.667] [UART-RX] gpio: pin GPIOH_8 (gpio 39) value is 1
+[2026-10-29 23:06:47.689] [UART-RX] gpio: pin GPIOH_5 (gpio 36) value is 0
+[2026-10-29 23:06:47.706] [UART-RX] gpio: pin GPIOAO_4 (gpio 4) value is 1
+[2026-10-29 23:06:47.728] [UART-RX] [store]To run cmd[emmc dtb_read 0x1000000 0x40000]
+[2026-10-29 23:06:47.754] [UART-RX] _verify_dtb_checksum()-3354: calc d64b36f1, store d64b36f1
+[2026-10-29 23:06:47.776] [UART-RX] _verify_dtb_checksum()-3354: calc d64b36f1, store d64b36f1
+[2026-10-29 23:06:47.798] [UART-RX] dtb_read()-3569: total valid 2
+[2026-10-29 23:06:47.822] [UART-RX] update_old_dtb()-3550: do nothing
+[2026-10-29 23:06:47.839] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:47.865] [UART-RX]       GZIP format, decompress...
+[2026-10-29 23:06:47.884] [UART-RX]       Multi DTB detected.
+[2026-10-29 23:06:47.903] [UART-RX]       Multi DTB tool version: v2.
+[2026-10-29 23:06:47.926] [UART-RX]       Support 2 DTBS.
+[2026-10-29 23:06:47.951] [UART-RX] saradc get val = 685
+[2026-10-29 23:06:47.975] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:48.001] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:48.023] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:48.051] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:48.079] [UART-RX]       Found DTB for "g12a_u212_2g"
+[2026-10-29 23:06:48.108] [UART-RX] amlkey_init() enter!
+[2026-10-29 23:06:48.132] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:48.151] [UART-RX] vpu: driver version: v20190313
+[2026-10-29 23:06:48.168] [UART-RX] vpu: detect chip type: 8
+[2026-10-29 23:06:48.191] [UART-RX] vpu: clk_level default: 7(666667000Hz), max: 7(666667000Hz)
+[2026-10-29 23:06:48.210] [UART-RX] vpu: clk_level in dts: 7
+[2026-10-29 23:06:48.239] [UART-RX] vpu: vpu_power_on
+[2026-10-29 23:06:48.259] [UART-RX] vpu: set_vpu_clk
+[2026-10-29 23:06:48.286] [UART-RX] vpu: set clk: 666667000Hz, readback: 666666667Hz(0x100)
+[2026-10-29 23:06:48.307] [UART-RX] vpu: set_vpu_clk finish
+[2026-10-29 23:06:48.399] [UART-RX] vpu: vpu_module_init_config
+[2026-10-29 23:06:48.426] [UART-RX] vpp: vpp_init
+[2026-10-29 23:06:48.448] [UART-RX] vpp: vpp osd2 matrix rgb2yuv..............
+[2026-10-29 23:06:48.465] [UART-RX] hdr_func 4, hdr_process_select 0x1
+[2026-10-29 23:06:48.487] [UART-RX] hdr_func 1, hdr_process_select 0x1
+[2026-10-29 23:06:48.500] [UART-RX] hdr_func 2, hdr_process_select 0x1
+[2026-10-29 23:06:48.516] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:48.539] [UART-RX] do_sync_vout read conf item ok
+[2026-10-29 23:06:48.564] [UART-RX] do_sync_vout conf_hdmimode: Auto
+[2026-10-29 23:06:48.587] [UART-RX] do_sync_vout conf_cvbsmode: 480cvbs
+[2026-10-29 23:06:48.610] [UART-RX] cvbs: cpuid:0x28
+[2026-10-29 23:06:48.641] [UART-RX] cvbs: find clk_path: 0x0
+[2026-10-29 23:06:48.668] [UART-RX] cvbs: find performance_pal config
+[2026-10-29 23:06:48.692] [UART-RX] cvbs: find performance_ntsc config
+[2026-10-29 23:06:48.729] [UART-RX] aml_config_dtb 630
+[2026-10-29 23:06:48.746] [UART-RX] aml_config_dtb 660
+[2026-10-29 23:06:48.769] [UART-RX] co_phase = <0x00000003>
+[2026-10-29 23:06:48.785] [UART-RX] caps2 = "MMC_CAP2_HS200"
+[2026-10-29 23:06:48.813] [UART-RX] f_max = "??"
+[2026-10-29 23:06:48.839] [UART-RX] status = "disabled"
+[2026-10-29 23:06:48.870] [UART-RX] status = "okay"
+[2026-10-29 23:06:48.899] [UART-RX] Net:   dwmac.ff3f0000amlkey_init() enter!
+[2026-10-29 23:06:48.923] [UART-RX] amlkey_init() 59: already init!
+[2026-10-29 23:06:48.945] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:48.965] [UART-RX] Error: eth_get_efuse_mac failed!!!
+[2026-10-29 23:06:48.991] [UART-RX] MACADDR:02:00:00:20:15:01(from chipid)
+[2026-10-29 23:06:49.010] [UART-RX] MACADDR:(from env)
+[2026-10-29 23:06:49.040] [UART-RX] ramdump_init, add:0, size:0
+[2026-10-29 23:06:49.058] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:49.073] [UART-RX] recovery mode, need disable dolby
+[2026-10-29 23:06:49.090] [UART-RX] active slot = 0
+[2026-10-29 23:06:49.116] [UART-RX] wipe_data=successful
+[2026-10-29 23:06:49.132] [UART-RX] wipe_cache=successful
+[2026-10-29 23:06:49.153] [UART-RX] upgrade_step=2
+[2026-10-29 23:06:49.176] [UART-RX] reboot_mode:::: fastboot
+[2026-10-29 23:06:49.193] [UART-RX] s_version: U-Boot 2015.01-g220e992
+[2026-10-29 23:06:49.209] [UART-RX] amlkey_init() enter!
+[2026-10-29 23:06:49.226] [UART-RX] amlkey_init() 59: already init!
+[2026-10-29 23:06:49.242] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:49.258] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[usid] not programed yet
+[2026-10-29 23:06:49.276] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[mac] not programed yet
+[2026-10-29 23:06:49.292] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[deviceid] not programed yet
+[2026-10-29 23:06:49.308] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[oemkey] not programed yet
+[2026-10-29 23:06:49.323] [UART-RX] Interface:  MMC
+[2026-10-29 23:06:49.343] [UART-RX]   Device 1: Vendor: Man 000045 Snr d71cf119 Rev: 0.1 Prod: DG4008
+[2026-10-29 23:06:49.356] [UART-RX]             Type: Removable Hard Disk
+[2026-10-29 23:06:49.406] [UART-RX] Capacity: 7457.8 MB = 7.2 GB (15273600 x 512)
+[2026-10-29 23:06:49.414] [UART-RX] Filesystem: FAT12 "KEYBOX PART"
+[2026-10-29 23:06:49.432] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:49.452] [UART-RX] hpd_state=1
+[2026-10-29 23:06:49.472] [UART-RX] do_hpd_detect: hdmimode=2160p60hz
+[2026-10-29 23:06:49.489] [UART-RX] do_hpd_detect: colorattribute=420,10bit
+[2026-10-29 23:06:49.515] [UART-RX] tvts_mode: 0
+[2026-10-29 23:06:49.532] [UART-RX] HDMI_EDID_BLOCK_TYPE_VENDER: pRXCap->ColorDeepSupport=0xb8
+[2026-10-29 23:06:49.552] [UART-RX] Edid_ParsingVendSpec:ieeeoui=0x90848b,len=5
+[2026-10-29 23:06:49.569] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:49.590] [UART-RX] pixel_clock 24150
+[2026-10-29 23:06:49.608] [UART-RX] h_active 2560
+[2026-10-29 23:06:49.625] [UART-RX] h_blank 160
+[2026-10-29 23:06:49.640] [UART-RX] v_active 1440
+[2026-10-29 23:06:49.656] [UART-RX] v_blank 41
+[2026-10-29 23:06:49.680] [UART-RX] h_sync_offset 48
+[2026-10-29 23:06:49.696] [UART-RX] h_sync 32
+[2026-10-29 23:06:49.711] [UART-RX] v_sync_offset 3
+[2026-10-29 23:06:49.729] [UART-RX] v_sync 5
+[2026-10-29 23:06:49.745] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:49.767] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:49.783] [UART-RX] h_active 0
+[2026-10-29 23:06:49.799] [UART-RX] h_blank 253
+[2026-10-29 23:06:49.815] [UART-RX] v_active 24
+[2026-10-29 23:06:49.837] [UART-RX] v_blank 3915
+[2026-10-29 23:06:49.856] [UART-RX] h_sync_offset 135
+[2026-10-29 23:06:49.871] [UART-RX] h_sync 60
+[2026-10-29 23:06:49.889] [UART-RX] v_sync_offset 32
+[2026-10-29 23:06:49.905] [UART-RX] v_sync 32
+[2026-10-29 23:06:49.922] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:49.937] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:49.959] [UART-RX] h_active 0
+[2026-10-29 23:06:49.976] [UART-RX] h_blank 252
+[2026-10-29 23:06:49.999] [UART-RX] v_active 1107
+[2026-10-29 23:06:50.027] [UART-RX] v_blank 3393
+[2026-10-29 23:06:50.054] [UART-RX] h_sync_offset 339
+[2026-10-29 23:06:50.080] [UART-RX] h_sync 85
+[2026-10-29 23:06:50.103] [UART-RX] v_sync_offset 20
+[2026-10-29 23:06:50.127] [UART-RX] v_sync 62
+[2026-10-29 23:06:50.145] [UART-RX] change preferred_mode from 16 to 97
+[2026-10-29 23:06:50.163] [UART-RX] find IEEEOUT
+[2026-10-29 23:06:50.184] [UART-RX] check sum invalid
+[2026-10-29 23:06:50.213] [UART-RX] check sum valid
+[2026-10-29 23:06:50.236] [UART-RX] sink preferred_mode is 2160p60hz[97]
+[2026-10-29 23:06:50.258] [UART-RX] hdr mode is 1
+[2026-10-29 23:06:50.284] [UART-RX] dv  mode is ver:0  len: 0
+[2026-10-29 23:06:50.309] [UART-RX] hdr10+ mode is 1
+[2026-10-29 23:06:50.333] [UART-RX] tvts_mode: 0
+[2026-10-29 23:06:50.351] [UART-RX] HDMI_EDID_BLOCK_TYPE_VENDER: pRXCap->ColorDeepSupport=0xb8
+[2026-10-29 23:06:50.367] [UART-RX] Edid_ParsingVendSpec:ieeeoui=0x90848b,len=5
+[2026-10-29 23:06:50.408] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:50.416] [UART-RX] pixel_clock 24150
+[2026-10-29 23:06:50.442] [UART-RX] h_active 2560
+[2026-10-29 23:06:50.463] [UART-RX] h_blank 160
+[2026-10-29 23:06:50.480] [UART-RX] v_active 1440
+[2026-10-29 23:06:50.503] [UART-RX] v_blank 41
+[2026-10-29 23:06:50.516] [UART-RX] h_sync_offset 48
+[2026-10-29 23:06:50.533] [UART-RX] h_sync 32
+[2026-10-29 23:06:50.555] [UART-RX] v_sync_offset 3
+[2026-10-29 23:06:50.572] [UART-RX] v_sync 5
+[2026-10-29 23:06:50.586] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:50.604] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:50.620] [UART-RX] h_active 0
+[2026-10-29 23:06:50.637] [UART-RX] h_blank 253
+[2026-10-29 23:06:50.659] [UART-RX] v_active 24
+[2026-10-29 23:06:50.683] [UART-RX] v_blank 3915
+[2026-10-29 23:06:50.701] [UART-RX] h_sync_offset 135
+[2026-10-29 23:06:50.723] [UART-RX] h_sync 60
+[2026-10-29 23:06:50.745] [UART-RX] v_sync_offset 32
+[2026-10-29 23:06:50.762] [UART-RX] v_sync 32
+[2026-10-29 23:06:50.783] [UART-RX] dump_dtd_info[417]
+[2026-10-29 23:06:50.800] [UART-RX] pixel_clock 0
+[2026-10-29 23:06:50.818] [UART-RX] h_active 0
+[2026-10-29 23:06:50.849] [UART-RX] h_blank 252
+[2026-10-29 23:06:50.867] [UART-RX] v_active 1107
+[2026-10-29 23:06:50.887] [UART-RX] v_blank 3393
+[2026-10-29 23:06:50.900] [UART-RX] h_sync_offset 339
+[2026-10-29 23:06:50.922] [UART-RX] h_sync 85
+[2026-10-29 23:06:50.939] [UART-RX] v_sync_offset 20
+[2026-10-29 23:06:50.956] [UART-RX] v_sync 62
+[2026-10-29 23:06:50.971] [UART-RX] change preferred_mode from 16 to 97
+[2026-10-29 23:06:50.992] [UART-RX] find IEEEOUT
+[2026-10-29 23:06:51.009] [UART-RX] check sum valid
+[2026-10-29 23:06:51.032] [UART-RX] check sum valid
+[2026-10-29 23:06:51.050] [UART-RX] read hdmichecksum: 0xe3770000, hdmimode: 2160p60hz, colorattribute: 420,10bit
+[2026-10-29 23:06:51.067] [UART-RX] TV is the same, checksum: 0xe3770000
+[2026-10-29 23:06:51.083] [UART-RX] hdmitx_mask_rx_info hdr_info = 0
+[2026-10-29 23:06:51.106] [UART-RX] dolby_status 0 1
+[2026-10-29 23:06:51.128] [UART-RX] dolby_vision_process: hpd: dv disabled
+[2026-10-29 23:06:51.146] [UART-RX] Saving Environment to aml-storage...
+[2026-10-29 23:06:51.163] [UART-RX] mmc env offset: 0x45c00000 
+[2026-10-29 23:06:51.188] [UART-RX] Writing to MMC(1)... done
+[2026-10-29 23:06:51.255] [UART-RX] [OSD]load fb addr from dts:/meson-fb
+[2026-10-29 23:06:51.276] [UART-RX] [OSD]set initrd_high: 0x7f800000
+[2026-10-29 23:06:51.297] [UART-RX] [OSD]fb_addr for logo: 0x7f800000
+[2026-10-29 23:06:51.314] [UART-RX] [OSD]load fb addr from dts:/meson-fb
+[2026-10-29 23:06:51.331] [UART-RX] [OSD]fb_addr for logo: 0x7f800000
+[2026-10-29 23:06:51.355] [UART-RX] [OSD]VPP_OFIFO_SIZE:0xfff01fff
+[2026-10-29 23:06:51.372] [UART-RX] [CANVAS]addr=0x7f800000 width=5760, height=2160
+[2026-10-29 23:06:51.394] [UART-RX] Starting logo
+[2026-10-29 23:06:51.415] [UART-RX] [Logo_disp]: ====== Logo_disp ======
+[2026-10-29 23:06:51.434] [UART-RX] [OSD]load fb addr from dts:/meson-fb
+[2026-10-29 23:06:51.455] [UART-RX] [OSD]fb_addr for logo: 0x7f800000
+[2026-10-29 23:06:51.478] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:51.503] [UART-RX] =========logo_offset=0 
+[2026-10-29 23:06:51.535] [UART-RX] [draw_logo] size=0xd2460, ntohl(imgheader.len)=0xd2400, ntohs(imgheader.offset)=0x60
+[2026-10-29 23:06:51.561] [UART-RX] [draw_logo] after ALIGN, size=0xd2600
+[2026-10-29 23:06:51.582] [UART-RX] [draw_logo]: before read_logo_data 
+[2026-10-29 23:06:51.599] [UART-RX] [draw_logo]: draw_logo 1570
+[2026-10-29 23:06:51.617] [UART-RX] [draw_logo]: draw_logo 1572
+[2026-10-29 23:06:51.638] [UART-RX] [set_logoParam]: enter the set_logoParam
+[2026-10-29 23:06:51.654] [UART-RX] [set_logoParam]:  Id		FileName		Type		No		 Addr			Size
+[2026-10-29 23:06:51.677] [UART-RX] [set_logoParam]: before the get_logo_source PAL_LOGO_PICTURE
+[2026-10-29 23:06:51.693] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:51.710] [UART-RX] [set_logoParam]:  <0>		LogoPic(480i)		0		1		0x11000288		541225
+[2026-10-29 23:06:51.731] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:51.751] [UART-RX] ### get_logo_source: material.type=0, material.No=2
+[2026-10-29 23:06:51.769] [UART-RX] [set_logoParam]:  <1>		LogoPic(576i)		0		2		0x110844b4		114717
+[2026-10-29 23:06:51.785] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:51.798] [UART-RX] ### get_logo_source: material.type=0, material.No=2
+[2026-10-29 23:06:51.819] [UART-RX] ### get_logo_source: material.type=0, material.No=3
+[2026-10-29 23:06:51.833] [UART-RX] [set_logoParam]:  <2>		LogoPic(720p)		0		3		0x110a04d4		66136
+[2026-10-29 23:06:51.847] [UART-RX] ### get_logo_source: material.type=0, material.No=1
+[2026-10-29 23:06:51.864] [UART-RX] ### get_logo_source: material.type=0, material.No=2
+[2026-10-29 23:06:51.885] [UART-RX] ### get_logo_source: material.type=0, material.No=3
+[2026-10-29 23:06:51.900] [UART-RX] ### get_logo_source: material.type=0, material.No=4
+[2026-10-29 23:06:51.920] [UART-RX] [set_logoParam]:  <3>		LogoPic(1080i_p)	0		2		0x110b072c		61489
+[2026-10-29 23:06:51.936] [UART-RX] [draw_logo]: draw_logo 1615
+[2026-10-29 23:06:51.952] [UART-RX] before the  decompressToRGB
+[2026-10-29 23:06:51.966] [UART-RX] Start to decode the LOGO jpeg ...
+[2026-10-29 23:06:51.985] [UART-RX] [decompressToRGB]: before the decompress_jpeg_rgb
+[2026-10-29 23:06:52.002] [UART-RX] [decompressToRGB]: Call decompress_pic_rgb565(id=3,addr=110b072c,size=61489,maxw=1920,maxh=1080,Bpp=3) ... 
+[2026-10-29 23:06:52.015] [UART-RX] [decompressToRGB]: after the decompress_jpeg_rgb
+[2026-10-29 23:06:52.036] [UART-RX] [draw_logo]: Success in decoding LOGO src file:	(w=1920,h=1080,Bpp=3,data=0x73e628c0)
+[2026-10-29 23:06:52.059] [UART-RX] [deinit_Logo]: all LOGO's resource (Exc. logoThread) are released 
+[2026-10-29 23:06:52.081] [UART-RX] Logo_disp ret: 0
+[2026-10-29 23:06:52.098] [UART-RX] [OSD]osd_hw.free_dst_data: 0,3839,0,2159
+[2026-10-29 23:06:52.119] [UART-RX] [OSD]osd1_update_disp_freescale_enable
+[2026-10-29 23:06:52.134] [UART-RX] cvbs: outputmode[2160p60hz] is invalid
+[2026-10-29 23:06:52.154] [UART-RX] vpp: vpp_matrix_update: 2
+[2026-10-29 23:06:52.170] [UART-RX] set hdmitx VIC = 97
+[2026-10-29 23:06:52.194] [UART-RX] aml_audio_init
+[2026-10-29 23:06:52.211] [UART-RX] config HPLL = 3712500 frac_rate = 1
+[2026-10-29 23:06:52.227] [UART-RX] HPLL: 0x3b00049a
+[2026-10-29 23:06:52.243] [UART-RX] HPLL: 0x1b00049a
+[2026-10-29 23:06:52.268] [UART-RX] HPLL: 0xdb00049a
+[2026-10-29 23:06:52.285] [UART-RX] config HPLL done
+[2026-10-29 23:06:52.310] [UART-RX] j = 9  vid_clk_div = 1
+[2026-10-29 23:06:52.331] [UART-RX] hdmitx: set enc for VIC: 353
+[2026-10-29 23:06:52.349] [UART-RX] hdmitx phy setting done
+[2026-10-29 23:06:52.372] [UART-RX] rx version is 2.0  div=40
+[2026-10-29 23:06:52.391] [UART-RX] hdmtix: set audio
+[2026-10-29 23:06:52.413] [UART-RX] hdmi_tx_set: save mode: 2160p60hz, attr: 420,10bit, hdmichecksum: 0xe3770000
+[2026-10-29 23:06:52.429] [UART-RX] dolby_status 0 1
+[2026-10-29 23:06:52.453] [UART-RX] dolby_status 0 1
+[2026-10-29 23:06:52.478] [UART-RX] hdr_packet
+[2026-10-29 23:06:52.498] [UART-RX] hdr_func 4, hdr_process_select 0x4
+[2026-10-29 23:06:52.517] [UART-RX] hdr_func 1, hdr_process_select 0x4
+[2026-10-29 23:06:52.533] [UART-RX] vpp: hdr_policy = 0
+[2026-10-29 23:06:52.559] [UART-RX] vpp: Rx hdr_info.hdr_sup_eotf_smpte_st_2084 = 1
+[2026-10-29 23:06:52.575] [UART-RX] s_version: U-Boot 2015.01-g220e992
+[2026-10-29 23:06:52.598] [UART-RX] amlkey_init() enter!
+[2026-10-29 23:06:52.614] [UART-RX] amlkey_init() 59: already init!
+[2026-10-29 23:06:52.636] [UART-RX] [EFUSE_MSG]keynum is 4
+[2026-10-29 23:06:52.660] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[usid] not programed yet
+[2026-10-29 23:06:52.697] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[mac] not programed yet
+[2026-10-29 23:06:52.743] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[deviceid] not programed yet
+[2026-10-29 23:06:52.775] [UART-RX] [KM]Error:f[key_manage_query_size]L503:key[oemkey] not programed yet
+[2026-10-29 23:06:52.806] [UART-RX] Interface:  MMC
+[2026-10-29 23:06:52.833] [UART-RX]   Device 1: Vendor: Man 000045 Snr d71cf119 Rev: 0.1 Prod: DG4008
+[2026-10-29 23:06:52.854] [UART-RX]             Type: Removable Hard Disk
+[2026-10-29 23:06:52.887] [UART-RX]             Capacity: 7457.8 MB = 7.2 GB (15273600 x 512)
+[2026-10-29 23:06:52.916] [UART-RX] Filesystem: FAT12 "KEYBOX PART"
+[2026-10-29 23:06:52.935] [UART-RX] conf-mmc partition offset(0x4ac00000)
+[2026-10-29 23:06:52.958] [UART-RX] gpio: pin GPIOAO_3 (gpio 3) value is 1
+[2026-10-29 23:06:52.983] [UART-RX] Command: bcb uboot-command 
+[2026-10-29 23:06:52.999] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:53.025] [UART-RX] get bootloader message from misc partition:
+[2026-10-29 23:06:53.049] [UART-RX] [commannd:boot-recovery]
+[2026-10-29 23:06:53.080] [UART-RX] [status:]
+[2026-10-29 23:06:53.117] [UART-RX] [recovery:recovery
+[2026-10-29 23:06:53.151] [UART-RX] --show_text
+[2026-10-29 23:06:53.185] [UART-RX] ]
+[2026-10-29 23:06:53.216] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:53.250] [UART-RX] recovery mode, need disable dolby
+[2026-10-29 23:06:53.282] [UART-RX] active slot = 0
+[2026-10-29 23:06:53.305] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:53.329] [UART-RX] recovery mode, need disable dolby
+[2026-10-29 23:06:53.356] [UART-RX] active slot = 0
+[2026-10-29 23:06:53.381] [UART-RX] active_slot: normal
+[2026-10-29 23:06:53.403] [UART-RX] itest - return true/false on integer compare
+[2026-10-29 23:06:53.422] [UART-RX] Usage:
+[2026-10-29 23:06:53.451] [UART-RX] itest [.b, .w, .l, .s] [*]value1 <op> [*]value2
+[2026-10-29 23:06:53.482] [UART-RX] Unknown command 'wipeisb' - try 'help'
+[2026-10-29 23:06:53.518] [UART-RX] avb2: 1
+[2026-10-29 23:06:53.541] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:53.557] [UART-RX] recovery mode, need disable dolby
+[2026-10-29 23:06:53.583] [UART-RX] active slot = 0
+[2026-10-29 23:06:53.612] [UART-RX] active_slot is normal
+[2026-10-29 23:06:53.634] [UART-RX] ab_suffix is 
+[2026-10-29 23:06:53.653] [UART-RX] avb_slot_verify.c:682: DEBUG: Loading vbmeta struct from partition 'vbmeta'.
+[2026-10-29 23:06:53.666] [UART-RX] AVB2 verify with vendor kpub
+[2026-10-29 23:06:53.689] [UART-RX] AVB2 re-verify with default kpub
+[2026-10-29 23:06:53.716] [UART-RX] [store]To run cmd[emmc dtb_read 0x00000000748ea8d0 0x40000]
+[2026-10-29 23:06:53.738] [UART-RX] dtb_read_shortcut()-3412: short cut in...
+[2026-10-29 23:06:53.756] [UART-RX] Start read misc partition datas!
+[2026-10-29 23:06:53.770] [UART-RX] recovery mode, need disable dolby
+[2026-10-29 23:06:53.787] [UART-RX] active slot = 0
+[2026-10-29 23:06:53.807] [UART-RX] avb verification: locked = 1, result = 0
+[2026-10-29 23:06:53.825] [UART-RX] ee_gate_off ...
+[2026-10-29 23:06:53.840] [UART-RX] avb2: 1
+[2026-10-29 23:06:53.858] [UART-RX] ## Booting Android Image at 0x03080000 ...
+[2026-10-29 23:06:53.884] [UART-RX] Kernel command line: androidboot.dynamic_partitions=true androidboot.dtbo_idx=0 androidboot.boot_devices=ffe07000.emmc buildvariant=user
+[2026-10-29 23:06:53.901] [UART-RX] [store]Is good fdt check header, no need decrypt!
+[2026-10-29 23:06:53.982] [UART-RX] active_slot is normal
+[2026-10-29 23:06:54.019] [UART-RX] load dtb from 0x1000000 ......
+[2026-10-29 23:06:54.043] [UART-RX]       Amlogic Multi-DTB tool
+[2026-10-29 23:06:54.067] [UART-RX]       Single DTB detected
+[2026-10-29 23:06:54.092] [UART-RX] saradc get val = 684
+[2026-10-29 23:06:54.112] [UART-RX] saradc_ext get val = 1
+[2026-10-29 23:06:54.134] [UART-RX] -----board_version[8], board_version_ext[0]
+[2026-10-29 23:06:54.156] [UART-RX] checkhw - board_id:0x8
+[2026-10-29 23:06:54.177] [UART-RX] checkhw - name: g12a_u212_2g, loc_name: g12a_u212_2g
+[2026-10-29 23:06:54.200] [UART-RX] find 1 dtbos
+[2026-10-29 23:06:54.217] [UART-RX] dtbos to be applied: 0
+[2026-10-29 23:06:54.232] [UART-RX] Apply dtbo 0
+[2026-10-29 23:06:54.256] [UART-RX]    Uncompressing Kernel Image ... OK
+[2026-10-29 23:06:54.279] [UART-RX]    kernel loaded at 0x01080000, end = 0x028bb008
+[2026-10-29 23:06:54.303] [UART-RX] libfdt fdt_getprop(): FDT_ERR_NOTFOUND
+[2026-10-29 23:06:54.330] [UART-RX]    Loading Ramdisk to 7337a000, end 73dd98bd ... OK
+[2026-10-29 23:06:54.351] [UART-RX]    Loading Device Tree to 000000001ffe8000, end 000000001ffff64a ... OK
+[2026-10-29 23:06:54.381] [UART-RX] fdt_fixup_memory_banks, reg:0000000000000000
+[2026-10-29 23:06:54.405] [UART-RX] Starting kernel ...
+[2026-10-29 23:06:54.428] [UART-RX] uboot time: 5372804 us
+[2026-10-29 23:06:58.614] [UART-RX] # 
+
+echo === INICIO_DIAG_VIVO ===
+=== INICIO_DIAG_VIVO ===
+# 
+# id
+uid=0(root) gid=0(root) groups=0(root) context=u:r:shell:s0
+# 
+# getenforce
+Enforcing
+# 
+# uname -a
+Linux localhost 4.9.269 #1 SMP PREEMPT Tue Sep 5 04:13:51 CST 2023 armv8l
+# 
+# getprop ro.serialno
+Z41220090388172
+# 
+# getprop ro.build.display.id
+SC.eng.ztestb.20230905.041800 release-keys
+# 
+# getprop ro.boot.verifiedbootstate
+green
+# 
+# getprop ro.boot.flash.locked
+
+# 
+# getprop sys.usb.state
+none
+# 
+# getprop sys.usb.config
+none
+# 
+# mount
+rootfs on / type rootfs (rw,seclabel)
+tmpfs on /dev type tmpfs (rw,seclabel,nosuid,relatime,mode=755)
+devpts on /dev/pts type devpts (rw,seclabel,relatime,mode=600,ptmxmode=000)
+proc on /proc type proc (rw,relatime,gid=3009,hidepid=2)
+sysfs on /sys type sysfs (rw,seclabel,relatime)
+selinuxfs on /sys/fs/selinux type selinuxfs (rw,relatime)
+tmpfs on /mnt type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000)
+tmpfs on /apex type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755)
+tmpfs on /linkerconfig type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755)
+tmpfs on /mnt/installer type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000)
+tmpfs on /mnt/androidwritable type tmpfs (rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000)
+none on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /tmp type tmpfs (rw,seclabel,relatime)
+none on /config type configfs (rw,relatime)
+adb on /dev/usb-ffs/adb type functionfs (rw,relatime)
+fastboot on /dev/usb-ffs/fastboot type functionfs (rw,relatime)
+# 
+# ls -la /dev/block
+total 0
+drwxr-xr-x  4 root root     1260__bionic_open_tzdata: couldn't find any tzdata when looking for America/Mexico_City!
+ 2015-01-01 00:00 .
+drwxr-xr-x 13 root root     5220 2015-01-01 00:00 ..
+brw-------  1 root root 179,  12 2015-01-01 00:00 boot
+brw-------  1 root root 179,   1 2015-01-01 00:00 bootloader
+brw-------  1 root root 179,  65 2015-01-01 00:00 bootloader0
+brw-------  1 root root 179,  34 2015-01-01 00:00 bootloader1
+drwxr-xr-x  2 root root      540 2015-01-01 00:00 by-name
+brw-------  1 root root 179,   3 2015-01-01 00:00 cache
+b?????????  ? ?    ?           ?                ? conf
+brw-------  1 root root 179,  10 2015-01-01 00:00 cri_data
+lrwxrwxrwx  1 root root       19 2015-01-01 00:00 data -> /dev/block/userdata
+brw-------  1 root root 179,   9 2015-01-01 00:00 dtbo
+brw-------  1 root root 179,   4 2015-01-01 00:00 env
+brw-------  1 root root 179,  17 2015-01-01 00:00 factory
+brw-------  1 root root 179,   5 2015-01-01 00:00 logo
+brw-------  1 root root   7,   0 2015-01-01 00:00 loop0
+brw-------  1 root root   7,   8 2015-01-01 00:00 loop1
+brw-------  1 root root   7,  80 2015-01-01 00:00 loop10
+brw-------  1 root root   7,  88 2015-01-01 00:00 loop11
+brw-------  1 root root   7,  96 2015-01-01 00:00 loop12
+brw-------  1 root root   7, 104 2015-01-01 00:00 loop13
+brw-------  1 root root   7, 112 2015-01-01 00:00 loop14
+brw-------  1 root root   7, 120 2015-01-01 00:00 loop15
+brw-------  1 root root   7,  16 2015-01-01 00:00 loop2
+brw-------  1 root root   7,  24 2015-01-01 00:00 loop3
+brw-------  1 root root   7,  32 2015-01-01 00:00 loop4
+brw-------  1 root root   7,  40 2015-01-01 00:00 loop5
+brw-------  1 root root   7,  48 2015-01-01 00:00 loop6
+brw-------  1 root root   7,  56 2015-01-01 00:00 loop7
+brw-------  1 root root   7,  64 2015-01-01 00:00 loop8
+brw-------  1 root root   7,  72 2015-01-01 00:00 loop9
+brw-------  1 root root 179,  14 2015-01-01 00:00 metadata
+brw-------  1 root root 179,   7 2015-01-01 00:00 misc
+brw-------  1 root root 179,   0 2015-01-01 00:00 mmcblk0
+brw-------  1 root root 179,  32 2015-01-01 00:00 mmcblk0boot0
+brw-------  1 root root 179,  64 2015-01-01 00:00 mmcblk0boot1
+brw-------  1 root root 179,  96 2015-01-01 00:00 mmcblk0rpmb
+brw-------  1 root root 179,  13 2015-01-01 00:00 oem
+brw-------  1 root root 179,  11 2015-01-01 00:00 param
+drwxr-xr-x  3 root root       60 2015-01-01 00:00 platform
+brw-------  1 root root   1,   0 2015-01-01 00:00 ram0
+brw-------  1 root root   1,   1 2015-01-01 00:00 ram1
+brw-------  1 root root   1,  10 2015-01-01 00:00 ram10
+brw-------  1 root root   1,  11 2015-01-01 00:00 ram11
+brw-------  1 root root   1,  12 2015-01-01 00:00 ram12
+brw-------  1 root root   1,  13 2015-01-01 00:00 ram13
+brw-------  1 root root   1,  14 2015-01-01 00:00 ram14
+brw-------  1 root root   1,  15 2015-01-01 00:00 ram15
+brw-------  1 root root   1,   2 2015-01-01 00:00 ram2
+brw-------  1 root root   1,   3 2015-01-01 00:00 ram3
+brw-------  1 root root   1,   4 2015-01-01 00:00 ram4
+brw-------  1 root root   1,   5 2015-01-01 00:00 ram5
+brw-------  1 root root   1,   6 2015-01-01 00:00 ram6
+brw-------  1 root root   1,   7 2015-01-01 00:00 ram7
+brw-------  1 root root   1,   8 2015-01-01 00:00 ram8
+brw-------  1 root root   1,   9 2015-01-01 00:00 ram9
+brw-------  1 root root 179,   6 2015-01-01 00:00 recovery
+brw-------  1 root root 179,   2 2015-01-01 00:00 reserved
+brw-------  1 root root 179,  18 2015-01-01 00:00 super
+brw-------  1 root root 179,  16 2015-01-01 00:00 tee
+brw-------  1 root root 179,  19 2015-01-01 00:00 userdata
+brw-------  1 root root 179,  15 2015-01-01 00:00 vbmeta
+brw-------  1 root root 253,   0 2015-01-01 00:00 zram0
+ls -la /tmp /cache /sbin /system/bin/su* /system/xbin/su* 2>&1
+
+# 
+# ls -la /tmp /cache /sbin /system/bin/su* /system/xbin/su* 2>&1
+ls: /system/bin/su*: No such file or directory
+ls: /system/xbin/su*: No such file or directory
+/cache:
+total 0
+drwxr-xr-x  2 root root 0__bionic_open_tzdata: couldn't find any tzdata when looking for America/Mexico_City!
+ 1970-01-01 00:00 .
+drwxr-xr-x 32 root root 0 2015-01-01 00:00 ..
+
+/sbin:
+total 1168
+drwxr-xr-x  2 root root      0 1970-01-01 00:00 .
+drwxr-xr-x 32 root root      0 2015-01-01 00:00 ..
+-rw-r--r--  1 root root 866920 1970-01-01 00:00 busybox
+-rw-r--r--  1 root root    432 1970-01-01 00:00 mesondisplay.cfg
+-rw-r--r--  1 root root    550 1970-01-01 00:00 recovery.kl
+-rw-r--r--  1 root root    598 1970-01-01 00:00 remote.cfg
+-rw-r--r--  1 root root    503 1970-01-01 00:00 remote.tab1
+-rw-r--r--  1 root root    756 1970-01-01 00:00 remote.tab2
+-rw-r--r--  1 root root   1046 1970-01-01 00:00 remote.tab3
+-rw-r--r--  1 root root  11572 1970-01-01 00:00 remotecfg
+-rw-r--r--  1 root root 288840 1970-01-01 00:00 sh
+
+/tmp:
+total 28
+drwxrwxr-x  2 root shell    60 2015-01-01 00:00 .
+drwxr-xr-x 32 root root      0 2015-01-01 00:00 ..
+-rw-------  1 root root  26090 2015-01-01 00:00 recovery.log
+echo === FIN_DIAG_VIVO ===
+
+# 
+# echo === FIN_DIAG_VIVO ===
+=== FIN_DIAG_VIVO ===
+# 
+# 
+
+echo === INICIO_SELINUX_Y_USB ===
+=== INICIO_SELINUX_Y_USB ===
+# 
+# ls -laZ /dev/block
+total 0
+drwxr-xr-x  4 root root u:object_r:block_device:s0               1260__bionic_open_tzdata: couldn't find any tzdata when looking for America/Mexico_City!
+ 2015-01-01 00:00 .
+drwxr-xr-x 13 root root u:object_r:device:s0                     5220 2015-01-01 00:00 ..
+brw-------  1 root root u:object_r:boot_block_device:s0      179,  12 2015-01-01 00:00 boot
+brw-------  1 root root u:object_r:bootloader_device:s0      179,   1 2015-01-01 00:00 bootloader
+brw-------  1 root root u:object_r:bootloader_device:s0      179,  65 2015-01-01 00:00 bootloader0
+brw-------  1 root root u:object_r:bootloader_device:s0      179,  34 2015-01-01 00:00 bootloader1
+drwxr-xr-x  2 root root u:object_r:block_device:s0                540 2015-01-01 00:00 by-name
+brw-------  1 root root u:object_r:cache_block_device:s0     179,   3 2015-01-01 00:00 cache
+b?????????  ? ?    ?    ?                                           ?                ? conf
+brw-------  1 root root u:object_r:cri_block_device:s0       179,  10 2015-01-01 00:00 cri_data
+lrwxrwxrwx  1 root root u:object_r:userdata_block_device:s0        19 2015-01-01 00:00 data -> /dev/block/userdata
+brw-------  1 root root u:object_r:dtbo_block_device:s0      179,   9 2015-01-01 00:00 dtbo
+brw-------  1 root root u:object_r:env_device:s0             179,   4 2015-01-01 00:00 env
+brw-------  1 root root u:object_r:factory_block_device:s0   179,  17 2015-01-01 00:00 factory
+brw-------  1 root root u:object_r:logo_device:s0            179,   5 2015-01-01 00:00 logo
+brw-------  1 root root u:object_r:loop_device:s0              7,   0 2015-01-01 00:00 loop0
+brw-------  1 root root u:object_r:loop_device:s0              7,   8 2015-01-01 00:00 loop1
+brw-------  1 root root u:object_r:loop_device:s0              7,  80 2015-01-01 00:00 loop10
+brw-------  1 root root u:object_r:loop_device:s0              7,  88 2015-01-01 00:00 loop11
+brw-------  1 root root u:object_r:loop_device:s0              7,  96 2015-01-01 00:00 loop12
+brw-------  1 root root u:object_r:loop_device:s0              7, 104 2015-01-01 00:00 loop13
+brw-------  1 root root u:object_r:loop_device:s0              7, 112 2015-01-01 00:00 loop14
+brw-------  1 root root u:object_r:loop_device:s0              7, 120 2015-01-01 00:00 loop15
+brw-------  1 root root u:object_r:loop_device:s0              7,  16 2015-01-01 00:00 loop2
+brw-------  1 root root u:object_r:loop_device:s0              7,  24 2015-01-01 00:00 loop3
+brw-------  1 root root u:object_r:loop_device:s0              7,  32 2015-01-01 00:00 loop4
+brw-------  1 root root u:object_r:loop_device:s0              7,  40 2015-01-01 00:00 loop5
+brw-------  1 root root u:object_r:loop_device:s0              7,  48 2015-01-01 00:00 loop6
+brw-------  1 root root u:object_r:loop_device:s0              7,  56 2015-01-01 00:00 loop7
+brw-------  1 root root u:object_r:loop_device:s0              7,  64 2015-01-01 00:00 loop8
+brw-------  1 root root u:object_r:loop_device:s0              7,  72 2015-01-01 00:00 loop9
+brw-------  1 root root u:object_r:metadata_block_device:s0  179,  14 2015-01-01 00:00 metadata
+brw-------  1 root root u:object_r:misc_block_device:s0      179,   7 2015-01-01 00:00 misc
+brw-------  1 root root u:object_r:sda_block_device:s0       179,   0 2015-01-01 00:00 mmcblk0
+brw-------  1 root root u:object_r:bootloader_device:s0      179,  32 2015-01-01 00:00 mmcblk0boot0
+brw-------  1 root root u:object_r:bootloader_device:s0      179,  64 2015-01-01 00:00 mmcblk0boot1
+brw-------  1 root root u:object_r:sda_block_device:s0       179,  96 2015-01-01 00:00 mmcblk0rpmb
+brw-------  1 root root u:object_r:oem_block_device:s0       179,  13 2015-01-01 00:00 oem
+brw-------  1 root root u:object_r:param_block_device:s0     179,  11 2015-01-01 00:00 param
+drwxr-xr-x  3 root root u:object_r:block_device:s0                 60 2015-01-01 00:00 platform
+brw-------  1 root root u:object_r:ram_device:s0               1,   0 2015-01-01 00:00 ram0
+brw-------  1 root root u:object_r:ram_device:s0               1,   1 2015-01-01 00:00 ram1
+brw-------  1 root root u:object_r:ram_device:s0               1,  10 2015-01-01 00:00 ram10
+brw-------  1 root root u:object_r:ram_dls -laZ /sbin /system/bin/recovery /system/bin/fastbootd /system/bin/adbd /system/bin/sh 2>&1
+
+evice:s0               1,  11 2015-01-01 00:00 ram11
+brw-------  1 root root u:object_r:ram_device:s0               1,  12 2015-01-01 00:00 ram12
+brw-------  1 root root u:object_r:ram_device:s0               1,  13 2015-01-01 00:00 ram13
+brw-------  1 root root u:object_r:ram_device:s0               1,  14 2015-01-01 00:00 ram14
+brw-------  1 root root u:object_r:ram_device:s0               1,  15 2015-01-01 00:00 ram15
+brw-------  1 root root u:object_r:ram_device:s0               1,   2 2015-01-01 00:00 ram2
+brw-------  1 root root u:object_r:ram_device:s0               1,   3 2015-01-01 00:00 ram3
+brw-------  1 root root u:object_r:ram_device:s0               1,   4 2015-01-01 00:00 ram4
+brw-------  1 root root u:object_r:ram_device:s0               1,   5 2015-01-01 00:00 ram5
+brw-------  1 root root u:object_r:ram_device:s0               1,   6 2015-01-01 00:00 ram6
+brw-------  1 root root u:object_r:ram_device:s0               1,   7 2015-01-01 00:00 ram7
+brw-------  1 root root u:object_r:ram_device:s0               1,   8 2015-01-01 00:00 ram8
+brw-------  1 root root u:object_r:ram_device:s0               1,   9 2015-01-01 00:00 ram9
+brw-------  1 root root u:object_r:recovery_block_device:s0  179,   6 2015-01-01 00:00 recovery
+brw-------  1 root root u:object_r:block_device:s0           179,   2 2015-01-01 00:00 reserved
+brw-------  1 root root u:object_r:super_block_device:s0     179,  18 2015-01-01 00:00 super
+brw-------  1 root root u:object_r:tee_block_device:s0       179,  16 2015-01-01 00:00 tee
+brw-------  1 root root u:object_r:userdata_block_device:s0  179,  19 2015-01-01 00:00 userdata
+brw-------  1 root root u:object_r:vbmeta_block_device:s0    179,  15 2015-01-01 00:00 vbmeta
+brw-------  1 root root u:object_r:swap_block_device:s0      253,   0 2015-01-01 00:00 zram0
+# 
+# ls -laZ /sbin /system/bin/recovery /system/bin/fastbootd /system/bin/adbd /sin/recovery /system/bin/fastbootd /system/bin/adbd /s                         <ystem/bin/sh 2>&1
+
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0  1726392__bionic_open_tzdata: couldn't find any tzdata when looking for America/Mexico_City!
+ 1970-01-01 00:00 /system/bin/adbd
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0  1053648 1970-01-01 00:00 /system/bin/fastbootd
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0  1578364 1970-01-01 00:00 /system/bin/recovery
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0   213656 1970-01-01 00:00 /system/bin/sh
+
+/sbin:
+total 1168
+drwxr-xr-x  2 root root u:object_r:rootfs:s0       0 1970-01-01 00:00 .
+drwxr-xr-x 32 root root u:object_r:rootfs:s0       0 2015-01-01 00:00 ..
+-rw-r--r--  1 root root u:object_r:rootfs:s0  866920 1970-01-01 00:00 busybox
+-rw-r--r--  1 root root u:object_r:rootfs:s0     432 1970-01-01 00:00 mesondisplay.cfg
+-rw-r--r--  1 root root u:object_r:rootfs:s0     550 1970-01-01 00:00 recovery.kl
+-rw-r--r--  1 root root u:object_r:rootfs:s0     598 1970-01-01 00:00 remote.cfg
+-rw-r--r--  1 root root u:object_r:rootfs:s0     503 1970-01-01 00:00 remote.tab1
+-rw-r--r--  1 root root u:object_r:rootfs:s0     756 1970-01-01 00:00 remote.tab2
+-rw-r--r--  1 root root u:object_r:rootfs:s0    1046 1970-01-01 00:00 remote.tab3
+-rw-r--r--  1 root root u:object_r:rootfs:s0   11572 1970-01-01 00:00 remotecfg
+-rw-r--r--  1 root root u:object_r:rootfs:s0  288840 1970-01-01 00:00 sh
+# 
+# cat /init.rc /init.recovery* 2>&1 | head -n 120
+cat: /init.rc: No such file or directory
+on early-init
+    insmod /boot/dwc3.ko
+
+on init
+    chmod 0777 /bin/systemcontrol_static
+    chmod 0777 /sbin/remotecfg
+
+on fs
+
+on post-fs-data
+    chown system system /sys/class/android_usb/android0/f_mass_storage/lun/file
+    chmod 0660 /sys/class/android_usb/android0/f_mass_storage/lun/file
+    chown system system /sys/class/android_usb/android0/f_rndis/ethaddr
+    chmod 0660 /sys/class/android_usb/android0/f_rndis/ethaddr
+
+on boot
+    mkdir /udisk
+    mkdir /dev/usb-ffs 0770 system system
+    mkdir /dev/usb-ffs/adb 0770 system system
+    mkdir /dev/usb-ffs/fastboot 0770 system system
+    mount configfs none /config
+    mkdir /config/usb_gadget/g1 0770 system system
+    write /config/usb_gadget/g1/idVendor 0x18d1
+    write /config/usb_gadget/g1/bcdDevice 0x0223
+    write /config/usb_gadget/g1/bcdUSB 0x0200
+    mkdir /config/usb_gadget/g1/strings/0x409 0770
+    write /config/usb_gadget/g1/strings/0x409/serialnumber ${ro.serialno}
+    write /config/usb_gadget/g1/strings/0x409/manufacturer droidlogic
+    write /config/usb_gadget/g1/strings/0x409/product ${ro.product.name}
+    mkdir /config/usb_gadget/g1/functions/ffs.adb
+    mkdir /config/usb_gadget/g1/functions/ffs.fastboot
+    mkdir /config/usb_gadget/g1/functions/mtp.gs0
+    mkdir /config/usb_gadget/g1/configs/b.1 0770 system system
+    mkdir /config/usb_gadget/g1/configs/b.1/strings/0x409 0770 system system
+    write /config/usb_gadget/g1/configs/b.1/MaxPower 500
+    symlink /config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
+    mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000
+    mount functionfs fastboot /dev/usb-ffs/fastboot rmode=0770,fmode=0660,uid=1000,gid=1000
+    setprop sys.usb.configfs 1
+    setprop sys.usb.controller ${sys.usb.controller}
+    symlink /dev/block/userdata /dev/block/data
+
+service console /system/bin/sh
+    seclabel u:r:shell:s0
+    console
+
+service remotecfg3 /sbin/remotecfg -c /sbin/remote.cfg -t /sbin/remote.tab3 -d
+    oneshot
+    seclabel u:r:recovery:s0
+
+service remotecfg1 /sbin/remotecfg -c /sbin/remote.cfg -t /sbin/remote.tab1 -d
+    oneshot
+    seclabel u:r:recovery:s0
+
+service remotecfg2 /sbin/remotecfg -c /sbin/remote.cfg -t /sbin/remote.tab2 -d
+    oneshot
+    seclabel u:r:recovery:s0
+
+service systemcontrol /bin/systemcontrol_static /sbin/mesondisplay.cfg
+    oneshot
+    seclabel u:r:recovery:s0
+
+
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+    setprop sys.usb.ffs.ready 0
+
+on property:sys.usb.config=mtp && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4e41
+
+on property:sys.usb.config=mtp,adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4e12
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4e40
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4ee0
+
+on property:sys.usb.config=fastboot && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4ee7
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/UDC "none"
+    stop adbd
+    stop fastbootd
+    setprop sys.usb.ffs.ready 0
+    write /config/usb_gadget/g1/bDeviceClass 0
+    write /config/usb_gadget/g1/bDeviceSubClass 0
+    write /config/usb_gadget/g1/bDeviceProtocol 0
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rmdir /config/usb_gadget/g1/functions/rndis.gs4
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.config=fastboot && property:sys.usb.configfs=1
+    start fastbootd
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=adb && propgetprop | grep -E 'usb|boot|ro\.|init\.svc|uboot|sys\.'
+
+erty:sys.usb.configfs=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "adb"
+    symlink /config/usb_gadget/g1/functions/ffs.adb /config/usb_gadget/g1/configs/b.1/f1
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=fastboot && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "fastboot"
+    symlink /config/usb_gadget/g1/functions/ffs.fastboot /config/usb_gadget/g1/configs/b.1/f1
+    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+    setprop sys.usb.state ${sys.usb.config}
+
+echo === FIN_SELINUX_Y_USB ===
+
+# 
+# getprop | grep -E 'usb|boot|ro\.|init\.svc|uboot|sys\.'
+[init.svc.adbd]: [stopped]
+[init.svc.charger]: [running]
+[init.svc.console]: [running]
+[init.svc.fastbootd]: [stopped]
+[init.svc.recovery]: [running]
+[init.svc.remotecfg1]: [stopped]
+[init.svc.remotecfg2]: [stopped]
+[init.svc.remotecfg3]: [stopped]
+[init.svc.systemcontrol]: [running]
+[init.svc.ueventd]: [running]
+[persist.sys.dalvik.vm.lib.2]: [libart.so]
+[persist.sys.hdmi.keep_awake]: [false]
+[persist.sys.media.avsync]: [true]
+[persist.sys.timezone]: [America/Mexico_City]
+[persist.sys.usb.config]: [none]
+[pm.dexopt.boot-after-ota]: [verify]
+[pm.dexopt.first-boot]: [verify]
+[pm.dexopt.post-boot]: [extract]
+[ro.actionable_compatible_property.enabled]: [true]
+[ro.adb.secure]: [1]
+[ro.allow.mock.location]: [0]
+[ro.apex.updatable]: [false]
+[ro.baseband]: [unknown]
+[ro.board.platform]: [franklin]
+[ro.boot.boardtype]: [8]
+[ro.boot.boot_devices]: [ffe07000.emmc]
+[ro.boot.bootloader]: [U-Boot]
+[ro.boot.build.expect.baseband]: [N/A]
+[ro.boot.dtbo_idx]: [0]
+[ro.boot.dynamic_partitions]: [true]
+[ro.boot.fake_battery]: [42]
+[ro.boot.firstboot]: [0]
+[ro.boot.hardware]: [amlogic]
+[ro.boot.rpmb_state]: [1]
+[ro.boot.selinux]: [enforcing]
+[ro.boot.serialno]: [Z41220090388172]
+[ro.boot.vbmeta.avb_version]: [1.1]
+[ro.boot.vbmeta.device]: [/dev/block/vbmeta]
+[ro.boot.vbmeta.device_state]: [locked]
+[ro.boot.vbmeta.digest]: [43c6859f14f2904256be5811738ef696f397e08c669e0207ead4ee74d4f8e41c]
+[ro.boot.vbmeta.hash_alg]: [sha256]
+[ro.boot.vbmeta.invalidate_on_error]: [yes]
+[ro.boot.vbmeta.size]: [4224]
+[ro.boot.verifiedbootstate]: [green]
+[ro.boot.veritymode]: [enforcing]
+[ro.bootloader]: [U-Boot]
+[ro.bootmode]: [unknown]
+[ro.build.characteristics]: [tv,nosdcard]
+[ro.build.date]: [Mon Sep  4 20:16:40 UTC 2023]
+[ro.build.date.utc]: [1693858600]
+[ro.build.description]: [franklin-user 12 SC eng.ztestb.20230905.041800 release-keys]
+[ro.build.display.id]: [SC.eng.ztestb.20230905.041800 release-keys]
+[ro.build.expect.bootloader]: [01.01.220630.155454]
+[ro.bui
+
+echo === INICIO_EXPLORACION_ESCALADO ===
+=== INICIO_EXPLORACION_ESCALADO ===
+# 
+# ls -laZ / /bin /sbin /system/bin
+
+lrwxrwxrwx  1 root root u:object_r:rootfs:s0  11__bionic_open_tzdata: couldn't find any tzdata when looking for America/Mexico_City!
+ 1970-01-01 00:00 /bin -> /system/bin
+
+:
+total 860
+drwxr-xr-x  32 root root   u:object_r:rootfs:s0             0 2015-01-01 00:00 .
+drwxr-xr-x  32 root root   u:object_r:rootfs:s0             0 2015-01-01 00:00 ..
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 acct
+drwxr-xr-x   2 root root   u:object_r:apex_mnt_dir:s0      40 2015-01-01 00:00 apex
+lrwxrwxrwx   1 root root   u:object_r:rootfs:s0            11 1970-01-01 00:00 bin -> /system/bin
+lrwxrwxrwx   1 root root   u:object_r:rootfs:s0            50 1970-01-01 00:00 bugreports -> /data/user_de/0/com.android.shell/files/bugreports
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 cache
+drwxr-xr-x   4 root root   u:object_r:configfs:s0           0 1970-01-01 00:00 config
+lrwxrwxrwx   1 root root   u:object_r:rootfs:s0            17 1970-01-01 00:00 d -> /sys/kernel/debug
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 data
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 data_mirror
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 debug_ramdisk
+lrwxrwxrwx   1 root root   u:object_r:rootfs:s0            12 1970-01-01 00:00 default.prop -> prop.default
+drwxr-xr-x  13 root root   u:object_r:device:s0          5220 2015-01-01 00:00 dev
+lrwxrwxrwx   1 root root   u:object_r:rootfs:s0            11 1970-01-01 00:00 etc -> /system/etc
+lrwxrwxrwx   1 root root   u:object_r:rootfs:s0            16 1970-01-01 00:00 init -> /system/bin/init
+-rwxr-x---   1 root root   u:object_r:rootfs:s0         16805 1970-01-01 00:00 init.recovery.amlogic.rc
+d?????????   ? ?    ?      ?                                ?                ? linkerconfig
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 metadata
+drwxr-xr-x   8 root system u:object_r:tmpfs:s0            160 2015-01-01 00:00 mnt
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 odm
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 odm_dlkm
+-rw-r--r--   1 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 odm_file_contexts
+-rw-r--r--   1 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 odm_property_contexts
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 oem
+-rw-r--r--   1 root root   u:object_r:rootfs:s0         46756 1970-01-01 00:00 plat_file_contexts
+-rw-r--r--   1 root root   u:object_r:rootfs:s0         76482 1970-01-01 00:00 plat_property_contexts
+d?????????   ? ?    ?      ?                                ?                ? postinstall
+dr-xr-xr-x 151 root root   u:object_r:proc:s0               0 1970-01-01 00:00 proc
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 product
+-rw-r--r--   1 root root   u:object_r:rootfs:s0          5056 1970-01-01 00:00 product_file_contexts
+-rw-r--r--   1 root root   u:object_r:rootfs:s0          1729 1970-01-01 00:00 product_property_contexts
+-rw-r--r--   1 root root   u:object_r:rootfs:s0         14889 1970-01-01 00:00 prop.default
+drwxr-xr-x   3 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 res
+drwx------   2 root root   u:object_r:rootfs:s0             0 2023-09-04 20:13 root
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 sbin
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 sdcard
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 second_stage_resources
+-rw-r--r--   1 root root   u:object_r:rootfs:s0        630344 1970-01-01 00:00 sepolicy
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 2015-01-01 00:00 sideload
+drwxr-x--x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 storage
+dr-xr-xr-x  12 root root   u:object_r:sysfs:s0              0 2015-01-01 00:00 sys
+drwxr-xr-x   5 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 system
+lrwxrwxrwx   1 root root   u:object_r:rootfs:s0            18 1970-01-01 00:00 systecat /init*
+
+m_ext -> /system/system_ext
+-rw-r--r--   1 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 system_ext_file_contexts
+-rw-r--r--   1 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 system_ext_property_contexts
+drwxrwxr-x   2 root shell  u:object_r:tmpfs:s0             60 2015-01-01 00:00 tmp
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 2015-01-01 00:00 udisk
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 vendor
+drwxr-xr-x   2 root root   u:object_r:rootfs:s0             0 1970-01-01 00:00 vendor_dlkm
+-rw-r--r--   1 root root   u:object_r:rootfs:s0         46804 1970-01-01 00:00 vendor_file_contexts
+-rw-r--r--   1 root root   u:object_r:rootfs:s0          4101 1970-01-01 00:00 vendor_property_contexts
+
+/sbin:
+total 1168
+drwxr-xr-x  2 root root u:object_r:rootfs:s0       0 1970-01-01 00:00 .
+drwxr-xr-x 32 root root u:object_r:rootfs:s0       0 2015-01-01 00:00 ..
+-rw-r--r--  1 root root u:object_r:rootfs:s0  866920 1970-01-01 00:00 busybox
+-rw-r--r--  1 root root u:object_r:rootfs:s0     432 1970-01-01 00:00 mesondisplay.cfg
+-rw-r--r--  1 root root u:object_r:rootfs:s0     550 1970-01-01 00:00 recovery.kl
+-rw-r--r--  1 root root u:object_r:rootfs:s0     598 1970-01-01 00:00 remote.cfg
+-rw-r--r--  1 root root u:object_r:rootfs:s0     503 1970-01-01 00:00 remote.tab1
+-rw-r--r--  1 root root u:object_r:rootfs:s0     756 1970-01-01 00:00 remote.tab2
+-rw-r--r--  1 root root u:object_r:rootfs:s0    1046 1970-01-01 00:00 remote.tab3
+-rw-r--r--  1 root root u:object_r:rootfs:s0   11572 1970-01-01 00:00 remotecfg
+-rw-r--r--  1 root root u:object_r:rootfs:s0  288840 1970-01-01 00:00 sh
+
+/system/bin:
+total 6616
+drwxr-x--x 2 root root u:object_r:rootfs:s0        0 1970-01-01 00:00 .
+drwxr-xr-x 5 root root u:object_r:rootfs:s0        0 1970-01-01 00:00 ..
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 [ -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 acpi -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0  1726392 1970-01-01 00:00 adbd
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 base64 -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 basename -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 blockdev -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 cal -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 cat -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0    52428 1970-01-01 00:00 charger
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 chattr -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 chcon -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 chgrp -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 chmod -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 chown -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 chroot -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 chrt -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 cksum -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 clear -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 cmp -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 comm -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 cp -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 cpio -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 cut -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 date -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 dd -> toybox
+lrwxrwxrwx 1 root rps -efZ 2>&1 || ps -Z 2>&1
+
+oot u:object_r:rootfs:s0        6 1970-01-01 00:00 devmem -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 df -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 diff -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 dirname -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 dmesg -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 dos2unix -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 du -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0    18820 1970-01-01 00:00 e2fsdroid
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 echo -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 egrep -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 env -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 expand -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 expr -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 fallocate -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 false -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0  1053648 1970-01-01 00:00 fastbootd
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 fgrep -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 file -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 find -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 flock -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 fmt -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 free -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 fsync -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 getconf -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 getenforce -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 getevent -> toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 getprop -> toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 grep -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 groups -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 gunzip -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 gzip -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 head -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 hostname -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 hwclock -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 i2cdetect -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 i2cdump -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 i2cget -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 i2cset -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 iconv -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 id -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 ifconfig -> toybox
+-????????? ? ?    ?    ?                           ?                ? init
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 inotifyd -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 insmod -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 install -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-setprop sys.usb.config fastboot
+
+01-01 00:00 ioctl -> toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 ionice -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 iorenice -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 kill -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 killall -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0  1293572 1970-01-01 00:00 linker
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 linker_asan -> linker
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 ln -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 load_policy -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 log -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 logname -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 losetup -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 ls -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 lsattr -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 lsmod -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 lsof -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 lspci -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 lsusb -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 md5sum -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 microcom -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0   142120 1970-01-01 00:00 minadbd
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mkdir -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0    58044 1970-01-01 00:00 mke2fs
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mkfifo -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mkfs.ext2 -> mke2fs
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mkfs.ext3 -> mke2fs
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mkfs.ext4 -> mke2fs
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mknod -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mkswap -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mktemp -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 modinfo -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 modprobe -> toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 more -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mount -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mountpoint -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 mv -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 nc -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 netcat -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 netstat -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 nice -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 nl -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 nohup -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 nproc -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 nsenter -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 od -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 paste -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 patch -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 pgrep -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 pidof -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 pkill -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 pmap -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 printenv -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 printf -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 ps -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 pwd -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 readelf -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 readlink -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 realpath -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0     4040 1970-01-01 00:00 reboot
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0  1578364 1970-01-01 00:00 recovery
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 renice -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 restorecon -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 rm -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 rmdir -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 rmmod -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 rtcwake -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 runcon -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sed -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sendevent -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 seq -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 setenforce -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 setprop -> toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 setsid -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0   213656 1970-01-01 00:00 sh
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sha1sum -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sha224sum -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sha256sum -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sha384sum -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sha512sum -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sleep -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sort -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 split -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 start -> toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 stat -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 stop -> toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 strings -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 stty -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 swapoff -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 swapon -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sync -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 sysctl -> tgetprop sys.usb.state
+
+oybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0   117752 1970-01-01 00:00 systemcontrol_static
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 tac -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 tail -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 tar -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 taskset -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 tee -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 test -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 time -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 timeout -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0    88644 1970-01-01 00:00 toolbox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 top -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 touch -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0   374164 1970-01-01 00:00 toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 tr -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 true -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 truncate -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 tty -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        4 1970-01-01 00:00 ueventd -> init
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 ulimit -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 umount -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 uname -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 uniq -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 unix2dos -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 unlink -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 unshare -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 unzip -> ziptool
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 uptime -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 usleep -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 uudecode -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 uuencode -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 uuidgen -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 vmstat -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 watch -> toybox
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0     7824 1970-01-01 00:00 watchdogd
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 wc -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 which -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 whoami -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 xargs -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 xxd -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 yes -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        6 1970-01-01 00:00 zcat -> toybox
+lrwxrwxrwx 1 root root u:object_r:rootfs:s0        7 1970-01-01 00:00 zipinfo -> ziptool
+-rwxr-xr-x 1 root root u:object_r:rootfs:s0    19576 1970-01-01 00:00 ziptool
+getprop init.svc.fastbootd
+
+# 
+# cat /init*
+echo === FIN_EXPLORACION_ESCALADO ===
+
+cat: /init: Permission denied
+on early-init
+    insmod /boot/dwc3.ko
+
+on init
+    chmod 0777 /bin/systemcontrol_static
+    chmod 0777 /sbin/remotecfg
+
+on fs
+
+on post-fs-data
+    chown system system /sys/class/android_usb/android0/f_mass_storage/lun/file
+    chmod 0660 /sys/class/android_usb/android0/f_mass_storage/lun/file
+    chown system system /sys/class/android_usb/android0/f_rndis/ethaddr
+    chmod 0660 /sys/class/android_usb/android0/f_rndis/ethaddr
+
+on boot
+    mkdir /udisk
+    mkdir /dev/usb-ffs 0770 system system
+    mkdir /dev/usb-ffs/adb 0770 system system
+    mkdir /dev/usb-ffs/fastboot 0770 system system
+    mount configfs none /config
+    mkdir /config/usb_gadget/g1 0770 system system
+    write /config/usb_gadget/g1/idVendor 0x18d1
+    write /config/usb_gadget/g1/bcdDevice 0x0223
+    write /config/usb_gadget/g1/bcdUSB 0x0200
+    mkdir /config/usb_gadget/g1/strings/0x409 0770
+    write /config/usb_gadget/g1/strings/0x409/serialnumber ${ro.serialno}
+    write /config/usb_gadget/g1/strings/0x409/manufacturer droidlogic
+    write /config/usb_gadget/g1/strings/0x409/product ${ro.product.name}
+    mkdir /config/usb_gadget/g1/functions/ffs.adb
+    mkdir /config/usb_gadget/g1/functions/ffs.fastboot
+    mkdir /config/usb_gadget/g1/functions/mtp.gs0
+    mkdir /config/usb_gadget/g1/configs/b.1 0770 system system
+    mkdir /config/usb_gadget/g1/configs/b.1/strings/0x409 0770 system system
+    write /config/usb_gadget/g1/configs/b.1/MaxPower 500
+    symlink /config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
+    mount functionfs adb /dev/usb-ffs/adb uid=2000,gid=2000
+    mount functionfs fastboot /dev/usb-ffs/fastboot rmode=0770,fmode=0660,uid=1000,gid=1000
+    setprop sys.usb.configfs 1
+    setprop sys.usb.controller ${sys.usb.controller}
+    symlink /dev/block/userdata /dev/block/data
+
+service console /system/bin/sh
+    seclabel u:r:shell:s0
+    console
+
+service remotecfg3 /sbin/remotecfg -c /sbin/remote.cfg -t /sbin/remote.tab3 -d
+    oneshot
+    seclabel u:r:recovery:s0
+
+service remotecfg1 /sbin/remotecfg -c /sbin/remote.cfg -t /sbin/remote.tab1 -d
+    oneshot
+    seclabel u:r:recovery:s0
+
+service remotecfg2 /sbin/remotecfg -c /sbin/remote.cfg -t /sbin/remote.tab2 -d
+    oneshot
+    seclabel u:r:recovery:s0
+
+service systemcontrol /bin/systemcontrol_static /sbin/mesondisplay.cfg
+    oneshot
+    seclabel u:r:recovery:s0
+
+
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+    setprop sys.usb.ffs.ready 0
+
+on property:sys.usb.config=mtp && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4e41
+
+on property:sys.usb.config=mtp,adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4e12
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4e40
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4ee0
+
+on property:sys.usb.config=fastboot && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/idProduct 0x4ee7
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=none && property:sys.usb.configfs=1
+    write /config/usb_gadget/g1/UDC "none"
+    stop adbd
+    stop fastbootd
+    setprop sys.usb.ffs.ready 0
+    write /config/usb_gadget/g1/bDeviceClass 0
+    write /config/usb_gadget/g1/bDeviceSubClass 0
+    write /config/usb_gadget/g1/bDeviceProtocol 0
+    rm /config/usb_gadget/g1/configs/b.1/f1
+    rm /config/usb_gadget/g1/configs/b.1/f2
+    rm /config/usb_gadget/g1/configs/b.1/f3
+    rmdir /config/usb_gadget/g1/functions/rndis.gs4
+    setprop sys.usb.state ${sys.usb.config}
+
+on property:sys.usb.config=adb && property:sys.usb.configfs=1
+    start adbd
+
+on property:sys.usb.config=fastboot && property:sys.usb.configfs=1
+    start fastbootd
+
+on property:sys.usb.ffs.ready=1 && property:sys.usb.config=adb && property:sys.usb.configfs=1
+    w
