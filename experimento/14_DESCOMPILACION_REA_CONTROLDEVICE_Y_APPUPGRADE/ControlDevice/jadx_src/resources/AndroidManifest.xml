@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="62531"
+    android:compileSdkVersion="31"
+    android:compileSdkVersionCodename="12"
+    package="com.control.device"
+    platformBuildVersionCode="31"
+    platformBuildVersionName="12">
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="31"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BACKUP"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_DEBUGGING"/>
+    <uses-permission android:name="android.permission.MANAGE_SENSOR_PRIVACY"/>
+    <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <uses-permission android:name="android.permission.OBSERVE_SENSOR_PRIVACY"/>
+    <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.SUGGEST_MANUAL_TIME_AND_ZONE"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.USE_RESERVED_DISK"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="com.google.android.assistant.READ_HOTWORD_STATE"/>
+    <uses-permission android:name="com.google.android.assistant.WRITE_HOTWORD_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_SLICE_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <uses-permission android:name="com.android.setupwizard.permission.SETUP"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <queries>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <application
+        android:label="Khiv"
+        android:allowBackup="false"
+        android:extractNativeLibs="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:usesNonSdkApi="true">
+        <uses-library android:name="droidlogic.software.core"/>
+        <uses-library android:name="droidlogic.tv.software.core"/>
+        <activity
+            android:label="@string/app_name"
+            android:name="com.control.device.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.control.device.service.BluetoothInformationService"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.control.device.settings.remote.ZTERemoteActivity"
+            android:permission="android.permission.BLUETOOTH"
+            android:exported="true"
+            android:taskAffinity="com.control.device.settings.remote.ZTERemoteActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.android.setupwizard.action.HOOK_BEGIN"/>
+                <action android:name="android.settings.ZTEREMOTE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.control.device.settings.remote.ZTERemoteVideoActivity"
+            android:permission="android.permission.BLUETOOTH"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="com.control.device.settings.MexicAmco.AmxZTERemoteActivity"
+            android:permission="android.permission.BLUETOOTH"
+            android:exported="false"
+            android:taskAffinity="com.control.device.settings.MexicAmco.AmxZTERemoteActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/Theme.AmxKeyUpdateSettingsConnectivity"
+            android:name="com.control.device.settings.MexicAmco.AMXUpdateAtvKey.UpdateAtvKeyActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:taskAffinity="com.control.device.settings.MexicAmco.AMXUpdateAtvKey"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/Theme.AmxKeyUpdateSettingsConnectivity"
+            android:name="com.control.device.settings.MexicAmco.AMXUpdateAtvKey.net.AmxKeyWifiConnectionActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/Theme.AmxKeyUpdateSettingsConnectivity"
+            android:name="com.control.device.settings.MexicAmco.AMXUpdateAtvKey.net.AmxKeyAddWifiNetworkActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/Theme.AmxKeyUpdateSettingsConnectivity"
+            android:name="com.control.device.settings.MexicAmco.AMXUpdateAtvKey.net.AmxKeyEthernetConnectionActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.control.device.settings.standby.StandbyTipActivity"
+            android:exported="false"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.control.device.view.RoundedCornerDialogNotifyActivity"
+            android:exported="true"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.control.device.DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="custom"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.control.device.view.TsdFileManagerNoticeActivity"
+            android:exported="true"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.control.device.DIALOG.tsd"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="custom"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.control.device.recevier.ZteKeyInterceptorReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.GLOBAL_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.control.device.recevier.WakeupReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.zte.stb.device.wakeup"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.control.device.recevier.PartnerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.tvsetup.action.PARTNER_CUSTOMIZATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.android.tv.settings.accessories.RemotePowerReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.BATTERY_LEVEL_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.control.device.service.PowerService"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.zte.users.PowerService"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.control.device.settings.MexicAmco.FrameratePriorityActivity"
+            android:exported="false"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <receiver
+            android:name="com.control.device.recevier.AppInstallReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+        <service
+            android:name="com.control.device.service.NotificationService"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.zte.notify"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.control.device.service.ConnectionService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.control.device.service.BluetoothAutoPairService"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.zte.users.BluetoothAutoPairService"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.control.device.settings.MexicAmco.MenuKeyRspActivity"
+            android:exported="false"
+            android:configChanges="navigation|keyboardHidden|keyboard"/>
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:exported="false"
+            android:multiprocess="true"
+            android:authorities="com.control.device.lifecycle-tests"/>
+        <receiver android:name="androidx.remotecallback.ProviderRelayReceiver"/>
+        <activity
+            android:name="androidx.slice.compat.SlicePermissionActivity"
+            android:excludeFromRecents="true"/>
+    </application>
+</manifest>

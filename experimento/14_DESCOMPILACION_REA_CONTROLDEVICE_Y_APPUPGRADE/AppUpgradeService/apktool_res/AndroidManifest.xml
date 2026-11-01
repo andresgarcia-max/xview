@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" android:sharedUserId="android.uid.system" package="tv.upgrade.service" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <permission android:name="tv.upgrade.service" android:protectionLevel="signature"/>
+    <application android:allowBackup="false" android:icon="@drawable/ic_settings_dock" android:label="@string/app_label" android:usesCleartextTraffic="true">
+        <service android:exported="false" android:name=".AppUpgradeService">
+            <intent-filter android:priority="1000"/>
+        </service>
+        <service android:exported="false" android:name=".ReadFileServer" android:permission="tv.upgrade.service">
+            <intent-filter android:priority="1000">
+                <action android:name="tv.upgrade.service.ReadFileServer"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name=".BootReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name=".InstallResultReceiver"/>
+    </application>
+</manifest>

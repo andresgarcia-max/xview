@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_mag_search_widget_holo" id="0x7f020000" />
+    <public type="drawable" name="ic_settings_dock" id="0x7f020001" />
+    <public type="drawable" name="magnifying_glass" id="0x7f020002" />
+    <public type="layout" name="main_activity" id="0x7f030000" />
+    <public type="xml" name="accessibilityservice" id="0x7f040000" />
+    <public type="raw" name="definitions" id="0x7f050000" />
+    <public type="string" name="app_label" id="0x7f060000" />
+    <public type="id" name="main_activity" id="0x7f070000" />
+    <public type="id" name="textView1" id="0x7f070001" />
+</resources>

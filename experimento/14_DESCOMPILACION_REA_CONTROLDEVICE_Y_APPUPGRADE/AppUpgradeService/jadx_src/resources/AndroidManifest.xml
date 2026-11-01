@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:compileSdkVersion="32"
+    android:compileSdkVersionCodename="12"
+    package="tv.upgrade.service"
+    platformBuildVersionCode="32"
+    platformBuildVersionName="12">
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="32"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <permission
+        android:name="tv.upgrade.service"
+        android:protectionLevel="signature"/>
+    <application
+        android:label="@string/app_label"
+        android:icon="@drawable/ic_settings_dock"
+        android:allowBackup="false"
+        android:usesCleartextTraffic="true">
+        <service
+            android:name="tv.upgrade.service.AppUpgradeService"
+            android:exported="false">
+            <intent-filter android:priority="1000"/>
+        </service>
+        <service
+            android:name="tv.upgrade.service.ReadFileServer"
+            android:permission="tv.upgrade.service"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="tv.upgrade.service.ReadFileServer"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="tv.upgrade.service.BootReceiver"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="tv.upgrade.service.InstallResultReceiver"
+            android:exported="false"/>
+    </application>
+</manifest>

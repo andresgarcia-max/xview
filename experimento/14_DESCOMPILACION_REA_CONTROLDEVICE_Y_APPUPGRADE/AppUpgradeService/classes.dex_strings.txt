@@ -1,0 +1,1213 @@
+
+ 
+  session id: 
+ ,Update_url : 
+ Host verify successful.
+ Hostname : 
+ filePath: 
+ install filed, msg: 
+ install success, msg: 
+ may has been installed, skip!
+ may has been uninstalled, skip!
+ packageName: 
+"
+#
+(
+)
+,  session id: 
+, WIFI password: 
+, activity: 
+, autoTest: 
+, create for package = 
+, delete error
+, delete success
+, md5: 
+, status: 
+,PackageName=
+,key=
+,value =
+.MainActivity
+.NmService
+.log
+/
+/data/data/tv.upgrade.service/
+/data/data/tv.upgrade.service/apkUpdateInfo.xml
+/data/data/tv.upgrade.service/apkUpdateInfo_old.xml
+/data/data/tv.upgrade.service/cache/
+/updateAPK/
+/updateSingleAPK/
+0
+1
+1301 2
+3601 1
+4701 2
+;name = 
+;value = 
+<
+<ResetService> Exception = 
+<ResetService> ZteMcspCfgManager.getInstance
+<ResetService> mZteMcspCfgManager.isProductSeparate()   Ret = 
+<ResetService> mZteMcspCfgManager.isProductSeparate() = 
+<clinit>
+<init>
+=
+>;
+>;)V
+ACTION_DELETE
+ACTION_FALLBACK
+ACTION_UPDATE
+AUTO_INSTALL_SUCCESS
+Android
+ApkInfo.java
+AppUpgradeService.java
+B
+BOOT_ACTION
+BootReceiver.java
+Buf
+BuildConfig.java
+C
+Certificate not valid or trusted.
+Charset
+Common
+Connected to 
+DEBUG
+DESCRIPTOR
+DIRECTORY_DOCUMENTS
+Default
+DefaultPlatform
+Exception ==
+F
+FILE
+FLAG_MUTABLE
+Filename
+GET
+HTTPS
+Host verify fail .
+I
+II
+IL
+ILI
+ILII
+ILL
+ILLI
+ILLL
+ILLLL
+Indonesia_Telkom
+InstallResultReceiver.java
+J
+JL
+L
+LC
+LF
+LI
+LII
+LL
+LLI
+LLIL
+LLILI
+LLJJ
+LLL
+LLLL
+LLLLLL
+LLZ
+LOGCAT_FILTER_CMD
+LOG_DIR
+LOG_FILE_PREFIX
+LOG_FILE_SUFFIX
+LOG_SAVE_FILE_SUFFIX
+LZ
+Landroid/app/Activity;
+Landroid/app/PendingIntent;
+Landroid/app/Service;
+Landroid/content/BroadcastReceiver;
+Landroid/content/ComponentName;
+Landroid/content/ContentResolver;
+Landroid/content/ContentValues;
+Landroid/content/Context;
+Landroid/content/Intent;
+Landroid/content/IntentFilter;
+Landroid/content/IntentSender;
+Landroid/content/ServiceConnection;
+Landroid/content/pm/ApplicationInfo;
+Landroid/content/pm/PackageInfo;
+Landroid/content/pm/PackageInstaller$Session;
+Landroid/content/pm/PackageInstaller$SessionCallback;
+Landroid/content/pm/PackageInstaller$SessionParams;
+Landroid/content/pm/PackageInstaller;
+Landroid/content/pm/PackageManager$NameNotFoundException;
+Landroid/content/pm/PackageManager;
+Landroid/database/Cursor;
+Landroid/net/ConnectivityManager;
+Landroid/net/Network;
+Landroid/net/NetworkInfo;
+Landroid/net/Uri;
+Landroid/net/wifi/WifiConfiguration;
+Landroid/net/wifi/WifiInfo;
+Landroid/net/wifi/WifiManager$ActionListener;
+Landroid/net/wifi/WifiManager;
+Landroid/os/Binder;
+Landroid/os/Bundle;
+Landroid/os/Environment;
+Landroid/os/Handler;
+Landroid/os/HandlerThread;
+Landroid/os/IBinder;
+Landroid/os/IInterface;
+Landroid/os/Looper;
+Landroid/os/Message;
+Landroid/os/Parcel;
+Landroid/os/RemoteException;
+Landroid/os/SystemProperties;
+Landroid/provider/Settings$Global;
+Landroid/text/TextUtils;
+Landroid/util/Log;
+Landroid/util/Xml;
+Lcom/zte/android/productcfg/ZteCfgService$1;
+Lcom/zte/android/productcfg/ZteCfgService;
+Lcom/zte/android/productcfg/ZteMcspCfgManager;
+Lcom/zte/android/productcfg/mcspcfg$Default;
+Lcom/zte/android/productcfg/mcspcfg$Stub$Proxy;
+Lcom/zte/android/productcfg/mcspcfg$Stub;
+Lcom/zte/android/productcfg/mcspcfg;
+Lcom/zte/deviceinfoservice/MainActivity;
+Ldalvik/annotation/EnclosingClass;
+Ldalvik/annotation/EnclosingMethod;
+Ldalvik/annotation/InnerClass;
+Ldalvik/annotation/MemberClasses;
+Ldalvik/annotation/Signature;
+Ldalvik/annotation/Throws;
+Ljava/io/File;
+Ljava/io/FileInputStream;
+Ljava/io/FileOutputStream;
+Ljava/io/IOException;
+Ljava/io/InputStream;
+Ljava/io/OutputStream;
+Ljava/lang/CharSequence;
+Ljava/lang/Class;
+Ljava/lang/Exception;
+Ljava/lang/IllegalArgumentException;
+Ljava/lang/Integer;
+Ljava/lang/InterruptedException;
+Ljava/lang/Long;
+Ljava/lang/Object;
+Ljava/lang/Process;
+Ljava/lang/Runnable;
+Ljava/lang/Runtime;
+Ljava/lang/String;
+Ljava/lang/StringBuilder;
+Ljava/lang/System;
+Ljava/lang/Thread;
+Ljava/net/HttpURLConnection;
+Ljava/net/URL;
+Ljava/net/URLConnection;
+Ljava/nio/ByteBuffer;
+Ljava/nio/MappedByteBuffer;
+Ljava/nio/channels/FileChannel$MapMode;
+Ljava/nio/channels/FileChannel;
+Ljava/security/MessageDigest;
+Ljava/security/NoSuchAlgorithmException;
+Ljava/security/SecureRandom;
+Ljava/security/cert/CertificateException;
+Ljava/security/cert/X509Certificate;
+Ljava/text/SimpleDateFormat;
+Ljava/util/ArrayList;
+Ljava/util/BitSet;
+Ljava/util/Date;
+Ljava/util/Iterator;
+Ljava/util/List
+Ljava/util/List;
+Ljava/util/List<Ltv/upgrade/service/ApkInfo;>;
+Ljava/util/Locale;
+Ljava/util/Random;
+Ljavax/net/ssl/HostnameVerifier;
+Ljavax/net/ssl/HttpsURLConnection;
+Ljavax/net/ssl/SSLContext;
+Ljavax/net/ssl/SSLSession;
+Ljavax/net/ssl/SSLSocketFactory;
+Ljavax/net/ssl/X509TrustManager;
+LogcatWrite 1: sLogDirPath: 
+LogcatWrite 2: sLogDirPath: 
+LogcatWrite.java
+LogcatWrite: init LogcatWrite failed!
+LogcatWrite: init failed, context can not be null
+LogcatWrite: init failed, logDirName can not be null
+Lorg/xmlpull/v1/XmlPullParser;
+Ltv/upgrade/service/ApkInfo;
+Ltv/upgrade/service/AppUpgradeService$10;
+Ltv/upgrade/service/AppUpgradeService$1;
+Ltv/upgrade/service/AppUpgradeService$2;
+Ltv/upgrade/service/AppUpgradeService$3$1;
+Ltv/upgrade/service/AppUpgradeService$3;
+Ltv/upgrade/service/AppUpgradeService$4$1;
+Ltv/upgrade/service/AppUpgradeService$4;
+Ltv/upgrade/service/AppUpgradeService$5;
+Ltv/upgrade/service/AppUpgradeService$6;
+Ltv/upgrade/service/AppUpgradeService$7;
+Ltv/upgrade/service/AppUpgradeService$8;
+Ltv/upgrade/service/AppUpgradeService$9;
+Ltv/upgrade/service/AppUpgradeService$MessageObj;
+Ltv/upgrade/service/AppUpgradeService$TrustAnyHostnameVerifier;
+Ltv/upgrade/service/AppUpgradeService;
+Ltv/upgrade/service/BootReceiver$1;
+Ltv/upgrade/service/BootReceiver;
+Ltv/upgrade/service/BuildConfig;
+Ltv/upgrade/service/InstallResultReceiver;
+Ltv/upgrade/service/LogcatWrite;
+Ltv/upgrade/service/Manifest$permission;
+Ltv/upgrade/service/Manifest;
+Ltv/upgrade/service/MyX509TrustManager;
+Ltv/upgrade/service/R$attr;
+Ltv/upgrade/service/R$drawable;
+Ltv/upgrade/service/R$id;
+Ltv/upgrade/service/R$layout;
+Ltv/upgrade/service/R$raw;
+Ltv/upgrade/service/R$string;
+Ltv/upgrade/service/R$xml;
+Ltv/upgrade/service/R;
+Ltv/upgrade/service/ReadFile$Default;
+Ltv/upgrade/service/ReadFile$Stub$Proxy;
+Ltv/upgrade/service/ReadFile$Stub;
+Ltv/upgrade/service/ReadFile;
+Ltv/upgrade/service/ReadFileServer$1;
+Ltv/upgrade/service/ReadFileServer$ReadFileBinder;
+Ltv/upgrade/service/ReadFileServer;
+Ltv/upgrade/service/ResetService$1;
+Ltv/upgrade/service/ResetService;
+Ltv/upgrade/service/XmlInfo;
+MCSP_ZteMcspCfgManager
+MD5
+MSG_CONNECT_NETWORK
+MSG_CONNECT_WIFI
+MSG_FILE_DOWNLOADED
+MSG_FILE_DOWNLOADED_SINGLE
+MSG_FILE_REDOWNLOAD
+MSG_FILE_REDOWNLOAD_SINGLE
+MSG_INSTALL_RESULT
+MainActivity
+MainActivity.java
+Manifest.java
+MarketCode_OperatorCode
+MessageObj
+MyX509TrustManager.java
+Network is connected
+Network is not connected
+NetworkInfo is null; network is not connected
+NetworkInfo: 
+Null
+OTTVersionServer
+PACKAGENAME
+PATH_SAVE
+PATH_SAVE_SINGLE
+PATH_XML_FILE_CUR
+PATH_XML_FILE_OLD
+PSK_MIN_LENGTH
+PackageName
+Pltm_option
+PowerService onCreate
+ProductBufToCof
+ProductCfgReset
+ProductCfgReset() 
+ProductCofToBuf
+Proxy
+R.java
+READ_ONLY
+ReadFile.java
+ReadFileBinder
+ReadFileServer
+ReadFileServer.java
+ReadIntegerFromCfgmanager
+ReadStrFromCfgmanager
+RegisterConfigChangleListener
+ResetButon
+ResetService
+ResetService.java
+Ret
+SECURE_CONNECTION
+SETTING_DEFAULT
+SETTING_FILE_PATH
+SSID
+SSL
+SaveConfigtoFlash
+SetIntToCfgmanager
+SetStrToCfgmanager
+SettingsName
+Stub
+TAG
+TIME_DELAYED
+TIME_LONG_DELAYED
+TRANSACTION_ProductBufToCof
+TRANSACTION_ProductCfgReset
+TRANSACTION_ProductCofToBuf
+TRANSACTION_cfgDownloadToFS
+TRANSACTION_cfgToFlash
+TRANSACTION_cfgUpdateFromFS
+TRANSACTION_getConfig
+TRANSACTION_getConfig_distinguishNullCfg
+TRANSACTION_getFileName
+TRANSACTION_getProductCfgList
+TRANSACTION_isProductCfg
+TRANSACTION_productCfgClearAll
+TRANSACTION_productCfgRegisterKey
+TRANSACTION_productCfgUnRegisterKey
+TRANSACTION_readLogFile
+TRANSACTION_setConfig
+ThailandAIS
+TrustAnyHostnameVerifier
+UPDATE_URL
+UPDATE_URL_SINGLE
+UTF-8
+UnRegisterConfigChangleListener
+UpdateConfigFromFs
+V
+VF
+VI
+VIF
+VIZ
+VJ
+VL
+VLII
+VLILLL
+VLILLLLL
+VLL
+VLLL
+VLLLI
+VLLLIL
+VLLLL
+VLLLLI
+VZ
+VersionServer
+Viettel
+Viettel_OTT
+WIFIpassword
+WIFIssid
+XML_FILE_NAME
+XML_FILE_NAME_OLD
+XmlInfo.java
+XtsAuto
+Z
+ZILLI
+ZL
+ZLJ
+ZLL
+ZLLI
+ZLLL
+ZLLLL
+ZLZ
+ZZ
+ZteCfgService
+ZteCfgService,mContext != null
+ZteCfgService...
+ZteCfgService.java
+ZteCfgService_Connected
+ZteMcspCfgManager.java
+[0-9A-Fa-f]{64}
+[AppUpgradeService]
+[AppUpgradeService] fileName: 
+[AppUpgradeService]<checkApkIsInstalled> false
+[AppUpgradeService]<checkApkIsInstalled> packageName = 
+[AppUpgradeService]<checkApkIsInstalled> true
+[AppUpgradeService]<cleanClose> FileInputStream Exception = 
+[AppUpgradeService]<cleanClose> FileOutputStream Exception = 
+[AppUpgradeService]<cleanClose> InputStream Exception = 
+[AppUpgradeService]<cleanClose> OutputStream Exception = 
+[AppUpgradeService]<createFile> 
+[AppUpgradeService]<createFile> Exception = 
+[AppUpgradeService]<createFile> saveDir not exist, create it!
+[AppUpgradeService]<createFile> saveFile not exist, create it!
+[AppUpgradeService]<createInstaller> onFinished: success = 
+[AppUpgradeService]<createInstaller> onProgressChanged: progress 
+[AppUpgradeService]<downLoad> 
+[AppUpgradeService]<downLoad> Exception = 
+[AppUpgradeService]<downLoad> close
+[AppUpgradeService]<downLoad> getResponseCode = 
+[AppUpgradeService]<downLoad> retry has 3 times, meybe network is error!
+[AppUpgradeService]<downLoad> save_path = 
+[AppUpgradeService]<downLoad> start save file
+[AppUpgradeService]<downLoad> time = 
+[AppUpgradeService]<downLoad> url_path = 
+[AppUpgradeService]<downLoadFromHttps> getResponseCode = 
+[AppUpgradeService]<executeAction> ACTION_DELETE
+[AppUpgradeService]<executeAction> ACTION_DELETE, 
+[AppUpgradeService]<executeAction> ACTION_FALLBACK
+[AppUpgradeService]<executeAction> ACTION_FALLBACK, 
+[AppUpgradeService]<executeAction> ACTION_UPDATE
+[AppUpgradeService]<executeAction> ACTION_UPDATE, may has been upgraded, skip!
+[AppUpgradeService]<executeAction> action = 
+[AppUpgradeService]<executeAction> fileName = 
+[AppUpgradeService]<executeAction> packageName = 
+[AppUpgradeService]<executeAction> versionCode = 
+[AppUpgradeService]<executeAction> xmlMd5 = 
+[AppUpgradeService]<executeAction> xmlVersioncode = 
+[AppUpgradeService]<getInstalledApkVersionCode> 
+[AppUpgradeService]<getInstalledApkVersionCode> Exception = 
+[AppUpgradeService]<getInstalledApkVersionCode> apk is not exist
+[AppUpgradeService]<getInstalledApkVersionCode> versionCode = 
+[AppUpgradeService]<handleMessage> 
+[AppUpgradeService]<handleMessage> MSG_CONNECT_NETWORK isNetworkConnected
+[AppUpgradeService]<handleMessage> MSG_CONNECT_WIFI
+[AppUpgradeService]<handleMessage> MSG_CONNECT_WIFI not Connected
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, Exception = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, apk file is downloaded, start install!
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, apkPath = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, fileMd5 = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, getFileMD5 Start
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, md5 not match, skip!
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, msg_fileName = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, msg_md5 = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, msg_packageName = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED, rule file is downloaded, start resolve!
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, Exception = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, apk file is downloaded, start install!
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, apkPath = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, fileMd5 = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, md5 not match, deleteSingleFile! apkPath =
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, md5 not match, skip!
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, msg_fileName = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, msg_md5 = 
+[AppUpgradeService]<handleMessage> MSG_FILE_DOWNLOADED_SINGLE, msg_packageName = 
+[AppUpgradeService]<handleMessage> MSG_FILE_REDOWNLOAD, msg_fileName = 
+[AppUpgradeService]<handleMessage> MSG_FILE_REDOWNLOAD, msg_packageName = 
+[AppUpgradeService]<handleMessage> MSG_FILE_REDOWNLOAD, msg_retryTime = 
+[AppUpgradeService]<handleMessage> WIFI name: 
+[AppUpgradeService]<handleMessage> detect result to installed
+[AppUpgradeService]<handleMessage> install successfully, retryCount: 
+[AppUpgradeService]<installApkSilence> Exception = 
+[AppUpgradeService]<installApkSilence> create session id = 
+[AppUpgradeService]<installApkSilence> filePath = 
+[AppUpgradeService]<installApkSilence> pkgName = 
+[AppUpgradeService]<isNetworkConnected> 
+[AppUpgradeService]<isNetworkConnected> false
+[AppUpgradeService]<isOldXmlFileExist> Exception = 
+[AppUpgradeService]<isOldXmlFileExist> absoluteFile = 
+[AppUpgradeService]<isOldXmlFileExist> file not exist!
+[AppUpgradeService]<isVersionNewer> isOldXmlFileExist = 
+[AppUpgradeService]<isVersionNewer> new_version = 
+[AppUpgradeService]<isVersionNewer> no new version, stop Upgdate!
+[AppUpgradeService]<isVersionNewer> old_version = 
+[AppUpgradeService]<onBind> 
+[AppUpgradeService]<onCreate> AppUpgradeService
+[AppUpgradeService]<onCreate> add IntentFilter com.zte.APPUP_SINGLE_INSTALL
+[AppUpgradeService]<onCreate> get mZteMcspCfgManager
+[AppUpgradeService]<onDestroy> 
+[AppUpgradeService]<onReceive> 
+[AppUpgradeService]<onReceive> singleInstallReceiver ,
+[AppUpgradeService]<onStartCommand> start update-apk service
+[AppUpgradeService]<readXmlByPull> Exception = 
+[AppUpgradeService]<readXmlByPull_apkInfo> xmlFilePath = 
+[AppUpgradeService]<readXmlByPull_xmlInfo> Exception = 
+[AppUpgradeService]<readXmlByPull_xmlInfo> START_TAG
+[AppUpgradeService]<readXmlByPull_xmlInfo> xmlFilePath = 
+[AppUpgradeService]<renameFile> newPath = 
+[AppUpgradeService]<renameFile> oldPath = 
+[AppUpgradeService]<resolveRuleXml> 
+[AppUpgradeService]<resolveRuleXml> model not match, stop Upgdate!
+[AppUpgradeService]<resolveRuleXml> new_model = 
+[AppUpgradeService]<resolveRuleXml> no new version, stop Upgdate!
+[AppUpgradeService]<startUpdate> 
+[AppUpgradeService]<startUpdate> Exception = 
+[AppUpgradeService]<startUpdate> TIME_DELAYED start
+[AppUpgradeService]<startUpdate> UPDATE_URL = 
+[AppUpgradeService]<startUpdate> add updateAPK/
+[AppUpgradeService]<startUpdate> add updateSingleAPK/
+[AppUpgradeService]<startUpdate> error update path, stop update!
+[AppUpgradeService]<startUpdate> lastString = 
+[AppUpgradeService]<startUpdate> mLogcatWrite Exception = 
+[AppUpgradeService]<startUpdate>DefaultPlatform=
+[AppUpgradeService]<startUpdateSingle> 
+[AppUpgradeService]<startUpdateSingle> Exception = 
+[AppUpgradeService]<startUpdateSingle> UPDATE_URL_SINGLE = 
+[AppUpgradeService]<startUpdateSingle> lastString = 
+[AppUpgradeService]<startUpdateSingle>DefaultPlatform=
+[AppUpgradeService]<switchApkInfo> 
+[AppUpgradeService]<switchApkInfo> Exception = 
+[AppUpgradeService]<uninstallApkSilent> Exception = 
+[AppUpgradeService]<uninstallApkSilent> packName = 
+[AppUpgradeService]deleteSingleFile  flie error false
+[AppUpgradeService]deleteSingleFile false
+[AppUpgradeService]deleteSingleFile success
+[B
+[BootReceiver]
+[BootReceiver]<onReceive> Exception = 
+[BootReceiver]<onReceive> action = 
+[BootReceiver]<onReceive> start AppUpgradeService !!!
+[BootReceiver]<onReceive> startSignal: 
+[BootReceiver]<startUpdate> Exception = 
+[C
+[InstallResultReceiver]
+[InstallResultReceiver] netmanager service restart success
+[InstallResultReceiver] packageName: 
+[InstallResultReceiver]<InstallResultReceiver> Exception = 
+[InstallResultReceiver]InstallResultReceiver, deleteSingleFile! filePathName =
+[InstallResultReceiver]deleteSingleFile  flie error false
+[InstallResultReceiver]deleteSingleFile false
+[InstallResultReceiver]deleteSingleFile success
+[Landroid/net/Network;
+[Ljava/io/File;
+[Ljava/lang/String;
+[Ljava/security/cert/X509Certificate;
+[Ljavax/net/ssl/KeyManager;
+[Ljavax/net/ssl/TrustManager;
+[LogcatWrite]
+[LogcatWrite]can not create new log file
+[LogcatWrite]can not watch log, the log dir can not be created
+[LogcatWrite]create new log file failed
+[LogcatWrite]create new save dir failed
+[LogcatWrite]delete, Exception = 
+[LogcatWrite]filePath: 
+[LogcatWrite]log file save path >>> 
+[LogcatWrite]saveFile: 
+[ReadFileServer]
+[ReadFileServer]<onBind> 
+[ReadFileServer]fileName: 
+[ReadFileServer]filePath: 
+[ReadIntegerFromCfgmanager]:section = 
+[ReadStrFromCfgmanager]:e = NumberFormatexception 
+[ReadStrFromCfgmanager]:ret = 
+[ReadStrFromCfgmanager]:section = 
+[ReadStrFromCfgmanager]:str = 
+[RegisterConfigChangleListener] RegisterConfigChangleListener failed!
+[SaveConfigtoFlash] Call SaveConfigtoFlash
+[SaveConfigtoFlash] Call SaveConfigtoFlash ----   iRet = 
+[SaveConfigtoFlash] SaveConfigtoFlash failed!
+[SetIntToCfgmanager]:ret = 
+[SetIntToCfgmanager]:section = 
+[SetIntToCfgmanager]:str = 
+[SetStrToCfgmanager]:ret = 
+[SetStrToCfgmanager]:section = 
+[SetupConfigSync]
+[ZteMcspCfgManager]
+[ZteMcspCfgManager][RegisterConfigChangleListener] failed return, exception:
+[ZteMcspCfgManager][UnRegisterConfigChangleListener] failed return, exception:
+[ZteMcspCfgManager][sProductSeparate] failed return, exception:
+[isProductSeparate] failed return, exception:
+]
+_arg0
+_arg0_length
+_arg1
+_arg2
+_data
+_old.log
+_reply
+_result
+_status
+absoluteFile
+access$000
+access$002
+access$020
+access$100
+access$1000
+access$1002
+access$1012
+access$102
+access$1100
+access$1200
+access$1300
+access$1400
+access$1402
+access$1500
+access$1600
+access$1700
+access$1800
+access$1900
+access$200
+access$2000
+access$2100
+access$2102
+access$2200
+access$2202
+access$2300
+access$2400
+access$2500
+access$2600
+access$2700
+access$2800
+access$2802
+access$300
+access$302
+access$400
+access$600
+access$700
+access$800
+access$900
+accessFlags
+accessibilityservice
+action
+active
+add
+addAction
+addFlags
+addNetwork
+allowedKeyManagement
+android
+android.content.pm.extra.STATUS
+android.content.pm.extra.STATUS_MESSAGE
+android.intent.action.BOOT_COMPLETED
+android.intent.action.FACTORY_RESET
+android.intent.action.MEDIA_SCANNER_SCAN_FILE
+android.intent.action.ZteCfgService_Connected
+android.intent.extra.REASON
+android.net.conn.CONNECTIVITY_CHANGE
+apk
+apkInfoList
+apkInfos
+apkPath
+apkUpdateInfo.xml
+apkUpdateInfo_old.xml
+app_label
+append
+arg0
+asBinder
+asInterface
+attachInterface
+attr
+authType
+autoTest
+autoUpdateUrl
+b
+beginIntent
+bindService
+bindService failed,isProductSeparate=
+bindService ok,isProductSeparate =
+buf
+buffer
+byte0
+c
+cfgDownloadToFS
+cfgToFlash
+cfgUpdateFromFS
+ch
+chain
+checkApkIsInstalled
+checkClientTrusted
+checkServerTrusted
+checkServerTrusted: AuthType is empty
+checkServerTrusted: AuthType is null
+checkServerTrusted: X509Certificate is empty
+checkServerTrusted:x509Certificate array is null
+checkValidity
+cleanClose
+close
+close mLogcatWrite
+closeLogcatRunnable
+closeLogcatRunnable: 
+code
+com.zte.APPUP_DOWNLOAD_BEGIN
+com.zte.APPUP_DOWNLOAD_FAILED
+com.zte.APPUP_INSTALL_BEGIN
+com.zte.APPUP_INSTALL_FINISH
+com.zte.APPUP_INSTALL_MD5Error
+com.zte.APPUP_SINGLE_INSTALL
+com.zte.android.productcfg
+com.zte.android.productcfg.mcspcfg
+com.zte.android.productcfg.service
+com.zte.netmanager
+commit
+compName
+con
+conHtpps
+config.MarketCode
+config.OperatorCode
+connMan
+connect
+connectivity
+contains
+content://com.ztestb.basecomp.provider/cfginfo/
+context
+convertToQuotedString
+createFile
+createInstaller
+createNewFile
+createNewLogFile
+createRet
+createSession
+createStringArray
+culMD5
+currentApkInfo
+currentConnection
+currentThread
+currentTimeMillis
+cursor
+d
+data
+defaultvalue
+definitions
+delete
+deleteSingleFile
+descriptor
+destroy
+digest
+documentFileDir
+downLoad
+downLoadSingle
+downloadFailedIntent
+downloadIntent
+drawable
+e
+enforceInterface
+equals
+equalsIgnoreCase
+eventType
+exec
+executeAction
+executeCloseSignal
+exists
+fallback
+file
+file2
+fileMd5
+fileName
+fileOutputStream
+filePath
+filePathName
+filename
+filepath
+finishIntent
+flags
+flush
+format
+fraction
+fromFile
+fsync
+get
+getAbsoluteFile
+getAbsolutePath
+getAcceptedIssuers
+getAction
+getActiveNetworkInfo
+getActiveWifiNetworkInfo
+getActivity
+getAllNetworks
+getApplicationContext
+getApplicationInfo
+getAttributeValue
+getBooleanExtra
+getBroadcast
+getChannel
+getColumnIndex
+getConfig
+getConfig isProductCfg is false
+getConfig isProductCfg is true
+getConfig isProductSeparate=true
+getConfig section=
+getConfig_distinguishNullCfg
+getConfig_distinguishNullCfg mcspcfgService =null
+getConnectionInfo
+getContentResolver
+getCount
+getCurrentTimeStr
+getDefault
+getDefaultValue
+getEventType
+getExternalFilesDir
+getExternalStorageState
+getExtras
+getFileMD5
+getFileName
+getFilesDir
+getInputStream
+getInstalledApkVersionCode
+getInstance
+getIntExtra
+getIntentSender
+getInterfaceDescriptor
+getLooper
+getMd5
+getMessage
+getMiddleWareConfig
+getMiddleWareConfig section=
+getModel
+getName
+getNetworkInfo
+getNumber
+getPackageInfo
+getPackageInstaller
+getPackageManager
+getPackageName
+getPath
+getProductCfgList
+getProductConfig
+getProductConfig section=
+getResponseCode
+getRuntime
+getSSID
+getSocketFactory
+getString
+getStringExtra
+getSystemService
+getType
+getVersion
+getVersioncode
+get_file
+handleMessage
+handler_thread
+hasNext
+hashCode
+hexDigits
+hostname
+https
+i
+iRet
+ic_mag_search_widget_holo
+ic_settings_dock
+id
+iin
+in
+inStream
+indexOf
+info
+init
+initHandlerThraed
+installApkSilence
+installFlags
+installSignal
+installSingleApkSilence
+installfilter
+instance
+intValue
+intent
+is
+isAnyNetworkConnect
+isAvailable
+isConnected
+isConnectedReceiver
+isEmpty
+isFile
+isNetworkConnected
+isOldXmlFileExist
+isProductCfg
+isProductCfg begin
+isProductCfg section=
+isProductSeparate
+isVersionNewer
+iterator
+k
+key
+lastString
+layout
+length
+listFiles
+logDirName
+logFile
+logFileName
+logSaveDir
+logcat
+logcat -c
+logcat -v time *:V -f 
+logcatCloseSignal
+logcat_
+long_new
+long_old
+loop
+mApkInfo
+mApkInfoList
+mConnectivityManager
+mContext
+mFileName
+mHandler
+mHandlerThread
+mInputStream
+mIntent
+mLogcatFile
+mLogcatProcess
+mLogcatWrite
+mMd5
+mMessageObj
+mNetworkInfo
+mOStream
+mPackName
+mPackageInfo
+mPackageInstaller
+mPackageName
+mPkgSession
+mProductCfgReset() ret =
+mRandom
+mRemote
+mRetryTime
+mSubThreadHandler
+mSubThreadHandler handleMessage thread:
+mWifiConfiguration
+mWifiManager
+mXmlInfo
+mZteMcspCfgManager
+magnifying_glass
+main_activity
+map
+matches
+mcfilter
+mcspcfg.java
+mcspcfgService
+mcspcfgService.ProductCfgReset() mcspcfgService =null
+mcspcfgService.ProductCfgReset() ret =
+mcspcfgService.cfgToFlash ret =
+mcspcfgService.getConfig ret =
+mcspcfgService.getConfig_distinguishNullCfg ret =
+mcspcfgService.isProductCfg ret =
+mcspcfgService.productCfgRegisterKey failed=
+mcspcfgService.productCfgRegisterKey ret =
+mcspcfgService.productCfgRegisterKey ret_1   mcspcfgService =null
+mcspcfgService.productCfgRegisterKey ret_1 =
+mcspcfgService.productCfgUnRegisterKey mcspcfgService =null
+mcspcfgService.productCfgUnRegisterKey ret =
+md
+md5
+md5ErrorIntent
+mkdirs
+model
+mounted
+moveToNext
+msg
+msg_fileName
+msg_md5
+msg_packageName
+msg_retryTime
+name
+netInfo
+network
+networkInfo
+networks
+newFile
+newPath
+newPullParser
+new_XmlInfo
+new_model
+new_version
+next
+nextInt
+nextText
+nothing
+notifySystemToScan
+null
+number
+obj
+obtain
+oldFile
+oldPath
+old_XmlInfo
+old_version
+onActiveChanged
+onBadgingChanged
+onBind
+onCreate
+onCreated
+onDestroy
+onFinished
+onProgressChanged
+onReceive
+onResume
+onServiceConnected
+onServiceConnected 
+onServiceDisconnected
+onServiceDisconnected 
+onStartCommand
+onStop
+onTransact
+openConnection
+openSession
+openWrite
+out
+packName
+packageInstaller
+packageManager
+packageName
+packagename
+parse
+parseInt
+parseLong
+parser
+password too small
+pendingIntent
+permission
+pkgName
+pm
+postDelayed
+preSharedKey
+printStackTrace
+process
+productCfgClearAll
+productCfgRegisterKey
+productCfgRegisterKey section=
+productCfgUnRegisterKey
+progress
+put
+putExtra
+putString
+qcs
+query
+query failed, can not query anything!
+query result==> [
+queryLocalInterface
+quit
+raw
+read
+readByteArray
+readException
+readInt
+readLogFile
+readString
+readXmlByPull_apkInfo
+readXmlByPull_xmlInfo
+recycle
+registerReceiver
+registerSessionCallback
+remote
+removeCallbacksAndMessages
+renameFile
+renameTo
+reply
+resetIntent
+resolveRuleXml
+ret
+retValue
+retryCount
+retryMax
+retrySetGlobalSettings
+retryTime
+ro.product.model
+run
+s
+sLogDirPath
+saveDir
+saveFile
+save_path
+savedInstanceState
+sdf
+section
+sendBroadcast
+sendMessageDelayed
+sender
+sentWIFI
+separator
+service
+serviceConnection
+session
+sessionId
+sessionParams
+set
+setAction
+setComponent
+setConfig
+setConfig isProductCfg is false
+setConfig isProductCfg is true
+setConfig isProductSeparate=false,getMiddleWareConfig
+setConfig isProductSeparate=false,setMiddleWareConfig
+setConfig isProductSeparate=true
+setConfig section=
+setConnectTimeout
+setData
+setDoInput
+setFileName
+setFlags
+setHostnameVerifier
+setInput
+setMd5
+setMiddleWareConfig
+setMiddleWareConfig section=
+setMiddleWareConfig update ret=
+setModel
+setNumber
+setPackage
+setPackageName
+setProductConfig
+setProductConfig ret=
+setProductConfig section=
+setReadTimeout
+setRequestMethod
+setRequestProperty
+setSSLSocketFactory
+setSecureConnection
+setStagingProgress
+setVersion
+setVersioncode
+setWifiEnabled
+settingsAutoTestFilePath
+settingsAutoTestValue
+settingsDefaultValue
+singleInstallReceiver
+sizeBytes
+sleep
+split
+ssf
+sslContext
+stContext
+start
+startActivity
+startAppUpgrade
+startId
+startService
+startSignal
+startUpdate
+startUpdateSingle
+startWatch
+startsWith
+status
+stopWatch
+str
+string
+substring
+success
+switchApkInfo
+systemUpdateUrl
+textView1
+this
+this$0
+this$1
+time
+tm
+tmp
+tmpName
+tmpSection
+tmpValue
+toString
+transact
+trim
+tv.upgrade.service
+tv.upgrade.service.ReadFile
+uninstall
+uninstallApkSilent
+unregisterReceiver
+update
+updateAPK/
+updateSingleAPK/
+uri
+url
+url_path
+val$context
+val$fileName
+val$intent
+val$md5
+val$msg_fileName
+val$msg_md5
+val$msg_packageName
+val$msg_retryTime
+val$packageName
+val$save_path
+val$time
+val$url_path
+value
+valueCustomization
+values
+verify
+version
+versionCode
+versioncode
+what
+wifi
+write
+writeByteArray
+writeInt
+writeInterfaceToken
+writeNoException
+writeString
+writeStringArray
+x0
+x1
+x2
+x3
+x4
+xml
+xmlFilePath
+xmlMd5
+xmlModel
+xmlVersioncode
+xmlversion
+yyyy-MM-dd_HH-mm-ss
+ztecfgservice

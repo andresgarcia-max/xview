@@ -12,3 +12,13 @@ autorun.inf
 bootmgr
 bootmgr.efi
 setup.exe
+
+# Herramientas portátiles descargadas (JADX + OpenJDK JRE) y librerías SDK genéricas
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/tools/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/resources/res/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/androidx/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/android/support/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/kotlin/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/kotlinx/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/google/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/android/settingslib/

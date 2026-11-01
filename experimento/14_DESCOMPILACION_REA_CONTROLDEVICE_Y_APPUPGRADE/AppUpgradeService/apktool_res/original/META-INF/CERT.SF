@@ -1,0 +1,35 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA-256-Digest-Manifest: QN7yP0qeziXk8ZY6hOeT8R3m00E6gcYfEDtAVYD066o=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: Aoncdzrc04aikkb+7KmAoVP+l07QEnmkbxlQKSKo1JI=
+
+Name: META-INF/com/android/otacert
+SHA-256-Digest: pOVGRVil3/edzOhPvw9pXPhW3ZtZz14sp9vD97zwomM=
+
+Name: classes.dex
+SHA-256-Digest: bF6IxPk6v9PzMhZpT/zDbmXzhg25BT9liTXI5tYznFs=
+
+Name: res/drawable-xhdpi-v4/ic_mag_search_widget_holo.png
+SHA-256-Digest: 3nfkD7nIiOOEJpuSQTHrqbouqLq22Mo9HZh36XzKFrE=
+
+Name: res/drawable-xhdpi-v4/ic_settings_dock.png
+SHA-256-Digest: FS9DzNLhKEewleLjySVecgm6L3/6f0C8UKmDeqUMuFc=
+
+Name: res/drawable-xhdpi-v4/magnifying_glass.png
+SHA-256-Digest: 0E48f+cNMbYs24JEDwahlGqwfj4YOibHeQJrfx6CNLg=
+
+Name: res/layout/main_activity.xml
+SHA-256-Digest: jXIFbW3KNS/9aW/iYVARS4qGchSloDmb9x2beRpBywU=
+
+Name: res/raw/definitions
+SHA-256-Digest: SNrIh42wY+tgGzACgsqEOm5nuZKLC35fDOG9lcL8ZjI=
+
+Name: res/xml/accessibilityservice.xml
+SHA-256-Digest: ragzqT5aTXBLo4qpOoTr8IZiHKKuKm170Yg76U/AfZw=
+
+Name: resources.arsc
+SHA-256-Digest: EMPU5D9aREi01JGSqgRvpOgmoZseI3tLsnvQoWCiKBY=
+
