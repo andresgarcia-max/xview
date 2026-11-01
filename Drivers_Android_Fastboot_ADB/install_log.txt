@@ -1,0 +1,22 @@
+=== 1. Installing Google Android WinUSB Driver (ADB / Fastboot / Recovery) === 
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  android_winusb.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem38.inf
+Paquete de controladores instalado en el dispositivo: USB\VID_18D1&PID_4EE7\Z41220090388172
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  1
+=== 2. Installing Amlogic WorldCup Certificate and Driver === 
+CertMgr Succeeded
+CertMgr Succeeded
+Utilidad PnP de Microsoft
+
+Agregando paquete de controladores:  WorldCup_Device.inf
+El paquete de controladores se agregó correctamente.
+Nombre publicado:         oem39.inf
+
+Paquetes de controladores totales:  1
+Paquetes de controladores agregados:  1
+=== DONE === 

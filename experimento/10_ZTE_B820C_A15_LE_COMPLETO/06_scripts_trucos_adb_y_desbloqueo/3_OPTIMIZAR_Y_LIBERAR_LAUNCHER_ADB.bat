@@ -16,6 +16,9 @@ set /p TARGET_IP="Ingresa la IP del decodificador (o presiona ENTER si esta por 
 if not "%TARGET_IP%"=="" (
     echo Conectando a %TARGET_IP%:5555...
     "%ADB%" connect %TARGET_IP%:5555
+    set "ADB_TARGET=-s %TARGET_IP%:5555"
+) else (
+    set "ADB_TARGET="
 )
 
 echo.
@@ -24,37 +27,49 @@ echo [1] Dispositivos ADB detectados:
 
 echo.
 echo [2] Extrayendo informacion de modelo, SoC y firmware actual...
-"%ADB%" shell "getprop ro.product.model; getprop ro.build.description; getprop ro.build.fingerprint; getprop ro.hardware"
+"%ADB%" %ADB_TARGET% shell "getprop ro.product.model; getprop ro.build.description; getprop ro.build.fingerprint; getprop ro.hardware"
 
 echo.
 echo [3] Listando paquetes del operador (ZTE / Mirada / izzi / Xview)...
-"%ADB%" shell "pm list packages | grep -iE 'zte|mirada|izzi|nagra|xview|droidlogic'"
+"%ADB%" %ADB_TARGET% shell "pm list packages | grep -iE 'zte|mirada|izzi|nagra|xview|droidlogic|upgrade'"
 
 echo.
-echo [4] Deshabilitando telemetria y agentes de bloqueo de launcher ZTE/Operador...
+echo [4] Deshabilitando telemetria, actualizaciones ZTE y agentes de bloqueo de launcher...
 for %%K in (
-    com.ztestb.uploaddiagno
-    com.ztestb.LauncherCustomize
+    tv.upgrade.service
     com.zte.tv.act
+    com.ztestb.uploaddiagno
+    com.zte.factorytesttool
+    com.ztestb.LauncherCustomize
     com.zte.android.productcfg
+    com.zte.ums.oes
+    com.zte.ota
+    com.dotscreen.megacable.atv
     tv.mirada.iris
     com.mirada.iris
 ) do (
     echo    -> Desactivando %%K ^(si existe^)...
-    "%ADB%" shell pm disable-user --user 0 %%K 2>nul
+    "%ADB%" %ADB_TARGET% shell "am force-stop %%K; pm disable-user --user 0 %%K" 2>nul
 )
 
 echo.
-echo [5] Habilitando instalacion de fuentes desconocidas y optimizando HDMI/UI...
-"%ADB%" shell settings put global install_non_market_apps 1
-"%ADB%" shell settings put global adb_enabled 1
-"%ADB%" shell settings put global window_animation_scale 0.5
-"%ADB%" shell settings put global transition_animation_scale 0.5
-"%ADB%" shell settings put global animator_duration_scale 0.5
-"%ADB%" shell settings put system key_hdmi_selfadaption 1
+echo [5] Quitando el banner "No se pudo instalar la actualizacion del sistema"...
+"%ADB%" %ADB_TARGET% shell "settings put global ota_disable_automatic_update 1" 2>nul
+"%ADB%" %ADB_TARGET% shell "cmd notification snooze --for 315360000000 '0|com.google.android.gms|1|com.google.android.gms.update.control.NotificationControl|10049'" 2>nul
+"%ADB%" %ADB_TARGET% shell "cmd appops set com.google.android.gms POST_NOTIFICATION ignore" 2>nul
+"%ADB%" %ADB_TARGET% shell "am force-stop com.google.android.gms" 2>nul
+
+echo.
+echo [6] Habilitando instalacion de fuentes desconocidas y optimizando HDMI/UI...
+"%ADB%" %ADB_TARGET% shell settings put global install_non_market_apps 1
+"%ADB%" %ADB_TARGET% shell settings put global adb_enabled 1
+"%ADB%" %ADB_TARGET% shell settings put global window_animation_scale 0.5
+"%ADB%" %ADB_TARGET% shell settings put global transition_animation_scale 0.5
+"%ADB%" %ADB_TARGET% shell settings put global animator_duration_scale 0.5
+"%ADB%" %ADB_TARGET% shell settings put system key_hdmi_selfadaption 1
 
 echo.
 echo ============================================================================
-echo [OK] Optimizacion y desactivacion de bloatware completada.
+echo [OK] Optimizacion, eliminacion de banner OTA y desactivacion de bloatware lista.
 echo ============================================================================
 pause

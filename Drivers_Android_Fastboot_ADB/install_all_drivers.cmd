@@ -1,0 +1,9 @@
+@echo off
+echo === 1. Installing Google Android WinUSB Driver (ADB / Fastboot / Recovery) === > c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt
+pnputil /add-driver c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\android_winusb.inf /install >> c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt 2>&1
+
+echo === 2. Installing Amlogic WorldCup Certificate and Driver === >> c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt
+c:\Users\CORSAIR\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\02_repositorios_github_y_herramientas\ewwink__driver-usb-vcom-stb-b860h-760h-amlogic-mediatek\certmgr.exe -add c:\Users\CORSAIR\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\02_repositorios_github_y_herramientas\ewwink__driver-usb-vcom-stb-b860h-760h-amlogic-mediatek\amilogic_usb_drivers\libusb-win32.cer -s -r localMachine ROOT >> c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt 2>&1
+c:\Users\CORSAIR\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\02_repositorios_github_y_herramientas\ewwink__driver-usb-vcom-stb-b860h-760h-amlogic-mediatek\certmgr.exe -add c:\Users\CORSAIR\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\02_repositorios_github_y_herramientas\ewwink__driver-usb-vcom-stb-b860h-760h-amlogic-mediatek\amilogic_usb_drivers\libusb-win32.cer -s -r localMachine TRUSTEDPUBLISHER >> c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt 2>&1
+pnputil /add-driver c:\Users\CORSAIR\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\02_repositorios_github_y_herramientas\ewwink__driver-usb-vcom-stb-b860h-760h-amlogic-mediatek\amilogic_usb_drivers\WorldCup_Device.inf /install >> c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt 2>&1
+echo === DONE === >> c:\Users\CORSAIR\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt
