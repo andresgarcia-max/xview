@@ -42,14 +42,9 @@ set /p "OPCION=Elige 1, 2 o 3: "
 
 if "%OPCION%"=="2" (
     echo.
-    echo [+] Enviando comando 'adb reboot bootloader' para entrar a Fastboot sin abrir la caja...
+    echo [+] Enviando comando 'adb reboot bootloader' y activando enganche inmediato Anti-Watchdog...
     "%ADB%" %ADB_TARGET% reboot bootloader
-    timeout /t 6 /nobreak >nul
-    echo [+] Verificando conexion Fastboot en el puerto USB 2.0...
-    "%FASTBOOT%" devices
-    echo.
-    echo [+] Iniciando flasheo seguro de Android 12 (sin borrar factory ni cri_data)...
-    call "%FLASH_SEGURO%"
+    call "%FLASH_SEGURO%" --auto
     exit /b 0
 )
 

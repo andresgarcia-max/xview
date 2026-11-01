@@ -98,8 +98,16 @@
      echo -n "boot-recovery" > /dev/block/misc ; sync ; reboot bootloader
      ```
      Así `BL31` mete la placa a Fastboot (`0x7`), pero en `/dev/block/misc` queda grabado `boot-recovery` como red de seguridad: si el Watchdog reinicia la placa, U-Boot lee `boot-recovery` y regresa a la consola root `#` de Recovery en lugar de cargar `bootsys`.
-  2. **En [`FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat`](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat):** Se eliminaron todos los `timeout` y confirmaciones posteriores; el script valida primero los archivos y espera en un bucle rápido `:WAIT_FASTBOOT` que engancha el dispositivo en `< 200 ms`, envía `fastboot getvar version`, `fastboot oem "watchdog off"`, y ejecuta tanto `setenv lock 10100000;save` como `fastboot flashing unlock_critical` y `fastboot flashing unlock`.
+  2. **En [`FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat`](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat):** Se eliminaron todos los `timeout` y confirmaciones posteriores; el script valida primero los archivos y espera en un bucle rápido `:WAIT_FASTBOOT` que engancha el dispositivo en `< 200 ms`, envía `fastboot oem "watchdog off"`, y ejecuta tanto `setenv lock 10100000;save` y `setenv otg_device 1;save` como `fastboot flashing unlock_critical` y `fastboot flashing unlock`.
   3. **Script de retención indefinida [`RETENER_FASTBOOT_ANTI_WATCHDOG.bat`](./experimento/14_MONITOREO_EN_VIVO_SMARTTY/RETENER_FASTBOOT_ANTI_WATCHDOG.bat):** Mantiene la placa estacionada en Fastboot enviando pulsos USB `fastboot getvar version` cada 2 segundos para impedir que el Watchdog expire por inactividad.
+
+### ❌ 1.9. Por qué el menú Recovery en TV oculta `Reboot to bootloader` / `Enter fastboot` y por qué el USB 2.0 viene en modo Host (`otg_device=0`)
+- **Análisis binario REA (`system/bin/recovery` y `system/lib/librecovery_ui_ext.so`):**
+  1. **Bloqueo del menú en TV (`MarketCode 4301` Megacable):** En `system/lib/librecovery_ui_ext.so`, la función `_Z15initMenuActionsv` (`vaddr = 0x33390`) invoca `_Z22checkCustomMenuActions...` (`vaddr = 0x33060`, `fileOff = 0x32060`) para cada una de las 17 opciones del menú Recovery. Cuando `ro.boot.marketcode` es `4301` y `ro.boot.operatorscode` es `5`, devuelve `1` (`true` = ocultar) para `Reboot to bootloader`, `Enter fastboot`, `Apply update from ADB`, `Wipe param partition` y `Mount /system`, pero devuelve `0` (`false` = mostrar) para **`Set USB host`** y **`Set USB device`**.
+  2. **Bloqueo del puerto USB 2.0 OTG (`otg_device=0`):** En `/dev/block/env` de fábrica viene `otg_device=0`, lo que inyecta `otg_device=0` en el `cmdline` de Linux y fuerza al controlador `ff400000.dwc2_a` a `host only` (`USB_otg_enabled = 0`).
+- **Solución permanente aplicada en el kit:**
+  1. **Parche binario en [`recovery.img`](./V2/B866v2%20Android%2012/B866v2%20Android%2012/B866V2/recovery.img) (respaldo original en [`recovery_original_zte.img`](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/recovery_original_zte.img)):** Se parcharon los primeros 4 bytes de `_Z22checkCustomMenuActions...` en `system/lib/librecovery_ui_ext.so` (`fileOff = 0x32060`) cambiando `2d e9 f0 4f` (`PUSH.W {R4-R11, LR}`) por **`00 20 70 47`** (`MOVS R0, #0; BX LR`), con `id` SHA-1 (`77c3b76a53508555acd704b05125e92f26420965`) y descriptor AVB SHA-256 (`8c5f026ab8a411afa3019e54fc8ba49a7de3e66a3ae56f416be753e5788812b5`) actualizados. Ahora el menú de Recovery en la TV muestra siempre todas las opciones (`Reboot to bootloader`, `Enter fastboot`, `Apply update from ADB`, etc.) sin importar el `MarketCode`.
+  2. **Activación permanente de USB OTG en [`FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat`](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat):** Se incluyó `fastboot oem "setenv otg_device 1;save"` para dejar `otg_device=1` grabado permanentemente en la partición `env`.
 
 ---
 
@@ -116,6 +124,12 @@ Para liberar cualquier caja cerrada o meterla en **Fastboot** sin desarmarla:
 1. Con la caja encendida, abrir **Ajustes de Android** (con teclado USB presionando **`Win + I`** o botón de micrófono diciendo **"Abrir Configuración"**).
 2. Ir a **Preferencias del dispositivo $\rightarrow$ Información $\rightarrow$ Compilación** y presionar **7 veces `OK`** para habilitar **Opciones de programador** y activar **Depuración por USB**.
 3. Conectar la caja a la PC por el **puerto USB 2.0** (junto a MicroSD) o por red local Wi-Fi/Ethernet (`5555`) y ejecutar [`LIBERAR_SIN_ABRIR_CAJA.bat`](./LIBERAR_SIN_ABRIR_CAJA.bat).
+
+### ✅ Opción C: Desbloquear el Puerto USB 2.0 desde la Pantalla de Recovery en TV (`Set USB device`) SIN UART TTL
+En `system/bin/recovery` (`vaddr = 0xb55ca..0xb55e4` $\rightarrow$ `0xb78d8`), la opción **`Set USB device`** visible en la pantalla de Recovery de la TV inicializa `/dev/block/env` (`0xb8c2c`) y escribe directamente **`ubootenv.var.otg_device = "1"`** (`0xb8e14`), mostrando `"Set USB Status Success!"`:
+1. Entrar al menú Recovery en la TV (manteniendo presionado el botón físico de Reset `GPIOAO_3` al conectar la corriente).
+2. Seleccionar **`Set USB device`** en la pantalla de la TV y confirmar **`Yes`** en `"Reboot System Now?"`.
+3. A partir de ese momento la caja tiene `otg_device=1` en `/dev/block/env`, habilitando el puerto USB 2.0 (junto a MicroSD) como dispositivo (`ADB` / `Fastboot`) para usar [`LIBERAR_SIN_ABRIR_CAJA.bat`](./LIBERAR_SIN_ABRIR_CAJA.bat) sin soldar ni conectar UART TTL.
 
 ---
 

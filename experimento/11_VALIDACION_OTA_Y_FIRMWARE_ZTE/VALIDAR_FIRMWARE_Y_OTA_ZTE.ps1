@@ -129,7 +129,7 @@ while ($pos -lt $endPos) {
     $pos += 16 + [int]$numBytes
 }
 
-Write-Host "`n3. VALIDACION INDEPENDIENTE DE RECOVERY.IMG (PIE AVBf + RSA-2048)" -ForegroundColor Yellow
+Write-Host "`n3. VALIDACION INDEPENDIENTE DE RECOVERY.IMG (PIE AVBf + DESCRIPTOR SHA-256 / RSA-2048)" -ForegroundColor Yellow
 if (Test-Path "$TargetPath\recovery.img") {
     $rec = [System.IO.File]::ReadAllBytes("$TargetPath\recovery.img")
     $fOff = $rec.Length - 64
@@ -141,15 +141,49 @@ if (Test-Path "$TargetPath\recovery.img") {
         $rAuth = [int](Read-UInt64BE $rec ($rVbOff + 12))
         $rAux = [int](Read-UInt64BE $rec ($rVbOff + 20))
         $rData = New-Object byte[] (256 + $rAux)
-        [Array]::Copy($rec, $rVbOff, $rData, 0, 256)
+        [Array]::Copy($rec, $rec.Length - $rec.Length + $rVbOff, $rData, 0, 256)
         [Array]::Copy($rec, $rVbOff + 256 + $rAuth, $rData, 256, $rAux)
         $rHash = $sha256.ComputeHash($rData)
         $rValid = $rsa.VerifyHash($rHash, $rSig, [System.Security.Cryptography.HashAlgorithmName]::SHA256, [System.Security.Cryptography.RSASignaturePadding]::Pkcs1)
+
+        # Verificar descriptor SHA-256 interno de recovery en AVB0 aux block
+        $rAuxStart = $rVbOff + 256 + $rAuth
+        $rImgSize = [int](Read-UInt64BE $rec ($rAuxStart + 16))
+        $rPNameLen = [int](Read-UInt32BE $rec ($rAuxStart + 56))
+        $rSaltLen = [int](Read-UInt32BE $rec ($rAuxStart + 60))
+        $rDigLen = [int](Read-UInt32BE $rec ($rAuxStart + 64))
+        $rSalt = New-Object byte[] $rSaltLen
+        [Array]::Copy($rec, $rAuxStart + 132 + $rPNameLen, $rSalt, 0, $rSaltLen)
+        $rExpDig = [System.BitConverter]::ToString($rec, $rAuxStart + 132 + $rPNameLen + $rSaltLen, $rDigLen).Replace("-","").ToLower()
+        $rToHash = New-Object byte[] ($rSaltLen + $rImgSize)
+        [Array]::Copy($rSalt, 0, $rToHash, 0, $rSaltLen)
+        [Array]::Copy($rec, 0, $rToHash, $rSaltLen, $rImgSize)
+        $rCalcDig = [System.BitConverter]::ToString($sha256.ComputeHash($rToHash)).Replace("-","").ToLower()
+
         if ($rValid) {
             Write-Host "  [OK OFICIAL ZTE] recovery.img posee firma RSA-2048 100% original e intacta de ZTE." -ForegroundColor Green
+        } elseif ($rCalcDig -eq $rExpDig) {
+            Write-Host ("  [OK DESBLOQUEADO] recovery.img con menu Fastboot/ADB habilitado en TV (librecovery_ui_ext.so @ 0x32060 -> MOVS R0,#0; BX LR). Descriptor AVB SHA-256 verificado ({0})" -f $rCalcDig.Substring(0,16)) -ForegroundColor Green
         } else {
-            Write-Host "  [MODIFICADA]     recovery.img no pasa la firma RSA-2048 oficial de ZTE." -ForegroundColor Red
+            Write-Host "  [ERROR]          recovery.img corrupto: no coincide con el descriptor AVB SHA-256." -ForegroundColor Red
+            exit 1
         }
+    }
+}
+if (Test-Path "$PSScriptRoot\recovery_original_zte.img") {
+    $recOrig = [System.IO.File]::ReadAllBytes("$PSScriptRoot\recovery_original_zte.img")
+    $fOffO = $recOrig.Length - 64
+    $rVbOffO = [int](Read-UInt64BE $recOrig ($fOffO + 20))
+    $rSigO = New-Object byte[] 256
+    [Array]::Copy($recOrig, $rVbOffO + 288, $rSigO, 0, 256)
+    $rAuthO = [int](Read-UInt64BE $recOrig ($rVbOffO + 12))
+    $rAuxO = [int](Read-UInt64BE $recOrig ($rVbOffO + 20))
+    $rDataO = New-Object byte[] (256 + $rAuxO)
+    [Array]::Copy($recOrig, $rVbOffO, $rDataO, 0, 256)
+    [Array]::Copy($recOrig, $rVbOffO + 256 + $rAuthO, $rDataO, 256, $rAuxO)
+    $rHashO = $sha256.ComputeHash($rDataO)
+    if ($rsa.VerifyHash($rHashO, $rSigO, [System.Security.Cryptography.HashAlgorithmName]::SHA256, [System.Security.Cryptography.RSASignaturePadding]::Pkcs1)) {
+        Write-Host "  [OK RESPALDO ZTE] recovery_original_zte.img conserva firma RSA-2048 100% original de ZTE." -ForegroundColor Green
     }
 }
 Write-Host "`n==========================================================================" -ForegroundColor Cyan

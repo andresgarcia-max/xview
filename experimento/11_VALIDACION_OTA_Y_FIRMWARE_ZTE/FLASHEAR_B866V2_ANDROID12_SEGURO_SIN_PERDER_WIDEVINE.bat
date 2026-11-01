@@ -14,28 +14,44 @@ if errorlevel 1 (
 
 echo.
 echo ================================================================================
-echo   PASO 2: PREPARACION DE FLASHEO SEGURO + REPARACION DE PARTICION /CACHE
+echo   PASO 2: PREPARACION DE FLASHEO SEGURO + DESBLOQUEO PERMANENTE OTG Y RECOVERY
 echo ================================================================================
 echo   - Conserva tus particiones 'factory' (Widevine L1 / HDCP) y 'cri_data' (MAC).
+echo   - Desactiva el Hardware Watchdog (~14s) al instante de detectar Fastboot.
+echo   - Habilita permanentemente el puerto USB OTG (setenv otg_device 1;save).
+echo   - Instala recovery.img con menu completo desbloqueado en TV (Fastboot / ADB).
 echo   - Inyecta cache_ext4.img formateada con mke2fs para eliminar el error:
 echo     "E:[libfs_mgr]Failed to mount /cache: Invalid argument"
 echo ================================================================================
 echo.
-set /p CONFIRM="¿Deseas continuar cuando tengas la caja conectada por USB en Fastboot? (S/N): "
-if /I not "%CONFIRM%"=="S" exit /b 0
+if /I not "%~1"=="--auto" (
+    set /p CONFIRM="¿Deseas iniciar la espera activa para atrapar la caja en cuanto entre a Fastboot? (S/N): "
+    if /I not "%CONFIRM%"=="S" exit /b 0
+)
 
 set "SCRIPT_DIR=%~dp0"
-cd /d "c:\Users\CORSAIR\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2"
+cd /d "%~dp0..\..\V2\B866v2 Android 12\B866v2 Android 12\B866V2"
 
-echo [1/12] Detectando dispositivo en Fastboot...
-fastboot devices
-timeout /t 2 /nobreak >nul
+echo.
+echo [1/12] Esperando activamente a que la caja entre en modo Fastboot...
+echo        (Usa 'Set USB device' en Recovery o 'reboot fastboot' por UART/ADB)
+:WAIT_FASTBOOT
+fastboot devices | findstr /r /c:"fastboot" >nul 2>&1
+if errorlevel 1 goto WAIT_FASTBOOT
 
-echo [2/12] Desbloqueando bootloader (lock = 10100000 para aceptar vbmeta Flags=0x03)...
-fastboot oem 'setenv lock 10100000;save
-timeout /t 2 /nobreak >nul
+echo [2/12] Dispositivo detectado! Apagando Watchdog, desbloqueando Bootloader y activando USB OTG...
+fastboot oem "watchdog off"
+fastboot flashing unlock_critical
+fastboot flashing unlock
+fastboot oem "setenv lock 10100000;save"
+fastboot oem "setenv otg_device 1;save"
 fastboot reboot bootloader
-timeout /t 4 /nobreak >nul
+
+echo        Esperando reconexion del bootloader...
+:WAIT_FASTBOOT_2
+fastboot devices | findstr /r /c:"fastboot" >nul 2>&1
+if errorlevel 1 goto WAIT_FASTBOOT_2
+fastboot oem "watchdog off"
 fastboot getvar unlocked
 
 echo [3/12] Flasheando boot.img (100%% Oficial ZTE verificado)...
@@ -61,7 +77,7 @@ fastboot flash super super.img
 echo [9/12] Flasheando vbmeta.img (Flags=0x03 dm-verity desactivado)...
 fastboot flash vbmeta vbmeta.img
 
-echo [10/12] Flasheando recovery.img (100%% Oficial ZTE verificado)...
+echo [10/12] Flasheando recovery.img (Menu Fastboot/ADB desbloqueado en TV para MarketCode 4301)...
 fastboot flash recovery recovery.img
 
 echo [11/12] Reparando particion /cache con superbloque ext4 valido (cache_ext4.img)...
@@ -73,5 +89,6 @@ fastboot erase userdata
 fastboot reboot
 
 echo.
-echo [COMPLETADO] Tu caja Xview B866V2 se reiniciara en Android 12 con /cache reparada.
+echo [COMPLETADO] Tu caja Xview B866V2 se reiniciara en Android 12 con USB OTG (otg_device=1),
+echo              menu completo de Recovery en TV y particion /cache reparada.
 pause
