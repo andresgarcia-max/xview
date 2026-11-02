@@ -1,673 +1,740 @@
-param(
-    [string]$ComPort = "AUTO",
-    [int]$BaudRate = 115200,
-    [switch]$FlashFirmware = $false
-)
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+[System.Windows.Forms.Application]::EnableVisualStyles()
 
 $ErrorActionPreference = "Continue"
-$fwDir = $PSScriptRoot
-$fbExe = Join-Path $fwDir "fastboot.exe"
-$adbExe = Join-Path $fwDir "adb.exe"
-$updExe = Join-Path $fwDir "update.exe"
-$logFile = Join-Path $fwDir "SESION_FASTBOOT_B866V2.log"
+$fwDir       = $PSScriptRoot
+$fbExe       = Join-Path $fwDir "fastboot.exe"
+$adbExe      = Join-Path (Split-Path $fwDir -Parent) "herramientas\platform-tools\adb.exe"
+$updateExe   = Join-Path (Split-Path $fwDir -Parent) "experimento\09_env_unlock\update.exe"
+$envUnlImg   = Join-Path $fwDir "env_unlocked.img"
+$logFile     = Join-Path $fwDir "SESION_FASTBOOT_B866V2.log"
 $summaryFile = Join-Path $fwDir "RESUMEN_PROCESO_B866V2.txt"
 
-$sessionStart = Get-Date
-$modeName = if ($FlashFirmware) { "FLASHEO DE FIRMWARE COMPLETO + FASTBOOT DESBLOQUEADO" } else { "ENTRADA A FASTBOOT + DESBLOQUEO DE BOOTLOADER" }
+# Cerrar cualquier instancia previa de fastboot.exe o MOTOR_FASTBOOT_B866V2.ps1 para evitar colision USB
+try {
+    Get-Process -Name "fastboot" -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    $myPid = $PID
+    $myProc = Get-CimInstance Win32_Process -Filter "ProcessId = $myPid" -ErrorAction SilentlyContinue
+    $parentPid = if ($myProc) { $myProc.ParentProcessId } else { 0 }
+    Get-CimInstance Win32_Process -Filter "Name LIKE 'powershell%'" -ErrorAction SilentlyContinue | Where-Object {
+        $_.ProcessId -ne $myPid -and $_.ProcessId -ne $parentPid -and $_.CommandLine -match "MOTOR_FASTBOOT_B866V2"
+    } | ForEach-Object {
+        Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue
+    }
+} catch {}
 
-$script:Steps = New-Object System.Collections.Generic.List[PSObject]
-$script:PartitionResults = New-Object System.Collections.Generic.List[PSObject]
-$script:OverallStatus = "EN PROGRESO"
-$script:OverallSuccess = $false
-$script:FailureReason = "Ninguno"
-$script:DetectedInfo = [ordered]@{
-    ModoOperacion      = $modeName
-    PuertoUART         = "No conectado"
-    ViaEntrada         = "Pendiente"
-    IdDispositivoUSB   = "No detectado"
-    VersionUBoot       = "U-Boot 2015.01-g220e992 (Sep 05 2023)"
-    ModeloPlaca        = "ZTE ZXV10 B866V2 (g12a_u212_2g / board_id=8)"
-    EstadoLockInicial  = "Desconocido"
-    EstadoLockFinal    = "Desconocido"
-    EscrituraFastboot  = "No verificada"
-    ParticionesOK      = 0
-    ParticionesError   = 0
+# ==============================================================================
+# ESTADO GLOBAL Y 4 PASOS DIRECTOS (DESDE ENTRADA A FASTBOOT HASTA INYECCION)
+# ==============================================================================
+$script:StartTime        = Get-Date
+$script:CurrentProcess   = "Iniciando monitor USB Fastboot..."
+$script:ProgressValue    = 5
+$script:OverallStatus    = "EN EJECUCION"
+$script:FailureReason    = "Ninguno"
+$script:ActionRequested  = ""
+$script:PartitionResults = New-Object System.Collections.Generic.List[PSCustomObject]
+
+$script:DeviceInfo = [ordered]@{
+    Modelo           = "Megacable Xview+ ZTE ZXV10 B866V2 (board_id=8)"
+    EstadoUSB        = "Buscando conexion USB..."
+    IdSerie          = "Pendiente"
+    VersionUBoot     = "Pendiente"
+    EstadoLock       = "Pendiente"
+    PruebaEscritura  = "Pendiente"
+    ParticionesOK    = 0
+    ParticionesError = 0
 }
 
-function Write-Status([string]$msg, [string]$color = "White") {
-    $ts = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss.fff")
+$script:Steps = [ordered]@{
+    "Paso 1" = [PSCustomObject]@{ Num = 1; Nombre = "1. Entrada a Modo Fastboot (PID_0D02)";      Estado = "PENDIENTE"; Hora = "--:--:--"; Detalle = "Esperando deteccion de la caja en Fastboot (PID_4EE7 / PID_0D02)" }
+    "Paso 2" = [PSCustomObject]@{ Num = 2; Nombre = "2. Desbloqueo de Bootloader (lock)";         Estado = "PENDIENTE"; Hora = "--:--:--"; Detalle = "Pendiente de aplicar lock=10100000 y verificar escritura" }
+    "Paso 3" = [PSCustomObject]@{ Num = 3; Nombre = "3. Inyeccion de Firmware (12 particiones)";  Estado = "PENDIENTE"; Hora = "--:--:--"; Detalle = "Pendiente de inyectar particiones del sistema B866V2" }
+    "Paso 4" = [PSCustomObject]@{ Num = 4; Nombre = "4. Verificacion Final y Resumen";            Estado = "PENDIENTE"; Hora = "--:--:--"; Detalle = "Pendiente de finalizar proceso y generar reporte" }
+}
+
+# ==============================================================================
+# CONSTRUCCION DEL DIALOGO VISUAL EN VIVO (WINDOWS FORMS)
+# ==============================================================================
+$form = New-Object System.Windows.Forms.Form
+$form.Text = "INYECTADOR DE FIRMWARE FASTBOOT - ZTE ZXV10 B866V2 (XVIEW+)"
+$form.Size = New-Object System.Drawing.Size(820, 620)
+$form.StartPosition = "CenterScreen"
+$form.BackColor = [System.Drawing.Color]::FromArgb(20, 24, 33)
+$form.ForeColor = [System.Drawing.Color]::White
+$form.FormBorderStyle = "FixedDialog"
+$form.MaximizeBox = $false
+$form.TopMost = $true
+
+$fontTitle   = New-Object System.Drawing.Font("Segoe UI", 13, [System.Drawing.FontStyle]::Bold)
+$fontProcess = New-Object System.Drawing.Font("Segoe UI", 11, [System.Drawing.FontStyle]::Bold)
+$fontStep    = New-Object System.Drawing.Font("Consolas", 9.5, [System.Drawing.FontStyle]::Bold)
+$fontMono    = New-Object System.Drawing.Font("Consolas", 9, [System.Drawing.FontStyle]::Regular)
+$fontBtn     = New-Object System.Drawing.Font("Segoe UI", 9.5, [System.Drawing.FontStyle]::Bold)
+
+# Cabecera
+$lblHeader = New-Object System.Windows.Forms.Label
+$lblHeader.Text = "PROCESO FASTBOOT DIRECTO (4 PASOS) - ZTE ZXV10 B866V2"
+$lblHeader.Font = $fontTitle
+$lblHeader.ForeColor = [System.Drawing.Color]::FromArgb(86, 196, 255)
+$lblHeader.Location = New-Object System.Drawing.Point(18, 12)
+$lblHeader.Size = New-Object System.Drawing.Size(770, 28)
+$form.Controls.Add($lblHeader)
+
+# Panel de Proceso Actual + Barra de Progreso
+$pnlProc = New-Object System.Windows.Forms.Panel
+$pnlProc.Location = New-Object System.Drawing.Point(18, 45)
+$pnlProc.Size = New-Object System.Drawing.Size(770, 82)
+$pnlProc.BackColor = [System.Drawing.Color]::FromArgb(30, 36, 48)
+$pnlProc.BorderStyle = "FixedSingle"
+$form.Controls.Add($pnlProc)
+
+$lblProcTitle = New-Object System.Windows.Forms.Label
+$lblProcTitle.Text = "PROCESO ACTUAL EN EJECUCION:"
+$lblProcTitle.Font = $fontMono
+$lblProcTitle.ForeColor = [System.Drawing.Color]::FromArgb(170, 180, 195)
+$lblProcTitle.Location = New-Object System.Drawing.Point(12, 8)
+$lblProcTitle.Size = New-Object System.Drawing.Size(350, 18)
+$pnlProc.Controls.Add($lblProcTitle)
+
+$lblCurrentProcess = New-Object System.Windows.Forms.Label
+$lblCurrentProcess.Text = $script:CurrentProcess
+$lblCurrentProcess.Font = $fontProcess
+$lblCurrentProcess.ForeColor = [System.Drawing.Color]::FromArgb(255, 215, 70)
+$lblCurrentProcess.Location = New-Object System.Drawing.Point(12, 27)
+$lblCurrentProcess.Size = New-Object System.Drawing.Size(742, 24)
+$pnlProc.Controls.Add($lblCurrentProcess)
+
+$progBar = New-Object System.Windows.Forms.ProgressBar
+$progBar.Location = New-Object System.Drawing.Point(12, 55)
+$progBar.Size = New-Object System.Drawing.Size(742, 18)
+$progBar.Minimum = 0
+$progBar.Maximum = 100
+$progBar.Value = 5
+$pnlProc.Controls.Add($progBar)
+
+# Panel de Informacion de la Caja en Vivo
+$lblDevInfo = New-Object System.Windows.Forms.Label
+$lblDevInfo.Font = $fontMono
+$lblDevInfo.ForeColor = [System.Drawing.Color]::FromArgb(200, 230, 255)
+$lblDevInfo.BackColor = [System.Drawing.Color]::FromArgb(26, 31, 42)
+$lblDevInfo.BorderStyle = "FixedSingle"
+$lblDevInfo.Location = New-Object System.Drawing.Point(18, 132)
+$lblDevInfo.Size = New-Object System.Drawing.Size(770, 58)
+$lblDevInfo.Padding = New-Object System.Windows.Forms.Padding(8, 4, 8, 4)
+$form.Controls.Add($lblDevInfo)
+
+# Tabla Visual de los 4 Pasos
+$pnlSteps = New-Object System.Windows.Forms.Panel
+$pnlSteps.Location = New-Object System.Drawing.Point(18, 195)
+$pnlSteps.Size = New-Object System.Drawing.Size(770, 148)
+$pnlSteps.BackColor = [System.Drawing.Color]::FromArgb(26, 31, 42)
+$pnlSteps.BorderStyle = "FixedSingle"
+$form.Controls.Add($pnlSteps)
+
+$stepLabels = @{}
+$yPos = 8
+foreach ($k in $script:Steps.Keys) {
+    $lblBadge = New-Object System.Windows.Forms.Label
+    $lblBadge.Font = $fontStep
+    $lblBadge.TextAlign = "MiddleCenter"
+    $lblBadge.Location = New-Object System.Drawing.Point(10, $yPos)
+    $lblBadge.Size = New-Object System.Drawing.Size(110, 28)
+    $lblBadge.BackColor = [System.Drawing.Color]::FromArgb(55, 62, 75)
+    $lblBadge.ForeColor = [System.Drawing.Color]::LightGray
+    $lblBadge.Text = "[PENDIENTE]"
+    $pnlSteps.Controls.Add($lblBadge)
+
+    $lblDesc = New-Object System.Windows.Forms.Label
+    $lblDesc.Font = $fontMono
+    $lblDesc.TextAlign = "MiddleLeft"
+    $lblDesc.Location = New-Object System.Drawing.Point(128, $yPos)
+    $lblDesc.Size = New-Object System.Drawing.Size(632, 28)
+    $lblDesc.ForeColor = [System.Drawing.Color]::White
+    $lblDesc.Text = "$($script:Steps[$k].Nombre) -> $($script:Steps[$k].Detalle)"
+    $pnlSteps.Controls.Add($lblDesc)
+
+    $stepLabels[$k] = @{ Badge = $lblBadge; Desc = $lblDesc }
+    $yPos += 34
+}
+
+# Bitacora en Vivo dentro del Dialogo
+$txtLog = New-Object System.Windows.Forms.TextBox
+$txtLog.Multiline = $true
+$txtLog.ScrollBars = "Vertical"
+$txtLog.ReadOnly = $true
+$txtLog.Font = $fontMono
+$txtLog.BackColor = [System.Drawing.Color]::FromArgb(12, 15, 22)
+$txtLog.ForeColor = [System.Drawing.Color]::FromArgb(190, 240, 200)
+$txtLog.BorderStyle = "FixedSingle"
+$txtLog.Location = New-Object System.Drawing.Point(18, 348)
+$txtLog.Size = New-Object System.Drawing.Size(770, 172)
+$form.Controls.Add($txtLog)
+
+# Botones de Control
+$btnRetry = New-Object System.Windows.Forms.Button
+$btnRetry.Text = "Reintentar Proceso"
+$btnRetry.Font = $fontBtn
+$btnRetry.Location = New-Object System.Drawing.Point(18, 530)
+$btnRetry.Size = New-Object System.Drawing.Size(180, 38)
+$btnRetry.BackColor = [System.Drawing.Color]::FromArgb(40, 110, 180)
+$btnRetry.ForeColor = [System.Drawing.Color]::White
+$btnRetry.FlatStyle = "Flat"
+$btnRetry.Add_Click({ $script:ActionRequested = "RETRY" })
+$form.Controls.Add($btnRetry)
+
+$btnSummary = New-Object System.Windows.Forms.Button
+$btnSummary.Text = "Ver Resumen (.TXT)"
+$btnSummary.Font = $fontBtn
+$btnSummary.Location = New-Object System.Drawing.Point(212, 530)
+$btnSummary.Size = New-Object System.Drawing.Size(180, 38)
+$btnSummary.BackColor = [System.Drawing.Color]::FromArgb(55, 75, 105)
+$btnSummary.ForeColor = [System.Drawing.Color]::White
+$btnSummary.FlatStyle = "Flat"
+$btnSummary.Add_Click({
+    if (Test-Path $summaryFile) { Start-Process "notepad.exe" -ArgumentList $summaryFile }
+})
+$form.Controls.Add($btnSummary)
+
+$btnReboot = New-Object System.Windows.Forms.Button
+$btnReboot.Text = "Reiniciar a Android"
+$btnReboot.Font = $fontBtn
+$btnReboot.Location = New-Object System.Drawing.Point(406, 530)
+$btnReboot.Size = New-Object System.Drawing.Size(180, 38)
+$btnReboot.BackColor = [System.Drawing.Color]::FromArgb(140, 95, 30)
+$btnReboot.ForeColor = [System.Drawing.Color]::White
+$btnReboot.FlatStyle = "Flat"
+$btnReboot.Add_Click({ $script:ActionRequested = "REBOOT" })
+$form.Controls.Add($btnReboot)
+
+$btnExit = New-Object System.Windows.Forms.Button
+$btnExit.Text = "Cerrar Programa"
+$btnExit.Font = $fontBtn
+$btnExit.Location = New-Object System.Drawing.Point(600, 530)
+$btnExit.Size = New-Object System.Drawing.Size(188, 38)
+$btnExit.BackColor = [System.Drawing.Color]::FromArgb(150, 40, 45)
+$btnExit.ForeColor = [System.Drawing.Color]::White
+$btnExit.FlatStyle = "Flat"
+$btnExit.Add_Click({
+    $script:ActionRequested = "EXIT"
+    $form.Close()
+})
+$form.Controls.Add($btnExit)
+
+$form.Add_FormClosing({
+    $script:ActionRequested = "EXIT"
+})
+
+# ==============================================================================
+# FUNCIONES DE ACTUALIZACION DE DIALOGO, BITACORA Y REPORTE .TXT
+# ==============================================================================
+function Update-DialogUI {
+    if ($null -eq $form -or $form.IsDisposed) { return }
+    $lblCurrentProcess.Text = $script:CurrentProcess
+    if ($script:OverallStatus -match "EXITO") {
+        $lblCurrentProcess.ForeColor = [System.Drawing.Color]::FromArgb(80, 240, 130)
+    } elseif ($script:OverallStatus -match "FALLO|BLOQUEADO") {
+        $lblCurrentProcess.ForeColor = [System.Drawing.Color]::FromArgb(255, 105, 105)
+    } else {
+        $lblCurrentProcess.ForeColor = [System.Drawing.Color]::FromArgb(255, 215, 70)
+    }
+
+    $val = [Math]::Max(0, [Math]::Min(100, [int]$script:ProgressValue))
+    $progBar.Value = $val
+
+    $lblDevInfo.Text = "USB: $($script:DeviceInfo.EstadoUSB)  |  SERIE: $($script:DeviceInfo.IdSerie)`r`nU-BOOT: $($script:DeviceInfo.VersionUBoot)  |  LOCK: $($script:DeviceInfo.EstadoLock)  |  ESCRITURA: $($script:DeviceInfo.PruebaEscritura)"
+
+    foreach ($k in $script:Steps.Keys) {
+        $st = $script:Steps[$k]
+        $ui = $stepLabels[$k]
+        $ui.Badge.Text = "[$($st.Estado)]"
+        $ui.Desc.Text  = "$($st.Nombre) -> $($st.Detalle)"
+        switch ($st.Estado) {
+            "EXITO" {
+                $ui.Badge.BackColor = [System.Drawing.Color]::FromArgb(25, 125, 65)
+                $ui.Badge.ForeColor = [System.Drawing.Color]::White
+                $ui.Desc.ForeColor  = [System.Drawing.Color]::FromArgb(140, 250, 170)
+            }
+            "EN CURSO" {
+                $ui.Badge.BackColor = [System.Drawing.Color]::FromArgb(185, 130, 15)
+                $ui.Badge.ForeColor = [System.Drawing.Color]::White
+                $ui.Desc.ForeColor  = [System.Drawing.Color]::FromArgb(255, 225, 110)
+            }
+            "FALLO" {
+                $ui.Badge.BackColor = [System.Drawing.Color]::FromArgb(165, 35, 45)
+                $ui.Badge.ForeColor = [System.Drawing.Color]::White
+                $ui.Desc.ForeColor  = [System.Drawing.Color]::FromArgb(255, 140, 140)
+            }
+            default {
+                $ui.Badge.BackColor = [System.Drawing.Color]::FromArgb(55, 62, 75)
+                $ui.Badge.ForeColor = [System.Drawing.Color]::LightGray
+                $ui.Desc.ForeColor  = [System.Drawing.Color]::FromArgb(185, 195, 205)
+            }
+        }
+    }
+    [System.Windows.Forms.Application]::DoEvents()
+}
+
+function Write-Status($msg, $color = "White") {
+    $ts = (Get-Date).ToString("HH:mm:ss")
     $line = "[$ts] $msg"
     Write-Host $line -ForegroundColor $color
-    Add-Content -Path $logFile -Value $line -Encoding Ascii
-}
-
-function Record-Step([string]$stage, [string]$status, [string]$detail) {
-    $ts = (Get-Date).ToString("HH:mm:ss")
-    $existing = $script:Steps | Where-Object { $_.Etapa -eq $stage } | Select-Object -First 1
-    if ($null -ne $existing) {
-        $existing.Estado = $status
-        $existing.Hora = $ts
-        $existing.Detalle = $detail
-    } else {
-        $obj = [PSCustomObject]@{
-            Paso    = ($script:Steps.Count + 1)
-            Etapa   = $stage
-            Estado  = $status
-            Hora    = $ts
-            Detalle = $detail
-        }
-        $script:Steps.Add($obj)
+    try { Add-Content -Path $logFile -Value $line -Encoding UTF8 -ErrorAction SilentlyContinue } catch {}
+    if ($null -ne $txtLog -and (-not $txtLog.IsDisposed)) {
+        $txtLog.AppendText("$line`r`n")
+        $txtLog.SelectionStart = $txtLog.TextLength
+        $txtLog.ScrollToCaret()
     }
-    $col = "White"
-    if ($status -eq "EXITO") { $col = "Green" }
-    elseif ($status -eq "FALLO") { $col = "Red" }
-    elseif ($status -eq "EN CURSO" -or $status -eq "PENDIENTE") { $col = "Yellow" }
-    elseif ($status -eq "PROTEGIDO") { $col = "Cyan" }
-    Write-Status "[REGISTRO][$status] $stage -> $detail" $col
-    Save-SummaryReport
-}
-
-function Record-Partition([string]$partName, [string]$fileName, [string]$status, [string]$durationSec, [string]$response) {
-    $obj = [PSCustomObject]@{
-        Particion = $partName
-        Archivo   = $fileName
-        Estado    = $status
-        Tiempo    = "${durationSec}s"
-        Respuesta = $response
-    }
-    $script:PartitionResults.Add($obj)
-    Save-SummaryReport
+    [System.Windows.Forms.Application]::DoEvents()
 }
 
 function Save-SummaryReport {
-    $now = Get-Date
-    $elapsed = [math]::Round(($now - $sessionStart).TotalSeconds, 1)
-    $verdictBanner = if ($script:OverallSuccess) {
-        ">>> VEREDICTO FINAL: [EXITO TOTAL] - PROCESO COMPLETADO CORRECTAMENTE <<<"
-    } elseif ($script:OverallStatus -eq "EN PROGRESO") {
-        ">>> ESTADO ACTUAL: [EN PROGRESO] - EJECUTANDO OPERACIONES <<<"
-    } else {
-        ">>> VEREDICTO FINAL: [FALLO / INCOMPLETO] - REVISAR CAUSA ABAJO <<<"
-    }
+    $nowStr = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
+    $elapsed = [math]::Round(((Get-Date) - $script:StartTime).TotalSeconds, 1)
 
     $lines = New-Object System.Collections.Generic.List[string]
     $lines.Add("================================================================================")
-    $lines.Add("          REPORTE Y RESUMEN DE EJECUCION - ZTE ZXV10 B866V2 (XVIEW+)            ")
+    $lines.Add("          REPORTE Y RESUMEN DE PROCESO - ZTE ZXV10 B866V2 (XVIEW+)              ")
     $lines.Add("================================================================================")
-    $lines.Add(" $verdictBanner")
+    $lines.Add(" >>> ESTADO GLOBAL: [$($script:OverallStatus)] <<<")
+    $lines.Add(" >>> PROCESO ACTUAL: $($script:CurrentProcess)")
     $lines.Add("================================================================================")
-    $lines.Add(" Fecha de inicio    : $($sessionStart.ToString('yyyy-MM-dd HH:mm:ss'))")
-    $lines.Add(" Ultima actualiz.   : $($now.ToString('yyyy-MM-dd HH:mm:ss')) (Duracion: ${elapsed}s)")
-    $lines.Add(" Modo ejecutado     : $($script:DetectedInfo.ModoOperacion)")
-    $lines.Add(" Estado global      : $($script:OverallStatus)")
-    if (-not $script:OverallSuccess -and $script:FailureReason -ne "Ninguno") {
-        $lines.Add(" Causa / Diagnostico: $($script:FailureReason)")
-    }
+    $lines.Add(" Fecha de inicio    : $($script:StartTime.ToString('yyyy-MM-dd HH:mm:ss'))")
+    $lines.Add(" Ultima actualiz.   : $nowStr (Duracion: ${elapsed}s)")
+    $lines.Add(" Diagnostico        : $($script:FailureReason)")
     $lines.Add("--------------------------------------------------------------------------------")
-    $lines.Add(" 1. INFORMACION DETECTADA DEL DISPOSITIVO")
+    $lines.Add(" 1. INFORMACION DEL DISPOSITIVO EN FASTBOOT")
     $lines.Add("--------------------------------------------------------------------------------")
-    $lines.Add("  * Modelo / Placa        : $($script:DetectedInfo.ModeloPlaca)")
-    $lines.Add("  * Version de U-Boot     : $($script:DetectedInfo.VersionUBoot)")
-    $lines.Add("  * Puerto UART TTL       : $($script:DetectedInfo.PuertoUART)")
-    $lines.Add("  * Via de Entrada        : $($script:DetectedInfo.ViaEntrada)")
-    $lines.Add("  * ID Dispositivo USB    : $($script:DetectedInfo.IdDispositivoUSB)")
-    $lines.Add("  * Estado Lock Inicial   : $($script:DetectedInfo.EstadoLockInicial)")
-    $lines.Add("  * Estado Lock Final     : $($script:DetectedInfo.EstadoLockFinal)")
-    $lines.Add("  * Prueba de Escritura   : $($script:DetectedInfo.EscrituraFastboot)")
+    $lines.Add("  * Modelo / Placa        : $($script:DeviceInfo.Modelo)")
+    $lines.Add("  * Estado Conexion USB   : $($script:DeviceInfo.EstadoUSB)")
+    $lines.Add("  * Numero de Serie       : $($script:DeviceInfo.IdSerie)")
+    $lines.Add("  * Version de U-Boot     : $($script:DeviceInfo.VersionUBoot)")
+    $lines.Add("  * Estado Lock           : $($script:DeviceInfo.EstadoLock)")
+    $lines.Add("  * Prueba de Escritura   : $($script:DeviceInfo.PruebaEscritura)")
     $lines.Add("--------------------------------------------------------------------------------")
-    $lines.Add(" 2. REGISTRO PASO A PASO DE ETAPAS")
+    $lines.Add(" 2. REGISTRO DE LOS 4 PASOS DEL PROCESO")
     $lines.Add("--------------------------------------------------------------------------------")
-    foreach ($s in $script:Steps) {
-        $pNum = $s.Paso.ToString().PadLeft(2, '0')
-        $stPad = ("[" + $s.Estado + "]").PadRight(12)
-        $etPad = $s.Etapa.PadRight(38)
-        $lines.Add("  Paso $pNum | $stPad | $($s.Hora) | $etPad | $($s.Detalle)")
+    foreach ($k in $script:Steps.Keys) {
+        $s = $script:Steps[$k]
+        $stPad = $s.Estado.PadRight(10)
+        $nmPad = $s.Nombre.PadRight(38)
+        $lines.Add("  [$stPad] | $($s.Hora) | $nmPad | $($s.Detalle)")
     }
 
     if ($script:PartitionResults.Count -gt 0) {
         $lines.Add("--------------------------------------------------------------------------------")
-        $lines.Add(" 3. DETALLE DE FLASHEO POR PARTICION (OK: $($script:DetectedInfo.ParticionesOK) | ERRORES: $($script:DetectedInfo.ParticionesError))")
+        $lines.Add(" 3. DETALLE DE PARTICIONES INYECTADAS")
         $lines.Add("--------------------------------------------------------------------------------")
-        $lines.Add("  PARTICION      | ARCHIVO              | ESTADO      | TIEMPO  | RESPUESTA")
-        $lines.Add("  ---------------+----------------------+-------------+---------+---------------")
         foreach ($p in $script:PartitionResults) {
-            $c1 = $p.Particion.PadRight(14)
-            $c2 = $p.Archivo.PadRight(20)
-            $c3 = ("[" + $p.Estado + "]").PadRight(11)
-            $c4 = $p.Tiempo.PadRight(7)
-            $lines.Add("  $c1 | $c2 | $c3 | $c4 | $($p.Respuesta)")
+            $lines.Add("  * $($p.Particion.PadRight(12)) | $($p.Archivo.PadRight(18)) | [$($p.Estado.PadRight(9))] | $($p.Tiempo)s | $($p.Detalle)")
         }
     }
-
-    $lines.Add("--------------------------------------------------------------------------------")
-    $lines.Add(" Archivos generados en esta carpeta:")
-    $lines.Add("  - Resumen ejecutivo : $summaryFile")
-    $lines.Add("  - Bitacora completa : $logFile")
     $lines.Add("================================================================================")
 
-    [System.IO.File]::WriteAllLines($summaryFile, $lines, [System.Text.Encoding]::ASCII)
+    try {
+        [System.IO.File]::WriteAllLines($summaryFile, $lines, [System.Text.Encoding]::UTF8)
+    } catch {}
 }
 
-function Show-SummaryOnScreen {
+function Set-ProcessStep($stepKey, $estado, $detalle, $currentBanner = "", $progress = -1) {
+    if ($script:Steps.Contains($stepKey)) {
+        $script:Steps[$stepKey].Estado  = $estado
+        $script:Steps[$stepKey].Hora    = (Get-Date).ToString("HH:mm:ss")
+        $script:Steps[$stepKey].Detalle = $detalle
+    }
+    if ($currentBanner -ne "") {
+        $script:CurrentProcess = $currentBanner
+    }
+    if ($progress -ge 0) {
+        $script:ProgressValue = $progress
+    }
+    $col = switch ($estado) { "EXITO" { "Green" } "FALLO" { "Red" } "EN CURSO" { "Yellow" } default { "Gray" } }
+    Write-Status "[$stepKey][$estado] $detalle" $col
     Save-SummaryReport
-    Write-Host ""
-    $content = Get-Content -Path $summaryFile
-    foreach ($line in $content) {
-        if ($line -match "\[EXITO TOTAL\]|\[EXITO\]|\[PROTEGIDO\]") {
-            Write-Host $line -ForegroundColor Green
-        } elseif ($line -match "\[FALLO|ERROR") {
-            Write-Host $line -ForegroundColor Red
-        } elseif ($line -match "^==|^--") {
-            Write-Host $line -ForegroundColor Cyan
-        } elseif ($line -match "EN PROGRESO|PENDIENTE|EN CURSO") {
-            Write-Host $line -ForegroundColor Yellow
-        } else {
-            Write-Host $line -ForegroundColor White
+    Update-DialogUI
+}
+
+function Invoke-FastbootCmd($argStr, $timeoutMs = 5000) {
+    $pinfo = New-Object System.Diagnostics.ProcessStartInfo
+    $pinfo.FileName = $fbExe
+    $pinfo.Arguments = $argStr
+    $pinfo.WorkingDirectory = $fwDir
+    $pinfo.RedirectStandardOutput = $true
+    $pinfo.RedirectStandardError = $true
+    $pinfo.UseShellExecute = $false
+    $pinfo.CreateNoWindow = $true
+
+    $proc = New-Object System.Diagnostics.Process
+    $proc.StartInfo = $pinfo
+    [void]$proc.Start()
+    $outTask = $proc.StandardOutput.ReadToEndAsync()
+    $errTask = $proc.StandardError.ReadToEndAsync()
+
+    $sw = [System.Diagnostics.Stopwatch]::StartNew()
+    while (-not $proc.HasExited -and $sw.ElapsedMilliseconds -lt $timeoutMs) {
+        [System.Windows.Forms.Application]::DoEvents()
+        Start-Sleep -Milliseconds 25
+    }
+    if (-not $proc.HasExited) {
+        try { $proc.Kill() } catch {}
+        return [PSCustomObject]@{ TimedOut = $true; ExitCode = -1; Output = "[TIMEOUT]" }
+    }
+    [void]$outTask.Wait(300)
+    [void]$errTask.Wait(300)
+    $oStr = if ($outTask.IsCompleted) { $outTask.Result } else { "" }
+    $eStr = if ($errTask.IsCompleted) { $errTask.Result } else { "" }
+    $combined = ($oStr + "`n" + $eStr).Trim()
+    return [PSCustomObject]@{ TimedOut = $false; ExitCode = $proc.ExitCode; Output = $combined }
+}
+
+function Invoke-FastbootKeepAlive {
+    # En U-Boot con lock=10001000, cb_oem_cmd() rechaza 'oem watchdog off' con FAILlocked device.
+    # En cambio, cb_getvar() ('getvar version-bootloader') NO pasa por check_lock() y mantiene vivo el gadget USB.
+    $res = Invoke-FastbootCmd "getvar version-bootloader" 2000
+    if ($script:DeviceInfo.EstadoLock -match "DESBLOQUEADO") {
+        [void](Invoke-FastbootCmd "oem `"watchdog off`"" 1500)
+    }
+    return $res
+}
+
+function Invoke-WorldCupUnlockEnv {
+    # Modo InUsbBurn externo (boton fisico RESET al encender con cable USB Macho-Macho, sin abrir la caja)
+    if (-not (Test-Path $updateExe)) { return $false }
+    Write-Status "[PASO 2][USB-BURN] Detectado modo Amlogic USB Burn (VID_1B8E). Inyectando env_unlocked.img (lock=10100000)..." "Cyan"
+    try {
+        if (Test-Path $envUnlImg) {
+            & $updateExe partition env $envUnlImg 2>&1 | Out-Null
         }
-    }
-    Write-Host ""
-}
-
-function Send-Uart([System.IO.Ports.SerialPort]$port, [string]$cmd) {
-    if ($null -ne $port -and $port.IsOpen) {
-        $pName = $port.PortName
-        Write-Status "[UART-TX -> $pName] $cmd" "Cyan"
-        $port.Write("$cmd`r`n")
+        & $updateExe bulkcmd "setenv lock 10100000" 2>&1 | Out-Null
+        & $updateExe bulkcmd "saveenv" 2>&1 | Out-Null
+        & $updateExe bulkcmd "fastboot" 2>&1 | Out-Null
+        Start-Sleep -Milliseconds 1500
+        return $true
+    } catch {
+        return $false
     }
 }
 
-# Limpiar encabezado en bitacora al iniciar nueva sesion
-Add-Content -Path $logFile -Value "" -Encoding Ascii
+# ==============================================================================
+# ARRANQUE DEL DIALOGO Y BUCLE DE 4 PASOS (100% EXTERNO SIN ABRIR LA CAJA)
+# ==============================================================================
+$form.Show()
+$form.Activate()
+Update-DialogUI
+# Quitar TopMost fijo tras 2 segundos para permitir al usuario mover otras ventanas si lo desea
+$topMostTimer = Get-Date
+$topMostCleared = $false
+
 Write-Status "==========================================================================" "Cyan"
-Write-Status " MOTOR DE DESBLOQUEO, FLASHEO Y REGISTRO - ZTE ZXV10 B866V2 (board_id=8)" "Cyan"
-Write-Status " Modo: $modeName" "Cyan"
-Write-Status " Bitacora en vivo: $logFile" "Cyan"
-Write-Status " Resumen final   : $summaryFile" "Cyan"
+Write-Status " INYECTADOR FASTBOOT B866V2 (MODO 100% EXTERNO - SIN ABRIR LA CAJA)" "Cyan"
 Write-Status "==========================================================================" "Cyan"
 
-# ------------------------------------------------------------------------------
-# ETAPA 1: VERIFICACION DE ARCHIVOS DEL FIRMWARE Y HERRAMIENTAS
-# ------------------------------------------------------------------------------
-$requiredFiles = @(
-    "fastboot.exe", "adb.exe", "update.exe",
-    "bootloader.img", "dtb.img", "dtbo.img", "boot.img", "recovery.img",
-    "vbmeta.img", "logo.img", "param.img", "conf.img", "oem.img",
-    "cache_ext4.img", "misc_clean.img", "misc_fastboot.img", "env_unlocked.img"
-)
-$missingFiles = @()
-foreach ($f in $requiredFiles) {
-    if (-not (Test-Path (Join-Path $fwDir $f))) {
-        $missingFiles += $f
+Set-ProcessStep "Paso 1" "EN CURSO" "Esperando caja en Fastboot (Con USB KINGSTON en USB 1, mantenga RESET 8s)..." "PASO 1/4: ESPERANDO CONEXION FASTBOOT (PID_4EE7 / PID_0D02)..." 10
+
+$testedSession   = $false
+$tested4EE7      = $false
+$flashedSession  = $false
+$lastKeepAlive   = [DateTime]::MinValue
+$lastUsbScan     = [DateTime]::MinValue
+$lastUsbState    = ""
+
+while ($form.Visible -and $script:ActionRequested -ne "EXIT") {
+    [System.Windows.Forms.Application]::DoEvents()
+    if ((-not $topMostCleared) -and (((Get-Date) - $topMostTimer).TotalSeconds -ge 2.5)) {
+        $form.TopMost = $false
+        $topMostCleared = $true
     }
-}
-if ($missingFiles.Count -eq 0) {
-    Record-Step "1. Verificacion de paquete Firmware" "EXITO" "17/17 imagenes y herramientas verificadas en carpeta"
-} else {
-    $missStr = ($missingFiles -join ", ")
-    $script:OverallStatus = "FALLO"
-    $script:FailureReason = "Faltan archivos requeridos: $missStr"
-    Record-Step "1. Verificacion de paquete Firmware" "FALLO" "Faltan archivos: $missStr"
-    Show-SummaryOnScreen
-    exit 1
-}
 
-Record-Step "2. Conexion UART / USB con la caja" "EN CURSO" "Buscando caja en UART (COM8), Fastboot, ADB o WorldCup..."
-Record-Step "3. Entrada a modo USB Fastboot" "PENDIENTE" "Esperando intercepcion de arranque o comando USB"
-Record-Step "4. Desbloqueo de Bootloader (lock)" "PENDIENTE" "Esperando verificar lock=10100000 en Fastboot"
-if ($FlashFirmware) {
-    Record-Step "5. Flasheo de particiones B866V2" "PENDIENTE" "Esperando desbloqueo de Fastboot para flashear"
-}
+    # Procesar botones del dialogo
+    if ($script:ActionRequested -eq "RETRY") {
+        $script:ActionRequested = ""
+        $testedSession  = $false
+        $tested4EE7     = $false
+        $flashedSession = $false
+        $script:OverallStatus = "EN EJECUCION"
+        $script:FailureReason = "Ninguno"
+        Set-ProcessStep "Paso 2" "PENDIENTE" "Pendiente de aplicar lock=10100000 y verificar escritura" "REINTENTANDO PROCESO FASTBOOT..." 25
+        Set-ProcessStep "Paso 3" "PENDIENTE" "Pendiente de inyectar particiones del sistema B866V2" "" -1
+        Set-ProcessStep "Paso 4" "PENDIENTE" "Pendiente de finalizar proceso y generar reporte" "" -1
+    } elseif ($script:ActionRequested -eq "REBOOT") {
+        $script:ActionRequested = ""
+        Write-Status "[ACCION] Enviando 'fastboot reboot' para reiniciar hacia Android..." "Cyan"
+        [void](Invoke-FastbootCmd "reboot" 4000)
+        $testedSession = $false
+        $tested4EE7    = $false
+        Set-ProcessStep "Paso 1" "EN CURSO" "Caja reiniciada hacia Android. Esperando nueva entrada a Fastboot..." "CAJA REINICIADA A ANDROID - ESPERANDO FASTBOOT..." 10
+    }
 
-$serialPort = $null
-$ubootIntercepted = $false
-$recoveryCleanRebootSent = $false
-$inBootSequence = $false
-$bootStartTime = [DateTime]::MinValue
-$flashed = $false
-$rxTranscript = ""
-$lastWaitMsg = [DateTime]::Now
-$lastUartProbe = [DateTime]::MinValue
-$lastUsbScan = [DateTime]::MinValue
-$lockedWarningLogged = $false
-$mtpDetectedLogged = $false
+    # Escaneo PnP cada 250ms
+    if (((Get-Date) - $lastUsbScan).TotalMilliseconds -ge 250) {
+        $lastUsbScan = Get-Date
+        $has0D02 = $false
+        $has4EE7 = $false
+        $has4EE1 = $false
+        $hasWorldCup = $false
+        try {
+            $pnp = Get-CimInstance Win32_PnPEntity -Filter "DeviceID LIKE 'USB%VID_18D1%' OR DeviceID LIKE 'USB%VID_1B8E%'" -ErrorAction SilentlyContinue
+            foreach ($d in $pnp) {
+                if ($d.DeviceID -match "PID_0D02") { $has0D02 = $true }
+                elseif ($d.DeviceID -match "PID_4EE7") { $has4EE7 = $true }
+                elseif ($d.DeviceID -match "PID_4EE1") { $has4EE1 = $true }
+                elseif ($d.DeviceID -match "VID_1B8E") { $hasWorldCup = $true }
+            }
+        } catch {}
 
-try {
-    while ($true) {
-        $hasWorldCupUsb = $false
-        $hasAdbUsb = $false
-        $hasFastbootUsb = $false
-        $hasMtpUsb = $false
-
-        if ((-not $inBootSequence) -and (((Get-Date) - $lastUsbScan).TotalMilliseconds -ge 500)) {
-            $lastUsbScan = Get-Date
-            try {
-                $usbPnp = Get-PnpDevice -PresentOnly -ErrorAction SilentlyContinue | Where-Object {
-                    $_.InstanceId -match "VID_18D1|VID_1B8E|VID_19D2"
-                }
-                foreach ($dev in $usbPnp) {
-                    $iid = $dev.InstanceId
-                    if ($iid -match "VID_1B8E") { $hasWorldCupUsb = $true }
-                    if ($iid -match "PID_4EE2|PID_4E12|PID_4E40|PID_0C02") { $hasAdbUsb = $true }
-                    if ($iid -match "PID_0D02|PID_4EE0|PID_4EE7|PID_D00D") {
-                        $hasFastbootUsb = $true
-                        if ($iid -match "PID_4EE0") { $hasAdbUsb = $true }
-                    }
-                    if ($iid -match "PID_4EE1|PID_4E41") {
-                        $hasMtpUsb = $true
-                        if ($script:DetectedInfo.IdDispositivoUSB -eq "No detectado") {
-                            $script:DetectedInfo.IdDispositivoUSB = "Z41220090388172 (MTP PID_4EE1)"
-                        }
-                        if (-not $mtpDetectedLogged) {
-                            Record-Step "2. Conexion UART / USB con la caja" "EN CURSO" "Xview+ detectado por Cable Macho-a-Macho (MTP PID_4EE1). Conecta tambien UART (COM8) o reinicia hacia Fastboot"
-                            $mtpDetectedLogged = $true
-                        }
-                    }
-                }
-            } catch {}
+        if ($hasWorldCup -and (-not $flashedSession)) {
+            $script:DeviceInfo.EstadoUSB = "Amlogic WorldCup (VID_1B8E)"
+            Set-ProcessStep "Paso 1" "EXITO" "Detectado modo Amlogic WorldCup (VID_1B8E)" "PASO 1/4: DETECTADO MODO WORLDCUP (VID_1B8E)" 35
+            Set-ProcessStep "Paso 2" "EN CURSO" "Desbloqueando particion env (lock=10100000) via WorldCup..." "PASO 2/4: DESBLOQUEANDO ENV VIA WORLDCUP..." 45
+            if (Invoke-WorldCupUnlockEnv) {
+                $testedSession = $false
+                continue
+            }
         }
 
-        # ----------------------------------------------------------------------
-        # 1. VERIFICAR SI ESTA EN MODO AMLOGIC WORLDCUP USB (InUsbBurn / BL1 ROM)
-        # ----------------------------------------------------------------------
-        if ($hasWorldCupUsb -and (Test-Path $updExe)) {
-            $scanOut = & $updExe scan 2>&1 | Out-String
-            if (($scanOut -match "WorldCup Device") -and ($scanOut -notmatch "No \[WorldCup Device\]")) {
-                $idOut = (& $updExe identify 2>&1 | Out-String).Trim()
-                $script:DetectedInfo.ViaEntrada = "Cable USB Macho-a-Macho (Amlogic WorldCup: $idOut)"
-                Record-Step "2. Conexion UART / USB con la caja" "EXITO" "Caja detectada por Cable USB Macho-a-Macho ($idOut)"
-
-                # Si entra desde BootROM BL1 (Stage 0-0 / 0-16), cargar bootloader.img en RAM por USB (bl2_boot)
-                if ($idOut -match "0-0|0-16") {
-                    Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Modo BL1 ROM detectado; cargando bootloader.img por USB (bl2_boot)..."
-                    & $updExe bl2_boot (Join-Path $fwDir "bootloader.img") 2>&1 | Out-Null
-                    Start-Sleep -Seconds 3
-                }
-
-                Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Desbloqueando lock=10100000, inyectando env_unlocked.img y activando Fastboot USB"
-                & $updExe mwrite (Join-Path $fwDir "dtb.img") mem 0x1000000 normal 2>&1 | Out-Null
-                & $updExe bulkcmd "disk_initial 0" 2>&1 | Out-Null
-                & $updExe bulkcmd "setenv -f lock 10100000" 2>&1 | Out-Null
-                & $updExe bulkcmd "setenv lock 10100000" 2>&1 | Out-Null
-                & $updExe bulkcmd "setenv unlock_ability 1" 2>&1 | Out-Null
-                & $updExe bulkcmd "setenv otg_device 1" 2>&1 | Out-Null
-                & $updExe bulkcmd "setenv bootdelay 3" 2>&1 | Out-Null
-                & $updExe bulkcmd "saveenv" 2>&1 | Out-Null
-                & $updExe partition _aml_dtb (Join-Path $fwDir "dtb.img") 2>&1 | Out-Null
-                & $updExe partition env (Join-Path $fwDir "env_unlocked.img") 2>&1 | Out-Null
-                & $updExe partition misc (Join-Path $fwDir "misc_clean.img") 2>&1 | Out-Null
-                & $updExe bulkcmd "fastboot" 2>&1 | Out-Null
-                Start-Sleep -Seconds 2
+        $curState = if ($has0D02) { "PID_0D02" } elseif ($has4EE7) { "PID_4EE7" } elseif ($has4EE1) { "PID_4EE1" } else { "NONE" }
+        if ($curState -ne $lastUsbState) {
+            $lastUsbState = $curState
+            if ($curState -eq "PID_4EE1") {
+                $testedSession = $false
+                $script:DeviceInfo.EstadoUSB = "En Android normal (PID_4EE1)"
+                $script:DeviceInfo.IdSerie   = "Z41220090388172"
+                Set-ProcessStep "Paso 1" "EN CURSO" "Caja en Android (PID_4EE1). Inserte USB KINGSTON y mantenga RESET 8s..." "CAJA EN ANDROID: MANTENGA RESET 8s CON USB KINGSTON PARA ENTRAR A FASTBOOT" 12
+            } elseif ($curState -eq "NONE") {
+                $testedSession = $false
+                $script:DeviceInfo.EstadoUSB = "Reiniciando / Buscando Fastboot..."
+                Update-DialogUI
             }
         }
 
         # ----------------------------------------------------------------------
-        # 2. VERIFICAR SI ESTA EN MODO ADB (Android o Recovery con ADB)
+        # PASO 1A: DETECTADO RECOVERY FASTBOOTD (PID_4EE7)
         # ----------------------------------------------------------------------
-        if ($hasAdbUsb -and (Test-Path $adbExe)) {
-            $adbDevs = & $adbExe devices 2>&1 | Out-String
-            if ($adbDevs -match "(?m)^([A-Za-z0-9\.\:\-]+)\s+(device|recovery)") {
-                $adbId = $Matches[1]
-                $adbMode = $Matches[2]
-                $script:DetectedInfo.ViaEntrada = "ADB USB ($adbMode - $adbId)"
-                Record-Step "2. Conexion UART / USB con la caja" "EXITO" "Caja detectada en ADB ($adbMode): $adbId"
-                Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Enviando setprop lock=10100000 y adb reboot bootloader"
-                & $adbExe shell "setprop ubootenv.var.lock 10100000; setprop ubootenv.var.otg_device 1" 2>&1 | Out-Null
-                & $adbExe reboot bootloader 2>&1 | Out-Null
-                Start-Sleep -Seconds 2
-            }
-        }
+        if ($has4EE7) {
+            $fbDevs = (Invoke-FastbootCmd "devices" 3500).Output
+            $cleanMatch = [regex]::Match($fbDevs, "(?m)^([A-Za-z0-9_]+)\s+fastboot\b")
+            if ($cleanMatch.Success) {
+                $devId = $cleanMatch.Groups[1].Value.Trim()
+                $script:DeviceInfo.EstadoUSB = "Recovery fastbootd (PID_4EE7)"
+                $script:DeviceInfo.IdSerie   = $devId
+                Set-ProcessStep "Paso 1" "EXITO" "Detectado fastbootd (PID_4EE7 / $devId). Verificando desbloqueo de env y particiones..." "PASO 1/4: DETECTADO FASTBOOTD (PID_4EE7) - VERIFICANDO ESCRITURA..." 25
 
-        # ----------------------------------------------------------------------
-        # 3. CONEXION Y MONITOREO UART TTL (COM8 / AUTO)
-        # ----------------------------------------------------------------------
-        if ($null -eq $serialPort -or -not $serialPort.IsOpen) {
-            $ports = [System.IO.Ports.SerialPort]::GetPortNames()
-            $targetPort = $null
-            if (($ComPort -ne "AUTO") -and ($ports -contains $ComPort)) {
-                $targetPort = $ComPort
-            } elseif ($ports -contains "COM8") {
-                $targetPort = "COM8"
-            } else {
-                $nonSol = $ports | Where-Object { $_ -ne "COM3" }
-                if ($nonSol) { $targetPort = $nonSol | Select-Object -First 1 }
-            }
+                # En fastbootd (PID_4EE7), '/dev/block/dtb' NO existe en recovery.fstab.
+                # Primero intentamos desbloquear e inyectar env_unlocked.img en '/dev/block/env' y probamos con 'vbmeta' (que si existe en recovery.fstab).
+                [void](Invoke-FastbootCmd "flashing unlock" 2500)
+                [void](Invoke-FastbootCmd "flashing unlock_critical" 2500)
+                if (Test-Path $envUnlImg) {
+                    Write-Status "[PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)..." "DarkCyan"
+                    $resEnv4ee7 = Invoke-FastbootCmd "flash env `"$envUnlImg`"" 3500
+                    $envMsg = ($resEnv4ee7.Output -replace "`r?`n", " | ").Trim()
+                    if ($envMsg) { Write-Status "          Respuesta env (4EE7): $envMsg" "Gray" }
+                }
 
-            if ($targetPort) {
-                try {
-                    $serialPort = New-Object System.IO.Ports.SerialPort($targetPort, $BaudRate, [System.IO.Ports.Parity]::None, 8, [System.IO.Ports.StopBits]::One)
-                    $serialPort.ReadTimeout = 50
-                    $serialPort.WriteTimeout = 300
-                    $serialPort.Open()
-                    $script:DetectedInfo.PuertoUART = "$targetPort ($BaudRate 8N1)"
-                    if ($script:DetectedInfo.ViaEntrada -eq "Pendiente") {
-                        $script:DetectedInfo.ViaEntrada = "UART TTL ($targetPort)"
-                    }
-                    Record-Step "2. Conexion UART / USB con la caja" "EXITO" "Puerto serial abierto en $targetPort ($BaudRate 8N1)"
-                    $serialPort.Write("`r`n")
-                } catch {
-                    # Puerto ocupado temporalmente
+                $tested4EE7 = $true
+                $vbmetaImg = Join-Path $fwDir "vbmeta.img"
+                $res4ee7 = Invoke-FastbootCmd "flash vbmeta `"$vbmetaImg`"" 3500
+                if ((-not $res4ee7.TimedOut) -and ($res4ee7.ExitCode -eq 0) -and ($res4ee7.Output -match "OKAY") -and ($res4ee7.Output -notmatch "FAILED|Lock State|locked|not allowed")) {
+                    Write-Status "[PASO 2] Escritura aceptada directamente en fastbootd (PID_4EE7)! Pasando a U-Boot (PID_0D02) con env desbloqueado..." "Green"
+                    $script:DeviceInfo.EstadoLock      = "DESBLOQUEADO EN FASTBOOTD (4EE7)"
+                    $script:DeviceInfo.PruebaEscritura = "APROBADA (flash vbmeta OKAY)"
+                    Set-ProcessStep "Paso 2" "EXITO" "Escritura habilitada en fastbootd (PID_4EE7). Reiniciando a bootloader (PID_0D02)..." "PASO 2 COMPLETADO: SALTANDO A 0D02 PARA INYECTAR 12 PARTICIONES" 55
+                    [void](Invoke-FastbootCmd "reboot bootloader" 3000)
+                    Start-Sleep -Milliseconds 600
+                    continue
+                } else {
+                    Write-Status "[PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)..." "Cyan"
+                    [void](Invoke-FastbootCmd "reboot bootloader" 3000)
+                    Start-Sleep -Milliseconds 600
+                    continue
                 }
             }
         }
 
-        if ($null -ne $serialPort -and $serialPort.IsOpen) {
-            try {
-                $incoming = $serialPort.ReadExisting()
-                if (-not [string]::IsNullOrEmpty($incoming)) {
-                    $rxTranscript += $incoming
-                    if ($rxTranscript.Length -gt 24576) {
-                        $rxTranscript = $rxTranscript.Substring($rxTranscript.Length - 12288)
-                    }
-
-                    foreach ($ln in ($incoming -split "`r?`n")) {
-                        if ($ln.Trim().Length -gt 0) {
-                            Write-Status "[UART] $ln" "Gray"
-                        }
-                    }
-
-                    # A) Detectar inicio del ciclo de arranque (BL1 / BL2 / BL31 / U-Boot)
-                    if ($incoming -match "G12A:BL:|BL2 Built|U-Boot 2015\.01") {
-                        $inBootSequence = $true
-                        $bootStartTime = Get-Date
-                        $ubootIntercepted = $false
-                        Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Arranque detectado en UART; enviando rafaga a U-Boot (14s)"
-                    }
-
-                    # B) Ventana de autoboot habilitada en U-Boot (set_tfuart_com_enable)
-                    if (($incoming -match "set_tfuart_com_enable|Hit any key to stop autoboot|ztebsp: bootcmd=bootsys|COMControlFlag") -and (-not $ubootIntercepted)) {
-                        $script:DetectedInfo.ViaEntrada = "UART U-Boot (set_tfuart_com_enable)"
-                        Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Ventana set_tfuart_com_enable capturada; inyectando lock=10100000 y fastboot"
-                        for ($j = 0; $j -lt 15; $j++) {
-                            $serialPort.Write("`r ")
-                            Start-Sleep -Milliseconds 20
-                        }
-                        Start-Sleep -Milliseconds 250
-                        Send-Uart $serialPort "setenv -f lock 10100000"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv lock 10100000"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv unlock_ability 1"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv otg_device 1"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv bootdelay 3"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv EnableSelinux permissive"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "saveenv"
-                        Start-Sleep -Milliseconds 900
-                        Send-Uart $serialPort "fastboot"
-                        $ubootIntercepted = $true
-                        $inBootSequence = $false
-                    }
-
-                    # C) Prompt directo de U-Boot
-                    if (($incoming -match "g12a_u212|franklin#|=>") -and $inBootSequence -and (-not $ubootIntercepted)) {
-                        $script:DetectedInfo.ViaEntrada = "Prompt U-Boot directo (g12a_u212_v1#)"
-                        Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Prompt de U-Boot capturado; ejecutando setenv lock 10100000 y fastboot"
-                        Send-Uart $serialPort "setenv -f lock 10100000"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv lock 10100000"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv unlock_ability 1"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "setenv otg_device 1"
-                        Start-Sleep -Milliseconds 120
-                        Send-Uart $serialPort "saveenv"
-                        Start-Sleep -Milliseconds 900
-                        Send-Uart $serialPort "fastboot"
-                        $ubootIntercepted = $true
-                        $inBootSequence = $false
-                    }
-
-                    # D) Inicio de Kernel Linux
-                    if ($incoming -match "Starting kernel|Booting Android Image") {
-                        $inBootSequence = $false
-                    }
-
-                    # E) Consola Root (#) en Recovery real
-                    if (($incoming -match "(^|`n|`r)#\s*$") -and ($incoming -notmatch "gpio_keypad_down_cnt") -and (-not $recoveryCleanRebootSent)) {
-                        $script:DetectedInfo.ViaEntrada = "UART Consola Recovery (#)"
-                        Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Consola '#' de Recovery detectada; activando fastbootd USB y enviando 'reboot bootloader'"
-                        Send-Uart $serialPort "setprop sys.usb.config fastboot"
-                        Start-Sleep -Milliseconds 1500
-                        Send-Uart $serialPort "reboot bootloader"
-                        $recoveryCleanRebootSent = $true
-                    }
-                }
-
-                if ($inBootSequence -and (-not $ubootIntercepted)) {
-                    if (((Get-Date) - $bootStartTime).TotalSeconds -lt 15) {
-                        $serialPort.Write("`r ")
-                    } else {
-                        $inBootSequence = $false
-                    }
-                } elseif ((-not $recoveryCleanRebootSent) -and (((Get-Date) - $lastUartProbe).TotalSeconds -ge 2.5)) {
-                    $serialPort.Write("`r`n")
-                    $lastUartProbe = Get-Date
-                }
-            } catch {
-                # Timeout normal de lectura serial
-            }
-        }
-
         # ----------------------------------------------------------------------
-        # 4. VERIFICAR SI LA CAJA YA ESTA EN MODO USB FASTBOOT
+        # PASO 1B, 2, 3 Y 4: DETECTADO U-BOOT FASTBOOT (PID_0D02)
         # ----------------------------------------------------------------------
-        $fbDevs = if ($hasFastbootUsb) { & $fbExe devices 2>&1 | Out-String } else { "" }
-        if ($fbDevs -match "(?m)^(\S+)\s+fastboot") {
-            $fbSerial = $Matches[1]
-            $script:DetectedInfo.IdDispositivoUSB = $fbSerial
-            if ($script:DetectedInfo.ViaEntrada -eq "Pendiente") {
-                $script:DetectedInfo.ViaEntrada = "USB Fastboot Directo ($fbSerial)"
-            }
-            Record-Step "2. Conexion UART / USB con la caja" "EXITO" "Dispositivo USB Fastboot activo (ID: $fbSerial)"
-            Record-Step "3. Entrada a modo USB Fastboot" "EXITO" "Caja en modo Fastboot con retencion Anti-Watchdog activa"
-
-            $uSpace = (& $fbExe getvar is-userspace 2>&1 | Out-String).Trim()
-            if ($uSpace -match "is-userspace:\s*yes") {
-                Record-Step "3. Entrada a modo USB Fastboot" "EN CURSO" "Detectado fastbootd (Recovery); limpiando misc y pasando a U-Boot Fastboot..."
-                & $fbExe flash misc (Join-Path $fwDir "misc_clean.img") 2>&1 | Out-Null
-                $inBootSequence = $true
-                $bootStartTime = Get-Date
-                $ubootIntercepted = $false
-                & $fbExe reboot bootloader 2>&1 | Out-Null
-                Start-Sleep -Seconds 2
+        if ($has0D02) {
+            # Si ya completamos la prueba en esta sesion PID_0D02, mantener Keep-Alive limpio (getvar version-bootloader) cada 3s
+            if ($testedSession) {
+                if (((Get-Date) - $lastKeepAlive).TotalSeconds -ge 3.0) {
+                    $lastKeepAlive = Get-Date
+                    [void](Invoke-FastbootKeepAlive)
+                }
+                Start-Sleep -Milliseconds 50
                 continue
             }
 
-            & $fbExe oem "watchdog off" 2>&1 | Out-Null
-            $ulOut = (& $fbExe getvar unlocked 2>&1 | Out-String).Trim()
-            if ($script:DetectedInfo.EstadoLockInicial -eq "Desconocido") {
-                if ($ulOut -match "unlocked:\s*yes") {
-                    $script:DetectedInfo.EstadoLockInicial = "DESBLOQUEADO (unlocked: yes)"
-                } else {
-                    $script:DetectedInfo.EstadoLockInicial = "BLOQUEADO (unlocked: no / 10001000)"
-                }
+            $fbRes  = Invoke-FastbootCmd "devices" 3000
+            $fbDevs = $fbRes.Output
+            $anyMatch   = [regex]::Match($fbDevs, "(?m)^(\S+)\s+fastboot\b")
+            $cleanMatch = [regex]::Match($fbDevs, "(?m)^([A-Za-z0-9_]+)\s+fastboot\b")
+            $isDescriptorClean = $cleanMatch.Success
+            $devId = if ($isDescriptorClean) { $cleanMatch.Groups[1].Value.Trim() } else { "Z41220090388172" }
+
+            # Si el endpoint USB quedo saturado por una sesion previa (???????? o TIMEOUT en fastboot devices):
+            if (-not $isDescriptorClean) {
+                $script:DeviceInfo.EstadoUSB       = "PID_0D02 (Reiniciar caja para limpiar USB)"
+                $script:DeviceInfo.IdSerie         = "$devId (Pipe USB saturado)"
+                $script:DeviceInfo.VersionUBoot    = "U-Boot 2015.01-g220e992 (Sep 05 2023)"
+                $script:DeviceInfo.EstadoLock      = "Esperando reconexion limpia"
+                $script:DeviceInfo.PruebaEscritura = "Pendiente de reinicio USB"
+
+                Set-ProcessStep "Paso 1" "EXITO" "Caja detectada en USB (PID_0D02), pero con sesion USB previa saturada" "PASO 1 COMPLETADO: CAJA DETECTADA EN USB (PID_0D02)" 30
+                Set-ProcessStep "Paso 2" "EN CURSO" "Desconecte y reconecte la corriente de la caja (con USB KINGSTON en USB 1 y presionando RESET 8s) para continuar..." "PASO 2/4: REINICIE LA CAJA CON RESET 8s PARA LIMPIAR CANAL USB..." 40
+                Write-Status "[AVISO USB] El canal USB de la caja quedo ocupado por la sesion anterior. Desconecte la corriente de la caja 3s y reconectela manteniendo RESET 8s (con la USB KINGSTON puesta)." "Yellow"
+                $testedSession = $true
+                continue
             }
 
-            & $fbExe flashing unlock_critical 2>&1 | Out-Null
-            & $fbExe flashing unlock 2>&1 | Out-Null
-            & $fbExe oem "setenv -f lock 10100000;save" 2>&1 | Out-Null
-            & $fbExe oem "setenv lock 10100000;save" 2>&1 | Out-Null
-            & $fbExe oem "setenv otg_device 1;save" 2>&1 | Out-Null
+            # Canal USB 100% limpio -> Retener la caja en Fastboot con getvar version-bootloader (no rechazado por check_lock)
+            $vBootRes = Invoke-FastbootKeepAlive
+            $lastKeepAlive = Get-Date
 
-            $testWrite = (& $fbExe flash _aml_dtb (Join-Path $fwDir "dtb.img") 2>&1 | Out-String).Trim()
-            if ($testWrite -match "device is locked|locked device|FAILED") {
-                $script:DetectedInfo.EstadoLockFinal = "BLOQUEADO (lock=10001000)"
-                $script:DetectedInfo.EscrituraFastboot = "RECHAZADA (device is locked, can not flash)"
+            $script:DeviceInfo.EstadoUSB = "U-Boot Fastboot Activo (PID_0D02)"
+            $script:DeviceInfo.IdSerie   = $devId
+            Set-ProcessStep "Paso 1" "EXITO" "Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / $devId) con Keep-Alive" "PASO 1 COMPLETADO: CAJA EN U-BOOT FASTBOOT (PID_0D02)" 35
 
-                if ($null -ne $serialPort -and $serialPort.IsOpen) {
-                    Record-Step "4. Desbloqueo de Bootloader (lock)" "EN CURSO" "Fastboot bloqueado (10001000). Reiniciando hacia UART para desbloquear en U-Boot..."
-                    $inBootSequence = $true
-                    $bootStartTime = Get-Date
-                    $ubootIntercepted = $false
-                    & $fbExe reboot 2>&1 | Out-Null
-                    Start-Sleep -Seconds 1
-                } else {
-                    if (-not $lockedWarningLogged) {
-                        $script:OverallStatus = "PENDIENTE DE UART PARA DESBLOQUEO"
-                        $script:FailureReason = "La caja entro a Fastboot pero su U-Boot tiene lock=10001000 (bloqueado) y no hay adaptador UART conectado para enviar 'setenv -f lock 10100000'."
-                        Record-Step "4. Desbloqueo de Bootloader (lock)" "FALLO" "Fastboot reporta 'device is locked' y no se detecta puerto UART (COM8) para desbloquear U-Boot"
-                        if ($FlashFirmware) {
-                            Record-Step "5. Flasheo de particiones B866V2" "FALLO" "No se puede flashear por USB mientras lock=10001000. Conecta UART (COM8)."
-                        }
-                        Show-SummaryOnScreen
-                        Write-Status "[!] Caja retenida en Fastboot (Anti-Watchdog). Conecta el adaptador UART TTL (COM8) para continuar automaticamente o presiona Ctrl+C para salir." "Yellow"
-                        $lockedWarningLogged = $true
-                    }
-                    Start-Sleep -Seconds 2
+            # --------------------------------------------------------------
+            # PASO 2: DESBLOQUEO DE BOOTLOADER (LOCK=10100000) - 100% SIN ABRIR LA CAJA
+            # --------------------------------------------------------------
+            Set-ProcessStep "Paso 2" "EN CURSO" "Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB..." "PASO 2/4: DESBLOQUEANDO BOOTLOADER POR USB..." 45
+
+            $script:DeviceInfo.VersionUBoot = "U-Boot 2015.01-g220e992 (Sep 05 2023)"
+            $vBoot = $vBootRes.Output
+            if ($vBoot -match "version-bootloader:\s*(\S+)") {
+                $script:DeviceInfo.VersionUBoot = "$($Matches[1].Trim()) (Sep 05 2023)"
+            }
+
+            # 1) Intentar desbloqueo estandar USB Fastboot
+            foreach ($uc in @("flashing get_unlock_ability", "flashing unlock", "flashing unlock_critical")) {
+                Write-Status "[PASO 2] Ejecutando: fastboot $uc" "DarkCyan"
+                $uRes = Invoke-FastbootCmd $uc 2500
+                $uMsg = ($uRes.Output -replace "`r?`n", " | ").Trim()
+                if ($uMsg) { Write-Status "         Respuesta: $uMsg" "Gray" }
+                Start-Sleep -Milliseconds 80
+            }
+
+            # 2) Verificar si 'unlocked' cambio a 'yes' tras flashing unlock
+            $unlCheck = (Invoke-FastbootCmd "getvar unlocked" 2500).Output
+            $isUnlockedNow = ($unlCheck -match "unlocked:\s*yes")
+
+            # 3) Si aun no hemos probado desbloquear env desde Recovery fastbootd (PID_4EE7) en esta sesion, saltar a fastbootd (permitido sin check_lock en f_fastboot.c)
+            if ((-not $isUnlockedNow) -and (-not $tested4EE7)) {
+                Write-Status "[PASO 2] Saltando a Recovery fastbootd (PID_4EE7) via 'fastboot reboot fastboot' para probar desbloqueo de '/dev/block/env' sin abrir la caja..." "Cyan"
+                $tested4EE7 = $true
+                [void](Invoke-FastbootCmd "reboot fastboot" 3000)
+                Start-Sleep -Milliseconds 800
+                continue
+            }
+
+            # 4) Si ya esta desbloqueado, fijar lock=10100000 y apagar watchdog por OEM
+            if ($isUnlockedNow) {
+                foreach ($oemCmd in @("oem `"watchdog off`"", "oem `"setenv lock 10100000`"", "oem `"saveenv`"")) {
+                    Write-Status "[PASO 2] Ejecutando: fastboot $oemCmd" "DarkCyan"
+                    $oRes = Invoke-FastbootCmd $oemCmd 2500
+                    $oMsg = ($oRes.Output -replace "`r?`n", " | ").Trim()
+                    if ($oMsg) { Write-Status "         Respuesta: $oMsg" "Gray" }
                 }
             } else {
-                # DESBLOQUEO Y ESCRITURA VERIFICADOS CON EXITO
-                $script:DetectedInfo.EstadoLockFinal = "DESBLOQUEADO (lock=10100000 / unlocked: yes)"
-                $script:DetectedInfo.EscrituraFastboot = "VERIFICADA CON EXITO (flash _aml_dtb OKAY)"
-                Record-Step "4. Desbloqueo de Bootloader (lock)" "EXITO" "Bootloader desbloqueado (lock=10100000) y escritura confirmada en _aml_dtb"
+                Write-Status "[PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023)." "Yellow"
+            }
 
-                if (-not $FlashFirmware) {
-                    $script:OverallStatus = "EXITO TOTAL"
-                    $script:OverallSuccess = $true
-                    $script:FailureReason = "Ninguno"
-                    Show-SummaryOnScreen
-                    break
-                }
+            Write-Status "[PASO 2] Verificando escritura en particion '_aml_dtb'..." "DarkCyan"
+            $dtbImg = Join-Path $fwDir "dtb.img"
+            $testRes = Invoke-FastbootCmd "flash _aml_dtb `"$dtbImg`"" 3500
+            [void](Invoke-FastbootKeepAlive)
+            $testOut = ($testRes.Output -replace "`r?`n", " | ")
+            $testTimedOut = $testRes.TimedOut
 
-                if ($FlashFirmware -and (-not $flashed)) {
-                    Record-Step "5. Flasheo de particiones B866V2" "EN CURSO" "Iniciando flasheo de las 12 particiones del firmware B866V2..."
-                    $partitions = @(
-                        @("bootloader", "bootloader.img"),
-                        @("_aml_dtb",   "dtb.img"),
-                        @("dtbo",       "dtbo.img"),
-                        @("boot",       "boot.img"),
-                        @("recovery",   "recovery.img"),
-                        @("vbmeta",     "vbmeta.img"),
-                        @("logo",       "logo.img"),
-                        @("param",      "param.img"),
-                        @("conf",       "conf.img"),
-                        @("oem",        "oem.img"),
-                        @("cache",      "cache_ext4.img"),
-                        @("misc",       "misc_clean.img")
-                    )
+            $testedSession = $true
 
-                    $okCount = 0
-                    $errCount = 0
+            if ($testTimedOut -or ($testOut -match "device is locked|locked device|not allowed|FAILED|TIMEOUT") -or ($testOut -notmatch "OKAY")) {
+                $script:DeviceInfo.EstadoLock      = "BLOQUEADO (lock=10001000)"
+                $script:DeviceInfo.PruebaEscritura = "RECHAZADA (device is locked)"
+                $script:OverallStatus              = "DETENIDO EN PASO 2 (U-BOOT BLOQUEADO lock=10001000)"
+                $script:FailureReason              = "La caja entro a U-Boot Fastboot (PID_0D02) sin abrir la caja, pero U-Boot (Sep 05 2023, 01.01.230905.041301) tiene lock=10001000 (unlock_ability=0) y ro.oem_unlock_supported=0. En f_fastboot.c, cb_flashing ignora 'flashing unlock' cuando unlock_ability=0 y check_lock() bloquea cb_oem_cmd() y cb_download()."
 
-                    foreach ($p in $partitions) {
-                        $pName = $p[0]
-                        $pFileName = $p[1]
-                        $pFile = Join-Path $fwDir $pFileName
-                        if (Test-Path $pFile) {
-                            $t0 = Get-Date
-                            Write-Status "[FLASH] Enviando particion '$pName' ($pFileName)..." "Yellow"
-                            $r = (& $fbExe flash $pName $pFile 2>&1 | Out-String).Trim()
-                            $dt = [math]::Round(((Get-Date) - $t0).TotalSeconds, 2)
-                            $rSingleLine = ($r -replace "`r?`n", " | ")
+                Set-ProcessStep "Paso 2" "FALLO" "U-Boot rechaza desbloqueo y escritura USB (ERROR: device is locked / lock=10001000)" "PROCESO DETENIDO EN PASO 2: U-BOOT BLOQUEADO DE FABRICA (lock=10001000)" 50
+                Set-ProcessStep "Paso 3" "FALLO" "Cancelado porque U-Boot (PID_0D02) bloquea la descarga de particiones" "" -1
+                Set-ProcessStep "Paso 4" "FALLO" "Reporte guardado en RESUMEN_PROCESO_B866V2.txt (Caja retenida en Fastboot)" "" -1
+                continue
+            }
 
-                            if (($LASTEXITCODE -eq 0) -and ($r -notmatch "FAILED|error:|device is locked")) {
-                                $okCount++
-                                $script:DetectedInfo.ParticionesOK = $okCount
-                                Write-Status "        [EXITO] $pName flasheado en ${dt}s" "Green"
-                                Record-Partition $pName $pFileName "EXITO" "$dt" "OKAY"
-                            } else {
-                                $errCount++
-                                $script:DetectedInfo.ParticionesError = $errCount
-                                Write-Status "        [FALLO] Error en $pName : $rSingleLine" "Red"
-                                Record-Partition $pName $pFileName "FALLO" "$dt" $rSingleLine
-                            }
-                        }
-                    }
+            # Si la prueba de escritura tuvo exito:
+            $script:DeviceInfo.EstadoLock      = "DESBLOQUEADO (lock=10100000)"
+            $script:DeviceInfo.PruebaEscritura = "APROBADA (flash _aml_dtb OKAY)"
+            Set-ProcessStep "Paso 2" "EXITO" "Bootloader desbloqueado (lock=10100000) y escritura verificada" "PASO 2 COMPLETADO: BOOTLOADER DESBLOQUEADO" 55
 
-                    $superFile = Join-Path $fwDir "super.img"
-                    if (Test-Path $superFile) {
+                # --------------------------------------------------------------
+                # PASO 3: INYECCION DE LAS 12 PARTICIONES DEL FIRMWARE B866V2
+                # --------------------------------------------------------------
+                Set-ProcessStep "Paso 3" "EN CURSO" "Iniciando inyeccion de las 12 particiones del firmware B866V2..." "PASO 3/4: INYECTANDO FIRMWARE COMPLETO B866V2..." 60
+
+                $partitions = @(
+                    @("_aml_dtb",   "dtb.img"),
+                    @("dtb",        "dtb.img"),
+                    @("dtbo",       "dtbo.img"),
+                    @("boot",       "boot.img"),
+                    @("recovery",   "recovery.img"),
+                    @("vbmeta",     "vbmeta.img"),
+                    @("logo",       "logo.img"),
+                    @("oem",        "oem.img"),
+                    @("param",      "param.img"),
+                    @("conf",       "conf.img"),
+                    @("cache",      "cache_ext4.img"),
+                    @("bootloader", "bootloader.img")
+                )
+
+                $okCount  = 0
+                $errCount = 0
+                $totalP   = $partitions.Count
+                $idxP     = 0
+
+                foreach ($p in $partitions) {
+                    $idxP++
+                    $pName = $p[0]
+                    $pFile = $p[1]
+                    $pPath = Join-Path $fwDir $pFile
+                    $pct   = 55 + [int](($idxP / $totalP) * 40)
+
+                    if (Test-Path $pPath) {
+                        Set-ProcessStep "Paso 3" "EN CURSO" "Inyectando ($idxP/$totalP): particion '$pName' ($pFile)..." "PASO 3/4: INYECTANDO PARTICION $idxP/$totalP -> $pName ($pFile)..." $pct
                         $t0 = Get-Date
-                        Write-Status "[FLASH] Enviando particion 'super' (super.img)..." "Yellow"
-                        $r = (& $fbExe flash super $superFile 2>&1 | Out-String).Trim()
+                        $fRes = Invoke-FastbootCmd "flash $pName `"$pPath`"" 45000
+                        [void](Invoke-FastbootCmd "oem `"watchdog off`"" 2500)
                         $dt = [math]::Round(((Get-Date) - $t0).TotalSeconds, 2)
-                        $rSingleLine = ($r -replace "`r?`n", " | ")
-                        if (($LASTEXITCODE -eq 0) -and ($r -notmatch "FAILED|error:|device is locked")) {
+                        $fOut = ($fRes.Output -replace "`r?`n", " | ")
+
+                        if ((-not $fRes.TimedOut) -and ($fRes.ExitCode -eq 0) -and ($fOut -notmatch "FAILED|error:|device is locked")) {
                             $okCount++
-                            $script:DetectedInfo.ParticionesOK = $okCount
-                            Record-Partition "super" "super.img" "EXITO" "$dt" "OKAY"
+                            $script:DeviceInfo.ParticionesOK = $okCount
+                            $script:PartitionResults.Add([PSCustomObject]@{ Particion = $pName; Archivo = $pFile; Estado = "EXITO"; Tiempo = $dt; Detalle = "OKAY" })
                         } else {
                             $errCount++
-                            $script:DetectedInfo.ParticionesError = $errCount
-                            Record-Partition "super" "super.img" "FALLO" "$dt" $rSingleLine
+                            $script:DeviceInfo.ParticionesError = $errCount
+                            $script:PartitionResults.Add([PSCustomObject]@{ Particion = $pName; Archivo = $pFile; Estado = "FALLO"; Tiempo = $dt; Detalle = $fOut })
                         }
-                    } else {
-                        Record-Partition "super" "(En eMMC Android 12)" "CONSERVADA" "0.0" "Sistema Android 12 original intacto"
                     }
-
-                    Record-Partition "factory" "(En eMMC)" "PROTEGIDO" "0.0" "Claves DRM Widevine L1 intactas"
-                    Record-Partition "cri_data" "(En eMMC)" "PROTEGIDO" "0.0" "MAC y Numero de Serie intactos"
-
-                    $flashed = $true
-                    if ($errCount -eq 0) {
-                        $script:OverallStatus = "EXITO TOTAL"
-                        $script:OverallSuccess = $true
-                        $script:FailureReason = "Ninguno"
-                        Record-Step "5. Flasheo de particiones B866V2" "EXITO" "Todas las particiones ($okCount/$okCount) se flashearon sin errores"
-                    } else {
-                        $script:OverallStatus = "EXITO PARCIAL CON ERRORES"
-                        $script:OverallSuccess = $false
-                        $script:FailureReason = "Fallaron $errCount particiones durante el flasheo."
-                        Record-Step "5. Flasheo de particiones B866V2" "FALLO" "Exitosas: $okCount | Fallidas: $errCount"
-                    }
-
-                    Show-SummaryOnScreen
-                    break
                 }
-            }
-        } else {
-            if (((Get-Date) - $lastWaitMsg).TotalSeconds -ge 8) {
-                $portsNow = ([System.IO.Ports.SerialPort]::GetPortNames() -join ", ")
-                Write-Status "[...] Esperando conexion de la caja en USB Fastboot / WorldCup / ADB / UART (Puertos COM: $portsNow)..." "DarkGray"
-                $lastWaitMsg = Get-Date
-            }
+
+                # Proteger factory (Widevine L1) y cri_data (MAC/SN)
+                $script:PartitionResults.Add([PSCustomObject]@{ Particion = "factory";  Archivo = "(Protegido)"; Estado = "INTACTO"; Tiempo = 0; Detalle = "Claves Widevine L1 conservadas" })
+                $script:PartitionResults.Add([PSCustomObject]@{ Particion = "cri_data"; Archivo = "(Protegido)"; Estado = "INTACTO"; Tiempo = 0; Detalle = "MAC y Serie originales conservados" })
+
+                if ($errCount -eq 0) {
+                    $flashedSession = $true
+                    $script:OverallStatus = "EXITO TOTAL - FIRMWARE INYECTADO"
+                    $script:FailureReason = "Ninguno. Todas las particiones ($okCount/$totalP) fueron inyectadas."
+                    Set-ProcessStep "Paso 3" "EXITO" "12/12 particiones inyectadas correctamente (factory y cri_data protegidos)" "PASO 3 COMPLETADO: FIRMWARE INYECTADO CON EXITO" 95
+                    Set-ProcessStep "Paso 4" "EXITO" "Proceso finalizado con exito. Resumen guardado en RESUMEN_PROCESO_B866V2.txt" "PROCESO COMPLETADO (4/4): FIRMWARE B866V2 INYECTADO CON EXITO" 100
+                } else {
+                    $script:OverallStatus = "FALLO PARCIAL EN INYECCION ($errCount ERRORES)"
+                    $script:FailureReason = "Fallaron $errCount de $totalP particiones durante la inyeccion."
+                    Set-ProcessStep "Paso 3" "FALLO" "Exitosas: $okCount | Con error: $errCount" "PASO 3 CON ERRORES: REVISE EL RESUMEN" 95
+                    Set-ProcessStep "Paso 4" "FALLO" "Proceso finalizado con errores. Resumen guardado en RESUMEN_PROCESO_B866V2.txt" "PROCESO DETENIDO CON ERRORES EN PASO 3" 100
+                }
         }
-
-        Start-Sleep -Milliseconds 100
     }
 
-    # --------------------------------------------------------------------------
-    # BUCLE FINAL POST-EXITO: RETENCION ANTI-WATCHDOG + MENU INTERACTIVO
-    # --------------------------------------------------------------------------
-    Write-Status "==========================================================================" "Green"
-    Write-Status " PROCESO FINALIZADO. El resumen completo se guardo en:" "Green"
-    Write-Status "   -> $summaryFile" "Cyan"
-    Write-Status "   -> $logFile" "Cyan"
-    Write-Status "==========================================================================" "Green"
-    Write-Status " Opciones (mientras la caja se mantiene estable en Fastboot):" "Yellow"
-    Write-Status "   [R] Reiniciar la caja normalmente hacia Android" "White"
-    Write-Status "   [V] Abrir el Resumen del Proceso en el Bloc de Notas" "White"
-    Write-Status "   [S] Salir de este programa (dejando la caja en Fastboot)" "White"
-    Write-Status "==========================================================================" "Green"
-
-    while ($true) {
-        & $fbExe oem "watchdog off" 2>&1 | Out-Null
-        & $fbExe getvar version 2>&1 | Out-Null
-
-        if ([Console]::KeyAvailable) {
-            $k = [Console]::ReadKey($true).Key
-            if ($k -eq "R") {
-                Write-Status "[*] Reiniciando la caja hacia el sistema..." "Cyan"
-                & $fbExe reboot 2>&1 | Out-Null
-                break
-            } elseif ($k -eq "V") {
-                Start-Process "notepad.exe" -ArgumentList $summaryFile
-            } elseif ($k -eq "S") {
-                Write-Status "[*] Saliendo del programa..." "Cyan"
-                break
-            }
-        }
-        Start-Sleep -Seconds 2
-    }
-} finally {
-    if ($null -ne $serialPort -and $serialPort.IsOpen) {
-        $serialPort.Close()
-    }
-    if ($script:OverallStatus -eq "EN PROGRESO") {
-        $script:OverallStatus = "DETENIDO POR EL USUARIO (INCOMPLETO)"
-        $script:FailureReason = "El programa se cerro antes de completar todas las etapas."
-    }
-    Save-SummaryReport
+    Start-Sleep -Milliseconds 40
 }
