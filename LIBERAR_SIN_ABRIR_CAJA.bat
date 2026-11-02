@@ -5,10 +5,12 @@ color 0B
 
 set "BASE_DIR=%~dp0"
 if exist "%~dp0xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\adb.exe" set "BASE_DIR=%~dp0xview\"
-if not exist "%BASE_DIR%V2\B866v2 Android 12\B866v2 Android 12\B866V2\adb.exe" set "BASE_DIR=C:\Users\CORSAIR\Desktop\xview\"
+if not exist "%BASE_DIR%V2\B866v2 Android 12\B866v2 Android 12\B866V2\adb.exe" set "BASE_DIR=C:\Users\andre\OneDrive\Desktop\xview\"
 
-set "ADB=%BASE_DIR%V2\B866v2 Android 12\B866v2 Android 12\B866V2\adb.exe"
-set "FASTBOOT=%BASE_DIR%V2\B866v2 Android 12\B866v2 Android 12\B866V2\fastboot.exe"
+set "ADB=%BASE_DIR%FIRMWARE_COMPLETO_B866V2_FASTBOOT\adb.exe"
+if not exist "%ADB%" set "ADB=%BASE_DIR%V2\B866v2 Android 12\B866v2 Android 12\B866V2\adb.exe"
+set "FASTBOOT=%BASE_DIR%FIRMWARE_COMPLETO_B866V2_FASTBOOT\fastboot.exe"
+if not exist "%FASTBOOT%" set "FASTBOOT=%BASE_DIR%V2\B866v2 Android 12\B866v2 Android 12\B866V2\fastboot.exe"
 set "APK_AUTOSTART=%BASE_DIR%experimento\09_analisis_archivos_usuario\autostart.apk"
 set "FLASH_SEGURO=%BASE_DIR%experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat"
 
@@ -33,12 +35,18 @@ echo ===========================================================================
 echo   SELECCIONA QUE DESEAS HACER SIN ABRIR LA CAJA:
 echo ============================================================================
 echo   [1] Liberar completa por ADB (Quitar Megacable + Deshabilitar telemetria/OTA ZTE
-echo       + Quitar banner "No se pudo instalar la actualizacion del sistema")
+echo       + Quitar banner + Ocultar Depuracion USB a las apps)
 echo   [2] Meter la caja cerrada en modo FASTBOOT y flashear Android 12 Completo
 echo       (conservando Widevine L1 original y reparando /cache)
 echo   [3] Solo deshabilitar paquetes de actualizacion/telemetria ZTE y quitar banner
+echo   [4] Solo ocultar / desactivar Depuracion por USB para que las apps no bloqueen
 echo ============================================================================
-set /p "OPCION=Elige 1, 2 o 3: "
+set /p "OPCION=Elige 1, 2, 3 o 4: "
+
+if "%OPCION%"=="4" (
+    call "%~dp0OCULTAR_O_DESACTIVAR_DEPURACION_USB.bat"
+    exit /b 0
+)
 
 if "%OPCION%"=="2" (
     echo.
@@ -74,9 +82,14 @@ echo [+] Eliminando banner "No se pudo instalar la actualizacion del sistema"...
 "%ADB%" %ADB_TARGET% shell "cmd notification snooze --for 315360000000 '0|com.google.android.gms|1|com.google.android.gms.update.control.NotificationControl|10049'" 2>nul
 "%ADB%" %ADB_TARGET% shell "cmd appops set com.google.android.gms POST_NOTIFICATION ignore" 2>nul
 "%ADB%" %ADB_TARGET% shell "am force-stop com.google.android.gms" 2>nul
-"%ADB%" %ADB_TARGET% shell settings put global adb_enabled 1
-"%ADB%" %ADB_TARGET% shell setprop persist.service.adb.enable 1
-"%ADB%" %ADB_TARGET% shell setprop service.adb.tcp.port 5555
+
+echo [+] Ocultando Depuracion por USB y Opciones de Desarrollador a las apps (Modo Stealth)...
+"%ADB%" %ADB_TARGET% shell "settings put global adb_enabled 0" 2>nul
+"%ADB%" %ADB_TARGET% shell "settings put secure adb_enabled 0" 2>nul
+"%ADB%" %ADB_TARGET% shell "settings put global development_settings_enabled 0" 2>nul
+"%ADB%" %ADB_TARGET% shell "settings put secure development_settings_enabled 0" 2>nul
+"%ADB%" %ADB_TARGET% shell "settings put global adb_wifi_enabled 0" 2>nul
+"%ADB%" %ADB_TARGET% shell "setprop service.adb.tcp.port 5555; setprop ctl.start adbd" 2>nul
 
 echo.
 echo ============================================================================
