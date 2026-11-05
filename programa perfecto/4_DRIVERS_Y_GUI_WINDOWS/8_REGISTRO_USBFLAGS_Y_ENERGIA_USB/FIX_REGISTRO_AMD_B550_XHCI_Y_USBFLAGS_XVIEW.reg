@@ -1,0 +1,150 @@
+Windows Registry Editor Version 5.00
+
+; ====================================================================================
+; CONFIGURACION ESPECIAL DE REGISTRO PARA TARJETA MADRE:
+; ASUS ROG STRIX B550-A GAMING (Chipset AMD B550 / Socket AM4 Ryzen)
+;
+; Soluciona el bug del controlador "AMD USB 3.10 eXtensible Host Controller" (xHCI)
+; que congela o desconecta el BootROM WorldCup (VID_1B8E), ADNL (PID_C004) y
+; U-Boot Fastboot (PID_0D02 / PID_4EE7) de la caja Xview+ (Amlogic S905X2) al
+; enviar consultas BOS Descriptor (USB 3.x LPM) y Container ID.
+; ====================================================================================
+
+; ------------------------------------------------------------------------------------
+; 1. REGLAS GLOBALES USBFLAGS (8 DIGITOS: VID+PID) - ANTI-BUG AMD RYZEN / B550 xHCI
+; ------------------------------------------------------------------------------------
+
+; Amlogic WorldCup BootROM Mode (VID_1B8E & PID_C003)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC003]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+; Amlogic ADNL / U-Boot Download Mode (VID_1B8E & PID_C004)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC004]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+; U-Boot Fastboot Amlogic / ZTE B866V2 (VID_18D1 & PID_0D02)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D10D02]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+; Android Recovery Fastbootd / ADB (VID_18D1 & PID_4EE7)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE7]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+; Android Fastboot Bootloader (VID_18D1 & PID_4EE0 / 4E40 / D001 / D00D)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE0]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E40]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E41]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE2]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D1D001]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D1D00D]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:00,00
+
+; Android Normal MTP "Xview+" (VID_18D1 & PID_4EE1)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE1]
+"SkipBOSDescriptorQuery"=dword:00000001
+"SkipContainerIdQuery"=dword:00000001
+"osvc"=hex:01,01
+
+; ------------------------------------------------------------------------------------
+; 2. REGLAS ESPECIFICAS POR REVISION (12 DIGITOS: VID+PID+REV) DE LA CAJA B866V2
+; ------------------------------------------------------------------------------------
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0030007]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0030020]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0040222]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0049999]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D10D029999]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E120223]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E400223]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E410223]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE00223]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE10440]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:01,01
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE70223]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D1D0010223]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+"SkipContainerIdQuery"=hex:01,00,00,00
+"osvc"=hex:00,00
+
+; ------------------------------------------------------------------------------------
+; 3. IGNORAR CAMBIOS DE NUMERO DE SERIE EN RE-ENUMERACION RAPIDA (EVITA BLOQUEOS EN B550)
+; ------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags]
+"IgnoreHWSerNum18D10D02"=hex:01
+"IgnoreHWSerNum18D14EE7"=hex:01
+"IgnoreHWSerNum18D14EE0"=hex:01
+"IgnoreHWSerNum1B8EC003"=hex:01
+"IgnoreHWSerNum1B8EC004"=hex:01
