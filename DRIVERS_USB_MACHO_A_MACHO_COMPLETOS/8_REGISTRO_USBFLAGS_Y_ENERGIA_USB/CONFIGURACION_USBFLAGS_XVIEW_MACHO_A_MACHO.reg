@@ -1,0 +1,51 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================================
+; CONFIGURACION EXACTA DE BANDERAS USB (usbflags) EXTRAIDA DE LA PC FUNCIONAL
+; (Dell Latitude 7490 - Placa Base 0KP0FT - Intel Sunrise Point-LP xHCI)
+; Para todos los modos del cable USB Macho-a-Macho con ZTE ZXV10 B866V2 (Xview+)
+; ============================================================================
+
+; U-Boot Fastboot Amlogic (VID_18D1 & PID_0D02)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D10D029999]
+"osvc"=hex:00,00
+
+; Google / ZTE ADB & Bootloader (VID_18D1 & PID_4E12 / 4E40 / 4E41)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E120223]
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E400223]
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14E410223]
+"osvc"=hex:00,00
+
+; Fastboot Estándar (VID_18D1 & PID_4EE0)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE00223]
+"osvc"=hex:00,00
+
+; Modo Normal Android MTP "Xview+" (VID_18D1 & PID_4EE1) - Activa MS_COMP_MTP directo
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE10440]
+"osvc"=hex:01,01
+"SkipContainerIdQuery"=hex:01,00
+
+; Modo Recovery / Fastbootd / ADB (VID_18D1 & PID_4EE7 y PID_D001)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D14EE70223]
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\18D1D0010223]
+"osvc"=hex:00,00
+
+; Modo Amlogic WorldCup BootROM InUsbBurn (VID_1B8E & PID_C003)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0030007]
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0030020]
+"osvc"=hex:00,00
+
+; Modo Amlogic ADNL Download Mode (VID_1B8E & PID_C004)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0040222]
+"osvc"=hex:00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\1B8EC0049999]
+"osvc"=hex:00,00

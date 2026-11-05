@@ -22,3 +22,6 @@ experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_
 experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/kotlinx/
 experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/google/
 experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/android/settingslib/
+
+**/super.img
+**/product.img
