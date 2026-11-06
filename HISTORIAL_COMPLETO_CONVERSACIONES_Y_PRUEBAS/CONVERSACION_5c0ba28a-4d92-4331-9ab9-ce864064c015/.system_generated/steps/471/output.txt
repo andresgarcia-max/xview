@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+No se puede convertir el argumento "collection", con el valor: "System.Object[]", para "InsertRange", al tipo 
+"System.Collections.Generic.IEnumerable`1[System.String]": "No se puede convertir el valor "System.Object[]" de tipo 
+"System.Object[]" al tipo "System.Collections.Generic.IEnumerable`1[System.String]"."
+En l�nea: 26 Car�cter: 1
++ $lines.InsertRange($targetIdx, $insertion)
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+storage.ts updated at index 301!

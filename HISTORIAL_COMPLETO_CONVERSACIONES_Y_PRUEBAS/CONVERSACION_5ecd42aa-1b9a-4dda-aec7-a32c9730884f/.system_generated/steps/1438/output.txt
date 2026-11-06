@@ -1,0 +1,73 @@
+Command exited with code 0.
+
+Command output:
+oem ?@
+identify
+secureboot
+reboot
+rebooting
+bl2_boot[%s]
+bl1_boot[%s]
+cmd[%s]
+  oem/cmd <cmd>                                Send a BL33 string<cmd>.
+  run   boot code in RAM, after cmd 'download'.
+  bl1_boot -f <bootloaderPath>             BL1 download and boot bl2.
+  bl2_boot -f <bootloaderPath>             BL2 download and boot TPL.
+  partition <-p partName>  <-f imgPath>  [<-m media>] [<-t imgType>] [-v vryFile]
+  reboot [mode]                            Reboot device [into supported mode].
+mwrite:verify=addsum
+oem mwrite 0x%llx %s %s %s 0x%llx
+mwrite
+fail in queue mwrite
+oem verify 
+oem mread 0x%llx %s %s %s 0x%llx
+bl1_boot
+bl2_boot
+partition
+Partition
+cmd "%s" not in supported list
+boot.img
+booting
+fail in queue partition
+unsupprted cmd %d >= max %d
+(bootloader) %s
+fail in send mwrite cmd[%s]
+mwrite finish
+fail in cmd[%s]
+getvar:identify
+Fail in get identify
+illegle fw mode %d for bl2_boot
+bl2boot need wait and continue next loop
+bl2boot tranfer END
+err, bl2_boot can't support bulkin
+__p__acmdln
+FloatSave
+_FLOATING_SAVE_AREA
+FLOATING_SAVE_AREA
+e_oemid
+e_oeminfo
+GUID_DEVINTERFACE_PARTITION
+(__mingw_winmain_lpCmdLine
+(__mingw_winmain_nShowCmd
+!saved_errno
+__ZL7cb_saveP6ActioniPKc
+__Z19fb_queue_query_savePKcPcj
+__Z15fb_queue_rebootPKc
+__Z15fb_queue_mwritePvxPKc
+__Z16fb_queue_bl2bootPvjPKc
+__Z16fb_queue_bl1bootPvjPKc
+__ZL26match_fastboot_with_serialP12usb_ifc_infoPKc
+__ZL19load_bootable_imagePKcS0_S0_PxS0_
+__ZL14do_oem_commandiPPc
+__ZL13do_aml_mwritePPci
+__ZL14do_aml_bl2bootPKc
+__ZL14do_aml_bl1bootPKc
+__ZL16do_aml_partitionPPci
+__ZL12_supportCmds
+__Z14fb_mwrite_dataP9TransportixPKc
+__Z11fb_bl2_bootP9Transportij
+__Z11fb_bl1_bootP9Transportij
+___mingw_winmain_lpCmdLine
+__imp____p__acmdln
+___mingw_winmain_nShowCmd
+___p__acmdln

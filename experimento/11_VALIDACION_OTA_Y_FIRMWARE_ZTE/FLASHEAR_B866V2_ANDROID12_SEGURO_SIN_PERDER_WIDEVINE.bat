@@ -1,7 +1,10 @@
 @echo off
 chcp 65001 >nul
-title Flasheo Validado y Seguro ZTE B866V2 Android 12 (Con Reparacion ext4 de /cache)
+title Flasheo Validado y Seguro ZTE B866V2 Android 12 (USB Macho-a-Macho Sin TTL)
 cls
+
+if /I "%~1"=="--auto" goto SKIP_VALIDATION
+
 echo ================================================================================
 echo   PASO 1: VALIDACION CRIPTOGRAFICA PREVIA DEL FIRMWARE B866V2 ANDROID 12
 echo ================================================================================
@@ -14,37 +17,52 @@ if errorlevel 1 (
 
 echo.
 echo ================================================================================
-echo   PASO 2: PREPARACION DE FLASHEO SEGURO + DESBLOQUEO PERMANENTE OTG Y RECOVERY
+echo   PASO 2: FLASHEO 100%% USB MACHO-A-MACHO (SIN TTL) + OTG + RECOVERY TV
 echo ================================================================================
 echo   - Conserva tus particiones 'factory' (Widevine L1 / HDCP) y 'cri_data' (MAC).
+echo   - Si la caja esta en Android con Depuracion USB (ADB), la envia sola a Fastboot.
 echo   - Desactiva el Hardware Watchdog (~14s) al instante de detectar Fastboot.
 echo   - Habilita permanentemente el puerto USB OTG (setenv otg_device 1;save).
 echo   - Instala recovery.img con menu completo desbloqueado en TV (Fastboot / ADB).
-echo   - Inyecta cache_ext4.img formateada con mke2fs para eliminar el error:
-echo     "E:[libfs_mgr]Failed to mount /cache: Invalid argument"
+echo   - Inyecta cache_ext4.img formateada con mke2fs para reparar /cache.
 echo ================================================================================
 echo.
-if /I not "%~1"=="--auto" (
-    set /p CONFIRM="¿Deseas iniciar la espera activa para atrapar la caja en cuanto entre a Fastboot? (S/N): "
-    if /I not "%CONFIRM%"=="S" exit /b 0
-)
+set /p CONFIRM="¿Deseas iniciar la espera activa para atrapar y flashear la caja por USB? (S/N): "
+if /I not "%CONFIRM%"=="S" exit /b 0
 
+:SKIP_VALIDATION
 set "SCRIPT_DIR=%~dp0"
 cd /d "%~dp0..\..\V2\B866v2 Android 12\B866v2 Android 12\B866V2"
 
 echo.
-echo [1/12] Esperando activamente a que la caja entre en modo Fastboot...
-echo        (Usa 'Set USB device' en Recovery o 'reboot fastboot' por UART/ADB)
+echo [0/12] Verificando si la caja ya esta conectada en Android (ADB)...
+adb devices | findstr /r /c:"device$" >nul 2>&1
+if not errorlevel 1 (
+    echo        [+] Caja detectada en ADB! Enviando 'adb reboot bootloader' automaticamente...
+    adb reboot bootloader
+)
+
+echo [1/12] Esperando activamente en el puerto USB 2.0 a que la caja entre en Fastboot...
 :WAIT_FASTBOOT
 fastboot devices | findstr /r /c:"fastboot" >nul 2>&1
-if errorlevel 1 goto WAIT_FASTBOOT
+if not errorlevel 1 goto FASTBOOT_CAUGHT
+adb devices | findstr /r /c:"device$" >nul 2>&1
+if not errorlevel 1 (
+    echo        [+] Caja detectada en ADB! Enviando 'adb reboot bootloader' automaticamente...
+    adb reboot bootloader
+)
+goto WAIT_FASTBOOT
 
+:FASTBOOT_CAUGHT
 echo [2/12] Dispositivo detectado! Apagando Watchdog, desbloqueando Bootloader y activando USB OTG...
 fastboot oem "watchdog off"
 fastboot flashing unlock_critical
 fastboot flashing unlock
 fastboot oem "setenv lock 10100000;save"
 fastboot oem "setenv otg_device 1;save"
+fastboot oem "setenv lock 10100000"
+fastboot oem "setenv otg_device 1"
+fastboot oem "saveenv"
 fastboot reboot bootloader
 
 echo        Esperando reconexion del bootloader...
@@ -52,6 +70,10 @@ echo        Esperando reconexion del bootloader...
 fastboot devices | findstr /r /c:"fastboot" >nul 2>&1
 if errorlevel 1 goto WAIT_FASTBOOT_2
 fastboot oem "watchdog off"
+fastboot flashing unlock_critical
+fastboot flashing unlock
+fastboot oem "setenv lock 10100000;save"
+fastboot oem "setenv otg_device 1;save"
 fastboot getvar unlocked
 
 echo [3/12] Flasheando boot.img (100%% Oficial ZTE verificado)...

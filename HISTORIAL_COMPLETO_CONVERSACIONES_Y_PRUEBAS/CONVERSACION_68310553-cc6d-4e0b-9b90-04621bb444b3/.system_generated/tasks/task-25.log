@@ -1,0 +1,82 @@
+& : El término 'c:\Users\andre\OneDrive\Desktop\xview\V2\platform-tools\fastboot.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó 
+una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 3
++ & "c:\Users\andre\OneDrive\Desktop\xview\V2\platform-tools\fastboot.e ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\andre\...ls\fastboot.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+& : El término 'c:\Users\andre\OneDrive\Desktop\xview\V2\platform-tools\adb.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó 
+una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 85
++ ...  devices; & "c:\Users\andre\OneDrive\Desktop\xview\V2\platform-tools\ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\andre\...m-tools\adb.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+
+Status       : OK
+Class        : libusb-win32 Usb Devices
+FriendlyName : WorldCup Device
+InstanceId   : ROOT\UNKNOWN\0000
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : libusb-win32 Usb Devices
+FriendlyName : WorldCup Device
+InstanceId   : ROOT\UNKNOWN\0001
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : 
+FriendlyName : Android TV Remote
+InstanceId   : BTHENUM\{CBBFE0E2-F7F3-4206-84E0-84CBB3D09DFC}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : MEDIA
+FriendlyName : Android TV A2DP SNK
+InstanceId   : BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : libusb-win32 Usb Devices
+FriendlyName : WorldCup Device
+InstanceId   : ROOT\LIBUSB-WIN32_USB_DEVICES\0000
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : MEDIA
+FriendlyName : Android TV Hands-Free HF Audio
+InstanceId   : BTHHFENUM\BTHHFPAUDIO\8&25CF0917&0&97
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : System
+FriendlyName : Android TV Hands-Free HF
+InstanceId   : BTHENUM\{0000111F-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : Bluetooth
+FriendlyName : Android TV
+InstanceId   : BTHENUM\DEV_9C2F4E99A11B\7&311B6E22&0&BLUETOOTHDEVICE_9C2F4E99A11B
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : Bluetooth
+FriendlyName : Android TV Transporte AVRCP
+InstanceId   : BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Problem      : CM_PROB_NONE
+
+Status       : OK
+Class        : Bluetooth
+FriendlyName : Android TV Transporte AVRCP
+InstanceId   : BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Problem      : CM_PROB_NONE
+
+
+

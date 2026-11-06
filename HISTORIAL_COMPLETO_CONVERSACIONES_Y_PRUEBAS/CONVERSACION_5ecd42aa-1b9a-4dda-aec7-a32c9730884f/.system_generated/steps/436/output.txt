@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+[2026-11-04 00:27:09.570] [UI] Por que salio 'FAILED (remote: locked device)':
+[2026-11-04 00:27:09.573] [UI] * Tu caja (U-Boot Sep 05 2023) tiene lock=10001000 en la particion 'env'.
+[2026-11-04 00:27:09.574] [UI] * Con la memoria USB KINGSTON puesta, al presionar RESET la caja salta la
+[2026-11-04 00:27:09.576] [UI] ventana de 1.5s de Amlogic WorldCup (InUsbBurn) y entra directo a Recovery.
+[2026-11-04 00:27:09.576] [UI] COMO DESBLOQUEARLA EN 5 SEGUNDOS AHORA MISMO (SIN ABRIR TORNILLOS):
+[2026-11-04 00:27:09.578] [UI] 1. Desconecta temporalmente la memoria USB KINGSTON de la caja (deja SOLO el
+[2026-11-04 00:27:09.579] [UI] cable USB Macho-a-Macho conectado entre la caja y la PC).
+[2026-11-04 00:27:09.580] [UI] 2. Manten presionado el boton fisico RESET (con el clip) en la caja.
+[2026-11-04 00:27:09.580] [UI] 3. Sin soltar RESET, presiona [1] aqui abajo (el programa reiniciara la caja
+[2026-11-04 00:27:09.580] [UI] y cazara el modo WorldCup InUsbBurn en 48ms para inyectar env_unlocked.img)
+[2026-11-04 00:27:09.581] [UI] O bien desconecta y reconecta el cable de corriente manteniendo RESET.
+[2026-11-04 00:27:09.581] [UI] --------------------------------------------------------------------------------
+[2026-11-04 00:27:09.583] [UI] [1] Ya tengo presionado RESET -> Reiniciar caja y cazar WorldCup (48ms) AHORA
+[2026-11-04 00:27:09.586] [UI] [2] Volver al menu principal (manteniendo la caja en Fastboot)
+[2026-11-04 00:27:09.592] [UI] Elige 1 o 2 (1/2):
+=== WAKEUP_REASON: USER_CLOSED_PROGRAM ===

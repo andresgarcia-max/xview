@@ -1,0 +1,83 @@
+Command exited with code 0.
+
+Command output:
+02-05 02:17:41.418  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] GetCfg section = Common, key = EvtWaitTime
+02-05 02:17:41.419  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] key EvtWaitTime belong to apk in apkCfgList
+02-05 02:17:41.419  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] getApkCfg...
+02-05 02:17:41.420  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] apk_cfg_file.ini exist
+02-05 02:17:41.470  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] apk cfg EvtWaitTime,val is 20
+02-05 02:17:41.470  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] iEntWaitTime = 20
+02-05 02:17:41.470  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:41.770  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.075  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.378  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.678  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.979  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.980  4413  4677 I ManifestedDataDownloader: ManifestedDataDownloader.checkVersionAndDownload():98 filegroup __KLP_delight__es-MX with version 2024122600 is already downloaded
+02-05 02:17:43.279  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:43.580  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:43.810  4768  4790 D ZteAIDLProductCfg: [MCSP_Cfg_GetString] Section:Common_ext, Key:AppstoreWhiteList, Value:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.810  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig valueOut=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper .
+02-05 02:17:43.811  4768  4790 D aidlProductconfig: getConfig_distinguishNullCfg section=Common_ext,key =AppstoreWhiteList,result =com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.813  4866  4886 E BaseComp.Java: getProductCfg tmpvalue:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.822  4118  4848 I [TvSettings]: [ZteCfgService]query result==> [Common_ext]AppstoreWhiteList=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.823  4118  4848 I [SetupConfigSync]: [ReadStrFromCfgmanager]:ret = com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.823  4118  4848 D [TvSettings]: [BootReceiver]<setWhiteListUnknownResource> [Common_ext]AppstoreWhiteList: com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.825  4768  4790 D ZteAIDLProductCfg: [MCSP_Cfg_GetString] Section:Common_ext, Key:AppstoreWhiteList, Value:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.825  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig valueOut=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper .
+02-05 02:17:43.825  4768  4790 D aidlProductconfig: getConfig section=Common_ext,key =AppstoreWhiteList,result =com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.826  4118  4848 D [TvSettings]: [ZteCfgService]<getProductConfig> mcspcfgService.getConfig ret =com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.826  4118  4848 I [SetupConfigSync]: [ReadStrFromCfgmanager]:ret = com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.830  4118  4848 D [TvSettings]: [BootReceiver]<getUid> com.zte.factorytesttool
+02-05 02:17:43.831  4118  4848 D [TvSettings]: [BootReceiver]<getWhiteListUidPack> uid = 1000, packageName = com.zte.factorytesttool
+02-05 02:17:43.880  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:43.926  4118  4848 D [TvSettings]: [BootReceiver]<getAppListUidPack> appUid = 1000, packageName = com.zte.factorytesttool
+02-05 02:17:43.931  4118  4848 D [TvSettings]: [BootReceiver]<setWhiteListUnknownResource> packageName: com.zte.factorytesttool
+02-05 02:17:43.931  4118  4848 D [TvSettings]: [BootReceiver]<getUid> com.zte.factorytesttool
+02-05 02:17:43.931  4118  4848 D [TvSettings]: <onReceive> com.zte.factorytesttool appUid = 1000
+02-05 02:17:43.931  4118  4848 D [TvSettings]: <onReceive> com.zte.factorytesttool ============= no permission：REQUEST_INSTALL_PACKAGES, empowering application 
+02-05 02:17:43.931  4118  4848 D [TvSettings]: <onReceive> com.zte.factorytesttool ============= system app do not setMode
+02-05 02:17:44.181  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 1
+02-05 02:17:44.186  4561  4561 I SMW_TOOLS_FTT:  [CommonFunc] accessibility is null
+02-05 02:17:44.186  4561  4561 I SMW_TOOLS_FTT:  [CommonFunc] accessibility is null
+02-05 02:17:44.186  4561  4561 I SMW_TOOLS_FTT:  [CommonFunc] com.zte.factorytesttool/com.zte.factorytesttool.EventService is close before
+02-05 02:17:44.186  4561  4561 I SMW_TOOLS_FTT:  [CommonFunc] Disable Accessibility
+02-05 02:17:44.186  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] GetCfg section = Common, key = NetLoopTest
+02-05 02:17:44.187  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] key NetLoopTest belong to apk in apkAgentCfgList
+02-05 02:17:44.187  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] getApkCfg...
+02-05 02:17:44.188  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] apk_cfg_file.ini exist
+02-05 02:17:44.191  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] apk cfg NetLoopTest,val is 255
+02-05 02:17:44.191  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] GetCfg section = Common_ext, key = NetCoexistMode
+02-05 02:17:44.193  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] key NetCoexistMode not belong to apk
+02-05 02:17:44.194  4561  4561 I SMW_TOOLS_FTT:  [ZteCfgService] isProductCfg section=Common_ext,key=NetCoexistMode
+02-05 02:17:44.194  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] GetMidStringCfgByContentProvider...1
+02-05 02:17:44.207  4561  4561 I SMW_TOOLS_FTT:  [MiddleCfgManager] query result: [Common_ext]NetCoexistMode=
+02-05 02:17:44.209  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] GetCfg section = Common, key = ztsTest
+02-05 02:17:44.210  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] key ztsTest belong to apk in apkCfgList
+02-05 02:17:44.210  4561  4561 I SMW_TOOLS_FTT:  [CfgManager] getApkCfg...
+02-05 02:17:44.213  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] apk_cfg_file.ini exist
+02-05 02:17:44.214  4561  4561 I SMW_TOOLS_FTT:  [FTTApkCfgManager] apk cfg ztsTest,val is 0
+02-05 02:17:44.215  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] netLoopTest=255, netCoexistMode=, wifiTestFlag=0, strDdrFlag=, strZtsFlag=0
+02-05 02:17:44.215  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] Not need Start FacotryTestTool/FactoryTestTool_C
+02-05 02:17:44.215  4561  4561 I SMW_TOOLS_FTT:  [ZteCfgService] onServiceConnected 
+02-05 02:17:44.217  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] ----------AS_APKTestcases BroadcastReceiver received a broadcast [android.intent.action.MEDIA_MOUNTED] 2024-02-01 10-41-00----------
+02-05 02:17:44.218  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] thirdParty version false,do nothing
+02-05 02:17:44.219  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] ----------AS_APKTestcases BroadcastReceiver received a broadcast [android.intent.action.MEDIA_MOUNTED] 2024-02-01 10-41-00----------
+02-05 02:17:44.220  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] thirdParty version false,do nothing
+02-05 02:18:03.719  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] ----------AS_APKTestcases BroadcastReceiver received a broadcast [android.intent.action.BOOT_COMPLETED] 2024-02-01 10-41-00----------
+02-05 02:18:03.722  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] BroadcastReceiver received BOOT_COMPLETED, Already Booted Return
+02-05 02:18:03.959  4118  4118 D LedReceiver: onReceive: action = android.intent.action.MEDIA_MOUNTED
+02-05 02:18:03.974  4866  4866 D BaseComp.Java: BootCompletedReceiver: ----------> onReceive:android.intent.action.MEDIA_MOUNTED
+02-05 02:18:03.982  5137  5137 D Upgrade_J: StartUpgradeServiceBroadcast: ----------> onReceiveandroid.intent.action.MEDIA_MOUNTED
+02-05 02:18:03.982  5137  5137 D Upgrade_J: Broad Type:----> onReceiveandroid.intent.action.MEDIA_MOUNTED
+02-05 02:18:04.028  4502  4901 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+02-05 02:18:04.028  4982  4982 D NmService.BrocastReceiver: Recieve android.intent.action.MEDIA_MOUNTED
+02-05 02:18:04.041  4502  4901 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+02-05 02:18:04.050  4118  4118 D LedReceiver: onReceive: action = android.intent.action.MEDIA_MOUNTED
+02-05 02:18:04.055  4866  4866 D BaseComp.Java: BootCompletedReceiver: ----------> onReceive:android.intent.action.MEDIA_MOUNTED
+02-05 02:18:04.997  5137  5137 D Upgrade_J: StartUpgradeServiceBroadcast: ----------> onReceiveandroid.intent.action.MEDIA_MOUNTED
+02-05 02:18:04.997  5137  5137 D Upgrade_J: Broad Type:----> onReceiveandroid.intent.action.MEDIA_MOUNTED
+02-05 02:18:05.035  4982  4982 D NmService.BrocastReceiver: Recieve android.intent.action.MEDIA_MOUNTED
+02-05 02:18:05.036  4502  4901 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+02-05 02:18:05.037  4502  4901 I MediaProvider: End Intent { act=android.intent.action.MEDIA_MOUNTED dat=file:///storage/emulated/0 flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+02-05 02:18:08.610  3554  3554 I SMW_TOOLS_FTTCobshell: [main] not allow to run

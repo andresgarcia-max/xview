@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+
+Name             Length LastWriteTime            
+----             ------ -------------            
+boot.img       16777216 26/12/2023 09:29:36 a. m.
+bootloader.img  1857536 31/12/2008 11:00:00 a. m.
+conf.img        4194304 26/12/2023 09:29:24 a. m.
+cri_data.img    8388608 26/12/2023 09:29:26 a. m.
+dtb.img          262144 26/12/2023 09:29:14 a. m.
+dtbo.img        8388608 26/12/2023 09:29:26 a. m.
+factory.img     8388608 26/12/2023 09:29:22 a. m.
+logo.img         287800 18/08/2025 04:53:10 p. m.
+oem.img        16777216 26/12/2023 09:29:30 a. m.
+param.img      16777216 26/12/2023 09:29:32 a. m.
+recovery.img   25165824 01/11/2026 12:41:23 p. m.
+vbmeta.img      2097152 29/10/2026 10:03:26 p. m.
+--- 09_ANALISIS_ARCHIVOS_USUARIO ---
+                   8529                          
+                   1262                          
+                    330                          
+                    683                          
+                   2479                          
+                   2660                          
+                    205                          
+
+

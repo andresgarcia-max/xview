@@ -1,0 +1,10 @@
+Command exited with code 1.
+
+Command output:
+
+Path                                                                                                                   
+----                                                                                                                   
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\03_firmware_configs_dtb_y_uboot\uboot...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\03_firmware_configs_dtb_y_uboot\uboot...
+
+

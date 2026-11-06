@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     24/10/2026  09:35 a. m.                badges                                                               
+d-----     24/10/2026  09:35 a. m.                sounds                                                               
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\badges
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     23/10/2026  10:19 p. m.           1224 badge_black_pass.svg                                                 
+-a----     23/10/2026  10:19 p. m.           1170 badge_vip_gold.svg                                                   
+-a----     23/10/2026  10:19 p. m.           1142 logo_legends_gym_pro.svg                                             
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\sounds
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     23/10/2026  10:19 p. m.          70604 acceso_concedido_campana.wav                                         
+-a----     23/10/2026  10:19 p. m.          39734 acceso_concedido_laser.wav                                           
+-a----     23/10/2026  10:19 p. m.          44144 acceso_denegado_alerta.wav                                           
+-a----     23/10/2026  10:19 p. m.          52964 acceso_denegado_buzzer.wav                                           
+-a----     23/10/2026  10:19 p. m.          79424 pos_caja_registradora_chaching.wav                                   
+-a----     23/10/2026  10:19 p. m.           8864 pos_lector_codigo_barras.wav                                         
+-a----     23/10/2026  10:19 p. m.          30912 torniquete_rele_solenoide.wav                                        
+-a----     23/10/2026  10:19 p. m.          22094 ui_radar_beep.wav                                                    
+
+

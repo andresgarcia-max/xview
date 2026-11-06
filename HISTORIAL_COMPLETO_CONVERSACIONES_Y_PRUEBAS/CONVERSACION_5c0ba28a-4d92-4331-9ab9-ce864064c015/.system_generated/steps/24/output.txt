@@ -1,0 +1,183 @@
+Command exited with code 0.
+
+Command output:
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+Write-Progress : Error interno Win32 "Acceso denegado" 0x5 al leer el b�fer de salida de la consola. P�ngase en 
+contacto con los servicios de soporte al cliente de Microsoft.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1: 
+1230 Car�cter: 9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 

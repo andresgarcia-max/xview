@@ -1,0 +1,46 @@
+Command exited with code 1.
+
+Command output:
+En l�nea: 15 Car�cter: 10
++ foreach ( in ) {
++          ~
+Falta el nombre de variable despu�s de foreach.
+En l�nea: 15 Car�cter: 14
++ foreach ( in ) {
++              ~
+Token ')' inesperado en la expresi�n o la instrucci�n.
+En l�nea: 22 Car�cter: 44
++             [System.IO.File]::WriteAllText(, , [System.Text.Encoding] ...
++                                            ~
+Falta el par�ntesis de cierre ')' en la llamada al m�todo.
+En l�nea: 21 Car�cter: 20
++         if ( -ne ) {
++                    ~
+Falta la llave de cierre "}" en el bloque de instrucciones o la definici�n de tipo.
+En l�nea: 16 Car�cter: 21
++     if (Test-Path ) {
++                     ~
+Falta la llave de cierre "}" en el bloque de instrucciones o la definici�n de tipo.
+En l�nea: 15 Car�cter: 16
++ foreach ( in ) {
++                ~
+Falta la llave de cierre "}" en el bloque de instrucciones o la definici�n de tipo.
+En l�nea: 22 Car�cter: 76
++ ...      [System.IO.File]::WriteAllText(, , [System.Text.Encoding]::UTF8)
++                                                                         ~
+Token ')' inesperado en la expresi�n o la instrucci�n.
+En l�nea: 24 Car�cter: 9
++         } else {
++         ~
+Token '}' inesperado en la expresi�n o la instrucci�n.
+En l�nea: 27 Car�cter: 5
++     }
++     ~
+Token '}' inesperado en la expresi�n o la instrucci�n.
+En l�nea: 28 Car�cter: 1
++ }
++ ~
+Token '}' inesperado en la expresi�n o la instrucci�n.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingVariableNameAfterForeach
+ 

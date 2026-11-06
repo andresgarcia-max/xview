@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\layout
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  09:15 a. m.           7180 Navbar.tsx                                                           
+-a---l     16/10/2026  03:32 p. m.           7597 NotificationsDrawer.tsx                                              
+-a---l     24/10/2026  09:52 a. m.          13845 Sidebar.tsx                                                          
+
+

@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+uf/arena.cc
+external/protobuf/src/google/protobuf/generated_message_util.cc
+Cannot allocate buffer larger than kint32max for 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
+external/protobuf/src/google/protobuf/repeated_field.h
+external/protobuf/src/google/protobuf/io/strtod.cc
+external/protobuf/src/google/protobuf/stubs/stringprintf.cc
+, blocks_=
+block_start 
+footer is wrong
+Zip: Failed to map central directory, bad mapped_zip base pointer
+Zip: file name for entry %llu exceeds the central directory range, file_name_length: %u, cd_length: %zu
+Zip: invalid file name at entry %llu
+Check failed: zip64_info.compressed_file_size.has_value()
+zerr
+android::WriteStringToFile fchmod failed
+*:
+/:
+Rebooting to recovery/fastboot...
+Rebooting to recovery/rescue...
+Check failed: 
+Got 
+Failed to initialize UI; using stub UI instead.
+SetUSBDevice 
+Failed to clear BCB message: 
+Baseband version - 
+Found magic number 0x%0x at the offset 0x%0x, break!
+ERROR!!! Havn't found magic number 0x%0x at the first 0x%0x bytes!!!!
+DeviceId
+Failed to create fuse data provider.
+=
+set_progress
+source_build: 
+-- Wiping data...
+/system/bin/make_f2fs
+critical error: %s: first data block does not match
+read_block_group_descriptors
+critical error: %s: failed to read all the block group descriptors
+/boot_devices
+/metadata/gsi/dsu/
+Error updating for slotselect
+nodev
+verifyatboot
+android_dt_dir
+Could not parse snapshot status text: 
+Failed to get path for cow device: 
+Could not parse snapshot device 
+Not booting from new slot. Will not mount snapshots.
+Could not determine path for: 
+unverified
+Read state file failed
+Cannot create metadata builder.
+Successfully created all snapshots for target slot 
+Failed to initiate merge on data wipe.
+Partition still mounted: 
+detach
+Could not read COW footer
+ while reading COW (no labels found)
+o

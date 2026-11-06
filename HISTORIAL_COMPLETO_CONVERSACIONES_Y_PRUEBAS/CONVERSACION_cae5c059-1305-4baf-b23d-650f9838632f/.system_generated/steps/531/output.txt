@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Fixed title in LEGENDS/index.html
+Fixed title in LEGENDS/dist/index.html
+Fixed title in LEGENDS/release/FITNESS_LEGENDS_TERMINAL-win32-x64/resources/app/dist/index.html

@@ -1,0 +1,50 @@
+Command exited with code 0.
+
+Command output:
+
+ACCESO_WEB_FITNESS_LEGENDS.html:1008:                      Registrarme &rarr;
+ACCESO_WEB_FITNESS_LEGENDS.html:1520:                          SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+ACCESO_WEB_FITNESS_LEGENDS.html:1563:                {/* Primary Action Button: REGISTRARME */}
+Control_De_Acceso_Web.html:1008:                      Registrarme &rarr;
+Control_De_Acceso_Web.html:1520:                          SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+Control_De_Acceso_Web.html:1563:                {/* Primary Action Button: REGISTRARME */}
+LEGENDS\dist\Control_De_Acceso_Web.html:1008:                      Registrarme &rarr;
+LEGENDS\dist\Control_De_Acceso_Web.html:1520:                          SENSOR LISTO  TOCA EL ESC�NER O PULSA 
+REGISTRARME
+LEGENDS\dist\Control_De_Acceso_Web.html:1563:                {/* Primary Action Button: REGISTRARME */}
+LEGENDS\dist\terminal.html:1008:                      Registrarme &rarr;
+LEGENDS\dist\terminal.html:1520:                          SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+LEGENDS\dist\terminal.html:1563:                {/* Primary Action Button: REGISTRARME */}
+LEGENDS\public\Control_De_Acceso_Web.html:1008:                      Registrarme &rarr;
+LEGENDS\public\Control_De_Acceso_Web.html:1520:                          SENSOR LISTO  TOCA EL ESC�NER O PULSA 
+REGISTRARME
+LEGENDS\public\Control_De_Acceso_Web.html:1563:                {/* Primary Action Button: REGISTRARME */}
+LEGENDS\public\terminal.html:1008:                      Registrarme &rarr;
+LEGENDS\public\terminal.html:1520:                          SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+LEGENDS\public\terminal.html:1563:                {/* Primary Action Button: REGISTRARME */}
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html:1008:                 
+     Registrarme &rarr;
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html:1520:                 
+         SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html:1563:                
+{/* Primary Action Button: REGISTRARME */}
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html:1008:                      
+Registrarme &rarr;
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html:1520:                          
+SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html:1563:                {/* Primary 
+Action Button: REGISTRARME */}
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\Control_De_Acceso_Web.html:1001:               
+       Registrarme &rarr;
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\Control_De_Acceso_Web.html:1512:               
+           SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\Control_De_Acceso_Web.html:1555:               
+ {/* Primary Action Button: REGISTRARME */}
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\terminal.html:1001:                      
+Registrarme &rarr;
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\terminal.html:1512:                          
+SENSOR LISTO  TOCA EL ESC�NER O PULSA REGISTRARME
+LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\terminal.html:1555:                {/* Primary 
+Action Button: REGISTRARME */}
+
+

@@ -1,0 +1,21 @@
+Command exited with code 1.
+
+Command output:
+
+(electron) 'console-message' arguments are deprecated and will be removed. Please use Event<WebContentsConsoleMessageEventParams> object instead.
+Get-Content : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\cors_test.log' porque no existe.
+En l�nea: 50 Car�cter: 1
++ Get-Content "C:\Users\andre\OneDrive\Desktop\gym\cors_test.log"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...m\cors_test.log:String) [Get-Content], ItemNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+Remove-Item : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\cors_test.log' porque no existe.
+En l�nea: 52 Car�cter: 1
++ Remove-Item "C:\Users\andre\OneDrive\Desktop\gym\cors_test.log" -Forc ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...m\cors_test.log:String) [Remove-Item], ItemNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 

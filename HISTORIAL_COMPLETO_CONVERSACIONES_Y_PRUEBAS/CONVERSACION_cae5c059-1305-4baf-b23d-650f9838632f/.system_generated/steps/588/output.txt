@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+
+> LEGENDS\src\components\clients\ClientList.tsx:2:import { useGym } from '../../context/GymContext';
+  LEGENDS\src\components\clients\ClientList.tsx:3:import { Client, MembershipPlanType } from '../../types';
+  LEGENDS\src\components\clients\ClientList.tsx:4:import { getGymAvatar, getOfflineGymSvgAvatar, detectGender } from 
+'../../utils/genderAvatar';
+  LEGENDS\src\components\clients\ClientList.tsx:5:import { exportClientsToExcel } from '../../utils/excelExport';
+  LEGENDS\src\components\clients\ClientList.tsx:6:import { sounds } from '../../services/audio';
+  LEGENDS\src\components\clients\ClientList.tsx:7:
+> LEGENDS\src\components\clients\ClientList.tsx:62:  } = useGym();
+  LEGENDS\src\components\clients\ClientList.tsx:63:
+  LEGENDS\src\components\clients\ClientList.tsx:64:  // Filters & Search
+  LEGENDS\src\components\clients\ClientList.tsx:65:  const [search, setSearch] = useState('');
+  LEGENDS\src\components\clients\ClientList.tsx:66:  const [statusFilter, setStatusFilter] = useState<'all' | 'active' 
+| 'expiring_soon' | 'expired' | 'no_fingerprint'>('all');
+  LEGENDS\src\components\clients\ClientList.tsx:67:  const [tierFilter, setTierFilter] = useState<string>('all');
+
+

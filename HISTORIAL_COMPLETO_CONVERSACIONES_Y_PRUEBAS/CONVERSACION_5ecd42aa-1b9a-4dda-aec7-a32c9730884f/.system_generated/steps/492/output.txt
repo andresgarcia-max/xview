@@ -1,0 +1,182 @@
+Command exited with code 0.
+
+Command output:
+
+---
+
+### 2.3 Herramientas de Flasheo Analizadas con REA (`inspect_pe_imports`, `inspect_pe_certificates`, `inspect_native_exports`)
+
+REA analizó los binarios PE de 32 bits incluidos en el paquete de flasheo (`B866V2-FlashATV12 - Evoca.bat`):
+
+1. **`adnl.exe`** (`2.43 MB`, `PE32 x86`, SHA-256: `74eff82e...`, Evidence ID: `ev_68b0b3dd...`):
+   - Herramienta **Amlogic ADNL (Amlogic Download Protocol)** sin firma Authenticode (`certCount: 0`, `imphash: 55acd4792241160d501595793bfa9028`).
+   - Importa 12 funciones de `AdbWinApi.dll` (`AdbOpenDefaultBulkReadEndpoint`, `AdbOpenDefaultBulkWriteEndpoint`, `AdbReadEndpointSync`, `AdbWriteEndpointSync`) para comunicarse con el SoC Amlogic por USB.
+2. **`fastboot.exe`** (`1.77 MB`, `PE32 x86`, SHA-256: `c0b34133...`, Evidence ID: `ev_351f6644...` / `ev_b43158d6...`):
+   - Exporta `941` símbolos (incluyendo primitivas criptográficas BoringSSL/OpenSSL `AES_*`, `BIO_*`) e importa `AdbWinApi.dll` y `WS2_32.dll`.
+3. **`AmlLibusb.dll`** (Evidence ID: `ev_3f4495d7...`) y **`AmlUsbScanX3.dll`** (Evidence ID: `ev_1753d5d2...`):
+   - Exportan las primitivas de bajo nivel del modo **MaskROM / WorldCup Device** de Amlogic: `_Aml_Libusb_bl2_boot@16`, `_Aml_Libusb_Password@16`, `_Aml_Libusb_get_chipinfo@20`, `_Aml_Libusb_Ctrl_RdWr@24` y `_AmlScanUsbX3Devices@8`.
+
+
+---
+
+## PARTE 3: Bitácora de Pruebas, Errores y Soluciones Técnicas (Metodología Paso a Paso)
+
+Siguiendo la regla de documentar cada prueba, error y solución aplicada durante la investigación:
+
+### Prueba 1: Ejecución directa de `npx rea-agents@latest` en Windows con Node.js `v20.18.0`
+- **Comando ejecutado:**
+  ```powershell
+  npx -y rea-agents@latest inspect-apk-signature "c:\Users\CORSAIR\Desktop\xview\xuper hydra.apk" --json
+  ```
+- **Error obtenido:**
+  - `npm warn EBADENGINE Unsupported engine { package: 'rea-agents@6.8.0', required: { node: '^22.23.4 || ^24.22.1 || >=26.12.1' }, current: { node: 'v20.18.0' } }`
+  - `SyntaxError: The requested module 'node:zlib' does not provide an export named 'zstdDecompress' at dist/cli-runtime/cli.js:95`
+- **Causa raíz:** `rea-agents@6.8.0` importa `zstdDecompress` y `zstdDecompressSync` desde `node:zlib` (funciones añadidas en Node.js 22.15+), mientras que el sistema cuenta con `Node.js v20.18.0`.
+
+### Prueba 2: Primer intento de Shim ESM (`module.register`) para `node:zlib`
+- **Acción:** Se creó un loader ESM (`zlib-shim.mjs`) con `register()` e interceptor `load(url, context, nextLoad)` verificando `typeof result.source === "string"`.
+- **Error obtenido:** El mismo `SyntaxError` seguía ocurriendo porque en Node.js `v20.18.0`, `nextLoad()` devuelve `result.source` como un `Buffer` / `Uint8Array` para módulos ESM en lugar de un `string`.
+- **Solución:** Se convirtió `result.source` mediante `Buffer.from(result.source).toString("utf8")` antes de aplicar el reemplazo.
+
+### Prueba 3: Segundo intento de Shim ESM con `const zstdDecompress`
+- **Acción:** Se inyectaron `const zstdDecompress = ...` al final del módulo cargado.
+- **Error obtenido:**
+  - `ReferenceError: Cannot access 'zstdDecompress' before initialization at dist/cli-runtime/cli.js:1018 (unzstd = promisify(zstdDecompress))`
+- **Causa raíz:** En JavaScript, las declaraciones `const` no tienen *hoisting* (elevación), por lo que al ejecutarse `init_GpuPayloadCodec` antes del final del archivo se producía una zona muerta temporal (*TDZ*).
+- **Solución definitiva:** Se reemplazó `const zstdDecompress = ...` por declaraciones de función `function zstdDecompress() { ... }` y `function zstdDecompressSync() { ... }`, las cuales sí se elevan al inicio del ámbito del módulo. Con esto, `rea-agents@6.8.0` funcionó en `Node.js v20.18.0`.
+
+### Prueba 4: Uso de `--detail summary` en CLI de REA sin `--evidence_output`
+- **Comando ejecutado:**
+  ```powershell
+  node --import $shim $rea inspect-apk-signature "xuper hydra.apk" --detail summary --json
+  ```
+- **Error obtenido:**
+  - `{"code":"invalid_request","category":"invalid_input","details":{"issues":[{"path":["evidence_output"],"reason":"invalid_value","message":"Summary delivery requires --evidence_output so complete source Evidence remains available."}]}}`
+- **Solución:** Se añadió `--evidence_output <archivo.json>`, logrando conservar tanto el resumen como el paquete completo de evidencia (`Evidence`) verificable.
+
+### Prueba 5: Redirección `>` de PowerShell 5.1 en archivos JSON de exportación
+- **Acción:** Se redirigió la salida de `inspect-native-exports` con `> exports_libranger-jni.so.json`.
+- **Error obtenido:** PowerShell 5.1 codifica por defecto la redirección `>` en `UTF-16LE` con BOM (`\uFEFF`), lo que impide abrir el archivo directamente como UTF-8 estándar.
+- **Solución:** Se procesaron los archivos leyendo explícitamente en `utf16le` y eliminando el BOM (`replace(/^\uFEFF/, "")`), o escribiendo con `fs.writeFileSync(..., "utf8")` / `Set-Content -Encoding UTF8`.
+
+### Prueba 6: Desencriptación de `PORTAL_KEY` y dominios de `resources.arsc`
+- **Intento 1 (Fallido):** Al encontrar la cadena `*&@!6d5d-c483-4720-bb29-785b8f321c^%` en `Lib/c` (`classes2.dex`) y las cadenas `AES/CBC/PKCS5Padding` y `DES` en el pool de strings del DEX, se probó desencriptar `PORTAL_KEY` y los 13 bloques hexadecimales de `resources.arsc` con `DES-ECB`, `DES-CBC`, `AES-128-ECB` y `AES-128-CBC` (tanto con la llave directa como con su `MD5`). Todos devolvieron error de padding (`results: {}`).
+- **Intento 2 (Rastreo de llamadas Dalvik):** Se desensamblaron las instrucciones `invoke-static` (`0x71`) dentro de `Lib/c` (`2952804..2953472`), descubriendo la cadena de llamadas:
+  `Lib/c` $\rightarrow$ `Ljb/b;->a` (`classes2.dex` @ `2973904`) $\rightarrow$ `Lfc/b;->a` (`classes.dex` @ `6908740`).
+- **Intento 3 (Solución y desencriptación exitosa):** Al inspeccionar `Lfc/b;->a`, se descubrió que:
+  1. Primero convierte de Hex a texto ASCII Base64 (`Lfc/a;->b`).
+  2. Luego pasa tanto el texto Base64 como la propia llave `*&@!6d5d-c483-4720-bb29-785b8f321c^%` por un decodificador Base64 tipo `sun.misc.BASE64Decoder` (`Ldc/a` / `Lec/c;->e`) que mapea caracteres fuera del alfabeto Base64 (`*`, `&`, `@`, `!`, `-`, `^`, `%`) a `-1` (`0xFF`) para construir los 24 bytes de `DESedeKeySpec`.
+  3. Finalmente aplica **`DESede/ECB/PKCS5Padding` (`des-ede3`)**, desencriptando con éxito el `100%` de los dominios y la `PORTAL_KEY` (`568e194f-d170-4369-96e8-4a457f641880`).
+
+### Prueba 7: Pérdida de comillas dobles en `node -e '...'` desde PowerShell 5.1
+- **Acción:** Se ejecutó `node -e 'const r = JSON.parse(fs.readFileSync("...", "utf8"))'` para filtrar las evidencias de las APKs de ZTE.
+- **Error obtenido:** `SyntaxError: missing ) after argument list` porque PowerShell 5.1 elimina las comillas dobles internas no escapadas antes de pasar el argumento al proceso `node.exe`.
+- **Solución:** Se estandarizó la creación de scripts modulares `.mjs` en el directorio de trabajo temporal (`scratch/`) ejecutándolos mediante `node "<script.mjs>"`.
+
+### Prueba 8: Truncamiento prematuro de clases DEX en `com.zte.adb.apk`
+- **Acción:** En la primera inspección de `classes.dex` dentro de `com.zte.adb.apk`, se tomó `dexData.classes.slice(0, 60)` antes de filtrar por nombre de paquete.
+- **Error obtenido:** El listado de clases de `com.zte.adb.apk` parecía vacío (`zteClasses: []`) porque las primeras 60 entradas de la tabla de clases correspondían a librerías ofuscadas de lectura QR (`Lcom/a/a/*` de ZXing).
+- **Solución:** Se aplicó el filtro `/Lcom\/zte\/|Lcom\/android\/settings\/porting\//` antes del `slice()`, recuperando todas las clases `Lcom/zte/adb/*` (`AdbSetting`, `AdbSetting_amx`, `AdbSetting_atv9`, `Bizz`) y `Lcom/zte/android/productcfg/*` (`License_RSA_AES`, `ProductCfgService`).
+
+### Prueba 9: Desalineación de los primeros 32 bytes al desencriptar archivos `.eini` de ZTE
+- **Intento 1 (Parcial):** Al identificar el encabezado mágico `"45509440"` (8 bytes) y las constantes `k1 = 61851d4ed786ff73e100b61f36504786` y `k2 = d3bd0a6cf761bb9639bf5a2bf9c61fc6` en `.rodata` de `lib_einifile.so`, se desencriptó el payload a partir del byte `8`. El texto plano emergió desde el bloque 2, pero los primeros 32 bytes aparecían corruptos.
+- **Causa raíz:** En el formato `.eini` de ZTE (`lib_einifile.so`), los bytes `0..7` son el magic `"45509440"`, los bytes **`8..23` (16 bytes) son el hash `MD5(ciphertext)`**, y el texto cifrado AES-128-CBC real comienza en el **byte `24`**. Como CBC se auto-sincroniza tras un bloque, incluir los 16 bytes del MD5 como si fueran el Bloque 0 corrompía los primeros 32 bytes.
+- **Solución definitiva:** Se inició la desencriptación `AES-128-CBC` en el offset `24` (`buf.subarray(24)`), recuperando el `100%` del texto plano desde el byte 0 (`[Common]...`) y verificando que `MD5(buf.subarray(24)) === buf.subarray(8, 24)` en todos los archivos `.eini`.
+
+### Prueba 10: Decodificación de `assets/license/key.dat` y desencriptación de `conf.img` (`MultiplexConfigFile`)
+- **Hallazgo en `key.dat`:** Al restar `0x11` a cada byte hexadecimal de `key.dat`, los caracteres Base64 `'/'` (`0x2F`), `'O'` (`0x4F`) y `'o'` (`0x6F`) aparecían corruptos como `0x1F`, `0x3F` (`'?'`) y `0x5F` (`'_'`).
+  - **Causa y solución:** El ofuscador de ZTE suma `1` a cada nibble hexadecimal de forma independiente sin acarreo (`(nibble + 1) & 0xF`), por lo que el nibble bajo `0xF` pasa a `0x0` sin incrementar el nibble alto. Al decodificar cada nibble mediante `(nibble - 1) & 0xF`, las 4 llaves RSA-1024 (`PrivateKey1`, `PrivateKey2`, `PublicKey1`, `PublicKey2`) se recuperaron íntegras en formato PEM.
+- **Hallazgo en `conf.img`:** Al intentar desencriptar los sectores de `conf.img` (`MultiplexConfigFile` en `0x5800`) con la llave estática `k1`, los bloques no contenían texto ASCII.
+  - **Causa y solución:** Se localizó y extrajo `/vendor/lib/lib_emmcfs.so` desde `super.img` (`0x419b6000`, `Evidence: ev_204a4307fddc2806bcba34f6a686af6e20933113b6918c8dcdb2a7c6423990fc`). Al desensamblar `FfsRead` (`0x2878`) y `__Flash_cid_read` (`0x27f4`), se demostró que mientras `lib_einifile.so` usa la llave estática `k1`, `/vendor/lib/lib_emmcfs.so` **vincula la llave AES-128-CBC al hardware físico de cada caja** leyendo los 16 bytes del registro `CID` de la memoria eMMC (`/sys/class/mmc_host/emmc/emmc:0001/cid`) como `Key` y manteniendo `k2` (`d3bd0a6cf761bb9639bf5a2bf9c61fc6`) como `IV`.
+
+### Prueba 11: Comando `get-binary-info` en `rea-agents` al inspeccionar librerías JNI de USB (`libztebasecomp_jni.so`, `libztestbcfg_jni.so`)
+- **Comando ejecutado:**
+  ```powershell
+  node --import $shim $rea get-binary-info "libztebasecomp_jni.so" --json
+  ```
+- **Error obtenido:**
+  - `{"code":"command_not_found","category":"invalid_input","message":"Unknown command: get-binary-info"}`
+- **Causa raíz:** En `rea-agents@6.8.0`, el subcomando CLI para inspeccionar cabeceras ELF/PE y tablas de exportación es `inspect-native-exports` (mientras que `get_binary_info` es el nombre interno de la herramienta MCP).
+- **Solución:** Se ejecutó `node --import $shim $rea inspect-native-exports <ruta.so> --json`, extrayendo con éxito los símbolos JNI exportados (`Java_com_ztestb_basecomp_BaseComponentServiceJni_external_1storage_1pull_1in`, `Java_com_ztestb_stbcfg_RemoteStbCfgServiceJni_SettingStartNativeService`, etc.) con sus respectivos `evidence_id`.
+
+### Prueba 12: Resolución de ruta de módulos al desensamblar bytecode Dalvik de receptores USB (`BootCompletedReceiver`, `TestToolBroadcast`, `DiskReceiver`)
+- **Acción:** Se intentó importar `@reverse-engineer-anything/JVM/dist/index.js` desde `rea/node_modules/` en el script `inspect_qadebug_and_settings.mjs`.
+- **Error obtenido:**
+  - `Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'c:\Users\CORSAIR\Desktop\xview\rea\node_modules\@reverse-engineer-anything\JVM\dist\index.js'`
+- **Causa raíz:** El repositorio local `rea/` utiliza una estructura de *monorepo* donde los paquetes fuente residen bajo `rea/packages/` en lugar de `node_modules/@reverse-engineer-anything/`.
+- **Solución:** Se integró directamente el decodificador de entradas ZIP (`inflateRawSync`) y el analizador de tablas `string_ids`, `type_ids`, `method_ids`, `field_ids` y `class_defs` del formato Dalvik Executable (`DEX 035/039`) dentro de `inspect_qadebug_and_settings.mjs`, permitiendo desensamblar todas las instrucciones de `com.ztestb.basecomp.apk`, `com.zte.factorytesttool.apk`, `com.android.tv.settings.apk` y `com.droidlogic.apk`.
+
+### Prueba 13: Monitoreo no intrusivo del puerto serie UART TTL (COM3/COM8) en tiempo real desde la memoria de SmarTTY.exe
+- **Acción:** Se requería capturar en vivo toda la telemetría UART TTL (115200 8N1) mientras el usuario interactuaba con SmarTTY.exe.
+- **Error / Limitación:** En Windows, el driver silabser.sys (CP210x) abre el puerto serie (COM3/COM8) en modo exclusivo; intentar abrir System.IO.Ports.SerialPort desde otro proceso arroja Acceso denegado al puerto COM.
+- **Acierto / Solución:** Se construyó [experimento/14_MONITOREO_EN_VIVO_SMARTTY/monitor_smartty.ps1](./experimento/14_MONITOREO_EN_VIVO_SMARTTY/monitor_smartty.ps1), que utiliza OpenProcess + VirtualQueryEx + ReadProcessMemory para inspeccionar las regiones privadas de memoria (MEM_COMMIT | MEM_PRIVATE) de SmarTTY.exe y reconstruir tanto los buffers ASCII del puerto serie como las celdas UTF-16LE de la terminal sin tocar ni interrumpir el puerto COM.
+
+### Prueba 14: Diagnóstico por UART del bucle de entrada automática a Recovery (GPIOAO_3 == 0) y ventana InUsbBurn
+- **Hallazgo en vivo:** En la primera unidad analizada por UART ([INFORME_FORENSE_UART_TTL_SMARTTY_REA.md](./experimento/13_CAPTURA_UART_TTL_SMARTTY/INFORME_FORENSE_UART_TTL_SMARTTY_REA.md)), la partición /cache (mmcblk0p03, 1000 MB) montaba limpio en EXT4 (7.62s), pero la caja seguía entrando siempre a Recovery.
+- **Causa raíz descubierta:** U-Boot imprimía gpio: pin GPIOAO_3 (gpio 3) value is 0 $\rightarrow$ detect upgrade key $\rightarrow$ InUsbBurn $\rightarrow$ 
+oSof $\rightarrow$ system = recovery. El botón físico RESET (GPIOAO_3, activo en bajo) estaba presionado/en corto, obligando a U-Boot a activar InUsbBurn durante 1.5s y luego saltar a Recovery. Al liberar GPIOAO_3 (alue is 1), U-Boot dejó de forzar Recovery.
+
+### Prueba 15: Rechazo de flasheo en U-Boot 2015.01-g220e992 por cb_oem_cmd() y lock state: 10001000 (Motivo A)
+- **Acción:** Desde la consola root # de Recovery en UART se ejecutó 
+eboot bootloader (l31 reboot reason: 0x7), entrando exitosamente a Fastboot (g_dnl_register: g_dnl_driver.name = usb_dnl_fastboot), y se corrió el script de flasheo.
+- **Error capturado en UART:**
+  - t ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()
+  - lock state: 10001000 (info->lock_state = 1)
+  - ERROR: device is locked, can not run this cmd.Please flashing unlock & flashing unlock_critical en _fastboot.c:1075/cb_download() y _fastboot.c:1530/erase().
+- **Causa raíz:** Al fallar cb_oem_cmd() y no ejecutarse lashing unlock_critical / lashing unlock, cada astboot flash abortó en milisegundos y el script llegó inmediatamente a astboot reboot (cmd cb_reboot is reboot), sacando la placa de Fastboot.
+
+### Prueba 16: Reinicio por Watchdog de hardware en Fastboot (
+eboot_mode:::: watchdog_reboot) y escape a ztebsp: bootcmd=bootsys (Motivo B)
+- **Error capturado en UART ([INFORME_SESION_FASTBOOT_WATCHDOG_Y_SOLUCION.md](./experimento/14_MONITOREO_EN_VIVO_SMARTTY/INFORME_SESION_FASTBOOT_WATCHDOG_Y_SOLUCION.md)):**
+  - Mientras la placa permanecía en U-Boot 2015.01-g220e992 (Fastboot) sin tráfico USB (durante las pausas set /p y 	imeout /t 2 / 	imeout /t 4), el temporizador Watchdog de hardware reinició el SoC (
+eboot_mode=watchdog_reboot).
+  - En el siguiente reinicio, U-Boot ejecutó cb uboot-command, leyó [commannd:bootonce-bootloader] en misc y lo descartó (command mark(uboot-command) not match bootonce-bootloader,don't execute.), falló al buscar oot-recovery (
+ead boot-recovery from misc failed.) y cargó Android normal (ztebsp: bootcmd=bootsys).
+- **Acierto / Solución definitiva en 3 capas:**
+  1. Escribir echo -n "boot-recovery" > /dev/block/misc ; sync ; reboot bootloader desde la consola # de Recovery antes de saltar a Fastboot (así BL31 entra a Fastboot por el código  x7, pero si el Watchdog dispara watchdog_reboot, U-Boot lee oot-recovery en misc y regresa a Recovery en vez de ootsys).
+  2. Eliminar todos los 	imeout en [FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat](./experimento/11_VALIDACION_OTA_Y_FIRMWARE_ZTE/FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat) y enganchar la placa en < 200 ms con :WAIT_FASTBOOT, enviando astboot getvar version y astboot oem "watchdog off".
+  3. Crear [RETENER_FASTBOOT_ANTI_WATCHDOG.bat](./experimento/14_MONITOREO_EN_VIVO_SMARTTY/RETENER_FASTBOOT_ANTI_WATCHDOG.bat) con un pulso *Keep-Alive* cada 2 segundos para mantener activa la sesión Fastboot indefinidamente.
+
+---
+
+## PARTE 4: Análisis con REA de Llaves Criptográficas y Configuraciones ZTE / Megacable (`4301_5`)
+
+### 4.1. Firma y Evidencia REA de las 8 APKs del Sistema ZTE y Librerías Nativas (`.so`)
+
+Todas las aplicaciones de sistema ZTE extraídas en `experimento/04_apks_dispositivo/` están firmadas con el certificado maestro de plataforma ZTE:
+- **Sujeto / Emisor:** `C=CN, ST=Shanghai, L=Shanghai, O=ZTE, OU=ZTE, CN=ZTE, emailAddress=android@zte.com.cn`
+- **Certificate SHA-256:** `8363c8368a9bf6a9328c818c881efe5cf42adc674432c35d720283467d440e59`
+
+| Artefacto (APK / Librería ELF) | SHA-256 | REA `evidence_id` | Rol en el ecosistema ZTE / Megacable |
+| :--- | :--- | :--- | :--- |
+| **`com.zte.adb.apk`** | `de826ad03d70dfaa7355f4842b12cea54f18a5cc57d067531847cb8398c5506e` | `ev_a7d3d02e04f93ba656eb86b29c3a386d21698d9580e85f66d47868727c1d878a` | Control y desbloqueo de ADB por desafío-respuesta RSA (`sys.zte.adb.random`) |
+| **`com.zte.android.productcfg.apk`** | `1bd5bb05116cc5f299c0531c4959326ef3603caaf9a875bc6ffa9c01d58a209d` | `ev_3aaf1c291f9a875bc6ffa9c01d58a209d7b85ad05fb921ab7c779897` | Servicio AIDL de configuración de producto y validación RSA/AES de `unifykeys` |
+=== 04_APKS_DISPOSITIVO ===
+
+Name                                         Length
+----                                         ------
+android.autoinstalls.config.zte.device.apk    12695
+AppDMC.apk                                   577580
+AppUpgradeService.apk                         54239
+com.android.tv.settings.apk                22709960
+com.droidlogic.apk                           358494
+com.droidlogic.dvbaudioservice.apk            45568
+com.google.android.tvlauncher.apk          13553617
+com.nanosic.zte.apk                        12020921
+com.xuper.netxxus.apk                      34429505
+com.zte.adb.apk                             2022416
+com.zte.android.productcfg.apk              3520973
+com.zte.factorytesttool.apk                14657641
+com.zte.netmanager.apk                     14957035
+com.zte.tv.act.apk                          1527005
+com.ztestb.basecomp.apk                     6139434
+com.ztestb.LauncherCustomize.apk             345574
+com.ztestb.uploaddiagno.apk                  289333
+ControlDevice.apk                          17876564
+DLStore.apk                                 3313530
+Filemanager.apk                             5737825
+Hdplay.apk                                  3568385
+tv.mxlmovies.app.apk                       40372693
+tv.settings.aidl.apk                         910485
+
+

@@ -1,0 +1,128 @@
+Command exited with code 0.
+
+Command output:
+Resolve-Path : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\.FullName' porque no existe.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psm1: 
+110 Carácter: 36
++                 $pathsToProcess += Resolve-Path $Path | Foreach-Objec ...
++                                    ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...xview\.FullName:String) [Resolve-Path], ItemNotFoundE 
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.ResolvePathCommand
+ 
+No se puede llamar a un método en una expresión con valor NULL.
+En línea: 3 Carácter: 6
++      = (Get-FileHash .FullName -Algorithm SHA256).Hash.Substring(0,16 ...
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+Length : El término 'Length' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta 
+es correcta e inténtelo de nuevo.
+En línea: 6 Carácter: 9
++         Length = .Length
++         ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Length:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Resolve-Path : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\.FullName' porque no existe.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psm1: 
+110 Carácter: 36
++                 $pathsToProcess += Resolve-Path $Path | Foreach-Objec ...
++                                    ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...xview\.FullName:String) [Resolve-Path], ItemNotFoundE 
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.ResolvePathCommand
+ 
+No se puede llamar a un método en una expresión con valor NULL.
+En línea: 3 Carácter: 6
++      = (Get-FileHash .FullName -Algorithm SHA256).Hash.Substring(0,16 ...
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+Length : El término 'Length' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta 
+es correcta e inténtelo de nuevo.
+En línea: 6 Carácter: 9
++         Length = .Length
++         ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Length:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Resolve-Path : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\.FullName' porque no existe.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psm1: 
+110 Carácter: 36
++                 $pathsToProcess += Resolve-Path $Path | Foreach-Objec ...
++                                    ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...xview\.FullName:String) [Resolve-Path], ItemNotFoundE 
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.ResolvePathCommand
+ 
+No se puede llamar a un método en una expresión con valor NULL.
+En línea: 3 Carácter: 6
++      = (Get-FileHash .FullName -Algorithm SHA256).Hash.Substring(0,16 ...
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+Length : El término 'Length' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta 
+es correcta e inténtelo de nuevo.
+En línea: 6 Carácter: 9
++         Length = .Length
++         ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Length:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Resolve-Path : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\.FullName' porque no existe.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psm1: 
+110 Carácter: 36
++                 $pathsToProcess += Resolve-Path $Path | Foreach-Objec ...
++                                    ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...xview\.FullName:String) [Resolve-Path], ItemNotFoundE 
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.ResolvePathCommand
+ 
+No se puede llamar a un método en una expresión con valor NULL.
+En línea: 3 Carácter: 6
++      = (Get-FileHash .FullName -Algorithm SHA256).Hash.Substring(0,16 ...
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+Length : El término 'Length' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta 
+es correcta e inténtelo de nuevo.
+En línea: 6 Carácter: 9
++         Length = .Length
++         ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Length:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Resolve-Path : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\.FullName' porque no existe.
+En C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psm1: 
+110 Carácter: 36
++                 $pathsToProcess += Resolve-Path $Path | Foreach-Objec ...
++                                    ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...xview\.FullName:String) [Resolve-Path], ItemNotFoundE 
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.ResolvePathCommand
+ 
+No se puede llamar a un método en una expresión con valor NULL.
+En línea: 3 Carácter: 6
++      = (Get-FileHash .FullName -Algorithm SHA256).Hash.Substring(0,16 ...
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+Length : El término 'Length' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta 
+es correcta e inténtelo de nuevo.
+En línea: 6 Carácter: 9
++         Length = .Length
++         ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Length:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

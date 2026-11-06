@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+=== C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.11.05 ===
+Get-Content : Acceso denegado a la ruta de acceso 'C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.11.05'.
+En línea: 1 Carácter: 172
++ ... e-Output "=== $($_.FullName) ==="; Get-Content $_.FullName -Tail 80 }
++                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Amlogic\Aml_...\Log\2026.11.05:String) [Get-Content], Unauthorized 
+   AccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+=== C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.30 ===
+Get-Content : Acceso denegado a la ruta de acceso 'C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.30'.
+En línea: 1 Carácter: 172
++ ... e-Output "=== $($_.FullName) ==="; Get-Content $_.FullName -Tail 80 }
++                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Amlogic\Aml_...\Log\2026.09.30:String) [Get-Content], Unauthorized 
+   AccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+=== C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.29 ===
+Get-Content : Acceso denegado a la ruta de acceso 'C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.29'.
+En línea: 1 Carácter: 172
++ ... e-Output "=== $($_.FullName) ==="; Get-Content $_.FullName -Tail 80 }
++                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Amlogic\Aml_...\Log\2026.09.29:String) [Get-Content], Unauthorized 
+   AccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+=== C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.23 ===
+Get-Content : Acceso denegado a la ruta de acceso 'C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.23'.
+En línea: 1 Carácter: 172
++ ... e-Output "=== $($_.FullName) ==="; Get-Content $_.FullName -Tail 80 }
++                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Amlogic\Aml_...\Log\2026.09.23:String) [Get-Content], Unauthorized 
+   AccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+=== C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.22 ===
+Get-Content : Acceso denegado a la ruta de acceso 'C:\Amlogic\Aml_Burn_Tool\V3\Log\2026.09.22'.
+En línea: 1 Carácter: 172
++ ... e-Output "=== $($_.FullName) ==="; Get-Content $_.FullName -Tail 80 }
++                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Amlogic\Aml_...\Log\2026.09.22:String) [Get-Content], Unauthorized 
+   AccessException
+    + FullyQualifiedErrorId : GetContentReaderUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+
+Name                Length
+----                ------
+AdbWinApi.dll        97792
+AdbWinUsbApi.dll     62976
+Amldbglog.dll        11776
+AmlImagePack.dll    217600
+AmlUsbScanX3.dll     18432
+key_flow.aml         21920
+libamlfastboot.dll 2865436
+libamllibusb.dll     10752
+libaulextend.dll     27136
+libusb0.dll          67680
+
+

@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+Amlogic DNL protocol tool V[2.6.3] at Aug 20 2021
+usage: adnl [ -s <specific para> ] <command> <command para>
+commands:
+  devices                                  List all connected dnl devices
+  getvar <variable>                        Display a BL1/BL2/BL33 variable.
+                                           if not supported, this does nothing.
+  setvar <variable> <value>                Set a BL1 <variable> with <value>.
+  setkey <keyPath>                         Set a BL1 <variable> with <value>.
+  oem/cmd <cmd>                                Send a BL33 string<cmd>.
+  download <FilePath> [<size> <offset>]                     
+          Download file to RAM[, with <size>bytes from <offset>]
+  run   boot code in RAM, after cmd 'download'.
+  bl1_boot -f <bootloaderPath>             BL1 download and boot bl2.
+  bl2_boot -f <bootloaderPath>             BL2 download and boot TPL.
+  partition <-p partName>  <-f imgPath>  [<-m media>] [<-t imgType>] [-v vryFile]
+            @media:    mem/store/key, default store
+            @imgType:  sparse/normal, default normal
+  upload <-p partName>  <-f dumpFilePath>  <-z dumpSz [K|M|G]> [<-m media>] [<-o offset>]
+            @media:    mem/store/key, default store
+            @offset:   start offset in part @partname, default 0
+  reboot [mode]                            Reboot device [into supported mode].
+
+other options:
+  -s <specific para>                     specify a USB device, command 'devices' to get specific para
+  -h, --help                             show this message.
+Amlogic DNL protocol tool V[2.6.3] at Aug 20 2021

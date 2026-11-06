@@ -1,0 +1,130 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\1_FLASHEAR_FIRMWARE_COMPLETO_B866V2.bat        
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\2_PREPARAR_MEMORIA_KINGSTON_DESBLOQUEO_Y_APP...
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\adb.exe                                        
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\AdbWinApi.dll                                  
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\AdbWinUsbApi.dll                               
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\adnl.exe                                       
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\Amldbglog.dll                                  
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\AmlLibusb.dll                                  
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\AmlUsbScanX3.dll                               
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\boot.img                                       
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\bootloader.img                                 
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\cache_ext4.img                                 
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\conf.img                                       
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\dtb.img                                        
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\dtbo.img                                       
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\env_unlocked.img                               
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\factory_update_param.aml                       
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\fastboot.exe                                   
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\libwinpthread-1.dll                            
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\libztebasecomp_jni.so                          
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\logo.img                                       
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\misc_clean.img                                 
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\misc_fastboot.img                              
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\mke2fs.conf                                    
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\mke2fs.exe                                     
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\MOTOR_FASTBOOT_B866V2.ps1                      
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\msvcp100.dll                                   
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\msvcp140.dll                                   
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\msvcr100.dll                                   
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\oem.img                                        
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\param.img                                      
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\recovery.img                                   
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\RESUMEN_PROCESO_B866V2.txt                     
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\SESION_FASTBOOT_B866V2.log                     
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\update.exe                                     
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\UsbRomDrv.dll                                  
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\vbmeta.img                                     
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\vccorlib140.dll                                
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\vcruntime140.dll                               
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\zlib1.dll                                      
+--- PROGRAMA PERFECTO ---
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR                                           
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV                                         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA                                      
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS                                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2                                       
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\BITACORA_EN_VIVO_EXE.log                                       
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\LEEME_GUIA_PROGRAMA_PERFECTO.md                                
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\NOTAS_VERIFICACION_EN_VIVO.md                                  
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\PROGRAMA_PERFECTO_XVIEW_B866V2.exe                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\adb.exe                                   
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AdbWinApi.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AdbWinUsbApi.dll                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\adnl.exe                                  
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\Amldbglog.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AmlLibusb.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AmlUsbScanX3.dll                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\app.ico                                   
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\fastboot.exe                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\fastboot_moderno.exe                      
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\libwinpthread-1.dll                       
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\mke2fs.conf                               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\mke2fs.exe                                
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\MONITOR_EN_VIVO_EXE.ps1                   
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\MOTOR_PROGRAMA_PERFECTO.ps1               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\msvcp100.dll                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\msvcp140.dll                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\msvcr100.dll                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\ProgramaPerfecto.cs                       
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\update.exe                                
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\UsbRomDrv.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\vccorlib140.dll                           
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\vcruntime140.dll                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\zlib1.dll                                 
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\AppDMC.apk                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\autostart.apk                           
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Button_Mapper_Pro_2.54.apk              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\DLStore.apk                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Downloader_2.0.4.apk                    
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Filemanager.apk                         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Hdplay.apk                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Home_Screen_Launcher_1.1.3.apk          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\signMagisTV_APS-MUTO.apk                
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\TVLauncher_4_GoogleTV.apk               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\xuper_hydra.apk                         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\factory_update_param.aml             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\logconfig.ini                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\QADEBUG.ini                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\QADEBUGTOOL.ini                      
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\usb_left.txt                         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\usb_right.txt                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\ADBAppControl-1.8.6-setup.exe          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\amd64         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\x86           
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpinst.xml    
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpinst32.exe  
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpinst64.exe  
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpscat.exe    
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\InstallDriv...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\Instruction...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\WorldCup_De...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\WorldCup_De...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\amd64\libus...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\amd64\libus...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\amd64\libus...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\x86\libusb0...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\x86\libusb0...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\x86\libusbK...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\boot.img                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\bootloader.img                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\conf.img                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img                               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtbo.img                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\env_unlocked.img                      
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\logo.img                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\misc_clean.img                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\oem.img                               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\param.img                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\recovery.img                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\vbmeta.img                            
+
+

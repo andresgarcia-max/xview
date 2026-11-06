@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\scripts\build-single-html.cjs:1002:            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 
+lg:gap-6 w-full max-w-5xl mx-auto">
+  LEGENDS\scripts\build-single-html.cjs:1003:
+> LEGENDS\scripts\build-single-html.cjs:1004:              {/* Opci�n 1: CLIENTE NUEVO */}
+  LEGENDS\scripts\build-single-html.cjs:1005:              <div 
+  LEGENDS\scripts\build-single-html.cjs:1006:                onClick={() => setShowNewMemberModal(true)}
+  LEGENDS\scripts\build-single-html.cjs:1007:                className="group relative h-[300px] sm:h-[330px] 
+lg:h-[350px] max-h-[40vh] rounded-3xl overflow-hidden border-2 border-amber-400/60 hover:border-amber-400 
+transition-all duration-500 shadow-[0_0_25px_rgba(245,158,11,0.25)] hover:shadow-[0_0_45px_rgba(245,158,11,0.55)] flex 
+flex-col justify-between p-5 cursor-pointer transform hover:-translate-y-2 select-none"
+  LEGENDS\scripts\build-single-html.cjs:1008:              >
+  LEGENDS\scripts\build-single-html.cjs:1009:                <img 
+  LEGENDS\scripts\build-single-html.cjs:1010:                  src={IMG_CARD_NUEVO} 
+> LEGENDS\scripts\build-single-html.cjs:1011:                  alt="Cliente Nuevo Gym" 
+  LEGENDS\scripts\build-single-html.cjs:1012:                  className="absolute inset-0 w-full h-full object-cover 
+object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+  LEGENDS\scripts\build-single-html.cjs:1013:                />
+  LEGENDS\scripts\build-single-html.cjs:1014:                <div className="absolute inset-0 bg-gradient-to-t 
+from-black/90 via-black/25 to-black/20 pointer-events-none" />
+  LEGENDS\scripts\build-single-html.cjs:1015:                <div className="absolute inset-0 bg-amber-500/10 
+opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+  LEGENDS\scripts\build-single-html.cjs:1016:
+  LEGENDS\scripts\build-single-html.cjs:1022:                <div className="relative z-10 p-3.5 rounded-2xl 
+bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+  LEGENDS\scripts\build-single-html.cjs:1023:                  <h3 className="text-xl sm:text-2xl font-black 
+text-white uppercase tracking-wider group-hover:text-amber-300 transition-colors 
+drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+> LEGENDS\scripts\build-single-html.cjs:1024:                    Cliente Nuevo
+  LEGENDS\scripts\build-single-html.cjs:1025:                  </h3>
+  LEGENDS\scripts\build-single-html.cjs:1026:                  
+  LEGENDS\scripts\build-single-html.cjs:1027:                  <div className="mt-2.5 pt-2 border-t border-white/15 
+flex items-center justify-between">
+  LEGENDS\scripts\build-single-html.cjs:1028:                    <span className="text-xs font-black text-amber-300 
+group-hover:text-amber-200 drop-shadow flex items-center gap-1">
+  LEGENDS\scripts\build-single-html.cjs:1029:                      Registrarme &rarr;
+  LEGENDS\scripts\build-single-html.cjs:1109:
+  LEGENDS\scripts\build-single-html.cjs:1110:
+> LEGENDS\scripts\build-single-html.cjs:1111:          {/* MODAL 1: REGISTRO CLIENTE NUEVO */}
+  LEGENDS\scripts\build-single-html.cjs:1112:          {showNewMemberModal && (
+  LEGENDS\scripts\build-single-html.cjs:1113:            <div className="fixed inset-0 z-50 bg-black/80 
+backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+  LEGENDS\scripts\build-single-html.cjs:1114:              <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl 
+border-2 border-amber-500/50 rounded-3xl max-w-xl w-full p-5 sm:p-6 shadow-2xl shadow-amber-500/15 animate-in 
+zoom-in-95 duration-200 my-auto max-h-[95vh] overflow-y-auto overflow-hidden">
+  LEGENDS\scripts\build-single-html.cjs:1115:                {/* Fondo de Mancuernas y Textura Fitness */}
+  LEGENDS\scripts\build-single-html.cjs:1116:                <div className="absolute inset-0 pointer-events-none z-0 
+overflow-hidden">
+  LEGENDS\scripts\build-single-html.cjs:1134:                      <div className="flex items-center gap-2">
+  LEGENDS\scripts\build-single-html.cjs:1135:                        <h3 className="text-lg sm:text-xl font-black 
+text-white uppercase tracking-wider">
+> LEGENDS\scripts\build-single-html.cjs:1136:                          Registro de Cliente Nuevo
+  LEGENDS\scripts\build-single-html.cjs:1137:                        </h3>
+  LEGENDS\scripts\build-single-html.cjs:1138:                        <span className="text-[10px] uppercase font-black 
+px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/40">
+  LEGENDS\scripts\build-single-html.cjs:1139:                          Inscripci�n
+  LEGENDS\scripts\build-single-html.cjs:1140:                        </span>
+  LEGENDS\scripts\build-single-html.cjs:1141:                      </div>
+
+

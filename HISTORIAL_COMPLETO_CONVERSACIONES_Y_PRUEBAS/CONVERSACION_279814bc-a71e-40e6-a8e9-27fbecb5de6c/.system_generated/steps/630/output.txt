@@ -1,0 +1,1 @@
+Made 1 replacement in c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\vite.config.ts starting at line 5 (+3/-0 lines).

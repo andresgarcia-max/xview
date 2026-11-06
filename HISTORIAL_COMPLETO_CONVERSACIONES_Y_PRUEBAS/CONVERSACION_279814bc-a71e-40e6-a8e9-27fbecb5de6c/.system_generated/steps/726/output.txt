@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+program
+cannot
+mode.
+.text
+.rsrc
+.reloc
+v4.0.30319
+Strings
+Module
+SISTEMA_ERP_ADMINISTRADOR.exe
+Program
+mscorlib
+System
+Object
+.ctor
+System.Runtime.CompilerServices
+CompilationRelaxationsAttribute
+RuntimeCompatibilityAttribute
+SISTEMA_ERP_ADMINISTRADOR
+STAThreadAttribute
+AppDomain
+get_CurrentDomain
+get_BaseDirectory
+String
+System.IO
+Combine
+Exists
+GetFullPath
+System.Diagnostics
+ProcessStartInfo

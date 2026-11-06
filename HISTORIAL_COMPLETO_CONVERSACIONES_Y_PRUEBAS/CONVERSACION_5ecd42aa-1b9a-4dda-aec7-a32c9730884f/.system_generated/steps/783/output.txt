@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+List of devices attached
+
+
+Status Class                    FriendlyName                    InstanceId                                   
+------ -----                    ------------                    ----------                                   
+OK     Camera                   Integrated Webcam               USB\VID_0BDA&PID_5650&MI_00\6&1D5726D5&0&0000
+OK     UCM                      Dispositivo ACPI UCM-UCSI       ACPI\USBC000\1                               
+OK     USB                      Dispositivo compuesto USB       USB\VID_0BDA&PID_5650\200901010001           
+OK     libusb-win32 Usb Devices WorldCup Device                 ROOT\LIBUSB-WIN32_USB_DEVICES\0000           
+OK     USB                      Concentrador raíz USB (USB 3.0) USB\ROOT_HUB30\4&2782102E&0&0                
+OK     Bluetooth                Intel(R) Wireless Bluetooth(R)  USB\VID_8087&PID_0A2B\5&2B41B6C5&0&7         
+
+

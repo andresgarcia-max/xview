@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+   Id ProcessName Path
+   -- ----------- ----
+23064 cmd             
+
+
+
+ProcessId ParentProcessId Name              CreationDate             
+--------- --------------- ----              ------------             
+     6312            8740 Aml_Burn_Tool.exe 05/11/2026 08:20:41 a. m.
+    23064            8740 cmd.exe           05/11/2026 08:21:42 a. m.
+    21940           23064 adnl.exe          05/11/2026 08:29:30 a. m.
+    17332           17972 powershell.exe    05/11/2026 08:32:06 a. m.
+
+

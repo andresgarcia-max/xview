@@ -1,0 +1,44 @@
+Command exited with code 0.
+
+Command output:
+EI_CLASS=1 e_machine=40
+0x309D6: <3>systemcontrol: [ubootenv] read error 0x%x 
+0x31145: <3>systemcontrol: [ubootenv] CRC Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+0x316C6: bootable/recovery/recovery_main.cpp
+0x31704: Entering fastboot
+0x31CFB: <3>systemcontrol: [ubootenv] get MTD info error
+0x31D30: <6>systemcontrol: [ubootenv] set property count: %d
+0x323D8: <3>systemcontrol: [ubootenv] %s is not a ubootenv varible.
+0x32414: <3>systemcontrol: [ubootenv] Not enough memory for environment (%u bytes)
+0x32BA1: <3>systemcontrol: [ubootenv] don't init done
+0x32BCF: <3>systemcontrol: [ubootenv] SYS_LOGE write, size %d 
+0x33906: <3>systemcontrol: [ubootenv] open devices error: %s
+0x34459: SetUSBHost 
+0x34484: <3>systemcontrol: [ubootenv] Get MTD info error
+0x350F6: Partitions may be mounted - rebooting to enter fastboot.
+0x3576C: <3>systemcontrol: [ubootenv] bootenv do not init
+0x3579E: <3>systemcontrol: [ubootenv] Invalid env data key:%s, value:%s
+0x35EB3: bootable/recovery/fastboot/fastboot.cpp
+0x35EDB: <3>systemcontrol: [ubootenv] CRC2 Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+0x35F2C: <3>systemcontrol: [ubootenv] Read access failed !!!
+0x3661B: fastboot
+0x366B6: <6>systemcontrol: [ubootenv] update value name [%s]: value [%s] 
+0x37275: Unable to unmap all partitions; fastboot may fail to flash.
+0x37673: <3>systemcontrol: [ubootenv] %s is not a ubootenv variable.
+0x376B0: <3>systemcontrol: [ubootenv] MEMERASE SYS_LOGE %d
+0x37E75: Rebooting to recovery/fastboot...
+0x37EFD: SetUSBDevice 
+0x38568: ubootenv.var.
+0x38599: <3>systemcontrol: [ubootenv] Out of memory!!!
+0x39253: <6>systemcontrol: [ubootenv] using %s with size(%d) (%d)
+0x3996C: <3>systemcontrol: [ubootenv] parse attribute malloc error 
+0x39F53: ubootenv.var.bootcmd
+0x39F68: <5>systemcontrol: [ubootenv] ubootenv.var.%s not found, create it.
+0x39FAC: <3>systemcontrol: [ubootenv] open devices error
+0x3ADDC: <3>systemcontrol: [ubootenv] error need '=' skip this value
+0x3B38F: <3>systemcontrol: [ubootenv] Cannot write %s: %d.
+0x3BFAA: <6>systemcontrol: [ubootenv] Save ubootenv to %s succeed!
+0x3BFE5: <3>systemcontrol: [ubootenv] read %s failed 
+0x3C56D: userrequested,fastboot
+0x3C5B4: <3>systemcontrol: [ubootenv] Cannot read %s: %d.
+0x3CB45: <3>systemcontrol: [ubootenv] open device(%s) error

@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     21/10/2026  06:13 p. m.           7924 App.tsx                                                              
+
+

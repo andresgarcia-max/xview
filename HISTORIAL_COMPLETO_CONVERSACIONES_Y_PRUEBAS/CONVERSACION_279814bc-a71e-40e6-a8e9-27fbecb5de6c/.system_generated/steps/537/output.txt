@@ -1,0 +1,30 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\App.tsx:6:import { TurnstileTerminal } from './components/access/TurnstileTerminal';
+LEGENDS\src\App.tsx:7:import { PosTerminal } from './components/pos/PosTerminal';
+LEGENDS\src\App.tsx:23:import { IndependentTerminalApp } from './components/access/IndependentTerminalApp';
+LEGENDS\src\App.tsx:26:export const isClientsMode = (): boolean => {
+LEGENDS\src\App.tsx:29:  if (searchParams.get('mode') === 'clients' || searchParams.get('tab') === 'clients') return 
+true;
+LEGENDS\src\App.tsx:33:export const isTerminalMode = (): boolean => {
+LEGENDS\src\App.tsx:36:  if (searchParams.get('mode') === 'main' || searchParams.get('mode') === 'pos' || 
+searchParams.get('tab') === 'pos') return false;
+LEGENDS\src\App.tsx:37:  if (searchParams.get('mode') === 'terminal' || searchParams.get('terminal') === 'true') 
+return true;
+LEGENDS\src\App.tsx:38:  if (window.location.pathname.toLowerCase().includes('terminal')) return true;
+LEGENDS\src\App.tsx:39:  if (window.location.hash.includes('terminal')) return true;
+LEGENDS\src\App.tsx:40:  if (localStorage.getItem('legends_device_mode') === 'main' || 
+localStorage.getItem('legends_device_mode') === 'pos') return false;
+LEGENDS\src\App.tsx:41:  if (localStorage.getItem('legends_device_mode') === 'terminal') return true;
+LEGENDS\src\App.tsx:42:  if ((window as any).electronAPI?.appMode === 'terminal') return true;
+LEGENDS\src\App.tsx:49:  const target = searchParams.get('tab') || searchParams.get('mode');
+LEGENDS\src\App.tsx:117:            {activeTab === 'access' && <TurnstileTerminal />}
+LEGENDS\src\App.tsx:119:              <PosTerminal 
+LEGENDS\src\App.tsx:183:  const [terminalMode] = useState<boolean>(() => isTerminalMode());
+LEGENDS\src\App.tsx:185:  // Independent Turnstile terminal mode for separate computer
+LEGENDS\src\App.tsx:186:  if (terminalMode) {
+LEGENDS\src\App.tsx:187:    return <IndependentTerminalApp />;
+
+

@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+KeyName                                                  Data
+-------                                                  ----
+DEVPKEY_Device_RemovalPolicy                                3
+DEVPKEY_Device_RemovalPolicyDefault                         3
+DEVPKEY_Device_SafeRemovalRequired                       True
+DEVPKEY_Device_IsPresent                                 True
+DEVPKEY_Device_LastArrivalDate      05/11/2026 08:23:01 a. m.
+
+

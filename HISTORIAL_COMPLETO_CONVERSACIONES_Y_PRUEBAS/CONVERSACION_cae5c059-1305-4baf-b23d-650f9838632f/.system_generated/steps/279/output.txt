@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+Get-ChildItem : No se puede convertir 'System.Object[]' al tipo 'System.String' requerido por el par�metro 'Filter'. 
+El m�todo especificado no es compatible.
+En l�nea: 1 Car�cter: 31
++ ... m -Path . -Filter "*Control*.*", "*terminal*.*", "*ACCESO*.*" -Recurs ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-ChildItem], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgument,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 

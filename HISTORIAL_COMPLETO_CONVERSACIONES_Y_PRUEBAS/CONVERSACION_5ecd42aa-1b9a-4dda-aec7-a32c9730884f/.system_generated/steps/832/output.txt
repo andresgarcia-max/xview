@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+
+Path                                                                                                        LineNumber
+----                                                                                                        ----------
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc         65
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc         80
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc         91
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc         92
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        106
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        108
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        114
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        129
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        145
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        161
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        177
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        194
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        211
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        228
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        236
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        237
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        259
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        358
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc        359
+
+

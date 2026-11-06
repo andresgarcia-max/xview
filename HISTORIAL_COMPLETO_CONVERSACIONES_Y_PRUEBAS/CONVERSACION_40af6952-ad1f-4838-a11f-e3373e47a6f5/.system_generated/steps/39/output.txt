@@ -1,0 +1,158 @@
+Command exited with code 1.
+
+Command output:
+=== TRUSTED PUBLISHER CERTS ===
+
+
+Subject    : CN=Google Inc, OU=Digital ID Class 3 - Java Object Signing, OU=Digital ID Class 3 - Java Object Signing, 
+             O=Google Inc, L=Mountain View, S=California, C=US
+Issuer     : CN=VeriSign Class 3 Code Signing 2010 CA, OU=Terms of use at https://www.verisign.com/rpa (c)10, 
+             OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US
+Thumbprint : FCAC7E666CC54341CA213BECF2EB463F2B62ADB0
+NotBefore  : 28/01/2014 06:00:00 p. m.
+NotAfter   : 29/01/2016 05:59:59 p. m.
+
+Subject    : CN=libusb-win32 (WorldCup_Device.inf) [Self]
+Issuer     : CN=libusb-win32 (WorldCup_Device.inf) [Self]
+Thumbprint : DF6CB339A64EFF95F3C534C6D07686D88DAFD6CC
+NotBefore  : 13/04/2026 01:08:45 p. m.
+NotAfter   : 31/12/2028 06:00:00 p. m.
+
+Subject    : CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US
+Issuer     : CN=DigiCert Assured ID Code Signing CA-1, OU=www.digicert.com, O=DigiCert Inc, C=US
+Thumbprint : A3958AE522F3C54B878B20D7B0F63711E08666B2
+NotBefore  : 07/11/2019 06:00:00 p. m.
+NotAfter   : 16/11/2022 06:00:00 a. m.
+
+Subject    : CN=libwdi (android_winusb.inf) [Self]
+Issuer     : CN=libwdi (android_winusb.inf) [Self]
+Thumbprint : 974CA9B2F8AA8FC67B63026805D12499123A3F66
+NotBefore  : 05/03/2026 08:34:06 a. m.
+NotAfter   : 31/12/2028 06:00:00 p. m.
+
+Subject    : CN=UniversalADB
+Issuer     : CN=UniversalADB
+Thumbprint : 2678AF3CF85BF9AB837FFAF10500B833C7FBEFE7
+NotBefore  : 13/06/2025 04:39:17 p. m.
+NotAfter   : 31/12/2039 05:59:59 p. m.
+
+
+
+=== ROOT CERTS (NON-MICROSOFT / SELF / LIBWDI / LIBUSB) ===
+
+Subject                                                                                                                
+-------                                                                                                                
+CN=libusb-win32 (WorldCup_Device.inf) [Self]                                                                           
+CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com                                                          
+CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA                      
+CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp.                           
+CN=libwdi (android_winusb.inf) [Self]                                                                                  
+CN=Symantec Enterprise Mobile Root for Microsoft, O=Symantec Corporation, C=US                                         
+CN=Microsoft Root Certificate Authority 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US                   
+CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US                                                             
+CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US                   
+CN=Microsoft ECC TS Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US            
+CN=UniversalADB                                                                                                        
+OU=Copyright (c) 1997 Microsoft Corp., OU=Microsoft Time Stamping Service Root, OU=Microsoft Corporation, O=Microsoft  
+Trust Network                                                                                                          
+OU="NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.", OU=VeriSign Time Stamping Service Root, OU="VeriSign, Inc.",         
+O=VeriSign Trust Network                                                                                               
+CN=Microsoft ECC Product Root Certificate Authority 2018, O=Microsoft Corporation, L=Redmond, S=Washington, C=US       
+CN=Microsoft Time Stamp Root Certificate Authority 2014, O=Microsoft Corporation, L=Redmond, S=Washington, C=US        
+CN=Microsoft Identity Verification Root Certificate Authority 2020, O=Microsoft Corporation, C=US                      
+CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US                                                  
+CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM                    
+CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US                                                 
+CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3                                                                
+CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, S=New Jersey, C=US                   
+CN=Sectigo Public Code Signing Root R46, O=Sectigo Limited, C=GB                                                       
+CN=ISRG Root X1, O=Internet Security Research Group, C=US                                                              
+CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, S=Texas, C=US                               
+CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE                                                            
+CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB                      
+OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US                                   
+CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US                                                  
+CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US                                        
+CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, S=Arizona, C=US 
+CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See            
+www.entrust.net/legal-terms, O="Entrust, Inc.", C=US                                                                   
+CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6                                                                
+CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US                                                  
+OU=Class 3 Public Primary Certification Authority, O="VeriSign, Inc.", C=US                                            
+CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US                                        
+CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US                                       
+OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP                                              
+CN=DigiCert CS RSA4096 Root G5, O="DigiCert, Inc.", C=US                                                               
+CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by 
+ref. (limits liab.), O=Entrust.net                                                                                     
+CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use      
+only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US                                                             
+CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, S=Arizona, C=US                      
+CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only",            
+OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US                                                                    
+CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, S=New Jersey, C=US                   
+OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US                                        
+CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL                     
+CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US                                              
+CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE                                    
+
+
+=== DEVICE GUARD / HVCI / CI ===
+
+
+CachedDrtmAuthIndex                     : 0
+RequireMicrosoftSignedBootChain         : 0
+WasEnabledBy                            : 1
+EnableVirtualizationBasedSecurity       : 0
+HyperVVirtualizationBasedSecurityOptout : 0
+PSPath                                  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlS
+                                          et\Control\DeviceGuard
+PSParentPath                            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlS
+                                          et\Control
+PSChildName                             : DeviceGuard
+PSDrive                                 : HKLM
+PSProvider                              : Microsoft.PowerShell.Core\Registry
+
+WasEnabledBy  : 0
+Enabled       : 0
+EnabledBootId : 0
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Sce
+                narios\HypervisorEnforcedCodeIntegrity
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Sce
+                narios
+PSChildName   : HypervisorEnforcedCodeIntegrity
+PSDrive       : HKLM
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+VulnerableDriverBlocklistEnable : 1
+RevocationListLcuKirValue       : 0
+PSPath                          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contr
+                                  ol\CI\Config
+PSParentPath                    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contr
+                                  ol\CI
+PSChildName                     : Config
+PSDrive                         : HKLM
+PSProvider                      : Microsoft.PowerShell.Core\Registry
+
+EmodePolicyRequired             : 0
+SkuPolicyRequired               : 0
+VerifiedAndReputablePolicyState : 0
+SAC_PreviousState               : 4294967295
+PSPath                          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contr
+                                  ol\CI\Policy
+PSParentPath                    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contr
+                                  ol\CI
+PSChildName                     : Policy
+PSDrive                         : HKLM
+PSProvider                      : Microsoft.PowerShell.Core\Registry
+
+Confirm-SecureBootUEFI : No se pudieron establecer privilegios adecuados. Acceso denegado.
+En línea: 10 Carácter: 1
++ Confirm-SecureBootUEFI -ErrorAction SilentlyContinue
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (Microsoft.Secur...BootUefiCommand:ConfirmSecureBootUefiCommand) [Conf 
+   irm-SecureBootUEFI], UnauthorizedAccessException
+    + FullyQualifiedErrorId : SetPrivilegeFailed,Microsoft.SecureBoot.Commands.ConfirmSecureBootUefiCommand
+ 
+
+

@@ -1,0 +1,70 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                    Length   La
+                                                                                                                     st
+                                                                                                                     Wr
+                                                                                                                     it
+                                                                                                                     eT
+                                                                                                                     im
+                                                                                                                     e 
+--------                                                                                                    ------   --
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2                                  01
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2-FlashATV12 - Evoca.bat  2136     01
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\Descargas - Acceso directo.lnk 801      02
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\.gitignore              16       21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\7za.exe                 739840   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\adb.exe                 5992960  31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\AdbWinApi.dll           97792    06
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\AdbWinUsbApi.dll        62976    06
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\adnl.exe                2436809  20
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\Amldbglog.dll           11776    21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\AmlLibusb.dll           26624    21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\AmlUsbScanX3.dll        26112    21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\boot.img                16777216 26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\bootloader.img          1857536  31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\brotli.exe              780536   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\busybox.exe             234496   05
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\conf.img                4194304  26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\cri_data.img            8388608  26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\cygwin1.dll             3406908  21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\cygz.dll                81437    21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\dmtracedump.exe         241664   31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\dtb.img                 262144   26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\dtbo.img                8388608  26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\etc1tool.exe            434176   31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\factory.img             8388608  26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\fastboot.exe            1775104  31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\hprof-conv.exe          44032    31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\libiconv2.dll           978432   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\libintl3.dll            103424   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\libmagic.dll            381440   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\libwinpthread-1.dll     141538   12
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\logo.ccd                768      26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\logo.img                287800   18
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\logo.sub                92160    26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\magic.mgc               5842840  21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\make_f2fs.exe           150528   31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\make_f2fs_casefold.exe  150528   31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\mke2fs.conf             1157     31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\mke2fs.exe              749568   31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\msvcp100.dll            421200   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\msvcp140.dll            419984   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\msvcr100.dll            773968   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\NOTICE.txt              1073883  31
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\oem.img                 16777216 26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\param.img               16777216 26
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\pcre3.dll               140288   21
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\recovery.img            25165824 01
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\regex2.dll              79360    29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\source.properties       40       29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\sqlite3.exe             1153536  29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\update.exe              59904    29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\UsbRomDrv.dll           24576    29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\vbmeta.img              2097152  29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\vccorlib140.dll         264032   29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\vcruntime140.dll        77576    29
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\zlib1.dll               107520   29
+
+

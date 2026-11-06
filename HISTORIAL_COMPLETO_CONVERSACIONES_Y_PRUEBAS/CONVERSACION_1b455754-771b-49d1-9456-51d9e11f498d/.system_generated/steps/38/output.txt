@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+fatal: not a git repository (or any of the parent directories): .git
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=true
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+INFORMACIÓN: no se pudo encontrar ningún archivo para los patrones dados.
+Total size of microtik folder: 303.94 MB

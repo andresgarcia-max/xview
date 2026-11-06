@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+   Id ProcessName WorkingSet64
+   -- ----------- ------------
+ 4032 electron       146747392
+ 7416 electron       124735488
+12668 electron        47718400
+13720 electron       138940416
+
+

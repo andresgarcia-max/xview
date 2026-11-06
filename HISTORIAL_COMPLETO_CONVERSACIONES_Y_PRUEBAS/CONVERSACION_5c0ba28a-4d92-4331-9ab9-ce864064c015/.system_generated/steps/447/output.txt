@@ -1,0 +1,113 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\context\GymContext.tsx:42:
+  LEGENDS\src\context\GymContext.tsx:43:interface GymContextType {
+  LEGENDS\src\context\GymContext.tsx:44:  // Auth & Session
+> LEGENDS\src\context\GymContext.tsx:45:  currentUser: Employee | null;
+  LEGENDS\src\context\GymContext.tsx:46:  isAuthenticated: boolean;
+  LEGENDS\src\context\GymContext.tsx:47:  securityAlert: string | null;
+  LEGENDS\src\context\GymContext.tsx:48:  clearSecurityAlert: () => void;
+  LEGENDS\src\context\GymContext.tsx:49:  securityAuditLogs: SecurityAuditEvent[];
+  LEGENDS\src\context\GymContext.tsx:50:  login: (
+  LEGENDS\src\context\GymContext.tsx:203:    storageUsageKb: storage.getStorageUsageKb(),
+  LEGENDS\src\context\GymContext.tsx:204:  });
+  LEGENDS\src\context\GymContext.tsx:205:
+> LEGENDS\src\context\GymContext.tsx:206:  const [currentUser, setCurrentUserState] = useState<Employee | null>(() => 
+storage.getCurrentUser());
+> LEGENDS\src\context\GymContext.tsx:207:  const currentUserRef = useRef<Employee | null>(currentUser);
+> LEGENDS\src\context\GymContext.tsx:208:  currentUserRef.current = currentUser;
+  LEGENDS\src\context\GymContext.tsx:209:  const runtimeTabIdRef = 
+useRef<string>(`TAB_${Date.now()}_${Math.random().toString(36).slice(2, 9)}`);
+  LEGENDS\src\context\GymContext.tsx:210:  const [securityAlert, setSecurityAlertState] = useState<string | null>(() 
+=> storage.getSecurityAlert());
+  LEGENDS\src\context\GymContext.tsx:211:  const [securityAuditLogs, setSecurityAuditLogs] = 
+useState<SecurityAuditEvent[]>(() => storage.getSecurityAuditLogs());
+> LEGENDS\src\context\GymContext.tsx:212:  const isAuthenticated = currentUser !== null;
+  LEGENDS\src\context\GymContext.tsx:213:  const [isTerminalConnected, setIsTerminalConnected] = 
+useState<boolean>(false);
+  LEGENDS\src\context\GymContext.tsx:214:
+  LEGENDS\src\context\GymContext.tsx:215:  const clearSecurityAlert = useCallback(() => {
+  LEGENDS\src\context\GymContext.tsx:216:    setSecurityAlertState(null);
+  LEGENDS\src\context\GymContext.tsx:217:    storage.setSecurityAlert(null);
+  LEGENDS\src\context\GymContext.tsx:631:
+  LEGENDS\src\context\GymContext.tsx:632:    // If this tab just detected a copy/paste URL breach during 
+initialization, notify the original tab immediately
+  LEGENDS\src\context\GymContext.tsx:633:    const initialAlert = storage.getSecurityAlert();
+> LEGENDS\src\context\GymContext.tsx:634:    if (initialAlert && !currentUserRef.current) {
+  LEGENDS\src\context\GymContext.tsx:635:      channel?.postMessage({
+  LEGENDS\src\context\GymContext.tsx:636:        type: 'FORCE_SECURITY_LOGOUT',
+  LEGENDS\src\context\GymContext.tsx:637:        tabId: runtimeTabIdRef.current,
+  LEGENDS\src\context\GymContext.tsx:638:        reason: initialAlert
+  LEGENDS\src\context\GymContext.tsx:639:      });
+  LEGENDS\src\context\GymContext.tsx:650:        const data = event.data;
+  LEGENDS\src\context\GymContext.tsx:651:        if (!data || data.tabId === runtimeTabIdRef.current) return;
+  LEGENDS\src\context\GymContext.tsx:652:
+> LEGENDS\src\context\GymContext.tsx:653:        if (data.type === 'TAB_MOUNTED' && currentUserRef.current) {
+  LEGENDS\src\context\GymContext.tsx:654:          // Another tab was opened while this tab has an active session!
+  LEGENDS\src\context\GymContext.tsx:655:          const breachMsg =
+  LEGENDS\src\context\GymContext.tsx:656:            '?? Sesi�n cerrada por seguridad: Se detect� que el enlace del 
+sistema fue copiado o abierto en otra pesta�a. Por protecci�n de la terminal, la sesi�n ha sido cerrada.';
+> LEGENDS\src\context\GymContext.tsx:657:          const activeUser = currentUserRef.current;
+> LEGENDS\src\context\GymContext.tsx:658:          storage.saveCurrentUser(null);
+  LEGENDS\src\context\GymContext.tsx:659:          storage.setSecurityAlert(breachMsg);
+  LEGENDS\src\context\GymContext.tsx:660:          storage.addSecurityAuditLog({
+  LEGENDS\src\context\GymContext.tsx:661:            type: 'MULTI_TAB_BREACH',
+  LEGENDS\src\context\GymContext.tsx:662:            userName: activeUser.fullName,
+  LEGENDS\src\context\GymContext.tsx:663:            role: activeUser.role,
+  LEGENDS\src\context\GymContext.tsx:664:            details: 'Cierre forzoso: Se abri� una pesta�a secundaria 
+mientras la sesi�n estaba activa.'
+  LEGENDS\src\context\GymContext.tsx:665:          });
+> LEGENDS\src\context\GymContext.tsx:666:          currentUserRef.current = null;
+> LEGENDS\src\context\GymContext.tsx:667:          setCurrentUserState(null);
+  LEGENDS\src\context\GymContext.tsx:668:          setSecurityAlertState(breachMsg);
+  LEGENDS\src\context\GymContext.tsx:669:          setSecurityAuditLogs(storage.getSecurityAuditLogs());
+  LEGENDS\src\context\GymContext.tsx:670:          sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:671:
+  LEGENDS\src\context\GymContext.tsx:672:          channel.postMessage({
+  LEGENDS\src\context\GymContext.tsx:678:          const reason =
+  LEGENDS\src\context\GymContext.tsx:679:            data.reason ||
+  LEGENDS\src\context\GymContext.tsx:680:            '?? Sesi�n cerrada por seguridad: Se detect� actividad o apertura 
+del enlace en otra pesta�a.';
+> LEGENDS\src\context\GymContext.tsx:681:          storage.saveCurrentUser(null);
+> LEGENDS\src\context\GymContext.tsx:682:          currentUserRef.current = null;
+> LEGENDS\src\context\GymContext.tsx:683:          setCurrentUserState(null);
+  LEGENDS\src\context\GymContext.tsx:684:          setSecurityAlertState(reason);
+  LEGENDS\src\context\GymContext.tsx:685:          setSecurityAuditLogs(storage.getSecurityAuditLogs());
+  LEGENDS\src\context\GymContext.tsx:686:          sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:687:        }
+  LEGENDS\src\context\GymContext.tsx:688:      };
+  LEGENDS\src\context\GymContext.tsx:689:    }
+  LEGENDS\src\context\GymContext.tsx:690:
+  LEGENDS\src\context\GymContext.tsx:691:    const handleStorageEvent = (e: StorageEvent) => {
+> LEGENDS\src\context\GymContext.tsx:692:      if (e.key === 'legends_active_session_lock_v1' && !e.newValue && 
+currentUserRef.current) {
+  LEGENDS\src\context\GymContext.tsx:693:        const alertMsg =
+  LEGENDS\src\context\GymContext.tsx:694:          storage.getSecurityAlert() ||
+  LEGENDS\src\context\GymContext.tsx:695:          '?? Sesi�n finalizada: La sesi�n fue cerrada por seguridad desde 
+otra pesta�a.';
+  LEGENDS\src\context\GymContext.tsx:696:        sessionStorage.removeItem('legends_tab_session_user_v1');
+  LEGENDS\src\context\GymContext.tsx:697:        sessionStorage.removeItem('legends_tab_session_token_v1');
+  LEGENDS\src\context\GymContext.tsx:698:        window.name = '';
+> LEGENDS\src\context\GymContext.tsx:699:        currentUserRef.current = null;
+> LEGENDS\src\context\GymContext.tsx:700:        setCurrentUserState(null);
+  LEGENDS\src\context\GymContext.tsx:701:        setSecurityAlertState(alertMsg);
+  LEGENDS\src\context\GymContext.tsx:702:        setSecurityAuditLogs(storage.getSecurityAuditLogs());
+  LEGENDS\src\context\GymContext.tsx:703:        sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:704:      } else if (e.key === 'legends_security_alert_v1' && e.newValue) {
+  LEGENDS\src\context\GymContext.tsx:705:        setSecurityAlertState(e.newValue);
+  LEGENDS\src\context\GymContext.tsx:706:        setSecurityAuditLogs(storage.getSecurityAuditLogs());
+> LEGENDS\src\context\GymContext.tsx:707:        if (currentUserRef.current) {
+  LEGENDS\src\context\GymContext.tsx:708:          sessionStorage.removeItem('legends_tab_session_user_v1');
+  LEGENDS\src\context\GymContext.tsx:709:          sessionStorage.removeItem('legends_tab_session_token_v1');
+  LEGENDS\src\context\GymContext.tsx:710:          window.name = '';
+> LEGENDS\src\context\GymContext.tsx:711:          currentUserRef.current = null;
+> LEGENDS\src\context\GymContext.tsx:712:          setCurrentUserState(null);
+  LEGENDS\src\context\GymContext.tsx:713:          sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:714:        }
+  LEGENDS\src\context\GymContext.tsx:715:      }
+  LEGENDS\src\context\GymContext.tsx:716:    };
+  LEGENDS\src\context\GymContext.tsx:717:
+
+

@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+
+    MB FullName                                                                                                
+    -- --------                                                                                                
+ 32.83 C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\com.xuper.netxxus.apk    
+ 32.59 C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\signMagisTV_APS-MUTO.apk 
+  38.5 C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\tv.mxlmovies.app.apk     
+ 36.45 C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\TVLauncher_4_GoogleTV.apk
+ 34.27 C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\xuper_hydra.apk          
+    64 C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img         
+  1800 C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img              
+547.42 C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\product.img                                         
+  1800 C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\super.img                                           
+
+

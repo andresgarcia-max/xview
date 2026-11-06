@@ -1,0 +1,6 @@
+USER            PID   PPID     VSZ    RSS WCHAN            ADDR S NAME                       
+system         7172   5031   15424   2952 balance_dirty_pages_ratelimited 0 D logcat
+system         7186   5031   15840   2880 0                   0 R logcat
+system         7196      1   16248   3072 0                   0 R ps
+system         7198      1    3292    856 0                   0 R top
+system         7200      1   13344   1500 0                   0 R ifconfig

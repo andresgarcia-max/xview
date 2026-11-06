@@ -1,0 +1,11 @@
+Command exited with code 1.
+
+Command output:
+Get-Process : No se encuentra ning�n proceso con el nombre "ControlDeAccesoLegends". Compruebe el nombre del proceso y 
+ejecute de nuevo el cmdlet.
+En l�nea: 1 Car�cter: 1
++ Get-Process -Name 'ControlDeAccesoLegends' | Select-Object Id, Proces ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ControlDeAccesoLegends:String) [Get-Process], ProcessCommandException
+    + FullyQualifiedErrorId : NoProcessFoundForGivenName,Microsoft.PowerShell.Commands.GetProcessCommand
+ 

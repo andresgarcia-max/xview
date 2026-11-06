@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+@echo off
+title FITNESS LEGENDS - Terminal de Control de Acceso
+start "" "%~dp0LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\ControlDeAccesoLegends.exe" --terminal

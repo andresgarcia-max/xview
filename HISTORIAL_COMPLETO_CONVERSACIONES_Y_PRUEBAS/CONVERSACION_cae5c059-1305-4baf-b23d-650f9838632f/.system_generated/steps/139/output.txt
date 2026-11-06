@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     24/10/2026  09:36 a. m.                gym_media                                                            
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym_media
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     23/10/2026  10:19 p. m.         212508 atleta_boxeo_entrenamiento.jpg                                       
+-a----     23/10/2026  10:19 p. m.         276430 atleta_crossfit_cuerdas.jpg                                          
+-a----     23/10/2026  10:19 p. m.          43793 avatar_socia_atleta_2.jpg                                            
+-a----     23/10/2026  10:19 p. m.          56473 avatar_socia_mujer_1.jpg                                             
+-a----     23/10/2026  10:19 p. m.          64019 avatar_socio_atleta_2.jpg                                            
+-a----     23/10/2026  10:19 p. m.         106479 avatar_socio_hombre_1.jpg                                            
+-a----     23/10/2026  10:19 p. m.         332670 banco_pesas_reclinable.jpg                                           
+-a----     23/10/2026  10:19 p. m.         255191 barra_olimpica_y_discos.jpg                                          
+-a----     23/10/2026  10:19 p. m.         230173 caminadoras_cardio_fila.jpg                                          
+-a----     23/10/2026  10:19 p. m.         112140 entrada_gimnasio_recepcion.jpg                                       
+-a----     23/10/2026  10:19 p. m.         126692 entrenadora_personal_fit.jpg                                         
+-a----     23/10/2026  10:19 p. m.        3978592 legends_gym_caminadoras_8k.jpg                                       
+-a----     23/10/2026  10:19 p. m.         130050 modelo_culturista_pose.jpg                                           
+-a----     23/10/2026  10:19 p. m.         198147 modelo_femenino_mancuernas.jpg                                       
+-a----     23/10/2026  10:19 p. m.         116325 modelo_masculino_fuerza.jpg                                          
+-a----     23/10/2026  10:19 p. m.         351843 pesas_rusas_kettlebells.jpg                                          
+-a----     23/10/2026  10:19 p. m.         186300 rack_mancuernas_profesional.jpg                                      
+-a----     23/10/2026  10:19 p. m.         177159 sala_maquinas_gimnasio_panoramica.jpg                                
+-a----     23/10/2026  10:19 p. m.         183947 zona_entrenamiento_funcional.jpg                                     
+
+

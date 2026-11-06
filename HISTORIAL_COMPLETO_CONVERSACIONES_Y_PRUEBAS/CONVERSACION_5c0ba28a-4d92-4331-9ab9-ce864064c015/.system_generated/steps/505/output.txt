@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                Length LastWriteTime            
+----                                ------ -------------            
+1. SISTEMA_ERP_ADMINISTRADOR.exe     40448 24/10/2026 11:54:06 a. m.
+2. TERMINAL_TORNIQUETE_ACCESO.exe    40448 24/10/2026 11:54:08 a. m.
+3. CARTERA_DE_CLIENTES.html          87405 24/10/2026 10:52:53 a. m.
+4. VINCULAR_EQUIPOS_RED_LAN.bat       2402 24/10/2026 10:53:21 a. m.
+LEEME_INSTRUCCIONES_VINCULACION.txt   4487 24/10/2026 10:53:30 a. m.
+
+

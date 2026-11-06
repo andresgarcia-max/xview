@@ -1,0 +1,30 @@
+Command exited with code 0.
+
+Command output:
+= : El t�rmino '=' no se reconoce como nombre de un cmdlet, funci�n, archivo de script o programa ejecutable. 
+Compruebe si escribi� correctamente el nombre o, si incluy� una ruta de acceso, compruebe que dicha ruta es correcta e 
+int�ntelo de nuevo.
+En l�nea: 1 Car�cter: 2
++  = New-Object -ComObject WScript.Shell; Get-ChildItem -Filter '*.lnk' ...
++  ~
+    + CategoryInfo          : ObjectNotFound: (=:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.Name : El t�rmino '.Name' no se reconoce como nombre de un cmdlet, funci�n, archivo de script o programa ejecutable. 
+Compruebe si escribi� correctamente el nombre o, si incluy� una ruta de acceso, compruebe que dicha ruta es correcta e 
+int�ntelo de nuevo.
+En l�nea: 1 Car�cter: 116
++ ... er '*.lnk' | ForEach-Object { [PSCustomObject]@{ Name = .Name; Target ...
++                                                             ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.Name : El t�rmino '.Name' no se reconoce como nombre de un cmdlet, funci�n, archivo de script o programa ejecutable. 
+Compruebe si escribi� correctamente el nombre o, si incluy� una ruta de acceso, compruebe que dicha ruta es correcta e 
+int�ntelo de nuevo.
+En l�nea: 1 Car�cter: 116
++ ... er '*.lnk' | ForEach-Object { [PSCustomObject]@{ Name = .Name; Target ...
++                                                             ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

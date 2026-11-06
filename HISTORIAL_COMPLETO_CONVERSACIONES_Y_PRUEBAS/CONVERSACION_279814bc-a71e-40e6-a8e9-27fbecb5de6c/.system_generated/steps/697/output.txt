@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+
+
+Name       : 1. Sistema ERP Administrador.lnk
+TargetPath : C:\Users\andre\OneDrive\Desktop\gym\accesos directos\1. SISTEMA_ERP_ADMINISTRADOR.exe
+Arguments  : --main
+
+Name       : 2. Terminal Torniquete de Acceso.lnk
+TargetPath : C:\Users\andre\OneDrive\Desktop\gym\accesos directos\2. TERMINAL_TORNIQUETE_ACCESO.exe
+Arguments  : --terminal
+
+Name       : 3. Cartera de Clientes & Socios.lnk
+TargetPath : C:\Users\andre\OneDrive\Desktop\gym\accesos directos\3. ACCESO_CARTERA_CLIENTES.bat
+Arguments  : 
+
+Name       : 4. Vincular Equipos en Red LAN.lnk
+TargetPath : C:\Users\andre\OneDrive\Desktop\gym\accesos directos\4. VINCULAR_EQUIPOS_RED_LAN.bat
+Arguments  : 
+
+
+

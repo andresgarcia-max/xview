@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+ERP Launchers created successfully:
+
+Name                             DirectoryName                                        Length
+----                             -------------                                        ------
+SISTEMA_ERP.exe                  C:\Users\andre\OneDrive\Desktop\gym                   40448
+FITNESS_LEGENDS_SISTEMA_ERP.exe  C:\Users\andre\OneDrive\Desktop\gym                   40448
+1. SISTEMA_ERP_ADMINISTRADOR.exe C:\Users\andre\OneDrive\Desktop\gym\accesos directos  40448
+SISTEMA_ERP.exe                  C:\Users\andre\OneDrive\Desktop\gym\accesos directos  40448
+
+

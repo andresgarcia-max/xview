@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+
+   Id ProcessName                    StartTime                
+   -- -----------                    ---------                
+20576 adb                            02/11/2026 10:58:00 p. m.
+21340 PROGRAMA_PERFECTO_XVIEW_B866V2 04/11/2026 10:11:52 p. m.
+[2026-11-04 21:52:52.999] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]):
+[2026-11-04 21:55:01.571] [MENU] Usuario selecciono opcion: '3'
+[2026-11-04 21:55:01.674] [CMD] adb.exe devices (Exit=0) -> List of devices attached
+[2026-11-04 21:55:01.680] [NET_SCAN] Escaneando subred local para puerto ADB 5555...
+[2026-11-04 21:55:01.680] [UI] [*] Escaneando red local en busca de la caja (:5555)...
+[2026-11-04 21:55:07.373] [UI] [!] No se detecto ADB activo. Usa la Opcion [1] (4 Pasos Directos).
+[2026-11-04 21:55:07.375] [UI] Presiona ENTER para volver:
+[2026-11-04 21:55:13.513] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-04 21:55:13.513] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]):
+[2026-11-04 21:55:15.327] [MENU] Usuario selecciono opcion: '2'
+[2026-11-04 21:55:15.327] [UI] [!] Inserta la memoria USB KINGSTON en la PC para copiarle los archivos.
+[2026-11-04 21:55:15.336] [UI] Presiona ENTER para volver:
+[2026-11-04 21:55:27.600] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-04 21:55:27.618] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]):
+[2026-11-04 22:11:53.193] [SESION] === INICIO DE PROGRAMA_PERFECTO_XVIEW_B866V2.EXE v4.0 (PID=21340) ===
+[2026-11-04 22:11:53.794] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-04 22:11:53.800] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]):
+[2026-11-04 22:12:15.161] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 22:12:15.177] [MISION_4_PASOS] === INICIANDO FLUJO DIRECTO DE 4 PASOS ===
+[2026-11-04 22:12:15.179] [UI] [PASO 1/4] ESCANEANDO LA MEMORIA...
+[2026-11-04 22:12:15.181] [UI] [+] Memoria USB KINGSTON lista en la caja (con factory_update_param.aml + QADEBUG.ini).
+[2026-11-04 22:12:15.183] [UI] [OK] Memoria de Firmware verificada: 13 particiones .img + 15 APKs de Interfaz Xview Liberada.
+[2026-11-04 22:12:15.185] [UI] [PASO 2/4] ENTRANDO EN MODO FASTBOOT...
+[2026-11-04 22:12:15.185] [UI] * Esperando senal de la caja (Si esta encendida: desconecta corriente, manten
+[2026-11-04 22:12:15.185] [UI] presionado RESET y conecta corriente con la memoria USB puesta)...
+
+

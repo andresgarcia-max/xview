@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+09-04 14:16:43.324  3676  3676 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.tv.settings/.system.FallbackHome (has extras)} from uid 0
+09-04 14:16:43.488  3676  3676 I wm_create_activity: [0,197041643,2,com.android.tv.settings/.system.FallbackHome,android.intent.action.MAIN,NULL,NULL,276824320]
+09-04 14:16:50.365  3676  4061 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+09-04 14:16:50.382  3676  4061 I wm_create_activity: [0,243087000,12356,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,android.intent.action.MAIN,NULL,NULL,268435712]
+09-04 14:16:57.760  3676  4970 I ActivityTaskManager: START u0 {act=android.intent.action.RUN dat=megacable://com.dotscreen.megacable.updater/schedule flg=0x10000000 cmp=com.dotscreen.megacable.updater/.KeepAliveActivity} from uid 10013
+09-04 14:16:57.790  3676  4970 I wm_create_activity: [0,114617719,12357,com.dotscreen.megacable.updater/.KeepAliveActivity,android.intent.action.RUN,NULL,megacable://com.dotscreen.megacable.updater/schedule,268435456]
+09-04 14:16:57.822  3676  4097 I ActivityTaskManager: START u0 {act=android.intent.action.RUN dat=megacable://com.dotscreen.megacable.core/schedule flg=0x10000000 cmp=com.dotscreen.megacable.core/.KeepAliveActivity} from uid 10013
+09-04 14:16:57.865  3676  4097 I wm_create_activity: [0,252563012,12358,com.dotscreen.megacable.core/.KeepAliveActivity,android.intent.action.RUN,NULL,megacable://com.dotscreen.megacable.core/schedule,268435456]
+09-04 14:18:18.000  3676  6581 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=megacable://com.dotscreen.megacable.portal/applications cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.applications.ApplicationsActivity} from uid 10013
+09-04 14:18:18.011  3676  6581 I wm_create_activity: [0,154924059,12356,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.applications.ApplicationsActivity,android.intent.action.VIEW,NULL,megacable://com.dotscreen.megacable.portal/applications,0]
+09-04 14:18:45.734  3676  4609 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LEANBACK_LAUNCHER] flg=0x10000000 pkg=com.omni.simplesetup cmp=com.omni.simplesetup/.ui.MainActivity} from uid 10013
+09-04 14:18:45.746  3676  4609 I wm_create_activity: [0,15274599,12359,com.omni.simplesetup/.ui.MainActivity,android.intent.action.MAIN,NULL,NULL,268435456]
+09-04 14:18:48.713  3676  3697 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+09-04 14:18:49.198  3676  3697 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+09-04 14:18:52.131  3676  3691 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=megacable://com.dotscreen.megacable.portal/applications cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.applications.ApplicationsActivity} from uid 10013
+09-04 14:18:52.135  3676  3691 I wm_create_activity: [0,80643981,12356,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.applications.ApplicationsActivity,android.intent.action.VIEW,NULL,megacable://com.dotscreen.megacable.portal/applications,0]
+09-04 14:19:09.126  3676  3697 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+09-04 14:19:13.479  3676  4968 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.tv.settings/.MainSettings} from uid 10013
+09-04 14:19:13.489  3676  4968 I wm_create_activity: [0,220144162,12360,com.android.tv.settings/.MainSettings,android.intent.action.MAIN,NULL,NULL,276824064]
+09-04 14:20:43.642  3676  3697 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0

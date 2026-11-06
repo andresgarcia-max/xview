@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\awesome-mikrotik\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\Mikrotik-RouterOS-automatic-backup-and-update\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\mikrotik-tools\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\mikrotik_configurator\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\perfectrestore\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\routeros-scripts\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\Scripts-MikroTik\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\02_IP_Listas_y_Redes\IP-Prefix-List\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\02_IP_Listas_y_Redes\iplist\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\02_IP_Listas_y_Redes\Mikrotik-IP-Firewall\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\02_IP_Listas_y_Redes\mikrotik-wireguard-config-generator\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\03_Seguridad_y_Firewall\BlackIPforFirewall\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\03_Seguridad_y_Firewall\Mikrotik-Blacklist\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\03_Seguridad_y_Firewall\mikrotik-fwban\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\03_Seguridad_y_Firewall\mikrotik-toolkit\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\03_Seguridad_y_Firewall\routeros-scanner\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\03_Seguridad_y_Firewall\sara\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\04_Puertos_Monitoreo_y_Administracion\MAC-Telnet\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\04_Puertos_Monitoreo_y_Administracion\MikroDash\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\04_Puertos_Monitoreo_y_Administracion\mktxp\.git
+Removing nested .git: C:\Users\andre\OneDrive\Desktop\microtik\microtik\04_Puertos_Monitoreo_y_Administracion\routerfleet\.git
+Total size after removing nested .git folders: 303.94 MB

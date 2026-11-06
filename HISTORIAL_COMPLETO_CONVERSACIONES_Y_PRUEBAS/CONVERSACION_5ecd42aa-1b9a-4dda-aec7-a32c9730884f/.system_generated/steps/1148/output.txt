@@ -1,0 +1,30 @@
+Command exited with code 1.
+
+Command output:
+
+Interfaz: 192.168.0.140 --- 0xe
+  Direcci�n de Internet          Direcci�n f�sica      Tipo
+  192.168.0.1           60-22-32-c6-21-66     din�mico  
+  192.168.0.2           9c-05-d6-9a-f4-7f     din�mico  
+  192.168.0.5           24-5a-4c-be-69-70     din�mico  
+  192.168.0.35          c8-7f-54-02-ef-3e     din�mico  
+  192.168.0.77          9c-b1-dc-2f-e4-b1     din�mico  
+  192.168.0.79          7a-13-b1-1c-f9-f8     din�mico  
+  192.168.0.83          10-ce-02-9f-35-1d     din�mico  
+  192.168.0.101         04-34-cf-d0-46-a2     din�mico  
+  192.168.0.109         4c-a9-19-90-fb-0e     din�mico  
+  192.168.0.160         04-95-e6-36-f7-c1     din�mico  
+  192.168.0.165         4c-57-39-ed-e7-be     din�mico  
+  192.168.0.182         e0-8f-4c-e6-9d-df     din�mico  
+  192.168.0.225         64-07-f6-7c-f1-26     din�mico  
+  192.168.0.235         ac-5c-2c-21-9c-96     din�mico  
+  192.168.0.255         ff-ff-ff-ff-ff-ff     est�tico  
+  224.0.0.22            01-00-5e-00-00-16     est�tico  
+  224.0.0.251           01-00-5e-00-00-fb     est�tico  
+  224.0.0.252           01-00-5e-00-00-fc     est�tico  
+  239.255.255.250       01-00-5e-7f-ff-fa     est�tico  
+  255.255.255.255       ff-ff-ff-ff-ff-ff     est�tico  
+List of devices attached
+
+[update]:No [WorldCup Device] device after scan
+[update]ERR(L1094):can not find device

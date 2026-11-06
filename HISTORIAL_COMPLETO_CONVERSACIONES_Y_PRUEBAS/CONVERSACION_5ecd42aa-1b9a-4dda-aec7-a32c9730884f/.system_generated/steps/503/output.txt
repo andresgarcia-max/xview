@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\lucide-react\dist\esm\icons\superscript.mjs                   
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\lucide-react\dist\esm\icons\superscript.mjs.map               
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\node_modules\lu...
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\node_modules\lu...
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\auth\SupervisorPinModal.tsx                                 
+C:\Users\andre\OneDrive\Desktop\gym\repositorios\gym-management-main\public\exercises\Superman                         
+C:\Users\andre\OneDrive\Desktop\gym\repositorios\gym-management-main\public\exercises\Superman.json                    
+C:\Users\andre\OneDrive\Desktop\gym\repositorios\legends-gym\src\components\auth\SupervisorPinModal.tsx                
+C:\Users\andre\OneDrive\Desktop\xview\experimento\06_internet_y_repositorios\github_repos\superna9999__pyamlboot       
+                                                                                                                       
+
+

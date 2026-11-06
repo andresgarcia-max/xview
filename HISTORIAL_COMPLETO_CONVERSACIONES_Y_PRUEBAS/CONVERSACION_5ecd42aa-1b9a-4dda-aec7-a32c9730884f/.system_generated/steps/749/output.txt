@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Explorer Window: B866v2 Android 12 -> file:///C:/Users/andre/OneDrive/Desktop/xview/V2/B866v2%20Android%2012

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Width: 430, Height: 213
+Pixel (5, 5): Color [A=255, R=147, G=120, B=86]
+Pixel (mid, mid): Color [A=255, R=252, G=211, B=77]
+Pixel (mid, 10): Color [A=255, R=42, G=36, B=24]

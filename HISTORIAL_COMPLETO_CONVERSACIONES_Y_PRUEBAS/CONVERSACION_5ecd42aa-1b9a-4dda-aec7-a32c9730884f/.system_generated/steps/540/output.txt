@@ -1,0 +1,83 @@
+Command exited with code 0.
+
+Command output:
+_ZNSt3__16chrono12steady_clock3nowEv
+pthread_mutex_lock
+pthread_mutex_unlock
+_ZN21FuseBlockDataProvider18CreateFromBlockMapERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEj
+_ZNSt3__118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILx1ELx1000000000EEEEEEE
+_ZNSt3__15mutex4lockEv
+_ZNSt3__15mutex6unlockEv
+_ZNSt3__16chrono12system_clock3nowEv
+clock_gettime
+get_block_device_size
+wipe_block_device
+_Z18ext4_parse_sb_infoP16ext4_super_block
+_Z7read_sbiP16ext4_super_block
+ext4_bg_has_super_block
+is_block_device_fd
+_ZNK7android6fs_mgr15MetadataBuilder27GetBlockDevicePartitionNameEy
+_ZN6google8protobuf8internal14WireFormatLite9ReadBytesEPNS0_2io16CodedInputStreamEPNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
+_ZNK7android6fs_mgr15MetadataBuilder18logical_block_sizeEv
+_ZN6google8protobuf8internal9ArenaImpl10FreeBlocksEv
+_ZN6google8protobuf8internal9ArenaImpl11SerialArena3NewEPNS2_5BlockEPvPS2_
+_ZN6google8protobuf8internal9ArenaImpl11SerialArena4FreeEPS3_PNS2_5BlockEPFvPvjE
+_ZN6google8protobuf8internal9ArenaImpl5BlockC1EjPS3_
+_ZN6google8protobuf8internal9ArenaImpl5BlockC2EjPS3_
+_ZN6google8protobuf8internal9ArenaImpl8NewBlockEPNS2_5BlockEj
+_ZN6google8protobuf8internal14WireFormatLite9ReadBytesEPNS0_2io16CodedInputStreamEPPNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
+_ZNK8RangeSet14GetBlockNumberEj
+_ZN10MemMapping12MapBlockFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+_ZN12BlockMapData17ParseBlockMapFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+NandFlashLock
+_ZNSt3__115recursive_mutex4lockEv
+_ZNSt3__115recursive_mutex6unlockEv
+pthread_mutex_trylock
+<3>systemcontrol: [ubootenv] read error 0x%x 
+critical error: %s: failed to seek to superblock: %s
+Check failed: lock->lock_mode() == LOCK_EX
+invalid block type
+bootreason is in the blocklist; skip OTA installation
+<3>systemcontrol: [ubootenv] CRC Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+Block device size for 
+failed to open block device 
+Zip: Found `Disk Start Number` field in extra block. Ignoring it.
+Entering fastboot
+otg_device
+/dev/block/mmcblk
+critical error: %s: failed to seek to block group descriptors: %s
+logical_block_size is not power of 2
+<3>systemcontrol: [ubootenv] get MTD info error
+<6>systemcontrol: [ubootenv] set property count: %d
+/metadata is mounted, but errors occur when acquiring a shared lock. Subsequent calls to SnapshotManager will fail. Unmounting /metadata now.
+ total number of blocks: 
+<3>systemcontrol: [ubootenv] %s is not a ubootenv varible.
+<3>systemcontrol: [ubootenv] Not enough memory for environment (%u bytes)
+    Block size: %d
+checkpoint=block
+<3>systemcontrol: [ubootenv] don't init done
+<3>systemcontrol: [ubootenv] SYS_LOGE write, size %d 
+    Blocks per group: %d
+(adbd status 
+    Block groups: %d
+    Reserved block group size: %d
+Failed to construct byte ranges to read, start_block: 
+<3>systemcontrol: [ubootenv] open devices error: %s
+error: %s: superblock magic incorrect
+Detected re-flashing, cancelling unverified update.
+Cannot create update snapshots with overlayfs setup. Run `adb enable-verity`
+You need adb 1.0.32 or newer to sideload
+    Block group descriptor size: %d
+<3>systemcontrol: [ubootenv] Get MTD info error
+critical error: %s: failed to read block group descriptors: %s
+invalid blockdev size for 
+Acquire flock failed: 
+invalid code -- missing end-of-block
+Partitions may be mounted - rebooting to enter fastboot.
+<3>systemcontrol: [ubootenv] bootenv do not init
+<3>systemcontrol: [ubootenv] Invalid env data key:%s, value:%s
+Detected re-flashing for partition 
+ total number of blocks the range contains is 
+bootable/recovery/fastboot/fastboot.cpp
+<3>systemcontrol: [ubootenv] CRC2 Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+<3>systemcontrol: [ubootenv] Read access failed !!!

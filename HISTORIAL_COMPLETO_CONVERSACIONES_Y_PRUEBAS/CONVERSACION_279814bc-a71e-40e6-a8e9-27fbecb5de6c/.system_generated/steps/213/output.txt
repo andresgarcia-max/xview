@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+
+FITNESS_LEGENDS_POS_WEB.html:6:  <title>PUNTO DE VENTA  FITNESS LEGENDS GYM (Mostrador & Huella)</title>
+FITNESS_LEGENDS_POS_WEB.html:61:          <h1 class="text-sm md:text-base font-black tracking-wide text-white">FITNESS 
+LEGENDS  PUNTO DE VENTA</h1>
+FITNESS_LEGENDS_POS_WEB.html:75:      <!-- Punto de Venta (Activo) -->
+FITNESS_LEGENDS_POS_WEB.html:78:        <span>Punto de Venta</span>
+FITNESS_LEGENDS_POS_WEB.html:116:  <!-- Iframe Contenedor del Punto de Venta -->
+FITNESS_LEGENDS_POS_WEB.html:121:      <p class="text-xs font-semibold text-gym-muted tracking-wide">Cargando Punto de 
+Venta & Caja...</p>
+FITNESS_LEGENDS_POS_WEB.html:124:    <!-- Iframe con el Punto de Venta Funcional -->
+
+

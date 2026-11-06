@@ -1,0 +1,47 @@
+Command exited with code 0.
+
+Command output:
+
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.e
+                    xe
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\andre\OneDrive\Desktop\gym
+PSChildName       : ACCESO_CLIENTES_LEGENDS.exe
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+Mode              : -a---l
+VersionInfo       : File:             C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe
+                    InternalName:     CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe
+                    OriginalFilename: CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe
+                    FileVersion:      0.0.0.0
+                    FileDescription:   
+                    Product:          
+                    ProductVersion:   0.0.0.0
+                    Debug:            False
+                    Patched:          False
+                    PreRelease:       False
+                    PrivateBuild:     False
+                    SpecialBuild:     False
+                    Language:         Independiente del idioma
+                    
+BaseName          : ACCESO_CLIENTES_LEGENDS
+Target            : {}
+LinkType          : 
+Name              : ACCESO_CLIENTES_LEGENDS.exe
+Length            : 41472
+DirectoryName     : C:\Users\andre\OneDrive\Desktop\gym
+Directory         : C:\Users\andre\OneDrive\Desktop\gym
+IsReadOnly        : False
+Exists            : True
+FullName          : C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe
+Extension         : .exe
+CreationTime      : 24/10/2026 10:17:20 a. m.
+CreationTimeUtc   : 24/10/2026 04:17:20 p. m.
+LastAccessTime    : 24/10/2026 10:46:29 a. m.
+LastAccessTimeUtc : 24/10/2026 04:46:29 p. m.
+LastWriteTime     : 24/10/2026 10:31:14 a. m.
+LastWriteTimeUtc  : 24/10/2026 04:31:14 p. m.
+Attributes        : Archive, ReparsePoint
+
+
+

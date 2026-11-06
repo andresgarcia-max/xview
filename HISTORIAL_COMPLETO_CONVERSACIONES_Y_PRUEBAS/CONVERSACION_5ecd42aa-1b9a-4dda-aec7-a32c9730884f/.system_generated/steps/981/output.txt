@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+Status   Class  FriendlyName                        InstanceId         
+------   -----  ------------                        ----------         
+Degraded System Servicio de hipervisor de Microsoft ROOT\HVSERVICE\0000
+
+

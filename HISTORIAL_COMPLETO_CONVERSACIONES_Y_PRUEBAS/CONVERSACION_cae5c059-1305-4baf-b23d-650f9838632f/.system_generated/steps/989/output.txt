@@ -1,0 +1,48 @@
+Command exited with code 0.
+
+Command output:
+  Download,
+  Sparkles
+} from 'lucide-react';
+import gymBgMain from '../../assets/gym-background.jpg';
+import gymBgMotivational from '../../assets/gym-background-4k.jpg';
+
+export const TurnstileTerminal: React.FC = () => {
+  const { verifyBiometricAccess, registerExit, members, accessLogs, activeBranch } = useGym();
+
+  const [scanStatus, setScanStatus] = useState<'idle' | 'scanning' | 'granted' | 'denied'>('idle');
+  const [currentQuote, setCurrentQuote] = useState<string>('');
+  const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
+  const [verifiedClient, setVerifiedClient] = useState<{
+    name: string;
+    avatarUrl?: string;
+    planName?: string;
+  } | null>(null);
+
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [bgImage, setBgImage] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const ver = localStorage.getItem('legends_turnstile_bg_ver');
+        if (ver !== 'v12_bulletproof_gym_bg') {
+          localStorage.setItem('legends_turnstile_bg_ver', 'v12_bulletproof_gym_bg');
+          localStorage.removeItem('legends_terminal_bg');
+          return gymBg;
+        }
+      } catch {}
+    }
+    return gymBg;
+  });
+
+  // Trigger simulated scan
+  const executeScan = (identifier: string) => {
+    if (scanStatus === 'scanning') return;
+    sounds.unlock();
+    sounds.playScanBlip();
+    setScanStatus('scanning');
+    setVerifiedClient(null);
+
+    setTimeout(() => {
+      const result = verifyBiometricAccess(identifier);
+      

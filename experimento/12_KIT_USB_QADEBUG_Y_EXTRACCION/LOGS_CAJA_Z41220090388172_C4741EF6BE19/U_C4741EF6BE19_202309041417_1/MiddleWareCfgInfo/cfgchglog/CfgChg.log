@@ -1,0 +1,450 @@
+     (Time)     [Act]  CompName,    Section,  Key, OldValue, NewValue
+---------------------------------------------------------------------
+(11-13 09:17:40) ===STB Starting Up===
+(11-13 09:17:42) ===Write Config to Flash===
+(11-16 02:12:34) ===STB Starting Up===
+(11-16 02:12:36) ===Write Config to Flash===
+(11-27 02:53:02) ===STB Starting Up===
+(11-27 02:53:04) ===Write Config to Flash===
+(10-19 04:17:36) ===STB Starting Up===
+(10-19 04:17:38) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(10-19 04:27:11) ===STB Starting Up===
+(10-19 04:27:13) ===Write Config to Flash===
+(11-27 07:09:59) ===STB Starting Up===
+(11-27 07:10:01) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(11-28 13:13:42) ===STB Starting Up===
+(11-28 13:13:44) ===Write Config to Flash===
+(12-01 03:29:05) ===STB Starting Up===
+(12-01 03:29:09) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(12-06 03:56:10) ===STB Starting Up===
+(12-06 03:56:12) ===Write Config to Flash===
+(12-09 04:49:20) ===STB Starting Up===
+(12-09 04:49:22) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(12-10 03:56:59) ===STB Starting Up===
+(12-10 03:57:01) ===Write Config to Flash===
+(12-10 22:24:41) ===STB Starting Up===
+(12-10 22:24:43) ===Write Config to Flash===
+(12-10 23:11:57) ===STB Starting Up===
+(12-10 23:11:59) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(12-12 17:21:36) ===Write Config to Flash===
+(12-16 04:32:04) ===STB Starting Up===
+(12-16 04:32:06) ===Write Config to Flash===
+(12-19 02:46:15) ===STB Starting Up===
+(12-19 02:46:17) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(10-19 04:17:35) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(12-25 02:44:42) ===STB Starting Up===
+(12-25 02:44:44) ===Write Config to Flash===
+(12-28 04:51:10) ===STB Starting Up===
+(12-28 04:51:14) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(12-28 17:18:41) ===STB Starting Up===
+(12-28 17:18:43) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(12-28 17:50:09) ===Write Config to Flash===
+(12-31 02:15:25) ===STB Starting Up===
+(12-31 02:15:27) ===Write Config to Flash===
+(01-03 03:44:06) ===STB Starting Up===
+(01-03 03:44:11) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(01-04 13:27:14) ===Write Config to Flash===
+(01-07 03:52:50) ===STB Starting Up===
+(01-07 03:52:52) ===Write Config to Flash===
+(01-13 04:46:06) ===STB Starting Up===
+(01-13 04:46:08) ===Write Config to Flash===
+(01-16 03:29:40) ===STB Starting Up===
+(01-16 03:29:43) ===Write Config to Flash===
+(10-19 04:17:35) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(10-19 04:17:32) ===STB Starting Up===
+(10-19 04:17:34) ===Write Config to Flash===
+(10-19 04:17:32) ===STB Starting Up===
+(10-19 04:17:34) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(10-22 03:52:35) ===STB Starting Up===
+(10-22 03:52:37) ===Write Config to Flash===
+(10-23 04:18:09) ===STB Starting Up===
+(10-23 04:18:11) ===Write Config to Flash===
+(01-26 03:46:28) ===STB Starting Up===
+(01-26 03:46:31) ===Write Config to Flash===
+(10-19 04:17:32) ===STB Starting Up===
+(10-19 04:17:34) ===Write Config to Flash===
+(01-29 02:42:42) ===STB Starting Up===
+(01-29 02:42:44) ===Write Config to Flash===
+(02-03 03:04:49) ===STB Starting Up===
+(02-03 03:04:51) ===Write Config to Flash===
+(02-04 00:47:40) ===STB Starting Up===
+(02-04 00:47:42) ===Write Config to Flash===
+(02-05 01:34:58) ===STB Starting Up===
+(02-05 01:35:01) ===Write Config to Flash===
+(02-08 04:31:58) ===STB Starting Up===
+(02-08 04:32:00) ===Write Config to Flash===
+(02-11 03:40:53) ===STB Starting Up===
+(02-11 03:40:55) ===Write Config to Flash===
+(02-14 03:11:38) ===STB Starting Up===
+(02-14 03:11:40) ===Write Config to Flash===
+(10-19 04:17:35) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(02-16 09:27:31) ===Write Config to Flash===
+(10-19 04:17:35) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(02-19 04:17:54) ===STB Starting Up===
+(02-19 04:17:56) ===Write Config to Flash===
+(02-22 04:37:12) ===STB Starting Up===
+(02-22 04:37:14) ===Write Config to Flash===
+(02-25 04:06:26) ===STB Starting Up===
+(02-25 04:06:28) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(03-05 10:39:52) ===Write Config to Flash===
+(10-19 04:17:35) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(10-22 03:00:31) ===STB Starting Up===
+(10-22 03:00:33) ===Write Config to Flash===
+(10-19 04:17:35) ===STB Starting Up===
+(10-19 04:17:37) ===Write Config to Flash===
+(03-14 03:26:46) ===STB Starting Up===
+(03-14 03:26:48) ===Write Config to Flash===
+(03-16 21:23:17) ===STB Starting Up===
+(03-16 21:23:19) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(10-19 04:17:36) ===Write Config to Flash===
+(03-21 05:18:56) ===STB Starting Up===
+(03-21 05:19:00) ===Write Config to Flash===
+(10-19 04:17:34) ===STB Starting Up===
+(03-21 17:31:34) ===Write Config to Flash===
+(03-24 03:24:19) ===STB Starting Up===
+(03-24 03:24:22) ===Write Config to Flash===
+(03-26 02:10:39) ===STB Starting Up===
+(03-26 02:10:41) ===Write Config to Flash===
+(03-27 01:26:52) ===STB Starting Up===
+(03-27 01:26:54) ===Write Config to Flash===
+(03-30 03:53:53) ===STB Starting Up===
+(03-30 03:53:55) ===Write Config to Flash===
+(03-30 08:08:16) ===STB Starting Up===
+(03-30 08:08:18) ===Write Config to Flash===
+(04-02 03:27:08) ===STB Starting Up===
+(04-02 03:27:10) ===Write Config to Flash===
+(04-03 03:56:33) ===STB Starting Up===
+(04-03 03:56:35) ===Write Config to Flash===
+(04-06 04:12:15) ===STB Starting Up===
+(04-06 04:12:17) ===Write Config to Flash===
+(04-07 00:20:42) ===STB Starting Up===
+(04-07 00:20:44) ===Write Config to Flash===
+(03-05 12:32:20) ===STB Starting Up===
+(03-05 12:32:22) ===Write Config to Flash===
+(04-10 00:44:48) ===STB Starting Up===
+(04-10 00:44:50) ===Write Config to Flash===
+(04-14 02:16:48) ===STB Starting Up===
+(04-14 02:16:50) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(04-17 02:06:16) ===STB Starting Up===
+(04-17 02:06:18) ===Write Config to Flash===
+(04-17 09:16:12) ===STB Starting Up===
+(04-17 09:16:15) ===Write Config to Flash===
+(04-21 02:02:58) ===STB Starting Up===
+(04-21 02:03:00) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(04-25 04:01:40) ===STB Starting Up===
+(04-25 04:01:42) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(04-28 02:29:21) ===STB Starting Up===
+(04-28 02:29:23) ===Write Config to Flash===
+(05-01 02:25:53) ===STB Starting Up===
+(05-01 02:25:55) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(05-01 23:44:10) ===Write Config to Flash===
+(05-04 04:30:28) ===STB Starting Up===
+(05-04 04:30:30) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(05-07 04:37:58) ===STB Starting Up===
+(05-07 04:38:00) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 02:31:24) ===STB Starting Up===
+(03-08 02:31:26) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 04:17:35) ===STB Starting Up===
+(03-08 04:17:37) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 02:03:48) ===STB Starting Up===
+(03-08 02:03:51) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 04:12:19) ===STB Starting Up===
+(03-08 04:12:21) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 04:25:13) ===STB Starting Up===
+(03-08 04:25:15) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 02:00:01) ===STB Starting Up===
+(03-08 02:00:03) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 04:09:16) ===STB Starting Up===
+(03-08 04:09:18) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 04:27:54) ===STB Starting Up===
+(03-08 04:27:56) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-05 12:32:20) ===STB Starting Up===
+(03-05 12:32:22) ===Write Config to Flash===
+(03-08 02:52:46) ===STB Starting Up===
+(03-08 02:52:48) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 02:36:32) ===STB Starting Up===
+(03-08 02:36:34) ===Write Config to Flash===
+(03-05 12:32:21) ===STB Starting Up===
+(03-05 12:32:23) ===Write Config to Flash===
+(03-08 03:39:18) ===STB Starting Up===
+(03-08 03:39:20) ===Write Config to Flash===
+(07-25 17:35:03) ===STB Starting Up===
+(07-25 17:35:05) ===Write Config to Flash===
+(07-25 17:39:07) ===STB Starting Up===
+(07-25 17:39:09) ===Write Config to Flash===
+(07-25 17:51:23) ===STB Starting Up===
+(07-25 17:51:25) ===Write Config to Flash===
+(05-18 09:07:52) ===STB Starting Up===
+(05-18 09:07:54) ===Write Config to Flash===
+(07-28 08:53:45) ===STB Starting Up===
+(07-28 08:53:47) ===Write Config to Flash===
+(05-18 09:07:51) ===STB Starting Up===
+(05-18 09:07:53) ===Write Config to Flash===
+(08-01 02:50:37) ===STB Starting Up===
+(08-01 02:50:39) ===Write Config to Flash===
+(08-03 02:21:17) ===STB Starting Up===
+(08-03 02:21:19) ===Write Config to Flash===
+(08-04 07:30:41) ===STB Starting Up===
+(08-04 07:30:43) ===Write Config to Flash===
+(08-08 01:05:11) ===STB Starting Up===
+(08-08 01:05:13) ===Write Config to Flash===
+(08-10 00:01:01) ===STB Starting Up===
+(08-10 00:01:03) ===Write Config to Flash===
+(05-18 09:07:51) ===STB Starting Up===
+(05-18 09:07:53) ===Write Config to Flash===
+(05-18 09:07:52) ===STB Starting Up===
+(05-18 09:07:54) ===Write Config to Flash===
+(05-18 09:07:51) ===STB Starting Up===
+(05-18 09:07:53) ===Write Config to Flash===
+(08-18 02:39:54) ===STB Starting Up===
+(08-18 02:39:56) ===Write Config to Flash===
+(08-21 03:19:07) ===STB Starting Up===
+(08-21 03:19:09) ===Write Config to Flash===
+(05-18 09:07:51) ===STB Starting Up===
+(05-18 09:07:53) ===Write Config to Flash===
+(08-21 16:37:45) ===STB Starting Up===
+(08-21 16:37:47) ===Write Config to Flash===
+(08-23 13:56:49) ===STB Starting Up===
+(08-23 13:56:51) ===Write Config to Flash===
+(05-18 09:07:51) ===STB Starting Up===
+(05-18 09:07:53) ===Write Config to Flash===
+(08-25 11:39:41) ===STB Starting Up===
+(08-25 11:39:43) ===Write Config to Flash===
+(08-25 15:01:52) ===STB Starting Up===
+(08-25 15:01:54) ===Write Config to Flash===
+(08-26 01:41:14) ===STB Starting Up===
+(08-26 01:41:16) ===Write Config to Flash===
+(08-27 14:13:51) ===STB Starting Up===
+(08-27 14:13:53) ===Write Config to Flash===
+(08-27 15:19:02) ===STB Starting Up===
+(08-27 15:19:04) ===Write Config to Flash===
+(08-29 13:16:20) ===STB Starting Up===
+(08-29 13:16:22) ===Write Config to Flash===
+(05-18 09:07:51) ===STB Starting Up===
+(08-29 16:12:45) ===Write Config to Flash===
+(08-30 01:28:43) ===STB Starting Up===
+(08-30 01:28:45) ===Write Config to Flash===
+(05-18 09:07:50) ===STB Starting Up===
+(05-18 09:07:52) ===Write Config to Flash===
+(05-18 09:07:51) ===STB Starting Up===
+(05-18 09:07:53) ===Write Config to Flash===
+(08-31 23:48:02) ===STB Starting Up===
+(08-31 23:48:04) ===Write Config to Flash===
+(09-01 15:21:29) ===STB Starting Up===
+(09-01 15:21:31) ===Write Config to Flash===
+(09-02 01:15:50) ===STB Starting Up===
+(09-02 01:15:52) ===Write Config to Flash===
+(09-02 14:31:40) ===STB Starting Up===
+(09-02 14:31:42) ===Write Config to Flash===
+(09-03 01:34:36) ===STB Starting Up===
+(09-03 01:34:39) ===Write Config to Flash===
+(09-04 15:19:06) ===STB Starting Up===
+(09-04 15:19:08) ===Write Config to Flash===
+(09-04 22:18:43) ===STB Starting Up===
+(09-04 22:18:45) ===Write Config to Flash===
+(09-05 19:56:54) ===STB Starting Up===
+(09-05 19:56:56) ===Write Config to Flash===
+(05-18 09:07:52) ===STB Starting Up===
+(05-18 09:07:54) ===Write Config to Flash===
+(09-07 12:09:47) ===STB Starting Up===
+(09-07 12:09:49) ===Write Config to Flash===
+(09-07 14:20:50) ===STB Starting Up===
+(09-07 14:20:52) ===Write Config to Flash===
+                                                                                    (09-07 14:25:15) ===STB Starting Up===
+(09-07 14:25:17) ===Write Config to Flash===
+(09-07 14:27:21) ===STB Starting Up===
+(09-07 14:27:23) ===Write Config to Flash===
+(09-07 15:40:40) ===STB Starting Up===
+(09-07 15:40:42) ===Write Config to Flash===
+(09-07 22:42:44) ===STB Starting Up===
+(09-07 22:42:47) ===Write Config to Flash===
+(09-10 03:31:43) ===STB Starting Up===
+(09-10 03:31:45) ===Write Config to Flash===
+(09-13 01:31:19) ===STB Starting Up===
+(09-13 01:31:21) ===Write Config to Flash===
+(09-15 15:31:07) ===STB Starting Up===
+(09-15 15:31:09) ===Write Config to Flash===
+(09-15 15:33:28) ===STB Starting Up===
+(09-15 15:33:30) ===Write Config to Flash===
+(09-15 15:34:52) ===STB Starting Up===
+(09-15 15:34:54) ===Write Config to Flash===
+(09-15 15:36:29) ===STB Starting Up===
+(09-15 15:36:31) ===Write Config to Flash===
+(09-18 04:18:00) ===STB Starting Up===
+(09-18 04:18:02) ===Write Config to Flash===
+(09-23 02:42:55) ===STB Starting Up===
+(09-23 02:42:57) ===Write Config to Flash===
+                                                                                    (09-28 02:45:38) ===STB Starting Up===
+(09-28 02:45:40) ===Write Config to Flash===
+(09-28 02:47:09) ===STB Starting Up===
+(09-28 02:47:12) ===Write Config to Flash===
+(09-28 02:50:52) ===STB Starting Up===
+(09-28 02:50:54) ===Write Config to Flash===
+(09-28 17:49:46) ===STB Starting Up===
+(09-28 17:49:48) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(10-01 17:53:18) ===STB Starting Up===
+(10-01 17:53:20) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 07:53:18) ===STB Starting Up===
+(09-07 07:53:21) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 04:42:11) ===STB Starting Up===
+(09-07 04:42:13) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 04:44:58) ===STB Starting Up===
+(09-07 04:45:00) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 03:09:47) ===STB Starting Up===
+(09-07 03:09:49) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:53) ===STB Starting Up===
+(09-04 14:16:55) ===Write Config to Flash===
+(09-07 01:57:19) ===STB Starting Up===
+(09-07 01:57:21) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 01:15:22) ===STB Starting Up===
+(09-07 01:15:24) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 03:16:10) ===STB Starting Up===
+(09-07 03:16:12) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 01:13:38) ===STB Starting Up===
+(09-07 01:13:40) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-07 04:47:55) ===STB Starting Up===
+(09-07 04:47:57) ===Write Config to Flash===
+(09-04 14:16:53) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(12-15 11:48:55) ===STB Starting Up===
+(12-15 11:48:57) ===Write Config to Flash===
+(12-18 04:46:16) ===STB Starting Up===
+(12-18 04:46:18) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:55) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+(09-07 01:51:25) ===STB Starting Up===
+(09-07 01:51:27) ===Write Config to Flash===
+(09-09 14:44:19) ===STB Starting Up===
+(09-09 14:44:21) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:53) ===STB Starting Up===
+(09-04 14:16:55) ===Write Config to Flash===
+(09-04 14:16:55) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+(09-04 14:16:53) ===STB Starting Up===
+(09-04 14:16:55) ===Write Config to Flash===
+(09-04 14:16:55) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+(09-04 14:16:55) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+(09-04 14:16:53) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:55) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:56) ===Write Config to Flash===
+(09-04 14:16:54) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+(09-04 14:16:55) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+(09-04 14:16:55) ===STB Starting Up===
+(09-04 14:16:57) ===Write Config to Flash===
+                                                                                    (09-04 14:16:53) ===STB Starting Up===
+(09-04 14:16:55) ===Write Config to Flash===
+(09-04 14:16:53) ===STB Starting Up===
+(09-04 14:16:55) ===Write Config to Flash===

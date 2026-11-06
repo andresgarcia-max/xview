@@ -1,0 +1,38 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                            Length
+----                                            ------
+ABRIR_CARTERA_CLIENTES_PRO.bat                     432
+ABRIR_CONTROL_DE_ACCESO_WEB.bat                    668
+ABRIR_VERSION_WEB.bat                              642
+ACCESO_WEB_FITNESS_LEGENDS.url                     123
+ACCESO_WEB_NUBE.url                                137
+CARTERA_CLIENTES_INTERFAZ_PRO.html               85290
+CONTROL_DE_ACCESO_WEB.url                          138
+create_wide_logo.js                               3975
+dumbbell_test.jpg                                30900
+dumbbell_widescreen_test.jpg                    291177
+EJECUTAR_FITNESS_LEGENDS.bat                       150
+EJECUTAR_TERMINAL_ACCESO.bat                       172
+FITNESS LEGENDS - Control de Acceso.lnk           2569
+FITNESS LEGENDS - Nube Vercel (Enlace Web).url     141
+FITNESS LEGENDS - Sistema ERP.lnk                 2571
+gym-dumbbell-background.jpg                     322819
+GYM_FUNCIONAL_WEB.bat                              480
+GYM_FUNCIONAL_WEB.url                              142
+LEYENDS_GYM_8K_CUADRADA_1X1.jpg                5985780
+LEYENDS_GYM_8K_ESTUDIO_16X9.jpg                5969677
+LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg              3594959
+modal-gym-bg-hd.jpg                             227074
+PUNTO_DE_VENTA_GYM.bat                             410
+PUNTO_DE_VENTA_GYM.url                             151
+temp_extracted.js                              2253936
+WhatsApp Image 2026-10-19 at 8.32.23 AM.jpeg    186225
+WhatsApp Image 2026-10-19 at 8.32.24 AM.jpeg    297334
+wide_dumbbell_seamless.jpg                      368957
+wide_dumbbell_test.jpg                          412673
+wide_dumbbell_with_logo.jpg                     388359
+
+

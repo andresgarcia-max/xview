@@ -1,0 +1,128 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:55:import { checkServerHealth, fetchMembersFromServer } 
+from '../../services/syncService';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:56:
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:57:interface IndependentTerminalAppProps {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:58:  isEmbeddedFullScreen?: boolean;
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:59:  onExitFullScreen?: () => void;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:60:  onOpenClients?: () => void;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:61:}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:62:
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:63:export const IndependentTerminalApp: 
+React.FC<IndependentTerminalAppProps> = ({
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:64:  isEmbeddedFullScreen = false,
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:65:  onExitFullScreen,
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:66:  onOpenClients,
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:67:}) => {
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:68:  const { 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:152:  const [visitClientName, setVisitClientName] = 
+useState('');
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:153:  const [visitCost, setVisitCost] = useState('5.00');
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:154:  const [searchQuery, setSearchQuery] = useState('');
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:155:  const [isFullScreen, setIsFullScreen] = 
+useState(isEmbeddedFullScreen);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:156:  const [showEscHint, setShowEscHint] = useState(false);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:157:  const [isMuted, setIsMuted] = useState(false);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:158:  const [bgToast, setBgToast] = useState<string | 
+null>(null);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:593:        setIsHistoryModalOpen(false);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:594:        return;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:595:      }
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:596:      if (document.fullscreenElement || isFullScreen) {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:597:        if (document.fullscreenElement) {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:598:          document.exitFullscreen().catch(() => {});
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:599:        }
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:600:        setIsFullScreen(false);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:601:        if (onExitFullScreen) onExitFullScreen();
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:602:      }
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:603:      return;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:604:    }
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:633:
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:634:  
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:635:  useEffect(() => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:636:    const handleFullscreenChange = () => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:637:      const isNowFull = !!document.fullscreenElement;
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:638:      setIsFullScreen(isNowFull);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:639:      if (!isNowFull && onExitFullScreen) {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:640:        onExitFullScreen();
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:641:      }
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:642:    };
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:643:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:644:    document.addEventListener('fullscreenchange', 
+handleFullscreenChange);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:645:    document.addEventListener('webkitfullscreenchange', 
+handleFullscreenChange);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:646:    document.addEventListener('mozfullscreenchange', 
+handleFullscreenChange);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:647:    document.addEventListener('MSFullscreenChange', 
+handleFullscreenChange);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:648:
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:649:    return () => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:650:      document.removeEventListener('fullscreenchange', 
+handleFullscreenChange);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:651:      
+document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:652:      
+document.removeEventListener('mozfullscreenchange', handleFullscreenChange);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:653:      
+document.removeEventListener('MSFullscreenChange', handleFullscreenChange);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:654:    };
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:655:  }, [onExitFullScreen]);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:656:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:657:  // Fullscreen / Kiosk toggle
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:658:  const toggleBackground = () => {
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:659:    setBgIndex(prev => {
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:660:      const next = (prev + 1) % BG_OPTIONS.length;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:670:      return next;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:671:    });
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:672:  };
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:673:  const toggleFullScreen = () => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:674:    if ((window as any).electronAPI?.toggleFullScreen) {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:675:      (window as any).electronAPI.toggleFullScreen();
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:676:      setIsFullScreen(!isFullScreen);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:677:      return;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:678:    }
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:679:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:680:    if (!document.fullscreenElement) {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:681:      
+document.documentElement.requestFullscreen().then(() => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:682:        setIsFullScreen(true);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:683:        setShowEscHint(true);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:684:        setTimeout(() => setShowEscHint(false), 3500);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:685:      }).catch(() => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:686:        setIsFullScreen(true);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:687:      });
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:688:    } else {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:689:      document.exitFullscreen().then(() => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:690:        setIsFullScreen(false);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:691:        if (onExitFullScreen) onExitFullScreen();
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:692:      }).catch(() => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:693:        setIsFullScreen(false);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:694:        if (onExitFullScreen) onExitFullScreen();
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:695:      });
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:696:    }
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:697:  };
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:745:          <span className="hidden sm:inline">CAMBIAR 
+FONDO</span>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:746:        </button>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:747:        <button
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:748:          onClick={toggleFullScreen}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:749:          className="px-4 py-2.5 rounded-2xl 
+bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white font-black text-xs 
+sm:text-sm flex items-center gap-2 shadow-2xl shadow-amber-500/40 transition-all cursor-pointer transform 
+hover:scale-105 active:scale-95 select-none"
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:750:          title={isFullScreen ? "Salir de Pantalla 
+Completa" : "Activar Pantalla Completa"}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:751:        >
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:752:          {isFullScreen ? <Minimize2 className="w-4 
+h-4" /> : <Maximize2 className="w-4 h-4" />}
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:753:          <span>{isFullScreen ? "SALIR PANTALLA" : 
+"PANTALLA COMPLETA"}</span>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:754:        </button>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:755:      </div>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:756:
+
+

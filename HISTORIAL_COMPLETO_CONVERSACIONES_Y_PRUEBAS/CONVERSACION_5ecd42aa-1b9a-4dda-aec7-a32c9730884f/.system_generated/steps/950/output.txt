@@ -1,0 +1,32 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                     Length Las
+                                                                                                                    tWr
+                                                                                                                    ite
+                                                                                                                    Tim
+                                                                                                                    e  
+--------                                                                                                     ------ ---
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\BITACORA_EN_VIVO_EXE.log                              57097 04/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\PROGRAMA_PERFECTO_XVIEW_B866V2.exe                    47616 04/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\ProgramaPerfecto.cs              56247 04/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\NOTAS_VERIFICACION_EN_VIVO.md                          5410 04/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\MONITOR_EN_VIVO_EXE.ps1           2177 04/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\app.ico                            467 04/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\MOTOR_PROGRAMA_PERFECTO.ps1      51305 04/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img            67108864 03/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\LEEME_GUIA_PROGRAMA_PERFECTO.md                        2366 03/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\QADEBUG.ini                   273 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\factory_update_param.aml       11 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\recovery.img              25165824 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\misc_clean.img                4096 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\env_unlocked.img             65536 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\QADEBUGTOOL.ini               802 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\AppDMC.apk                    577580 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Filemanager.apk              5737825 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Hdplay.apk                   3568385 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\DLStore.apk                  3313530 01/
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\ControlDevice.apk           17876564 01/
+
+

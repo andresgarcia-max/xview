@@ -1,0 +1,103 @@
+Command exited with code 1.
+
+Command output:
+import cardClienteNuevo from '../../assets/card-cliente-nuevo.jpg';
+import cardVisita from '../../assets/card-visita.jpg';
+import cardHuella from '../../assets/card-huella.jpg';
+import gymBg from '../../assets/gym-background.jpg';
+import gymBgMotto from '../../assets/gym-background-motto.jpg';
+import modalGymBg from '../../assets/modal-gym-bg.jpg';
+import logoImg from '../../assets/logo.png';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useGym } from '../../context/GymContext';
+import { FingerprintScanner } from './FingerprintScanner';
+import { AccessHistory } from './AccessHistory';
+import { TerminalSyncModal, getTerminalConfig, saveTerminalConfig, TerminalConfig } from './TerminalSyncModal';
+import { getRandomMotivationalQuote } from '../../data/motivationalQuotes';
+import { sounds } from '../../services/audio';
+import confetti from 'canvas-confetti';
+import { 
+  Zap, 
+  Maximize2, 
+  Minimize2, 
+  Search, 
+  Clock, 
+  Settings, 
+  Volume2, 
+  VolumeX, 
+  CheckCircle2, 
+  XCircle, 
+  Wifi, 
+  WifiOff, 
+  ShieldCheck, 
+  ShieldAlert,
+  Flame,
+  Sparkles,
+  Image,
+  ArrowRight,
+  X,
+  Calendar,
+  Mail,
+  User,
+  CreditCard,
+  Banknote,
+  ArrowRightLeft,
+  Fingerprint,
+  Check,
+  Dumbbell,
+  BicepsFlexed
+} from 'lucide-react';
+import { Client, MembershipPlanType, PaymentMethod } from '../../types';
+import { getGymAvatar } from '../../utils/genderAvatar';
+import { checkServerHealth, fetchMembersFromServer } from '../../services/syncService';
+
+interface IndependentTerminalAppProps {
+  isEmbeddedFullScreen?: boolean;
+  onExitFullScreen?: () => void;
+}
+
+export const IndependentTerminalApp: React.FC<IndependentTerminalAppProps> = ({
+  isEmbeddedFullScreen = false,
+  onExitFullScreen,
+}) => {
+  const { 
+    verifyBiometricAccess, 
+    members, 
+    accessLogs, 
+    forceSync, 
+    replaceMembers, 
+    syncMembersWithServer, 
+    addMember, 
+    catalogPlans 
+  } = useGym();
+
+  const [scanStatus, setScanStatus] = useState<'idle' | 'scanning' | 'granted' | 'denied'>('idle');
+  const [currentQuote, setCurrentQuote] = useState<string>('');
+  const [lastVerifiedClient, setLastVerifiedClient] = useState<{
+    name: string;
+    plan: string;
+    daysRemaining?: number;
+    reason: string;
+    avatarUrl?: string;
+    status: 'granted' | 'denied';
+  } | null>(null);
+
+  const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
+  const [isConfigModalOpen, setIsConfigModalOpen] = useState(false);
+
+  // 3 Main Options Modals State
+  const [showNewMemberModal, setShowNewMemberModal] = useState(false);
+  const [showVisitModal, setShowVisitModal] = useState(false);
+  const [showDirectAccessModal, setShowDirectAccessModal] = useState(false);
+
+  // New client form state (Nombre, Cumpleaños, Edad, Correo, Mensualidad, Opción de Pago)
+  const [newClientName, setNewClientName] = useState('');
+  const [newClientBirthDate, setNewClientBirthDate] = useState('');
+  const [newClientAge, setNewClientAge] = useState<number | string>('');
+  const [newClientEmail, setNewClientEmail] = useState('');
+  const [newClientPlan, setNewClientPlan] = useState('Mensualidad Estándar');
+  const [newClientPaymentMethod, setNewClientPaymentMethod] = useState<PaymentMethod>('cash');
+  const [newClientId, setNewClientId] = useState('');
+  const [newClientPhone, setNewClientPhone] = useState('');
+  const [newClientFingerprintEnrolled, setNewClientFingerprintEnrolled] = useState(false);
+  const [showBiometricDashboard, setShowBiometricDashboard] = useState(false);

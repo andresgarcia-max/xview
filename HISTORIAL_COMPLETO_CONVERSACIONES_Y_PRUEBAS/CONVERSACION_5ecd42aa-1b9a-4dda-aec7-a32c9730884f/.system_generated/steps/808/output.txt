@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                              L
+                                                                                                                      e
+                                                                                                                      n
+                                                                                                                      g
+                                                                                                                      t
+                                                                                                                      h
+--------                                                                                                              -
+C:\Users\andre\AppData\Roaming\SmarTTY\SavedConnections                                                                
+C:\Users\andre\AppData\Roaming\SmarTTY\SavedConnections\_COM3.rawconnection                                           1
+C:\Users\andre\AppData\Roaming\SmarTTY\SavedConnections\_COM8.rawconnection                                           1
+C:\Users\andre\AppData\Roaming\SmarTTY\SavedConnections\_update_timestamp.txt                                         9
+C:\Users\andre\AppData\Local\SmarTTY\GUIPreferences.xml                                                               1
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt         1
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md 1
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt         5
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt            1
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt        2
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\SECUENCIA_ARRANQUE_CONTIGUA_UART.txt    2
+
+

@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+  Versi�n de WHCP:       Desconocido
+  
+  Nombre publicado:     oem80.inf
+> Nombre original:      worldcup_device.inf
+> Nombre del proveedor:      libusb-win32
+> Nombre de clase:         libusb-win32 Usb Devices
+  GUID de clase:         {eb781aaf-9c70-4523-a5df-642a87eca567}
+  Versi�n del controlador:     02/23/2013 1.2.6.0
+> Nombre del firmante:        libusb-win32 (WorldCup_Device.inf) [Self]
+  Atributos:         Legacy
+  Versi�n de WHCP:       Desconocido
+  
+
+

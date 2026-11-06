@@ -1,0 +1,18 @@
+Command exited with code 1.
+
+Command output:
+En l�nea: 5 Car�cter: 37
++  = New-Object System.Drawing.Bitmap()
++                                     ~
+Se esperaba una expresi�n despu�s de '('.
+En l�nea: 10 Car�cter: 10
++ .Dispose()
++          ~
+Se esperaba una expresi�n despu�s de '('.
+En l�nea: 11 Car�cter: 10
++ .Dispose()
++          ~
+Se esperaba una expresi�n despu�s de '('.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedExpression
+ 

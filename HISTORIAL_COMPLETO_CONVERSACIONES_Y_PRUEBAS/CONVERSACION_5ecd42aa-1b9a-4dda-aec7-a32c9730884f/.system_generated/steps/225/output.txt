@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+=== 1. ESCANEO PNP USB (TODOS LOS DISPOSITIVOS USB CONECTADOS A LA PC) ===
+
+Name   Status DeviceID                             
+----   ------ --------                             
+Xview+ OK     USB\VID_18D1&PID_4EE1\Z41220090388172
+
+
+=== 2. ADB DEVICES ===
+List of devices attached
+
+=== 3. FASTBOOT MODERNO DEVICES ===
+=== 4. ADNL DEVICES ===
+=== 5. UPDATE.EXE IDENTIFY ===
+[update]:No [WorldCup Device] device after scan
+[update]ERR(L1094):can not find device
+=== 6. UNIDADES USB EN LA PC ===
+
+
+DriveLetter     : C
+FileSystemLabel : Windows SSD
+FileSystem      : NTFS
+DriveType       : Fixed
+SizeRemaining   : 62963384320
+
+
+

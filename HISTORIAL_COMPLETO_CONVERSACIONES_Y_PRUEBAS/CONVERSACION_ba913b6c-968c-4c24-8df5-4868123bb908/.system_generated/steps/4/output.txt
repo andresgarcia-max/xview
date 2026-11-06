@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\microtik\microtik
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     05/11/2026  03:40 p. m.                00_Plantillas_RSC_Listas_Para_Usar                                   
+d-----     05/11/2026  03:39 p. m.                01_Configuraciones_y_Scripts                                         
+d-----     05/11/2026  03:40 p. m.                02_IP_Listas_y_Redes                                                 
+d-----     05/11/2026  03:40 p. m.                03_Seguridad_y_Firewall                                              
+d-----     05/11/2026  03:40 p. m.                04_Puertos_Monitoreo_y_Administracion                                
+-a----     05/11/2026  03:42 p. m.           7707 GUIA_PUERTOS_Y_SERVICIOS_MIKROTIK.md                                 
+
+

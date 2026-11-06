@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\server
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          29782 syncServer.cjs                                                       
+-a---l     24/10/2026  09:15 a. m.           3586 webServer.cjs                                                        
+
+

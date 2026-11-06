@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                      Length LastWriteTime     
+--------                                                                                      ------ -------------     
+C:\Users\andre\OneDrive\Desktop\xview\Liberacion_Xview_B866V2_Portatil.exe                 103914198 01/08/2026 02:2...
+C:\Users\andre\OneDrive\Desktop\xview\SmarTTY.exe                                            2471424 29/10/2026 10:0...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\PROGRAMA_PERFECTO_XVIEW_B866V2.exe     43520 04/11/2026 09:4...
+
+

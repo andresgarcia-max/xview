@@ -1,0 +1,362 @@
+package com.zte.adb.common;
+
+import java.nio.ByteBuffer;
+
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+import android.os.Process;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+
+import common.mcsp.McspEvt;
+import common.mcspevtmanager.McspCompCommun;
+import common.android.mscpcfg.McspCfgmanager;
+import common.android.mscpcfgdispatcher.McspCfgDispatcher;
+import common.productevt.ProductEvtClass;
+
+import java.io.UnsupportedEncodingException;//DingQin 2014-02-13 Reform Settings add
+
+public class ClientManager {
+	/* 缃戠粶缁勫缓浜嬩欢id  */
+	public static final String NETACCESS =       "MCSP_NetAccess";
+	
+	/* DingQin 2014-04-14 Reform WiFiSettings to original android -- add begin */
+	public static final int CMD_NA_BUILDWIFICONFIG = 0x00415011;
+	public static final int CMD_NA_BUILDPPPWIFICONFIG = 0x00415012;
+	/* DingQin 2014-04-14 Reform WiFiSettings to original android -- add end */
+	
+	/* 缃戠粶绫诲瀷锛岀敤浜巗tartnet(int nettype) he stop(int nettype) */
+	public static final int NET_MODE_WIRE = 				   0;
+	public static final int NET_MODE_WIRELESS = 			   1;
+	public static final int NET_MODE_BOTHCARD =                2;
+	
+	/* wirelesskey */
+	public static final String WIRELESSKEY = "MCSP_KeyManager";
+	public static final int WIRELESSKEY_COMP_CMD_OFFSET = 0x00465000;	
+	public static final int CMD_WIRELESSKEY_LEARNKEY_MAP = WIRELESSKEY_COMP_CMD_OFFSET + 0x00000004;
+
+	//whether have Ethernet card or a network cable  added by pengzs ,2013.11.27 begin
+	public static final int NET_HARDWARE_OK            = 0x00;// network hardware ok	
+	public static final int NET_FAIL_NO_WIRELESS_CARD  = 0x75;// no Wireless card	
+	public static final int NET_FAIL_NO_WIRE		   = 0x76;//no network cable	
+	//whether have Ethernet card or a network cable  added by pengzs ,2013.11.27 end
+
+	public static final String PRODUCT_NetAccess		= "MCSP_NetAccess";
+	
+	public static final int CMD_NA_STARTNETLINK_WPS	= 0x00415010;
+	
+	public static final int EVT_NET_CONNECT			= 0x00414001;
+	public static final int EVT_NET_DISCONNECT		= 0x00414002;
+	
+	/* DingQin 2014-03-06 Reform Settings add end */
+	
+	private static final String TAG = "[Settings]";
+	private static final String FILE = "[ClientManager]";
+	private static int cc_opened = 0;
+	
+	private static McspCompCommun compCom;// = new McspCompCommun(TAG);
+	private static McspCfgmanager cfgmanager = new McspCfgmanager();
+	private static McspCfgDispatcher cfgDispatcher = new McspCfgDispatcher();
+	private static boolean connect_ok = false;
+	private String mDestCompName = "cfg";
+
+	public ClientManager(){
+		init();
+	}
+	
+	public ClientManager(String destCompName){
+		mDestCompName = destCompName;
+		init();
+	}
+	
+	private void init(){
+		if(0 == cc_opened){
+			int myPid = Process.myPid();
+			Log.d(TAG, FILE + " [init] pid=" + Process.myPid() + ",tid = " + Process.myTid());
+			compCom = new McspCompCommun(TAG+myPid);
+			int ret = compCom.MCSP_SrvEvt_Init();
+			Log.d(TAG, FILE + " [init] compcom first open,ret="+ret);
+			if(0 == ret ){
+				cc_opened = 1;
+			}
+		}
+
+		cfgmanager.newComoCommun(compCom);
+		for(int i=0; i<5; i++){
+			if(Ping() == 0){
+				connect_ok = true;
+				break;
+			}
+		}
+		if(mDestCompName.equals("Terminal")) {
+			cfgDispatcher.newComoCommun(compCom);	
+		}
+	}
+	
+	public void Destroy() {
+		Log.d(TAG, FILE + " [Destroy] before Destroy()......");
+		compCom.MCSP_SrvEvt_Uninit();
+		cc_opened = 0; 
+		Log.d(TAG, FILE + " [Destroy] after Destroy()......");
+	}
+	public int cc_evtSubscribe(int[] aEvents, int eventNum){
+		return compCom.MCSP_EVTSubscribe(aEvents, eventNum);
+	}
+
+	public  int cc_evtUnsubscribe(int[] aEvents, int eventNum){
+		int ret = compCom.MCSP_EVTUnsubscribe(aEvents, eventNum);
+		return ret;
+	} 
+
+	public int cc_evtPost(int iEventId, byte[] aEventPara, int paraLen){
+		int ret = compCom.MCSP_EVTPost(iEventId, aEventPara, paraLen);
+		return ret;
+	}
+
+	public  int cc_syncSend
+			(String destCompName, 
+			 int cmd, 
+			 byte[] aData, 
+			 int dataLen, 
+			 byte[] aReply, 
+			 int[] aReplyLen){
+		int ret = compCom.MCSP_InvokeService(destCompName, 
+				 cmd, 
+				 aData, 
+				 dataLen, 
+				 aReply, 
+				 aReplyLen);
+		Log.d(TAG, FILE + " [cc_syncSend] ......ret = " + ret);
+		return ret;
+	}
+
+	//鎴愬姛锛氳繑鍥瀓ni鐗堟湰鍙凤紱澶辫触锛?1
+	public  int cc_registerMethod(Object classObj, String className, String notifyCbName, String syncProcCbName){
+		int ret = compCom.MCSP_RegisterMethod(classObj, className, notifyCbName, syncProcCbName);
+		return ret;
+	}
+	
+	//涓庣粍寤烘槸鍚︽槸鑱旈€氱殑锛?琛ㄧず鏄仈閫氱殑锛?1 涓嶆槸銆?
+	public int Ping(){
+		return cfgmanager.PingCfg();
+	}
+	public boolean contains(String prefName, String szKey) {
+		return cfgmanager.contains(prefName,szKey);
+	}
+	/* Different encoding for different Ap in list -- add begin */
+	public byte[] GetConfigBytes(String szSection, String szKey){
+		return cfgmanager.GetBytes(szSection, szKey, new byte[1]);
+	}
+	public int SetConfigBytes(String szSection, String szKey, byte[] aData){
+		return cfgmanager.putBytes(szSection, szKey, aData);
+	}
+	/* Different encoding for different Ap in list -- add end */
+	public String GetConfigString(String szSection, String szKey)	{
+		return cfgmanager.GetString(szSection, szKey, "");
+	}
+
+	public int GetConfigInteger(String szSection, String szKey){
+		return cfgmanager.GetInteger(szSection, szKey,0);
+	}
+	
+	//add by luff 2014.9.12
+	public boolean GetCfgDispatcher(String szSection, byte[] aData, int iValue){
+		return cfgDispatcher.cfgRead(szSection, aData, iValue);
+	}
+	
+	public boolean SetCfgDispatcher(String szSection, byte[] aData, int iValue){
+		return cfgDispatcher.cfgWrite(szSection, aData, iValue);
+	}	
+	//add end
+	
+	public int SetConfigString(String szSection, String szKey, String szValue){
+		return cfgmanager.putString(szSection, szKey, szValue);
+	}
+
+	public int SetConfigInteger(String szSection, String szKey, int iValue){
+		Log.d(TAG, FILE + " [SetConfigInteger] section = " + szSection + ", Key = " + szKey + "value = " + iValue);
+		return cfgmanager.putInteger(szSection, szKey, iValue);
+	}
+
+	public static final String defaultStbConfig= "/system/etc/stbconfig_bak";
+	public int UpdateConfigFromFs(String szFsFileName){
+		return cfgmanager.UpdateConfigFromFs(szFsFileName);
+	}
+	
+	//0:CONNECTING, 2:FAILED, 3:SUCC other:FAILED
+	public int getConnectState(int nettype)	{
+		try{
+			byte szData[] = new byte[4];
+			byte aReply[] = new byte[4*3];
+			int iReplyLen[] = new int[1];
+			iReplyLen[0] = 4*3;
+			
+			Log.d(TAG, FILE + " [getConnectState] Before getConnectState()...... pid=" + Process.myPid() + ",tid = " + Process.myTid()+",uid="+Process.myUid() 
+				+ ", McspEvt.CMD_NA_GETCONNECTSTATE = 0x"+ Integer.toHexString(McspEvt.CMD_NA_GETCONNECTSTATE));
+			int iRet = compCom.MCSP_InvokeService(NETACCESS, McspEvt.CMD_NA_GETCONNECTSTATE, szData, szData.length, aReply, iReplyLen);						
+			if (-1 == iRet){
+				Log.e(TAG, FILE + " [getConnectState] compCom.MCSP_InvokeService error!!!");
+				return -1;
+			}
+			ByteBuffer buffer = ByteBuffer.wrap(aReply);
+			buffer.order(ByteOrder.nativeOrder());
+			int sessionID = buffer.getInt();
+			int returnResult = buffer.getInt();
+			int NetState = buffer.getInt();
+			
+			Log.d(TAG, FILE + " [getConnectState] After getConnectState()......NetState="+NetState);
+			return NetState;
+		} catch (Exception e){
+			Log.e(TAG, FILE + " [getConnectState] catch Exception!!!");
+			e.printStackTrace();
+			return -1;
+		}
+	}
+
+    // added getNetHardware()  by pengzs ,to check out whether have ethernet card or network cable 2013.11.27 begin
+	//0:have ethernet card or network cable.  0x75 :have no wireless card  0x76: have no network cable -1:get error
+	public int getNetHardwareState(){
+        if(false == connect_ok)
+        {
+            Log.d(TAG, FILE + "[getNetHardwareState] mcsp server didn't connect, init first");
+            init();
+        }
+    
+		try {
+			byte szData[] = new byte[4];
+			byte aReply[] = new byte[4*3];
+			int iReplyLen[] = new int[1];
+			iReplyLen[0] = 4*3;
+			Log.d(TAG, FILE + " [getNetHardwareState] begin getNetHardwareState()...... pid=" + Process.myPid() + ",tid = " + Process.myTid()+",uid="+Process.myUid());
+			int iRet = compCom.MCSP_InvokeService(NETACCESS, McspEvt.CMD_NA_DETECTNETLINK, szData, szData.length, aReply, iReplyLen);						
+			if (-1 == iRet){
+				Log.e(TAG, FILE + " [getNetHardwareState] getNetHardwareState compCom.MCSP_InvokeService error!!!");
+				return -1;
+			}
+			ByteBuffer buffer = ByteBuffer.wrap(aReply);
+			buffer.order(ByteOrder.nativeOrder());
+			buffer.getInt();// skip two byes
+			buffer.getInt();
+			int netHardwareState = buffer.getInt();
+			
+			Log.d(TAG, FILE + " [getNetHardwareState] normal end getNetHardwareState()......netHardwareState="+netHardwareState);
+			return netHardwareState;
+		} catch (Exception e){
+			Log.e(TAG, FILE + " [getNetHardwareState] getNetHardwareState catch Exception!!!");
+			e.printStackTrace();
+			return -1;
+		}
+	}
+	
+    // added getNetworkHardware()  by pengzs ,to check out whether have ethernet card or network cable 2013.11.27 end 
+	
+	//褰撶綉缁滈厤缃湁淇敼鏃讹紝閲嶅惎缃戠粶 ,nettype鍚箟瑙佸睘鎬у畾涔夈€?
+	public int startnet(int nettype){
+		Log.d(TAG, FILE + " [startnet] Before startnet()......");
+		try{
+			if (nettype != NET_MODE_WIRE && nettype != NET_MODE_WIRELESS && nettype != NET_MODE_BOTHCARD){
+				Log.d(TAG, FILE + " [startnet] input parameter error!!!");
+				return -1;
+			}
+			byte szData[] = new byte[1088];
+			byte aReply[] = new byte[1024];
+			int iReplyLen[] = new int[1];
+			iReplyLen[0] = 1024;
+			
+			System.arraycopy(UtilsInstance.intToByte(nettype), 0, szData, 0, UtilsInstance.intToByte(nettype).length);
+			Log.d(TAG, FILE + " [startnet] pid=" + Process.myPid() + ",tid = " + Process.myTid()+",uid="+Process.myUid()
+				+" McspEvt.CMD_NA_STARTNETLINK=0x"+Integer.toHexString(McspEvt.CMD_NA_STARTNETLINK) +",nettype = "+nettype);
+			int iRet = compCom.MCSP_InvokeService(NETACCESS, McspEvt.CMD_NA_STARTNETLINK, szData, szData.length, aReply, iReplyLen);
+			if (-1 == iRet){
+				Log.e(TAG, FILE + " [startnet] compCom.MCSP_InvokeService error!!!");
+				return -1;
+			}
+			String strReply = new String(aReply);
+			String strData = strReply.toString().trim();
+			if (null == strData){
+				Log.d(TAG, FILE + " [startnet] return data error!!!,strData= null");
+				return -1;
+			} 
+			Log.d(TAG, FILE + " [startnet] After startnet()......");
+			return 0;
+		} catch (Exception e){
+			Log.e(TAG, FILE + " [startnet] catch Exception!!!");
+			e.printStackTrace();
+			return -1;
+		}
+	}
+
+	public int stopnet(int nettype){
+		Log.d(TAG, FILE + " [stopnet] Before stopnet()......");
+		try{
+			if (nettype != NET_MODE_WIRE && nettype != NET_MODE_WIRELESS && nettype != NET_MODE_BOTHCARD){
+				Log.d(TAG, FILE + " [stopnet] input parameter err!!!");
+				return -1;
+			}
+			byte szData[] = new byte[1088];
+			byte aReply[] = new byte[1024];
+			int iReplyLen[] = new int[1];
+			iReplyLen[0] = 1024;
+			
+			System.arraycopy(UtilsInstance.intToByte(nettype), 0, szData, 0, UtilsInstance.intToByte(nettype).length);
+			
+			Log.d(TAG, FILE + " [stopnet] pid=" + Process.myPid() + ",tid = " + Process.myTid()+",uid="+Process.myUid()
+				+ "McspEvt.CMD_NA_STOPNETLINK=0x"+Integer.toHexString(McspEvt.CMD_NA_STOPNETLINK)+",nettype = "+nettype);
+			int iRet = compCom.MCSP_InvokeService(NETACCESS, McspEvt.CMD_NA_STOPNETLINK, szData, szData.length, aReply, iReplyLen);
+			if (-1 == iRet){
+				Log.e(TAG, FILE + " [stopnet] compCom.MCSP_InvokeService error iRet = -1 ");
+				return -1;
+			}
+			String strReply = new String(aReply);
+			String strData = strReply.toString().trim();
+			if (null == strData){
+				Log.e(TAG, FILE + " [stopnet] return data = null !!!");
+				return -1;
+			} 
+			Log.d(TAG, FILE + " [stopnet] After stopnet()......");
+			return 0;
+		} catch (Exception e) {
+			// TODO: handle exception
+			Log.e(TAG, FILE + " [stopnet] catch Exception!!!");
+			e.printStackTrace();
+			return -1;
+		}
+	}
+	
+	public String[] getApList(){
+		Log.d(TAG, FILE + " [getApList] iEventId=0x"+Integer.toHexString(McspEvt.CMD_NA_WIFIAPLIST));
+		byte[] aData = new byte[4];
+		int MaxLen = 2048;
+		ByteBuffer buffer=ByteBuffer.wrap(aData);
+		buffer.putInt(MaxLen);
+		
+		int aDataLen = 4;
+		byte[] pAPlist = new byte[MaxLen];
+		int[] iDataLen = new int[1];
+		iDataLen[0] = MaxLen;
+		
+		compCom.MCSP_InvokeService(NETACCESS, McspEvt.CMD_NA_WIFIAPALLLIST, aData, aDataLen, pAPlist, iDataLen);
+		
+		/* Different encoding for different Ap in list -- begin */
+		String strtemp;
+		try {
+			UtilsInstance.bytes2HexString(pAPlist);
+			strtemp = new String(pAPlist, 8, MaxLen-8, "GBK").trim();
+		} catch (UnsupportedEncodingException e) {
+			Log.d(TAG, FILE + " [getApList] change code error ap_info");
+			e.printStackTrace(); 
+			return null;
+		}
+		/* Different encoding for different Ap in list -- end */
+		
+		Log.d(TAG, FILE + " [getApList] strtemp="+strtemp);
+		String []apSinInfo = strtemp.split("\n");
+		if(strtemp.trim().equals("")){
+			return null;
+		}
+		Log.d(TAG, FILE + " [getApList] =====apSinInfo length======"+apSinInfo.length);
+		return strtemp.split("\n");
+	}
+}

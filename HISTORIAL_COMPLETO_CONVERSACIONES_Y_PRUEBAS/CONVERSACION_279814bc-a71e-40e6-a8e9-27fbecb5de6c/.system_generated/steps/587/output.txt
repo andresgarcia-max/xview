@@ -1,0 +1,83 @@
+Command exited with code 1.
+
+Command output:
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\avatars: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\avatars'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\access: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\access'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\auth: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\auth'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\clients: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\clients'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\config: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\config'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\dashboard: 
+Acceso denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\dashboard'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\finance: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\finance'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\layout: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\layout'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\pos: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\pos'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\products: 
+Acceso denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\products'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 

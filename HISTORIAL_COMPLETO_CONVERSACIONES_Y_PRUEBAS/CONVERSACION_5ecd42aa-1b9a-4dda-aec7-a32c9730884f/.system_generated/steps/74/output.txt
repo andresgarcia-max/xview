@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+AdvancedDisplayNotShow
+SLcom/android/tv/settings/device/apps/UninstallPreference$$ExternalSyntheticLambda0;
+SLcom/android/tv/settings/device/apps/UninstallPreference$$ExternalSyntheticLambda1;
+9Lcom/android/tv/settings/device/apps/UninstallPreference;
+UninstallPreference.java
+cameraNotShow
+clearApplicationUserData
+enablePreference
+forceStopPreferenceNotShow
+mUninstallPreference
+notShowAccess
+notShowApp
+notShowDisplayableRecentApp
+notShowFactorytesttool
+notShowForceStop
+unknownSourcesPrefNotShow
+wasAnimatingWhenNotShown

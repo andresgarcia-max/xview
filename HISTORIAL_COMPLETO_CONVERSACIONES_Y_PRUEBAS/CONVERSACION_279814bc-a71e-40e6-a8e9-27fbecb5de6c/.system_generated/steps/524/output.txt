@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:12:import { TerminalSyncModal, getTerminalConfig, 
+saveTerminalConfig, TerminalConfig } from './TerminalSyncModal';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:54:import { checkServerHealth, fetchMembersFromServer } from 
+'../../services/syncService';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:71:    forceSync, 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:73:    syncMembersWithServer, 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:194:  const [isSyncing, setIsSyncing] = useState(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:195:  const [lastSyncTime, setLastSyncTime] = useState<Date | 
+null>(new Date());
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:208:  // Sync members from server
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:209:  const syncWithServer = useCallback(async (): 
+Promise<boolean> => {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:215:      const res = await 
+fetchMembersFromServer(config.serverUrl, serverVersionRef.current);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:222:            setLastSyncTime(new Date());
+
+

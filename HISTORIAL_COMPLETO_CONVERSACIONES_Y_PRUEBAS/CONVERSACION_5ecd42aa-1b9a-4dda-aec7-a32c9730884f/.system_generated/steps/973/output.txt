@@ -1,0 +1,87 @@
+Command exited with code 0.
+
+Command output:
+0x309BF: prompt_and_wipe_data
+0x30D3D: CHECK failed: (scc->visit_status.load(std::memory_order_relaxed)) == (SCCInfoBase::kRunning): 
+0x31132:  Reboot system now
+0x31294: /proc/mounts
+0x3152A:  of the Protocol Buffer runtime library, which is not compatible with the installed version (
+0x316EA: Rebooting to recovery...
+0x31704: Entering fastboot
+0x31722: wipe_ab
+0x31737: Set USB Status Success!
+0x31B07: logical_block_size is not power of 2
+0x31C8B: Failed to set USB config to 
+0x31CD0: power off
+0x31DE0: Failed to set usb config to sideload
+0x31E4B: -- Couldn't mount 
+0x31E9E: failed to set up expected mounts for install; aborting
+0x320DA: /metadata is mounted, but errors occur when acquiring a shared lock. Subsequent calls to SnapshotManager will fail. Unmounting /metadata now.
+0x32355: Zip: unable to truncate file to %lld: %s
+0x324E3: [%s][%d]%s,%s,%d, enter debuging state 4
+0x325D7: Unable to check update status or complete merge, cannot wipe partitions.
+0x32621: Failed to verify wipe package
+0x32936: SnapshotMergeStats running_ == 
+0x32B64: Entering recovery
+0x32B87: Rebooting automatically.
+0x32E63: dt_fstab: Using a specified mount point 
+0x3332D: Mounted /system.
+0x334CA: Empty wipe ab partition list
+0x336C2: Cannot unmount 
+0x338C7: Can't mount 
+0x33B58: Cannot create update snapshots with overlayfs setup. Run `adb enable-verity`
+0x33BA5: EnsureMetadataMounted does nothing in Android mode.
+0x33C3C: Cannot mount 
+0x33D1C: Reboot failed
+0x33FCD: W:failed to mount %s on %s (%s).try read-only ...
+0x34000: format_volume: Failed to unmount "
+0x341B1: Wipe will be scheduled. Allowing forward merge of snapshots.
+0x3442C: sys.usb.config
+0x34444: sideload_auto_reboot
+0x34459: SetUSBHost 
+0x34465: Failed to mount 
+0x34910: reboot,
+0x350F6: Partitions may be mounted - rebooting to enter fastboot.
+0x35177: wipe_cache
+0x351AC: /proc/ledlight/powerred/state
+0x35275: [%s][%d]%s,%s,%d, enter debuging state 5
+0x3531D: Error parsing mount_flags
+0x354BF: Unexpected merge-needs-reboot state in recovery.
+0x356EC: Invalid status code of INSTALL_REBOOT
+0x35865: [%s][%d]%s,%s,%d, enter debuging state 2
+0x3588F: [%s][%d]%s,%s,%d, enter debuging state 3
+0x35A84: Update state is being processed before reboot, taking no action.
+0x35AFD: Metadata not mounted.
+0x35B9F: Failed to truncate.
+0x35EB3: bootable/recovery/fastboot/fastboot.cpp
+0x3609B: Failed to read wipe package
+0x3661B: fastboot
+0x36694:  Power off
+0x3669F: Set USB Status Failed!
+0x368FA: E:failed to mount %s on %s by read-only (%s), errno = %d
+0x36966: Error parsing mount_point
+0x36B22: running
+0x37030: bootable/recovery/install/wipe_data.cpp
+0x370DC: first_stage_mount
+0x37275: Unable to unmap all partitions; fastboot may fail to flash.
+0x372B1: Wipe is not scheduled. Deleting forward merge indicator.
+0x372EA: Block device was lazily unmounted and is still in-use: 
+0x37622: wipe_package_size
+0x377F9: Cache wipe %s.
+0x37809: W:try mount %s ...
+0x37E75: Rebooting to recovery/fastboot...
+0x37E98: Rebooting to recovery/rescue...
+0x37EFD: SetUSBDevice 
+0x38193: Not booting from new slot. Will not mount snapshots.
+0x3825D: Failed to initiate merge on data wipe.
+0x38284: Partition still mounted: 
+0x3854D: Failed to clear USB config
+0x38778: enable_reboot
+0x38BCA: Rebooting...
+0x38DF8: W:successful to mount %s
+0x38F90: , reboot, then try again.
+0x390EE: EnsureMetadataMounted can't find entry for 
+0x3928C: ATV mutilcast upgrade successfull,need to reboot
+0x39955: reboot
+0x39AD7: wipe_block_device
+0x39F47: wipe_data

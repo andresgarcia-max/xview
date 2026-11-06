@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+src/components/access/IndependentTerminalApp.tsx:          alt="Fitness Legends Gym Background"
+src/components/access/TurnstileTerminal.tsx:          alt="Fitness Legends Gym Background"

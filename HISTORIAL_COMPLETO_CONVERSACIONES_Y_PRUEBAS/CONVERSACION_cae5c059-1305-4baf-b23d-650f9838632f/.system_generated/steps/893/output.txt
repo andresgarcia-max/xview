@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Saved bg_2032872.jpg

@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+    { wch: 15 }, // ID
+    { wch: 50 }, // Detalle
+    { wch: 20 }, // Metodo
+    { wch: 24 }, // Cajero
+    { wch: 18 }, // Subtotal
+    { wch: 18 }, // Impuestos
+    { wch: 22 }, // Total
+  ];
+  XLSX.utils.book_append_sheet(wb, wsDetail, 'Detalle de Cobros');
+
+  const safePeriod = periodLabel.replace(/[\s\/\(\)]+/g, '_');
+  const safeDate = new Date().toISOString().slice(0, 10);
+  const fileName = `Reporte_Ingresos_${safePeriod}_${safeDate}.xlsx`;
+  XLSX.writeFile(wb, fileName);
+};

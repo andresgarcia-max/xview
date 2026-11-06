@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe

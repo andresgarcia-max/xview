@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+Name             Length
+----             ------
+boot.img       16777216
+cache_ext4.img 67108864
+conf.img        4194304
+dtb.img          262144
+dtbo.img        8388608
+logo.img         287800
+oem.img        16777216
+param.img      16777216
+recovery.img   25165824
+vbmeta.img      2097152
+
+

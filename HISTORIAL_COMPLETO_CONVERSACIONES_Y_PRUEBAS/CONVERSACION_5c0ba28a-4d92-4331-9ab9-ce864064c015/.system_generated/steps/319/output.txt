@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     24/10/2026  11:35 a. m.          39936 FITNESS_LEGENDS_SISTEMA_ERP.exe                                      
+
+

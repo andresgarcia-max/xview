@@ -1,0 +1,30 @@
+Command exited with code 0.
+
+Command output:
+0x3A008: need to reboot blink green,so just do nothing here!
+0x3A2C5: Couldn't mount Metadata.
+0x3A5E4: bootable/recovery/install/wipe_device.cpp
+0x3A702: Skip mounting mountpoint: 
+0x3A8F3: Data wipes are only allowed in recovery.
+0x3AEF1: W:successful to mount %s on %s by read-only
+0x3B3E1: have app to install,need to reboot
+0x3B580: Error parsing mount source
+0x3BA33: Now send the package you want to apply
+0x3C0CE: E:Can't run %s (%s)
+0x3C423:  of the Protocol Buffer runtime library, but the installed version is 
+0x3C56D: userrequested,fastboot
+0x3C64C: /proc/ledlight/powergreen/state
+0x3C770: wipe_package_size is zero
+0x3C830: warning: %s: Wipe via secure discard failed, used discard instead
+0x3D0F1: UpdateMode=1,need to wipe_data
+0x3D1CF: [%s][%d]%s,%s,%d, enter debuging state 1
+0x3D24F: Data wipe %s.
+0x3D2AD: can't set up install mounts: no fstab loaded
+0x3D37A: latemount
+0x3D7F8: Rebooting to bootloader...
+0x3D820: boot-fastboot
+0x3D98E: Failed to open wipe package
+0x3DA05: Failed to unmount 
+0x3DA24: remount
+0x3DB39: after applying an update. Assuming no snapshots.
+0x3DBE2: merge-needs-reboot

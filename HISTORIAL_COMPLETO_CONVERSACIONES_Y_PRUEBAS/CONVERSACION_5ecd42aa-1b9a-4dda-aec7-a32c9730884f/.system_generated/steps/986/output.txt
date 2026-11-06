@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+0xC8F6: _Z23read_bootloader_messageP18bootloader_messagePNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+0xC968: _Z24write_bootloader_messageRK18bootloader_messagePNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+0xC9DC: _Z25update_bootloader_messageRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEEPS6_
+0xD9F3: _Z24clear_bootloader_messagePNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0x2B3CA: libbootloader_message.so
+0x310BB: bootloader
+0x31704: Entering fastboot
+0x3172A: otg_device
+0x31737: Set USB Status Success!
+0x31C8B: Failed to set USB config to 
+0x31DE0: Failed to set usb config to sideload
+0x34459: SetUSBHost 
+0x350D1: Failed to write bootloader message: 
+0x350F6: Partitions may be mounted - rebooting to enter fastboot.
+0x35EB3: bootable/recovery/fastboot/fastboot.cpp
+0x3661B: fastboot
+0x3669F: Set USB Status Failed!
+0x368D1: /udisk
+0x37061: /udisk/factory_update_param.aml
+0x37275: Unable to unmap all partitions; fastboot may fail to flash.
+0x37E75: Rebooting to recovery/fastboot...
+0x37EFD: SetUSBDevice 
+0x38583: Bootloader version - 
+0x3BB56: bootable/recovery/install/udisk_upgrade.cpp
+0x3C56D: userrequested,fastboot
+0x3D7F8: Rebooting to bootloader...
+0x3D820: boot-fastboot
+0x3E398: --fastboot
+0x3E440: ro.bootloader
+0x3E5A8: Reboot to bootloader
+0x3E840: Android Fastboot
+0x170D88: /udisk/ZTESTBUSB/ota.zip
+0x171D88: /udisk/ZTESTBUSB/increment.zip
+0x174D88: /udisk/ZTESTBUSB/ota_logo.zip

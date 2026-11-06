@@ -1,0 +1,2314 @@
+Command exited with code 0.
+
+Command output:
+
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:79:[    7.551265@2] meson-remote 
+ff808040.rc: reg=0x20, val=0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:80:[    7.551268@2] meson-remote 
+ff808040.rc: reg=0x24, val=0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:81:[    7.551270@2] meson-remote 
+ff808040.rc: reg=0x28, val=0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:82:[    7.554611@3] assign_ffs_buffer 
+FFS_BUFFER_MAX=100!!!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:83:[    7.558370@2] meson-remote 
+ff808040.rc: default protocol = 0x1 and id = 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:84:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:85:?[  184.752446@0] _____1267 > 
+proc_w_power_red 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:86:[  184.752465@0] set_ledlight_state -> 
+dev=0, state=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:87:[  184.755763@0] _____834 
+>set_led_power_red status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:88:[  184.760605@0] _____288 > set_led 
+status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:89:[  184.764687@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:90:[  184.769044@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:91:[  184.773788@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:92:[  184.778891@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:93:M
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:94:[   12.086105@2] hdmitx: system: update 
+rx hdr info d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:95:[   12.090872@2] vout: new mode 2160p60hz 
+set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:96:[   12.095203@2] fb: current 
+vmode=2160p60hz, cmd: 0x20000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:97:[   12.100408@2] fb: outputmode changed 
+to 2160p60hz, reset osd0, (0, 0, 1919, 1079) -> (0, 0, 3839, 2159)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:98:[   12.128438@2] fb: osd[0] enable: 1 
+(recovery)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:99:[   12.145128@2] DOLBY: 
+vout_notify_callback: VOUT_EVENT_MODE_CHANGE
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:100:[   12.145575@2] vlock: event MODE_CHANGE
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:101:[   12.149520@2] audit_printk_skb: 123 
+callbacks suppressed
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:102:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:103:?[  186.813626@0] _____1267 > 
+proc_w_power_red 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:104:[  186.813645@0] set_ledlight_state -> 
+dev=0, state=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:105:[  186.816947@0] _____834 
+>set_led_power_red status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:106:[  186.821790@0] _____288 > set_led 
+status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:107:[  186.825895@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:108:[  186.830206@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:109:[  186.834972@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:110:[  186.840076@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:111:[   11.682479@0] systemcontrol: 
+[ubootenv] using /dev/block/env with size(65536) (65532)systemcontrol: [ubootenv] set property count: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:112:[   11.688815@0] systemcontrol: display 
+mode config path: /etc/mesondisplay.cfgsystemcontrol: [ubootenv] update value name [upgrade_step]: value [1] 
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:113:[   11.701869@2] systemcontrol: 
+[ubootenv] upgrade_step is not a ubootenv variable.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:114:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:115:?[  187.844244@0] _____1267 > 
+proc_w_power_red 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:116:[  187.844263@0] set_ledlight_state -> 
+dev=0, state=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:117:[  187.847562@0] _____834 
+>set_led_power_red status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:118:[  187.852403@0] _____288 > set_led 
+status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:119:[  187.856509@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:120:[  187.860819@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:121:[  187.865584@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:122:[  187.870690@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:123:2] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:124:[   13.802842@2] fb: 
+logo_index=0,fb_index=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:125:[   13.806819@2] fb: 
+---------------clear fb0 memory ffffff800abe4000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:126:[   13.816683@2] fb: osd[0] canvas.idx 
+=0x40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:127:[   13.816958@2] fb: osd[0] 
+canvas.addr=0x77800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:128:[   13.821473@2] fb: osd[0] 
+canvas.width=7680
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:129:[   13.825545@2] fb: osd[0] 
+canvas.height=2160
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:130:[   13.829705@2] fb: osd[0] 
+frame.width=1920
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:131:[   13.833692@2] fb: osd[0] 
+frame.height=1080
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:132:[   13.837764@2] fb: osd[0] out_addr_id 
+=0x1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:133:covery" 
+name="u:object_r:netflix_prop:s0" dev="tmpfs" ino=2251 scontext=u:r:recovery:s0 tcontext=u:object_r:netflix_prop:s0 
+tclass=file permissive=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:182:[   13.702323@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:183:[   13.702326@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:184:[   13.743256@2] fb: use ion buffer for 
+fb memory, fb_index=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:185:[   13.748716@2] fb: OSD0 as afbcd 
+mode,afbc_type=2
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:186:[   13.759478@2] meson-fb meson-fb: 
+create ion_client ffffffc054d97240, handle=ffffffc0025e3680
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:187:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:188:?[  181.660633@0] _____1267 > 
+proc_w_power_red 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:189:[  181.660652@0] set_ledlight_state -> 
+dev=0, state=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:190:[  181.663948@0] _____834 
+>set_led_power_red status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:191:[  181.668789@0] _____288 > set_led 
+status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:192:[  181.672896@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:193:[  181.677204@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:194:[  181.682004@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:195:[  181.687075@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:196:5@2] vlock: event MODE_CHANGE_PRE 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:197:[   11.909352@2] hdmitx: 
+hdmitx_set_current_vmode[3927]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:198:[   11.914265@2] hdmitx: system: recalc 
+before 2160p60hz 60 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:199:[   11.915164@0] hdmitx: 
+hdmitx_set_drm_pkt: HDR->SDR, DRM_DB[0]=2
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:200:[   11.915330@0] hdmitx: hdr_work_func: 
+send zero DRM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:201:[   11.930384@2] hdmitx: system: recalc 
+after 2160p60hz 2997 50
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:202:[   11.936016@2] hdmitx: system: get 
+current mode: 2160p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:203:[   11.941392@2] hdmitx: system: update 
+physcial size: 1020 570
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:204:[   11.947055@2] hdmitx: video: already 
+init VIC = 0  Now VIC = 353
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:205:[   11.953008@2] hdmitx: hw: div40: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:206:sh
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:207:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:208:?[  185.783037@0] _____1267 > 
+proc_w_power_red 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:209:[  185.783056@0] set_ledlight_state -> 
+dev=0, state=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:210:[  185.786364@0] _____834 
+>set_led_power_red status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:211:[  185.791193@0] _____288 > set_led 
+status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:212:[  185.795278@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:213:[  185.799608@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:214:[  185.804399@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:215:[  185.809479@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:216: clk!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:217:[    1.007205@2] meson_cpufreq_init: 
+ignor dsu pre parent clk!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:218:[    1.007270@2] value of 
+voltage_tolerance 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:219:[    1.007283@2] 
+meson_cpufreq_init:don't find the node <dynamic_gp1_clk>
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:220:[    1.007292@2] value of gp1_clk_target 
+0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:221:[    1.008819@2] cpu cpu0: 
+meson_cpufreq_init: CPU 0 initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:222:[    1.010003@2] ff803000.serial: clock 
+gate not found
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:223:[    1.010072@2] meson_uart 
+ff803000.serial: ==uart0 reg addr = ffffff800843e000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:224:[    1.010144@2] ff803000.serial: ttyS0 
+at MMIO 0xff803000 (irq = 21, base_baud = 1500000) is a meson_uart
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt:225:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:10:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:11:Toda la sesión en memoria de 
+`SmarTTY.exe` fue extraída, reconstruida línea por línea (incluyendo las líneas largas que `SmarTTY` divide en bloques 
+de 80 columnas) y almacenada en [`experimento/13_CAPTURA_UART_TTL_SMARTTY/`](file:///c:/Users/CORSAIR/Desktop/xview/exp
+erimento/13_CAPTURA_UART_TTL_SMARTTY):
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:12:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:13:| Archivo Generado | Contenido / 
+Rol Forense | Líneas / Tamaño |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:14:| :--- | :--- | :--- |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:15:| [`LOG_UART_LIMPIO_COMPLETO.txt`]
+(file:///c:/Users/CORSAIR/Desktop/xview/experimento/13_CAPTURA_UART_TTL_SMARTTY/LOG_UART_LIMPIO_COMPLETO.txt) | 
+Secuencia cronológica completa (`0.000000s` a `189.931918s`) desde `G12A:BL:` hasta el bucle en Android Recovery. | 
+`2,765` líneas |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:16:| [`SECCIONES_CRITICAS_COMPLETAS.t
+xt`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/13_CAPTURA_UART_TTL_SMARTTY/SECCIONES_CRITICAS_COMPLETAS.txt) 
+| Reconstrucción sin cortes de `BL1/BL2`, `U-Boot`, `Kernel command line`, tabla de `21 particiones eMMC`, `USB/OTG` e 
+`init`. | `630` líneas |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:17:| [`LECTURA_COMPLETA_UART_UTF16.tx
+t`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/13_CAPTURA_UART_TTL_SMARTTY/LECTURA_COMPLETA_UART_UTF16.txt) | 
+Buffers de pantalla `UTF-16LE` crudos extraídos directamente de la memoria de `SmarTTY.exe`. | `13,621` líneas |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:18:| [`BLOQUES_ASCII_RAW_COMPLETOS.tx
+t`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/13_CAPTURA_UART_TTL_SMARTTY/BLOQUES_ASCII_RAW_COMPLETOS.txt) | 
+Buffers `ASCII` del puerto serie en memoria de `SmarTTY.exe`. | `3,383` líneas |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:19:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:20:---
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:21:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:22:## 2.Los 4 Descubrimientos 
+Críticos (Por qué la caja hace exactamente lo que hace)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:23:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:24:### Hallazgo Crítico #1: ¿Por qué 
+esta caja entra SIEMPRE sola a Recovery al encender? (`GPIOAO_3 == 0`)
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:25:En la etapa `U-Boot`, justo 
+después de inicializar la salida HDMI y leer la partición `misc`, el bootloader consulta el estado físico del pin 
+**`GPIOAO_3` (`gpio 3`)**, que corresponde al **botón físico de `RESET / UPGRADE`** en la placa:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:26:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:27:```text
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:28:gpio: pin GPIOAO_3 (gpio 3) value 
+is 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:29:detect upgrade key
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:30:InUsbBurn
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:31:noSof
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:32:sof timeout, reset usb phy tuning
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:33:card out
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:34:[MSG]mmcinfo failed!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:35:card out
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:36:(Re)start USB...
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:37:USB0:   USB3.0 XHCI init start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:38:scanning bus 0 for devices... 1 
+USB Device(s) found
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:39:scanning usb for storage 
+devices... 0 Storage Device(s) found
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:40:** Bad device usb 0 **
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:41:system = recovery,set 
+system_mode=recovery
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:42:```
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:43:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:44:* **Diagnóstico:** En lógica 
+Amlogic G12A, `GPIOAO_3` es **activo en bajo (`0` = presionado, `1` = suelto)**. La lectura UART demuestra con certeza 
+absoluta que **`GPIOAO_3` está leyendo `0` durante todo el arranque**.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:45:* **Causa física/lógica:**
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:46:  1. El micro-interruptor físico 
+(`Reset`) de esta caja está **trabado / presionado mecánicamente** o en corto a `GND`, **o bien**
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:47:  2. El cableado/conector cerca 
+del cabezal tocó la línea `GPIOAO_3`.
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:48:* **Efecto directo:** Al ver 
+`GPIOAO_3 = 0`, U-Boot dispara `detect upgrade key` e ignora el arranque normal (`boot`), forzando siempre `system = 
+recovery,set system_mode=recovery`!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:49:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:50:---
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:51:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:52:### Hallazgo Crítico #2: ¡La caja 
+SÍ entra en modo `InUsbBurn` (USB Macho-a-Macho) durante 1.5 segundos en U-Boot!
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:53:Observa las 3 líneas 
+inmediatamente posteriores a `detect upgrade key`:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:54:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:55:```text
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:56:detect upgrade key
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:57:InUsbBurn
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:58:noSof
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:59:sof timeout, reset usb phy tuning
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:60:```
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:61:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:62:* **¿Qué significa `InUsbBurn` -> 
+`noSof` -> `sof timeout`?**
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:63:  * En el segundo `~8.0` del 
+encendido (cuando aparece el logo de Megacable y antes de cargar el kernel Linux), U-Boot **activa el modo de flasheo 
+USB de Amlogic (`InUsbBurn`)** en el puerto USB OTG y espera paquetes **`SOF` (`Start-Of-Frame`)** provenientes de una 
+PC con el driver **`WorldCup Device` (Amlogic USB Burning Tool)** activo.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:64:  * ¿Por qué no sonó en Windows 
+cuando lo conectaste antes?
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:65:    1. Si conectas el cable USB 
+**después** de que pasa ese segundo `8.0` (cuando ya está en el menú de Recovery), el ventana de `InUsbBurn` (`~1.5 
+segundos`) ya expiró (`sof timeout, reset usb phy tuning`).
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:66:    2. Además, si en Windows no 
+está instalado el driver **Amlogic WorldCup Device** (que viene con **Amlogic USB Burning Tool v2.2.0 / v2.2.4**), 
+Windows ve un dispositivo sin driver durante 1.5 segundos, no envía el apretón de manos USB `Burn`, y U-Boot aborta 
+con `noSof` y salta a Recovery.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:67:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:68:---
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:69:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:70:### Hallazgo Crítico #3: ¿Por qué 
+el cable USB Macho-a-Macho NO funciona una vez que entra al menú de Recovery? (`otg_device=0`)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:71:En la línea de comandos que 
+U-Boot le pasa al Kernel Linux (`4.9.113`), aparece este parámetro crítico:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:72:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:73:```text
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:74:Kernel command line: init=/init 
+ramoops.pstore_en=1 ... console=ttyS0,115200 ... otg_device=0 reboot_mode_android=normal ... 
+androidboot.selinux=enforcing androidboot.firstboot=0 jtag=disable androidboot.hardware=amlogic 
+androidboot.serialno=1234567890
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:75:```
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:76:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:77:Y cuando el Kernel Linux arranca 
+en el segundo `5.295811`, imprime:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:78:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:79:```text
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:80:[    5.295811@1] dwc3 
+ff500000.dwc3: Configuration mismatch. dr_mode forced to host
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:81:[    5.301986@0] dwc_otg: usb0: 
+type: 2 speed: 0, config: 0, dma: 0, id: 0, phy: ffe09000, ctrl: 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:82:[    5.301989@0] 
+dwc_otg_driver_probe host only, not probe usb_otg!!!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:83:```
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:84:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:85:* **Explicación:** En el árbol de 
+dispositivos (`DTB`) y `cmdline` de ZTE (`otg_device=0`), una vez que carga el Kernel Linux (`Recovery` o `Android`), 
+el controlador `dwc3` / `dwc_otg` **fuerza ambos puertos USB a modo `HOST ONLY` (`not probe usb_otg!!!`)**.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:86:* Por eso:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:87:  * **En los primeros 8 segundos 
+(U-Boot `InUsbBurn`):** El puerto USB **SÍ** funciona como dispositivo esclavo para **Amlogic USB Burning Tool**.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:88:  * **Después del segundo 8 
+(Kernel Linux / Recovery):** El puerto USB se convierte exclusivamente en **Host** (solo lee memorias USB/teclados, 
+jamás responde a una PC por cable Macho-a-Macho).
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:89:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:90:---
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:91:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:92:### Hallazgo Crítico #4: Estado 
+sucio en la partición `misc` (`upgrade_step=2` y comando roto `wipeisb` de ZTE)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:93:Durante el arranque de U-Boot se 
+observa:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:94:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:95:```text
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:96:reboot_mode=normal
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:97:command=boot-recovery
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:98:status=
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:99:recovery=recovery
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:100:--wipe_data=successful
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:101:--wipe_cache=successful
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:102:--upgrade_step=2
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:103:Unknown command 'wipeisb' - try 
+'help'
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:104:```
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:105:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:106:Y cuando entra a Recovery, el 
+demonio `systemcontrol` de ZTE ejecuta en bucle:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:107:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:108:```text
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:109:[   10.506704@1] systemcontrol: 
+WriteMiscString Force write str:boot-recovery
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:110:[   10.506704@1] 
+--wipe_data=successful
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:111:[   10.506704@1] 
+--wipe_cache=successful
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:112:[   10.506704@1] --upgrade_step=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:113:[   10.506704@1]  to misc 
+Partition Offset:0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:114:```
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:115:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:116:* **Explicación:**
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:117:  1. Cuando hiciste `Wipe data / 
+Wipe cache` en el menú de Recovery, el Recovery de ZTE dejó escrito `command=boot-recovery` y `--upgrade_step=2` 
+dentro de la partición `misc` (`mmcblk0p07`).
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:118:  2. Además, el script de 
+arranque (`bootcmd`) de U-Boot compilado por ZTE intenta correr el comando `wipeisb`, el cual ni siquiera existe en su 
+propio binario de U-Boot (`Unknown command 'wipeisb' - try 'help'`).
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:119:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:120:---
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:121:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:122:## 3. Radiografía Completa de 
+Hardware y Cadena de Arranque (`BL1` $\rightarrow$ `BL2` $\rightarrow$ `BL31/32` $\rightarrow$ `U-Boot` $\rightarrow$ 
+`Kernel`)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:123:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:124:### 3.1 Identificación del 
+Silicio, RAM y eMMC
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:125:| Componente | Valor Exacto 
+Extraído por UART TTL | Significado Técnico |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:126:| :--- | :--- | :--- |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:127:| **SoC** | `Amlogic G12A 
+(S905X2) Rev C` (`28:C - 40:2`) | Revisión C del procesador S905X2, 4 núcleos ARM Cortex-A53 @ `1200 MHz` |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:128:| **Chip Ring / Efuse ID** | `28 
+0c 40 00 01 19 10 00 00 0e 34 32 35 57 33 50` | Serial único en silicio (`OPS=0x40`). Lote de oblea ASCII: `425W3P` |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:129:| **Board ID & DTB** | `board 
+id: 8` (`BL2`) / `20 (0x14)` (`U-Boot`) $\rightarrow$ `g12a_u212_2g1` | Placa referencia Amlogic `U212` con `2 GB` de 
+RAM |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:130:| **Memoria RAM** | `2048 MiB 
+LPDDR4 @ 1176 MHz` (`LPDDR4_PHY_V_0_1_21`) | Entrenamiento 1D falla en `cfg 1` (`cs2`), pasa en `cfg 2` (`cs0`); 2D 
+pasa; `ddr scramble enabled` con `zero key` |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:131:| **Memoria eMMC** | `Samsung 
+8GTF4R` (`7.28 GiB`, Bus `8-bit HS200 @ 200 MHz`) | `boot0`: `4 MiB`, `boot1`: `4 MiB`, `rpmb`: `512 KiB` (**`rpmb 
+counter: 0x0000005e` = 94 escrituras**) |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:132:| **PMIC / Voltajes** | `VDDEE = 
+810 mV`, `VDDCPU = 730 mV` | Regulación PWM inicializada por `BL2` / `BL30` |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:133:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:134:### 3.2 Versiones Exactas de la 
+Cadena de Arranque Segura (`Secure Boot Chain`)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:135:1. **`BL1` (ROM en silicio):**
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:136:   ```text
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:137:   
+G12A:BL:0253b8:61aa2d;FEAT:F2F939B2:32060;POC:F;RCY:0;EMMC:0;READ:0;0.0;0.0;
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:183:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:184:---
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:185:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:186:## 5. Mapa Exacto de las 21 
+Particiones eMMC (`mmcblk0p01` a `mmcblk0p21`)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:187:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:188:Extraído directamente del 
+controlador `meson-mmc` en [`SECCIONES_CRITICAS_COMPLETAS.txt`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/13_C
+APTURA_UART_TTL_SMARTTY/SECCIONES_CRITICAS_COMPLETAS.txt) (líneas 406–429). Nota cómo en Android 9 (`V82815415.0083`) 
+**no existe partición `super`**, sino que `system`, `vendor`, `odm` y `product` son particiones físicas individuales:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:189:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:190:| Partición | Nombre | Offset 
+Hex (Bytes) | Tamaño Hex | Tamaño MB | Estado / Hallazgos en el Log UART |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:191:| :--- | :--- | :--- | :--- | 
+:--- | :--- |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:192:| `mmcblk0p01` | `bootloader` | 
+`0x00000000` | `0x00400000` | `4 MB` | Contiene `BL2` (`Jun 17 2020`) + `FIP` (`U-Boot Jul 08 2021`). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:193:| `mmcblk0p02` | `reserved` | 
+`0x02400000` | `0x04000000` | `64 MB` | Tabla `aml_partition` (`36 MB`), `emmc_key` (`LBA 0x12020`), `dtb`. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:194:| `mmcblk0p03` | **`cache`** | 
+`0x06c00000` | `0x3e800000` | **`1000 MB`** | **¡Monta limpio en `7.629s`!** (`EXT4-fs (mmcblk0p3): mounted filesystem 
+with ordered data mode`). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:195:| `mmcblk0p04` | `env` | 
+`0x45c00000` | `0x00800000` | `8 MB` | Variables de entorno de U-Boot (`bootcmd`, `otg_device=0`, etc.). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:196:| `mmcblk0p05` | `logo` | 
+`0x46c00000` | `0x00800000` | `8 MB` | Splash screen JPEG `1920x1080` de Megacable (`input jpeg data w=1920, h=1080`). 
+|
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:197:| `mmcblk0p06` | `recovery` | 
+`0x47c00000` | `0x01800000` | `24 MB` | Imagen `recovery` cargada (`secureKernelImgSz = 0xfdd200` = `15.86 MB`). |
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:198:| `mmcblk0p07` | `misc` | 
+`0x49c00000` | `0x00800000` | `8 MB` | BCB con `boot-recovery`, `--wipe_data=successful`, `--upgrade_step=2`. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:199:| `mmcblk0p08` | `conf` | 
+`0x4ac00000` | `0x00400000` | `4 MB` | Configuración de fábrica ZTE (`MAC`, parámetros regionales). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:200:| `mmcblk0p09` | `dtbo` | 
+`0x4b800000` | `0x00800000` | `8 MB` | `dtbo_idx = 0` aplicado sobre `g12a_u212_2g1`. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:201:| `mmcblk0p10` | **`cri_data`** 
+| `0x4c800000` | `0x00800000` | **`8 MB`** | **Certificados DRM Widevine L1 y claves únicas de fábrica.** |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:202:| `mmcblk0p11` | `param` | 
+`0x4d800000` | `0x01000000` | `16 MB` | Parámetros persistentes de sistema. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:203:| `mmcblk0p12` | `boot` | 
+`0x4f000000` | `0x01000000` | `16 MB` | Kernel Linux + ramdisk de Android 9 normal (no se carga porque `GPIOAO_3=0`). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:204:| `mmcblk0p13` | `rsv` | 
+`0x50800000` | `0x01000000` | `16 MB` | Reservado Amlogic. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:205:| `mmcblk0p14` | `metadata` | 
+`0x52000000` | `0x01000000` | `16 MB` | Metadatos de cifrado `fscrypt`. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:206:| `mmcblk0p15` | `vbmeta` | 
+`0x53800000` | `0x00200000` | `2 MB` | Descriptor AVB 2.0 verificado con `testkey`. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:207:| `mmcblk0p16` | `tee` | 
+`0x54200000` | `0x02000000` | `32 MB` | Aplicaciones confiables (`TA`) de OP-TEE. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:208:| `mmcblk0p17` | `vendor` | 
+`0x56a00000` | `0x10000000` | `256 MB` | Drivers y HALs propietarios de Amlogic/ZTE. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:209:| `mmcblk0p18` | `odm` | 
+`0x67200000` | `0x02000000` | `32 MB` | Customización OEM. |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:210:| `mmcblk0p19` | `system` | 
+`0x69a00000` | `0x5c000000` | `1472 MB` | Sistema Android 9 Pie (`9/PI/V82815415.0083`). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:211:| `mmcblk0p20` | `product` | 
+`0xc6200000` | `0x02000000` | `32 MB` | APKs de operador (Megacable Xview+). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:212:| `mmcblk0p21` | `data` | 
+`0xc8a00000` | `0x109600000` | `4246 MB` | Partición `/data` del usuario (`4.24 GB`). |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:213:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:214:> [!TIP]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:215:> **Dato clave sobre `/cache` 
+(`mmcblk0p03`):** En esta segunda caja (Android 9), la partición `/cache` (`1000 MB`) **NO está dañada** (`EXT4-fs 
+(mmcblk0p3): mounted filesystem with ordered data mode` a los `7.62s`). El único motivo por el que esta caja entra a 
+Recovery es que **`GPIOAO_3` (el botón de Reset) lee `0`** al encender y la partición `misc` tiene `boot-recovery`.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:216:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:217:---
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:218:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:241:1. Revisa físicamente el 
+micro-switch del botón `RESET` (en la parte inferior/lateral de la placa) en esta segunda caja.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:242:2. En el log UART vimos `gpio: 
+pin GPIOAO_3 (gpio 3) value is 0`. Mientras ese botón esté presionado o haciendo contacto en `0`, la caja **jamás** 
+pasará de U-Boot a Android normal porque U-Boot cree que estás manteniendo presionado el botón de actualización.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:243:3. Si el botón físico está 
+atascado, destrábalo suavemente y selecciona **`Reboot system now`** en el menú de Recovery: verás en `SmarTTY` que 
+`GPIOAO_3` cambia a `value is 1` y cargará la partición `boot` (Android 9 normal), donde **sí** se ejecuta 
+`init.ztesec.rc` y lee nuestra memoria USB con `QADEBUG.ini`.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:244:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:245:### Camino B: Interrumpir U-Boot 
+o enviar comandos desde `SmarTTY` (Revisando el pin `TX` del CP210x)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:246:1. En el volcado de `SmarTTY` 
+vimos que **`RX` ( de la caja hacia tu PC)** funciona a la perfección (recibiste 190 segundos de telemetría limpia sin 
+un solo byte corrupto).
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:247:2. En el segundo `4.0` del 
+encendido, U-Boot imprime:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:248:   ```text
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:249:   Hit Enter or space or Ctrl+C 
+key to stop autoboot -- :  0 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:250:   ```
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:251:   El contador tiene 
+`bootdelay=0`, pero U-Boot revisa el buffer de recepción (`tstc()`) justo en ese instante.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:252:3. Si mantienes presionada la 
+barra espaciadora o `Enter` o `Ctrl+C` en `SmarTTY` **antes** de enchufar la corriente de la caja (asegurándote de que 
+el cable `TX` de tu CP210x esté conectado al pin `RX` de la placa), si el U-Boot acepta la interrupción caerás en el 
+prompt `g12a_u212_v1#`, desde donde podemos ejecutar:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:253:   * `defenv_reserv; saveenv; 
+reset` (o `store init` / `run storeboot` ignorando `GPIOAO_3`)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:254:   * O cambiar `otg_device=1` en 
+el `cmdline` para habilitar USB OTG dentro de Linux.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:255:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:256:### Camino C: Usar la ventana 
+`InUsbBurn` que descubrimos en U-Boot
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:257:1. El log UART demostró que en 
+cada encendido, gracias a `GPIOAO_3 = 0`, la caja ejecuta **`InUsbBurn`** automáticamente y espera paquetes `SOF` por 
+el puerto USB.
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:258:2. Si abres **Amlogic USB 
+Burning Tool** (que instala el driver `WorldCup Device`) y dejas conectado el cable USB Macho-a-Macho **antes de 
+encender la caja**, cuando U-Boot llegue a `InUsbBurn` recibirá el `SOF` de `WorldCup Device`, **no dará `noSof`**, y 
+se quedará enganchado en modo flasheo/lectura USB.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:29:DDR cs1 size: 0MB
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:30:ddr scramble enabled
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:31:emmc switch 3 ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:32:BL2: rpmb counter: 0x0000005e
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:33:emmc switch 0 ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:34:secure task start!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:35:U-Boot 2015.01-gc7c0e9b (Jul 08 2021 - 
+07:12:09)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:36:MMC:   aml_priv->desc_buf = 
+0x0000000073d49710
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:37:emmc/sd response timeout, cmd8, 
+status=0x1ff2800
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:38:emmc/sd response timeout, cmd55, 
+status=0x1ff2800
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:39:eMMC/TSD partition table have been 
+checked OK!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:40:mmc env offset: 0x45c00000 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:41:reboot_mode(0xff80023c)=0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:42:reboot_mode=cold_boot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:43:reboot_mode(0xff80023c)=0x0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:44:reboot_mode:::: cold_boot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:45:mmc env offset: 0x45c00000 
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:46:hdmitx: set enc for VIC: 16
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:47:hdmitx phy setting done
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:48:mmc env offset: 0x45c00000 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:49:avb2: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:50:avb_slot_verify.c:524: DEBUG: Loading 
+vbmeta struct from partition 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:51:avb verification: locked = 1, result = 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:52:avb2: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:53:Kernel command line: 
+androidboot.dtbo_idx=0 buildvariant=user
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:54:[    0.000000@0] Booting Linux on 
+physical CPU 0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:55:[    0.000000@0] Linux version 
+4.9.113-gbe23f89-dirty (root@B866V2_
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:56:[    0.000000@0] Boot CPU: AArch64 
+Processor [410fd034]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:57:[    0.000000@0] efi: Getting EFI 
+parameters from FDT:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:58:[    0.000000@0] efi: UEFI not found.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:59:[    0.000000@0] OF: reserved mem: 
+__reserved_mem_alloc_size, start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:60:[    0.000000@0] Reserved memory: created 
+CMA memory pool at 0x0000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:61:[    0.000000@0] OF: reserved mem: 
+initialized node linux,secmon, c
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:62:[    0.000000@0] OF: reserved mem: 
+__reserved_mem_alloc_size, start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:63:[    0.000000@0] Reserved memory: created 
+CMA memory pool at 0x0000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:64:[    0.000000@0] OF: reserved mem: 
+initialized node linux,meson-fb,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:65:[    0.000000@0] Reserved memory: created 
+CMA memory pool at 0x0000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:66:[    0.000000@0] OF: reserved mem: 
+initialized node linux,ion-dev, 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:67:[    0.000000@0] Reserved memory: created 
+CMA memory pool at 0x0000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:83:[    0.000000@0] psci: SMC Calling 
+Convention v1.1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:84:[    0.000000@0] percpu: Embedded 26 
+pages/cpu @ffffffc074726000 s6
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:85:[    0.000000@0] Detected VIPT I-cache on 
+CPU0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:86:[    0.000000@0] CPU features: enabling 
+workaround for ARM erratum 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:87:[    0.000000@0] Built 1 zonelists in 
+Zone order, mobility grouping
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:88:[    0.000000@0] Kernel command line: 
+init=/init ramoops.pstore_en=
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:89:[    0.000000@0] fb: osd0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:90:[    0.000000@0] fb: loaded
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:91:[    0.000000@0] fb: 0x3d800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:92:[    0.000000@0] vout: 1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:93:[    0.000000@0] vout: enable: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:94:[    0.000000@0] lcd: panel_type: lcd_1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:95:[    0.000000@0] vout: get hdmimode: 
+1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:96:[    0.000000@0] vout: get hdmi checksum: 
+0xe3770000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:97:[    0.000000@0] get_dolby_on: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:98:[    0.000000@0] hdmitx: hdmitx boot 
+frac_rate_policy: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:99:[    0.000000@0] vout: get cvbsmode: 
+480cvbs
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:100:[    0.000000@0] vpp_axis_reverse: 
+bootargs is 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:101:[    0.000000@0] DI: 
+di_read_canvas_reverse: bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:102:[    0.000000@0] vdin_get_video_reverse: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:103:[    0.000000@0] phlock_phase_config: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:104:[    0.000000@0] jtag: jtag select 
+disable
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:105:[    0.000000@0] fb: osd0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:106:[    0.000000@0] fb: loaded
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:107:[    0.000000@0] fb: 0x3d800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:108:[    0.000000@0] vout: 1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:109:[    0.000000@0] vout: enable: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:110:[    0.000000@0] lcd: panel_type: lcd_1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:111:[    0.000000@0] vout: get hdmimode: 
+1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:112:[    0.000000@0] vout: get hdmi 
+checksum: 0xe3770000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:113:[    0.000000@0] get_dolby_on: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:114:[    0.000000@0] hdmitx: hdmitx boot 
+frac_rate_policy: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:115:[    0.000000@0] vout: get cvbsmode: 
+480cvbs
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:116:[    0.000000@0] vpp_axis_reverse: 
+bootargs is 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:117:[    0.000000@0] DI: 
+di_read_canvas_reverse: bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:118:[    0.000000@0] vdin_get_video_reverse: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:119:[    0.000000@0] phlock_phase_config: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:120:[    0.000000@0] jtag: jtag select 
+disable
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:121:[    0.000000@0] system = recovery,set 
+system_mode=recovery
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:122:[    0.000000@0] board_type = 20
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:123:[    0.000000@0] device-mapper: init: 
+will configure 1 devices
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:124:[    0.000000@0] PID hash table entries: 
+4096 (order: 3, 32768 byte
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:125:[    0.000000@0] Dentry cache hash table 
+entries: 262144 (order: 9,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:126:[    0.000000@0] Inode-cache hash table 
+entries: 131072 (order: 8, 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:127:[    0.000000@0] Memory: 
+1353096K/2097152K available (13820K kernel
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:128:[    0.000000@0] Virtual kernel memory 
+layout:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:129:[    0.000000@0]     modules : 
+0xffffff8000000000 - 0xffffff8008000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:130:[    0.000000@0]     vmalloc : 
+0xffffff8008000000 - 0xffffffbebfff0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:131:[    0.000000@0]       .text : 
+0xffffff8009080000 - 0xffffff8009e00
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:132:[    0.000000@0]     .rodata : 
+0xffffff8009e00000 - 0xffffff800a380
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:133:[    0.000000@0]       .init : 
+0xffffff800a380000 - 0xffffff800a890
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:134:[    0.000000@0]       .data : 
+0xffffff800a890000 - 0xffffff800aa5d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:286:[    0.589350@3] rdma_register, 
+rdma_table_addr ffffff80081fb000 rd
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:287:[    0.589361@3] rdma_register success, 
+handle 2 table_size 4096
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:288:[    0.589372@3] fb: osd_rdma_init:osd 
+rdma handle = 2.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:289:[    0.589392@3] fb: mem_size: 0x800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:290:[    0.589401@3] fb: mem_size: 0x1980000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:291:[    0.589410@3] fb: mem_size: 0x100000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:292:[    0.589419@3] fb: mem_size: 0x100000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:293:[    0.589428@3] fb: mem_size: 0x800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:294:[    0.589496@3] meson-fb meson-fb: 
+assigned reserved memory node l
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:295:[    0.589508@3] fb: reserved memory 
+base:0x000000007f800000, size:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:296:[    0.589733@3] vout: error: invalid 
+vinfo1. current vmode is not 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:297:[    0.589747@3] fb: init fbdev bpp is:32
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:298:[    0.591202@3] fb: set osd0 reverse as 
+NONE
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:299:[    0.591224@3] vout: error: invalid 
+vinfo1. current vmode is not 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:300:[    0.599682@3] fb: osd probe OK
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:301:[    0.600515@3] hdmitx: system: 
+amhdmitx_probe start
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:302:[    0.600526@3] hdmitx: system: Ver: 
+20190815
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:303:[    0.600562@3] hdmitx: system: 
+hdmitx_device.chip_type : 10
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:304:[    0.600573@3] hdmitx: system: 
+hdmitx_device.dongle_mode: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:305:[    0.600616@3] hdmitx: system: not 
+find match pwr-ctl
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:306:[    0.600662@3] hdmitx: system: not 
+find drm_amhdmitx
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:307:[    0.600697@3] hdmitx: system: hpd irq 
+= 31
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:308:[    0.600807@3] hdmitx: system: 
+hdcp22_tx_skp failed to probe
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:309:[    0.600820@3] hdmitx: system: 
+hdcp22_tx_esm failed to probe
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:310:[    0.601294@3] vout: vout1: register 
+server: hdmitx_vout_server
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:311:[    0.601306@3] vout: vout2: register 
+server: hdmitx_vout2_server
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:312:[    0.602016@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xffd00000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:313:[    0.602037@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xff634400
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:314:[    0.602057@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xff900000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:315:[    0.602081@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xff800000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:316:[    0.602094@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xff63c000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:317:[    0.602107@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xffd00000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:318:[    0.602119@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xff608000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:319:[    0.602131@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xff600000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:320:[    0.602144@3] hdmitx: hdmitx20: 
+Mapped PHY: 0xffe01000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:321:[    0.602161@3] hdmitx: hw: alread 
+display in uboot 0x10
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:322:[    0.602195@3] hdmitx: hw: avmute set 
+to 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:323:[    0.602206@3] hdmitx: system: 
+fmt_attr 420,12bit
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:324:[    0.602291@3] hdmitx: system: 
+amhdmitx_probe end
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:325:[    0.602714@0] hdmitx: hdmitx: get vic 
+16 cscd 420,12bit
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:326:[    0.602730@0] hdmitx: hdmitx: mode 
+name 1920x1080p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:327:[    0.602752@0] hdmitx: hdmitx: tmds 
+clock 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:328:[    0.602761@0] hdmitx: hdmitx: act 
+clock: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:329:[    0.602831@0] hdmitx: system: irq 2 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:330:[    0.603247@3] vout: create vout 
+attribute OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:331:[    0.603419@3] vout: vout_fops_create 
+OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:332:[    0.603431@3] vout: vout1: register 
+server: nulldisp_vout_server
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:333:[    0.603555@3] vout: tvout monitor 
+interval:500(ms), timeout cnt:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:334:[    0.603583@3] hdmitx: 
+hdmitx_set_current_vmode[3927]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:335:[    0.603594@3] hdmitx: system: recalc 
+before 1080p60hz 60 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:336:[    0.603605@3] hdmitx: system: recalc 
+after 1080p60hz 2997 50
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:337:[    0.603614@3] hdmitx: alread display 
+in uboot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:338:[    0.603624@3] vout: init mode 
+1080p60hz set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:339:[    0.603634@3] vout: 
+aml_tvout_mode_monitor
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:340:[    0.603675@3] vout: aml_vout_probe OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:341:[    0.604740@3] chip type:0x28
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:342:[    0.605142@3] NO valid ramdump args:0 
+0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:343:[    0.607905@2] Advanced Linux Sound 
+Architecture Driver Initializ
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:344:[    0.608648@2] Bluetooth: Core ver 2.22
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:345:[    0.608739@2] NET: Registered 
+protocol family 31
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:346:[    0.608751@2] Bluetooth: HCI device 
+and connection manager initi
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:347:[    0.608772@2] Bluetooth: HCI socket 
+layer initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:348:[    0.608790@2] Bluetooth: L2CAP socket 
+layer initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:349:[    0.608841@2] Bluetooth: SCO socket 
+layer initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:350:[    0.609419@2] NetLabel: Initializing
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:351:[    0.609433@2] NetLabel:  domain hash 
+size = 128
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:352:[    0.609443@2] NetLabel:  protocols = 
+UNLABELED CIPSOv4
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:353:[    0.609503@2] NetLabel:  unlabeled 
+traffic allowed by default
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:354:[    0.614840@2] clocksource: Switched 
+to clocksource arch_sys_coun
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:355:[    0.702304@2] VFS: Disk quotas 
+dquot_6.6.0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:356:[    0.702408@2] VFS: Dquot-cache hash 
+table entries: 512 (order 0,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:357:[    0.715319@1] 
+dtv_dmd:[amldtvdemod..]aml_dtvdemod_init.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:469:[    1.005073@0] hidraw: raw HID events 
+driver (C) Jiri Kosina
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:470:[    1.005523@2] usbcore: registered new 
+interface driver usbhid
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:471:[    1.005538@2] usbhid: USB HID core 
+driver
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:472:[    1.005753@1] ashmem: initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:473:[    1.007187@2] meson_cpufreq_init: 
+ignor dsu clk!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:474:[    1.007205@2] meson_cpufreq_init: 
+ignor dsu pre parent clk!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:475:[    1.007270@2] value of 
+voltage_tolerance 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:476:[    1.007283@2] 
+meson_cpufreq_init:don't find the node <dynamic_gp
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:477:[    1.007292@2] value of gp1_clk_target 
+0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:478:[    1.008819@2] cpu cpu0: 
+meson_cpufreq_init: CPU 0 initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:479:[    1.010003@2] ff803000.serial: clock 
+gate not found
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:480:[    1.010072@2] meson_uart 
+ff803000.serial: ==uart0 reg addr = fff
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:481:[    1.010144@2] ff803000.serial: ttyS0 
+at MMIO 0xff803000 (irq = 2
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:482:[    1.010173@2] meson_uart 
+ff803000.serial: ttyS0 use xtal(24M) 24
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:483:[    1.056657@3] clear:76000000, 
+free:76000000, tick:420059 us
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:484:[    1.103007@0] hdmitx: system: plugin
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:485:[    1.235262@0] hdmitx: edid: EDID 
+Parser:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:486:[    1.235265@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:487:[    1.235267@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:488:[    1.235270@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:489:[    1.235279@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:490:[    1.235285@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:491:[    1.235287@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:492:[    1.235289@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:493:[    1.235291@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:494:[    1.235292@0] hdmitx: hdmitx: reach 
+vesa idx MAX
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:495:[    1.235302@0] [RX]-up_phy_addr = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:496:[    1.235321@0] hdmitx: edid: change 
+preferred_mode from 0 to 97
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:497:[    1.235324@0] hdmitx: hdmitx: get PMT 
+vic: 97
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:498:[    1.235326@0] hdmitx: edid: find 
+IEEEOUT
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:499:[    1.235357@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:500:[    1.235359@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:501:[    1.235363@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:502:[    1.235364@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:503:[    1.235367@0] hdmitx: edid: blk0 raw 
+data
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:504:[    1.235392@0] hdmitx: edid: 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:505:[    1.235392@0] 
+00ffffffffffff004c2db571000e0001011f0103806639780a
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:506:[    1.235392@0] 
+0d4848bdef80714f81c0810081809500a9c0b300d1c008e800
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:507:[    1.235392@0] 
+8a00501d7400001e565e00a0a0a0295030203500501d740000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:508:[    1.235392@0] 
+4b0f873c000a202020202020000000fc0053414d53554e470a
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:509:[    1.235392@0] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:510:[    1.235392@0] 
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:511:[    1.235395@0] hdmitx: edid: blk1 raw 
+data
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:512:[    1.235418@0] hdmitx: edid: 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:513:[    1.235418@0] 
+02035cf05661101f041305142021225d5e5f60656662640716
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:514:[    1.235418@0] 
+0750570700675400090707832f0000e2004fe305c3016e030c
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:515:[    1.235418@0] 
+800102030468d85dc40178800b02e3060d01e30f01e0e5018b
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:516:[    1.235418@0] 
+71382d40582c450000000000001e0000000000000000000000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:517:[    1.235418@0] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:518:[    1.235418@0] 
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:519:[    1.235423@0] hdmitx: system: update 
+rx hdr info d
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:520:[    1.235426@0] hdmitx: system: update 
+physcial size: 1020 570
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:521:[    1.235432@0] hdmitx: hw: set audio
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:522:[    1.235437@0] hdmitx: hw: hdmitx 
+tx_aud_src = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:523:[    1.235444@0] hdmitx: system: irq 
+80000001 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:524:[    1.235457@0] hdmitx: fs = 0, cd = 6, 
+tmds_clk = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:525:[    1.235461@0] hdmitx: hw: aud_n_para 
+= 6144
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:526:[    1.235468@0] hdmitx: hw: set channel 
+status
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:527:[    1.334842@0] hdmitx: [0x10000103]: 
+0x00000008
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:528:[    1.334845@0] hdmitx: [0x10000104]: 
+0x00000001
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:529:[    1.334848@0] hdmitx: [0x10000170]: 
+0x00000010
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:530:[    1.334851@0] hdmitx: [0x10000180]: 
+0x000000ff
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:531:[    1.334853@0] hdmitx: [0x10000181]: 
+0x000000ff
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:532:[    1.334855@0] hdmitx: [0x10000182]: 
+0x00000003
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:533:[    1.334857@0] hdmitx: [0x10000183]: 
+0x00000007
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:534:[    1.334859@0] hdmitx: [0x10000184]: 
+0x0000003f
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:535:[    1.334861@0] hdmitx: [0x10000185]: 
+0x00000002
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:536:[    1.334864@0] hdmitx: [0x10000187]: 
+0x000000ff
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:537:[    1.334866@0] hdmitx: [0x10000188]: 
+0x00000003
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:538:[    3.654942@2] console [ttyS0] enabled
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:539:[    3.659239@2] meson_uart 
+ffd24000.serial: ==uart1 reg addr = fff
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:540:[    3.665722@2] ffd24000.serial: ttyS1 
+at MMIO 0xffd24000 (irq = 3
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:541:[    3.676447@2] amlogic-new-usb2-v2 
+ffe09000.usb2phy: USB2 phy pro
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:542:[    3.686161@2] amlogic-new-usb3-v2 
+ffe09080.usb3phy: USB3 phy pro
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:543:[    3.699483@2] aml_dma 
+ff63e000.aml_dma: Aml dma
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:544:[    3.702718@2] aml_aes_dma 
+ff63e000.aml_dma:aml_aes: Aml AES_dma
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:545:[    3.708042@2] aml_sha_dma 
+ff63e000.aml_dma:aml_sha: Aml SHA1/SHA
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:546:[    3.714714@2] gpio-keypad 
+gpio_keypad: power key(249) registed.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:547:[    3.720332@2] input: gpio_keypad as 
+/devices/platform/gpio_keypa
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:548:[    3.727756@2] meson-remote: Driver 
+init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:549:[    3.731409@2] meson-remote: 
+remote_probe
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:550:[    3.735112@2] meson-remote 
+ff808040.rc: protocol = 0x1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:551:[    3.740209@2] meson-remote 
+ff808040.rc: led_blink = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:552:[    3.745243@2] meson-remote 
+ff808040.rc: led_blink_frq  = 100
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:553:[    3.750900@2] meson-remote 
+ff808040.rc: platform_data irq =29
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:554:[    3.756592@2] meson-remote 
+ff808040.rc: custom_number = 3
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:555:[    3.761970@2] meson-remote 
+ff808040.rc: ptable->map_size = 30
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:556:[    3.767683@2] meson-remote 
+ff808040.rc: ptable->custom_name = am
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:557:[    3.774872@2] input: gpio, 
+power_state: 1, power_key_state: 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:584:[    3.821025@3] ge2d: ge2d_init_module
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:585:[    3.821272@3] ge2d: ge2d_dev major:237
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:586:[    3.821528@3] ge2d: clock source 
+clk_ge2d_gate ffffffc055a68e40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:587:[    3.821553@3] ge2d: clock clk_ge2d 
+source ffffffc055a68500
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:588:[    3.821566@3] ge2d: clock source 
+clk_vapb_0 ffffffc055a683c0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:589:[    3.821571@3] ge2d: ge2d init clock 
+is 500000000 HZ, VPU clock i
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:590:[    3.821669@3] ge2d: ge2d clock is 499 
+MHZ
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:591:[    3.821683@3] ge2d: find address 
+resource
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:592:[    3.821699@3] ge2d: map io source 
+0x00000000ff940000,size=65536 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:593:[    3.821702@3] ge2d: reserved mem init 
+failed
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:594:[    3.821705@3] ge2d: ge2d: 
+pdev=ffffffc0558de000, irq=36, clk=fff
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:595:[    3.821759@3] ge2d: ge2d start monitor
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:596:[    3.821820@0] ge2d: ge2d workqueue 
+monitor start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:597:[    3.822197@3] [tsync_pcr_init]init 
+success.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:598:[    3.822439@3] amvideom vsync irq: 37
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:599:[    3.823094@3] hdmitx: hdcp: 
+hdmitx_hdcp_init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:600:[    3.823699@3] vout: vout2: create 
+vout2 attribute OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:601:[    3.823827@3] vout: vout2: 
+vout2_fops_create OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:602:[    3.824021@3] vout: vout2: 
+clktree_init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:603:[    3.824024@3] vout: vout2: register 
+server: nulldisp_vout2_serve
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:604:[    3.824140@3] vout: vout2: init mode 
+null set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:605:[    3.824142@3] vout: vout2: 
+aml_vout2_probe OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:606:[    3.824275@3] DI: di_module_init ok.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:607:[    3.824491@3] DI: di_probe:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:608:[    3.824496@3] DI: di_probe: major 511
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:609:[    3.824725@3] deinterlace 
+deinterlace: assigned reserved memory 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:610:[    3.824732@3] di:flag_cma=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:611:[    3.824735@3] DI: CMA size 0x2800000.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:612:[    3.824761@3] pre_irq:52
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:613:[    3.824771@3] post_irq:53
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:614:[    3.824773@3] DI: di_probe allocate 
+rdma channel 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:615:[    3.824781@3] di_get_vpu_clkb: get 
+clk vpu error.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:616:[    3.824784@3] DI: vpu clkb 
+<334000000, 667000000>
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:617:[    3.824816@3] get clkb rate:333333328
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:618:[    3.824823@3] DI:enable vpu clkb.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:619:[    3.824840@3] 0x000000dc:Y=dc,U=0,V=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:731:[    3.835032@3] aml_vecm_probe: ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:732:[    3.835121@3] 
+amdolby_vision_init:module init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:733:[    3.835450@3] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:734:[    3.835450@3]  amdolby_vision probe 
+start & ver: 20181220
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:735:[    3.835456@3] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:736:[    3.835456@3]  cpu_id=2 tvmode=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:737:[    3.835608@3] 
+dolby_vision_init_receiver(dvel)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:738:[    3.835616@3] 
+dolby_vision_init_receiver: dvel
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:739:[    3.835817@3] amdolby_vision_probe: ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:740:[    3.835819@3] dovi disable in uboot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:741:[    3.835874@3] prime_sl module init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:742:[    3.836386@3] vm_init .
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:743:[    3.837304@3] meson-mmc: mmc driver 
+version: 3.02, 2017-05-15: N
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:744:[    3.838111@3] meson-mmc: 
+>>>>>>>>hostbase ffffff8008687000, dmod
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:745:[    3.838425@3] meson-mmc: emmc: fixdiv 
+calc done: adj = 2d2000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:746:[    3.840448@0] hdmitx: 
+hdmitx_set_drm_pkt: tf=16, cf=9, colormetr
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:747:[    3.874863@3] meson-mmc: 
+meson_mmc_probe() : success!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:748:[    3.878154@0] meson-mmc: 
+>>>>>>>>hostbase ffffff80086a1000, dmod
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:749:[    3.878181@0] meson-mmc: gpio_cd = 1ca
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:750:[    3.915980@0] meson-mmc: 
+>>>>>>>>hostbase ffffff80086a1000, dmod
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:751:[    3.926289@3] meson-aml-mmc 
+ffe07000.emmc: divider requested rat
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:752:[    3.926296@3] meson-mmc: Data 1 
+aligned delay is 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:753:[    3.926299@3] meson-mmc: emmc: clk 
+199999997 tuning start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:754:[    3.927329@3] meson-mmc: emmc: 
+rx_tuning_result[0] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:755:[    3.928299@3] meson-mmc: emmc: 
+rx_tuning_result[1] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:756:[    3.928326@3] meson-mmc: Tuning 
+transfer error: nmatch=0 tuning_
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:757:[    3.929294@3] meson-mmc: emmc: 
+rx_tuning_result[3] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:758:[    3.930262@3] meson-mmc: emmc: 
+rx_tuning_result[4] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:759:[    3.930266@3] meson-mmc: [prev_map] 
+fixed_adj_win_map:27
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:760:[    3.930269@3] meson-mmc: [0]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:761:[    3.930270@3] meson-mmc: [1]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:762:[    3.930272@3] meson-mmc: [2]=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:763:[    3.930273@3] meson-mmc: [3]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:764:[    3.930275@3] meson-mmc: [4]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:765:[    3.930277@3] meson-mmc: 
+[_find_fixed_adj_valid_win]retry test f
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:766:[    3.930281@3] meson-mmc: step:4, 
+delay1:0x4104104, delay2:0x4004
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:984:[    4.992281@1] snd_tdm 
+ff642000.audiobus:tdma: lane_mask_out = 0,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:985:[    4.992471@1] 
+aml_tdm_platform_probe(), share en = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:986:[    4.992471@1] No channel mask node 
+Channel_Mask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:987:[    4.992743@1] aml_tdm_platform_probe, 
+tdm ID = 1, lane_cnt = 4
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:988:[    4.992816@1] TDM id 1 
+samesource_sel:3
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:989:[    4.992824@1] snd_tdm 
+ff642000.audiobus:tdmb: lane_mask_out = 1,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:990:[    4.993067@1] TDM id 1 output clk 
+enable:1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:991:[    4.993101@1] 
+aml_tdm_platform_probe(), share en = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:992:[    4.993101@1] No channel mask node 
+Channel_Mask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:993:[    4.993116@1] TDM id 1 tuning clk 
+enable:1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:994:[    4.993300@1] aml_tdm_platform_probe, 
+tdm ID = 2, lane_cnt = 4
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:995:[    4.993327@1] snd_tdm 
+ff642000.audiobus:tdmc: lane_mask_out = 0,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:996:[    4.993511@1] 
+aml_tdm_platform_probe(), share en = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:997:[    4.993511@1] No channel mask node 
+Channel_Mask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:998:[    4.994547@1] Spdif id 0 tuning clk 
+enable:1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:999:[    4.994572@1] hdmitx: audio: aout 
+notify format CT_PCM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1000:[    4.994575@1] hdmitx: hw: set audio
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1001:[    4.994577@1] hdmitx: hw: hdmitx 
+tx_aud_src = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1002:[    4.994593@1] hdmitx: fs = 3, cd = 
+6, tmds_clk = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1003:[    4.994597@1] hdmitx: hw: aud_n_para 
+= 6144
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1004:[    4.994605@1] hdmitx: hw: set 
+channel status
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1005:[    4.994635@1] hdmitx: audio: Audio 
+Type: PCM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1006:[    4.994638@1] hdmitx: audio: set 
+audio param
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1007:[    4.994653@1] 
+aml_spdif_platform_probe, register soc platform
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1008:[    4.994775@1] 
+aml_spdif_platform_probe, register soc platform
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1009:[    4.995610@1] default set 
+lane_mask_in as all lanes.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1010:[    4.995614@1] aml_pdm_platform_probe 
+pdm filter mode from dts:1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1011:[    4.995626@1] 
+aml_pdm_platform_probe, register soc platform
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1012:[    4.996055@1] audio_ddr_mngr: 0, 
+irqs toddr 22, frddr 25
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1013:[    4.996057@1] audio_ddr_mngr: 1, 
+irqs toddr 23, frddr 26
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1014:[    4.996059@1] audio_ddr_mngr: 2, 
+irqs toddr 24, frddr 27
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1015:[    4.996402@1] loopback 
+ff642000.audiobus:loopback@0: check wheth
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1016:[    4.996452@1]        datain_src:4, 
+datain_chnum:4, datain_chumas
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1017:[    4.996454@1]        datalb_src:1, 
+datalb_chnum:2, datalb_chmask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1018:[    4.996456@1]        
+datain_lane_mask:0x5, datalb_lane_mask:0x1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1019:[    4.996707@1] 
+loopback_platform_probe, p_loopback->id:0 register
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1020:[    4.997034@1] 
+audiolocker_platform_probe
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1021:[    4.997441@1] resample_platform_probe
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1022:[    4.998541@3] Register vad
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1023:[    4.998905@3] GACT probability NOT on
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1024:[    4.998920@3] Mirror/redirect action 
+on
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1025:[    4.998929@3] u32 classifier
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1026:[    4.998931@3]     Actions configured
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1227:[   10.622705@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1228:[   10.627010@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1229:[   10.631800@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1230:[   10.636882@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1231:[   11.342840@3] vout: 
+aml_tvout_mode_work: monitor_timeout
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1232:[   11.641031@0] _____1267 > 
+proc_w_power_red 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1233:[   11.641051@0] set_ledlight_state -> 
+dev=0, state=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1234:[   11.644353@0] _____834 
+>set_led_power_red status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1235:[   11.649193@0] _____288 > set_led 
+status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1236:[   11.653300@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1237:[   11.657606@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1238:[   11.662373@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1239:[   11.667478@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1240:[   11.682479@0] systemcontrol: 
+[ubootenv] using /dev/block/env wit
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1241:[   11.688815@0] systemcontrol: display 
+mode config path: /etc/meso
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1242:[   11.701869@2] systemcontrol: 
+[ubootenv] upgrade_step is not a ub
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1243:[   11.710089@2] systemcontrol: Error 
+opening file '/vendor/etc/fil
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1244:[   11.740802@0] audit: type=1400 
+audit(1420070420.936:9): avc:  de
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1245:[   11.763011@0] audit: type=1400 
+audit(1420070420.960:10): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1246:[   11.786201@0] audit: type=1400 
+audit(1420070420.980:11): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1247:[   11.812342@0] fb: osd[0] enable: 0 
+(recovery)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1248:[   11.815155@0] fb: osd[1] enable: 0 
+(recovery)
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1249:[   11.832069@0] hdmitx: system: set 
+hdcp_pwr 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1250:[   11.875581@2] hdmitx: system: 
+restore hdcp_pwr 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1251:[   11.878390@2] hdmitx: system: sname 
+= 2160p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1252:[   11.879103@2] hdmitx: system: 
+char_clk = 594000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1253:[   11.883583@2] hdmitx: system: cd = 6
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1254:[   11.887150@2] hdmitx: system: cs = 3
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1255:[   11.890680@2] hdmitx: RX tmds clk: 
+600   Calc clk: 445
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1256:[   11.895956@2] vout: vmode set to 
+2160p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1257:[   11.901894@2] fb: current 
+vmode=2160p60hz, cmd: 0x10000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1258:[   11.905095@2] vlock: event 
+MODE_CHANGE_PRE 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1259:[   11.909352@2] hdmitx: 
+hdmitx_set_current_vmode[3927]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1260:[   11.914265@2] hdmitx: system: recalc 
+before 2160p60hz 60 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1261:[   11.915164@0] hdmitx: 
+hdmitx_set_drm_pkt: HDR->SDR, DRM_DB[0]=2
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1262:[   11.915330@0] hdmitx: hdr_work_func: 
+send zero DRM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1263:[   11.930384@2] hdmitx: system: recalc 
+after 2160p60hz 2997 50
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1264:[   11.936016@2] hdmitx: system: get 
+current mode: 2160p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1265:[   11.941392@2] hdmitx: system: update 
+physcial size: 1020 570
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1266:[   11.947055@2] hdmitx: video: already 
+init VIC = 0  Now VIC = 353
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1267:[   11.953008@2] hdmitx: hw: div40: 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1268:[   11.984847@2] hdmitx: frac_rate = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1269:[   11.984865@2] hdmitx: config HPLL = 
+4455000 frac_rate = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1270:[   11.988129@2] hdmitx: HPLL: 
+0xdb0004b9
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1271:[   11.991801@2] hdmitx: config HPLL 
+done
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1272:[   11.995530@2] hdmitx: 
+set_hpll_od3_clk_div[643] div = 15
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1273:[   12.000817@2] hdmitx: j = 8  
+vid_clk_div = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1274:[   12.005069@2] hdmitx: set enc for 
+VIC: 353
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1275:[   12.050842@2] hdmitx: hw:  config 
+hdmitx IP vic = 353 cd:6 cs: 3
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1276:[   12.061293@2] hdmitx: video: Sink is 
+HDMI device
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1277:[   12.061339@2] hdmitx: hw: set audio
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1278:[   12.063744@2] hdmitx: hw: hdmitx 
+tx_aud_src = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1279:[   12.068260@2] hdmitx: fs = 3, cd = 
+6, tmds_clk = 593407
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1280:[   12.073450@2] hdmitx: hw: aud_n_para 
+= 6144
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1281:[   12.077613@2] hdmitx: hw: set 
+channel status
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1282:[   12.081897@2] hdmitx: audio: Audio 
+Type: PCM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1283:[   12.086105@2] hdmitx: system: update 
+rx hdr info d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1284:[   12.090872@2] vout: new mode 
+2160p60hz set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1285:[   12.095203@2] fb: current 
+vmode=2160p60hz, cmd: 0x20000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1286:[   12.100408@2] fb: outputmode changed 
+to 2160p60hz, reset osd0, (
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1287:[   12.128438@2] fb: osd[0] enable: 1 
+(recovery)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1288:[   12.145128@2] DOLBY: 
+vout_notify_callback: VOUT_EVENT_MODE_CHANG
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1289:[   12.145575@2] vlock: event 
+MODE_CHANGE
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1290:[   12.149520@2] audit_printk_skb: 123 
+callbacks suppressed
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1291:[   12.149524@2] audit: type=1400 
+audit(1420070421.344:53): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1292:[   12.176983@2] audit: type=1400 
+audit(1420070421.372:54): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1293:[   12.199272@3] selinux: avc:  denied  
+{ set } for property=vendor
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1294:[   12.199272@3] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1295:[   12.217956@3] init: Unable to set 
+property 'vendor.display-size'
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1296:[   12.230505@3] audit: type=1400 
+audit(1420070421.424:55): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1297:[   12.252698@3] audit: type=1400 
+audit(1420070421.448:56): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1298:[   12.276148@0] selinux: avc:  denied  
+{ set } for property=persis
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1299:[   12.276148@0] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1300:[   12.296241@0] init: Unable to set 
+property 'persist.vendor.sys.h
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1301:[   12.309050@0] selinux: avc:  denied  
+{ set } for property=persis
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1302:[   12.309050@0] 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:1303:[   12.329151@0] init: Unable to set 
+property 'persist.vendor.sys.s
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:36:DDR cs1 size: 0MB
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:37:ddr scramble enabled
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:38:emmc switch 3 ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:39:BL2: rpmb counter: 0x0000005e
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:40:secure task start!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:41:U-Boot 2015.01-gc7c0e9b (Jul 08 2021 - 
+07:12:09)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:42:MMC:   aml_priv->desc_buf = 
+0x0000000073d49710
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:43:emmc/sd response timeout, cmd8, 
+status=0x1ff2800
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:44:emmc/sd response timeout, cmd55, 
+status=0x1ff2800
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:45:saradc get val = 688
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:46:saradc_ext get val = 85
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:47:eMMC/TSD partition table have been checked 
+OK!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:48:reboot_mode(0xff80023c)=0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:49:reboot_mode=cold_boot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:50:saradc get val = 689
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:51:reboot_mode:::: cold_boot
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:52:dolby_status 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:53:dolby_vision_process: hpd: dv disabled
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:54:hdmitx: set enc for VIC: 16
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:55:hdmitx phy setting done
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:56:card out
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:57:avb2: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:58:avb_slot_verify.c:524: DEBUG: Loading vbmeta 
+struct from partition
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:59:avb verification: locked = 1, result = 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:60:ee_gate_off ...
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:61:Kernel command line: androidboot.dtbo_idx=0 
+buildvariant=user
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:62:uboot time: 8566493 us
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:63:[    0.000000@0] Booting Linux on physical 
+CPU 0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:64:[    0.000000@0] Linux version 
+4.9.113-gbe23f89-dirty (root@B866V2_
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:65:[    0.000000@0] Boot CPU: AArch64 Processor 
+[410fd034]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:66:[    0.000000@0] efi: Getting EFI parameters 
+from FDT:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:67:[    0.000000@0] efi: UEFI not found.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:68:[    0.000000@0] OF: reserved mem: 
+__reserved_mem_alloc_size, start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:69:[    0.000000@0] Reserved memory: created 
+CMA memory pool at 0x0000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:70:[    0.000000@0] OF: reserved mem: 
+initialized node linux,secmon, c
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:71:[    0.000000@0] OF: reserved mem: 
+initialized node linux,meson-fb,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:72:[    0.000000@0] OF: reserved mem: 
+initialized node linux,ion-dev,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:73:[    0.000000@0] OF: reserved mem: 
+initialized node linux,di_cma, c
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:74:[    0.000000@0] Reserved memory: created 
+DMA memory pool at 0x0000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:75:[    0.000000@0] OF: reserved mem: 
+initialized node linux,ppmgr, co
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:84:[    0.000000@0] psci: SMC Calling 
+Convention v1.1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:85:[    0.000000@0] percpu: Embedded 26 
+pages/cpu @ffffffc074726000 s6
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:86:[    0.000000@0] Detected VIPT I-cache on 
+CPU0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:87:[    0.000000@0] CPU features: enabling 
+workaround for ARM erratum
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:88:[    0.000000@0] Built 1 zonelists in Zone 
+order, mobility grouping
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:89:[    0.000000@0] Kernel command line: 
+init=/init ramoops.pstore_en=
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:90:[    0.000000@0] fb: osd0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:91:[    0.000000@0] fb: loaded
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:92:[    0.000000@0] fb: 0x3d800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:93:[    0.000000@0] vout: 1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:94:[    0.000000@0] vout: enable: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:95:[    0.000000@0] lcd: panel_type: lcd_1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:96:[    0.000000@0] vout: get hdmimode: 
+1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:97:[    0.000000@0] vout: get hdmi checksum: 
+0xe3770000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:98:[    0.000000@0] get_dolby_on: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:99:[    0.000000@0] hdmitx: hdmitx boot 
+frac_rate_policy: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:100:[    0.000000@0] vout: get cvbsmode: 480cvbs
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:101:[    0.000000@0] vpp_axis_reverse: bootargs 
+is 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:102:[    0.000000@0] DI: 
+di_read_canvas_reverse: bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:103:[    0.000000@0] vdin_get_video_reverse: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:104:[    0.000000@0] phlock_phase_config: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:105:[    0.000000@0] jtag: jtag select disable
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:106:[    0.000000@0] system = recovery,set 
+system_mode=recovery
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:107:[    0.000000@0] board_type = 20
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:108:[    0.000000@0] device-mapper: init: will 
+configure 1 devices
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:109:[    0.000000@0] PID hash table entries: 
+4096 (order: 3, 32768 byte
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:110:[    0.000000@0] Dentry cache hash table 
+entries: 262144 (order: 9,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:111:[    0.000000@0] Inode-cache hash table 
+entries: 131072 (order: 8,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:112:[    0.000000@0] Memory: 1353096K/2097152K 
+available (13820K kernel
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:113:[    0.000000@0] Virtual kernel memory 
+layout:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:114:[    0.000000@0]     modules : 
+0xffffff8000000000 - 0xffffff8008000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:115:[    0.000000@0]     vmalloc : 
+0xffffff8008000000 - 0xffffffbebfff0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:116:[    0.000000@0]       .text : 
+0xffffff8009080000 - 0xffffff8009e00
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:117:[    0.000000@0]     .rodata : 
+0xffffff8009e00000 - 0xffffff800a380
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:118:[    0.000000@0]       .init : 
+0xffffff800a380000 - 0xffffff800a890
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:119:[    0.000000@0]       .data : 
+0xffffff800a890000 - 0xffffff800aa5d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:270:[    0.589350@3] rdma_register, 
+rdma_table_addr ffffff80081fb000 rd
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:271:[    0.589361@3] rdma_register success, 
+handle 2 table_size 4096
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:272:[    0.589372@3] fb: osd_rdma_init:osd rdma 
+handle = 2.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:273:[    0.589392@3] fb: mem_size: 0x800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:274:[    0.589401@3] fb: mem_size: 0x1980000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:275:[    0.589410@3] fb: mem_size: 0x100000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:276:[    0.589419@3] fb: mem_size: 0x100000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:277:[    0.589428@3] fb: mem_size: 0x800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:278:[    0.589496@3] meson-fb meson-fb: 
+assigned reserved memory node l
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:279:[    0.589508@3] fb: reserved memory 
+base:0x000000007f800000, size:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:280:[    0.589733@3] vout: error: invalid 
+vinfo1. current vmode is not
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:281:[    0.589747@3] fb: init fbdev bpp is:32
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:282:[    0.591202@3] fb: set osd0 reverse as 
+NONE
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:283:[    0.591224@3] vout: error: invalid 
+vinfo1. current vmode is not
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:284:[    0.599682@3] fb: osd probe OK
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:285:[    0.600515@3] hdmitx: system: 
+amhdmitx_probe start
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:286:[    0.600526@3] hdmitx: system: Ver: 
+20190815
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:287:[    0.600562@3] hdmitx: system: 
+hdmitx_device.chip_type : 10
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:288:[    0.600573@3] hdmitx: system: 
+hdmitx_device.dongle_mode: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:289:[    0.600616@3] hdmitx: system: not find 
+match pwr-ctl
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:290:[    0.600662@3] hdmitx: system: not find 
+drm_amhdmitx
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:291:[    0.600697@3] hdmitx: system: hpd irq = 
+31
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:292:[    0.600807@3] hdmitx: system: 
+hdcp22_tx_skp failed to probe
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:293:[    0.600820@3] hdmitx: system: 
+hdcp22_tx_esm failed to probe
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:294:[    0.601294@3] vout: vout1: register 
+server: hdmitx_vout_server
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:295:[    0.601306@3] vout: vout2: register 
+server: hdmitx_vout2_server
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:296:[    0.602016@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xffd00000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:297:[    0.602037@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xff634400
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:298:[    0.602057@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xff900000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:299:[    0.602081@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xff800000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:300:[    0.602094@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xff63c000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:301:[    0.602107@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xffd00000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:302:[    0.602119@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xff608000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:303:[    0.602131@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xff600000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:304:[    0.602144@3] hdmitx: hdmitx20: Mapped 
+PHY: 0xffe01000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:305:[    0.602161@3] hdmitx: hw: alread display 
+in uboot 0x10
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:306:[    0.602195@3] hdmitx: hw: avmute set to 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:307:[    0.602206@3] hdmitx: system: fmt_attr 
+420,12bit
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:308:[    0.602291@3] hdmitx: system: 
+amhdmitx_probe end
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:309:[    0.602714@0] hdmitx: hdmitx: get vic 16 
+cscd 420,12bit
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:310:[    0.602730@0] hdmitx: hdmitx: mode name 
+1920x1080p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:311:[    0.602752@0] hdmitx: hdmitx: tmds clock 
+0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:312:[    0.602761@0] hdmitx: hdmitx: act clock: 
+0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:313:[    0.602831@0] hdmitx: system: irq 2 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:314:[    0.603247@3] vout: create vout 
+attribute OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:315:[    0.603419@3] vout: vout_fops_create OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:316:[    0.603431@3] vout: vout1: register 
+server: nulldisp_vout_server
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:317:[    0.603555@3] vout: tvout monitor 
+interval:500(ms), timeout cnt:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:318:[    0.603583@3] hdmitx: 
+hdmitx_set_current_vmode[3927]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:319:[    0.603594@3] hdmitx: system: recalc 
+before 1080p60hz 60 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:320:[    0.603605@3] hdmitx: system: recalc 
+after 1080p60hz 2997 50
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:321:[    0.603614@3] hdmitx: alread display in 
+uboot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:322:[    0.603624@3] vout: init mode 1080p60hz 
+set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:323:[    0.603634@3] vout: 
+aml_tvout_mode_monitor
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:324:[    0.603675@3] vout: aml_vout_probe OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:325:[    0.604740@3] chip type:0x28
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:326:[    0.605142@3] NO valid ramdump args:0 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:327:[    0.607905@2] Advanced Linux Sound 
+Architecture Driver Initializ
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:328:[    0.608648@2] Bluetooth: Core ver 2.22
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:329:[    0.608739@2] NET: Registered protocol 
+family 31
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:330:[    0.608751@2] Bluetooth: HCI device and 
+connection manager initi
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:331:[    0.608772@2] Bluetooth: HCI socket 
+layer initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:332:[    0.608790@2] Bluetooth: L2CAP socket 
+layer initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:333:[    0.608841@2] Bluetooth: SCO socket 
+layer initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:334:[    0.609419@2] NetLabel: Initializing
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:335:[    0.609433@2] NetLabel:  domain hash 
+size = 128
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:336:[    0.609443@2] NetLabel:  protocols = 
+UNLABELED CIPSOv4
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:337:[    0.609503@2] NetLabel:  unlabeled 
+traffic allowed by default
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:338:[    0.614840@2] clocksource: Switched to 
+clocksource arch_sys_coun
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:339:[    0.702304@2] VFS: Disk quotas 
+dquot_6.6.0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:340:[    0.702408@2] VFS: Dquot-cache hash 
+table entries: 512 (order 0,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:341:[    0.715319@1] 
+dtv_dmd:[amldtvdemod..]aml_dtvdemod_init.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:454:[    1.005073@0] hidraw: raw HID events 
+driver (C) Jiri Kosina
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:455:[    1.005523@2] usbcore: registered new 
+interface driver usbhid
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:456:[    1.005538@2] usbhid: USB HID core driver
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:457:[    1.005753@1] ashmem: initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:458:[    1.007187@2] meson_cpufreq_init: ignor 
+dsu clk!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:459:[    1.007205@2] meson_cpufreq_init: ignor 
+dsu pre parent clk!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:460:[    1.007270@2] value of voltage_tolerance 
+0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:461:[    1.007283@2] meson_cpufreq_init:don't 
+find the node <dynamic_gp
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:462:[    1.007292@2] value of gp1_clk_target 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:463:[    1.008819@2] cpu cpu0: 
+meson_cpufreq_init: CPU 0 initialized
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:464:[    1.010003@2] ff803000.serial: clock 
+gate not found
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:465:[    1.010072@2] meson_uart 
+ff803000.serial: ==uart0 reg addr = fff
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:466:[    1.010144@2] ff803000.serial: ttyS0 at 
+MMIO 0xff803000 (irq = 2
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:467:[    1.010173@2] meson_uart 
+ff803000.serial: ttyS0 use xtal(24M) 24
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:468:[    1.056657@3] clear:76000000, 
+free:76000000, tick:420059 us
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:469:[    1.103007@0] hdmitx: system: plugin
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:470:[    1.235262@0] hdmitx: edid: EDID Parser:
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:471:[    1.235265@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:472:[    1.235267@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:473:[    1.235270@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:474:[    1.235279@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:475:[    1.235285@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:476:[    1.235287@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:477:[    1.235289@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:478:[    1.235291@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:479:[    1.235292@0] hdmitx: hdmitx: reach vesa 
+idx MAX
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:480:[    1.235302@0] [RX]-up_phy_addr = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:481:[    1.235321@0] hdmitx: edid: change 
+preferred_mode from 0 to 97
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:482:[    1.235324@0] hdmitx: hdmitx: get PMT 
+vic: 97
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:483:[    1.235326@0] hdmitx: edid: find IEEEOUT
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:484:[    1.235357@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:485:[    1.235359@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:486:[    1.235363@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:487:[    1.235364@0] hdmitx: edid: check sum 
+valid
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:488:[    1.235367@0] hdmitx: edid: blk0 raw data
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:489:[    1.235392@0] hdmitx: edid:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:490:[    1.235392@0] 
+00ffffffffffff004c2db571000e0001011f0103806639780a
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:491:[    1.235392@0] 
+0d4848bdef80714f81c0810081809500a9c0b300d1c008e800
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:492:[    1.235392@0] 
+8a00501d7400001e565e00a0a0a0295030203500501d740000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:493:[    1.235392@0] 
+4b0f873c000a202020202020000000fc0053414d53554e470a
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:494:[    1.235392@0]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:495:[    1.235395@0] hdmitx: edid: blk1 raw data
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:496:[    1.235418@0] hdmitx: edid:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:497:[    1.235418@0] 
+02035cf05661101f041305142021225d5e5f60656662640716
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:498:[    1.235418@0] 
+0750570700675400090707832f0000e2004fe305c3016e030c
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:499:[    1.235418@0] 
+800102030468d85dc40178800b02e3060d01e30f01e0e5018b
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:500:[    1.235418@0] 
+71382d40582c450000000000001e0000000000000000000000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:501:[    1.235418@0]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:502:[    1.235423@0] hdmitx: system: update rx 
+hdr info d
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:503:[    1.235426@0] hdmitx: system: update 
+physcial size: 1020 570
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:504:[    1.235432@0] hdmitx: hw: set audio
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:505:[    1.235437@0] hdmitx: hw: hdmitx 
+tx_aud_src = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:506:[    1.235444@0] hdmitx: system: irq 
+80000001 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:507:[    1.235457@0] hdmitx: fs = 0, cd = 6, 
+tmds_clk = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:508:[    1.235461@0] hdmitx: hw: aud_n_para = 
+6144
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:509:[    1.235468@0] hdmitx: hw: set channel 
+status
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:510:[    1.334842@0] hdmitx: [0x10000103]: 
+0x00000008
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:511:[    1.334845@0] hdmitx: [0x10000104]: 
+0x00000001
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:512:[    1.334848@0] hdmitx: [0x10000170]: 
+0x00000010
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:513:[    1.334851@0] hdmitx: [0x10000180]: 
+0x000000ff
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:514:[    1.334853@0] hdmitx: [0x10000181]: 
+0x000000ff
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:515:[    1.334855@0] hdmitx: [0x10000182]: 
+0x00000003
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:516:[    1.334857@0] hdmitx: [0x10000183]: 
+0x00000007
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:517:[    1.334859@0] hdmitx: [0x10000184]: 
+0x0000003f
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:518:[    1.334861@0] hdmitx: [0x10000185]: 
+0x00000002
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:519:[    1.334864@0] hdmitx: [0x10000187]: 
+0x000000ff
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:520:[    1.334866@0] hdmitx: [0x10000188]: 
+0x00000003
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:521:[    3.654942@2] console [ttyS0] enabled
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:522:[    3.659239@2] meson_uart 
+ffd24000.serial: ==uart1 reg addr = fff
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:523:[    3.665722@2] ffd24000.serial: ttyS1 at 
+MMIO 0xffd24000 (irq = 3
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:524:[    3.676447@2] amlogic-new-usb2-v2 
+ffe09000.usb2phy: USB2 phy pro
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:525:[    3.686161@2] amlogic-new-usb3-v2 
+ffe09080.usb3phy: USB3 phy pro
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:526:[    3.699483@2] aml_dma ff63e000.aml_dma: 
+Aml dma
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:527:[    3.702718@2] aml_aes_dma 
+ff63e000.aml_dma:aml_aes: Aml AES_dma
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:528:[    3.708042@2] aml_sha_dma 
+ff63e000.aml_dma:aml_sha: Aml SHA1/SHA
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:529:[    3.714714@2] gpio-keypad gpio_keypad: 
+power key(249) registed.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:530:[    3.720332@2] input: gpio_keypad as 
+/devices/platform/gpio_keypa
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:531:[    3.727756@2] meson-remote: Driver init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:532:[    3.731409@2] meson-remote: remote_probe
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:533:[    3.735112@2] meson-remote ff808040.rc: 
+protocol = 0x1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:534:[    3.740209@2] meson-remote ff808040.rc: 
+led_blink = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:535:[    3.745243@2] meson-remote ff808040.rc: 
+led_blink_frq  = 100
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:536:[    3.750900@2] meson-remote ff808040.rc: 
+platform_data irq =29
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:537:[    3.756592@2] meson-remote ff808040.rc: 
+custom_number = 3
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:538:[    3.761970@2] meson-remote ff808040.rc: 
+ptable->map_size = 30
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:539:[    3.767683@2] meson-remote ff808040.rc: 
+ptable->custom_name = am
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:540:[    3.774872@2] input: gpio, power_state: 
+1, power_key_state: 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:567:[    3.821025@3] ge2d: ge2d_init_module
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:568:[    3.821272@3] ge2d: ge2d_dev major:237
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:569:[    3.821528@3] ge2d: clock source 
+clk_ge2d_gate ffffffc055a68e40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:570:[    3.821553@3] ge2d: clock clk_ge2d 
+source ffffffc055a68500
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:571:[    3.821566@3] ge2d: clock source 
+clk_vapb_0 ffffffc055a683c0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:572:[    3.821571@3] ge2d: ge2d init clock is 
+500000000 HZ, VPU clock i
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:573:[    3.821669@3] ge2d: ge2d clock is 499 MHZ
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:574:[    3.821683@3] ge2d: find address resource
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:575:[    3.821699@3] ge2d: map io source 
+0x00000000ff940000,size=65536
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:576:[    3.821702@3] ge2d: reserved mem init 
+failed
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:577:[    3.821705@3] ge2d: ge2d: 
+pdev=ffffffc0558de000, irq=36, clk=fff
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:578:[    3.821759@3] ge2d: ge2d start monitor
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:579:[    3.821820@0] ge2d: ge2d workqueue 
+monitor start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:580:[    3.822197@3] [tsync_pcr_init]init 
+success.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:581:[    3.822439@3] amvideom vsync irq: 37
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:582:[    3.823094@3] hdmitx: hdcp: 
+hdmitx_hdcp_init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:583:[    3.823699@3] vout: vout2: create vout2 
+attribute OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:584:[    3.823827@3] vout: vout2: 
+vout2_fops_create OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:585:[    3.824021@3] vout: vout2: clktree_init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:586:[    3.824024@3] vout: vout2: register 
+server: nulldisp_vout2_serve
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:587:[    3.824140@3] vout: vout2: init mode 
+null set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:588:[    3.824142@3] vout: vout2: 
+aml_vout2_probe OK
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:589:[    3.824275@3] DI: di_module_init ok.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:590:[    3.824491@3] DI: di_probe:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:591:[    3.824496@3] DI: di_probe: major 511
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:592:[    3.824725@3] deinterlace deinterlace: 
+assigned reserved memory
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:593:[    3.824732@3] di:flag_cma=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:594:[    3.824735@3] DI: CMA size 0x2800000.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:595:[    3.824761@3] pre_irq:52
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:596:[    3.824771@3] post_irq:53
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:597:[    3.824773@3] DI: di_probe allocate rdma 
+channel 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:598:[    3.824781@3] di_get_vpu_clkb: get clk 
+vpu error.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:599:[    3.824784@3] DI: vpu clkb <334000000, 
+667000000>
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:600:[    3.824816@3] get clkb rate:333333328
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:601:[    3.824823@3] DI:enable vpu clkb.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:602:[    3.824840@3] 0x000000dc:Y=dc,U=0,V=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:709:[    3.835009@3] param_config vlock_en:1 
+md=0x4
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:710:[    3.835027@3] vlock_status_init 
+vlock_en:1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:711:[    3.835032@3] aml_vecm_probe: ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:712:[    3.835121@3] amdolby_vision_init:module 
+init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:713:[    3.835450@3]  amdolby_vision probe 
+start & ver: 20181220
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:714:[    3.835456@3]  cpu_id=2 tvmode=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:715:[    3.835608@3] 
+dolby_vision_init_receiver(dvel)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:716:[    3.835616@3] 
+dolby_vision_init_receiver: dvel
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:717:[    3.835817@3] amdolby_vision_probe: ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:718:[    3.835819@3] dovi disable in uboot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:719:[    3.835874@3] prime_sl module init
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:720:[    3.836386@3] vm_init .
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:721:[    3.837304@3] meson-mmc: mmc driver 
+version: 3.02, 2017-05-15: N
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:722:[    3.838111@3] meson-mmc: 
+>>>>>>>>hostbase ffffff8008687000, dmod
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:723:[    3.838425@3] meson-mmc: emmc: fixdiv 
+calc done: adj = 2d2000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:724:[    3.840448@0] hdmitx: 
+hdmitx_set_drm_pkt: tf=16, cf=9, colormetr
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:725:[    3.874863@3] meson-mmc: 
+meson_mmc_probe() : success!
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:726:[    3.878154@0] meson-mmc: 
+>>>>>>>>hostbase ffffff80086a1000, dmod
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:727:[    3.878181@0] meson-mmc: gpio_cd = 1ca
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:728:[    3.915980@0] meson-mmc: 
+>>>>>>>>hostbase ffffff80086a1000, dmod
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:729:[    3.926289@3] meson-aml-mmc 
+ffe07000.emmc: divider requested rat
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:730:[    3.926296@3] meson-mmc: Data 1 aligned 
+delay is 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:731:[    3.926299@3] meson-mmc: emmc: clk 
+199999997 tuning start
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:732:[    3.927329@3] meson-mmc: emmc: 
+rx_tuning_result[0] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:733:[    3.928299@3] meson-mmc: emmc: 
+rx_tuning_result[1] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:734:[    3.928326@3] meson-mmc: Tuning transfer 
+error: nmatch=0 tuning_
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:735:[    3.929294@3] meson-mmc: emmc: 
+rx_tuning_result[3] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:736:[    3.930262@3] meson-mmc: emmc: 
+rx_tuning_result[4] = 40
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:737:[    3.930266@3] meson-mmc: [prev_map] 
+fixed_adj_win_map:27
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:738:[    3.930269@3] meson-mmc: [0]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:739:[    3.930270@3] meson-mmc: [1]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:740:[    3.930272@3] meson-mmc: [2]=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:741:[    3.930273@3] meson-mmc: [3]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:742:[    3.930275@3] meson-mmc: [4]=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:743:[    3.930277@3] meson-mmc: 
+[_find_fixed_adj_valid_win]retry test f
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:744:[    3.930281@3] meson-mmc: step:4, 
+delay1:0x4104104, delay2:0x4004
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:961:[    4.992281@1] snd_tdm 
+ff642000.audiobus:tdma: lane_mask_out = 0,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:962:[    4.992471@1] aml_tdm_platform_probe(), 
+share en = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:963:[    4.992471@1] No channel mask node 
+Channel_Mask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:964:[    4.992743@1] aml_tdm_platform_probe, 
+tdm ID = 1, lane_cnt = 4
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:965:[    4.992816@1] TDM id 1 samesource_sel:3
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:966:[    4.992824@1] snd_tdm 
+ff642000.audiobus:tdmb: lane_mask_out = 1,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:967:[    4.993067@1] TDM id 1 output clk 
+enable:1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:968:[    4.993101@1] aml_tdm_platform_probe(), 
+share en = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:969:[    4.993101@1] No channel mask node 
+Channel_Mask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:970:[    4.993116@1] TDM id 1 tuning clk 
+enable:1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:971:[    4.993300@1] aml_tdm_platform_probe, 
+tdm ID = 2, lane_cnt = 4
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:972:[    4.993327@1] snd_tdm 
+ff642000.audiobus:tdmc: lane_mask_out = 0,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:973:[    4.993511@1] aml_tdm_platform_probe(), 
+share en = 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:974:[    4.993511@1] No channel mask node 
+Channel_Mask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:975:[    4.994547@1] Spdif id 0 tuning clk 
+enable:1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:976:[    4.994572@1] hdmitx: audio: aout notify 
+format CT_PCM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:977:[    4.994575@1] hdmitx: hw: set audio
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:978:[    4.994577@1] hdmitx: hw: hdmitx 
+tx_aud_src = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:979:[    4.994593@1] hdmitx: fs = 3, cd = 6, 
+tmds_clk = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:980:[    4.994597@1] hdmitx: hw: aud_n_para = 
+6144
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:981:[    4.994605@1] hdmitx: hw: set channel 
+status
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:982:[    4.994635@1] hdmitx: audio: Audio Type: 
+PCM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:983:[    4.994638@1] hdmitx: audio: set audio 
+param
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:984:[    4.994653@1] aml_spdif_platform_probe, 
+register soc platform
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:985:[    4.994775@1] aml_spdif_platform_probe, 
+register soc platform
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:986:[    4.995610@1] default set lane_mask_in 
+as all lanes.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:987:[    4.995614@1] aml_pdm_platform_probe pdm 
+filter mode from dts:1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:988:[    4.995626@1] aml_pdm_platform_probe, 
+register soc platform
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:989:[    4.996055@1] audio_ddr_mngr: 0, irqs 
+toddr 22, frddr 25
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:990:[    4.996057@1] audio_ddr_mngr: 1, irqs 
+toddr 23, frddr 26
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:991:[    4.996059@1] audio_ddr_mngr: 2, irqs 
+toddr 24, frddr 27
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:992:[    4.996402@1] loopback 
+ff642000.audiobus:loopback@0: check wheth
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:993:[    4.996452@1]        datain_src:4, 
+datain_chnum:4, datain_chumas
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:994:[    4.996454@1]        datalb_src:1, 
+datalb_chnum:2, datalb_chmask
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:995:[    4.996456@1]        
+datain_lane_mask:0x5, datalb_lane_mask:0x1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:996:[    4.996707@1] loopback_platform_probe, 
+p_loopback->id:0 register
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:997:[    4.997034@1] audiolocker_platform_probe
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:998:[    4.997441@1] resample_platform_probe
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:999:[    4.998541@3] Register vad
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1000:[    4.998905@3] GACT probability NOT on
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1001:[    4.998920@3] Mirror/redirect action on
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1002:[    4.998929@3] u32 classifier
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1003:[    4.998931@3]     Actions configured
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1203:[   10.622705@0] _____1331 > 
+proc_w_power_green
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1204:[   10.627010@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1205:[   10.631800@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1206:[   10.636882@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1207:[   11.342840@3] vout: 
+aml_tvout_mode_work: monitor_timeout
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1208:[   11.641031@0] _____1267 > 
+proc_w_power_red
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1209:[   11.641051@0] set_ledlight_state -> 
+dev=0, state=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1210:[   11.644353@0] _____834 
+>set_led_power_red status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1211:[   11.649193@0] _____288 > set_led 
+status[0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1212:[   11.653300@0] _____1331 > 
+proc_w_power_green
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1213:[   11.657606@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1214:[   11.662373@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1215:[   11.667478@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1216:[   11.682479@0] systemcontrol: [ubootenv] 
+using /dev/block/env wit
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1217:[   11.688815@0] systemcontrol: display 
+mode config path: /etc/meso
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1218:[   11.701869@2] systemcontrol: [ubootenv] 
+upgrade_step is not a ub
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1219:[   11.710089@2] systemcontrol: Error 
+opening file '/vendor/etc/fil
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1220:[   11.740802@0] audit: type=1400 
+audit(1420070420.936:9): avc:  de
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1221:[   11.763011@0] audit: type=1400 
+audit(1420070420.960:10): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1222:[   11.786201@0] audit: type=1400 
+audit(1420070420.980:11): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1223:[   11.812342@0] fb: osd[0] enable: 0 
+(recovery)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1224:[   11.815155@0] fb: osd[1] enable: 0 
+(recovery)
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1225:[   11.832069@0] hdmitx: system: set 
+hdcp_pwr 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1226:[   11.875581@2] hdmitx: system: restore 
+hdcp_pwr 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1227:[   11.878390@2] hdmitx: system: sname = 
+2160p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1228:[   11.879103@2] hdmitx: system: char_clk 
+= 594000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1229:[   11.883583@2] hdmitx: system: cd = 6
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1230:[   11.887150@2] hdmitx: system: cs = 3
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1231:[   11.890680@2] hdmitx: RX tmds clk: 600  
+ Calc clk: 445
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1232:[   11.895956@2] vout: vmode set to 
+2160p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1233:[   11.901894@2] fb: current 
+vmode=2160p60hz, cmd: 0x10000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1234:[   11.905095@2] vlock: event 
+MODE_CHANGE_PRE 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1235:[   11.909352@2] hdmitx: 
+hdmitx_set_current_vmode[3927]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1236:[   11.914265@2] hdmitx: system: recalc 
+before 2160p60hz 60 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1237:[   11.915164@0] hdmitx: 
+hdmitx_set_drm_pkt: HDR->SDR, DRM_DB[0]=2
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1238:[   11.915330@0] hdmitx: hdr_work_func: 
+send zero DRM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1239:[   11.930384@2] hdmitx: system: recalc 
+after 2160p60hz 2997 50
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1240:[   11.936016@2] hdmitx: system: get 
+current mode: 2160p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1241:[   11.941392@2] hdmitx: system: update 
+physcial size: 1020 570
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1242:[   11.947055@2] hdmitx: video: already 
+init VIC = 0  Now VIC = 353
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1243:[   11.953008@2] hdmitx: hw: div40: 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1244:[   11.984847@2] hdmitx: frac_rate = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1245:[   11.984865@2] hdmitx: config HPLL = 
+4455000 frac_rate = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1246:[   11.988129@2] hdmitx: HPLL: 0xdb0004b9
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1247:[   11.991801@2] hdmitx: config HPLL done
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1248:[   11.995530@2] hdmitx: 
+set_hpll_od3_clk_div[643] div = 15
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1249:[   12.000817@2] hdmitx: j = 8  
+vid_clk_div = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1250:[   12.005069@2] hdmitx: set enc for VIC: 
+353
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1251:[   12.050842@2] hdmitx: hw:  config 
+hdmitx IP vic = 353 cd:6 cs: 3
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1252:[   12.061293@2] hdmitx: video: Sink is 
+HDMI device
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1253:[   12.061339@2] hdmitx: hw: set audio
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1254:[   12.063744@2] hdmitx: hw: hdmitx 
+tx_aud_src = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1255:[   12.068260@2] hdmitx: fs = 3, cd = 6, 
+tmds_clk = 593407
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1256:[   12.073450@2] hdmitx: hw: aud_n_para = 
+6144
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1257:[   12.077613@2] hdmitx: hw: set channel 
+status
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1258:[   12.081897@2] hdmitx: audio: Audio 
+Type: PCM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1259:[   12.086105@2] hdmitx: system: update rx 
+hdr info d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1260:[   12.090872@2] vout: new mode 2160p60hz 
+set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1261:[   12.095203@2] fb: current 
+vmode=2160p60hz, cmd: 0x20000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1262:[   12.100408@2] fb: outputmode changed to 
+2160p60hz, reset osd0, (
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1263:[   12.128438@2] fb: osd[0] enable: 1 
+(recovery)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1264:[   12.145128@2] DOLBY: 
+vout_notify_callback: VOUT_EVENT_MODE_CHANG
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1265:[   12.145575@2] vlock: event MODE_CHANGE
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1266:[   12.149520@2] audit_printk_skb: 123 
+callbacks suppressed
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1267:[   12.149524@2] audit: type=1400 
+audit(1420070421.344:53): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1268:[   12.176983@2] audit: type=1400 
+audit(1420070421.372:54): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1269:[   12.199272@3] selinux: avc:  denied  { 
+set } for property=vendor
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1270:[   12.199272@3]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1271:[   12.217956@3] init: Unable to set 
+property 'vendor.display-size'
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1272:[   12.230505@3] audit: type=1400 
+audit(1420070421.424:55): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1273:[   12.252698@3] audit: type=1400 
+audit(1420070421.448:56): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1274:[   12.276148@0] selinux: avc:  denied  { 
+set } for property=persis
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1275:[   12.276148@0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1276:[   12.296241@0] init: Unable to set 
+property 'persist.vendor.sys.h
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1277:[   12.309050@0] selinux: avc:  denied  { 
+set } for property=persis
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1278:[   12.309050@0]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:1279:[   12.329151@0] init: Unable to set 
+property 'persist.vendor.sys.s
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:206:update_old_dtb()-3675: do nothing
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:207:      Amlogic multi-dtb tool
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:208:      GZIP format, decompress...
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:209:      Multi dtb detected
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:210:saradc get val = 689
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:211:================ ANCHOR: Kernel command 
+line: init=/init (at 5745173) ================
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:212:on CPU0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:213:[    0.000000@0] CPU features: enabling 
+workaround for ARM erratum 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:214:845719
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:215:[    0.000000@0] Built 1 zonelists in 
+Zone order, mobility grouping
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:216: on.  Total pages: 516096
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:217:[    0.000000@0] Kernel command line: 
+init=/init ramoops.pstore_en=
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:218:1 ramoops.record_size=0x8000 
+ramoops.console_size=0x4000 console=tt
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:219:yS0,115200 no_console_suspend 
+earlyprintk=aml-uart,0xff803000 hdr_p
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:220:riority= otg_device=0 
+reboot_mode_android=normal logo=osd0,loaded,0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:221:x3d800000 vout=1080p60hz,enable 
+panel_type=lcd_1 hdmitx=,420,12bit 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:222:hdmimode=1080p60hz 
+hdmichecksum=0xe3770000 dolby_vision_on=0 frac_r
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:223:ate_policy=1 hdmi_read_edid=1 
+cvbsmode=480cvbs osd_reverse=0 video_
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:224:reverse=0 irq_check_en=0 
+androidboot.selinux=enforcing androidboot.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:225:firstboot=0 jtag=disable 
+androidboot.hardware=amlogic androidboot.s
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:226:erialno=1234567890 init=/init 
+ramoops.pstore_en=1 ramoops.record_si
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:227:ze=0x8000 ramoops.console_size=0x4000 
+console=ttyS0,115200 no_conso
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:228:le_suspend 
+earlyprintk=aml-uart,0xff803000 hdr_priority= otg_device
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:229:=0 reboot_mode_android=normal 
+logo=osd0,loaded,0x3d800000 vout=1080
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:230:p60hz,enable panel_type=lcd_1 
+hdmitx=,420,12bit hdmimode=1080p60hz 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:231:hdmichecksum=0xe3770000 
+dolby_vision_on=0 frac_rate_policy=1 hdmi_r
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:232:[    0.000000@0] fb: osd0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:233:[    0.000000@0] fb: loaded
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:234:[    0.000000@0] fb: 0x3d800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:235:[    0.000000@0] vout: 1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:236:[    0.000000@0] vout: enable: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:237:[    0.000000@0] lcd: panel_type: lcd_1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:238:[    0.000000@0] vout: get hdmimode: 
+1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:239:[    0.000000@0] vout: get hdmi 
+checksum: 0xe3770000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:240:[    0.000000@0] get_dolby_on: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:241:[    0.000000@0] hdmitx: hdmitx boot 
+frac_rate_policy: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:242:[    0.000000@0] vout: get cvbsmode: 
+480cvbs
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:243:[    0.000000@0] vpp_axis_reverse: 
+bootargs is 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:244:[    0.000000@0] DI: 
+di_read_canvas_reverse: bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:245:[    0.000000@0] 
+vdin_get_video_reverse: bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:246:[    0.000000@0] phlock_phase_config: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:247:[    0.000000@0] jtag: jtag select 
+disable
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:248:[    0.000000@0] fb: osd0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:249:[    0.000000@0] fb: loaded
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:250:[    0.000000@0] fb: 0x3d800000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:251:[    0.000000@0] vout: 1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:252:[    0.000000@0] vout: enable: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:253:[    0.000000@0] lcd: panel_type: lcd_1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:254:[    0.000000@0] vout: get hdmimode: 
+1080p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:255:[    0.000000@0] vout: get hdmi 
+checksum: 0xe3770000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:256:[    0.000000@0] get_dolby_on: 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:257:[    0.000000@0] hdmitx: hdmitx boot 
+frac_rate_policy: 1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:258:[    0.000000@0] vout: get cvbsmode: 
+480cvbs
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:259:[    0.000000@0] vpp_axis_reverse: 
+bootargs is 0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:260:[    0.000000@0] DI: 
+di_read_canvas_reverse: bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:261:[    0.000000@0] 
+vdin_get_video_reverse: bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:262:[    0.000000@0] phlock_phase_config: 
+bootargs is 0.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:263:[    0.000000@0] jtag: jtag select 
+disable
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:264:[    0.000000@0] system = recovery,set 
+system_mode=recovery
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:265:[    0.000000@0] board_type = 20
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:266:[    0.000000@0] device-mapper: init: 
+will configure 1 devices
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:267:[    0.000000@0] PID hash table 
+entries: 4096 (order: 3, 32768 byte
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:268:s)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:269:[    0.000000@0] Dentry cache hash 
+table entries: 262144 (order: 9,
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:270: 2097152 bytes)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:271:[    0.000000@0] Inode-cache hash table 
+entries: 131072 (order: 8, 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:272:1048576 bytes)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:273:[    0.000000@0] Memory: 
+1353096K/2097152K available (13820K kernel
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:274: code, 1844K rwdata, 5588K rodata, 
+5184K init, 1541K bss, 72312K re
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:275:served, 671744K cma-reserved)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:276:[    0.000000@0] Virtual kernel memory 
+layout:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:277:[    0.000000@0]     modules : 
+0xffffff8000000000 - 0xffffff8008000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:548:[    7.548167@0] meson-remote 
+ff808040.rc: reg=0x4, val=0x12c00c8
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:549:[    7.548170@0] meson-remote 
+ff808040.rc: reg=0x8, val=0x960050
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:550:[    7.548172@0] meson-remote 
+ff808040.rc: reg=0xc, val=0x480028
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:551:[    7.548175@0] meson-remote 
+ff808040.rc: reg=0x10, val=0x70dac013
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:552:[    7.548177@0] meson-remote 
+ff808040.rc: reg=0x18, val=0x8616800
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:553:[    7.548180@0] meson-remote 
+ff808040.rc: reg=0x1c, val=0x9f00
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:554:[    7.548182@0] meson-remote 
+ff808040.rc: reg=0x20, val=0x0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:555:================ ANCHOR: systemcontrol: 
+[ubootenv] (at 5860081) ================
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:556:[   11.653300@0] _____1331 > 
+proc_w_power_green 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:557:[   11.657606@0] set_ledlight_state -> 
+dev=1, state=1
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:558:[   11.662373@0] _____923 > 
+set_led_power_green status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:559:[   11.667478@0] _____288 > set_led 
+status[1]
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:560:[   11.682479@0] systemcontrol: 
+[ubootenv] using /dev/block/env wit
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:561:h size(65536) (65532)systemcontrol: 
+[ubootenv] set property count: 
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:562:[   11.688815@0] systemcontrol: display 
+mode config path: /etc/meso
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:563:ndisplay.cfgsystemcontrol: [ubootenv] 
+update value name [upgrade_st
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:564:ep]: value [1] 
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:565:[   11.701869@2] systemcontrol: 
+[ubootenv] upgrade_step is not a ub
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:566:ootenv variable.
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:567:[   11.710089@2] systemcontrol: Error 
+opening file '/vendor/etc/fil
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:568:teredid.cfg', No such file or 
+directory.systemcontrol: Error -2 ope
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:569:ning display config file 
+/etc/mesondisplay.cfg.systemcontrol: Forma
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:570:tColorDepth setFilterEdidList size = 
+0systemcontrol: getBootEnv key
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:571::ubootenv.var.reboot_mode_android 
+value:normalsystemcontrol: reboot
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:572:_mode :normal
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:573:[   11.740802@0] audit: type=1400 
+audit(1420070420.936:9): avc:  de
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:574:nied  { read } for  pid=2901 
+comm="recovery" name="u:object_r:vendo
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:575:r_persist_prop:s0" dev="tmpfs" ino=2276 
+scontext=u:r:recovery:s0 tc
+  
+experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:576:ontext=u:object_r:vendor_persist_prop:s0 
+tclass=file permissive=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:577:[   11.763011@0] audit: type=1400 
+audit(1420070420.960:10): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:578:enied  { read } for  pid=2901 
+comm="recovery" name="u:object_r:vend
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:579:or_persist_prop:s0" dev="tmpfs" 
+ino=2276 scontext=u:r:recovery:s0 t
+  
+experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:580:context=u:object_r:vendor_persist_prop:s0 
+tclass=file permissive=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:581:[   11.786201@0] audit: type=1400 
+audit(1420070420.980:11): avc:  d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:582:enied  { read } for  pid=2901 
+comm="recovery" name="u:object_r:vend
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:583:or_persist_prop:s0" dev="tmpfs" 
+ino=2276 scontext=u:r:recovery:s0 t
+  
+experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:584:context=u:object_r:vendor_persist_prop:s0 
+tclass=file permissive=0
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:585:[   11.812342@0] fb: osd[0] enable: 0 
+(recovery)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:586:[   11.815155@0] fb: osd[1] enable: 0 
+(recovery)
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:587:[   11.832069@0] hdmitx: system: set 
+hdcp_pwr 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:588:[   11.875581@2] hdmitx: system: 
+restore hdcp_pwr 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:589:[   11.878390@2] hdmitx: system: sname 
+= 2160p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:590:[   11.879103@2] hdmitx: system: 
+char_clk = 594000
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:591:[   11.883583@2] hdmitx: system: cd = 6
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:592:[   11.887150@2] hdmitx: system: cs = 3
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:593:[   11.890680@2] hdmitx: RX tmds clk: 
+600   Calc clk: 445
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:594:[   11.895956@2] vout: vmode set to 
+2160p60hz
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:595:[   11.901894@2] fb: current 
+vmode=2160p60hz, cmd: 0x10000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:596:[   11.905095@2] vlock: event 
+MODE_CHANGE_PRE 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:597:[   11.909352@2] hdmitx: 
+hdmitx_set_current_vmode[3927]
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:598:[   11.914265@2] hdmitx: system: recalc 
+before 2160p60hz 60 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:599:[   11.915164@0] hdmitx: 
+hdmitx_set_drm_pkt: HDR->SDR, DRM_DB[0]=2
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:600:[   11.915330@0] hdmitx: hdr_work_func: 
+send zero DRM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:601:[   11.930384@2] hdmitx: system: recalc 
+after 2160p60hz 2997 50
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:602:[   11.936016@2] hdmitx: system: get 
+current mode: 2160p60hz
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:603:[   11.941392@2] hdmitx: system: update 
+physcial size: 1020 570
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:604:[   11.947055@2] hdmitx: video: already 
+init VIC = 0  Now VIC = 353
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:605:[   11.953008@2] hdmitx: hw: div40: 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:606:[   11.984847@2] hdmitx: frac_rate = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:607:[   11.984865@2] hdmitx: config HPLL = 
+4455000 frac_rate = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:608:[   11.988129@2] hdmitx: HPLL: 
+0xdb0004b9
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:609:[   11.991801@2] hdmitx: config HPLL 
+done
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:610:[   11.995530@2] hdmitx: 
+set_hpll_od3_clk_div[643] div = 15
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:611:[   12.000817@2] hdmitx: j = 8  
+vid_clk_div = 1
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:612:[   12.005069@2] hdmitx: set enc for 
+VIC: 353
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:613:[   12.050842@2] hdmitx: hw:  config 
+hdmitx IP vic = 353 cd:6 cs: 3
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:614:[   12.061293@2] hdmitx: video: Sink is 
+HDMI device
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:615:[   12.061339@2] hdmitx: hw: set audio
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:616:[   12.063744@2] hdmitx: hw: hdmitx 
+tx_aud_src = 0
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:617:[   12.068260@2] hdmitx: fs = 3, cd = 
+6, tmds_clk = 593407
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:618:[   12.073450@2] hdmitx: hw: aud_n_para 
+= 6144
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:619:[   12.077613@2] hdmitx: hw: set 
+channel status
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:620:[   12.081897@2] hdmitx: audio: Audio 
+Type: PCM
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:621:[   12.086105@2] hdmitx: system: update 
+rx hdr info d
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:622:[   12.090872@2] vout: new mode 
+2160p60hz set ok
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:623:[   12.095203@2] fb: current 
+vmode=2160p60hz, cmd: 0x20000
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:624:[   12.100408@2] fb: outputmode changed 
+to 2160p60hz, reset osd0, (
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:625:0, 0, 1919, 1079) -> (0, 0, 3839, 2159)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:626:[   12.128438@2] fb: osd[0] enable: 1 
+(recovery)
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:627:[   12.145128@2] DOLBY: 
+vout_notify_callback: VOUT_EVENT_MODE_CHANG
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:628:[   12.145575@2] vlock: event MODE_
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt:629:
+
+

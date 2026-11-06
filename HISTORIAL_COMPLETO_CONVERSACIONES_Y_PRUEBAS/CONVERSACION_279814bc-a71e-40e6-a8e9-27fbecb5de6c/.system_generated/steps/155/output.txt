@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Replaced via regex in LEGENDS\src\components\access\IndependentTerminalApp.tsx

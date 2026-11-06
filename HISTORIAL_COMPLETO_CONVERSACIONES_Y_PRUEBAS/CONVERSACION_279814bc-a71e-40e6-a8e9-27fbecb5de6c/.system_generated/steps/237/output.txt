@@ -1,0 +1,1 @@
+Made 1 replacement in c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\layout\Sidebar.tsx starting at line 102 (+1/-1 lines).

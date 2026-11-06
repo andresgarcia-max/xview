@@ -1,0 +1,45 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:730:          <button
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:731:            onClick={onOpenClients}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:732:            className="px-3.5 py-2.5 rounded-2xl 
+bg-gradient-to-r from-amber-500/25 to-amber-600/35 hover:from-amber-500/40 hover:to-amber-600/50 backdrop-blur-md 
+border border-amber-400/70 text-amber-300 hover:text-white font-black text-xs sm:text-sm flex items-center gap-2 
+shadow-[0_0_20px_rgba(245,158,11,0.35)] transition-all cursor-pointer transform hover:scale-105 active:scale-95 
+select-none"
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:733:            title="Abrir Cartera de Clientes & 
+Membres�as sin cerrar el programa"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:734:          >
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:735:            <Users className="w-4 h-4 text-amber-400" />
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:736:            <span className="font-black">CARTERA DE 
+CLIENTES</span>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:737:          </button>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:738:        )}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:739:        <button
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:742:          title="Cambiar imagen de fondo oficial del 
+gimnasio"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:743:        >
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:744:          <Image className="w-4 h-4 text-amber-400" />
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:745:          <span className="hidden sm:inline">CAMBIAR 
+FONDO</span>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:746:        </button>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:747:        <button
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:748:          onClick={toggleFullScreen}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:749:          className="px-4 py-2.5 rounded-2xl 
+bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white font-black text-xs 
+sm:text-sm flex items-center gap-2 shadow-2xl shadow-amber-500/40 transition-all cursor-pointer transform 
+hover:scale-105 active:scale-95 select-none"
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:750:          title={isFullScreen ? "Salir de Pantalla 
+Completa" : "Activar Pantalla Completa"}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:751:        >
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:752:          {isFullScreen ? <Minimize2 className="w-4 
+h-4" /> : <Maximize2 className="w-4 h-4" />}
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:753:          <span>{isFullScreen ? "SALIR PANTALLA" : 
+"PANTALLA COMPLETA"}</span>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:754:        </button>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:755:      </div>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:756:
+
+

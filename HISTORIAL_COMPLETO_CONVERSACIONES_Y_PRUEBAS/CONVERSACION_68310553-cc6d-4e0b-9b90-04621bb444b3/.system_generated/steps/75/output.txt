@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+====>Amlogic update USB tool(Ver 1.7.1) 2018/04<=============
+update	<command>	[device name]	<arg0>	<arg1>	<arg2>	...
+
+Common Commands:
+update <partition>: Burn a partition with a partition image
+update <mwrite>   : Burn data to media or memory
+update <mread>    : Dump a data from media or memory to pc and save as a file
+update <tplcmd>   : like bulkcmd
+update <bulkcmd>  : pass and exec a command platform bootloader can support
+update <write>    : Down a file to memory
+update <run>      : Run code from memory address
+update <read>     : Dump data from memory:
+update <wreg>     : set one 32bits reg:
+update <rreg>     : Dump data from reg:
+update <password> : unlock chip:
+update <chipinfo> : get chip info at page index:
+update <chipid>   : get chip id
+update <bl2_boot> : boot fip format u-boot.bin
+
+Common Commands format:
+update partition partName imgFilePath [imgFileFmt] [sha1VeryFile]
+		e.g.--	update partition boot z:\a\b\boot.img [normal] //format normal is optional
+		e.g.--	update partition system z:\xxxx\system.img [sparse] //format sparse is optional
+		e.g.--	update partition upgrade z:\xxxx\upgrade.ubifs.img ubifs //format ubifs is MANDATORY
+
+update bulkcmd "burning cmd or u-boot cmd"
+		e.g.--	update bulkcmd "disk_intial 0" //cmd to init flash for usb burning
+		e.g.--	update bulkcmd "printenv" //uboot command 'printenv'
+
+update mread store/mem partName/memAddress
+		e.g.--	update mread store boot normal 0x200000 d:oot.dump //upload 32M of boot partition in path d:oot.dump
+		e.g.--	update mread mem 0x1080000 normal d:\mem_2M.dump //upload 2M memory at address 0x1080000 in path d:\mem_2M.dump
+		e.g.--	update chipinfo pageIndex dumpFilePath nBytes startOffset
+
+update cwr/write filePath memAddress [nBytes] [fileOffset]
+		e.g.--	update cwr/write z:/u-boot.bin 0xffa0000 0x10000
+		e.g.--	update cwr/write z:/u-boot.bin.usb.bl2 0xffa0000
+		e.g.--	update write z:/u-boot.bin.usb.tpl 0x200c000
+		e.g.--	update write z:/u-boot.bin 0x200c000 0 0xc000
+====>Amlogic update USB tool(Ver 1.7.1) 2018/04<=============

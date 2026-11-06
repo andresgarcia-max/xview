@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+Name                              Length
+----                              ------
+aml_upgrade_package.conf            1492
+meson-g12-common.dtsi              58761
+meson-g12a-u200.dts                12524
+meson-g12a-x96-max.dts              8798
+meson-g12a.dtsi                     3429
+meson-s4.dtsi                      20694
+optimizar_imagen_y_hdmi_xview.bat   1323
+uboot_env_franklin_b866v2.cfg       1572
+
+

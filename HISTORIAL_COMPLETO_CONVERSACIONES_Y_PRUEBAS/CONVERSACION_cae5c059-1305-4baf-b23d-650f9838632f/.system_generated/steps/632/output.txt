@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+✓ Updated desktop shortcut to point directly to ACCESO_CLIENTES_LEGENDS.exe

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\classes.dex_classes.txt
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\classes.dex_fields.txt
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\classes.dex_methods.txt
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\classes.dex_strings.txt

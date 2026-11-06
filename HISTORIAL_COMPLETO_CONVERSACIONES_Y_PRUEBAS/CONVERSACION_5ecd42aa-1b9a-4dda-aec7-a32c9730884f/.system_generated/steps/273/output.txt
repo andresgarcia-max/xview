@@ -1,0 +1,18 @@
+Command exited with code 1.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\AppUpgradeService...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\jad...
+C:\Users\andre\OneDrive\Desktop\xview\rea\bridge\android\ReaJadxBridge.java                                            
+C:\Users\andre\OneDrive\Desktop\xview\rea\scripts\lib\jadx-configuration-inspection.d.mts                              
+C:\Users\andre\OneDrive\Desktop\xview\rea\scripts\lib\jadx-configuration-inspection.mjs                                
+C:\Users\andre\OneDrive\Desktop\xview\rea\src\android\JadxAnalysis.ts                                                  
+C:\Users\andre\OneDrive\Desktop\xview\rea\src\android\JadxConfiguration.ts                                             
+C:\Users\andre\OneDrive\Desktop\xview\rea\src\android\JadxDoctor.ts                                                    
+C:\Users\andre\OneDrive\Desktop\xview\rea\src\android\JadxFailure.ts                                                   
+C:\Users\andre\OneDrive\Desktop\xview\rea\src\android\JadxInterruption.ts                                              
+
+

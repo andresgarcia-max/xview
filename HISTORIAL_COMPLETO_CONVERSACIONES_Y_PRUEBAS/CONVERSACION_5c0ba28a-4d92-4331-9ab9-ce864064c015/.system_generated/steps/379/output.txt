@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+Falta la cadena en el terminador: "@.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+ 

@@ -1,0 +1,40 @@
+Command exited with code 0.
+
+Command output:
+
+
+Interfaz: 192.168.0.140 --- 0xe
+  Direcci�n de Internet          Direcci�n f�sica      Tipo
+  192.168.0.1           60-22-32-c6-21-66     din�mico  
+  192.168.0.35          c8-7f-54-02-ef-3e     din�mico  
+  192.168.0.77          9c-b1-dc-2f-e4-b1     din�mico  
+  192.168.0.160         04-95-e6-36-f7-c1     din�mico  
+  192.168.0.165         4c-57-39-ed-e7-be     din�mico  
+  192.168.0.182         e0-8f-4c-e6-9d-df     din�mico  
+  192.168.0.225         64-07-f6-7c-f1-26     din�mico  
+  192.168.0.255         ff-ff-ff-ff-ff-ff     est�tico  
+  224.0.0.22            01-00-5e-00-00-16     est�tico  
+  224.0.0.251           01-00-5e-00-00-fb     est�tico  
+  224.0.0.252           01-00-5e-00-00-fc     est�tico  
+  239.255.255.250       01-00-5e-7f-ff-fa     est�tico  
+  255.255.255.255       ff-ff-ff-ff-ff-ff     est�tico  
+   Id ProcessName                    StartTime                
+   -- -----------                    ---------                
+20608 PROGRAMA_PERFECTO_XVIEW_B866V2 04/11/2026 11:21:20 p. m.
+[2026-11-04 23:21:21.806] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 23:21:21.827] [MISION_4_PASOS] === INICIANDO FLUJO DIRECTO DE 4 PASOS (v4.1) ===
+[2026-11-04 23:21:21.828] [UI] [PASO 1/4] ESCANEANDO LA MEMORIA...
+[2026-11-04 23:21:21.831] [UI] [+] Memoria USB KINGSTON lista en la caja (con factory_update_param.aml + QADEBUG.ini).
+[2026-11-04 23:21:21.839] [UI] [OK] Memoria de Firmware verificada: 13 particiones .img + 15 APKs de Interfaz Xview Liberada.
+[2026-11-04 23:21:21.843] [UI] [PASO 2/4] ENTRANDO EN MODO FASTBOOT...
+[2026-11-04 23:21:21.845] [UI] * SI TU TV YA ESTA EN LA PANTALLA AZUL 'fastbootd' (letras rosas):
+[2026-11-04 23:21:21.847] [UI] 1. Conecta el cable USB Macho-a-Macho en el puerto TRASERO (junto a MicroSD y HDMI).
+[2026-11-04 23:21:21.849] [UI] 2. En la TV baja a 'Reboot to bootloader' y presiona OK (o entra a 'Enter recovery'
+[2026-11-04 23:21:21.851] [UI] -> 'Set USB device' -> 'Yes' para activar el puerto USB de la caja).
+[2026-11-04 23:21:21.851] [UI] * O si la caja esta encendida normal: desconecta corriente, manten presionado RESET
+[2026-11-04 23:21:21.853] [UI] y vuelve a conectar corriente...
+[2026-11-04 23:21:21.855] [UI] --------------------------------------------------------------------------------
+[2026-11-04 23:21:21.857] [UI] [*] ESCUCHANDO EN VIVO (Fastboot PID_0D02 / Fastbootd PID_4EE7 / WorldCup 48ms / ADB)...
+[2026-11-04 23:26:33.013] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+
+

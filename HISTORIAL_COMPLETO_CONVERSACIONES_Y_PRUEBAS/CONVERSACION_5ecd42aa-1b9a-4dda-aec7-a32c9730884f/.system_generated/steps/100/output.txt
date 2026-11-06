@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+09-04 14:20:40.039  4137  4137 D MainSettings: MainSettings onkeyDown keyCode=19
+09-04 14:20:40.040     0     0 W prk     : [  259.349368@0]- _____1088 >green_led_blink
+09-04 14:20:40.049  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.049  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.050  3513  3513 D memtrack_aml: open file /d/ion/heaps/vmalloc_ion error No such file or directory
+09-04 14:20:40.050  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.050  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.050  3513  3513 D memtrack_aml: open /d/mali0/ctx error No such file or directory
+09-04 14:20:40.050  3513  3513 D memtrack_aml: open file /proc/7023/smaps error No such file or directory
+09-04 14:20:40.051  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.051  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.051  3513  3513 D memtrack_aml: fail to open /d/ion/heaps
+09-04 14:20:40.052  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.052  4449  4449 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3264 
+09-04 14:20:40.052  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.052  3676  3866 W android.os.Debug: failed to get other pss: -2
+09-04 14:20:40.053  4449  4449 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 0, locked = false
+09-04 14:20:40.053  4449  4449 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1899 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.android.tv.settings fieldId=0 fieldName=null extras=null hintLocales=[]}, false)
+09-04 14:20:40.053  4449  4449 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4091 ShouldHideHeaderOnInitialState = false
+09-04 14:20:40.054  4449  4449 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2111 repeatCheckTimes = 1, locked = false
+09-04 14:20:40.146  5116  5548 I NetManager: [GetNetworkState]: Network state is not ok 
+09-04 14:20:40.153  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.153  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.153  3513  3513 D memtrack_aml: open file /d/ion/heaps/vmalloc_ion error No such file or directory
+09-04 14:20:40.154  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.154  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.154  3513  3513 D memtrack_aml: open /d/mali0/ctx error No such file or directory
+09-04 14:20:40.154  3513  3513 D memtrack_aml: open file /proc/6999/smaps error No such file or directory
+09-04 14:20:40.154  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.154  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.154  3513  3513 D memtrack_aml: fail to open /d/ion/heaps
+09-04 14:20:40.154  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.154  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.155  3676  3866 W android.os.Debug: failed to get other pss: -2
+09-04 14:20:40.256  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.256  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.256  3513  3513 D memtrack_aml: open file /d/ion/heaps/vmalloc_ion error No such file or directory
+09-04 14:20:40.257  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.257  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:40.257  3513  3513 D memtrack_aml: open /d/mali0/ctx error No such file or directory

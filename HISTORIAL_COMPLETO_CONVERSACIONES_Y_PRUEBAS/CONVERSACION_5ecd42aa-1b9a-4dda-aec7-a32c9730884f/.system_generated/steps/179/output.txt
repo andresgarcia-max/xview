@@ -1,0 +1,547 @@
+Command exited with code 0.
+
+Command output:
+
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20374:02-05 
+02:17:44.252  4273  4887 W TrustedTimeHelper: 	at android.os.Looper.loopOnce(Looper.java:201)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20375:02-05 
+02:17:44.252  4273  4887 W TrustedTimeHelper: 	at android.os.Looper.loop(Looper.java:288)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20376:02-05 
+02:17:44.252  4273  4887 W TrustedTimeHelper: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20377:02-05 
+02:17:44.256  3655  4553 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@2bc2b7
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20378:02-05 
+02:17:44.256  3655  4553 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20379:02-05 
+02:17:44.256  3655  4553 W [FrameworkCustomization]OomAdjusterImpl: tv.broadpeak.nanocdnwrapper, change oom_adj=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20380:02-05 
+02:17:44.256  3655  4553 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20381:02-05 
+02:17:44.256  3655  4553 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@2bc2b7
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20382:02-05 
+02:17:44.256  3655  4553 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20383:02-05 
+02:17:44.257  3655  4553 W [FrameworkCustomization]OomAdjusterImpl: tv.broadpeak.nanocdnwrapper:nanoCdnServiceProcess, 
+change oom_adj=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20384:02-05 
+02:17:44.257  3655  4553 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20385:02-05 
+02:17:44.264  3655  4553 W ActivityManager: Unable to start service Intent { cmp=com.netflix.dial/.NetflixDialService 
+} U=0: not found
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20386:02-05 
+02:17:44.267  4866  5049 E RemoteStbCfg.Jni: [init_stbctrl_interface 88] load libstbctrl.ZTE.so successed!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20387:02-05 
+02:17:44.267  4866  5049 E RemoteStbCfg.Jni: [InvokeJava 227] NotifyJava: 1111
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20388:02-05 
+02:17:44.267  4866  5049 D RemoteStbCfg.Java: StbcfgInvoke: 4101 command, data length is 384
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20389:02-05 
+02:17:44.268  4866  5049 D RemoteStbCfg.Java: STBCFG_C_TO_JAVA_ProductCfgCheck:section =Common_ext,key=STBToolConnect
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20390:02-05 
+02:17:44.268  4768  4790 D aidlProductconfig: isProductCfg section=Common_ext,key =STBToolConnect
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20391:02-05 
+02:17:44.268  4768  4790 D aidlProductconfig: is not ProductCfg section=Common_ext,key =STBToolConnect !
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20392:02-05 
+02:17:44.269  4866  5049 D RemoteStbCfg.Java: mMcspcfg.isProductCfg:flag = false
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20393:02-05 
+02:17:44.269  4866  5049 D RemoteStbCfg.Java: mMcspcfg.isProductCfg:ret = -1
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20394:02-05 
+02:17:44.269  4866  5049 E CIntCompCommun: ERROR:CallIntMethod MCSP_InvokeService failed!!!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20395:02-05 
+02:17:44.270  4768  4790 D aidlProductconfig: getConfig_distinguishNullCfg section=Common,key =MarketCode
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20396:02-05 
+02:17:44.270  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+sectionIn=Common .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20397:02-05 
+02:17:44.270  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+keyIn=MarketCode .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20398:02-05 
+02:17:44.270  4768  4790 D ZteAIDLProductCfg: [MCSP_Cfg_GetString] Section:Common, Key:MarketCode, Value:4301
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20399:02-05 
+02:17:44.270  4768  4790 D ZteAIDLProductCfg: MCSP_Cfg_GetString 0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20400:02-05 
+02:17:44.270  4768  4790 D ZteAIDLProductCfgJNI: MCSP_Cfg_GetString=0 .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20401:02-05 
+02:17:44.270  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+valueOut=4301 .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20402:02-05 
+02:17:44.270  4768  4790 D aidlProductconfig: getConfig_distinguishNullCfg section=Common,key =MarketCode,result =4301
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20403:02-05 
+02:17:44.270  4866  5049 E BaseComp.Java: getProductCfg tmpvalue:4301
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20404:02-05 
+02:17:44.271  4768  4790 D aidlProductconfig: getConfig_distinguishNullCfg section=Common,key =OperatorsCode
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20405:02-05 
+02:17:44.271  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+sectionIn=Common .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:20406:02-05 
+02:17:44.271  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+keyIn=OperatorsCode .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57320:02-05 
+02:18:35.803  4866  5111 E BaseComp.mcsplog_debug: [186] warning: rename 
+[/sdcard/startuplog/upload/startlog_Z41220090453546_20240205021835_889.log_bak] fail 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57321:02-05 
+02:18:35.803  4866  5111 E BaseComp.mcsplog_debug: [203] Open directory (/sdcard/startuplog/upload/) failed: 2:No such 
+file or directory
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57322:02-05 
+02:18:35.803  4866  5111 E BaseComp.mcsplog_debug: [134] startup_log end.
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57323:02-05 
+02:18:35.817  3655  3655 I sysui_multi_action: 
+[757,1501,758,1,793,206,794,0,795,206,796,5,806,com.ztestb.upgrade,857,com.ztestb.upgrade,858,4,947,0,1500,0,1688,1]
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57324:02-05 
+02:18:35.817  3655  3655 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57325:02-05 
+02:18:35.819  3655  3655 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57326:02-05 
+02:18:35.821  3880  3880 V TvNotificationHandler: Notification not added because it isn't relevant for tv
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57327:02-05 
+02:18:35.920  4830  4926 E NanoCdnLib-core: bkstb:failed to set BkStbA channel (19)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57328:02-05 
+02:18:35.920  4830  4926 W NanoCdnLib-core: ctrlchannel:can't join multicast group on address 239.57.41.1
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57329:02-05 
+02:18:35.982  4982  5491 I NetManager: [GetNetworkState]: Network state is not ok 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57330:02-05 
+02:18:36.183  4982  5491 I NetManager: [GetNetworkState]: Network state is not ok 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57331:02-05 
+02:18:36.196  7475  7475 I auditd  : type=1400 audit(0.0:129): avc: denied { open } for comm="getprop" 
+path="/dev/__properties__/u:object_r:vendor_media_prop:s0" dev="tmpfs" ino=2465 scontext=u:r:priv_app:s0:c512,c768 
+tcontext=u:object_r:vendor_media_prop:s0 tclass=file permissive=0 app=com.dotscreen.megacable.core
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57332:02-05 
+02:18:36.196  7475  7475 W getprop : type=1400 audit(0.0:129): avc: denied { open } for 
+path="/dev/__properties__/u:object_r:vendor_media_prop:s0" dev="tmpfs" ino=2465 scontext=u:r:priv_app:s0:c512,c768 
+tcontext=u:object_r:vendor_media_prop:s0 tclass=file permissive=0 app=com.dotscreen.megacable.core
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57333:02-05 
+02:18:36.383  4982  5491 I NetManager: [GetNetworkState]: Network state is not ok 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57334:02-05 
+02:18:36.488  3655  3801 E WifiScanner: listener cannot be found
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57335:02-05 
+02:18:36.576  4866  7457 D RemoteStbCfg.Java: checkUdisk: config.stbtool.status: 1
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57336:02-05 
+02:18:36.576  4866  7457 D RemoteStbCfg.Java: checkUdisk: Service already alive!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57337:02-05 
+02:18:36.584  4982  5491 I NetManager: [GetNetworkState]: Network state is not ok 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57338:02-05 
+02:18:36.588  5724  5724 D h       : MAC: C4741EF2FAFB
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57339:02-05 
+02:18:36.590  5724  5724 D h       : Serial: Z41220090453546
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57340:02-05 
+02:18:36.590  5724  5724 D h       : Cache: will register
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57341:02-05 
+02:18:36.612  5137  5137 D Upgrade_J: UpgradeService: ----> onStart()
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57342:02-05 
+02:18:36.612  5137  5137 D Upgrade_J: UpgradeService: ----> Mount Path = file:///storage/1AA6-6480
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57343:02-05 
+02:18:36.612  5137  5137 I Upgrade_J: CheckIfCustomized: This Market do not have customized feature: 2
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57344:02-05 
+02:18:36.612  5137  5137 D Upgrade_J: usbUpgrade Path = /storage/1AA6-6480
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57345:02-05 
+02:18:36.613  5137  7476 D Upgrade_J: usbThreadUpgrade Path = /storage/1AA6-6480
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57346:02-05 
+02:18:36.613  5137  7476 D Upgrade_J: usbDir = usbDir_ZTE!!!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57347:02-05 
+02:18:36.767  3189  3412 I vold    : Unmounting /mnt/installer/0/emulated/0/Android/obb
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57348:02-05 
+02:18:36.784  4982  5491 I NetManager: [GetNetworkState]: Network state is not ok 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57349:02-05 
+02:18:36.792  3189  3412 I vold    : Unmounting /mnt/user/0/emulated/0/Android/data
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57350:02-05 
+02:18:36.814  3189  3412 I vold    : Unmounted /mnt/user/0/emulated/0/Android/data
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:57351:02-05 
+02:18:36.814  3189  3412 I vold    : Unmounting /mnt/user/0/emulated/0/Android/obb
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59050:02-05 
+02:18:45.824     0     0 E prk     : [   96.480444@0]- audit: rate limit exceeded
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59051:02-05 
+02:18:45.827  4982  5491 I NetManager: [GetNetworkState]: Network state is not ok 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59052:02-05 
+02:18:45.820  7540  7540 I auditd  : type=1400 audit(0.0:133): avc: denied { read } for comm="ps" 
+scontext=u:r:system_app:s0 tcontext=u:r:servicemanager:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59053:02-05 
+02:18:45.820  7540  7540 W ps      : type=1400 audit(0.0:133): avc: denied { read } for scontext=u:r:system_app:s0 
+tcontext=u:r:servicemanager:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59054:02-05 
+02:18:45.820  7540  7540 I auditd  : type=1400 audit(0.0:134): avc: denied { read } for comm="ps" 
+scontext=u:r:system_app:s0 tcontext=u:r:hwservicemanager:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59055:02-05 
+02:18:45.820  7540  7540 W ps      : type=1400 audit(0.0:134): avc: denied { read } for scontext=u:r:system_app:s0 
+tcontext=u:r:hwservicemanager:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59056:02-05 
+02:18:45.820  7540  7540 I auditd  : type=1400 audit(0.0:135): avc: denied { read } for comm="ps" 
+scontext=u:r:system_app:s0 tcontext=u:r:vndservicemanager:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59057:02-05 
+02:18:45.820  7540  7540 W ps      : type=1400 audit(0.0:135): avc: denied { read } for scontext=u:r:system_app:s0 
+tcontext=u:r:vndservicemanager:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59058:02-05 
+02:18:45.824  7540  7540 I auditd  : type=1400 audit(0.0:136): avc: denied { read } for comm="ps" 
+scontext=u:r:system_app:s0 tcontext=u:r:hal_atrace_default:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59059:02-05 
+02:18:45.824  7540  7540 W ps      : type=1400 audit(0.0:136): avc: denied { read } for scontext=u:r:system_app:s0 
+tcontext=u:r:hal_atrace_default:s0 tclass=file permissive=0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59060:02-05 
+02:18:45.855  4866  5089 E BaseComp.mcsplog_debug: [2095] copyCfgInfo: cmd[cp -rf 
+/data/data/com.ztestb.basecomp/cfgchglog/ 
+/storage/1AA6-6480/LOG_ZTESTB/U_C4741EF2FAFB_202402050218_1//MiddleWareCfgInfo]
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59061:02-05 
+02:18:45.962  4830  4926 E NanoCdnLib-core: bkstb:failed to set BkStbA channel (19)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59062:02-05 
+02:18:45.962  4830  4926 W NanoCdnLib-core: ctrlchannel:can't join multicast group on address 239.57.41.1
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59063:02-05 
+02:18:46.008  4866  5089 E BaseComp.mcsplog_debug: [2103] copyCfgInfo: cmd[cp -rf 
+/data/data/com.ztestb.basecomp/files/ztecfg/ 
+/storage/1AA6-6480/LOG_ZTESTB/U_C4741EF2FAFB_202402050218_1//MiddleWareCfgInfo]
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59064:02-05 
+02:18:46.028  4982  5491 I NetManager: [GetNetworkState]: Network state is not ok 
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59065:02-05 
+02:18:46.084  4866  7521 D RemoteStbCfg.Java: checkUdisk: config.stbtool.status: 1
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59066:02-05 
+02:18:46.084  4866  7521 D RemoteStbCfg.Java: checkUdisk: Service already alive!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59067:02-05 
+02:18:46.100  5137  5137 D Upgrade_J: UpgradeService: ----> onStart()
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59068:02-05 
+02:18:46.100  5137  5137 D Upgrade_J: UpgradeService: ----> Mount Path = file:///storage/1AA6-6480
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59069:02-05 
+02:18:46.100  5137  5137 I Upgrade_J: CheckIfCustomized: This Market do not have customized feature: 2
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59070:02-05 
+02:18:46.100  5137  5137 D Upgrade_J: usbUpgrade Path = /storage/1AA6-6480
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59071:02-05 
+02:18:46.100  5137  7551 D Upgrade_J: usbThreadUpgrade Path = /storage/1AA6-6480
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59072:02-05 
+02:18:46.100  5137  7551 D Upgrade_J: usbDir = usbDir_ZTE!!!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59073:02-05 
+02:18:46.100  5137  5137 D Upgrade_J: StartUpgradeServiceBroadcast: ----------> 
+onReceiveandroid.intent.action.MEDIA_MOUNTED
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59074:02-05 
+02:18:46.101  5137  5137 D Upgrade_J: Mount Path = file:///storage/emulated/0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59075:02-05 
+02:18:46.101  5137  5137 D Upgrade_J: Broad Type:----> onReceiveandroid.intent.action.MEDIA_MOUNTED
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59076:02-05 
+02:18:46.101  3655  4554 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@2bc2b7
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59077:02-05 
+02:18:46.101  3655  4554 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59078:02-05 
+02:18:46.101  3655  4554 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.upgrade, change oom_adj=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59079:02-05 
+02:18:46.101  3655  4554 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59080:02-05 
+02:18:46.101  5137  5137 W ContextImpl: Calling a method in the system process without a qualified user: 
+android.app.ContextImpl.startService:1817 android.content.ContextWrapper.startService:776 
+android.content.ContextWrapper.startService:776 com.ztestb.upgrade.StartUpgradeServiceBroadcast.onReceive:120 
+android.app.ActivityThread.handleReceiver:4308 
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_1_20240205_DEC.log:59081:02-05 
+02:18:46.102  3655  4553 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@2bc2b7
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20586:02-05 
+02:19:56.900  4547  4547 I SMW_TOOLS_FTT:  [TestToolBroadcast] thirdParty version false,do nothing
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20587:02-05 
+02:19:56.909  5104  5186 I Upgrade_J: UpgradeLoadzipCmd:/data/user/0/com.ztestb.upgrade/files/zip is already exist,no 
+need copy cmd file
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20588:02-05 
+02:19:56.909  5104  5186 I Upgrade_J: UpgradeLoadzipCmd:/data/user/0/com.ztestb.upgrade/files/acs-bgrepo.yettel.bg.crt 
+is already exist,no need copy cmd file
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20589:02-05 
+02:19:56.909  5104  5186 I Upgrade_J: file content:
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20590:02-05 
+02:19:56.910  5104  5186 I Upgrade_J: get DestroyFlag defaultValue:[0]
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20591:02-05 
+02:19:56.910  5104  5186 I Upgrade_J: get EnterRecovery defaultValue:[0]
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20592:02-05 
+02:19:56.910  5104  5186 D Upgrade_J: updatemode: value:0 recoveryFlag:0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20593:02-05 
+02:19:56.910  5104  5186 I Upgrade_J: CheckIfCustomized: This Market do not have customized feature: 3
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20594:02-05 
+02:19:56.910  5104  5186 D Upgrade_J: bindService is ok,but Service still Disconnected,wart for mount!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20595:02-05 
+02:19:56.918  3490  3550 I WVCdm   : [app][com.dotscreen.megacable.portal] calling virtual Return<void> 
+wvdrm::hardware::drm::V1_4::widevine::WVDrmFactory::createPlugin(const hidl_array<uint8_t, 16> &, const 
+android::hardware::hidl_string &, android::hardware::drm::V1_4::IDrmFactory::createPlugin_cb)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20596:02-05 
+02:19:56.918  3490  3550 D WVCdm   : Instantiating CDM.
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20597:02-05 
+02:19:56.920  3490  3550 D WVCdm   : [cdm_engine.cpp(544):QueryStatus] security_level = Default, query_token = DeviceID
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20598:02-05 
+02:19:56.928  4914  5096 E RemoteStbCfg.Jni: [init_stbctrl_interface 88] load libstbctrl.ZTE.so successed!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20599:02-05 
+02:19:56.929  4914  5096 E RemoteStbCfg.Jni: [InvokeJava 227] NotifyJava: 1111
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20600:02-05 
+02:19:56.929  4914  5096 D RemoteStbCfg.Java: StbcfgInvoke: 4101 command, data length is 384
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20601:02-05 
+02:19:56.929  4914  5096 D RemoteStbCfg.Java: STBCFG_C_TO_JAVA_ProductCfgCheck:section =Common_ext,key=STBToolConnect
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20602:02-05 
+02:19:56.931  4865  4903 D aidlProductconfig: isProductCfg section=Common_ext,key =STBToolConnect
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20603:02-05 
+02:19:56.931  4865  4903 D aidlProductconfig: is not ProductCfg section=Common_ext,key =STBToolConnect !
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20604:02-05 
+02:19:56.932  4914  5096 D RemoteStbCfg.Java: mMcspcfg.isProductCfg:flag = false
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20605:02-05 
+02:19:56.933  4914  5096 D RemoteStbCfg.Java: mMcspcfg.isProductCfg:ret = -1
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20606:02-05 
+02:19:56.933  4914  5096 E CIntCompCommun: ERROR:CallIntMethod MCSP_InvokeService failed!!!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20607:02-05 
+02:19:56.934  4865  4903 D aidlProductconfig: getConfig_distinguishNullCfg section=Common,key =MarketCode
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20608:02-05 
+02:19:56.934  4865  4903 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+sectionIn=Common .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20609:02-05 
+02:19:56.934  4865  4903 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+keyIn=MarketCode .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20610:02-05 
+02:19:56.934  4865  4903 D ZteAIDLProductCfg: [MCSP_Cfg_GetString] Section:Common, Key:MarketCode, Value:4301
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20611:02-05 
+02:19:56.934  4865  4903 D ZteAIDLProductCfg: MCSP_Cfg_GetString 0
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20612:02-05 
+02:19:56.934  4865  4903 D ZteAIDLProductCfgJNI: MCSP_Cfg_GetString=0 .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20613:02-05 
+02:19:56.934  4865  4903 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig 
+valueOut=4301 .
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20614:02-05 
+02:19:56.934  4865  4903 D aidlProductconfig: getConfig_distinguishNullCfg section=Common,key =MarketCode,result =4301
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20615:02-05 
+02:19:56.937  4914  5157 I McspCompCommun: MCSP_InvokeService get (STB_MAINCENTER) binder proxy failed!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20616:02-05 
+02:19:56.937  4914  5157 E CIntCompCommun: ERROR:CallIntMethod MCSP_InvokeService failed!!!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20617:02-05 
+02:19:56.937  4914  5157 E BaseComp.mcsplog_debug: [1972] ERROR:MCSP_InvokeService failed!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:20618:02-05 
+02:19:56.937  4914  5157 E BaseComp.mcsplog_debug: [1724] start zteKlog failed, cnt = 1
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46119:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at axkd.run(:com.google.android.gms@254730118@25.47.30 
+(180300-833691957):118)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46120:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at cldz.run(:com.google.android.gms@254730118@25.47.30 
+(180300-833691957):19)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46121:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at afnw.c(:com.google.android.gms@254730118@25.47.30 (180300-833691957):50)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46122:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at afnw.run(:com.google.android.gms@254730118@25.47.30 
+(180300-833691957):73)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46123:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at 
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46124:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at 
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46125:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at afth.run(:com.google.android.gms@254730118@25.47.30 
+(180300-833691957):8)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46126:02-05 
+02:20:22.490  4288  4781 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:920)
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46127:02-05 
+02:20:22.497  3680  4074 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@de5b919
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46128:02-05 
+02:20:22.497  3680  4074 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46129:02-05 
+02:20:22.497  3680  4074 W [FrameworkCustomization]OomAdjusterImpl: com.dotscreen.megacable.core, change oom_adj=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46130:02-05 
+02:20:22.497  3680  4074 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46131:02-05 
+02:20:22.501  4641  5365 V VolleyRequest:    done downloading "https://www.xviewplus.com.mx/config/features_tv.json"
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46132:02-05 
+02:20:22.501  4641  5365 V VolleyRequest:    status: 200
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46133:02-05 
+02:20:22.501  4641  5365 D [DS]    :     [REQUEST] :     URL -> https://www.xviewplus.com.mx/config/features_tv.json 
+-> cache false
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46134:02-05 
+02:20:22.503  4914  7168 D RemoteStbCfg.Java: checkUdisk: config.stbtool.status: 1
+> 
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46135:02-05 
+02:20:22.504  4914  7168 D RemoteStbCfg.Java: checkUdisk: Service already alive!
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46136:02-05 
+02:20:22.508  4641  4641 D initSentry: sentryFilter say [00, 0204, 0158, 0089]
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46137:02-05 
+02:20:22.510  3680  4074 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@de5b919
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46138:02-05 
+02:20:22.511  3680  4074 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46139:02-05 
+02:20:22.513  3680  4074 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@de5b919
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46140:02-05 
+02:20:22.513  3680  4074 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46141:02-05 
+02:20:22.514  3680  4074 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@de5b919
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46142:02-05 
+02:20:22.514  3680  4074 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46143:02-05 
+02:20:22.515  3680  4074 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@de5b919
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46144:02-05 
+02:20:22.515  3680  4074 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46145:02-05 
+02:20:22.515  3680  4074 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@de5b919
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46146:02-05 
+02:20:22.515  3680  4074 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46147:02-05 
+02:20:22.516  3680  4074 D FrameworkAdapter: getInstance: new mFrameworkAdapter - 
+android.content.FrameworkAdapter@de5b919
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46148:02-05 
+02:20:22.516  3680  4074 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46149:02-05 
+02:20:22.516  3680  4074 W [FrameworkCustomization]OomAdjusterImpl: com.dotscreen.megacable.core, change oom_adj=-14
+  
+experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2FAFB\ULog_2_20240205_DEC.log:46150:02-05 
+02:20:22.516  3680  4074 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+
+

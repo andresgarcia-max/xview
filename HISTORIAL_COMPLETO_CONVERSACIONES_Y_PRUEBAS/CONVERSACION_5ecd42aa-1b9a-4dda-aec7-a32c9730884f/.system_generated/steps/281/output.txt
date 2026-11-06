@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+\accessories\A2dpDeviceCriteria.java
+\accessories\BluetoothDevicePairer.java
+\accessories\BluetoothInputDeviceConnector.java
+\accessories\InputDeviceCriteria.java
+\name\DeviceManager.java
+\util\bluetooth\BluetoothDeviceCriteria.java

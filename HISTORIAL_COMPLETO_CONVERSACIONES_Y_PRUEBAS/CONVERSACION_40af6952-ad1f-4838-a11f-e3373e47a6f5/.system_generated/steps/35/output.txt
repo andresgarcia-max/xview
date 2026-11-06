@@ -1,0 +1,110 @@
+Command exited with code 0.
+
+Command output:
+================================================================================
+          REPORTE Y RESUMEN DE PROCESO - ZTE ZXV10 B866V2 (XVIEW+)              
+================================================================================
+ >>> ESTADO GLOBAL: [EN EJECUCION] <<<
+ >>> PROCESO ACTUAL: PASO 1/4: ESPERANDO SENAL USB DE LA NUEVA CAJA XVIEW+...
+================================================================================
+ Fecha de inicio    : 2026-11-02 23:42:23
+ Ultima actualiz.   : 2026-11-02 23:49:32 (Duracion: 429.6s)
+ Diagnostico        : Ninguno
+--------------------------------------------------------------------------------
+ 1. INFORMACION DEL DISPOSITIVO
+--------------------------------------------------------------------------------
+  * Modelo / Placa        : Megacable Xview+ ZTE ZXV10 B866V2 (board_id=8)
+  * Estado Conexion USB   : Esperando conexion en USB 2 (trasero)...
+  * Numero de Serie       : Sin senal USB (otg_device=0 o desconectado)
+  * Version de U-Boot     : Detectando...
+  * Estado Lock           : Esperando deteccion...
+  * Estado de Acceso      : Pendiente
+--------------------------------------------------------------------------------
+ 2. REGISTRO DE LOS 4 PASOS DEL PROCESO
+--------------------------------------------------------------------------------
+  [EN CURSO  ] | 23:49:32 | 1. Conexion USB con la Caja B866V2     | Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+  [PENDIENTE ] | 23:49:32 | 2. Desbloqueo de Bootloader / Puente ADB | Pendiente de desbloquear acceso de escritura (Fastboot o ADB)
+  [PENDIENTE ] | 23:49:31 | 3. Inyeccion de Sistema (12 modulos/part.) | Pendiente de inyectar sistema y liberacion B866V2
+  [PENDIENTE ] | 23:49:31 | 4. Verificacion Final y Resumen        | Pendiente de finalizar proceso y generar reporte
+================================================================================
+---
+[23:37:30]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:37:30]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:37:30]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:37:30] ==========================================================================
+[23:38:30] ==========================================================================
+[23:38:30]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:38:30] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:38:31] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:38:31] ==========================================================================
+[23:38:31]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:38:31]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:38:31]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:38:31]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:38:31]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:38:31]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:38:31]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:38:31] ==========================================================================
+[23:38:31] ==========================================================================
+[23:38:31]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:38:31] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:38:31] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:38:31] ==========================================================================
+[23:38:31]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:38:31]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:38:31]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:38:31]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:38:31]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:38:32]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:38:32]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:38:32] ==========================================================================
+[23:39:45] ==========================================================================
+[23:39:45]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:39:45] ==========================================================================
+[23:39:45] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:42:23] ==========================================================================
+[23:42:23]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:42:23] ==========================================================================
+[23:42:23] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:42:24] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:42:24] ==========================================================================
+[23:42:24]  [CAJA NUEVA EN PANTALLA 'Android Fastboot' (fastbootd) SIN SENAL USB]:
+[23:42:24]   * Causa: Una caja Xview+ nueva trae 'otg_device=0' de fabrica, por lo que
+[23:42:24]     el kernel de fastbootd mantiene apagado el USB hacia la PC hasta activarlo.
+[23:42:24]   * SOLUCION INMEDIATA EN SU TV (toma 5 segundos con el control o teclado):
+[23:42:24]     1. En la pantalla 'Android Fastboot' de la TV, seleccione 'Enter recovery'.
+[23:42:24]     2. En el menu 'Android Recovery', baje hasta 'Set USB device' y pulse OK -> 'Yes'.
+[23:42:24]     3. Eso activa 'otg_device=1' permanentemente en esta caja y la PC la detectara
+[23:42:24]        al instante (tanto en Android como en fastbootd / Fastboot).
+[23:42:24]     (O bien seleccione 'Reboot to bootloader' en la pantalla de fastbootd).
+[23:42:24] ==========================================================================
+[23:49:30] ==========================================================================
+[23:49:30]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:49:30] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:49:31] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:49:31] ==========================================================================
+[23:49:31]  [CAJA NUEVA EN PANTALLA 'Android Fastboot' (fastbootd) SIN SENAL USB]:
+[23:49:31]   * Causa: Una caja Xview+ nueva trae 'otg_device=0' de fabrica, por lo que
+[23:49:31]     el kernel de fastbootd mantiene apagado el USB hacia la PC hasta activarlo.
+[23:49:31]   * SOLUCION INMEDIATA EN SU TV (toma 5 segundos con el control o teclado):
+[23:49:31]     1. En la pantalla 'Android Fastboot' de la TV, seleccione 'Enter recovery'.
+[23:49:31]     2. En el menu 'Android Recovery', baje hasta 'Set USB device' y pulse OK -> 'Yes'.
+[23:49:31]     3. Eso activa 'otg_device=1' permanentemente en esta caja y la PC la detectara
+[23:49:31]        al instante (tanto en Android como en fastbootd / Fastboot).
+[23:49:31]     (O bien seleccione 'Reboot to bootloader' en la pantalla de fastbootd).
+[23:49:31] ==========================================================================
+[23:49:31] ==========================================================================
+[23:49:31]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:49:31] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:49:32] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:49:32] ==========================================================================
+[23:49:32]  [CAJA NUEVA EN PANTALLA 'Android Fastboot' (fastbootd) SIN SENAL USB]:
+[23:49:32]   * Causa: Una caja Xview+ nueva trae 'otg_device=0' de fabrica, por lo que
+[23:49:32]     el kernel de fastbootd mantiene apagado el USB hacia la PC hasta activarlo.
+[23:49:32]   * SOLUCION INMEDIATA EN SU TV (toma 5 segundos con el control o teclado):
+[23:49:32]     1. En la pantalla 'Android Fastboot' de la TV, seleccione 'Enter recovery'.
+[23:49:32]     2. En el menu 'Android Recovery', baje hasta 'Set USB device' y pulse OK -> 'Yes'.
+[23:49:32]     3. Eso activa 'otg_device=1' permanentemente en esta caja y la PC la detectara
+[23:49:32]        al instante (tanto en Android como en fastbootd / Fastboot).
+[23:49:32]     (O bien seleccione 'Reboot to bootloader' en la pantalla de fastbootd).
+[23:49:32] ==========================================================================

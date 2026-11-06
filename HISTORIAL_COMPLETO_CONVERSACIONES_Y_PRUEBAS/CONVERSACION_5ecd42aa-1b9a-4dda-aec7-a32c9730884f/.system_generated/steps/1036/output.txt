@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Existe super.img: True | Tamano: 1887436800
+fastboot version 33.0.3-8952118
+Installed as C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\fastboot.exe
+fastboot version 33.0.3-8952118
+Installed as C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\fastboot_moderno.exe

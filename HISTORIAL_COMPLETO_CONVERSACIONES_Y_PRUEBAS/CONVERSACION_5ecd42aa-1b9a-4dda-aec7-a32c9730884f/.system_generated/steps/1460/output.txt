@@ -1,0 +1,277 @@
+Command exited with code 0.
+
+Command output:
+err offset (0x%llx) + dataSz(0x%llx) > fsz 0x%llx
+Fail in seek to fileOffset 0x%llx
+mwrite:verify=addsum
+partname
+filepath
+verify
+imagetype
+media
+partoffset
+filesize
+4?M
+=?M
+F?M
+M?M
+W?M
+]?M
+h?M
+P:p:F:f:V:v:T:t:M:m:O:o:
+invalid option %c
+partname is empty
+filePath is emtpy
+store
+illegle offset %s
+sparse
+normal
+oem mwrite 0x%llx %s %s %s 0x%llx
+mwrite
+fail in queue mwrite
+verify file sz %lld too large
+oem verify 
+FAil in read vry file
+i?@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+7?@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+U?@
+?>@
+_?@
+-?@
+?>@
+?>@
+?>@
+K?@
+?>@
+A?@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+7?@
+?>@
+?>@
+?>@
+?>@
+?>@
+?>@
+U?@
+?>@
+_?@
+-?@
+?>@
+?>@
+?>@
+K?@
+?>@
+A?@
+Fail in open file %s, errno(%d)
+mread:status=request
+P:p:F:f:T:t:M:m:O:o:Z:z:
+need specify filesize
+illegle filesize %s
+oem mread 0x%llx %s %s %s 0x%llx
+Uploading
+mread
+fail in queue mread
+sE@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+AE@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+UE@
+?D@
+_E@
+7E@
+?D@
+?D@
+?D@
+KE@
+?D@
+?D@
+?D@
+?D@
+?D@
+iE@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+AE@
+?D@
+?D@
+?D@
+?D@
+?D@
+?D@
+UE@
+?D@
+_E@
+7E@
+?D@
+?D@
+?D@
+KE@
+?D@
+?D@
+?D@
+?D@
+?D@
+iE@
+getvar
+download
+Download
+boot
+run
+bl1_boot
+bl2_boot
+oem
+cmd
+partition
+Partition
+upload
+Upload
+reboot
+setvar
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+??M
+--help
+devices
+V[2.6.3] at Aug 20 2021
+Amlogic USB DNL tool: %s
+MSG[DNL]
+cmd "%s" not in supported list
+boot.img
+booting
+fail in queue partition
+fail in upload
+illegal varval[%s] in setvar
+unsupprted cmd %d >= max %d
+`J@
+?L@
+?L@
+?K@
+?K@
+?K@
+SL@
+SL@
+?L@
+?L@
+?J@
+?L@
+#N@
+tN@
+*ZL11open_devicePKcS0_EUlP12usb_ifc_infoE_
+4(N
+??M
+status read failed (%s)
+status malformed (%d bytes)
+INFO
+(bootloader) %s
+OKAY
+(okay)%s
+FAIL
+remote: %s
+DATA
+DATAOUT
+DATAIN
+dsize %ux > max 2G
+ERR[DNL]
+command too large
+command write failed (%s)
+data transfer failure (%s)
+data transfer failure (short transfer), want %d but %d
+response:%s
+setvar:%s
+download:%08x
+setkey:%08x
+Excep, fail to get origOff
+Fail in alloc buf
+Downloading
+Fail seek to 0x%llx
+fail in send mwrite cmd[%s]
+mwrite finish
+MSG[DNL]
+illegle negative fileoffset
+fail in seek to 0xllx
+Fail in read img,want %d but %d
+Fail in send data at len 0x%x
+Fail in send addsum for transport
+Fail in _command_end
+mread:status=request
+fail in mread[%s]
+mread finish
+illegle fileoffset 0x%llx for mread
+protocol err, dir changed
+mread:status=upload
+Fail in write file,want %d but %d
+mread:status=finish
+fail in cmd[%s]
+internal error: transport_buf not empty
+internal error: too much left for transport_buf
+getvar:identify
+Fail in get identify
+device mode:%02d-%02d-%02d-%02d
+illegle fw mode %d for bl2_boot
+illegle protocol %d
+getvar:serialno
+Fail in update serialno
+bl2 serail:%s
+Now jump to bl2e
+need update usb handle for bl2e
+fail in update dev handle

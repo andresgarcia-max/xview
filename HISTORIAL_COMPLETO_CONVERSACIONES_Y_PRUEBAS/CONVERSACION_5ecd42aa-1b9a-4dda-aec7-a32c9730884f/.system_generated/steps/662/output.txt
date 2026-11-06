@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+----
+--American
+--Controlclassescoveredoutlineattacksdevic
+--Daniel
+--en_US
+--fastboot
+--female
+--growJSONdutyNamesaleyou
+--headers=
+--offset=
+--payload=file
+--POST
+----prop
+--reason=update_in_progress
+--rescue
+--retry_count
+--retry_count=
+--show_text
+--socket_fd
+--status_fd=
+--towardsRecordsPrivateForeignPremierchoic

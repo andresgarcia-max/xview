@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+Testing login with Roberto...
+[RENDERER CONSOLE 2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged. (node:electron/js2c/sandbox_bundle:2)
+[RENDERER CONSOLE 1] Total inputs: 2 (:6)
+[RENDERER CONSOLE 1] Form submitted! (:20)
+Result: submitted with admin.roberto / admin123
+Page text after login:
+LEYENDS
+FITNESS GYM
+
+Sistema Integral de Operaciones & Control
+
+Bitǭcora de Seguridad
+Blindaje Anti-Multitab & Firma Activos
+Portal de Acceso Blindado
+Iniciar Sesi�n
+
+Sesi�n vinculada a pesta�a ǧnica con firma criptogrǭfica. Ingresa tus credenciales personales para desbloquear la terminal.
+
+Por favor ingresa tu correo/usuario y tu contrase�a o PIN personal.
+Correo Electr�nico, Usuario o CǸdula
+Contrase�a o PIN Personal
+Usar Teclado PIN en Pantalla
+Autenticar e Ingresar
+Token de Pesta�a �snica �?� H
+Captured screen: 1899x914

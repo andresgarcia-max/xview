@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+=== Inspecting mmcblk0boot0.bin vs B866FA\bootloader.img ===
+Match at offset 0: False | Match at offset 512: True
+
+=== Inspecting APK package names on D:\ ===
+com-mod-button-mapper-remap-your-keys-2-54-pro-254.apk -> Landroidx/activity/ComponentActivity;, Lflar2/homebutton/AboutActivity;
+Home Screen Launcher_1.1.3_APKPure.apk -> 
+TVLauncher_4_google.apk -> 
+signMagisTV_APS-MUTO.apk -> 

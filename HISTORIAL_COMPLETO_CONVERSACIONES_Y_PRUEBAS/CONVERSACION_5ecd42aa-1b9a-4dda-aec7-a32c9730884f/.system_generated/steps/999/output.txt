@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+EXACT XREF to 0x3E398 at file_off=0xB1186 (vaddr=0xB2186)
+EXACT XREF to 0x31704 at file_off=0xB1D4A (vaddr=0xB2D4A)
+EXACT XREF to 0x34459 at file_off=0xB4F10 (vaddr=0xB5F10)
+EXACT XREF to 0x37EFD at file_off=0xB4F4C (vaddr=0xB5F4C)
+EXACT XREF to 0x3172A at file_off=0xB6946 (vaddr=0xB7946)
+EXACT XREF to 0x31737 at file_off=0xB696A (vaddr=0xB796A)
+EXACT XREF to 0x3E9F0 at file_off=0xB7A48 (vaddr=0xB8A48)
+EXACT XREF to 0x3E5A8 at file_off=0xB7A76 (vaddr=0xB8A76)

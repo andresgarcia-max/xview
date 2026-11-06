@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+
+> LEGENDS\src\components\clients\ClientList.tsx:58:    currentRole, 
+  LEGENDS\src\components\clients\ClientList.tsx:59:    verifyBiometricAccess,
+  LEGENDS\src\components\clients\ClientList.tsx:60:    todayCheckInsCount,
+> LEGENDS\src\components\clients\ClientList.tsx:291:            {currentRole !== 'trainer' && (
+  LEGENDS\src\components\clients\ClientList.tsx:292:              <button
+  LEGENDS\src\components\clients\ClientList.tsx:293:                onClick={() => setShowAddModal(true)}
+> LEGENDS\src\components\clients\ClientList.tsx:822:                          {currentRole !== 'trainer' && (
+  LEGENDS\src\components\clients\ClientList.tsx:823:                            <button
+  LEGENDS\src\components\clients\ClientList.tsx:824:                              onClick={() => 
+setSelectedClientForEdit(member)}
+> LEGENDS\src\components\clients\ClientList.tsx:833:                          {currentRole !== 'trainer' && (
+  LEGENDS\src\components\clients\ClientList.tsx:834:                            <button
+  LEGENDS\src\components\clients\ClientList.tsx:835:                              onClick={() => 
+setSelectedClientForRenew(member)}
+> LEGENDS\src\components\clients\ClientList.tsx:845:                          {currentRole === 'admin' && (
+  LEGENDS\src\components\clients\ClientList.tsx:846:                            <button
+  LEGENDS\src\components\clients\ClientList.tsx:847:                              onClick={() => {
+> LEGENDS\src\components\clients\ClientList.tsx:1036:                    {currentRole !== 'trainer' && (
+  LEGENDS\src\components\clients\ClientList.tsx:1037:                      <button
+  LEGENDS\src\components\clients\ClientList.tsx:1038:                        onClick={() => 
+setSelectedClientForRenew(member)}
+
+

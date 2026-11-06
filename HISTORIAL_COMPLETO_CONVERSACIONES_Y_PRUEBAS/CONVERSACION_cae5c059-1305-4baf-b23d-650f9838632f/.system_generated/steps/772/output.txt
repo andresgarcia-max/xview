@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+5200bac Merge remote-tracking branch 'origin/main' with local updates
+8d82cb3 feat: integracion de ejecutables actualizados, pantalla completa y mejoras en terminal
+bf9eedc chore: actualizar script push en package.json
+3777e0e chore: agregar script y comando para sincronizacion con GitHub
+bffda29 feat: vista minimalista en recuadros para clientes y sync con release
+4775fd7 feat(ui): aplicar acercamiento cinematografico 8K al fondo para resaltar logo y caminadoras
+9696c8e feat(ui): establecer nueva imagen 8K con caminadoras y logo oficial como fondo principal del sistema
+1f79faa feat(repositorios): incluir schema.sql de base de datos de fitness-academy-pos-qr
+0d1f206 feat(scripts): agregar herramienta de reescalado y procesamiento a 8K ImageUpscaler8K
+6ac1dd5 feat(assets): agregar imagenes de fondo en ultra resolucion 8K con logo y caminadoras
+1f99c7e chore(assets): agregar imagenes originales de WhatsApp de fondo del gimnasio
+fc04616 feat: agregar coleccion completa de repositorios, assets, sonidos, videos y guias para POS y control de acceso gym
+397c5bd style(navbar): eliminar indicadores de Accesos hoy y Caja de la barra superior
+0d4a30c style(navbar): eliminar boton Punto de Venta de la barra superior
+43c1ef4 style(pos): aumentar tamano de botones Movimientos, Cerrar Turno y Catalogo en barra superior

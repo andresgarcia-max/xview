@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\TerminalSyncModal.tsx:20:import { checkServerHealth, getResolvedServerUrl, 
+CLOUD_SERVER_URL } from '../../services/syncService';
+LEGENDS\src\components\access\TerminalSyncModal.tsx:23:  serverUrl: string;
+LEGENDS\src\components\access\TerminalSyncModal.tsx:43:    serverUrl: getResolvedServerUrl(),
+LEGENDS\src\components\access\TerminalSyncModal.tsx:95:      const health = await 
+checkServerHealth(formData.serverUrl);
+LEGENDS\src\components\access\TerminalSyncModal.tsx:104:          message: `No se pudo conectar al servidor en 
+${formData.serverUrl} (${health.error || 'Sin respuesta'}). Verifique la IP o active el modo aut�nomo.`,
+LEGENDS\src\components\access\TerminalSyncModal.tsx:110:        message: `Error al probar conexi�n en 
+${formData.serverUrl}. Verifique que el servidor central est� encendido.`,
+LEGENDS\src\components\access\TerminalSyncModal.tsx:247:                    value={formData.serverUrl}
+LEGENDS\src\components\access\TerminalSyncModal.tsx:248:                    onChange={(e) => setFormData({ 
+...formData, serverUrl: e.target.value })}
+LEGENDS\src\components\access\TerminalSyncModal.tsx:249:                    placeholder="Ej. http://192.168.1.50:5173 
+o http://localhost:5173"
+LEGENDS\src\components\access\TerminalSyncModal.tsx:269:                      setFormData({ ...formData, serverUrl: 
+CLOUD_SERVER_URL });
+
+

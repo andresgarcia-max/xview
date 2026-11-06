@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+[COMPILACION EXITOSA] Ejecutando verificacion --check...
+================================================================================
+   PROGRAMA PERFECTO v3.0 - LIBERACION + INTERFAZ FIRMWARE XVIEW LIBERADO       
+   Objetivo Final: Interfaz Xview Liberada (DMC.v2.25 / Android TV / Google TV) 
+   Regla: 100% Externo Sin Tornillos | Sin 7 Clics | Protege Widevine L1 y MAC  
+================================================================================
+
+ [RADAR DE HARDWARE USB Y RED EN TIEMPO REAL]
+  * Caja Detectada   : Xview+ ZTE B866V2 (Serie: No detectado)
+  * Estado Cable USB : Ninguno detectado por cable USB directo
+  * Sesion ADB       : En espera (Opcion 1 o 2 escanea USB + Red Local :5555)
+  * Sesion Fastboot  : En espera de salto (Boton externo RESET)
+--------------------------------------------------------------------------------
+  [1] MISION PRINCIPAL: LIBERACION TOTAL + INTERFAZ FIRMWARE XVIEW LIBERADO (DMC.v2.25)
+      (Caza WorldCup 48ms / Fastbootd / Fastboot / ADB -> Quita Pantalla Azul Megacable
+       -> Instala Launcher Android TV + AppDMC + DLStore + Xuper + MagisTV + HDPlay)
+  [2] TRANSFORMAR TV A INTERFAZ FIRMWARE XVIEW LIBERADO (Directo por ADB USB o Red Local)
+  [3] FLASHEAR PARTICIONES FIRMWARE LIBERADO ANDROID 12 (Protege Widevine L1 y MAC)
+  [4] PREPARAR MEMORIA USB (KINGSTON) CON PACK FIRMWARE XVIEW LIBERADO + LLAVES DE SALTO
+  [5] Catalogo Individual de APKs del Firmware Xview Liberado (15 Apps Listas)
+  [6] Motor Amlogic DNL / WorldCup (adnl.exe + update.exe por boton externo RESET)
+  [7] Instalar Drivers USB (WorldCup VID_1B8E) o Abrir ADB AppControl GUI
+  [0] Escanear Red Local (:5555) / Conectar IP / Refrescar USB   |   [8] Salir
+--------------------------------------------------------------------------------

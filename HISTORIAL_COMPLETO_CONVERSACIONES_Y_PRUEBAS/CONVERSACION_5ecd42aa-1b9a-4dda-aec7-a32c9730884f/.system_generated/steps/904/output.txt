@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+ForEach-Object : No se puede resolver el conjunto de parámetros usando los parámetros con nombre especificados.
+En línea: 2 Carácter: 10
++ 1..254 | ForEach-Object -Parallel {
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : MetadataError: (:) [ForEach-Object], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Microsoft.PowerShell.Commands.ForEachObjectCommand
+ 
+Open TCP 5554/5555: 

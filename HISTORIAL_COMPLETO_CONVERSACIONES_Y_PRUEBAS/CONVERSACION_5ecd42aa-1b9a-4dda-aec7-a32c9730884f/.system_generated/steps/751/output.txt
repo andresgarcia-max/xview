@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                     Length LastWriteTime            
+--------                                                                     ------ -------------            
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12        29/10/2026 10:32:59 p. m.
+
+

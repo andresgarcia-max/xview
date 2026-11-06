@@ -1,0 +1,384 @@
+Command exited with code 0.
+
+Command output:
+
+LineNumber Line                                                                                                        
+---------- ----                                                                                                        
+         1 import { IndependentTerminalApp } from './IndependentTerminalApp';                                          
+         2 import gymBg from '../../assets/gym-background.jpg';                                                        
+         3 import React, { useState } from 'react';                                                                    
+         4 import { useGym } from '../../context/GymContext';                                                          
+         5 import { FingerprintScanner } from './FingerprintScanner';                                                  
+         6 import { AccessHistory } from './AccessHistory';                                                            
+         7 import { getRandomMotivationalQuote } from '../../data/motivationalQuotes';                                 
+         8 import { sounds } from '../../services/audio';                                                              
+         9 import confetti from 'canvas-confetti';                                                                     
+        10 import { getGymAvatar } from '../../utils/genderAvatar';                                                    
+        11 import {                                                                                                    
+        12   Zap,                                                                                                      
+        13   Maximize2,                                                                                                
+        14   Minimize2,                                                                                                
+        15   Search,                                                                                                   
+        16   Clock,                                                                                                    
+        17   ExternalLink,                                                                                             
+        18   Users,                                                                                                    
+        19   Image,                                                                                                    
+        20   LogOut,                                                                                                   
+        21   Download,                                                                                                 
+        22   Sparkles                                                                                                  
+        23 } from 'lucide-react';                                                                                      
+        24 import gymBgMain from '../../assets/gym-background.jpg';                                                    
+        25 import gymBgMotivational from '../../assets/gym-background-4k.jpg';                                         
+        26                                                                                                             
+        27 export const TurnstileTerminal: React.FC = () => {                                                          
+        28   const { verifyBiometricAccess, registerExit, members, accessLogs, activeBranch } = useGym();              
+        29                                                                                                             
+        30   const [scanStatus, setScanStatus] = useState<'idle' | 'scanning' | 'granted' | 'denied'>('idle');         
+        31   const [currentQuote, setCurrentQuote] = useState<string>('');                                             
+        32   const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);                                      
+        33   const [verifiedClient, setVerifiedClient] = useState<{                                                    
+        34     name: string;                                                                                           
+        35     avatarUrl?: string;                                                                                     
+        36     planName?: string;                                                                                      
+        37   } | null>(null);                                                                                          
+        38                                                                                                             
+        39   const [searchQuery, setSearchQuery] = useState('');                                                       
+        40   const [isFullScreen, setIsFullScreen] = useState(false);                                                  
+        41   const [bgImage, setBgImage] = useState<string>(() => {                                                    
+        42     if (typeof window !== 'undefined' && localStorage.getItem('legends_terminal_bg_version') !== 'v9_zoom...
+        43       localStorage.setItem('legends_terminal_bg_version', 'v9_zoom_caminadoras_8k');                        
+        44       localStorage.setItem('legends_terminal_bg', gymBg);                                                   
+        45       return gymBg;                                                                                         
+        46     }                                                                                                       
+        47     return localStorage.getItem('legends_terminal_bg') || gymBg;                                            
+        48   });                                                                                                       
+        49                                                                                                             
+        50   // Trigger simulated scan                                                                                 
+        51   const executeScan = (identifier: string) => {                                                             
+        52     if (scanStatus === 'scanning') return;                                                                  
+        53     sounds.unlock();                                                                                        
+        54     sounds.playScanBlip();                                                                                  
+        55     setScanStatus('scanning');                                                                              
+        56     setVerifiedClient(null);                                                                                
+        57                                                                                                             
+        58     setTimeout(() => {                                                                                      
+        59       const result = verifyBiometricAccess(identifier);                                                     
+        60                                                                                                             
+        61       if (result.client) {                                                                                  
+        62         setVerifiedClient({                                                                                 
+        63           name: result.client.fullName,                                                                     
+        64           avatarUrl: getGymAvatar(result.client.fullName, result.client.avatarUrl),                         
+        65           planName: result.client.membership.planName,                                                      
+        66         });                                                                                                 
+        67       } else {                                                                                              
+        68         setVerifiedClient(null);                                                                            
+        69       }                                                                                                     
+        70                                                                                                             
+        71       if (result.granted) {                                                                                 
+        72         sounds.playAccessGranted();                                                                         
+        73         const quote = getRandomMotivationalQuote(currentQuote);                                             
+        74         setCurrentQuote(quote);                                                                             
+        75         try {                                                                                               
+        76           confetti({                                                                                        
+        77             particleCount: 40,                                                                              
+        78             spread: 65,                                                                                     
+        79             origin: { y: 0.5, x: 0.35 },                                                                    
+        80             colors: ['#FFB800', '#10B981', '#F59E0B', '#FFFFFF'],                                           
+        81           });                                                                                               
+        82         } catch {                                                                                           
+        83           // ignore if canvas is not supported                                                              
+        84         }                                                                                                   
+        85       } else {                                                                                              
+        86         sounds.playAccessDenied();                                                                          
+        87       }                                                                                                     
+        88                                                                                                             
+        89       setScanStatus(result.granted ? 'granted' : 'denied');                                                 
+        90                                                                                                             
+        91       // Return to idle after 4.5 seconds                                                                   
+        92       setTimeout(() => {                                                                                    
+        93         setScanStatus('idle');                                                                              
+        94         setVerifiedClient(null);                                                                            
+        95       }, 4500);                                                                                             
+        96     }, 1100);                                                                                               
+        97   };                                                                                                        
+        98                                                                                                             
+        99   // Default quick scan if user just clicks the fingerprint sensor directly                                 
+       100   const handleDirectPadClick = () => {                                                                      
+       101     // If there is a search query, use it; otherwise test with active member 1                              
+       102     if (searchQuery.trim()) {                                                                               
+       103       executeScan(searchQuery.trim());                                                                      
+       104     } else {                                                                                                
+       105       executeScan('MEM-001'); // Carlos Mendoza                                                             
+       106     }                                                                                                       
+       107   };                                                                                                        
+       108                                                                                                             
+       109   const toggleFullScreen = () => {                                                                          
+       110     const electronAPI = (window as any).electronAPI;                                                        
+       111     if (!isFullScreen) {                                                                                    
+       112       if (electronAPI?.enterFullScreen) {                                                                   
+       113         electronAPI.enterFullScreen();                                                                      
+       114       } else if (!document.fullscreenElement) {                                                             
+       115         document.documentElement.requestFullscreen().catch(() => {});                                       
+       116       }                                                                                                     
+       117       setIsFullScreen(true);                                                                                
+       118     } else {                                                                                                
+       119       if (electronAPI?.exitFullScreen) {                                                                    
+       120         electronAPI.exitFullScreen();                                                                       
+       121       } else if (document.fullscreenElement) {                                                              
+       122         document.exitFullscreen().catch(() => {});                                                          
+       123       }                                                                                                     
+       124       setIsFullScreen(false);                                                                               
+       125     }                                                                                                       
+       126   };                                                                                                        
+       127                                                                                                             
+       128   // Modo Pantalla Completa: Cubre toda la pantalla al 100% y oculta todos los men�s                        
+       129   if (isFullScreen) {                                                                                       
+       130     return (                                                                                                
+       131       <div className="fixed inset-0 z-50 bg-black w-screen h-screen overflow-hidden">                       
+       132         <IndependentTerminalApp                                                                             
+       133           isEmbeddedFullScreen={true}                                                                       
+       134           onExitFullScreen={() => {                                                                         
+       135             const electronAPI = (window as any).electronAPI;                                                
+       136             if (electronAPI?.exitFullScreen) {                                                              
+       137               electronAPI.exitFullScreen();                                                                 
+       138             } else if (document.fullscreenElement) {                                                        
+       139               document.exitFullscreen().catch(() => {});                                                    
+       140             }                                                                                               
+       141             setIsFullScreen(false);                                                                         
+       142           }}                                                                                                
+       143         />                                                                                                  
+       144       </div>                                                                                                
+       145     );                                                                                                      
+       146   }                                                                                                         
+       147                                                                                                             
+       148   return (                                                                                                  
+       149     <div className={`space-y-6 relative rounded-3xl overflow-hidden p-3 sm:p-5 ${isFullScreen ? 'p-6 min-...
+       150                                                                                                             
+       151       {/* Real Gym Background Photo */}                                                                     
+       152       <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden rounded-3xl">                
+       153         <img                                                                                                
+       154           src={bgImage}                                                                                     
+       155           alt="Fitness Legends Gym Background"                                                              
+       156           style={{                                                                                          
+       157             filter: 'brightness(1.04) contrast(1.06) saturate(1.06)',                                       
+       158             objectPosition: 'center center',                                                                
+       159           }}                                                                                                
+       160           className="w-full h-full object-cover object-center"                                              
+       161         />                                                                                                  
+       162         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20 point...
+       163         {/* Soft Eye-Care anti-glare shield so neon lights do not hurt the eyes */}                         
+       164         <div className="absolute inset-0 bg-slate-950/20 backdrop-blur-[0.5px] pointer-events-none" />      
+       165                                                                                                             
+       166       </div>                                                                                                
+       167                                                                                                             
+       168       {/* Top Banner / Mode Header */}                                                                      
+       169       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-3 rel...
+       170         <div>                                                                                               
+       171           <div className="flex items-center gap-2">                                                         
+       172             <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />                       
+       173             <h1 className="text-xl font-black text-white tracking-wide uppercase">                          
+       174               Control de Acceso                                                                             
+       175             </h1>                                                                                           
+       176             <span className="text-xs bg-amber-500/20 text-amber-400 border border-amber-500/30 px-2 py-0....
+       177               Lector Activo                                                                                 
+       178             </span>                                                                                         
+       179           </div>                                                                                            
+       180           <p className="text-sm text-gym-muted mt-1">                                                       
+       181             Validaci�n instant�nea de huella digital y vigencia de cuota en el acceso principal.            
+       182           </p>                                                                                              
+       183         </div>                                                                                              
+       184                                                                                                             
+       185         <div className="flex items-center gap-3 flex-wrap">                                                 
+       186           {/* Live Occupancy Pill */}                                                                       
+       187           <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-gym-surface border border-gym...
+       188             <Users className="w-3.5 h-3.5 text-emerald-400" />                                              
+       189             <span className="text-gym-muted">Aforo Sala:</span>                                             
+       190             <span className="font-bold text-white font-mono">{activeBranch.currentOccupancy} / {activeBra...
+       191             <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 font-bo...
+       192               {Math.round((activeBranch.currentOccupancy / activeBranch.maxCapacity) * 100)}%               
+       193             </span>                                                                                         
+       194           </div>                                                                                            
+       195                                                                                                             
+       196           {/* Quick Exit Button */}                                                                         
+       197           <button                                                                                           
+       198             onClick={() => registerExit()}                                                                  
+       199             className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-rose-500/10 hover:bg-rose-500/20...
+       200             title="Registrar salida de un atleta y liberar aforo de sala"                                   
+       201           >                                                                                                 
+       202             <LogOut className="w-3.5 h-3.5" />                                                              
+       203             <span>Registrar Salida</span>                                                                   
+       204           </button>                                                                                         
+       205                                                                                                             
+       206           <label                                                                                            
+       207             className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-black/40 hover:bg-black/60 bac...
+       208             title="Cambiar fotograf�a de fondo del gimnasio"                                                
+       209           >                                                                                                 
+       210             <Image className="w-4 h-4 text-amber-400 group-hover:scale-110 transition-transform" />         
+       211             <span>Cambiar Foto</span>                                                                       
+       212             <input                                                                                          
+       213               type="file"                                                                                   
+       214               accept="image/*"                                                                              
+       215               className="hidden"                                                                            
+       216               onChange={(e) => {                                                                            
+       217                 const file = e.target.files?.[0];                                                           
+       218                 if (!file) return;                                                                          
+       219                 const reader = new FileReader();                                                            
+       220                 reader.onload = (event) => {                                                                
+       221                   const result = event.target?.result as string;                                            
+       222                   if (result) {                                                                             
+       223                     setBgImage(result);                                                                     
+       224                     try { localStorage.setItem('legends_terminal_bg', result); } catch {}                   
+       225                   }                                                                                         
+       226                 };                                                                                          
+       227                 reader.readAsDataURL(file);                                                                 
+       228               }}                                                                                            
+       229             />                                                                                              
+       230           </label>                                                                                          
+       231                                                                                                             
+       232           <button                                                                                           
+       233             onClick={() => setIsHistoryModalOpen(true)}                                                     
+       234             className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/...
+       235             title="Ver desglose detallado de accesos registrados"                                           
+       236           >                                                                                                 
+       237             <Clock className="w-4 h-4 text-amber-400 group-hover:rotate-12 transition-transform" />         
+       238             <span>Accesos</span>                                                                            
+       239             <span className="bg-amber-500/25 text-amber-300 px-2 py-0.5 rounded-full text-[11px] font-mon...
+       240               {accessLogs.length}                                                                           
+       241             </span>                                                                                         
+       242           </button>                                                                                         
+       243                                                                                                             
+       244           <button                                                                                           
+       245             onClick={() => window.open('?mode=terminal', '_blank', 'width=1280,height=850')}                
+       246             className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-amber-500/20 hover:bg-amber-500/...
+       247             title="Abrir Kiosco de Autoservicio y Registro estilo Smart Fit"                                
+       248           >                                                                                                 
+       249             <Sparkles className="w-4 h-4 text-amber-400" />                                                 
+       250             <span>Kiosco Smart Fit</span>                                                                   
+       251           </button>                                                                                         
+       252                                                                                                             
+       253           {/* Download Windows Desktop App (.exe) */}                                                       
+       254           <a                                                                                                
+       255             href="https://github.com/Cristiansairec94/legends-gym/releases/latest/download/ControlDeAcces...
+       256             target="_blank"                                                                                 
+       257             rel="noopener noreferrer"                                                                       
+       258             className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/...
+       259             title="Descargar la aplicaci�n de escritorio nativa para Windows (ControlDeAccesoLegends.exe)"  
+       260           >                                                                                                 
+       261             <Download className="w-4 h-4 text-amber-400" />                                                 
+       262             <span>Descargar App Windows (.exe)</span>                                                       
+       263           </a>                                                                                              
+       264                                                                                                             
+       265           <button                                                                                           
+       266             onClick={toggleFullScreen}                                                                      
+       267             className="flex items-center gap-2 px-3 py-2 rounded-xl bg-gym-surface hover:bg-gym-surface/8...
+       268             title="Modo pantalla completa para recepci�n o kiosco"                                          
+       269           >                                                                                                 
+       270             {isFullScreen ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}          
+       271             <span>{isFullScreen ? 'Salir' : 'PANTALLA COMPLETA'}</span>                                     
+       272           </button>                                                                                         
+       273         </div>                                                                                              
+       274       </div>                                                                                                
+       275                                                                                                             
+       276       {/* Main Container: Biometric Terminal */}                                                            
+       277       <div className="w-full space-y-5 relative z-10">                                                      
+       278                                                                                                             
+       279           {/* Hardware Sensor Simulator Box */}                                                             
+       280           <div className="p-3 relative">                                                                    
+       281             <div className="flex items-center justify-between border-b border-gym-border pb-3 mb-2">        
+       282               <div className="flex items-center gap-2">                                                     
+       283                 <Zap className="w-4 h-4 text-amber-400" />                                                  
+       284                 <span className="text-xs font-bold uppercase tracking-wider text-gray-200">                 
+       285                   Sensor Biom�trico �ptico USB                                                              
+       286                 </span>                                                                                     
+       287               </div>                                                                                        
+       288               <span className="text-[11px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 round...
+       289                 500 DPI  Online                                                                            
+       290               </span>                                                                                       
+       291             </div>                                                                                          
+       292                                                                                                             
+       293             {/* Central Animated Scanner Pad */}                                                            
+       294             <FingerprintScanner                                                                             
+       295               status={scanStatus}                                                                           
+       296               onScanClick={handleDirectPadClick}                                                            
+       297               disabled={scanStatus === 'scanning'}                                                          
+       298               motivationalQuote={currentQuote}                                                              
+       299               clientPhoto={verifiedClient?.avatarUrl}                                                       
+       300               clientName={verifiedClient?.name}                                                             
+       301               planName={verifiedClient?.planName}                                                           
+       302             />                                                                                              
+       303                                                                                                             
+       304             {/* Manual Client Biometric Search or Barcode Input */}                                         
+       305             <div className="mt-4 pt-4 border-t border-gym-border/80">                                       
+       306               <label className="text-xs font-semibold text-gym-muted block mb-1.5">                         
+       307                 O buscar socio por nombre, c�dula o ID:                                                     
+       308               </label>                                                                                      
+       309               <div className="flex gap-2">                                                                  
+       310                 <div className="relative flex-1">                                                           
+       311                   <Search className="w-4 h-4 text-gym-muted absolute left-3 top-1/2 -translate-y-1/2" />    
+       312                   <input                                                                                    
+       313                     type="text"                                                                             
+       314                     value={searchQuery}                                                                     
+       315                     onChange={(e) => setSearchQuery(e.target.value)}                                        
+       316                     onKeyDown={(e) => e.key === 'Enter' && searchQuery && executeScan(searchQuery)}         
+       317                     placeholder="Ej. Carlos Mendoza, MEM-001 o 45892011..."                                 
+       318                     className="w-full pl-9 pr-3 py-2 bg-slate-950/45 backdrop-blur-md rounded-xl border b...
+       319                   />                                                                                        
+       320                 </div>                                                                                      
+       321                 <button                                                                                     
+       322                   onClick={() => searchQuery && executeScan(searchQuery)}                                   
+       323                   disabled={!searchQuery || scanStatus === 'scanning'}                                      
+       324                   className="px-4 py-2 bg-amber-500 hover:bg-amber-400 disabled:opacity-40 text-black fon...
+       325                 >                                                                                           
+       326                   Entrada                                                                                   
+       327                 </button>                                                                                   
+       328                 <button                                                                                     
+       329                   onClick={() => {                                                                          
+       330                     const found = members.find(m =>                                                         
+       331                       m.id.toLowerCase() === searchQuery.toLowerCase().trim() ||                            
+       332                       m.documentId.toLowerCase() === searchQuery.toLowerCase().trim() ||                    
+       333                       m.fullName.toLowerCase().includes(searchQuery.toLowerCase().trim())                   
+       334                     );                                                                                      
+       335                     registerExit(found?.id);                                                                
+       336                     setSearchQuery('');                                                                     
+       337                   }}                                                                                        
+       338                   disabled={!searchQuery}                                                                   
+       339                   className="px-3.5 py-2 bg-rose-500/15 hover:bg-rose-500/25 border border-rose-500/30 di...
+       340                   title="Registrar salida para este socio"                                                  
+       341                 >                                                                                           
+       342                   Salida                                                                                    
+       343                 </button>                                                                                   
+       344               </div>                                                                                        
+       345             </div>                                                                                          
+       346                                                                                                             
+       347                                                                                                             
+       348                                                                                                             
+       349             {/* Quick access history launcher */}                                                           
+       350             <div className="mt-4 pt-3.5 border-t border-gym-border/80 flex items-center justify-between">   
+       351               <span className="text-xs text-gym-muted flex items-center gap-1.5">                           
+       352                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />                      
+       353                 <span>Accesos hoy: <strong className="text-white font-mono">{accessLogs.length}</strong><...
+       354               </span>                                                                                       
+       355               <button                                                                                       
+       356                 onClick={() => setIsHistoryModalOpen(true)}                                                 
+       357                 className="flex items-center gap-1.5 text-xs font-bold text-amber-400 hover:text-amber-30...
+       358               >                                                                                             
+       359                 <Clock className="w-3.5 h-3.5" />                                                           
+       360                 <span>Ver desglose completo &rarr;</span>                                                   
+       361               </button>                                                                                     
+       362             </div>                                                                                          
+       363                                                                                                             
+       364           </div>                                                                                            
+       365                                                                                                             
+       366       </div>                                                                                                
+       367                                                                                                             
+       368       {/* Detailed Access Breakdown Modal */}                                                               
+       369       <AccessHistory                                                                                        
+       370         isOpen={isHistoryModalOpen}                                                                         
+       371         onClose={() => setIsHistoryModalOpen(false)}                                                        
+       372       />                                                                                                    
+       373                                                                                                             
+       374     </div>                                                                                                  
+       375   );                                                                                                        
+       376 };                                                                                                          
+
+

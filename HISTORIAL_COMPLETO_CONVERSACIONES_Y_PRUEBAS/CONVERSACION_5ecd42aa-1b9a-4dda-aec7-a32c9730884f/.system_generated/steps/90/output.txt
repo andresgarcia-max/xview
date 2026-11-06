@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+12-31 18:00:23.979  3676  3676 W PackageManager: Failed to scan /system/priv-app/MegaCable-Updater: Package com.dotscreen.megacable.updater at /system/priv-app/MegaCable-Updater ignored: updated version 470 better than this 421
+12-31 18:00:23.996  3676  3676 W PackageManager: Failed to scan /system/priv-app/MegaCable-Core: Package com.dotscreen.megacable.core at /system/priv-app/MegaCable-Core ignored: updated version 470 better than this 421
+12-31 18:00:23.999  3676  3676 W PackageManager: Failed to scan /system/priv-app/MegaCable-Portal: Package com.dotscreen.megacable.portal at /system/priv-app/MegaCable-Portal ignored: updated version 470 better than this 421
+12-31 18:00:24.031  3676  3676 W PackageManager: Failed to scan /system/priv-app/MegaCable-LiveTV: Package com.dotscreen.megacable.livetv at /system/priv-app/MegaCable-LiveTV ignored: updated version 470 better than this 421
+12-31 18:00:24.335  3676  3676 W PackageManager: Relax SCAN_REQUIRE_KNOWN requirement for package com.dotscreen.megacable.livetv
+12-31 18:00:24.338  3676  3676 W PackageManager: Relax SCAN_REQUIRE_KNOWN requirement for package com.dotscreen.megacable.core
+12-31 18:00:24.346  3676  3676 W PackageManager: Relax SCAN_REQUIRE_KNOWN requirement for package com.dotscreen.megacable.portal
+12-31 18:00:24.371  3676  3676 W PackageManager: Relax SCAN_REQUIRE_KNOWN requirement for package com.dotscreen.megacable.updater
+12-31 18:00:24.765  3605  3619 W installd: Ignoring /data/data/com.dotscreen.megacable.livetv/lib with unexpected GID 0 instead of 10013
+12-31 18:00:24.806  3605  3619 W installd: Ignoring /data/data/com.dotscreen.megacable.updater/lib with unexpected GID 0 instead of 10013
+12-31 18:00:24.814  3605  3619 W installd: Ignoring /data/data/com.dotscreen.megacable.portal/lib with unexpected GID 0 instead of 10013
+12-31 18:00:24.824  3605  3619 W installd: Ignoring /data/data/com.dotscreen.megacable.core/lib with unexpected GID 0 instead of 10013
+09-04 14:16:42.077  3676  3703 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.dotscreen.megacable.core changed
+09-04 14:16:42.077  3676  3703 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.dotscreen.megacable.updater changed
+09-04 14:16:42.077  3676  3703 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.dotscreen.megacable.livetv changed
+09-04 14:16:42.079  3676  3703 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.dotscreen.megacable.portal changed
+09-04 14:16:43.165  3676  3676 V StorageManagerService: Package com.dotscreen.megacable.core does not have legacy storage
+09-04 14:16:43.165  3676  3676 V StorageManagerService: Package com.dotscreen.megacable.updater does not have legacy storage
+09-04 14:16:43.186  3676  3676 V StorageManagerService: Package com.dotscreen.megacable.livetv does not have legacy storage
+09-04 14:16:43.187  3676  3676 V StorageManagerService: Package com.dotscreen.megacable.portal does not have legacy storage
+09-04 14:16:50.185  3676  4610 V [FrameworkCustomization]PMSImpl: Megacable_OTT Execute choose best Activity is :com.dotscreen.megacable.portal
+09-04 14:16:50.364  3676  4061 V [FrameworkCustomization]PMSImpl: Megacable_OTT Execute choose best Activity is :com.dotscreen.megacable.portal
+09-04 14:16:50.365  3676  4061 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+09-04 14:16:50.382  3676  4061 I wm_create_activity: [0,243087000,12356,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,android.intent.action.MAIN,NULL,NULL,268435712]
+09-04 14:16:50.685  3676  3716 I am_proc_start: [0,4711,10013,com.dotscreen.megacable.portal,top-activity,{com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity}]
+09-04 14:16:50.685  3676  3716 I ActivityManager: Start proc 4711:com.dotscreen.megacable.portal/u0a13 for top-activity {com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity}
+09-04 14:16:50.737  3676  4296 I am_proc_bound: [0,4711,com.dotscreen.megacable.portal]
+09-04 14:16:50.749  3676  4296 I wm_restart_activity: [0,243087000,12356,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity]
+09-04 14:16:50.751  3676  4296 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,minimalResumeActivityLocked]
+09-04 14:16:51.237  4711  4711 V GraphicsEnvironment: ANGLE Developer option for 'com.dotscreen.megacable.portal' set to: 'default'
+09-04 14:16:52.861  3497  3540 I WVCdm   : [app][com.dotscreen.megacable.portal] calling virtual Return<void> wvdrm::hardware::drm::V1_4::widevine::WVDrmFactory::createPlugin(const hidl_array<uint8_t, 16> &, const android::hardware::hidl_string &, android::hardware::drm::V1_4::IDrmFactory::createPlugin_cb)
+09-04 14:16:53.527  3497  3540 I WVCdm   : [app][com.dotscreen.megacable.portal] calling virtual Return<void> wvdrm::hardware::drm::V1_4::widevine::WVDrmFactory::createPlugin(const hidl_array<uint8_t, 16> &, const android::hardware::hidl_string &, android::hardware::drm::V1_4::IDrmFactory::createPlugin_cb)
+09-04 14:16:53.836  4941  4978 D ZteAIDLProductCfg: [MCSP_Cfg_GetString] Section:Common_ext, Key:AppstoreWhiteList, Value:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+09-04 14:16:53.836  4941  4978 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig valueOut=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper .
+09-04 14:16:53.836  4941  4978 D aidlProductconfig: getConfig_distinguishNullCfg section=Common_ext,key =AppstoreWhiteList,result =com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+09-04 14:16:53.838  5031  5055 E BaseComp.Java: getProductCfg tmpvalue:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+09-04 14:16:53.841  4137  5017 I [TvSettings]: [ZteCfgService]query result==> [Common_ext]AppstoreWhiteList=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+09-04 14:16:53.842  4137  5017 I [SetupConfigSync]: [ReadStrFromCfgmanager]:ret = com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+09-04 14:16:53.842  4137  5017 D [TvSettings]: [BootReceiver]<setWhiteListUnknownResource> [Common_ext]AppstoreWhiteList: com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+09-04 14:16:53.850  4137  5017 D [TvSettings]: [BootReceiver]<getUid> com.dotscreen.megacable.portal

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Line 155: const [isFullScreen, setIsFullScreen] = useState(isEmbeddedFullScreen);
+Line 596: if (document.fullscreenElement || isFullScreen) {
+Line 676: setIsFullScreen(!isFullScreen);
+Line 728: {!isFullScreen && (

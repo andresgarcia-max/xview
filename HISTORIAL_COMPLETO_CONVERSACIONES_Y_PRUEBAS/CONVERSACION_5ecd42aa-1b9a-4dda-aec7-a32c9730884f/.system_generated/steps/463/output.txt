@@ -1,0 +1,49 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                                       Mode   Length    LastWriteTime            
+----                                                                       ----   ------    -------------            
+.agents                                                                    dar--l           01/11/2026 11:37:45 p. m.
+ConnectionIcons                                                            dar--l           29/10/2026 10:07:17 p. m.
+diagramas                                                                  d----l           26/10/2026 05:31:28 p. m.
+Drivers_Android_Fastboot_ADB                                               dar--l           01/11/2026 12:42:51 p. m.
+Drivers_TTL                                                                dar--l           29/10/2026 10:07:18 p. m.
+experimento                                                                dar--l           01/11/2026 12:41:23 p. m.
+FIRMWARE_COMPLETO_B866V2_FASTBOOT                                          dar--l           02/11/2026 09:54:36 p. m.
+programa perfecto                                                          d----l           04/11/2026 12:26:20 a. m.
+rea                                                                        dar--l           29/10/2026 10:07:18 p. m.
+V2                                                                         dar--l           24/10/2026 12:50:04 p. m.
+.gitattributes                                                             -a---l 145       29/10/2026 10:03:26 p. m.
+.gitignore                                                                 -a---l 1318      01/11/2026 12:41:22 p. m.
+ANALISIS_COMPLETO_REA.md                                                   -a---l 16055     29/10/2026 10:03:26 p. m.
+ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md                                     -a---l 56424     29/10/2026 10:34:55 p. m.
+BITACORA_PRUEBAS_OPCIONES_Y_ERRORES_XVIEW.md                               -a---l 29039     01/11/2026 11:38:14 p. m.
+com.esaba.downloader-2-0-4-ForGoogleAndroidDevices-arm64-v8a-android60.apk -a---l 5995174   29/10/2026 10:03:26 p. m.
+CommandCompletions.xml                                                     -a---l 1455      29/10/2026 10:03:26 p. m.
+DESHABILITAR_ACTUALIZACIONES_ZTE_Y_QUITAR_BANNER.bat                       -a---l 2296      01/11/2026 12:41:22 p. m.
+INSTALAR_DRIVERS_TTL_Y_ABRIR_SMARTTY.bat                                   -a---l 4491      29/10/2026 10:03:26 p. m.
+libboost_multidex.so                                                       -a---l 13804     29/05/2026 01:49:24 p. m.
+libc++_shared.so                                                           -a---l 1027408   29/05/2026 01:49:22 p. m.
+libcrashlytics-common.so                                                   -a---l 774488    29/05/2026 01:49:22 p. m.
+libcrashlytics-handler.so                                                  -a---l 158648    29/05/2026 01:49:22 p. m.
+libcrashlytics-trampoline.so                                               -a---l 4768      29/05/2026 01:49:22 p. m.
+libcrashlytics.so                                                          -a---l 166896    29/05/2026 01:49:22 p. m.
+libcrashsdk.so                                                             -a---l 647928    29/05/2026 01:49:22 p. m.
+Liberacion_Xview_B866V2_Portatil.exe                                       -a---l 103914198 01/08/2026 02:22:38 p. m.
+LIBERAR_SIN_ABRIR_CAJA.bat                                                 -a---l 4787      01/11/2026 01:57:01 p. m.
+libijkffmpeg.so                                                            -a---l 5885392   29/05/2026 01:49:22 p. m.
+libijkplayer.so                                                            -a---l 389592    29/05/2026 01:49:22 p. m.
+libijksdl.so                                                               -a---l 481352    29/05/2026 01:49:22 p. m.
+libranger-jni.so                                                           -a---l 8234616   29/05/2026 01:49:22 p. m.
+libssh2.dll                                                                -a---l 1739776   29/10/2026 10:03:28 p. m.
+libtnet-3.1.14.so                                                          -a---l 362872    29/05/2026 01:49:24 p. m.
+libumeng-spy.so                                                            -a---l 464184    29/05/2026 01:49:24 p. m.
+OCULTAR_O_DESACTIVAR_DEPURACION_USB.bat                                    -a---l 3615      01/11/2026 01:56:39 p. m.
+QADEBUG.ini                                                                -a---l 802       01/11/2026 12:41:22 p. m.
+QADEBUGTOOL.ini                                                            -a---l 802       01/11/2026 12:41:22 p. m.
+README.md                                                                  -a---l 8238      29/10/2026 10:32:50 p. m.
+SmarTTY.exe                                                                -a---l 2471424   29/10/2026 10:03:26 p. m.
+xuper hydra.apk                                                            -a---l 35936833  13/07/2026 04:19:52 p. m.
+
+

@@ -1,0 +1,98 @@
+Command exited with code 0.
+
+Command output:
+
+
+Status       : OK
+PNPClass     : USB
+Name         : Controlador de host eXtensible Intel(R) USB 3.0 - 1.0 (Microsoft)
+DeviceID     : PCI\VEN_8086&DEV_9D2F&SUBSYS_081C1028&REV_21\3&11583659&0&A0
+Service      : USBXHCI
+Manufacturer : Controladora de host USB genérico xHCI
+
+Status       : OK
+PNPClass     : libusb-win32 Usb Devices
+Name         : WorldCup Device
+DeviceID     : ROOT\UNKNOWN\0000
+Service      : libusb0
+Manufacturer : Amlogic, Inc.
+
+Status       : OK
+PNPClass     : libusb-win32 Usb Devices
+Name         : WorldCup Device
+DeviceID     : ROOT\UNKNOWN\0001
+Service      : libusb0
+Manufacturer : Amlogic, Inc.
+
+Status       : OK
+PNPClass     : 
+Name         : Android TV Remote
+DeviceID     : BTHENUM\{CBBFE0E2-F7F3-4206-84E0-84CBB3D09DFC}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Service      : 
+Manufacturer : 
+
+Status       : OK
+PNPClass     : USB
+Name         : Dispositivo compuesto USB
+DeviceID     : USB\VID_0BDA&PID_5650\200901010001
+Service      : usbccgp
+Manufacturer : (Controladora de host USB estándar)
+
+Status       : OK
+PNPClass     : MEDIA
+Name         : Android TV A2DP SNK
+DeviceID     : BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Service      : BthA2dp
+Manufacturer : Microsoft
+
+Status       : OK
+PNPClass     : libusb-win32 Usb Devices
+Name         : WorldCup Device
+DeviceID     : ROOT\LIBUSB-WIN32_USB_DEVICES\0000
+Service      : libusb0
+Manufacturer : Amlogic, Inc.
+
+Status       : OK
+PNPClass     : USB
+Name         : Concentrador raíz USB (USB 3.0)
+DeviceID     : USB\ROOT_HUB30\4&2782102E&0&0
+Service      : USBHUB3
+Manufacturer : (Concentradores USB estándar)
+
+Status       : OK
+PNPClass     : MEDIA
+Name         : Android TV Hands-Free HF Audio
+DeviceID     : BTHHFENUM\BTHHFPAUDIO\8&25CF0917&0&97
+Service      : BthHFAud
+Manufacturer : Microsoft
+
+Status       : OK
+PNPClass     : System
+Name         : Android TV Hands-Free HF
+DeviceID     : BTHENUM\{0000111F-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Service      : BthHFEnum
+Manufacturer : Microsoft
+
+Status       : OK
+PNPClass     : Bluetooth
+Name         : Android TV
+DeviceID     : BTHENUM\DEV_9C2F4E99A11B\7&311B6E22&0&BLUETOOTHDEVICE_9C2F4E99A11B
+Service      : 
+Manufacturer : Microsoft
+
+Status       : OK
+PNPClass     : Bluetooth
+Name         : Android TV Transporte AVRCP
+DeviceID     : BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Service      : Microsoft_Bluetooth_AvrcpTransport
+Manufacturer : Microsoft
+
+Status       : OK
+PNPClass     : Bluetooth
+Name         : Android TV Transporte AVRCP
+DeviceID     : BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2F4E99A11B_C00000000
+Service      : Microsoft_Bluetooth_AvrcpTransport
+Manufacturer : Microsoft
+
+
+

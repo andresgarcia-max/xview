@@ -1,0 +1,45 @@
+Command exited with code 0.
+
+Command output:
+=== QUERY: Ubiquiti-App ===
+Error: {"message":"API rate limit exceeded for 38.194.243.62. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+=== QUERY: UISP-Plugins ===
+JacksCodeVault/ros-plugin (1 stars) - https://github.com/JacksCodeVault/ros-plugin.git
+archous-networks/marketplace-plugins (0 stars) - https://github.com/archous-networks/marketplace-plugins.git
+jacekkow/ucrm-wfirma (0 stars) - https://github.com/jacekkow/ucrm-wfirma.git
+Bonabrux/mkt-queue-sync (0 stars) - https://github.com/Bonabrux/mkt-queue-sync.git
+Bonabrux/mkt-queue-sync-pro (0 stars) - https://github.com/Bonabrux/mkt-queue-sync-pro.git
+adam-doyle82/UISP-Plugin- (0 stars) - https://github.com/adam-doyle82/UISP-Plugin-.git
+=== QUERY: UNMS-Plugins ===
+karoliskirkliauskas/unms-barcode-generator (1 stars) - https://github.com/karoliskirkliauskas/unms-barcode-generator.git
+djradeesek/ubnt-ucrm-uisp-unms-bulk-invoice-pdf-export (0 stars) - https://github.com/djradeesek/ubnt-ucrm-uisp-unms-bulk-invoice-pdf-export.git
+=== QUERY: ubiquiti mikrotik ===
+v-zhuravlev/zbx_template_pack (64 stars) - https://github.com/v-zhuravlev/zbx_template_pack.git
+esseph/groundcontrol (15 stars) - https://github.com/esseph/groundcontrol.git
+MadaMzandu/ucrm-uisp-routeros-pppoe (11 stars) - https://github.com/MadaMzandu/ucrm-uisp-routeros-pppoe.git
+loxamir/isp (9 stars) - https://github.com/loxamir/isp.git
+gladiopeace/Cloud-hotspot (8 stars) - https://github.com/gladiopeace/Cloud-hotspot.git
+Thomeless/netscout (6 stars) - https://github.com/Thomeless/netscout.git
+=== QUERY: ubnt mikrotik ===
+zszszszsz/.config (365 stars) - https://github.com/zszszszsz/.config.git
+sukhe/UBNT-and-MikroTik-command-line-discovery-utility (4 stars) - https://github.com/sukhe/UBNT-and-MikroTik-command-line-discovery-utility.git
+admirschaurich/ScriptsTelecom (1 stars) - https://github.com/admirschaurich/ScriptsTelecom.git
+Homsi700/mikrotik-ubnt-dashboard (1 stars) - https://github.com/Homsi700/mikrotik-ubnt-dashboard.git
+Homsi700/mikrotik-ubnt-dashboard_v2 (1 stars) - https://github.com/Homsi700/mikrotik-ubnt-dashboard_v2.git
+itcrew/wisp-scripts (1 stars) - https://github.com/itcrew/wisp-scripts.git
+=== QUERY: airos backup ===
+stevenservo-hub/airos-backup (2 stars) - https://github.com/stevenservo-hub/airos-backup.git
+jeffersonraimon/backup-auto-ubiquiti-airos (0 stars) - https://github.com/jeffersonraimon/backup-auto-ubiquiti-airos.git
+scracha/airos-config-cloner (0 stars) - https://github.com/scracha/airos-config-cloner.git
+=== QUERY: ubnt ssh ===
+zszszszsz/.config (365 stars) - https://github.com/zszszszsz/.config.git
+Nevets82/Posh-Ubnt (2 stars) - https://github.com/Nevets82/Posh-Ubnt.git
+yifengyou/hack-ubnt (1 stars) - https://github.com/yifengyou/hack-ubnt.git
+looran/ubiquiti_adm (1 stars) - https://github.com/looran/ubiquiti_adm.git
+PejmonH/UniFi-RGB-LED-Control (1 stars) - https://github.com/PejmonH/UniFi-RGB-LED-Control.git
+clandmeter/com.ubnt.ssh (0 stars) - https://github.com/clandmeter/com.ubnt.ssh.git
+=== QUERY: airmax snmp ===
+hostbyte/Template_SNMP_Ubiquiti_AirMax (1 stars) - https://github.com/hostbyte/Template_SNMP_Ubiquiti_AirMax.git
+dectorblues/zabbix-templates-isp (1 stars) - https://github.com/dectorblues/zabbix-templates-isp.git
+mohammedalatallah/ubiquiti-airmax-monitor (0 stars) - https://github.com/mohammedalatallah/ubiquiti-airmax-monitor.git

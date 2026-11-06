@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+SUCCESS: SISTEMA_ERP.exe launched FitnessLegends! PID: 9824 12352 12900 15208

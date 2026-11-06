@@ -1,0 +1,114 @@
+Command exited with code 0.
+
+Command output:
+Line 1: import cardClienteNuevo from '../../assets/card-cliente-nuevo.jpg';
+import cardClienteNuevo from '../../assets/card-cliente-nuevo.jpg';
+import cardVisita from '../../assets/card-visita.jpg';
+import cardHuella from '../../assets/card-huella.jpg';
+import gymBg from '../../assets/gym-background.jpg';
+import gymBgMotto from '../../assets/gym-background-motto.jpg';
+import modalGymBg from '../../assets/modal-gym-bg.jpg';
+import logoImg from '../../assets/logo.png';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useGym } from '../../context/GymContext';
+import { FingerprintScanner } from './FingerprintScanner';
+import { AccessHistory } from './AccessHistory';
+import { TerminalSyncModal, getTerminalConfig, saveTerminalConfig, TerminalConfig } from './TerminalSyncModal';
+import { getRandomMotivationalQuote } from '../../data/motivationalQuotes';
+import { sounds } from '../../services/audio';
+import confetti from 'canvas-confetti';
+---
+Line 2: import cardVisita from '../../assets/card-visita.jpg';
+import cardClienteNuevo from '../../assets/card-cliente-nuevo.jpg';
+import cardVisita from '../../assets/card-visita.jpg';
+import cardHuella from '../../assets/card-huella.jpg';
+import gymBg from '../../assets/gym-background.jpg';
+import gymBgMotto from '../../assets/gym-background-motto.jpg';
+import modalGymBg from '../../assets/modal-gym-bg.jpg';
+import logoImg from '../../assets/logo.png';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useGym } from '../../context/GymContext';
+import { FingerprintScanner } from './FingerprintScanner';
+import { AccessHistory } from './AccessHistory';
+import { TerminalSyncModal, getTerminalConfig, saveTerminalConfig, TerminalConfig } from './TerminalSyncModal';
+import { getRandomMotivationalQuote } from '../../data/motivationalQuotes';
+import { sounds } from '../../services/audio';
+import confetti from 'canvas-confetti';
+import { 
+---
+Line 3: import cardHuella from '../../assets/card-huella.jpg';
+import cardClienteNuevo from '../../assets/card-cliente-nuevo.jpg';
+import cardVisita from '../../assets/card-visita.jpg';
+import cardHuella from '../../assets/card-huella.jpg';
+import gymBg from '../../assets/gym-background.jpg';
+import gymBgMotto from '../../assets/gym-background-motto.jpg';
+import modalGymBg from '../../assets/modal-gym-bg.jpg';
+import logoImg from '../../assets/logo.png';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useGym } from '../../context/GymContext';
+import { FingerprintScanner } from './FingerprintScanner';
+import { AccessHistory } from './AccessHistory';
+import { TerminalSyncModal, getTerminalConfig, saveTerminalConfig, TerminalConfig } from './TerminalSyncModal';
+import { getRandomMotivationalQuote } from '../../data/motivationalQuotes';
+import { sounds } from '../../services/audio';
+import confetti from 'canvas-confetti';
+import { 
+  Zap, 
+---
+Line 821:               src={cardClienteNuevo} 
+          >
+            <img 
+              src={cardClienteNuevo} 
+              alt="Cliente Nuevo Gym" 
+              className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/20 pointer-events-none" />
+            <div className="absolute inset-0 bg-amber-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+            <div className="relative z-10 self-end px-3.5 py-1 rounded-full bg-black/75 backdrop-blur-md border border-amber-400/80 flex items-center gap-1.5 text-white font-black text-xs uppercase tracking-wider shadow-lg drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+              <UserPlus className="w-3.5 h-3.5 text-amber-400" />
+              <span className="tracking-wider">Inscripción</span>
+            </div>
+
+            <div className="relative z-10 p-3.5 rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+              <h3 className="text-xl sm:text-2xl font-black text-white uppercase tracking-wider group-hover:text-amber-300 transition-colors drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+                Cliente Nuevo
+---
+Line 855:               src={cardVisita} 
+          >
+            <img 
+              src={cardVisita} 
+              alt="Pase de Visita Gym" 
+              className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/20 pointer-events-none" />
+            <div className="absolute inset-0 bg-emerald-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+            <div className="relative z-10 self-end px-3.5 py-1 rounded-full bg-black/75 backdrop-blur-md border border-emerald-400/80 flex items-center gap-1.5 text-white font-black text-xs uppercase tracking-wider shadow-lg drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+              <Ticket className="w-3.5 h-3.5 text-emerald-400" />
+              <span className="tracking-wider">Pase del Día</span>
+            </div>
+
+            <div className="relative z-10 p-3.5 rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-emerald-400/40 transition-colors">
+              <h3 className="text-xl sm:text-2xl font-black text-white uppercase tracking-wider group-hover:text-emerald-300 transition-colors drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+                Quiero Visita
+---
+Line 889:               src={cardHuella} 
+          >
+            <img 
+              src={cardHuella} 
+              alt="Lector Biométrico de Huella Gym" 
+              className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/20 pointer-events-none" />
+            <div className="absolute inset-0 bg-amber-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+            <div className="relative z-10 self-end px-3.5 py-1 rounded-full bg-black/75 backdrop-blur-md border border-amber-400/80 flex items-center gap-1.5 text-white font-black text-xs uppercase tracking-wider shadow-lg drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+              <Zap className="w-3.5 h-3.5 text-amber-400" />
+              <span className="tracking-wider">Acceso Directo</span>
+            </div>
+
+            <div className="relative z-10 p-3.5 rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+              <h3 className="text-xl sm:text-2xl font-black text-white uppercase tracking-wider group-hover:text-amber-300 transition-colors drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+                Ya Tengo Membresía
+---

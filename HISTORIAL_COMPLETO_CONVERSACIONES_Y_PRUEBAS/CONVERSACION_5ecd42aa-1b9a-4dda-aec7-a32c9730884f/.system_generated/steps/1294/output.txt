@@ -1,0 +1,36 @@
+Command exited with code 0.
+
+Command output:
+Length: 65536
+First 32 bytes hex: 06-3F-D0-35-62-61-75-64-72-61-74-65-3D-31-31-35-32-30-30-00-62-6F-61-72-64-3D-66-72-61-6E-6B-6C
+Strings:
+baudrate=115200
+board=franklin
+soc=g12a
+arch=arm
+cpu=armv8
+bootdelay=3
+boot_part=boot
+recovery_part=recovery
+loadaddr=0x1080000
+dtb_mem_addr=0x1000000
+fdt_high=0x20000000
+initrd_high=0x7f800000
+lock=10100000
+unlock_ability=1
+lock_State=unlocked
+otg_device=1
+EnableSelinux=permissive
+hdmimode=1080p60hz
+outputmode=1080p60hz
+colorattribute=444,8bit
+cvbsmode=480cvbs
+dolby_status=0
+hdr_policy=0
+frac_rate_policy=1
+fb_width=1920
+fb_height=1080
+display_bpp=32
+display_color_index=32
+display_layer=osd0
+act

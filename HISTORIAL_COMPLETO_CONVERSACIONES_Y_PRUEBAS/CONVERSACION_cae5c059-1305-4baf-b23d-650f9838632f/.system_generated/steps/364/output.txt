@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:1:import { IndependentTerminalApp } from 
+'./IndependentTerminalApp';
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:2:import gymBg from '../../assets/gym-background.jpg';
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:3:import React, { useState } from 'react';
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:23:} from 'lucide-react';
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:24:import gymBgMain from '../../assets/gym-background.jpg';
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:25:import gymBgMotivational from 
+'../../assets/gym-background-4k.jpg';
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:26:
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:40:  const [isFullScreen, setIsFullScreen] = useState(false);
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:41:  const [bgImage, setBgImage] = useState<string>(() => {
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:42:    if (typeof window !== 'undefined' && 
+localStorage.getItem('legends_terminal_bg_version') !== 'v9_zoom_caminadoras_8k') {
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:43:      localStorage.setItem('legends_terminal_bg_version', 
+'v9_zoom_caminadoras_8k');
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:44:      localStorage.setItem('legends_terminal_bg', gymBg);
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:45:      return gymBg;
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:46:    }
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:47:    return localStorage.getItem('legends_terminal_bg') || 
+gymBg;
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:48:  });
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:150:      
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:151:      {/* Real Gym Background Photo */}
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:152:      <div className="absolute inset-0 pointer-events-none 
+z-0 overflow-hidden rounded-3xl">
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:153:        <img
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:154:          src={bgImage}
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:155:          alt="Fitness Legends Gym Background"
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:156:          style={{
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:222:                  if (result) {
+> LEGENDS\src\components\access\TurnstileTerminal.tsx:223:                    setBgImage(result);
+  LEGENDS\src\components\access\TurnstileTerminal.tsx:224:                    try { 
+localStorage.setItem('legends_terminal_bg', result); } catch {}
+
+

@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 1983 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                       0.60 kB │ gzip:     0.40 kB
+dist/assets/logo-EicIKV0G.png                        68.65 kB
+dist/assets/card-visita-Dv6RuRxl.jpg                134.32 kB
+dist/assets/card-cliente-nuevo-Di25OL0W.jpg         140.20 kB
+dist/assets/card-huella-KqLoqcdy.jpg                165.19 kB
+dist/assets/modal-gym-bg-D4650c6a.jpg               227.07 kB
+dist/assets/gym-dumbbell-background-Bn1Hvp3H.jpg    322.81 kB
+dist/assets/pos-banner-BOmoHBRJ.jpg                 775.59 kB
+dist/assets/gym-background-motto-BzSRG4ad.jpg     1,024.38 kB
+dist/assets/gym-background-C2ZRMS71.jpg           3,978.59 kB
+dist/assets/index-CfcQ9sZ0.css                      141.58 kB │ gzip:    18.96 kB
+dist/assets/index-BDs6okdm.js                     5,387.55 kB │ gzip: 3,481.27 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 11.06s
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 7.9s of this 11.0s build (72%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:css transform (63%, 7.0s, 1 call)
+Additional callback time came from the callbacks below and from callbacks under 1s.
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:asset load (9 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+

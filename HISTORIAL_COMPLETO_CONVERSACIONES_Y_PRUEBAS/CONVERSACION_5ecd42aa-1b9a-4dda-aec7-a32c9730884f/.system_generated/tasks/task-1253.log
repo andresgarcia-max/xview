@@ -1,0 +1,607 @@
+
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:209:t`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/13_CAPTURA_UART_TTL_SMARTTY/LECTURA_COMPLETA_UART_UTF16.txt
+) | 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:210:Buffers de pantalla `UTF-16LE` crudos extraídos directamente de la memoria de `SmarTTY.exe`. | `13,621` líneas |
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:211:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:18:| 
+[`BLOQUES_ASCII_RAW_COMPLETOS.tx
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:212:t`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/13_CAPTURA_UART_TTL_SMARTTY/BLOQUES_ASCII_RAW_COMPLETOS.txt
+) | 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:213:Buffers `ASCII` del puerto serie en memoria de `SmarTTY.exe`. | `3,383` líneas |
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:214:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:19:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:215:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:20:---
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:216:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:21:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:217:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:22:## 2.Los 4 Descubrimientos 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:218:Críticos (Por qué la caja hace exactamente lo que hace)
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:219:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:23:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:220:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:24:### Hallazgo Crítico #1: 
+¿Por qué 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:221:esta caja entra SIEMPRE sola a Recovery al encender? (`GPIOAO_3 == 0`)
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:222:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:25:En la etapa `U-Boot`, justo 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:223:después de inicializar la salida HDMI y leer la partición `misc`, el bootloader consulta el estado físico del pin 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:224:**`GPIOAO_3` (`gpio 3`)**, que corresponde al **botón físico de `RESET / UPGRADE`** en la placa:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:225:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:26:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:226:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:27:```text
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:227:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:28:gpio: pin GPIOAO_3 (gpio 3) 
+value 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:228:is 0
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:229:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:29:detect upgrade key
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:230:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:30:InUsbBurn
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:231:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:31:noSof
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:232:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:32:sof timeout, reset usb phy 
+tuning
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:233:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:33:card out
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:234:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:34:[MSG]mmcinfo failed!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:235:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:35:card out
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:236:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:36:(Re)start USB...
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:237:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:37:USB0:   USB3.0 XHCI init 
+start
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:238:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:38:scanning bus 0 for 
+devices... 1 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:239:USB Device(s) found
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:240:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:39:scanning usb for storage 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:241:devices... 0 Storage Device(s) found
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:242:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:40:** Bad device usb 0 **
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:243:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:41:system = recovery,set 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:244:system_mode=recovery
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:245:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:42:```
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:246:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:43:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:247:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:44:* **Diagnóstico:** En lógica 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:248:Amlogic G12A, `GPIOAO_3` es **activo en bajo (`0` = presionado, `1` = suelto)**. La lectura UART demuestra con 
+certeza 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:249:absoluta que **`GPIOAO_3` está leyendo `0` durante todo el arranque**.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:250:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:45:* **Causa física/lógica:**
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:251:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:46:  1. El micro-interruptor 
+físico 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:252:(`Reset`) de esta caja está **trabado / presionado mecánicamente** o en corto a `GND`, **o bien**
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:253:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:47:  2. El cableado/conector 
+cerca 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:254:del cabezal tocó la línea `GPIOAO_3`.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:255:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:48:* **Efecto directo:** Al ver 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:256:`GPIOAO_3 = 0`, U-Boot dispara `detect upgrade key` e ignora el arranque normal (`boot`), forzando siempre 
+`system = 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:257:recovery,set system_mode=recovery`!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:258:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:49:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:259:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:50:---
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:260:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:51:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:261:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:52:### Hallazgo Crítico #2: ¡La 
+caja 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:262:SÍ entra en modo `InUsbBurn` (USB Macho-a-Macho) durante 1.5 segundos en U-Boot!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:263:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:53:Observa las 3 líneas 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:264:inmediatamente posteriores a `detect upgrade key`:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:265:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:54:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:266:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:55:```text
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:267:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:56:detect upgrade key
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:268:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:57:InUsbBurn
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:269:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:58:noSof
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:270:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:59:sof timeout, reset usb phy 
+tuning
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:271:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:60:```
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:272:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:61:
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:273:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:62:* **¿Qué significa 
+`InUsbBurn` -> 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:274:`noSof` -> `sof timeout`?**
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:275:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:63:  * En el segundo `~8.0` del 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:276:encendido (cuando aparece el logo de Megacable y antes de cargar el kernel Linux), U-Boot **activa el modo de 
+flasheo 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:277:USB de Amlogic (`InUsbBurn`)** en el puerto USB OTG y espera paquetes **`SOF` (`Start-Of-Frame`)** provenientes 
+de una 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:278:PC con el driver **`WorldCup Device` (Amlogic USB Burning Tool)** activo.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:279:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:64:  * ¿Por qué no sonó en 
+Windows 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:280:cuando lo conectaste antes?
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:281:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:65:    1. Si conectas el cable 
+USB 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:282:**después** de que pasa ese segundo `8.0` (cuando ya está en el menú de Recovery), el ventana de `InUsbBurn` 
+(`~1.5 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:283:segundos`) ya expiró (`sof timeout, reset usb phy tuning`).
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:284:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:66:    2. Además, si en Windows 
+no 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:285:está instalado el driver **Amlogic WorldCup Device** (que viene con **Amlogic USB Burning Tool v2.2.0 / 
+v2.2.4**), 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:286:Windows ve un dispositivo sin driver durante 1.5 segundos, no envía el apretón de manos USB `Burn`, y U-Boot 
+aborta 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:287:con `noSof` y salta a Recovery.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:288:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:67:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:289:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:68:---
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:290:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:69:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:291:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:70:### Hallazgo Crítico #3: 
+¿Por qué 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:292:el cable USB Macho-a-Macho NO funciona una vez que entra al menú de Recovery? (`otg_device=0`)
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:293:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:71:En la línea de comandos que 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:294:U-Boot le pasa al Kernel Linux (`4.9.113`), aparece este parámetro crítico:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:295:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:72:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:296:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:73:```text
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:297:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:74:Kernel command line: 
+init=/init 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:298:ramoops.pstore_en=1 ... console=ttyS0,115200 ... otg_device=0 reboot_mode_android=normal ... 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:299:androidboot.selinux=enforcing androidboot.firstboot=0 jtag=disable androidboot.hardware=amlogic 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:300:androidboot.serialno=1234567890
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:301:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:75:```
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:302:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:76:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:303:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:77:Y cuando el Kernel Linux 
+arranca 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:304:en el segundo `5.295811`, imprime:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:305:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:78:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:306:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:79:```text
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:307:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:80:[    5.295811@1] dwc3 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:308:ff500000.dwc3: Configuration mismatch. dr_mode forced to host
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:309:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:81:[    5.301986@0] dwc_otg: 
+usb0: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:310:type: 2 speed: 0, config: 0, dma: 0, id: 0, phy: ffe09000, ctrl: 0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:311:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:82:[    5.301989@0] 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:312:dwc_otg_driver_probe host only, not probe usb_otg!!!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:313:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:83:```
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:314:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:84:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:315:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:85:* **Explicación:** En el 
+árbol de 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:316:dispositivos (`DTB`) y `cmdline` de ZTE (`otg_device=0`), una vez que carga el Kernel Linux (`Recovery` o 
+`Android`), 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:317:el controlador `dwc3` / `dwc_otg` **fuerza ambos puertos USB a modo `HOST ONLY` (`not probe usb_otg!!!`)**.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:318:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:86:* Por eso:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:319:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:87:  * **En los primeros 8 
+segundos 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:320:(U-Boot `InUsbBurn`):** El puerto USB **SÍ** funciona como dispositivo esclavo para **Amlogic USB Burning Tool**.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:321:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:88:  * **Después del segundo 8 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:322:(Kernel Linux / Recovery):** El puerto USB se convierte exclusivamente en **Host** (solo lee memorias 
+USB/teclados, 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:323:jamás responde a una PC por cable Macho-a-Macho).
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:324:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:89:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:325:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:90:---
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:326:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:91:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:327:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:92:### Hallazgo Crítico #4: 
+Estado 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:328:sucio en la partición `misc` (`upgrade_step=2` y comando roto `wipeisb` de ZTE)
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:329:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:93:Durante el arranque de 
+U-Boot se 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:330:observa:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:331:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:94:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:332:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:95:```text
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:333:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:96:reboot_mode=normal
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:334:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:97:command=boot-recovery
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:335:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:98:status=
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:336:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:99:recovery=recovery
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:337:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:100:--wipe_data=successful
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:338:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:101:--wipe_cache=successful
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:339:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:102:--upgrade_step=2
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:340:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:103:Unknown command 'wipeisb' - 
+try 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:341:'help'
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:342:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:104:```
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:343:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:105:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:344:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:106:Y cuando entra a Recovery, 
+el 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:345:demonio `systemcontrol` de ZTE ejecuta en bucle:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:346:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:107:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:347:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:108:```text
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:348:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:109:[   10.506704@1] 
+systemcontrol: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:349:WriteMiscString Force write str:boot-recovery
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:350:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:110:[   10.506704@1] 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:481:vimos que **`RX` ( de la caja hacia tu PC)** funciona a la perfección (recibiste 190 segundos de telemetría 
+limpia sin 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:482:un solo byte corrupto).
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:483:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:247:2. En el segundo `4.0` del 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:484:encendido, U-Boot imprime:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:485:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:248:   ```text
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:486:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:249:   Hit Enter or space or 
+Ctrl+C 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:487:key to stop autoboot -- :  0 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:488:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:250:   ```
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:489:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:251:   El contador tiene 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:490:`bootdelay=0`, pero U-Boot revisa el buffer de recepción (`tstc()`) justo en ese instante.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:491:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:252:3. Si mantienes presionada 
+la 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:492:barra espaciadora o `Enter` o `Ctrl+C` en `SmarTTY` **antes** de enchufar la corriente de la caja (asegurándote 
+de que 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:493:el cable `TX` de tu CP210x esté conectado al pin `RX` de la placa), si el U-Boot acepta la interrupción caerás en 
+el 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:494:prompt `g12a_u212_v1#`, desde donde podemos ejecutar:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:495:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:253:   * `defenv_reserv; 
+saveenv; 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:496:reset` (o `store init` / `run storeboot` ignorando `GPIOAO_3`)
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:497:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:254:   * O cambiar 
+`otg_device=1` en 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:498:el `cmdline` para habilitar USB OTG dentro de Linux.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:499:  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:255:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:500:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:256:### Camino C: Usar la 
+ventana 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:501:`InUsbBurn` que descubrimos en U-Boot
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:502:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:257:1. El log UART demostró que 
+en 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:503:cada encendido, gracias a `GPIOAO_3 = 0`, la caja ejecuta **`InUsbBurn`** automáticamente y espera paquetes `SOF` 
+por 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:504:el puerto USB.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:505:> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:258:2. Si abres **Amlogic USB 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:506:Burning Tool** (que instala el driver `WorldCup Device`) y dejas conectado el cable USB Macho-a-Macho **antes de 
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:507:encender la caja**, cuando U-Boot llegue a `InUsbBurn` recibirá el `SOF` de `WorldCup Device`, **no dará 
+`noSof`**, y 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:508:se quedará enganchado en modo flasheo/lectura USB.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:509:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:29:DDR cs1 size: 0MB
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:510:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:30:ddr scramble enabled
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:511:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:31:emmc switch 3 ok
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:512:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:32:BL2: rpmb counter: 0x0000005e
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:513:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:33:emmc switch 0 ok
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:514:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:34:secure task start!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:515:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:35:U-Boot 2015.01-gc7c0e9b (Jul 08 2021 
+- 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:516:07:12:09)
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:517:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:36:MMC:   aml_priv->desc_buf = 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:518:0x0000000073d49710
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:519:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:37:emmc/sd response timeout, cmd8, 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:520:status=0x1ff2800
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:521:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:38:emmc/sd response timeout, cmd55, 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:522:status=0x1ff2800
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:523:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:39:eMMC/TSD partition table have been 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:524:checked OK!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:525:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:40:mmc env offset: 0x45c00000 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:526:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:41:reboot_mode(0xff80023c)=0x0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:527:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:42:reboot_mode=cold_boot
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:528:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:43:reboot_mode(0xff80023c)=0x0
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:529:> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:44:reboot_mode:::: cold_boot
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:530:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:45:mmc env offset: 0x45c00000 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:531:> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:46:hdmitx: set enc for VIC: 16
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:532:> experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:47:hdmitx phy setting done
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:533:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:48:mmc env offset: 0x45c00000 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:534:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:49:avb2: 1
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:535:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:50:avb_slot_verify.c:524: DEBUG: 
+Loading 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:536:vbmeta struct from partition 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:537:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:51:avb verification: locked = 1, result 
+= 0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:538:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:52:avb2: 1
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:539:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:53:Kernel command line: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:540:androidboot.dtbo_idx=0 buildvariant=user
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:541:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:54:[    0.000000@0] Booting Linux on 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:542:physical CPU 0x0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:543:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:55:[    0.000000@0] Linux version 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:544:4.9.113-gbe23f89-dirty (root@B866V2_
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:545:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:56:[    0.000000@0] Boot CPU: AArch64 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:546:Processor [410fd034]
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:547:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:57:[    0.000000@0] efi: Getting EFI 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:548:parameters from FDT:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:549:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:58:[    0.000000@0] efi: UEFI not found.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:550:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:59:[    0.000000@0] OF: reserved mem: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:551:__reserved_mem_alloc_size, start
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:552:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:60:[    0.000000@0] Reserved memory: 
+created 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:553:CMA memory pool at 0x0000
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:554:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:61:[    0.000000@0] OF: reserved mem: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:555:initialized node linux,secmon, c
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:556:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:62:[    0.000000@0] OF: reserved mem: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:557:__reserved_mem_alloc_size, start
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:558:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt:63:[    0.000000@0] Reserved memory: 
+created 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:559:CMA memory pool at 0x0000
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1298:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:36:DDR cs1 size: 0MB
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1299:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:37:ddr scramble enabled
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1300:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:38:emmc switch 3 ok
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1301:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:39:BL2: rpmb counter: 0x0000005e
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1302:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:40:secure task start!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1303:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:41:U-Boot 2015.01-gc7c0e9b (Jul 08 2021 - 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1304:07:12:09)
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1305:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:42:MMC:   aml_priv->desc_buf = 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1306:0x0000000073d49710
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1307:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:43:emmc/sd response timeout, cmd8, 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1308:status=0x1ff2800
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1309:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:44:emmc/sd response timeout, cmd55, 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1310:status=0x1ff2800
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1311:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:45:saradc get val = 688
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1312:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:46:saradc_ext get val = 85
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1313:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:47:eMMC/TSD partition table have been 
+checked 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1314:OK!
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1315:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:48:reboot_mode(0xff80023c)=0x0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1316:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:49:reboot_mode=cold_boot
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1317:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:50:saradc get val = 689
+> C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1318:> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:51:reboot_mode:::: cold_boot
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1319:> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:52:dolby_status 0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1320:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:53:dolby_vision_process: hpd: dv disabled
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1321:> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:54:hdmitx: set enc for VIC: 16
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1322:> experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:55:hdmitx phy setting done
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1323:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:56:card out
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1324:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:57:avb2: 1
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1325:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:58:avb_slot_verify.c:524: DEBUG: Loading 
+vbmeta 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1326:struct from partition
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1327:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:59:avb verification: locked = 1, result = 
+0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1328:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:60:ee_gate_off ...
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1329:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:61:Kernel command line: 
+androidboot.dtbo_idx=0 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1330:buildvariant=user
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1331:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:62:uboot time: 8566493 us
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1332:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:63:[    0.000000@0] Booting Linux on 
+physical 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1333:CPU 0x0
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1334:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:64:[    0.000000@0] Linux version 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1335:4.9.113-gbe23f89-dirty (root@B866V2_
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1336:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:65:[    0.000000@0] Boot CPU: AArch64 
+Processor 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1337:[410fd034]
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1338:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:66:[    0.000000@0] efi: Getting EFI 
+parameters 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1339:from FDT:
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1340:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:67:[    0.000000@0] efi: UEFI not found.
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1341:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:68:[    0.000000@0] OF: reserved mem: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1342:__reserved_mem_alloc_size, start
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1343:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:69:[    0.000000@0] Reserved memory: 
+created 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1344:CMA memory pool at 0x0000
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1345:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:70:[    0.000000@0] OF: reserved mem: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1346:initialized node linux,secmon, c
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1347:  experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt:71:[    0.000000@0] OF: reserved mem: 
+  C:\Users\andre\.gemini\antigravity\brain\5ecd42aa-1b9a-4dda-aec7-a32c9730884f\.system_generated\steps\1251\output.txt
+:1348:initialized node linux,meson-fb,
+
+

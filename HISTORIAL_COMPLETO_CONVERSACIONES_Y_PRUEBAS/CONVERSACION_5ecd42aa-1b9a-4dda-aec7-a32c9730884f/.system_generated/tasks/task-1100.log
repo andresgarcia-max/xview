@@ -1,0 +1,19 @@
+[ENCONTRADO EN SUPER.IMG @ 0x0] ViettelBox_B866V2
+[ENCONTRADO EN SUPER.IMG @ 0xB000000] TVWall.apk
+[ENCONTRADO EN SUPER.IMG @ 0x2A000000] AppDMC.apk
+[ENCONTRADO EN SUPER.IMG @ 0x2A000000] DLStore.apk
+[ENCONTRADO EN SUPER.IMG @ 0x2C000000] Hdplay.apk
+[ENCONTRADO EN SUPER.IMG @ 0x31000000] DMC.v2.25
+[ENCONTRADO EN SUPER.IMG @ 0x49000000] ControlDevice.apk
+
+Name              Value
+----              -----
+ViettelBox_B866V2 True 
+Hdplay.apk        True 
+DLStore.apk       True 
+TVWall.apk        True 
+AppDMC.apk        True 
+DMC.v2.25         True 
+ControlDevice.apk True 
+
+

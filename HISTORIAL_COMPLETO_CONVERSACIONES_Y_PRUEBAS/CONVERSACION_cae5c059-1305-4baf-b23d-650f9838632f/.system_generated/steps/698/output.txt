@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     24/10/2026  10:31 a. m.                gym                                                                  
+d----l     24/10/2026  10:30 a. m.                xview                                                                
+-a----     23/10/2026  04:21 p. m.           2449 Antigravity.lnk                                                      
+-a----     24/10/2026  10:32 a. m.           1013 CONTROL DE ACCESO - FITNESS LEGENDS.lnk                              
+-a----     23/10/2026  04:01 p. m.           2361 Microsoft Edge.lnk                                                   
+
+

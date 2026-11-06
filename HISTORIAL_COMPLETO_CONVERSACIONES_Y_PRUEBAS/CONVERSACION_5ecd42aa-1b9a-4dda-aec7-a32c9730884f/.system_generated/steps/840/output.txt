@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+
+
+Interfaz: 192.168.0.140 --- 0xe
+  Direcci�n de Internet          Direcci�n f�sica      Tipo
+  192.168.0.1           60-22-32-c6-21-66     din�mico  
+  192.168.0.77          9c-b1-dc-2f-e4-b1     din�mico  
+  192.168.0.182         e0-8f-4c-e6-9d-df     din�mico  
+  192.168.0.224         64-07-f6-7c-f1-26     din�mico  
+  192.168.0.255         ff-ff-ff-ff-ff-ff     est�tico  
+  224.0.0.22            01-00-5e-00-00-16     est�tico  
+  224.0.0.251           01-00-5e-00-00-fb     est�tico  
+  224.0.0.252           01-00-5e-00-00-fc     est�tico  
+  239.255.255.250       01-00-5e-7f-ff-fa     est�tico  
+  255.255.255.255       ff-ff-ff-ff-ff-ff     est�tico  
+Status Class     FriendlyName                    InstanceId                                   
+------ -----     ------------                    ----------                                   
+OK     Camera    Integrated Webcam               USB\VID_0BDA&PID_5650&MI_00\6&1D5726D5&0&0000
+OK     USB       Dispositivo compuesto USB       USB\VID_0BDA&PID_5650\200901010001           
+OK     USB       Concentrador raíz USB (USB 3.0) USB\ROOT_HUB30\4&2782102E&0&0                
+OK     Bluetooth Intel(R) Wireless Bluetooth(R)  USB\VID_8087&PID_0A2B\5&2B41B6C5&0&7         
+
+

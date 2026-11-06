@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+Id          : 21940
+ProcessName : adnl
+HasExited   : 
+HandleCount : 122
+Threads     : {4188}
+
+
+
+Thread 4188: State=Wait WaitReason=UserRequest

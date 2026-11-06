@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+===  .FullName  ===
+Get-Content : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\.FullName' porque no existe.
+En línea: 4 Carácter: 5
++     Get-Content .FullName
++     ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...xview\.FullName:String) [Get-Content], ItemNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+ 
+===  .FullName  ===
+Get-Content : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\.FullName' porque no existe.
+En línea: 4 Carácter: 5
++     Get-Content .FullName
++     ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...xview\.FullName:String) [Get-Content], ItemNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+ 

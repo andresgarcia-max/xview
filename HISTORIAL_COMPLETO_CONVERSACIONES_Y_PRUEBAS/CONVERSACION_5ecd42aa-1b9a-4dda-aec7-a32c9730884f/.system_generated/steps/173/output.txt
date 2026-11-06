@@ -1,0 +1,83 @@
+Command exited with code 0.
+
+Command output:
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/ProductCfgRules.xml is already exist
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/ExtRulesDescriptions.xml is already exist
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/HgCfgRules.xml is already exist
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/VasCfgRules.xml is already exist
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [Java_com_ztestb_basecomp_RemoteStbCfgServiceJni_RegisterMethod 103] registerMethod: find class com.ztestb.basecomp.ai success!
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [Java_com_ztestb_basecomp_RemoteStbCfgServiceJni_RegisterMethod 116] registerMethod: Find notify com.ztestb.basecomp.ai/StbcfgInvoke method success!
+02-05 02:17:43.692  4866  5049 E RemoteStbCfg.Jni: [InitXmlFile 1030] InitXmlFile /data/data/com.ztestb.basecomp/files/stbcfgRules,MCSP_CfgManager,ProductCfgRules.xml
+02-05 02:17:43.692  4866  5049 E RemoteStbCfg.Jni: [InitXmlFile 1053] find [/data/data/com.ztestb.basecomp/files/stbcfgRules/ProductCfgRules.xml] file
+02-05 02:17:43.692  4866  5049 E RemoteStbCfg.Jni: [InitXmlFile 1053] find [/data/data/com.ztestb.basecomp/files/stbcfgRules/VasCfgRules.xml] file
+02-05 02:17:43.693  4866  4975 D BaseComp.Java: bind productcfg Service ok!!!
+02-05 02:17:43.694  4866  4975 E BaseComp.Java: getProductCfgList ProductCfgListLen:44
+02-05 02:17:43.700  4866  4975 D BaseComp.Java: isPushProductCfgSuccess ret:0
+02-05 02:17:43.701  4866  4975 D BaseComp.Java: BaseComponentService: Main thread exit!
+02-05 02:17:43.706  4866  5059 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1896 android.content.ContextWrapper.bindService:812 common.mcspevtmanager.McspCompCommun.MCSP_SrvEvt_Init:43 com.ztestb.basecomp.BaseComponentService.e:11 com.ztestb.basecomp.d.run:2 
+02-05 02:17:43.708  3655  3668 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.717  4866  5059 I McspCompCommun: BaseComponentService wait compcommun Service Connectioned spend 0ms
+02-05 02:17:43.717  4866  5059 I compcommun: [addService] iBinder: BaseComponentService
+02-05 02:17:43.718  4866  5059 I BaseComp.Java: compCom.MCSP_SrvEvt_Init(): success
+02-05 02:17:43.718  4866  5059 E BaseComp.main: Begin to launch all base component!!!!
+02-05 02:17:43.718  4866  5059 E BaseComp.main: can't open /data/depconfig.pid: Permission denied
+02-05 02:17:43.718  4866  5059 I BaseComp.main: Try to launch base component (MCSPCFG)
+02-05 02:17:43.767  4866  5062 E mcspcfg : Config_Separate_LoadConfig: [/data/data/com.ztestb.basecomp/files/ztecfg/config.eini] size 248 byte
+02-05 02:17:43.767  4866  5062 I mcspcfg : update_x_y.eini: /data/data/com.ztestb.basecomp/files/ztecfg/update_4301_5.eini
+02-05 02:17:43.768  4866  5062 E mcspcfg : loadMarketConfig: filepath[/data/data/com.ztestb.basecomp/files/ztecfg/update_4301_5.eini], size[152]
+02-05 02:17:43.774  3655  4553 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.778  4866  5059 I BaseComp.main: Comp(MCSPCFG) start successed, thread id = 3167576512!!!
+02-05 02:17:43.778  4866  5059 I BaseComp.main: Try to launch base component (CFGDISP)
+02-05 02:17:43.795  3655  3962 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.809  4866  4886 D BaseComp.Java: MCSP_BASE_PROVIDER cfgMgr.PingCfg() success!
+02-05 02:17:43.810  4768  4790 D ZteAIDLProductCfg: [MCSP_Cfg_GetString] Section:Common_ext, Key:AppstoreWhiteList, Value:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.810  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig valueOut=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper .
+02-05 02:17:43.811  4768  4790 D aidlProductconfig: getConfig_distinguishNullCfg section=Common_ext,key =AppstoreWhiteList,result =com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.813  4866  4886 E BaseComp.Java: getProductCfg tmpvalue:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.820  4866  4886 D BaseComp.Java: syncForCfgTable: need to update this config
+02-05 02:17:43.821  4866  4886 D BaseComp.Java: query where =cfginfo.section='Common_ext' and cfginfo.name='AppstoreWhiteList'
+02-05 02:17:43.822  4118  4848 I [TvSettings]: [ZteCfgService]query result==> [Common_ext]AppstoreWhiteList=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.823  4118  4848 I [SetupConfigSync]: [ReadStrFromCfgmanager]:ret = com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.823  4118  4848 D [TvSettings]: [BootReceiver]<setWhiteListUnknownResource> [Common_ext]AppstoreWhiteList: com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.825  4768  4790 D ZteAIDLProductCfg: [MCSP_Cfg_GetString] Section:Common_ext, Key:AppstoreWhiteList, Value:com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.825  4768  4790 D ZteAIDLProductCfgJNI: Java_com_zte_android_productcfg_AidlProductServiceJni_getConfig valueOut=com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper .
+02-05 02:17:43.825  4768  4790 D aidlProductconfig: getConfig section=Common_ext,key =AppstoreWhiteList,result =com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.826  4118  4848 D [TvSettings]: [ZteCfgService]<getProductConfig> mcspcfgService.getConfig ret =com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.826  4118  4848 I [SetupConfigSync]: [ReadStrFromCfgmanager]:ret = com.ztestb.upgrade,com.ztestb.updater,com.zte.factorytesttool,tv.upgrade.service,com.dotscreen.megacable.portal,com.dotscreen.megacable.livetv,com.dotscreen.megacable.updater,com.dotscreen.megacable.core,tv.broadpeak.nanocdnwrapper
+02-05 02:17:43.830  4118  4848 D [TvSettings]: [BootReceiver]<getUid> com.zte.factorytesttool
+02-05 02:17:43.831  4118  4848 D [TvSettings]: [BootReceiver]<getWhiteListUidPack> uid = 1000, packageName = com.zte.factorytesttool
+02-05 02:17:43.845  3655  3668 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.865  4866  5059 I BaseComp.main: Comp(CFGDISP) start successed, thread id = 3160654272!!!
+02-05 02:17:43.865  4866  5059 I BaseComp.main: Try to launch base component (LOGSERVER)
+02-05 02:17:43.880  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:43.885  3655  4553 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.889  4866  5089 E mcsplog_debug: [110] /data/data/com.ztestb.basecomp/files/stblogfile/ErrRecord.log open failed!errno:2, ERR:No such file or directory
+02-05 02:17:43.894  3655  4553 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.926  4118  4848 D [TvSettings]: [BootReceiver]<getAppListUidPack> appUid = 1000, packageName = com.ztestb.basecomp
+02-05 02:17:43.926  4118  4848 D [TvSettings]: [BootReceiver]<getAppListUidPack> appUid = 1000, packageName = com.zte.factorytesttool
+02-05 02:17:43.929  3655  3668 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.931  4118  4848 D [TvSettings]: [BootReceiver]<setWhiteListUnknownResource> packageName: com.zte.factorytesttool
+02-05 02:17:43.931  4118  4848 D [TvSettings]: [BootReceiver]<getUid> com.zte.factorytesttool
+02-05 02:17:43.931  4118  4848 D [TvSettings]: <onReceive> com.zte.factorytesttool appUid = 1000
+02-05 02:17:43.931  4118  4848 D [TvSettings]: <onReceive> com.zte.factorytesttool ============= no permission：REQUEST_INSTALL_PACKAGES, empowering application 
+02-05 02:17:43.931  4118  4848 D [TvSettings]: <onReceive> com.zte.factorytesttool ============= system app do not setMode
+02-05 02:17:43.950  3655  4553 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:43.999  4866  5089 E mcsplog_debug: [543] s_upload_cfg.baseDirectory = /data/data/com.ztestb.basecomp/files/logfiles/
+02-05 02:17:43.999  4866  5089 I BaseComp.Java: setUSBBroadCastEnable
+02-05 02:17:44.002  4866  5089 I BaseComp.Java: LogModuleregisterBroadCast successed
+02-05 02:17:44.005  4866  5059 I BaseComp.main: Comp(LOGSERVER) start successed, thread id = 3159601600!!!
+02-05 02:17:44.005  4866  5059 I BaseComp.main: ========================= All component started successed!!!! =======================
+02-05 02:17:44.005  4866  5059 E CIntCompCommun: logclt_BaseComp MCSP_SrvEvt_Init enter
+02-05 02:17:44.006  4866  5059 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1896 android.content.ContextWrapper.bindService:812 common.mcspevtmanager.McspCompCommun.MCSP_SrvEvt_Init:43 com.ztestb.basecomp.BaseComponentServiceJni.BaseCompStart:-2 com.ztestb.basecomp.d.run:7 
+02-05 02:17:44.009  3655  4560 W [FrameworkCustomization]OomAdjusterImpl: com.ztestb.basecomp, change oom_adj=-14
+02-05 02:17:44.011  4866  5089 E BaseComp.Java: getProductCfg tmpvalue:4301
+02-05 02:17:44.013  4866  5089 E BaseComp.Java: getProductCfg tmpvalue:5
+02-05 02:17:44.013  4866  5059 I McspCompCommun: logclt_BaseComp wait compcommun Service Connectioned spend 0ms
+02-05 02:17:44.013  4866  5059 I compcommun: [addService] iBinder: logclt_BaseComp
+02-05 02:17:44.013  4866  5059 E CIntCompCommun: logclt_BaseComp MCSP_SrvEvt_Init out
+02-05 02:17:44.013  4866  5059 E BaseComp.mcsplog_debug: [38] entering DoLogRegister
+02-05 02:17:44.014  4866  5059 E BaseComp.mcsplog_debug: [228] RegisterModule, module=BaseComp, tags=eventmanager,mcspcfg,dispatcher,logsvr,mcsplog_debug,
+02-05 02:17:44.014  4866  5059 E BaseComp.mcsplog_debug: [264] s_iDefaultLogLevel=6
+02-05 02:17:44.014  4866  5059 E BaseComp.mcsplog_debug: [431] add mod=BaseComp, tags=eventmanager,mcspcfg,dispatcher,logsvr,mcsplog_debug,, idx=0
+02-05 02:17:44.014  4866  5059 I compcommun: [subscribeEvent]: logclt_BaseComp, EventNum: 1
+02-05 02:17:44.014  4866  5059 E BaseComp.BaseComp.main: ======================= MCSP_LOG_INIT successed!!!! =======================

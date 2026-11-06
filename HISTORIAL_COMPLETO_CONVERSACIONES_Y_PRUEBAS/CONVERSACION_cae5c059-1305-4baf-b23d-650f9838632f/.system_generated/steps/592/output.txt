@@ -1,0 +1,53 @@
+Command exited with code 0.
+
+Command output:
+
+> LEGENDS\src\context\GymContext.tsx:70:  currentRole: UserRole;
+> LEGENDS\src\context\GymContext.tsx:71:  setCurrentRole: (role: UserRole) => void;
+  LEGENDS\src\context\GymContext.tsx:72:  roles: RoleDefinition[];
+  LEGENDS\src\context\GymContext.tsx:73:  updateRolePermissions: (roleId: UserRole, permissions: 
+Partial<RolePermissions>) => void;
+> LEGENDS\src\context\GymContext.tsx:179:  const [currentRole, setCurrentRoleState] = useState<UserRole>(() => 
+storage.getActiveRole());
+  LEGENDS\src\context\GymContext.tsx:180:  const [members, setMembers] = useState<Client[]>(() => 
+storage.getMembers());
+  LEGENDS\src\context\GymContext.tsx:181:  const membersRef = useRef<Client[]>(members);
+> LEGENDS\src\context\GymContext.tsx:913:    setCurrentRoleState(found.role);
+  LEGENDS\src\context\GymContext.tsx:914:    storage.saveActiveRole(found.role);
+  LEGENDS\src\context\GymContext.tsx:915:    storage.addSecurityAuditLog({
+> LEGENDS\src\context\GymContext.tsx:938:      setCurrentRoleState(found.role);
+  LEGENDS\src\context\GymContext.tsx:939:      storage.saveActiveRole(found.role);
+  LEGENDS\src\context\GymContext.tsx:940:      sounds.playCheckoutSuccess();
+> LEGENDS\src\context\GymContext.tsx:966:  const setCurrentRole = (role: UserRole) => {
+  LEGENDS\src\context\GymContext.tsx:967:    // Bloquear escalaci�n de privilegios: solo un Administrador real puede 
+simular otros roles
+  LEGENDS\src\context\GymContext.tsx:968:    if (currentUserRef.current && currentUserRef.current.role !== 'admin' && 
+role !== currentUserRef.current.role) {
+> LEGENDS\src\context\GymContext.tsx:971:    setCurrentRoleState(role);
+  LEGENDS\src\context\GymContext.tsx:972:    storage.saveActiveRole(role);
+  LEGENDS\src\context\GymContext.tsx:973:  };
+> LEGENDS\src\context\GymContext.tsx:1058:        cashierName: currentUser ? currentUser.fullName : (currentRole === 
+'admin' ? 'Gerente / Admin' : 'Recepci�n'),
+> LEGENDS\src\context\GymContext.tsx:1059:        cashierRole: currentRole,
+  LEGENDS\src\context\GymContext.tsx:1060:        notes: `Inscripci�n inicial: ${newMember.membership.planName}`,
+  LEGENDS\src\context\GymContext.tsx:1061:        saleType: 'membership',
+> LEGENDS\src\context\GymContext.tsx:1236:      cashierName: currentUser ? currentUser.fullName : (currentRole === 
+'admin' ? 'Gerente / Admin' : 'Recepci�n'),
+> LEGENDS\src\context\GymContext.tsx:1237:      cashierRole: currentRole,
+  LEGENDS\src\context\GymContext.tsx:1238:      notes: `Renovaci�n de membres�a ${planName}`,
+  LEGENDS\src\context\GymContext.tsx:1239:      saleType: 'membership',
+> LEGENDS\src\context\GymContext.tsx:1411:      cashierName: currentUser ? currentUser.fullName : (currentRole === 
+'admin' ? 'Gerente / Admin' : 'Cajero Recepci�n'),
+> LEGENDS\src\context\GymContext.tsx:1412:      cashierRole: currentRole,
+  LEGENDS\src\context\GymContext.tsx:1413:      notes,
+  LEGENDS\src\context\GymContext.tsx:1414:      saleType: 'store',
+> LEGENDS\src\context\GymContext.tsx:1646:      openedBy: currentUser ? currentUser.fullName : (currentRole === 
+'admin' ? 'Administrador' : 'Recepcionista'),
+  LEGENDS\src\context\GymContext.tsx:1647:      initialCash,
+  LEGENDS\src\context\GymContext.tsx:1648:      totalSalesCash: 0,
+> LEGENDS\src\context\GymContext.tsx:1956:      currentRole,
+> LEGENDS\src\context\GymContext.tsx:1957:      setCurrentRole,
+  LEGENDS\src\context\GymContext.tsx:1958:      roles,
+  LEGENDS\src\context\GymContext.tsx:1959:      updateRolePermissions,
+
+

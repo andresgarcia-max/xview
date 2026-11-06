@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:905:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:906:            <div className="relative z-10 p-3.5 
+rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:907:              <h3 className="text-xl sm:text-2xl 
+font-black text-white uppercase tracking-wider group-hover:text-amber-300 transition-colors 
+drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:939:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:940:            <div className="relative z-10 p-3.5 
+rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-emerald-400/40 transition-colors">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:941:              <h3 className="text-xl sm:text-2xl 
+font-black text-white uppercase tracking-wider group-hover:text-emerald-300 transition-colors 
+drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:973:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:974:            <div className="relative z-10 p-3.5 
+rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:975:              <h3 className="text-xl sm:text-2xl 
+font-black text-white uppercase tracking-wider group-hover:text-amber-300 transition-colors 
+drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+
+

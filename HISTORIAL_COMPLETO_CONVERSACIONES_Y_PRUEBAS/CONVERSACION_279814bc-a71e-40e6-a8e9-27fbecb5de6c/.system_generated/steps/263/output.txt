@@ -1,0 +1,239 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1:import cardClienteNuevo from 
+'../../assets/card-cliente-nuevo.jpg';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:12:import { TerminalSyncModal, getTerminalConfig, 
+saveTerminalConfig, TerminalConfig } from './TerminalSyncModal';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:48:import { Client, MembershipPlanType, PaymentMethod } from 
+'../../types';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:50:import { checkServerHealth, fetchMembersFromServer } from 
+'../../services/syncService';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:63:    members, 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:65:    forceSync, 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:66:    replaceMembers, 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:67:    syncMembersWithServer, 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:68:    addMember, 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:74:  const [lastVerifiedClient, setLastVerifiedClient] = 
+useState<{
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:87:  const [showNewMemberModal, setShowNewMemberModal] = 
+useState(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:91:  // New client form state (Nombre, Cumplea�os, Edad, 
+Correo, Mensualidad, Opci�n de Pago)
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:92:  const [newClientName, setNewClientName] = useState('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:93:  const [newClientBirthDate, setNewClientBirthDate] = 
+useState('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:94:  const [newClientAge, setNewClientAge] = useState<number 
+| string>('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:95:  const [newClientEmail, setNewClientEmail] = useState('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:96:  const [newClientPlan, setNewClientPlan] = 
+useState('Mensualidad Estǭndar');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:97:  const [newClientPaymentMethod, 
+setNewClientPaymentMethod] = useState<PaymentMethod>('cash');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:98:  const [newClientId, setNewClientId] = useState('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:99:  const [newClientPhone, setNewClientPhone] = useState('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:100:  const [newClientFingerprintEnrolled, 
+setNewClientFingerprintEnrolled] = useState(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:117:    setNewClientBirthDate(dateStr);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:128:          setNewClientAge(age);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:136:    setNewClientAge(val);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:138:    if (!isNaN(num) && num > 0 && num < 120 && 
+!newClientBirthDate) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:140:      setNewClientBirthDate(`${approxYear}-01-01`);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:145:  const [visitClientName, setVisitClientName] = 
+useState('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:162:  const [isSyncing, setIsSyncing] = useState(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:163:  const [lastSyncTime, setLastSyncTime] = useState<Date | 
+null>(new Date());
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:176:  // Sync members from server
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:177:  const syncWithServer = useCallback(async (): 
+Promise<boolean> => {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:183:      const res = await 
+fetchMembersFromServer(config.serverUrl, serverVersionRef.current);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:186:        if (res.hasChanges || (res.members && 
+res.members.length > 0 && serverVersionRef.current === 0)) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:187:          if (res.members && res.members.length > 0) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:188:            replaceMembers(res.members);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:190:            setLastSyncTime(new Date());
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:203:  }, [config.serverUrl, replaceMembers]);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:205:  // Periodic polling for new/deleted/updated members
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:207:    syncWithServer();
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:208:    if (config.autoSync) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:209:      const intervalSec = Math.max(2, 
+config.syncIntervalSeconds || 3);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:211:        syncWithServer();
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:215:  }, [syncWithServer, config.autoSync, 
+config.syncIntervalSeconds]);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:239:  const announceAccess = (clientName: string, granted: 
+boolean) => {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:246:        ? `Bienvenido ${clientName}, acceso concedido` 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:247:        : `Acceso restringido para ${clientName}`;
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:259:  // Handle Registration of New Member
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:268:      setNewClientFingerprintEnrolled(true);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:285:  const handleRegisterNewMember = (e?: React.FormEvent) 
+=> {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:287:    const trimmedName = newClientName.trim();
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:291:    const selectedPlanObj = availablePlans.find(p => 
+p.name === newClientPlan || p.id === newClientPlan);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:292:    const planType: MembershipPlanType = selectedPlanObj 
+? (selectedPlanObj.type as MembershipPlanType) : 'monthly';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:295:    const planName = selectedPlanObj ? 
+selectedPlanObj.name : newClientPlan;
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:297:    const memberId = newClientId.trim() || ('MEM-' + 
+Math.floor(100 + Math.random() * 900));
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:298:    const finalBirthDate = newClientBirthDate || 
+(newClientAge ? `${new Date().getFullYear() - Number(newClientAge)}-01-01` : '1998-01-01');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:299:    const finalEmail = newClientEmail.trim() || 
+`${memberId.toLowerCase()}@legendsgym.com`;
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:301:    const paymentLabel = newClientPaymentMethod === 
+'cash' 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:303:      : newClientPaymentMethod === 'card' 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:307:    const clientData: Partial<Client> = {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:308:      id: memberId,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:310:      documentId: newClientId.trim() || 
+`${Math.floor(10000000 + Math.random() * 90000000)}`,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:312:      phone: newClientPhone.trim() || '+52 55 0000 0000',
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:315:      biometricRegistered: newClientFingerprintEnrolled,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:316:      biometricHash: `BIO_HASH_${memberId}`,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:317:      biometricTemplate: `FP_THUMB_RIGHT_${memberId}`,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:318:      membership: {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:327:      medicalNotes: `Inscripci�n desde Terminal. Edad: 
+${newClientAge || 'N/A'}. MǸtodo de pago: ${paymentLabel}.`
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:330:    if (addMember) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:331:      addMember(clientData, newClientPaymentMethod);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:333:      const fullMember: any = {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:334:        ...clientData,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:340:        biometricEnrolled: newClientFingerprintEnrolled,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:342:          enrolled: newClientFingerprintEnrolled,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:348:      replaceMembers([fullMember, ...members]);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:351:    setShowNewMemberModal(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:352:    setNewClientName('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:353:    setNewClientBirthDate('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:354:    setNewClientAge('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:355:    setNewClientEmail('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:356:    setNewClientId('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:357:    setNewClientPhone('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:358:    setNewClientPaymentMethod('cash');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:359:    setNewClientFingerprintEnrolled(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:366:    setLastVerifiedClient({
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:387:      setLastVerifiedClient(null);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:393:    const name = visitClientName.trim() || 'Visitante del 
+D�a';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:396:    setLastVerifiedClient({
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:410:    setVisitClientName('');
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:411:    setTimeout(() => { setScanStatus('idle'); 
+setLastVerifiedClient(null); }, 5000);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:440:    setLastVerifiedClient(null);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:442:    // Refresh member list from server in parallel during 
+the scan animation
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:443:    const syncPromise = syncWithServer().catch(() => {});
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:445:    setTimeout(async () => {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:447:        syncPromise,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:459:        if (result.client) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:460:          announceAccess(result.client.fullName, true);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:461:          setLastVerifiedClient({
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:462:            name: result.client.fullName,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:463:            plan: result.client.membership.planName,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:464:            daysRemaining: 
+result.client.membership.daysRemaining,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:466:            avatarUrl: 
+getGymAvatar(result.client.fullName, result.client.avatarUrl),
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:483:        if (result.client) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:484:          announceAccess(result.client.fullName, false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:485:          setLastVerifiedClient({
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:486:            name: result.client.fullName,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:487:            plan: result.client.membership.planName,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:488:            daysRemaining: 
+result.client.membership.daysRemaining,
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:490:            avatarUrl: 
+getGymAvatar(result.client.fullName, result.client.avatarUrl),
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:495:          setLastVerifiedClient({
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:509:        setLastVerifiedClient(null);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:538:      if (showNewMemberModal || showVisitModal || 
+showDirectAccessModal || isConfigModalOpen || isHistoryModalOpen) {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:539:        setShowNewMemberModal(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:585:  }, [scanStatus, isFullScreen, showBiometricDashboard, 
+showNewMemberModal, showVisitModal, showDirectAccessModal, isConfigModalOpen, isHistoryModalOpen, onExitFullScreen]);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:661:  // Manual sync trigger
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:662:  const handleManualSync = async (): Promise<boolean> => {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:663:    setIsSyncing(true);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:666:      const connected = await syncWithServer();
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:667:      setLastSyncTime(new Date());
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:668:      setIsSyncing(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:671:      setIsSyncing(false);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:680:    syncWithServer();
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:755:      {/* Verified Client Alert Banner */}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:756:      {lastVerifiedClient && scanStatus !== 'idle' && (
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:758:          lastVerifiedClient.status === 'granted'
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:764:              src={getGymAvatar(lastVerifiedClient.name, 
+lastVerifiedClient.avatarUrl)} 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:765:              alt={lastVerifiedClient.name} 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:769:              <h4 className="text-base font-black 
+text-white">{lastVerifiedClient.name}</h4>
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:770:              <p className="text-xs 
+text-gray-200">{lastVerifiedClient.reason}</p>
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:771:              {lastVerifiedClient.plan && (
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:773:                  Plan: {lastVerifiedClient.plan}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:779:            onClick={() => { setLastVerifiedClient(null); 
+setScanStatus('idle'); }}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:797:          {/* Opci�n 1: CLIENTE NUEVO */}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:799:            onClick={() => setShowNewMemberModal(true)}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:811:                Cliente Nuevo
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:886:      {/* MODAL 1: REGISTRO CLIENTE NUEVO */}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:887:      {showNewMemberModal && (
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:911:                      Registro de Cliente Nuevo
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:923:                onClick={() => 
+setShowNewMemberModal(false)}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:931:            <form onSubmit={handleRegisterNewMember} 
+className="relative z-10 space-y-4">
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:942:                  value={newClientName}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:943:                  onChange={(e) => 
+setNewClientName(e.target.value)}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:959:                    value={newClientBirthDate}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:978:                      value={newClientAge}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:999:                    value={newClientEmail}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1000:                    onChange={(e) => 
+setNewClientEmail(e.target.value)}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1011:                    value={newClientPhone}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1012:                    onChange={(e) => 
+setNewClientPhone(e.target.value)}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1030:                    const isSelected = newClientPlan === 
+plan.name;
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1034:                        onClick={() => 
+setNewClientPlan(plan.name)}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1072:                    onClick={() => 
+setNewClientPaymentMethod('cash')}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1074:                      newClientPaymentMethod === 'cash'
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1084:                    onClick={() => 
+setNewClientPaymentMethod('card')}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1086:                      newClientPaymentMethod === 'card'
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1096:                    onClick={() => 
+setNewClientPaymentMethod('transfer')}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1098:                      newClientPaymentMethod === 
+'transfer'
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1116:                  newClientFingerprintEnrolled
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1123:                    newClientFingerprintEnrolled 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1127:                    {newClientFingerprintEnrolled ? 
+<CheckCircle2 className="w-6 h-6 text-emerald-400" /> : <Fingerprint className="w-6 h-6 text-amber-400" />}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1135:                        newClientFingerprintEnrolled
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1139:                        {newClientFingerprintEnrolled ? 
+'? Enrolada' : 'Pendiente'}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1143:                      {newClientFingerprintEnrolled 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1157:                    newClientFingerprintEnrolled 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1162:                  {newClientFingerprintEnrolled ? '? Ver 
+Escǭner' : '? Abrir Escǭner'}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1170:                  onClick={() => 
+setShowNewMemberModal(false)}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1229:            {/* Client summary pill if name exists */}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1230:            {newClientName.trim() && (
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1232:                <span className="text-gray-300">Socio a 
+enrolar: <strong className="text-white font-bold">{newClientName}</strong></span>
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1233:                <span className="text-cyan-400 font-mono 
+font-bold">{newClientPlan}</span>
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1603:      <TerminalSyncModal
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1608:        onManualSync={handleManualSync}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1609:        isSyncing={isSyncing}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1610:        lastSyncTime={lastSyncTime}
+
+

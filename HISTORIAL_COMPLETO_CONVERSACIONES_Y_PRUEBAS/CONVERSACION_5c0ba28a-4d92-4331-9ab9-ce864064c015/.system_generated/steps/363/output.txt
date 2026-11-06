@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+SUCCESS: 1. SISTEMA_ERP_ADMINISTRADOR.exe in accesos directos launched FitnessLegends! PID: 3596 7312 14376 14848

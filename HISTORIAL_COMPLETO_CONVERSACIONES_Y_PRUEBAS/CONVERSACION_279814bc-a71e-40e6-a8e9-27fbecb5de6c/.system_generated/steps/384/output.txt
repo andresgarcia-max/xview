@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+@echo not found, searching for other batch commands

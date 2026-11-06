@@ -1,0 +1,128 @@
+Command exited with code 0.
+
+Command output:
+=== MENU AT 3768 (Set USB Status Success!) ===
+  Zip: Found `Disk Start Number` field in extra block. Ignoring it.
+  Invalid entry name
+  bootable/recovery/recovery_main.cpp
+  Rebooting to recovery...
+  Entering fastboot
+  Can't read 
+  wipe_ab
+  otg_device
+  Set USB Status Success!
+  %s=%s
+  do not need to install app,need to remove %s
+  %d: ERROR!!! MD5 Mismatched!!!!
+  WifiMacAddr
+  hdcp_key
+  bootable/recovery/zte/zte_inifile.c
+  [%s][%d]%s content is illegal!
+  Supported API: %d
+    Done
+  /dev/block/mmcblk
+  Failed to write to 
+  project_quota,extra_attr
+  critical error: %s: failed to seek to block group descriptors: %s
+  critical error: %s: failed to alloc buffer
+  in libfs_mgr 
+=== MENU AT 4447 (Set USB Status Failed!) ===
+  %s %c %s %5d %5llu %s:%u] 
+  %s:%u] 
+  fastboot
+  unknown
+  dup2 stderr failed
+  Boot command: 
+  battery capacity is not enough for installing package: %d%% needed
+   Power off
+  Set USB Status Failed!
+  <6>systemcontrol: [ubootenv] update value name [%s]: value [%s] 
+  ota_is_base =%d and to be changed to 1
+  ========> led_blink, type = %d!
+  [PreUpdateConfig]-input pcFBuf not available
+  FfsRead return failed, ret = %d
+  fopen file(%s) failed, error(%d)%s
+  open %s failed file_len = %d
+  calloc newfileBuf failed!
+  the file is not encrypt!
+  write download config to file error.
+  %s_lock
+  [%s][%d]%s,%s exist! remove tmpfile done!
+  [%s][%d]get_ini_string: gotoapp failed when filename=%s, appname=%s
+  [%s][%d]error stat failed!
+  Failed to create 
+=== MENU AT 5511 (Reboot system now) ===
+  post-build-incremental
+  CALLBACK_DIED
+  INVALID_ARGUMENT
+  RESOURCE_EXHAUSTED
+  ro.boot.quiescent
+  DISCHARGING
+  /dev/socket/
+  /cache/recovery/last_command
+  Reboot system now
+  Choose a package to install:
+  ro.build.version.sdk
+  Wipe all user data?
+    THIS CAN NOT BE UNDONE!
+  Reboot to bootloader
+  /merge_state
+  sys.usb.state
+  Select file to view
+  recovery.wipe
+  DEADLINE_EXCEEDED
+  ro.boot.verifiedbootstate
+  /dev/nand_env
+  /system/etc/security/otacerts.zip
+  ALREADY_EXISTS
+  /cache/recovery/command
+=== MENU AT 5516 (Reboot to bootloader) ===
+  DISCHARGING
+  /dev/socket/
+  /cache/recovery/last_command
+  Reboot system now
+  Choose a package to install:
+  ro.build.version.sdk
+  Wipe all user data?
+    THIS CAN NOT BE UNDONE!
+  Reboot to bootloader
+  /merge_state
+  sys.usb.state
+  Select file to view
+  recovery.wipe
+  DEADLINE_EXCEEDED
+  ro.boot.verifiedbootstate
+  /dev/nand_env
+  /system/etc/security/otacerts.zip
+  ALREADY_EXISTS
+  /cache/recovery/command
+  ro.build.expect.baseband
+  ro.build.ab_update
+  ro.boot.slot_suffix
+  Wipe cache?
+  /sdcard
+=== MENU AT 5554 (Enter recovery) ===
+  UNAVAILABLE
+  ro.product.device
+  ro.secure
+  recovery/last_kmsg
+  /cache/recovery/log
+  Android Recovery
+    Your device may fail to boot if you reboot or power off now.
+  Reboot System Now?
+  Enter recovery
+  /cache/recovery/last_install
+  /res/images
+  ro.build.version.security_patch
+  Try again
+  UNAUTHENTICATED
+  ro.boot.dynamic_partitions
+  Power off
+  ro.serialno
+  ro.revision
+  ro.build.version.incremental
+  recovery/last_log
+  --reason=update_in_progress
+  ota-downgrade
+  NOT_CHARGING
+  /dev/block/env

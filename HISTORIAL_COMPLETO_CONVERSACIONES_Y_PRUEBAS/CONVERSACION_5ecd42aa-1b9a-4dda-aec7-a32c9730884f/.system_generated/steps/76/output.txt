@@ -1,0 +1,8 @@
+Command exited with code 1.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\AppUpgradeService\jadx_src
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\jadx_src
+C:\Users\andre\OneDrive\Desktop\xview\rea\scripts\lib\jadx-configuration-inspection.d.mts
+C:\Users\andre\OneDrive\Desktop\xview\rea\scripts\lib\jadx-configuration-inspection.mjs
+C:\Users\andre\OneDrive\Desktop\xview\rea\src\android\JadxAnalysis.ts

@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\accesos directos
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     28/10/2026  05:44 p. m.          40448 1. SISTEMA_ERP_ADMINISTRADOR.exe                                     
+-a---l     28/10/2026  05:44 p. m.          40448 2. TERMINAL_TORNIQUETE_ACCESO.exe                                    
+-a---l     24/10/2026  10:52 a. m.          87405 3. CARTERA_DE_CLIENTES.html                                          
+-a---l     24/10/2026  10:53 a. m.           2402 4. VINCULAR_EQUIPOS_RED_LAN.bat                                      
+-a---l     28/10/2026  05:44 p. m.          40448 CONTROL_DE_ACCESO.exe                                                
+-a---l     24/10/2026  10:53 a. m.           4487 LEEME_INSTRUCCIONES_VINCULACION.txt                                  
+-a---l     28/10/2026  05:44 p. m.          39936 SISTEMA_ERP.exe                                                      
+
+

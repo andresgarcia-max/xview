@@ -1,0 +1,1 @@
+Made 1 replacement in c:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\ProgramaPerfecto.cs starting at line 716 (+7/-101 lines).

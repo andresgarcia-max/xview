@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+295 : 
+296 :       const rawLock = localStorage.getItem(KEYS.ACTIVE_SESSION_LOCK);
+297 :       const legacyUser = localStorage.getItem(KEYS.CURRENT_USER);
+298 :       const tabToken = sessionStorage.getItem(KEYS.TAB_SESSION_TOKEN);
+299 :       const tabUserRaw = sessionStorage.getItem(KEYS.TAB_SESSION_USER);
+300 :       const winName = window.name || '';
+301 : 
+302 :       // If legacy localStorage session exists without a valid tab lock, kill it immediately
+303 :       if (legacyUser && !rawLock) {
+304 :         localStorage.removeItem(KEYS.CURRENT_USER);
+305 :       }
+306 : 
+307 :       if (rawLock) {
+308 :         const lock = JSON.parse(rawLock);
+309 :         const isSameTab =

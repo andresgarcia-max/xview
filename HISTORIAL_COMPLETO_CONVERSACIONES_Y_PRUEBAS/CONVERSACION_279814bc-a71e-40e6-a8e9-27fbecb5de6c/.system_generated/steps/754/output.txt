@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     28/10/2026  05:46 p. m.                SISTEMA_ERP_ADMINISTRADOR                                            
+
+

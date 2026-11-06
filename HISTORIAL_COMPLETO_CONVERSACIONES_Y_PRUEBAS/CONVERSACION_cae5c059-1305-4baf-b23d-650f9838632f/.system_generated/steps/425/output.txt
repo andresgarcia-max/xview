@@ -1,0 +1,64 @@
+Command exited with code 0.
+
+Command output:
+
+LineNumber Line                                                                                                        
+---------- ----                                                                                                        
+        91   // New client form state (Nombre, Cumplea�os, Edad, Correo, Mensualidad, Opci�n de Pago)                
+        96   const [newClientPlan, setNewClientPlan] = useState('Mensualidad Estǭndar');                              
+       109         { id: 'CAT-PLAN-002', name: 'Mensualidad Estǭndar', type: 'monthly', durationDays: 30, price: 85...
+       112         { id: 'CAT-PLAN-004', name: 'Membres�a Black VIP Anual', type: 'annual', durationDays: 365, pric...
+       327       medicalNotes: `Inscripci�n desde Terminal. Edad: ${newClientAge || 'N/A'}. MǸtodo de pago: ${paym...
+       361     // Announce out loud as requested: "Por favor dir�jase al encargado"                                   
+       362     speakCustomMessage("Por favor dir�jase al encargado");                                                 
+       370       reason: 'Registro completado �?� Por favor dir�jase al encargado',                                   
+       393     const name = visitClientName.trim() || 'Visitante del D�a';                                            
+       398       plan: 'Pase por 1 D�a',                                                                              
+       497             plan: 'Sin Membres�a',                                                                         
+       689       {/* BOT�"N PANTALLA COMPLETA (VISIBLE SOLO CUANDO NO EST�? EN PANTALLA COMPLETA) */}                  
+       703             title="Cambiar imagen de fondo (Mancuernas / Estudio / Ne�n)"                                  
+       734         {/* Spotlight cǭlido ǭmbar/dorado centrado exactamente en el logo GYM LEGENDS en la pared para ...
+       738         {/* Vi�eta sutil superior */}                                                                      
+       797           {/* Opci�n 1: CLIENTE NUEVO */}                                                                  
+       806               <span className="tracking-wider">Inscripci�n</span>                                          
+       825           {/* Opci�n 2: QUIERO VISITA */}                                                                  
+       834               <span className="tracking-wider">Pase del D�a</span>                                         
+       853           {/* Opci�n 3: YA TENGO MEMBRES�?A (ACCESO DIRECTO) */}                                           
+       867                 Ya Tengo Membres�a                                                                         
+       914                       Inscripci�n                                                                          
+       918                     Ingresa tus datos personales, mensualidad y opci�n de pago                             
+       944                   placeholder="Ej. Andrea Garc�a Morales"                                                  
+       949               {/* 2 & 3. Fecha de Cumplea�os y Edad */}                                                    
+       954                     <span>Fecha de Cumplea�os *</span>                                                     
+       970                     <span className="text-[10px] text-amber-400/90 font-medium">(Automǭtica)</span>        
+       984                       a�os                                                                                 
+       990               {/* 4. Correo Electr�nico y TelǸfono */}                                                    
+       995                     <span>Correo Electr�nico (Opcional)</span>                                             
+      1007                     TelǸfono / WhatsApp                                                                    
+      1054                             {plan.durationDays} d�as                                                       
+      1063               {/* 6. Opci�n de Pago */}                                                                    
+      1067                   <span>Opci�n de Pago *</span>                                                            
+      1132                         Escǭner BiomǸtrico de Huella                                                      
+      1144                         ? `? Huella vinculada (${selectedFinger}) �?� Clic para ver escǭner / re-escanear` 
+      1145                         : 'Haz clic aqu� para abrir el dashboard y registrar tu huella en grande'}         
+      1162                   {newClientFingerprintEnrolled ? '? Ver Escǭner' : '? Abrir Escǭner'}                    
+      1189       {/* MODAL: DASHBOARD DEL ESC�?NER BIOM�%TRICO EN GRANDE */}                                           
+      1204                     Dashboard BiomǸtrico de Huella                                                         
+      1207                     Estaci�n de enrolamiento �ptico en alta resoluci�n �?� 500 DPI                       
+      1243                 {['Pulgar Derecho', '�?ndice Derecho', 'Pulgar Izquierdo', '�?ndice Izquierdo'].map((f) => (
+      1322                       SENSOR LISTO �?� TOCA EL ESC�?NER O PULSA REGISTRARME                                 
+      1338                       ? HUELLA REGISTRADA CON �%XITO (CALIDAD 99%)                                          
+      1348                 <p className="text-[10px] text-gray-400 uppercase font-semibold">Calidad de Se�al</p>      
+      1349                 <p className="text-xs font-black text-emerald-400 mt-0.5">98.6% �"ptima</p>                 
+      1356                 <p className="text-[10px] text-gray-400 uppercase font-semibold">Resoluci�n</p>            
+      1357                 <p className="text-xs font-black text-amber-400 mt-0.5">508 DPI �"ptico</p>                 
+      1428                     Pase de Visita por 1 D�a                                                               
+      1430                   <p className="text-xs text-gray-300">Ingreso rǭpido para entrenamiento diario</p>        
+      1474       {/* MODAL 3: YA TENGO MEMBRES�?A (ACCESO DIRECTO) */}                                                 
+      1493                     Validaci�n de Socio Activo                                                             
+      1495                   <p className="text-xs text-gray-300">Posa tu huella o ingresa tu cǸdula / ID</p>         
+      1531                     alt="Huella BiomǸtrica Ne�n Verde"                                                    
+      1550                   SENSOR BIOM�%TRICO ACTIVO                                                                 
+      1560               <label className="text-xs font-bold text-gray-300 block mb-1.5">O escribe tu cǸdula o ID d...
+
+

@@ -1,0 +1,37 @@
+The search for ""ROG STRIX B550-A GAMING" USB ports specifications chipset CPU rear I/O" returned the following summary:
+The USB port specifications for the **ASUS ROG Strix B550-A Gaming** motherboard, categorized by controller source (CPU vs. Chipset) and location (Rear I/O vs. Internal Headers), are detailed below:
+
+### Summary of USB Ports
+* **Total USB Ports:** 14 ports (8 on the rear panel, 6 available via internal headers)[1]
+
+---
+
+### 1. Rear I/O Panel Specifications (8 Ports Total)
+* **From AMD CPU:**
+  * **2 x USB 3.2 Gen 2** ports[2] (Up to 10 Gbps) — *1 x Type-A (red) and 1 x USB Type-C®*[2]
+  * **2 x USB 3.2 Gen 1** ports[3] (Up to 5 Gbps) — *Type-A*
+* **From AMD B550 Chipset:**
+  * **2 x USB 3.2 Gen 1** ports[3] (Up to 5 Gbps) — *Type-A*
+  * **2 x USB 2.0** ports[2] (Up to 480 Mbps) — *Type-A*
+
+---
+
+### 2. Internal USB Headers (6 Ports Total via Chassis/Add-ins)
+* **From AMD B550 Chipset:**
+  * **1 x USB 3.2 Gen 1 header**[4] — supports an additional **2 x USB 3.2 Gen 1** ports (5 Gbps) for front chassis panels[4].
+  * **2 x USB 2.0 headers**[4] — support an additional **4 x USB 2.0** ports (480 Mbps) for front panel or internal device connections[5][4].
+
+---
+
+### Quick Architecture Overview
+* **CPU-controlled ports** handle high-speed devices directly connected to the processor lanes (giving you the fast 10Gbps Gen 2 Type-A and Type-C ports on the back).
+* **Chipset-controlled ports** (via the AMD B550 PCH) manage the remaining rear I/O connections and all internal headers to balance data paths and bandwidth across the board.
+
+Sources:
+[1] [evetech.co.za](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnw_HNZnG7XcIxC8n8iD2QftrCpyhfRwHGtkXaGuaDa575J0JPI_UU1fhL7lw_1nH30GmXeExwcP3iOj6XvSV5rzx2FO2_ysvhDilVPJ_SxNUI7KtPRLO75IHBF5RXXERD1FpJWcwl1-iburSaz0MQC2b8x3nWpvrFifqptLRVyGZbu3Xh_12GPG5msn0A)
+[2] [asus.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5u5ItZ8YOu4yrC5M1OTZ4UoDI5idzgKdBmLD0Xi1skI1IIoisVXy_N1wzwgyCqwe19feEkIfHT4v0DP4qztsVmtSMUAoXJykZKCz-HK3zbIMmQk6Q4M54X5PPtRoLsU05tUtg65vVKUS2DuGZ1NjzbxBNrjDzBVs6J39USUnLLA==)
+[3] [asus.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFin6Yd7NYQ7EeBP3jt_2UWIN1_itkfyr4VkgpBCJH370p56XC7Miba6pwZFue717cKqkxWCfwhf_J2oGYkBHNpTkKpIsqQDIWxLCVBI1p458t4YcXg-3bp2WzKAZeGIdsl_taFWejyixx6jTR0cPWms_U8v9ZZlC4OpoEQXBBO0lOMIue1)
+[4] [pcbuilder.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqk9Vn_daeeKvsYoynzSf4aP0fr4QlGBge9Inpp9gkDlimc1eyVwv9jMmcTmtu-BrmtbtymQDnY0rGiJUVmRXDdVPtIl9J5pezqndu0SmRA0BmgmKqP8dWb-FzFVnlcUefiweSrfs57cwjG38I0pL4jq1mfox4PwNjoBD_bCjwk3wRGGKqtk4=)
+[5] [asus.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGplTVmE5Yii3ex3cToarpxetunwFPAI3MMT8mLr_7iXp0Pz9PZZqOWaSdPmZD5dH0Rm48LUGUBIqdbB-ik5Utgz0hT3lu-8dw5ZSbgG_IktSmL_wAiAyOD_bmG9JAwAdho1NOnU7LlA_Fy6XVnJmVXESzST8e5JoW_vGplhwWytETpEcEknIreTXSJVOLfgJ3PQJqY5Vl-Rn78m20Vx0Qn0yzOip3nSLDX7w==)
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

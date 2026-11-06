@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+
+
+Algorithm : SHA256
+Hash      : C625AA138151D9DC13067F003A0A6AB975CAB678C2FB79BB7505FD742B75E021
+Path      : C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\gym-background.jpg
+
+Algorithm : SHA256
+Hash      : C625AA138151D9DC13067F003A0A6AB975CAB678C2FB79BB7505FD742B75E021
+Path      : C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym-background.jpg
+
+Algorithm : SHA256
+Hash      : 792E950A61385759427CD7D0260E96FEF3DD29923D5B9A80BED62E48D6384623
+Path      : C:\Users\andre\OneDrive\Desktop\gym\LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg
+
+
+

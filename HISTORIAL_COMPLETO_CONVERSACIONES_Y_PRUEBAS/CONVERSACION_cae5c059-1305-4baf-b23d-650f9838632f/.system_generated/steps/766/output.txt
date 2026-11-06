@@ -1,0 +1,13 @@
+Command exited with code 1.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\AppData\Local\Programs\Git\bin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     22/10/2026  09:11 a. m.          44872 git.exe                                                              
+
+

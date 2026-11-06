@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+warning: in the working copy of 'DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/FIX_REGISTRO_AMD_B550_XHCI_Y_USBFLAGS_XVIEW.reg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/CONFIGURAR_ASUS_ROG_STRIX_B550_PARA_XVIEW.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/EJECUTAR_EN_MI_PC_ASUS_ROG_STRIX_B550.bat', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/GUIA_ASUS_ROG_STRIX_B550_A_GAMING_XVIEW.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Drivers_Android_Fastboot_ADB/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/FIX_REGISTRO_AMD_B550_XHCI_Y_USBFLAGS_XVIEW.reg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/CONFIGURACION_USBFLAGS_XVIEW_MACHO_A_MACHO.reg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/FIX_REGISTRO_AMD_B550_XHCI_Y_USBFLAGS_XVIEW.reg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/CONFIGURAR_ASUS_ROG_STRIX_B550_PARA_XVIEW.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/EJECUTAR_EN_MI_PC_ASUS_ROG_STRIX_B550.bat', LF will be replaced by CRLF the next time Git touches it
+[main 9424aeb] Agregar configuracion especial y parche xHCI (SkipBOSDescriptorQuery) para tarjeta madre ASUS ROG STRIX B550-A GAMING
+ 9 files changed, 1000 insertions(+)
+ create mode 100644 DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/FIX_REGISTRO_AMD_B550_XHCI_Y_USBFLAGS_XVIEW.reg
+ create mode 100644 DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/CONFIGURAR_ASUS_ROG_STRIX_B550_PARA_XVIEW.ps1
+ create mode 100644 DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/EJECUTAR_EN_MI_PC_ASUS_ROG_STRIX_B550.bat
+ create mode 100644 DRIVERS_USB_MACHO_A_MACHO_COMPLETOS/GUIA_ASUS_ROG_STRIX_B550_A_GAMING_XVIEW.md
+ create mode 100644 Drivers_Android_Fastboot_ADB/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/FIX_REGISTRO_AMD_B550_XHCI_Y_USBFLAGS_XVIEW.reg
+ create mode 100644 programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/CONFIGURACION_USBFLAGS_XVIEW_MACHO_A_MACHO.reg
+ create mode 100644 programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/8_REGISTRO_USBFLAGS_Y_ENERGIA_USB/FIX_REGISTRO_AMD_B550_XHCI_Y_USBFLAGS_XVIEW.reg
+ create mode 100644 programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/CONFIGURAR_ASUS_ROG_STRIX_B550_PARA_XVIEW.ps1
+ create mode 100644 programa perfecto/4_DRIVERS_Y_GUI_WINDOWS/EJECUTAR_EN_MI_PC_ASUS_ROG_STRIX_B550.bat
+To https://github.com/andresgarcia-max/xview.git
+   2cda631..9424aeb  main -> main

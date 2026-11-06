@@ -1,0 +1,62 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                           LastWriteTime            
+----                                                           -------------            
+android_winusb.inf_amd64_0d73b058037ef25e                      13/06/2025 12:09:53 p. m.
+android_winusb.inf_amd64_bd75d06c56998078                      16/06/2025 01:16:16 p. m.
+android_winusb.inf_amd64_e173223db663f87f                      05/01/2026 06:22:21 p. m.
+cannonlake-lpsystem.inf_amd64_f33d0569bd2fa287                 22/10/2024 12:05:17 p. m.
+cannonlake-lpsystemthermal.inf_amd64_b937931c2f8af6b7          22/10/2024 12:09:42 p. m.
+coffeelakesystem.inf_amd64_e332dbefa69fd95b                    22/10/2024 12:09:44 p. m.
+c_wpd.inf_amd64_b436ebf3321c7587                               01/04/2024 02:27:05 p. m.
+kabylakesystem.inf_amd64_42856509e73752bb                      22/10/2024 05:07:18 p. m.
+oemextension.inf_amd64_3442e25d10d8491a                        13/06/2025 04:28:42 p. m.
+scrawpdo.inf_amd64_2e728cafacc3bf7a                            14/04/2025 10:05:50 a. m.
+sunrisepoint-lpsystem.inf_amd64_3f329cdb9ca0ee45               14/03/2025 01:03:14 p. m.
+sunrisepoint-lpsystem.inf_amd64_d6d84ea700405a3c               22/10/2024 05:05:40 p. m.
+sunrisepoint-lpsystemthermal.inf_amd64_69d67dea5b7151f8        14/03/2025 01:03:30 p. m.
+sunrisepoint-lpsystemthermal.inf_amd64_def3323473461558        22/10/2024 05:07:17 p. m.
+tbthostcontroller.inf_amd64_863f04bae6c18c72                   22/10/2024 05:05:56 p. m.
+tbthostcontroller.inf_amd64_89b8518beed39db0                   22/10/2024 12:10:18 p. m.
+tbthostcontrollerextension.inf_amd64_25b6cef7abca6747          13/06/2025 04:28:42 p. m.
+tbthostcontrollerextension.inf_amd64_d5e12b94b551ae2e          13/06/2025 04:28:42 p. m.
+tbthostcontrollerhsacomponent.inf_amd64_b4e0ff0dd99c3d2d       22/10/2024 05:05:56 p. m.
+tbthostcontrollerhsacomponent.inf_amd64_c419c5b80d485646       22/10/2024 12:10:18 p. m.
+tbthostcontrollertoastcomponent.inf_amd64_322b0f88d6980bb2     22/10/2024 12:10:18 p. m.
+tbthostcontrollertoastcomponent.inf_amd64_aec41883a483b0cf     22/10/2024 05:05:56 p. m.
+tbtp2pndisdrv.inf_amd64_d41de24a6f8d0f85                       22/10/2024 05:05:56 p. m.
+ts_wpdmtp.inf_amd64_e2db43d52f6cd898                           01/04/2024 01:24:21 a. m.
+usbhub3.inf_amd64_a7905d85eab77481                             17/10/2026 08:43:43 a. m.
+usbxhci.inf_amd64_7d5596b3c32e0c1a                             17/10/2026 08:43:43 a. m.
+winusb.inf_amd64_9fff486ecb8ad93e                              17/10/2026 08:43:43 a. m.
+worldcup_device.inf_amd64_381096806342dd2f                     13/06/2025 04:28:41 p. m.
+wpdcomp.inf_amd64_f03fa24a3970cb2d                             15/09/2025 06:14:09 p. m.
+wpdfs.inf_amd64_da271212bca974c0                               30/10/2026 03:54:03 p. m.
+wpdmtp.inf_amd64_87521179831035f2                              29/10/2026 10:08:59 p. m.
+wpdmtphw.inf_amd64_fcec9f8d5e0eb0d0                            01/04/2024 02:27:05 p. m.
+android_winusb.inf_amd64_0d73b058037ef25e.ini                  29/05/2025 02:40:07 p. m.
+android_winusb.inf_amd64_bd75d06c56998078.ini                  29/05/2025 02:39:33 p. m.
+android_winusb.inf_amd64_e173223db663f87f.ini                  30/09/2025 03:37:54 p. m.
+cannonlake-lpsystem.inf_amd64_f33d0569bd2fa287.ini             22/10/2024 12:05:17 p. m.
+cannonlake-lpsystemthermal.inf_amd64_b937931c2f8af6b7.ini      22/10/2024 12:09:42 p. m.
+coffeelakesystem.inf_amd64_e332dbefa69fd95b.ini                22/10/2024 12:09:44 p. m.
+kabylakesystem.inf_amd64_42856509e73752bb.ini                  22/10/2024 05:07:18 p. m.
+oemextension.inf_amd64_3442e25d10d8491a.ini                    22/10/2024 12:09:03 p. m.
+sunrisepoint-lpsystem.inf_amd64_3f329cdb9ca0ee45.ini           14/03/2025 01:03:14 p. m.
+sunrisepoint-lpsystem.inf_amd64_d6d84ea700405a3c.ini           22/10/2024 05:05:40 p. m.
+sunrisepoint-lpsystemthermal.inf_amd64_69d67dea5b7151f8.ini    14/03/2025 01:03:30 p. m.
+sunrisepoint-lpsystemthermal.inf_amd64_def3323473461558.ini    22/10/2024 05:07:17 p. m.
+tbthostcontroller.inf_amd64_863f04bae6c18c72.ini               22/10/2024 05:05:56 p. m.
+tbthostcontroller.inf_amd64_89b8518beed39db0.ini               22/10/2024 12:10:18 p. m.
+tbthostcontrollerextension.inf_amd64_25b6cef7abca6747.ini      22/10/2024 05:05:58 p. m.
+tbthostcontrollerextension.inf_amd64_d5e12b94b551ae2e.ini      22/10/2024 12:10:22 p. m.
+tbthostcontrollerhsacomponent.inf_amd64_b4e0ff0dd99c3d2d.ini   22/10/2024 05:05:56 p. m.
+tbthostcontrollerhsacomponent.inf_amd64_c419c5b80d485646.ini   22/10/2024 12:10:18 p. m.
+tbthostcontrollertoastcomponent.inf_amd64_322b0f88d6980bb2.ini 22/10/2024 12:10:18 p. m.
+tbthostcontrollertoastcomponent.inf_amd64_aec41883a483b0cf.ini 22/10/2024 05:05:56 p. m.
+tbtp2pndisdrv.inf_amd64_d41de24a6f8d0f85.ini                   22/10/2024 05:05:56 p. m.
+worldcup_device.inf_amd64_381096806342dd2f.ini                 13/06/2025 08:52:26 a. m.
+
+

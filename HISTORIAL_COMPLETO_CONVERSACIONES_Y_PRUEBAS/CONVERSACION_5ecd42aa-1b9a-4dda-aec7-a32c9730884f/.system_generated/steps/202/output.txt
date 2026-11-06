@@ -1,0 +1,56 @@
+Command exited with code 0.
+
+Command output:
+Copied all useful files successfully.
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\adb.exe                                   
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AdbWinApi.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AdbWinUsbApi.dll                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\adnl.exe                                  
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\Amldbglog.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AmlLibusb.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\AmlUsbScanX3.dll                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\fastboot.exe                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\fastboot_moderno.exe                      
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\libwinpthread-1.dll                       
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\mke2fs.conf                               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\mke2fs.exe                                
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\update.exe                                
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\UsbRomDrv.dll                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\AppDMC.apk                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\autostart.apk                           
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Button_Mapper_Pro_2.54.apk              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\DLStore.apk                             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Downloader_2.0.4.apk                    
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Filemanager.apk                         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Hdplay.apk                              
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\Home_Screen_Launcher_1.1.3.apk          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\signMagisTV_APS-MUTO.apk                
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\TVLauncher_4_GoogleTV.apk               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\2_APKS_LIBERACION_Y_TV\xuper_hydra.apk                         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\factory_update_param.aml             
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\logconfig.ini                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\QADEBUG.ini                          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\QADEBUGTOOL.ini                      
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\usb_left.txt                         
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\3_LLAVES_USB_PARA_LA_CAJA\usb_right.txt                        
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\ADBAppControl-1.8.6-setup.exe          
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpinst.xml    
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpinst32.exe  
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpinst64.exe  
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\dpscat.exe    
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\InstallDriv...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\Instruction...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\WorldCup_De...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\WorldCup_De...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\amd64\libus...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\amd64\libus...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\amd64\libus...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\x86\libusb0...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\x86\libusb0...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\4_DRIVERS_Y_GUI_WINDOWS\WorldCup_Driver_VID_1B8E\x86\libusbK...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img                        
+
+

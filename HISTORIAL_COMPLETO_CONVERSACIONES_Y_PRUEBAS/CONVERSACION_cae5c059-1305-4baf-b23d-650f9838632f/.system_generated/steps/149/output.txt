@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\services\storage.ts:17:import { INITIAL_MEMBERS } from '../data/initialMembers';
+LEGENDS\src\services\storage.ts:83:      // Ensure baseline INITIAL_MEMBERS (including Juan Solis MEM-008) are present 
+unless explicitly deleted
+LEGENDS\src\services\storage.ts:84:      for (const initM of INITIAL_MEMBERS) {
+LEGENDS\src\services\storage.ts:106:      return INITIAL_MEMBERS.map(m => ({
+
+

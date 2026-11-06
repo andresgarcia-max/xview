@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+12-31 18:01:01.051  3569  3586 W installd: Ignoring /data/data/com.zte.factorytesttool/lib with unexpected GID 0 instead of 1000
+02-05 02:17:30.794  3655  3655 I SystemServerTiming: updateTopComponentForFactoryTest
+02-05 02:17:30.797  3655  3757 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.zte.factorytesttool changed
+02-05 02:17:31.946  3655  3655 V StorageManagerService: Package com.zte.factorytesttool has legacy storage
+02-05 02:17:34.196  3655  3655 D AccessibilityManagerService: Ignoring non-encryption-aware service ComponentInfo{com.zte.factorytesttool/com.zte.factorytesttool.EventService}
+02-05 02:17:40.037  4561  4561 E factorytesttoo: Not starting debugger since process cannot load the jdwp agent.
+02-05 02:17:40.049  3655  3692 I am_proc_start: [0,4561,1000,com.zte.factorytesttool,added application,com.zte.factorytesttool]
+02-05 02:17:40.049  3655  3692 I ActivityManager: Start proc 4561:com.zte.factorytesttool/1000 for added application com.zte.factorytesttool
+02-05 02:17:40.126  3655  3669 I am_proc_bound: [0,4561,com.zte.factorytesttool]
+02-05 02:17:40.692  4561  4561 V GraphicsEnvironment: ANGLE Developer option for 'com.zte.factorytesttool' set to: 'default'
+02-05 02:17:41.078  4561  4561 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1173 android.content.ContextWrapper.sendBroadcast:479 com.zte.factorytesttool.MyApp.onCreate:270 android.app.Instrumentation.callApplicationOnCreate:1211 android.app.ActivityThread.handleBindApplication:6725 
+02-05 02:17:41.080  3655  4560 E ActivityManager: Sending non-protected broadcast com.zte.stb.EarlyBoot from system 4561:com.zte.factorytesttool/1000 pkg com.zte.factorytesttool
+02-05 02:17:41.080  3655  3691 I am_wtf  : [0,3655,system_server,-1,ActivityManager,Sending non-protected broadcast com.zte.stb.EarlyBoot from system 4561:com.zte.factorytesttool/1000 pkg com.zte.factorytesttool]
+02-05 02:17:41.080  3655  4560 E ActivityManager: Sending non-protected broadcast com.zte.stb.EarlyBoot from system 4561:com.zte.factorytesttool/1000 pkg com.zte.factorytesttool
+02-05 02:17:41.082  3655  3691 I am_wtf  : [0,3655,system_server,-1,ActivityManager,Sending non-protected broadcast com.zte.stb.EarlyBoot from system 4561:com.zte.factorytesttool/1000 pkg com.zte.factorytesttool]
+02-05 02:17:41.083  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] ----------AS_APKTestcases BroadcastReceiver received a broadcast [com.zte.stb.EarlyBoot] 2024-02-01 10-41-00----------
+02-05 02:17:41.344  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] checkSelinxEnforced: enforcing
+02-05 02:17:41.418  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] InitLocalCfgManager return true
+02-05 02:17:41.470  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] iEntWaitTime = 20
+02-05 02:17:41.470  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:41.770  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.075  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.378  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.678  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.979  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:42.980  4413  4677 I ManifestedDataDownloader: ManifestedDataDownloader.checkVersionAndDownload():98 filegroup __KLP_delight__es-MX with version 2024122600 is already downloaded
+02-05 02:17:43.037  4866  4866 I RemoteStbCfg.Java: RemoteStbCfgServiceJni: Load native library libztestbcfg_jni.so
+02-05 02:17:43.279  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:43.517  4866  4866 D RemoteStbCfg.Java: RemoteStbCfgService: ############ onStart() ############
+02-05 02:17:43.538  4866  5045 D RemoteStbCfg.Java: RemoteStbCfgService: ############ onCreate() ############, build date = 2015-12-31, 09:30:00
+02-05 02:17:43.539  4866  5045 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1896 android.content.ContextWrapper.bindService:812 com.ztestb.basecomp.RemoteStbCfgService.init:58 com.ztestb.basecomp.RemoteStbCfgService.access$100:0 com.ztestb.basecomp.ah.run:2 
+02-05 02:17:43.543  4866  5045 D RemoteStbCfg.Java: bind productcfg Service ok!!!
+02-05 02:17:43.544  4866  5045 E RemoteStbCfg.Jni: [SaveBindCfgServiceFlag 102] Bind ProductCfg Service(1)!
+02-05 02:17:43.544  4866  4866 I RemoteStbCfg.Java: Bind mcspcfg aidl Success!
+02-05 02:17:43.558  4866  5045 D RemoteStbCfg.Java: RemoteStbCfgService: Main thread exit!
+02-05 02:17:43.561  4866  5049 I RemoteStbCfg.Java: getBaseXmlPath:/data/user/0/com.ztestb.basecomp/files
+02-05 02:17:43.580  4561  4561 I SMW_TOOLS_FTT:  [TestToolBroadcast] strEvtManager = 
+02-05 02:17:43.607  4866  5049 I RemoteStbCfg.Java: BasicRulesAssetsMD5:[55f2084b4e04a0abc73fee3c3dc53337];BasicRulespreMD5:[55f2084b4e04a0abc73fee3c3dc53337]
+02-05 02:17:43.669  4866  5049 I RemoteStbCfg.Java: stbcfgRules/ProductCfgRules.xml(apk):[d15c0024a915bf47b01ebeee7e42bf8d]; /data/user/0/com.ztestb.basecomp/files/stbcfgRules/ProductCfgRules.xml:[d15c0024a915bf47b01ebeee7e42bf8d]
+02-05 02:17:43.673  4866  5049 I RemoteStbCfg.Java: stbcfgRules/ExtRulesDescriptions.xml(apk):[3f308e8d809c59e49aaf1820ee9dd6b6]; /data/user/0/com.ztestb.basecomp/files/stbcfgRules/ExtRulesDescriptions.xml:[3f308e8d809c59e49aaf1820ee9dd6b6]
+02-05 02:17:43.683  4866  5049 I RemoteStbCfg.Java: stbcfgRules/HgCfgRules.xml(apk):[d1108067a481e1ad8f1f78d6fff91f70]; /data/user/0/com.ztestb.basecomp/files/stbcfgRules/HgCfgRules.xml:[d1108067a481e1ad8f1f78d6fff91f70]
+02-05 02:17:43.684  4866  5049 I RemoteStbCfg.Java: stbcfgRules/VasCfgRules.xml(apk):[fcf9121ff033919719eff0c11d3601f9]; /data/user/0/com.ztestb.basecomp/files/stbcfgRules/VasCfgRules.xml:[fcf9121ff033919719eff0c11d3601f9]
+02-05 02:17:43.688  4866  5049 I RemoteStbCfg.Java: getBaseXmlPath:/data/user/0/com.ztestb.basecomp/files
+02-05 02:17:43.688  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/BasicRulesDescriptions.xml is already exist
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: getXmlPath:/data/user/0/com.ztestb.basecomp/files/stbcfgRules
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/ProductCfgRules.xml is already exist
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/ExtRulesDescriptions.xml is already exist
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/HgCfgRules.xml is already exist
+02-05 02:17:43.689  4866  5049 I RemoteStbCfg.Java: /data/user/0/com.ztestb.basecomp/files/stbcfgRules/VasCfgRules.xml is already exist
+02-05 02:17:43.689  4866  5049 D RemoteStbCfg.Java: path: /system/framework/SettingsDBJar.jaris not exist,do not load
+02-05 02:17:43.690  4866  5049 D RemoteStbCfg.Java: do not need to FactoryResetSyspropFile!
+02-05 02:17:43.691  4866  5049 I RemoteStbCfg.Java: RemoteStbCfgService: Start to Register jni Method StbcfgInvoke
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [Java_com_ztestb_basecomp_RemoteStbCfgServiceJni_RegisterMethod 103] registerMethod: find class com.ztestb.basecomp.ai success!
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [Java_com_ztestb_basecomp_RemoteStbCfgServiceJni_RegisterMethod 116] registerMethod: Find notify com.ztestb.basecomp.ai/StbcfgInvoke method success!
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [RemoteStbCfgPrintHeader 1544] ************************************************************************
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [RemoteStbCfgPrintHeader 1545] ********************* libztestbcfg_jni.so version **********************
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [RemoteStbCfgPrintHeader 1546] *
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [RemoteStbCfgPrintHeader 1547] * JNI_lib Build OS       : Linux
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [RemoteStbCfgPrintHeader 1548] * JNI_lib Build User     : jichengceshi
+02-05 02:17:43.691  4866  5049 E RemoteStbCfg.Jni: [RemoteStbCfgPrintHeader 1549] * JNI_lib Build Date     : 2023-12-14 15:05:39

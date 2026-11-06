@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+ProcessId       : 21940
+ParentProcessId : 23064
+Name            : adnl.exe
+CommandLine     : 
+CreationDate    : 05/11/2026 08:29:30 a. m.
+
+
+

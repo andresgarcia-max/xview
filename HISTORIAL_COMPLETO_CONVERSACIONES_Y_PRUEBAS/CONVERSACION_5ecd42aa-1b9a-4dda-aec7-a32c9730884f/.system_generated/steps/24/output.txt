@@ -1,0 +1,12 @@
+Command exited with code 1.
+
+Command output:
+Get-ChildItem : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_
+REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\jadx_src\sources\com\control\device\device\' porque no existe.
+En línea: 1 Carácter: 1
++ Get-ChildItem -Path .\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...\device\device\:String) [Get-ChildItem], ItemNotFound 
+   Exception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 

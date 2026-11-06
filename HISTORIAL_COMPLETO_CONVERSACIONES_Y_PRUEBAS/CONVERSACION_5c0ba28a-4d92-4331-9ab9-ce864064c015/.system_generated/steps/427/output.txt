@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\context\GymContext.tsx:870:        message: `Contrase�a o PIN incorrecto. Intento ${fail.attempts} de 3 
+antes del bloqueo.`
+LEGENDS\src\context\GymContext.tsx:1187:    if (planType === 'annual' || planType === 'vip') planName = 'Membres�a 
+Black VIP Anual';
+
+

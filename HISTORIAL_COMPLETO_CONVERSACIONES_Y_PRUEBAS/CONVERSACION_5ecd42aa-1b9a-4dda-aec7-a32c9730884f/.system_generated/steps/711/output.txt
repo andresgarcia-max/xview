@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+Length: 2136 bytes | First 16 bytes: 40-65-63-68-6F-20-6F-66-66-0A-73-65-74-6C-6F-63
+
+ProcessId Name                               CommandLine                                                               
+--------- ----                               -----------                                                               
+    20576 adb.exe                            adb -L tcp:5037 fork-server server --reply-fd 616                         
+    20392 PROGRAMA_PERFECTO_XVIEW_B866V2.exe "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\PROGRAMA_PERFE...
+
+

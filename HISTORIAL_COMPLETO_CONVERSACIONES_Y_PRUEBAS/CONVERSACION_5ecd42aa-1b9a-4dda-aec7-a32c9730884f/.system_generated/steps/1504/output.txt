@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+[2026-11-05 00:25:48.673] [UI] * Firmware DMC.v2.25 (ViettelBox_B866V2 Android 12) inyectado al 100%.
+[2026-11-05 00:25:48.673] [UI] * Interfaz en super.img: TVLauncher + TVWall Slimbox + AppDMC + DLStore +
+[2026-11-05 00:25:48.673] [UI] HDPlay + Filemanager + ControlDevice + Google Play Store.
+[2026-11-05 00:25:48.677] [UI] * Certificados Widevine L1 (factory) y MAC/Serie (cri_data) 100% protegidos.
+[2026-11-05 00:25:48.680] [VISTO_BUENO] === PASO 4/4: VISTO BUENO FASTBOOT 13/13 COMPLETADO ===
+[2026-11-05 00:25:48.681] [UI] Presiona [ENTER] para volver al menu principal:
+[2026-11-05 08:47:35.439] [SESION] === INICIO DE PROGRAMA_PERFECTO_XVIEW_B866V2.EXE v4.1 (PID=21540) ===
+[2026-11-05 08:48:54.675] [SESION] === INICIO DE PROGRAMA_PERFECTO_XVIEW_B866V2.EXE v4.1 (PID=20580) ===
+[2026-11-05 08:48:56.204] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-05 08:48:56.207] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]): 1 (Auto-Inicio Activo)
+[2026-11-05 08:48:56.210] [MENU] Usuario selecciono opcion: '1'
+[2026-11-05 08:48:56.230] [MISION_4_PASOS] === INICIANDO FLUJO DIRECTO DE 4 PASOS (v4.1) ===
+[2026-11-05 08:48:56.232] [UI] [PASO 1/4] ESCANEANDO LA MEMORIA...
+[2026-11-05 08:48:56.238] [UI] [+] Memoria USB KINGSTON lista en la caja (con factory_update_param.aml + QADEBUG.ini).
+[2026-11-05 08:48:56.242] [UI] [OK] Memoria de Firmware verificada: 14 particiones .img + 15 APKs de Interfaz Xview Liberada.
+[2026-11-05 08:48:56.244] [UI] [OK] Imagen 'super.img' detectada en: C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img
+[2026-11-05 08:48:56.246] [UI] [PASO 2/4] ENTRANDO EN MODO FASTBOOT...
+[2026-11-05 08:48:56.249] [UI] * SI TU TV YA ESTA EN LA PANTALLA AZUL 'fastbootd' (letras rosas):
+[2026-11-05 08:48:56.250] [UI] 1. Conecta el cable USB Macho-a-Macho en el puerto TRASERO (junto a MicroSD y HDMI).
+[2026-11-05 08:48:56.252] [UI] 2. En la TV baja a 'Reboot to bootloader' y presiona OK (o entra a 'Enter recovery'
+[2026-11-05 08:48:56.256] [UI] -> 'Set USB device' -> 'Yes' para activar el puerto USB de la caja).
+[2026-11-05 08:48:56.258] [UI] * O si la caja esta encendida normal: desconecta corriente, manten presionado RESET
+[2026-11-05 08:48:56.260] [UI] y vuelve a conectar corriente...
+[2026-11-05 08:48:56.262] [UI] --------------------------------------------------------------------------------
+[2026-11-05 08:48:56.266] [UI] [*] ESCUCHANDO EN VIVO (Fastboot PID_0D02 / Fastbootd PID_4EE7 / WorldCup 48ms / ADB)...

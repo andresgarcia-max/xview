@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\context\GymContext.tsx:171:  todayCheckInsCount: number;
+LEGENDS\src\context\GymContext.tsx:298:                  checkInsCount: (m.checkInsCount || 0) + 1,
+LEGENDS\src\context\GymContext.tsx:299:                  lastCheckIn: incomingLog.timestamp || new Date().toISOString()
+LEGENDS\src\context\GymContext.tsx:1018:      checkInsCount: 0,
+LEGENDS\src\context\GymContext.tsx:1461:  // Biometric Turnstile Access
+LEGENDS\src\context\GymContext.tsx:1559:      checkInsCount: matched.checkInsCount + 1,
+LEGENDS\src\context\GymContext.tsx:1560:      lastCheckIn: now,
+LEGENDS\src\context\GymContext.tsx:1927:  const todayCheckInsCount = todayAccess.length;
+LEGENDS\src\context\GymContext.tsx:2031:      todayCheckInsCount,
+
+

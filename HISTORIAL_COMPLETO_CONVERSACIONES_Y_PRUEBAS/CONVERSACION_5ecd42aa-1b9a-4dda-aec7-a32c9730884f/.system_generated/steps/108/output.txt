@@ -1,0 +1,48 @@
+Command exited with code 0.
+
+Command output:
+09-04 14:20:43.658  3676  3699 W [FrameworkCustomization]OomAdjusterImpl: change oom_adj=-14
+09-04 14:20:43.658  3676  3699 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.658  3676  3699 W [FrameworkCustomization]OomAdjusterImpl: change oom_adj=-14
+09-04 14:20:43.658  3676  3699 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.658  3676  3699 W [FrameworkCustomization]OomAdjusterImpl: change oom_adj=-14
+09-04 14:20:43.658  3676  3699 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.659  3676  3699 W ProcessStats: Tracking association SourceState{144684 com.google.android.katniss:interactor/10044 BTopFgs #2118} whose proc state 2 is better than process ProcessState{30944b1 com.google.android.tv.remote.service/10048 pkg=com.google.android.tv.remote.service} proc state 3 (2 skipped)
+09-04 14:20:43.660  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.660  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.661  3513  3513 D memtrack_aml: open file /d/ion/heaps/vmalloc_ion error No such file or directory
+09-04 14:20:43.661  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.661  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.661  3513  3513 D memtrack_aml: open /d/mali0/ctx error No such file or directory
+09-04 14:20:43.661  3513  3513 D memtrack_aml: open file /proc/4137/smaps error No such file or directory
+09-04 14:20:43.661  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.661  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.661  3513  3513 D memtrack_aml: fail to open /d/ion/heaps
+09-04 14:20:43.662  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.662  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.662  3676  3714 W android.os.Debug: failed to get other pss: -2
+09-04 14:20:43.662  3676  3788 I wm_resume_activity: [0,243087000,12356,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity]
+09-04 14:20:43.663  4711  4711 D PortalApplication: onActivityResumed(activity: com.dotscreen.portal.ui.screens.home.HomeActivity@fb541e6)
+09-04 14:20:43.664  4711  4711 I PortalApplication: updateFloatingStatusView()
+09-04 14:20:43.664  4711  4711 D FloatingAdsContainerActivity: readjustPinnedAdsScrollOffset()
+09-04 14:20:43.664  4711  4711 D FloatingAdsContainerActivity: addGlobalTreeListenerIfNeeded()
+09-04 14:20:43.664  4711  4711 I HomeActivity: onResume() v0.79.5.6 (elapsedRealtime: PT4M22.888S)
+09-04 14:20:43.670  3676  3808 I input_focus: [Focus leaving ec43788 com.android.tv.settings/com.android.tv.settings.MainSettings (server),reason=setFocusedWindow]
+09-04 14:20:43.670  3676  3808 I input_focus: [Focus entering b2d4558 com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (server),reason=setFocusedWindow]
+09-04 14:20:43.672  4711  4711 D SyncTVChannelsWorker: scheduleSyncingTVChannels(initialDelay: PT51M, forceUpdate: false, afterWakeUp: false)... 
+09-04 14:20:43.672  4711  4711 D HomeActivity: validateThatAProfileIsLoggedInOrRidirectToLogin(onResume) - isProfileSet=false isDegradedMode=true isCurrentlyLoadingConfig=false 
+09-04 14:20:43.672  4711  4711 I wm_on_resume_called: [243087000,com.dotscreen.portal.ui.screens.home.HomeActivity,RESUME_ACTIVITY]
+09-04 14:20:43.673  3676  3699 I sysui_multi_action: [757,803,799,window_time_0,802,90]
+09-04 14:20:43.674  4711  4711 V HomeFragment: onResume()
+09-04 14:20:43.675  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.675  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.677  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.677  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.677  3676  3699 W [FrameworkCustomization]OomAdjusterImpl: change oom_adj=-14
+09-04 14:20:43.677  3676  3699 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14

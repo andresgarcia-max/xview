@@ -1,0 +1,94 @@
+Command exited with code 0.
+
+Command output:
+ze (%d)
+set_active:%s
+Setting current slot to '%s'
+erase:%s
+erasing '%s'
+sending '%s' (%d KB)
+flash:%s
+writing '%s'
+sending sparse '%s' %zu/%zu (%d KB)
+writing '%s' %zu/%zu
+IGNORE, product is %s required only for %s [%7.3fs]
+FAILED
+Device %s is '%s'.
+rejects
+requires
+Update %s '%s'
+ or '%s'
+getvar:%s
+checking %s
+identify
+burnsteps
+secureboot
+soctype
+getchipinfo-0
+getchipinfo-1
+getchipinfo-2
+getchipinfo-3
+getchipinfo-4
+getchipinfo-5
+%s FAILED (%s)
+%s: %s
+DNL mode 
+[BL1]
+[BL2]
+[BL2E]
+[TPL]
+[undefined]
+%02X-
+%02X
+%02x:
+ %08X
+reboot
+%s%s%s
+rebooting
+downloading '%s'
+TRIM size from %d to 16
+FILL size from %d to 16
+SetingKey '%s'
+media writing [%s]
+mread:status=request
+media reading [%s]
+setvar '%s' 0x%08x
+bl2_boot[%s]
+bl1_boot[%s]
+%s...
+cmd[%s]
+bogus action
+finished. total time: %.3fs
+????????????
+Aml_DNL
+%-22s Aml_DNL
+ %s
+Fail open dev:%s
+ERR[DNL]
+DNL device
+< waiting for Amlogic %s >
+Amlogic DNL protocol tool V[2.6.3] at Aug 20 2021
+usage: adnl [ -s <specific para> ] <command> <command para>
+commands:
+  devices                                  List all connected dnl devices
+  getvar <variable>                        Display a BL1/BL2/BL33 variable.
+                                           if not supported, this does nothing.
+  setvar <variable> <value>                Set a BL1 <variable> with <value>.
+  setkey <keyPath>                         Set a BL1 <variable> with <value>.
+  oem/cmd <cmd>                                Send a BL33 string<cmd>.
+  download <FilePath> [<size> <offset>]                     
+          Download file to RAM[, with <size>bytes from <offset>]
+  run   boot code in RAM, after cmd 'download'.
+  bl1_boot -f <bootloaderPath>             BL1 download and boot bl2.
+  bl2_boot -f <bootloaderPath>             BL2 download and boot TPL.
+  partition <-p partName>  <-f imgPath>  [<-m media>] [<-t imgType>] [-v vryFile]
+            @media:    mem/store/key, default store
+            @imgType:  sparse/normal, default normal
+  upload <-p partName>  <-f dumpFilePath>  <-z dumpSz [K|M|G]> [<-m media>] [<-o offset>]
+            @media:    mem/store/key, default store
+            @offset:   start offset in part @partname, default 0
+  reboot [mode]                            Reboot device [into supported mode].
+other options:
+  -s <specific para>                     specify a USB device, command 'devices' to get specific para
+  -h, --help                             show this message.
+Amlogi

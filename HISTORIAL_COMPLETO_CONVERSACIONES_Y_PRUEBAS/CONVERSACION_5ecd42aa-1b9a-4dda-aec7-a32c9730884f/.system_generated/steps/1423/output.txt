@@ -1,0 +1,4 @@
+Command exited with code 1.
+
+Command output:
+Exception: No se encuentra ningún proceso con el identificador 21940. | HResult: -2146233087 | Inner: 

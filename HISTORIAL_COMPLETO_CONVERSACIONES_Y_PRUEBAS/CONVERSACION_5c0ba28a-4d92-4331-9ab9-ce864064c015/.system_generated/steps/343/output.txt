@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+FitnessLegends ERP started successfully! PID: 7352

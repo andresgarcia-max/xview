@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+99.1 MB | C:\Users\andre\OneDrive\Desktop\xview\Liberacion_Xview_B866V2_Portatil.exe
+64 MB | C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\cache_ext4.img
+64 MB | C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\cache_ext4.img
+547.42 MB | C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\product.img
+1800 MB | C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\super.img
+64 MB | C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img
+1800 MB | C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img
+1800 MB | C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\super.img
+1b455754-771b-49d1-9456-51d9e11f498d | 2.12 MB | 11/05/2026 15:38:14
+279814bc-a71e-40e6-a8e9-27fbecb5de6c | 6.04 MB | 10/24/2026 08:56:19
+40af6952-ad1f-4838-a11f-e3373e47a6f5 | 1.8 MB | 11/05/2026 15:49:14
+5c0ba28a-4d92-4331-9ab9-ce864064c015 | 33.69 MB | 10/28/2026 17:45:30
+5ecd42aa-1b9a-4dda-aec7-a32c9730884f | 32.38 MB | 11/01/2026 23:35:22
+68310553-cc6d-4e0b-9b90-04621bb444b3 | 2.49 MB | 11/03/2026 23:03:49
+ba913b6c-968c-4c24-8df5-4868123bb908 | 1.52 MB | 11/05/2026 15:41:58
+cae5c059-1305-4baf-b23d-650f9838632f | 49.03 MB | 10/24/2026 11:45:18
+tempmediaStorage | 0 MB | 11/05/2026 16:28:48

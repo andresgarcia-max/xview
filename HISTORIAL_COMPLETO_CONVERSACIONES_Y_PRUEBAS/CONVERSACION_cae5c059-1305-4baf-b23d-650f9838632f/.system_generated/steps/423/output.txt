@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+
+LineNumber Line                                                                                                        
+---------- ----                                                                                                        
+         1 import cardClienteNuevo from '../../assets/card-cliente-nuevo.jpg';                                         
+         2 import cardVisita from '../../assets/card-visita.jpg';                                                      
+         3 import cardHuella from '../../assets/card-huella.jpg';                                                      
+         4 import gymBg from '../../assets/gym-background.jpg';                                                        
+         5 import gymBgMotto from '../../assets/gym-background-motto.jpg';                                             
+         6 import modalGymBg from '../../assets/modal-gym-bg.jpg';                                                     
+         7 import logoImg from '../../assets/logo.png';                                                                
+         8 import React, { useState, useEffect, useRef, useCallback } from 'react';                                    
+         9 import { useGym } from '../../context/GymContext';                                                          
+        10 import { FingerprintScanner } from './FingerprintScanner';                                                  
+        11 import { AccessHistory } from './AccessHistory';                                                            
+        12 import { TerminalSyncModal, getTerminalConfig, saveTerminalConfig, TerminalConfig } from './TerminalSyncM...
+        13 import { getRandomMotivationalQuote } from '../../data/motivationalQuotes';                                 
+        14 import { sounds } from '../../services/audio';                                                              
+        15 import confetti from 'canvas-confetti';                                                                     
+        16 import {                                                                                                    
+        17   Zap,                                                                                                      
+        18   Maximize2,                                                                                                
+        19   Minimize2,                                                                                                
+        20   Search,                                                                                                   
+        21   Clock,                                                                                                    
+        22   Settings,                                                                                                 
+        23   Volume2,                                                                                                  
+        24   VolumeX,                                                                                                  
+        25   CheckCircle2,                                                                                             
+
+

@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+
+   TypeName: System.__ComObject#{41904400-be18-11d3-a28b-00104bd35090}
+
+Name           MemberType Definition                       
+----           ---------- ----------                       
+CreateShortcut Method     IDispatch CreateShortcut (string)
+
+

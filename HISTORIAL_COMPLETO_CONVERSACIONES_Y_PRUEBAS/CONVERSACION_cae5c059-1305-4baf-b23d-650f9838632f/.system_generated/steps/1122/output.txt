@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+            <img 
+              src={cardHuella} 
+              alt="Lector Biométrico de Huella Gym" 
+              className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/20 pointer-events-none" />
+            <div className="absolute inset-0 bg-amber-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+            <div className="relative z-10 self-end px-3.5 py-1 rounded-full bg-black/75 backdrop-blur-md border border-amber-400/80 flex items-center gap-1.5 text-white font-black text-xs uppercase tracking-wider shadow-lg drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+              <Zap className="w-3.5 h-3.5 text-amber-400" />
+              <span className="tracking-wider">Acceso Directo</span>
+            </div>
+
+            <div className="relative z-10 p-3.5 rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+              <h3 className="text-xl sm:text-2xl font-black text-white uppercase tracking-wider group-hover:text-amber-300 transition-colors drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+                Ya Tengo Membresía
+              </h3>
+              
+              <div className="mt-2.5 pt-2 border-t border-white/15 flex items-center justify-between">
+                <span className="text-xs font-bold text-amber-400 group-hover:text-amber-300 flex items-center gap-1">
+                  Validar Huella &rarr;
+                </span>
+                <span className="w-8 h-8 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white flex items-center justify-center font-black text-base shadow-lg group-hover:scale-110 transition-transform">
+                <Fingerprint className="w-4 h-4 text-white" />
+              </span>

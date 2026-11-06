@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\finance
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          36088 ExpensesManager.tsx                                                  
+-a---l     16/10/2026  03:32 p. m.          24600 IncomeHistoryView.tsx                                                
+
+

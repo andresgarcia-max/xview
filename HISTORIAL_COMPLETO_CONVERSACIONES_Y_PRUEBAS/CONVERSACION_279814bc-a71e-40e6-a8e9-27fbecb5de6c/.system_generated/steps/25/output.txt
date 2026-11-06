@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+[InternetShortcut]
+URL=http://localhost:5174
+IconIndex=0
+IconFile=C:\Users\DELL\Desktop\gym leyends\LEGENDS\build\icon.ico
+[InternetShortcut]
+URL=https://legends-gym-gold.vercel.app
+IconIndex=0
+IconFile=C:\Users\DELL\Desktop\gym leyends\LEGENDS\build\icon.ico
+[InternetShortcut]
+URL=http://localhost:5174/?mode=terminal
+IconIndex=0
+IconFile=C:\Users\DELL\Desktop\gym leyends\LEGENDS\build\icon.ico
+[InternetShortcut]
+URL=https://legends-gym-gold.vercel.app
+IconIndex=0
+IconFile=C:\Users\DELL\Desktop\gym leyends\LEGENDS\public\favicon.ico
+[InternetShortcut]
+URL=https://legends-gym-gold.vercel.app
+IconFile=C:\Users\DELL\Desktop\gym leyends\LEGENDS\public\favicon.ico
+IconIndex=0
+[InternetShortcut]
+URL=https://legends-gym-gold.vercel.app/?tab=pos
+IconFile=C:\Users\DELL\Desktop\gym leyends\LEGENDS\public\favicon.ico
+IconIndex=0

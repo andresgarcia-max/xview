@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+✓ Added fallback to ACCESO_WEB_FITNESS_LEGENDS.html
+✓ Added fallback to Control_De_Acceso_Web.html
+✓ Added fallback to LEGENDS/public/terminal.html
+✓ Added fallback to LEGENDS/public/Control_De_Acceso_Web.html

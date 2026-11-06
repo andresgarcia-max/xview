@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+commit 2032872916ef096e6afd5538a9ee9cfa866e70b7
+Author: Cristiansairec94 <cristian@sairec.com>
+Date:   Fri Oct 23 09:13:37 2026 -0600
+
+    revert: restaurar fondos e imagenes originales de LEYENDS GYM tal como estaban al inicio
+
+ public/Control_De_Acceso_Web.html                | 116 +++++++++++++++--------
+ public/terminal.html                             | 116 +++++++++++++++--------
+ scripts/build-single-html.cjs                    |  34 ++++---
+ src/assets/gym-background-cinematic.jpg          | Bin 375127 -> 0 bytes
+ src/assets/gym-background.jpg                    | Bin 375127 -> 698002 bytes
+ src/components/access/IndependentTerminalApp.tsx |  49 ++++++----
+ src/components/access/TurnstileTerminal.tsx      |   5 -
+ 7 files changed, 203 insertions(+), 117 deletions(-)
+

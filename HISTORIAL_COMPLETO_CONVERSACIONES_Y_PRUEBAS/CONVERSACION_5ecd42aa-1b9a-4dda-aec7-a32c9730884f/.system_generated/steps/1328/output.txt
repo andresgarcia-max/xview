@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+[update]:No [WorldCup Device] device after scan
+[update]ERR(L1094):can not find device
+List of devices attached
+

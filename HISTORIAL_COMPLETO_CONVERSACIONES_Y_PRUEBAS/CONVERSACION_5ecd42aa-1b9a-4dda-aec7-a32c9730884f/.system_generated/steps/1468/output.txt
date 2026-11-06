@@ -1,0 +1,18 @@
+Command exited with code 1.
+
+Command output:
+En línea: 72 Carácter: 16
++ $crc = [uint32]0xFFFFFFFFu
++                ~~~~~~~~~~~
+Token '0xFFFFFFFFu' inesperado en la expresión o la instrucción.
+En línea: 77 Carácter: 18
++ $crc = $crc -bxor 0xFFFFFFFFu
++                  ~
+Debe proporcionar una expresión de valor después del operador '-bxor'.
+En línea: 77 Carácter: 19
++ $crc = $crc -bxor 0xFFFFFFFFu
++                   ~~~~~~~~~~~
+Token '0xFFFFFFFFu' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

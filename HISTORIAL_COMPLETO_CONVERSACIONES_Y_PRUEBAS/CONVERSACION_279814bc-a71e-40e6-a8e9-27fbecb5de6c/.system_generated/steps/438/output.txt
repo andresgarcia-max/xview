@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     23/10/2026  05:19 p. m.                .github                                                              
+dar--l     23/10/2026  05:19 p. m.                api                                                                  
+dar--l     23/10/2026  05:19 p. m.                build                                                                
+dar--l     23/10/2026  05:19 p. m.                data                                                                 
+dar--l     24/10/2026  10:05 a. m.                dist                                                                 
+dar--l     23/10/2026  05:19 p. m.                electron                                                             
+dar--l     23/10/2026  05:19 p. m.                node_modules                                                         
+dar--l     24/10/2026  09:43 a. m.                public                                                               
+dar--l     24/10/2026  09:33 a. m.                server                                                               
+-a---l     15/10/2026  12:21 p. m.            326 .gitignore                                                           
+-a---l     07/10/2026  10:39 a. m.            245 .oxlintrc.json                                                       
+-a----     13/10/2026  03:54 p. m.           2241 ControlDeAccesoLegends.lnk                                           
+-a---l     13/10/2026  03:54 p. m.            385 EJECUTAR_TERMINAL_ACCESO.bat                                         
+-a---l     09/10/2026  05:42 p. m.            501 index.html                                                           
+-a---l     12/10/2026  10:05 a. m.            793 INICIAR_SISTEMA_PRINCIPAL.bat                                        
+-a---l     09/10/2026  05:33 p. m.            788 INICIAR_TERMINAL_ACCESO.bat                                          
+-a---l     24/10/2026  09:15 a. m.           1247 package.json                                                         
+-a---l     07/10/2026  10:42 a. m.             80 postcss.config.js                                                    
+-a---l     07/10/2026  01:43 p. m.           3369 README.md                                                            
+-a---l     09/10/2026  05:54 p. m.           1433 tailwind.config.js                                                   
+-a---l     13/10/2026  12:46 p. m.            200 vercel.json                                                          
+
+

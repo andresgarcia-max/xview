@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+   Id ProcessName   Path                                                                           
+   -- -----------   ----                                                                           
+20576 adb           C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\adb.exe
+ 6312 Aml_Burn_Tool                                                                                
+
+
+
+Status Class     FriendlyName   InstanceId                                    
+------ -----     ------------   ----------                                    
+OK     USBDevice android_winusb USB\VID_1B8E&PID_C004\00199321C9402A2200000000
+
+

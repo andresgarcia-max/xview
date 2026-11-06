@@ -1,0 +1,65 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\build
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     13/10/2026  02:47 p. m.          35079 icon.ico                                                             
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          35079 favicon.ico                                                          
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          35079 favicon.ico                                                          
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\build
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     13/10/2026  02:47 p. m.          35079 icon.ico                                                             
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  09:48 a. m.          35079 favicon.ico                                                          
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          35079 favicon.ico                                                          
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\repositorios\01_REPOSITORIOS_SISTEMAS_Y_POS\gym-management-
+    electron\resources
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  09:15 a. m.         370070 icon.ico                                                             
+
+

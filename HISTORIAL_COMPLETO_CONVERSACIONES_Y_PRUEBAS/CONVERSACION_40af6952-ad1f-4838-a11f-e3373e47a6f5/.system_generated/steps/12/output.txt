@@ -1,0 +1,46 @@
+Command exited with code 0.
+
+Command output:
+
+VID_PID                 Count SampleSerial             DeviceDesc                                                      
+-------                 ----- ------------             ----------                                                      
+ROOT_HUB30                  3 4&1cd7ea71&0&0           @usbhub3.inf,%usbhub3.roothubdevicedesc%;USB Root Hub (USB 3.0) 
+VID_0000&PID_0000           1 5&2b41b6c5&0&3                                                                           
+VID_0000&PID_0002           3 5&2b41b6c5&0&2           @usb.inf,%usb\device_descriptor_failure.devicedesc%;Unknown USB 
+                                                       Device (Device Descriptor Request Failed)                       
+VID_0000&PID_0004           1 5&2b41b6c5&0&2           @usb.inf,%usb\set_address_failure.devicedesc%;Unknown USB       
+                                                       Device (Set Address Failed)                                     
+VID_0000&PID_1234           2 1319868711               @usbstor.inf,%genericbulkonly.devicedesc%;USB Mass Storage      
+                                                       Device                                                          
+VID_0416&PID_5011           1 FMD072                   @usbprint.inf,%usbprint.devicedesc%;USB Printing Support        
+VID_067B&PID_2303           2 5&2b41b6c5&0&2           @oem87.inf,%devicedesc1%;Prolific USB-to-Serial Comm Port       
+VID_0951&PID_1666           2 2CFDA15C4BFA17C1C90B06B4 @usbstor.inf,%genericbulkonly.devicedesc%;USB Mass Storage      
+                                                       Device                                                          
+VID_0951&PID_172B           1 0C9D92C19C1CF5C0796201EC @usbstor.inf,%genericbulkonly.devicedesc%;USB Mass Storage      
+                                                       Device                                                          
+VID_0BDA&PID_5650           1 200901010001             @usb.inf,%usb\composite.devicedesc%;USB Composite Device        
+VID_0BDA&PID_5650&MI_00     1 6&1d5726d5&0&0000        @usbvideo.inf,%usbvideo.devicedesc%;USB Video Device            
+VID_0BDA&PID_565A           1 200901010001             @usb.inf,%usb\composite.devicedesc%;USB Composite Device        
+VID_0BDA&PID_565A&MI_00     1 6&2752971c&0&0000        @usbvideo.inf,%usbvideo.devicedesc%;USB Video Device            
+VID_10C4&PID_8105           2 5&2b41b6c5&0&2           @input.inf,%hid.devicedesc%;USB Input Device                    
+VID_10C4&PID_EA60           1 0001                     @oem90.inf,%usb\vid_10c4&pid_ea60.devicedesc%;Silicon Labs      
+                                                       CP210x USB to UART Bridge                                       
+VID_125F&PID_0100           1 9EFC7E2D                 @usbstor.inf,%genericbulkonly.devicedesc%;USB Mass Storage      
+                                                       Device                                                          
+VID_18D1&PID_0D02         312 1234567890               @oem78.inf,%singleadbinterface%;Android ADB Interface           
+VID_18D1&PID_4E41           1 Z41220110379125          B866V2_ZTE                                                      
+VID_18D1&PID_4EE1           1 Z41220090388172          Xview+                                                          
+VID_18D1&PID_4EE7         292 1234567890               @oem78.inf,%compositeadbinterface%;Android Composite ADB        
+                                                       Interface                                                       
+VID_1A86&PID_7523           2 5&2b41b6c5&0&2           @oem84.inf,%ch340ser.devicedesc%;USB-SERIAL CH340               
+VID_1B8E&PID_C003           1 5&2b41b6c5&0&2           @oem80.inf,%devicename%;WorldCup Device                         
+VID_1B8E&PID_C004         131 001671190660232c00000000 @oem79.inf,%devicename%;android_winusb                          
+VID_23A9&PID_EF18           2 5&2b41b6c5&0&2           @usbstor.inf,%genericbulkonly.devicedesc%;USB Mass Storage      
+                                                       Device                                                          
+VID_28E9&PID_03DA           1 C202101                  @input.inf,%hid.devicedesc%;USB Input Device                    
+VID_346D&PID_5678           1 3430011026543181224      @usbstor.inf,%genericbulkonly.devicedesc%;USB Mass Storage      
+                                                       Device                                                          
+VID_8087&PID_0A2B           1 5&2b41b6c5&0&7           @oem68.inf,%ibt_usb%;Intel(R) Wireless Bluetooth(R)             
+VID_8087&PID_0AAA           1 5&7d754c8&0&10           @oem23.inf,%ibt_usb%;Intel(R) Wireless Bluetooth(R)             
+
+

@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                  Length LastWriteTime            
+----                                  ------ -------------            
+ACCESO_CLIENTES_LEGENDS.exe            41472 24/10/2026 10:31:14 a. m.
+CONTROL_DE_ACCESO.exe                  41472 24/10/2026 10:31:14 a. m.
+CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe  41472 24/10/2026 10:31:14 a. m.
+
+

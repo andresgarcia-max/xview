@@ -1,0 +1,87 @@
+Command exited with code 0.
+
+Command output:
+=== Decrypting Box 2 (C4741EF2FAFB) CfgChg.log ===
+
+
+=== Decrypting first 60 lines of Box 2 ULog_1.log ===
+--------- beginning of main
+12-31 18:00:47.852  3177  3177 I lowmemorykiller: Using psi monitors for memory pressure detection
+12-31 18:00:47.853  3177  3177 I lowmemorykiller: Process polling is supported
+--------- beginning of kernel
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Booting Linux on physical CPU 0x0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Linux version 4.9.269 (root@14722499a6ee) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Mon Feb 5 16:14:59 CST 2024
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Boot CPU: AArch64 Processor [410fd034]
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d __reserved_mem_alloc_size, start:0x0000000005000000, end:0x0000000007400000, len:36 MiB
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d __reserved_mem_alloc_size, start:0x000000007f800000, end:0x0000000080000000, len:8 MiB
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Reserved memory: created DMA memory pool at 0x0000000074400000, size 0 MiB
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d cma: Reserved 8 MiB at 0x0000000057000000
+12-31 18:00:47.876     0     0 D prk     : [    0.000000@0]d On node 0 totalpages: 524288
+12-31 18:00:47.876     0     0 D prk     : [    0.000000@0]d   DMA zone: 8192 pages used for memmap
+12-31 18:00:47.876     0     0 D prk     : [    0.000000@0]d   DMA zone: 0 pages reserved
+12-31 18:00:47.876     0     0 D prk     : [    0.000000@0]d   DMA zone: 524288 pages, LIFO batch:31
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d psci: probing for conduit method from DT.
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d psci: PSCIv1.0 detected in firmware.
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d psci: Using standard PSCI v0.2 function IDs
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d psci: Trusted OS migration not required
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d psci: SMC Calling Convention v1.1
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d percpu: Embedded 25 pages/cpu s64856 r8192 d29352 u102400
+12-31 18:00:47.876     0     0 D prk     : [    0.000000@0]d pcpu-alloc: s64856 r8192 d29352 u102400 alloc=25*4096
+12-31 18:00:47.876     0     0 D prk     : [    0.000000@0]d pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Detected VIPT I-cache on CPU0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d CPU features: enabling workaround for ARM erratum 845719
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 516096
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Kernel command line: init=/init console=ttyS0,115200 no_console_suspend earlyprintk=aml-uart,0xff803000 ramoops.pstore_en=1 ramoops.record_size=0x8000 ramoops.console_size=0x4000 phy_idx= tvts_mode=0 hdr_policy=0 hdr_priority= reboot_mode_android=normal fb_width=1920 fb_height=1080 display_bpp=24 outputmode=1080p60hz panel_type=lcd_1 lcd_ctrl=0x00000000 hdmitx=,422,12bit hdmimode=1080p60hz tvts_mode=0 hdmichecksum=0xb0b40000 dolby_vision_on=0 frac_rate_policy=1 hdmi_read_edid=1 cvbsmode=480cvbs osd_reverse=0 video_reverse=0 irq_check_en=0 androidboot.selinux=enforcing androidboot.firstboot=0 jtag=disable androidboot.hardware=amlogic 2015.01-g3be660d-dirty androidboot.build.expect.baseband=N/A androidboot.rpmb_state=1 CTSEnable=0 market=4301,5 ProductID=74100499007041200000C4741EF2FAFB androidboot.wificountrycode=MX androidboot.serialno=Z41220090453546 mac=C4:74:1E:F2:FA:FB loglevel=1 keyshield=1 otg_device=0 MTU=1452 androidboot.boardtype=8 boot_revision=V0001 androidboot.bo
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d hdmitx: hdmitx uboot phy_idx: 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d hdmitx: hdmitx uboot tvts_mode: 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d am_vecm: boot hdr_policy: 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d fb: logo_info.fb_width=1920
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d fb: logo_info.fb_height=1080
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d lcd: panel_type: lcd_1
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d lcd: lcd_ctrl: 0x00000000
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d hdmitx: hdmitx uboot tvts_mode: 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d hdmitx: get hdmi checksum: 0xb0b40000
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d get_dolby_on: 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d vpp_axis_reverse: bootargs is 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d DI: di_read_canvas_reverse: bootargs is 0.
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d vdin_get_video_reverse: bootargs is 0.
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d phlock_phase_config: bootargs is 0.
+12-31 18:00:47.876     0     0 W prk     : [    0.000000@0]d ProductID=74100499007041200000C4741EF2FAFB
+12-31 18:00:47.876     0     0 W prk     : [    0.000000@0]d board_type = 8
+12-31 18:00:47.876     0     0 W prk     : [    0.000000@0]d boot_revision = 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d vout: 1080p60hz
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d vout: enable: 1
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d fb: osd0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d fb: loaded
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d fb: 0x3d800000
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d fb: 1080p60h
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d PID hash table entries: 4096 (order: 3, 32768 bytes)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Memory: 1331564K/2097152K available (13182K kernel code, 1772K rwdata, 5012K rodata, 4800K init, 1368K bss, 118420K reserved, 647168K cma-reserved)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Virtual kernel memory layout:
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d     modules : 0xffffff8000000000 - 0xffffff8008000000   (   128 MB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d     vmalloc : 0xffffff8008000000 - 0xffffffbebfff0000   (   250 GB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d       .text : 0xffffff8009080000 - 0xffffff8009d60000   ( 13184 KB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d     .rodata : 0xffffff8009d60000 - 0xffffff800a250000   (  5056 KB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d       .init : 0xffffff800a250000 - 0xffffff800a700000   (  4800 KB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d       .data : 0xffffff800a700000 - 0xffffff800a8bb008   (  1773 KB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d        .bss : 0xffffff800a8bb008 - 0xffffff800aa112cc   (  1369 KB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d     fixed   : 0xffffffbefe7fd000 - 0xffffffbefec00000   (  4108 KB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d     PCI I/O : 0xffffffbefee00000 - 0xffffffbeffe00000   (    16 MB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d     vmemmap : 0xffffffbf00000000 - 0xffffffc000000000   (     4 GB maximum)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d               0xffffffbf00000000 - 0xffffffbf02000000   (    32 MB actual)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d     memory  : 0xffffffc000000000 - 0xffffffc080000000   (  2048 MB)
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Preemptible hierarchical RCU implementation.
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d 	Build-time adjustment of leaf fanout to 64.
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d 	RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=4
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d NR_IRQS:64 nr_irqs:64 0
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d irq_meson_gpio: 100 to 8 gpio interrupt mux initialized
+12-31 18:00:47.877     0     0 I prk     : [    0.000000@0]d g12a_aoclkc_init: register ao clk ok!
+12-31 18:00:47.877     0     0 I prk     : [    0.000000@0]d Meson chip version = RevB (28:B - 40:0)
+12-31 18:00:47.877     0     0 I prk     : [    0.000000@0]d meson_g12a_sdemmc_init: register amlogic sdemmc clk
+12-31 18:00:47.877     0     0 I prk     : [    0.000000@0]d meson_g12a_sdemmc_init: register amlogic sdemmc clk
+12-31 18:00:47.877     0     0 I prk     : [    0.000000@0]d meson_g12a_gpu_init: register meson gpu clk
+12-31 18:00:47.877     0     0 I prk     : [    0.000000@0]d meson_g12a_media_init: register meson media clk

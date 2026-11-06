@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Offset 0x0A12A5: L4Z

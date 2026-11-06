@@ -1,0 +1,26 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     23/10/2026  05:17 p. m.                .github                                                              
+dar--l     23/10/2026  05:17 p. m.                api                                                                  
+dar--l     23/10/2026  05:17 p. m.                build                                                                
+dar--l     23/10/2026  05:17 p. m.                data                                                                 
+dar--l     24/10/2026  09:33 a. m.                dist                                                                 
+dar--l     23/10/2026  05:17 p. m.                electron                                                             
+dar--l     23/10/2026  05:14 p. m.                node_modules                                                         
+dar--l     24/10/2026  09:15 a. m.                public                                                               
+dar--l     23/10/2026  05:17 p. m.                release                                                              
+dar--l     24/10/2026  09:16 a. m.                repositorios                                                         
+dar--l     24/10/2026  09:15 a. m.                scripts                                                              
+dar--l     24/10/2026  09:15 a. m.                server                                                               
+dar--l     23/10/2026  05:19 p. m.                src                                                                  
+dar--l     24/10/2026  09:16 a. m.                tools                                                                
+
+

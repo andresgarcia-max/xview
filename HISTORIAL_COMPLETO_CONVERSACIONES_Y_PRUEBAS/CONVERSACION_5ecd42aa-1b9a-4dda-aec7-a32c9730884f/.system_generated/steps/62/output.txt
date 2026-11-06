@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\06_scripts_trucos_adb_y_desbloqueo\1_RESPALDO_TOTAL_EMMC_WORLDCUP.bat
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\06_scripts_trucos_adb_y_desbloqueo\2_DESBLOQUEAR_CONF_Y_BOOTLOADER_ZTE.bat
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\06_scripts_trucos_adb_y_desbloqueo\3_OPTIMIZAR_Y_LIBERAR_LAUNCHER_ADB.bat

@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\com_zte_adb\lib\armeabi (1)
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\com_zte_adb\lib\armeabi\libbase.so (171224)
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\com_zte_adb\lib\armeabi\libc++.so (485440)
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\com_zte_adb\lib\armeabi\libcrypto.so (903576)
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\com_zte_adb\lib\armeabi\libcutils.so (57952)
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\com_zte_adb\lib\armeabi\libencryCode.so (21448)
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\com_zte_adb\lib\armeabi\liblog.so (72252)

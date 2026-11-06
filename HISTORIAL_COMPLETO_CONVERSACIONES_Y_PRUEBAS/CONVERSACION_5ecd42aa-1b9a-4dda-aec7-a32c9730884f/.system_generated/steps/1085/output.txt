@@ -1,0 +1,50 @@
+Command exited with code 0.
+
+Command output:
+List of devices attached
+192.168.0.47:5555      unauthorized transport_id:1
+
+
+FullName                                                                                                              
+--------                                                                                                              
+C:\Users\andre\OneDrive\Desktop\xview\experimento\01_info_sistema\ajustes_android_settings.txt                        
+C:\Users\andre\OneDrive\Desktop\xview\experimento\01_info_sistema\cpu_kernel_memoria.txt                              
+C:\Users\andre\OneDrive\Desktop\xview\experimento\01_info_sistema\estructura_carpetas.txt                             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\01_info_sistema\getprop_completo.txt                                
+C:\Users\andre\OneDrive\Desktop\xview\experimento\01_info_sistema\pantalla_hdmi_video.txt                             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\01_info_sistema\paquetes_instalados.txt                             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\01_info_sistema\particiones_y_montajes.txt                          
+C:\Users\andre\OneDrive\Desktop\xview\experimento\02_propiedades_build\product_build.prop                             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\02_propiedades_build\system_ext_build.prop                          
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\android.autoinstalls.config.zte.device.apk      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\AppDMC.apk                                      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\AppUpgradeService.apk                           
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.android.tv.settings.apk                     
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.droidlogic.apk                              
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.droidlogic.dvbaudioservice.apk              
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.google.android.tvlauncher.apk               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.nanosic.zte.apk                             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.xuper.netxxus.apk                           
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.zte.adb.apk                                 
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.zte.android.productcfg.apk                  
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.zte.factorytesttool.apk                     
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.zte.netmanager.apk                          
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.zte.tv.act.apk                              
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.ztestb.basecomp.apk                         
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.ztestb.LauncherCustomize.apk                
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.ztestb.uploaddiagno.apk                     
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\ControlDevice.apk                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\DLStore.apk                                     
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\Filemanager.apk                                 
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\Hdplay.apk                                      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\tv.mxlmovies.app.apk                            
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\tv.settings.aidl.apk                            
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\autostart.apk                          
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\B866V2-FlashATV12_Evoca_DESOFUSCADO.bat
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\frpc.toml                              
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\frps.toml                              
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\GUIA_FRP_SERVIDORES.md                 
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\instalar_servidor_frp.sh               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\start_frp.sh                           
+
+

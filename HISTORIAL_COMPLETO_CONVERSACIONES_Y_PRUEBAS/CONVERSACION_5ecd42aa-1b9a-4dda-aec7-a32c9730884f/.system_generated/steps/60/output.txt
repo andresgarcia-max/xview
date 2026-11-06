@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\06_scripts_trucos_adb_y_desbloqueo

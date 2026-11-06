@@ -1,0 +1,795 @@
+Command exited with code 0.
+
+Command output:
+
+Status  Class                    FriendlyName                                                                          
+------  -----                    ------------                                                                          
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      USB                      Controlador de host eXtensible Intel(R) USB 3.0 - 1.0 (Microsoft)                     
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Mobile Intel(R) Processor Family I/O SMBUS - 9D23                                     
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      System                   Controladora de host de Intel(R) Serial IO I2C: 9D62                                  
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown System                   Puerto del conmutador de canal de bajada PCI Express                                  
+Unknown System                   Puerto del conmutador de canal de bajada PCI Express                                  
+Unknown System                   Puerto del conmutador de canal de bajada PCI Express                                  
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown                          B866V2_ZTE                                                                            
+Unknown WPD                      Xview+                                                                                
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Controladora PCI de RAM estándar                                                      
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Intel(R) SPI (flash) Controller - 9DA4                                                
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      Ports                    Intel(R) Active Management Technology - SOL (COM3)                                    
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Mobile Intel(R) Processor Family I/O Thermal subsystem - 9D31                         
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown System                   Intel(R) Gaussian Mixture Model - 1911                                                
+OK      System                   Mobile 7th/8th Generation Intel(R) Processor Family I/O LPC Controller (U with        
+                                 iHDCP2.2 Premium) - 9D4E                                                              
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      HDC                      Intel(R) 6th Generation Core Processor Family Platform I/O SATA AHCI Controller       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Intel(R) Management Engine Interface #1                                               
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Intel(R) Management Engine Interface #1                                               
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Controladora de host Intel(R) Serial IO I2C: 9DE8                                     
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      System                   Mobile Intel(R) Processor Family I/O PCI Express Root Port #1 - 9D10                  
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown System                   Intel(R) Thermal Subsystem - 9DF9                                                     
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Thunderbolt(TM) Controller - 15D9                                                     
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown System                   I/O LPC Controller - 9D84 for Intel(R) 300 Series Chipset Family On-Package Platform  
+                                 Controller Hub                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      System                   Controladora de host de Intel(R) Serial IO I2C: 9D61                                  
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown System                   Controlador de audio de la tecnología Intel(R) Smart Sound                            
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Intel(R) SMBus - 9DA3                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown System                   Intel(R) PCI Express Root Port #12 - 9DB3                                             
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown libusb-win32 Usb Devices WorldCup Device                                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Mobile Intel(R) Processor Family I/O PCI Express Root Port #3 - 9D12                  
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Controladora de host Intel(R) Serial IO I2C: 9DC5                                     
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Intel(R) PCI Express Root Port #5 - 9DBC                                              
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown System                   Controladora de host Intel(R) Serial IO I2C: 9DEB                                     
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      Net                      Intel(R) Ethernet Connection (4) I219-LM                                              
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      USB                      Concentrador raíz USB (USB 3.0)                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Controladora de host de Intel(R) Serial IO I2C: 9D63                                  
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USB                      Concentrador raíz USB (USB 3.0)                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown System                   Puerto del conmutador de canal de subida PCI Express                                  
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+OK      Net                      Intel(R) Dual Band Wireless-AC 8265                                                   
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown HDC                      Intel(R) 300 Series Chipset Family SATA AHCI Controller                               
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Intel(R) Host Bridge/DRAM Registers - 3E34                                            
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USB                      Controlador de host eXtensible Intel(R) USB 3.1 - 1.10 (Microsoft)                    
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Mobile Intel(R) Processor Family I/O PMC - 9D21                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+OK      System                   Intel(R) Host Bridge/DRAM Registers - 5914                                            
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+OK      System                   Controladora de host de Intel(R) Serial IO I2C: 9D60                                  
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Controlador de audio de la tecnología Intel(R) Smart Sound                            
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown Net                      Intel(R) Wireless-AC 9560 160MHz                                                      
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USB                      Controlador de host eXtensible Intel(R) USB 3.1 - 1.10 (Microsoft)                    
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+OK      System                   Intel(R) Dynamic Tuning Processor Participant                                         
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown System                   Intel(R) Dynamic Tuning Processor Participant                                         
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown System                   Controladora de host Intel(R) Serial IO I2C: 9DE9                                     
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USB                      Concentrador raíz USB (USB 3.0)                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                android_winusb                                                                        
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android Composite ADB Interface                                                       
+Unknown USBDevice                Android ADB Interface                                                                 
+Unknown USBDevice                Android ADB Interface                                                                 
+
+

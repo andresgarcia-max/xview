@@ -1,0 +1,5 @@
+Command exited with code 1.
+
+Command output:
+""node"" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.

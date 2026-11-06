@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+Name                        Length
+----                        ------
+gym-dumbbell-background.jpg 322819
+wide_dumbbell_seamless.jpg  368957
+
+

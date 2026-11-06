@@ -1,0 +1,21 @@
+Task: cae5c059-1305-4baf-b23d-650f9838632f/task-1028
+Status: DONE
+Log: file:///C:/Users/andre/.gemini/antigravity/brain/cae5c059-1305-4baf-b23d-650f9838632f/.system_generated/tasks/task-1028.log
+Log output:
+<truncated 21 lines>
+on. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 32.42s
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 25.0s of this 32.4s build (77%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:build-html transform (57%, 18.5s, 1 call)
+  - plugin vite:css transform (17%, 5.4s, 1 call)
+Additional callback time came from the callbacks below and from callbacks under 1s.
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:asset load (10 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+
+
+Last progress: 19s ago

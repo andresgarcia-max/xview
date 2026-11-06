@@ -1,0 +1,69 @@
+Command exited with code 0.
+
+Command output:
+9424aeb Agregar configuracion especial y parche xHCI (SkipBOSDescriptorQuery) para tarjeta madre ASUS ROG STRIX B550-A GAMING
+2cda631 Extraer todos los drivers, certificados, usbflags y escaneo de placa madre (Dell Latitude 7490 0KP0FT) para puerto USB Macho-a-Macho
+be59647 Guardar herramientas de liberacion 100% externa sin abrir la caja
+7601eae Regla permanente: prohibido usar UART TTL, liberacion 100% externa sin abrir ningun tornillo
+281467a Improve MOTOR_FASTBOOT_B866V2.ps1 PnP filtering and fastbootd->U-Boot bridge; update bitacora
+=== .gitignore ===
+# Archivos mayores al limite de 100 MB de GitHub
+V2/B866v2 Android 12/B866v2 Android 12/B866V2/super.img
+V2/B866v2 Android 12/B866v2 Android 12/B866V2/product.img
+Liberacion_Xview_B866V2_Portatil.exe
+
+# Carpetas duplicadas o archivos ajenos al proyecto Xview
+xview/
+drivers_ttl_cp2102/
+PROVISIONADOR_MASIVO_HG8141X7b-50_v3_BLINDADO.exe
+ControlDeAccesoLegends.lnk
+autorun.inf
+bootmgr
+bootmgr.efi
+setup.exe
+
+# Herramientas portÃ¡tiles descargadas (JADX + OpenJDK JRE) y librerÃ­as SDK genÃ©ricas
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/tools/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/resources/res/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/androidx/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/android/support/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/kotlin/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/kotlinx/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/google/
+experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/android/settingslib/
+
+**/super.img
+**/product.img
+=== .gitattributes ===
+*.inf binary
+*.cat binary
+*.sys binary
+*.ini binary
+*.PARTITION binary
+*.img binary
+*.so binary
+*.apk binary
+*.exe binary
+*.dll binary
+
+Name                                 LastWriteTime            
+----                                 -------------            
+1b455754-771b-49d1-9456-51d9e11f498d 05/11/2026 03:38:14 p. m.
+279814bc-a71e-40e6-a8e9-27fbecb5de6c 24/10/2026 08:56:19 a. m.
+40af6952-ad1f-4838-a11f-e3373e47a6f5 05/11/2026 03:49:14 p. m.
+5c0ba28a-4d92-4331-9ab9-ce864064c015 28/10/2026 05:45:30 p. m.
+5ecd42aa-1b9a-4dda-aec7-a32c9730884f 01/11/2026 11:35:22 p. m.
+68310553-cc6d-4e0b-9b90-04621bb444b3 03/11/2026 11:03:49 p. m.
+ba913b6c-968c-4c24-8df5-4868123bb908 05/11/2026 03:41:58 p. m.
+cae5c059-1305-4baf-b23d-650f9838632f 24/10/2026 11:45:18 a. m.
+tempmediaStorage                     05/11/2026 04:28:48 p. m.
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+
+

@@ -1,0 +1,22 @@
+
+
+Status       : Degraded
+Class        : System
+FriendlyName : Servicio de hipervisor de Microsoft
+InstanceId   : ROOT\HVSERVICE\0000
+Problem      : CM_PROB_NONE
+
+Status       : OK
+FriendlyName : Controlador de host eXtensible Intel(R) USB 3.0 - 1.0 (Microsoft)
+InstanceId   : PCI\VEN_8086&DEV_9D2F&SUBSYS_081C1028&REV_21\3&11583659&0&A0
+
+Status       : OK
+FriendlyName : Dispositivo compuesto USB
+InstanceId   : USB\VID_0BDA&PID_5650\200901010001
+
+Status       : OK
+FriendlyName : Concentrador raíz USB (USB 3.0)
+InstanceId   : USB\ROOT_HUB30\4&2782102E&0&0
+
+
+

@@ -1,0 +1,66 @@
+Command exited with code 0.
+
+Command output:
+
+Mode   Name                                                                       Length   LastWriteTime            
+----   ----                                                                       ------   -------------            
+d--hs- System Volume Information                                                           07/07/2025 09:16:04 p. m.
+d----- LOST.DIR                                                                            07/07/2025 09:19:40 p. m.
+d----- Music                                                                               07/07/2025 09:19:42 p. m.
+d----- Podcasts                                                                            07/07/2025 09:19:42 p. m.
+d----- Ringtones                                                                           07/07/2025 09:19:42 p. m.
+d----- Alarms                                                                              07/07/2025 09:19:42 p. m.
+d----- Notifications                                                                       07/07/2025 09:19:42 p. m.
+d----- Pictures                                                                            07/07/2025 09:19:42 p. m.
+d----- Movies                                                                              07/07/2025 09:19:42 p. m.
+d----- Download                                                                            07/07/2025 09:19:42 p. m.
+d----- DCIM                                                                                07/07/2025 09:19:42 p. m.
+d----- Audiobooks                                                                          07/07/2025 09:19:42 p. m.
+d----- Documents                                                                           07/07/2025 09:19:42 p. m.
+d----- Android                                                                             29/08/2024 12:23:38 a. m.
+d----- Recordings                                                                          01/11/2026 10:59:38 a. m.
+d----- 0FF1C3 2021 - by Diekrolo                                                           14/12/2021 10:59:18 a. m.
+d----- Huawei Small                                                                        05/10/2026 09:26:00 p. m.
+d----- xview                                                                               29/10/2026 10:20:12 p. m.
+d----- LOG_ZTESTB_OFF                                                                      05/02/2024 02:20:22 a. m.
+da---- LOG_ZTESTB                                                                          04/09/2023 02:17:26 p. m.
+d----- APPS_ANDROID_TV                                                                     01/11/2026 10:54:30 p. m.
+d----- xview 2                                                                             03/11/2026 10:20:06 p. m.
+d----- Amlogic_USB_Burning_Tool_v2.2.0                                                     13/06/2025 01:52:26 p. m.
+d----- B866v2 Android 12                                                                   31/12/2025 11:49:22 a. m.
+d----- B866FB                                                                              09/12/2023 01:02:24 a. m.
+d----- Gambar                                                                              19/11/2023 10:49:24 a. m.
+d----- TOOL CEK SLOT STB                                                                   18/11/2025 10:24:04 a. m.
+d----- ADBusbDriveR_UBT                                                                    19/11/2023 11:35:08 a. m.
+d----- B866FA                                                                              09/12/2023 01:02:24 a. m.
+-a---- com-mod-button-mapper-remap-your-keys-2-54-pro-254.apk                     4901718  24/06/2025 05:25:10 p. m.
+-a---- Home Screen Launcher_1.1.3_APKPure.apk                                     810594   24/06/2025 05:25:02 p. m.
+-a---- TVLauncher_4_google.apk                                                    38224985 24/06/2025 05:25:18 p. m.
+-a---- signMagisTV_APS-MUTO.apk                                                   34177881 24/06/2025 05:25:16 p. m.
+---hs- desktop.ini                                                                92       03/05/2026 03:56:22 p. m.
+-a---- QADEBUG.ini                                                                273      01/11/2026 10:50:12 p. m.
+-a---- QADEBUGTOOL.ini                                                            802      01/11/2026 12:41:24 p. m.
+-a---- logconfig.ini                                                              88       29/10/2026 10:03:30 p. m.
+-a---- usb_left.txt                                                               10       29/10/2026 10:03:30 p. m.
+-a---- usb_right.txt                                                              10       29/10/2026 10:03:30 p. m.
+-a---- autostart.apk                                                              8529     26/10/2026 08:51:40 p. m.
+-a---- com.esaba.downloader-2-0-4-ForGoogleAndroidDevices-arm64-v8a-android60.apk 5995174  15/10/2026 04:48:12 p. m.
+-a---- xuper hydra.apk                                                            35936833 13/07/2026 04:19:52 p. m.
+-a---- DESHABILITAR_ACTUALIZACIONES_ZTE_Y_QUITAR_BANNER.bat                       2244     01/11/2026 09:37:54 a. m.
+-a---- LIBERAR_SIN_ABRIR_CAJA.bat                                                 4254     01/11/2026 09:37:56 a. m.
+-a---- factory_update_param.aml                                                   11       01/11/2026 10:03:54 p. m.
+-a---- Filemanager.apk                                                            5737825  01/11/2026 12:41:24 p. m.
+-a---- Minimal ADB and Fastboot.lnk                                               1199     13/06/2025 06:22:50 p. m.
+-a---- adb comandos.txt                                                           674      20/07/2026 11:37:42 a. m.
+-a---- ADBAppControl-1.8.6-setup.exe                                              7972904  18/07/2026 01:08:36 p. m.
+-a---- ▓┘╫≈╖╜╩╜.txt                                                               484      08/10/2021 12:12:26 a. m.
+-a---- AdbWinApi.dll                                                              97792    06/03/2018 05:56:40 a. m.
+-a---- AdbWinUsbApi.dll                                                           62976    06/03/2018 05:56:40 a. m.
+-a---- adnl.exe                                                                   2436809  20/08/2021 04:30:16 a. m.
+-a---- BootcardMaker.exe                                                          3008512  31/10/2013 06:58:02 a. m.
+-a---- libwinpthread-1.dll                                                        141538   12/05/2017 02:25:04 p. m.
+-a---- mmcblk0boot0.bin                                                           4194304  06/11/2024 10:08:52 p. m.
+-a---- MULTI TOOLS  googletv.cmd                                                  2257     19/11/2023 10:15:10 a. m.
+-a---- Comandos.txt                                                               15       23/12/2025 04:59:00 p. m.
+
+

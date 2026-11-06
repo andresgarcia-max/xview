@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:1:import cardClienteNuevo from 
+'../../assets/card-cliente-nuevo.jpg';
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:788:              src={cardClienteNuevo} 
+
+

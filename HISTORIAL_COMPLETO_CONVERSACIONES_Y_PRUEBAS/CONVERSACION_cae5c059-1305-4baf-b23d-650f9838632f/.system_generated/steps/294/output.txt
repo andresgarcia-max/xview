@@ -1,0 +1,38 @@
+Command exited with code 0.
+
+Command output:
+
+Name                          Length 
+----                          ------ 
+avatars                              
+badges                               
+gym_media                            
+sounds                               
+biometric-fingerprint-opt.png 14487  
+biometric-fingerprint.png     120941 
+biometric-green-fp-opt.png    48954  
+biometric-green-fp.png        250300 
+biometric-rings-opt.png       91975  
+biometric-rings.png           871862 
+biometric-scanner-full.png    841623 
+biometric-scanner-opt.png     89413  
+Control_De_Acceso_Web.html    8348341
+favicon.ico                   35079  
+favicon.svg                   9522   
+gym-background-1.jpg          186225 
+gym-background-2.jpg          297334 
+gym-background-4k.jpg         3978592
+gym-background-club-8k.jpg    3978592
+gym-background-full.jpg       1764592
+gym-background-motto.jpg      1024389
+gym-background.jpg            3978592
+gym-dumbbell-background.jpg   322819 
+icons.svg                     5055   
+logo.png                      68651  
+modal-gym-bg.jpg              227074 
+pos-banner.jpg                775598 
+terminal.html                 8348341
+test-rot-plus.jpg             183712 
+test-rot.jpg                  184051 
+
+

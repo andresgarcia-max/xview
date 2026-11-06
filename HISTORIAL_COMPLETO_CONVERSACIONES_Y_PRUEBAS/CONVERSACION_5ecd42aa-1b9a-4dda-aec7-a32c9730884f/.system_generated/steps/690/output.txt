@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+[ACTIVO] PROGRAMA_PERFECTO_XVIEW_B866V2.exe v4.0 en primer plano (PID=22784)
+[2026-11-04 21:47:03.773] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-04 21:47:03.777] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]):
+[CERRADO] El usuario cerro PROGRAMA_PERFECTO_XVIEW_B866V2.exe v4.0.

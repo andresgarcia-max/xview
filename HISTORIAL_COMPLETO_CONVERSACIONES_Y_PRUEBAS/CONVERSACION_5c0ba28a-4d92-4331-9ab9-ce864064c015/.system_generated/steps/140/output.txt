@@ -1,0 +1,48 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                           LastWriteTime            
+----                                           -------------            
+IMAGENES_8K                                    23/10/2026 05:10:39 p. m.
+LEGENDS                                        23/10/2026 05:32:13 p. m.
+repositorios                                   23/10/2026 05:33:13 p. m.
+scripts                                        23/10/2026 05:19:04 p. m.
+ABRIR_CONTROL_DE_ACCESO_WEB.bat                20/10/2026 09:41:36 a. m.
+ABRIR_VERSION_WEB.bat                          19/10/2026 08:44:36 a. m.
+ACCESO_WEB_FITNESS_LEGENDS.html                23/10/2026 05:32:09 p. m.
+ACCESO_WEB_FITNESS_LEGENDS.url                 20/10/2026 09:14:02 a. m.
+ACCESO_WEB_NUBE.url                            20/10/2026 09:14:20 a. m.
+Control_De_Acceso_Web.html                     23/10/2026 05:32:09 p. m.
+CONTROL_DE_ACCESO_WEB.url                      20/10/2026 09:14:12 a. m.
+create_wide_logo.js                            23/10/2026 02:54:52 p. m.
+dumbbell_test.jpg                              23/10/2026 02:49:06 p. m.
+dumbbell_widescreen_test.jpg                   23/10/2026 02:50:42 p. m.
+EJECUTAR_FITNESS_LEGENDS.bat                   23/10/2026 05:32:13 p. m.
+EJECUTAR_TERMINAL_ACCESO.bat                   23/10/2026 05:32:13 p. m.
+FITNESS LEGENDS - Control de Acceso.lnk        17/10/2026 01:07:40 p. m.
+FITNESS LEGENDS - Nube Vercel (Enlace Web).url 20/10/2026 04:19:40 p. m.
+FITNESS LEGENDS - Sistema ERP.lnk              17/10/2026 01:07:40 p. m.
+FITNESS_LEGENDS_POS_WEB.html                   20/10/2026 09:42:12 a. m.
+FITNESS_LEGENDS_SISTEMA_ERP.exe                23/10/2026 05:32:12 p. m.
+FITNESS_LEGENDS_TERMINAL_ACCESO.exe            23/10/2026 05:32:13 p. m.
+gym-dumbbell-background.jpg                    23/10/2026 02:55:08 p. m.
+GYM_FUNCIONAL_WEB.bat                          20/10/2026 08:20:42 a. m.
+GYM_FUNCIONAL_WEB.html                         20/10/2026 09:42:40 a. m.
+GYM_FUNCIONAL_WEB.url                          20/10/2026 09:20:40 a. m.
+legends-gym-main.zip                           24/10/2026 08:56:49 a. m.
+LEYENDS_GYM_8K_CUADRADA_1X1.jpg                23/10/2026 08:52:10 a. m.
+LEYENDS_GYM_8K_ESTUDIO_16X9.jpg                23/10/2026 08:52:08 a. m.
+LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg              23/10/2026 08:52:18 a. m.
+modal-gym-bg-hd.jpg                            23/10/2026 02:49:18 p. m.
+PUNTO_DE_VENTA_GYM.bat                         20/10/2026 08:42:30 a. m.
+PUNTO_DE_VENTA_GYM.html                        20/10/2026 08:42:12 a. m.
+PUNTO_DE_VENTA_GYM.url                         20/10/2026 08:42:30 a. m.
+temp_extracted.js                              22/10/2026 08:02:10 a. m.
+WhatsApp Image 2026-10-19 at 8.32.23 AM.jpeg   19/10/2026 07:33:38 a. m.
+WhatsApp Image 2026-10-19 at 8.32.24 AM.jpeg   19/10/2026 07:33:34 a. m.
+wide_dumbbell_seamless.jpg                     23/10/2026 02:52:52 p. m.
+wide_dumbbell_test.jpg                         23/10/2026 02:52:22 p. m.
+wide_dumbbell_with_logo.jpg                    23/10/2026 02:54:00 p. m.
+
+

@@ -1,0 +1,9 @@
+
+getvar:version-bootloader                          FAILED (Write to device failed (no link))
+Finished. Total time: 5.006s
+   Id Name                           StartTime                
+   -- ----                           ---------                
+20576 adb                            02/11/2026 10:58:00 p. m.
+20608 PROGRAMA_PERFECTO_XVIEW_B866V2 04/11/2026 11:21:20 p. m.
+
+

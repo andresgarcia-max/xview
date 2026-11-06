@@ -1,0 +1,68 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                   LastWriteTime            
+----                                                   -------------            
+wpdfs.inf_amd64_da271212bca974c0                       30/10/2026 03:54:03 p. m.
+wpdmtp.inf_amd64_87521179831035f2                      29/10/2026 10:08:59 p. m.
+ntprint.inf_x86_beeabf7a5d3507eb                       17/10/2026 08:46:55 a. m.
+prnms003.inf_x86_a63a9b063a9a54ff                      17/10/2026 08:46:55 a. m.
+ntprint4.inf_amd64_724bfd956e173f03                    17/10/2026 08:46:55 a. m.
+ntprint.inf_amd64_beeabf7a5d3507eb                     17/10/2026 08:46:55 a. m.
+prnms008.inf_amd64_b3e2e27ef2631377                    17/10/2026 08:46:55 a. m.
+prnms004.inf_amd64_90822d4e0378f477                    17/10/2026 08:46:55 a. m.
+prnms005.inf_amd64_745c221a6af88b06                    17/10/2026 08:46:55 a. m.
+prnms002.inf_amd64_4ded4a57d6c04162                    17/10/2026 08:46:55 a. m.
+prnms011.inf_amd64_bd5c9c053037a539                    17/10/2026 08:46:55 a. m.
+prnms010.inf_amd64_29dafa6d47810bba                    17/10/2026 08:46:55 a. m.
+prnge001.inf_amd64_6ccbd2289c4477c7                    17/10/2026 08:46:55 a. m.
+prnms003.inf_amd64_441001f5283438b1                    17/10/2026 08:46:55 a. m.
+prnms012.inf_amd64_8a4a1b56f33e44b4                    17/10/2026 08:46:54 a. m.
+prnms007.inf_amd64_c39caaeb28b40752                    17/10/2026 08:46:54 a. m.
+prnms015.inf_amd64_6234f6559868b36c                    17/10/2026 08:46:54 a. m.
+prnms014.inf_amd64_87d4e6c4c1a5fd05                    17/10/2026 08:46:54 a. m.
+helloface.inf_amd64_68853e1bbe6dfcb2                   17/10/2026 08:43:44 a. m.
+bthmtpenum.inf_amd64_cb7850be87884ecc                  17/10/2026 08:43:44 a. m.
+wnetvsc.inf_amd64_6c2cb099322c8e5f                     17/10/2026 08:43:44 a. m.
+hidtelephonydriver.inf_amd64_41b7c0add30d6f3c          17/10/2026 08:43:44 a. m.
+uicciso.inf_amd64_3b0fdef98f8846a1                     17/10/2026 08:43:44 a. m.
+wvid.inf_amd64_c342b1df629cf434                        17/10/2026 08:43:43 a. m.
+bthprint.inf_amd64_158a9dfcd600bdb7                    17/10/2026 08:43:43 a. m.
+sdstor.inf_amd64_805e7cb1aca591bc                      17/10/2026 08:43:43 a. m.
+fusionv2.inf_amd64_23eee7ffebc29580                    17/10/2026 08:43:43 a. m.
+tpm.inf_amd64_e5f8f737ef474300                         17/10/2026 08:43:43 a. m.
+storfwupdate.inf_amd64_dfde5e972078443f                17/10/2026 08:43:43 a. m.
+hidcfu.inf_amd64_14f18f6d0cc284a5                      17/10/2026 08:43:43 a. m.
+winusb.inf_amd64_9fff486ecb8ad93e                      17/10/2026 08:43:43 a. m.
+usbxhci.inf_amd64_7d5596b3c32e0c1a                     17/10/2026 08:43:43 a. m.
+usbport.inf_amd64_086db413605900cf                     17/10/2026 08:43:43 a. m.
+usbhub3.inf_amd64_a7905d85eab77481                     17/10/2026 08:43:43 a. m.
+usb4hostrouter.inf_amd64_699a7b1bb9410071              17/10/2026 08:43:43 a. m.
+usb4devicerouter.inf_amd64_25369b7450fbd86d            17/10/2026 08:43:43 a. m.
+usb.inf_amd64_8fb2f3121a117a0a                         17/10/2026 08:43:43 a. m.
+usb-platformdetection.inf_amd64_ba8192e24d655f0c       17/10/2026 08:43:43 a. m.
+i3chost.inf_amd64_cef5fb7322145a26                     17/10/2026 08:43:43 a. m.
+hidi3c.inf_amd64_32d12a671c78a0be                      17/10/2026 08:43:43 a. m.
+input.inf_amd64_ecc6b384c27bb18b                       17/10/2026 08:43:43 a. m.
+hidbthle.inf_amd64_650882b6025f3c8e                    17/10/2026 08:43:43 a. m.
+hidbth.inf_amd64_ce9b71f08bdf9779                      17/10/2026 08:43:43 a. m.
+tdibth.inf_amd64_7b41bd81c5323825                      17/10/2026 08:43:43 a. m.
+bthleenum.inf_amd64_3766924edd50a0fb                   17/10/2026 08:43:43 a. m.
+bth.inf_amd64_55e36be7ac63c9d5                         17/10/2026 08:43:43 a. m.
+sensorshidclassdriver.inf_amd64_0845eea58162c718       17/10/2026 08:43:43 a. m.
+usbcciddriver.inf_amd64_52974b727733202c               17/10/2026 08:43:43 a. m.
+mgtdyn.inf_amd64_7b06a14a97ead221                      17/10/2026 08:43:43 a. m.
+idtsec.inf_amd64_6831d6534564b96c                      17/10/2026 08:43:43 a. m.
+hidscanner.inf_amd64_dfe82e066ee9988e                  17/10/2026 08:43:43 a. m.
+mptfthermalpolicy.inf_amd64_9f92d857cdca4119           17/10/2026 08:43:43 a. m.
+mptfpowertrackercore.inf_amd64_e0585729a98f8dcb        17/10/2026 08:43:43 a. m.
+mptfpowerlimitclient.inf_amd64_1cf31e7b403d8cc7        17/10/2026 08:43:43 a. m.
+mptfcustomizeiosignalclient.inf_amd64_f270f7d8629e4cd2 17/10/2026 08:43:43 a. m.
+mptfcore.inf_amd64_2aa5555ed0875915                    17/10/2026 08:43:43 a. m.
+plutonhsp2.inf_amd64_a7a14e422cdbd8bd                  17/10/2026 08:43:43 a. m.
+pluton-heci.inf_amd64_58a2366d0ebc6e76                 17/10/2026 08:43:43 a. m.
+cpu.inf_amd64_6cd32f4389c3a31e                         17/10/2026 08:43:43 a. m.
+pci.inf_amd64_8bd681b6431363f8                         17/10/2026 08:43:43 a. m.
+
+

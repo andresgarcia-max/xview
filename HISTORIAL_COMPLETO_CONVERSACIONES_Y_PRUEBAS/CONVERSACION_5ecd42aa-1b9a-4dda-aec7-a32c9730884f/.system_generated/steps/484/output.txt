@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                    Length
+----                                    ------
+autostart.apk                             8529
+B866V2-FlashATV12_Evoca_DESOFUSCADO.bat   1262
+frpc.toml                                  330
+frps.toml                                  683
+GUIA_FRP_SERVIDORES.md                    2479
+instalar_servidor_frp.sh                  2660
+start_frp.sh                               205
+
+
+
+Name Root         Used        Free
+---- ----         ----        ----
+C    C:\  190729977856 64261681152
+
+
+
+Name                                                       Length
+----                                                       ------
+cache_ext4.img                                           67108864
+EJECUTAR_VALIDADOR_FIRMWARE_ZTE.bat                           208
+FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat     4459
+init.recovery.amlogic.rc                                    17165
+prop.default                                                15040
+recovery_original_zte.img                                25165824
+releasekey.x509.pem                                          1356
+REPORTE_VALIDACION_FIRMWARE_Y_OTA_ZTE.md                     9854
+system_bin_recovery                                       1579124
+system_etc_recovery.fstab                                    2045
+system_etc_security_otacerts.zip                             1140
+system_lib_librecovery_zte_conf.so                          21176
+VALIDAR_FIRMWARE_Y_OTA_ZTE.ps1                              10776
+
+

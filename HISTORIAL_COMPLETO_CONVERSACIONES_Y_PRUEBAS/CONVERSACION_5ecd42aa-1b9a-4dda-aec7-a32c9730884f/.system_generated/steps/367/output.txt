@@ -1,0 +1,72 @@
+Command exited with code 0.
+
+Command output:
+
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:617:reboot_mode:::: watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:818:gpio: pin GPIOAO_3 (gpio 3) value is 1
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:828:ztebsp: bootcmd=bootsys
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:1265:ztebsp: bootcmd=bootsys
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:1326:reboot_mode:::: fastboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:1592:reboot_mode:::: watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:1746:reboot_mode=watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:2991:ztebsp: bootcmd=bootsys
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:3052:reboot_mode:::: fastboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:3318:reboot_mode:::: watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:3472:reboot_mode=watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:4131:reboot_mode=cold_boot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:4205:reboot_mode:::: cold_boot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:4356:reboot_mode=watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:4400:gpio: pin GPIOAO_3 (gpio 3) value is 0
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:4499:reboot_mode=cold_boot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:5159:reboot_mode=watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:5265:reboot_mode=cold_boot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:5329:tcmd=bootsys).a la placa 
+(reboot_mode:::: watchdog_rebo                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:5361: que reinicia la placa 
+(reboot_mode:::: watchdog_rebo                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:5364:Motivo B (Watchdog de hardware 
+activo): Adem?s, mientras est? en U-Boot/Fastboot sin actividad, este firmware (U-Boot 2015.01-g220e992) tiene activo 
+un temporizador Watchdog que reinicia la placa (reboot_mode:::: watchdog_reboot) y como en la partici?n misc solo 
+hab?a bootonce-bootloader (de un solo uso), en el siguiente reinicio ya no vuelve a Fastboot sino que carga el sistema 
+normal (ztebsp: bootcmd=bootsys).
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:5367:(Watchdog de hardware activo): 
+Adem?s, mientras est? en U-Boot/Fastboot sin actividad, este firmware (U-Boot 2015.01-g220e992) tiene activo un 
+temporizador Watchdog que reinicia la placa (reboot_mode:::: watchdog_reboot) y como en la partici?n misc solo hab?a 
+bootonce-bootloader (de un solo uso), en el siguiente reinicio ya no vuelve a Fastboot sino que carga el sistema 
+normal (ztebsp: bootcmd=bootsys).
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:5378:rmal (ztebsp: bootcmd=bootsys).
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:6003:tcmd=bootsys).a la placa 
+(reboot_mode:::: watchdog_rebo                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:6010:gpio: pin GPIOAO_3 (gpio 3) value is 0
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:6021:Motivo B (Watchdog de hardware 
+activo): Adem?s, mientras est? en U-Boot/Fastboot sin actividad, este firmware (U-Boot 2015.01-g220e992) tiene activo 
+un temporizador Watchdog que reinicia la placa (reboot_mode:::: watchdog_reboot) y como en la partici?n misc solo 
+hab?a bootonce-bootloader (de un solo uso), en el siguiente reinicio ya no vuelve a Fastboot sino que carga el sistema 
+normal (ztebsp: bootcmd=bootsys).
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:6257:rmal (ztebsp: bootcmd=bootsys).
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:6494:reboot_mode=cold_boot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:6558: que reinicia la placa 
+(reboot_mode:::: watchdog_rebo                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:6729:reboot_mode=watchdog_reboot
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7049:(Watchdog de hardware activo): 
+Adem?s, mientras est? en U-Boot/Fastboot sin actividad, este firmware (U-Boot 2015.01-g220e992) tiene activo un 
+temporizador Watchdog que reinicia la placa (reboot_mode:::: watchdog_reboot) y como en la partici?n misc solo hab?a 
+bootonce-bootloader (de un solo uso), en el siguiente reinicio ya no vuelve a Fastboot sino que carga el sistema 
+normal (ztebsp: bootcmd=bootsys).q
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7053: sistema normal (ztebsp: 
+bootcmd=bootsys).Motivo B (W                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7057:bootcmd=bootsys).Motivo B (Watchdog 
+de hardware activ                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7084:al (ztebsp: bootcmd=boots
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7085:no que carga el sistema normal 
+(ztebsp: bootcmd=boots                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7088:ys).a la placa (reboot_mode:::: 
+watchdog_reboot) y como                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7115:la placa (reboot_mode:::
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7116:izador Watchdog que reinicia la placa 
+(reboot_mode:::                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7120:cia la placa (reboot_mode:::: 
+watchdog_reboot) y como                         <
+experimento\14_MONITOREO_EN_VIVO_SMARTTY\BLOQUES_ASCII_COMPLETOS_SESION.txt:7702:al (ztebsp: bootcmd=boots
+
+

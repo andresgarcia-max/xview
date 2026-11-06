@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+[update]ERR(L%d):
+WorldCup Device
+WorldCup Device
+WorldCup Device
+update <partition>: Burn a partition with a partition image
+update <tplcmd>   : like bulkcmd
+update <bulkcmd>  : pass and exec a command platform bootloader can support
+update partition partName imgFilePath [imgFileFmt] [sha1VeryFile]
+update partition boot z:\a\b\boot.img [normal] //format normal is optional
+update partition system z:\xxxx\system.img [sparse] //format sparse is optional
+update bulkcmd "printenv" //uboot command 'printenv'
+update partition upgrade z:\xxxx\upgrade.ubifs.img ubifs //format ubifs is MANDATORY
+update bulkcmd "burning cmd or u-boot cmd"
+update bulkcmd "disk_intial 0" //cmd to init flash for usb burning
+oot.dump //upload 32M of boot partition in path d:
+[update]ERR(L%d):
+[update]ERR(L%d):
+WorldCup[%02d].%s
+[update]ERR(L%d):
+ERR:write data to media failed
+[update]ERR(L%d):
+AmlUsbBulkCmd failed!
+ERR: AmlUsbBulkCmd failed!
+[update]ERR(L%d):
+ERR: Run cmd failed
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+[update]ERR(L%d):
+ERR: can not open the %s file
+ERR: write data to device failed

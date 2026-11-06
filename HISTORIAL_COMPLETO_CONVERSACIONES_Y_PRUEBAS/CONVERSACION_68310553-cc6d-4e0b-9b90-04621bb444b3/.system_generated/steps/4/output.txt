@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                                      
+----                                                                      
+.gitattributes                                                            
+.gitignore                                                                
+ANALISIS_COMPLETO_REA.md                                                  
+ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md                                    
+BITACORA_PRUEBAS_OPCIONES_Y_ERRORES_XVIEW.md                              
+com.esaba.downloader-2-0-4-ForGoogleAndroidDevices-arm64-v8a-android60.apk
+CommandCompletions.xml                                                    
+DESHABILITAR_ACTUALIZACIONES_ZTE_Y_QUITAR_BANNER.bat                      
+INSTALAR_DRIVERS_TTL_Y_ABRIR_SMARTTY.bat                                  
+libboost_multidex.so                                                      
+libc++_shared.so                                                          
+libcrashlytics-common.so                                                  
+libcrashlytics-handler.so                                                 
+libcrashlytics-trampoline.so                                              
+libcrashlytics.so                                                         
+libcrashsdk.so                                                            
+Liberacion_Xview_B866V2_Portatil.exe                                      
+LIBERAR_SIN_ABRIR_CAJA.bat                                                
+libijkffmpeg.so                                                           
+libijkplayer.so                                                           
+libijksdl.so                                                              
+libranger-jni.so                                                          
+libssh2.dll                                                               
+libtnet-3.1.14.so                                                         
+libumeng-spy.so                                                           
+OCULTAR_O_DESACTIVAR_DEPURACION_USB.bat                                   
+QADEBUG.ini                                                               
+QADEBUGTOOL.ini                                                           
+README.md                                                                 
+SmarTTY.exe                                                               
+xuper hydra.apk                                                           
+
+

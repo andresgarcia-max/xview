@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                    Length 
+--------                                                                                                    ------ 
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver                                      
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\install_all_drivers.cmd                  1499   
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\install_log.txt                          810    
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver_r13-windows.zip               8682039
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\amd64                                
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\i386                                 
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\androidwinusb86.cat           12789  
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\androidwinusba64.cat          12825  
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\android_winusb.inf            6957   
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\source.properties             64     
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\amd64\WdfCoInstaller01009.dll 1721576
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\amd64\winusbcoinstaller2.dll  1002728
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\amd64\WUDFUpdate_01009.dll    2152176
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\i386\WdfCoInstaller01009.dll  1461992
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\i386\winusbcoinstaller2.dll   851176 
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver\i386\WUDFUpdate_01009.dll     1837296
+
+

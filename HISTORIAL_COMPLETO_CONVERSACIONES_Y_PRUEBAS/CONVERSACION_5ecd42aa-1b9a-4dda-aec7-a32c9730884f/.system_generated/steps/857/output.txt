@@ -1,0 +1,129 @@
+Command exited with code 0.
+
+Command output:
+=== AROUND 0x31704 ===
+ata_updater.cpp
+Zero-filling COW device: 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+This can't happen; base64 decoder state = 
+Invalid range: 
+failed to open block device 
+failed to map range 
+Empty filename
+Zip: invalid offset %lld
+cd_size
+Zip: The size of central directory doesn't fit in range of size_t: %llu
+Zip: Found `Disk Start Number` field in extra block. Ignoring it.
+Invalid entry name
+rue
+bootable/recovery/recovery_main.cpp
+Rebooting to recovery...
+Entering fastboot
+Can't read 
+wipe_ab
+otg_device
+.
+Set USB Status Success!
+%s=%s
+do not need to install app,need to remove %s
+%d: ERROR!!! MD5 Mismatched!!!!
+WifiMacAddr
+hdcp_key
+bootable/recovery/zte/zte_inifile.c
+r+
+[%s][%d]%s content is illegal!
+/
+Supported API: %d
+  Done
+/dev/block/mmcblk
+Failed to write to 
+re
+project_quota,extra_attr
+critical error: %s: failed to seek to block group descriptors: %s
+critical error: %s: failed to alloc buffer
+/%s
+in libfs_mgr 
+slot_suffix
+Can't RemoveAllUpdateState: prolog failed.
+Could not create source device for snapshot 
+Could not delete snapshot device: 
+Skipping delete of snapshot 
+Deleting snapshot for partition 
+opendir failed: 
+Mapping snapshot with a different name is unsupported: partition_name = 
+Skipping zero-length logical partition: 
+Found snapshot status named 
+Unable to write new update state
+Detected overflow in snapshot 
+cow
+android.snapshot.SnapshotStatus.name
+ Scratch space found of size: 
+Gz stream ended prematurely
+lseek failed for writing
+=== AROUND 0x3E398 ===
+ for lite message)
+Unspecified assertion failed
+Secure boot - 
+ro.system.build.version.sdk
+ro.virtual_ab.allow_non_ab
+--show_text
+/cache/recovery/last_log
+build.tools.releasetools.PartitionState
+/tmp/convert_fbe
+/cache/recovery/last_kmsg
+FAILED_PRECONDITION
+/mnt/system
+/sideload/package.zip
+/metadata/ota
+/tmp/last_install
+/tmp/update-binary
+ Factory data reset
+/dev/block/ubootenv
+/cache/recovery/uncrypt_status
+sys.powerctl
+  Confirm reboot?
+ro.build.date.utc
+DATA_LOSS
+ro.debuggable
+/sdcard/factory_update_param.aml
+OUT_OF_RANGE
+/dev/socket/logdw
+--fastboot
+ro.boot.bootreason
+ro.virtual_ab.enabled
+default-key
+chromeos_update_engine.Extent
+CANCELLED
+UNIMPLEMENTED
+ro.build.fingerprint
+ro.bootloader
+external_storage.projid.enabled
+post-build-incremental
+CALLBACK_DIED
+INVALID_ARGUMENT
+RESOURCE_EXHAUSTED
+ro.boot.quiescent
+DISCHARGING
+/dev/socket/
+/cache/recovery/last_command
+Reboot system now
+Choose a package to install:
+ro.build.version.sdk
+Wipe all user data?
+  THIS CAN NOT BE UNDONE!
+Reboot to bootloader
+/merge_state
+sys.usb.state
+Select file to view
+recovery.wipe
+DEADLINE_EXCEEDED
+ro.boot.verifiedbootstate
+/dev/nand_env
+/system/etc/security/otacerts.zip
+ALREADY_EXISTS
+/cache/recovery/command
+ro.build.expect.baseband
+ro.build.ab_update
+ro.boot.slot_suffix
+Wipe cache?
+

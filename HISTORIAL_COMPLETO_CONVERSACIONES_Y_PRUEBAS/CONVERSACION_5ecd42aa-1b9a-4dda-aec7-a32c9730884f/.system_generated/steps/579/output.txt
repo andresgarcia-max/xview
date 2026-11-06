@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Proceso creado de forma persistente: PID=18200 Titulo=''

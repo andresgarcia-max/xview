@@ -1,0 +1,58 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                 
+--------                                                                                 
+C:\Users\andre\OneDrive\Desktop\gym\ABRIR_CONTROL_DE_ACCESO_WEB.bat                      
+C:\Users\andre\OneDrive\Desktop\gym\ABRIR_VERSION_WEB.bat                                
+C:\Users\andre\OneDrive\Desktop\gym\ACCESO_WEB_FITNESS_LEGENDS.html                      
+C:\Users\andre\OneDrive\Desktop\gym\ACCESO_WEB_FITNESS_LEGENDS.url                       
+C:\Users\andre\OneDrive\Desktop\gym\ACCESO_WEB_NUBE.url                                  
+C:\Users\andre\OneDrive\Desktop\gym\Control_De_Acceso_Web.html                           
+C:\Users\andre\OneDrive\Desktop\gym\CONTROL_DE_ACCESO_WEB.url                            
+C:\Users\andre\OneDrive\Desktop\gym\create_wide_logo.js                                  
+C:\Users\andre\OneDrive\Desktop\gym\dumbbell_test.jpg                                    
+C:\Users\andre\OneDrive\Desktop\gym\dumbbell_widescreen_test.jpg                         
+C:\Users\andre\OneDrive\Desktop\gym\EJECUTAR_FITNESS_LEGENDS.bat                         
+C:\Users\andre\OneDrive\Desktop\gym\EJECUTAR_TERMINAL_ACCESO.bat                         
+C:\Users\andre\OneDrive\Desktop\gym\FITNESS LEGENDS - Control de Acceso.lnk              
+C:\Users\andre\OneDrive\Desktop\gym\FITNESS LEGENDS - Nube Vercel (Enlace Web).url       
+C:\Users\andre\OneDrive\Desktop\gym\FITNESS LEGENDS - Sistema ERP.lnk                    
+C:\Users\andre\OneDrive\Desktop\gym\FITNESS_LEGENDS_POS_WEB.html                         
+C:\Users\andre\OneDrive\Desktop\gym\FITNESS_LEGENDS_SISTEMA_ERP.exe                      
+C:\Users\andre\OneDrive\Desktop\gym\FITNESS_LEGENDS_TERMINAL_ACCESO.exe                  
+C:\Users\andre\OneDrive\Desktop\gym\gym-dumbbell-background.jpg                          
+C:\Users\andre\OneDrive\Desktop\gym\GYM_FUNCIONAL_WEB.bat                                
+C:\Users\andre\OneDrive\Desktop\gym\GYM_FUNCIONAL_WEB.html                               
+C:\Users\andre\OneDrive\Desktop\gym\GYM_FUNCIONAL_WEB.url                                
+C:\Users\andre\OneDrive\Desktop\gym\legends-gym-main.zip                                 
+C:\Users\andre\OneDrive\Desktop\gym\LEYENDS_GYM_8K_CUADRADA_1X1.jpg                      
+C:\Users\andre\OneDrive\Desktop\gym\LEYENDS_GYM_8K_ESTUDIO_16X9.jpg                      
+C:\Users\andre\OneDrive\Desktop\gym\LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg                    
+C:\Users\andre\OneDrive\Desktop\gym\modal-gym-bg-hd.jpg                                  
+C:\Users\andre\OneDrive\Desktop\gym\PUNTO_DE_VENTA_GYM.bat                               
+C:\Users\andre\OneDrive\Desktop\gym\PUNTO_DE_VENTA_GYM.html                              
+C:\Users\andre\OneDrive\Desktop\gym\PUNTO_DE_VENTA_GYM.url                               
+C:\Users\andre\OneDrive\Desktop\gym\temp_extracted.js                                    
+C:\Users\andre\OneDrive\Desktop\gym\WhatsApp Image 2026-10-19 at 8.32.23 AM.jpeg         
+C:\Users\andre\OneDrive\Desktop\gym\WhatsApp Image 2026-10-19 at 8.32.24 AM.jpeg         
+C:\Users\andre\OneDrive\Desktop\gym\wide_dumbbell_seamless.jpg                           
+C:\Users\andre\OneDrive\Desktop\gym\wide_dumbbell_test.jpg                               
+C:\Users\andre\OneDrive\Desktop\gym\wide_dumbbell_with_logo.jpg                          
+C:\Users\andre\OneDrive\Desktop\gym\IMAGENES_8K\LEYENDS_GYM_8K_CUADRADA_1X1.jpg          
+C:\Users\andre\OneDrive\Desktop\gym\IMAGENES_8K\LEYENDS_GYM_8K_CUADRADA_CROP_1X1.jpg     
+C:\Users\andre\OneDrive\Desktop\gym\IMAGENES_8K\LEYENDS_GYM_8K_ESTUDIO_16X9.jpg          
+C:\Users\andre\OneDrive\Desktop\gym\IMAGENES_8K\LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg        
+C:\Users\andre\OneDrive\Desktop\gym\IMAGENES_8K\LEYENDS_GYM_8K_FOTO_REAL_CUADRADA_1X1.jpg
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\.gitignore                                   
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\.oxlintrc.json                               
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\ControlDeAccesoLegends.lnk                   
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\EJECUTAR_SISTEMA_PRINCIPAL.bat               
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\EJECUTAR_TERMINAL_ACCESO.bat                 
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\index.html                                   
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\INICIAR_SISTEMA_PRINCIPAL.bat                
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\INICIAR_TERMINAL_ACCESO.bat                  
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\package-lock.json                            
+
+

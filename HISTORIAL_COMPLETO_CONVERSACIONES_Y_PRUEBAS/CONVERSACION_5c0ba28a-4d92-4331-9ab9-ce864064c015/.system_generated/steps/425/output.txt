@@ -1,0 +1,152 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\context\GymContext.tsx:48:  clearSecurityAlert: () => void;
+  LEGENDS\src\context\GymContext.tsx:49:  securityAuditLogs: SecurityAuditEvent[];
+> LEGENDS\src\context\GymContext.tsx:50:  login: (
+  LEGENDS\src\context\GymContext.tsx:51:    identifier: string,
+> LEGENDS\src\context\GymContext.tsx:52:    passOrPin: string,
+> LEGENDS\src\context\GymContext.tsx:53:    supervisorOverridePin?: string
+  LEGENDS\src\context\GymContext.tsx:54:  ) => {
+  LEGENDS\src\context\GymContext.tsx:55:    success: boolean;
+  LEGENDS\src\context\GymContext.tsx:56:    message?: string;
+  LEGENDS\src\context\GymContext.tsx:60:    requiresSupervisorOverride?: boolean;
+  LEGENDS\src\context\GymContext.tsx:61:  };
+> LEGENDS\src\context\GymContext.tsx:62:  loginQuick: (employeeId: string) => boolean;
+  LEGENDS\src\context\GymContext.tsx:63:  logout: (reason?: string | unknown) => void;
+> LEGENDS\src\context\GymContext.tsx:64:  verifySupervisorPin: (pinOrPass: string, actionLabel?: string) => boolean;
+  LEGENDS\src\context\GymContext.tsx:65:  requestSupervisorAuth: (actionLabel: string, onAuthorized: () => void) => 
+void;
+  LEGENDS\src\context\GymContext.tsx:66:  pendingSupervisorAction: { actionLabel: string; onAuthorized: () => void } | 
+null;
+  LEGENDS\src\context\GymContext.tsx:67:  cancelSupervisorAuth: () => void;
+  LEGENDS\src\context\GymContext.tsx:756:  }, [currentUser]);
+  LEGENDS\src\context\GymContext.tsx:757:
+> LEGENDS\src\context\GymContext.tsx:758:  const verifySupervisorPin = useCallback(
+> LEGENDS\src\context\GymContext.tsx:759:    (pinOrPass: string, actionLabel?: string): boolean => {
+> LEGENDS\src\context\GymContext.tsx:760:      const clean = pinOrPass.trim();
+  LEGENDS\src\context\GymContext.tsx:761:      if (!clean) return false;
+  LEGENDS\src\context\GymContext.tsx:762:
+  LEGENDS\src\context\GymContext.tsx:763:      const admins = employees.filter((e) => e.role === 'admin' && e.status 
+=== 'active');
+  LEGENDS\src\context\GymContext.tsx:764:      const matchedAdmin = admins.find(
+> LEGENDS\src\context\GymContext.tsx:765:        (adm) => verifySecret(clean, adm.password) || verifySecret(clean, 
+adm.pin)
+  LEGENDS\src\context\GymContext.tsx:766:      );
+  LEGENDS\src\context\GymContext.tsx:767:
+  LEGENDS\src\context\GymContext.tsx:768:      if (matchedAdmin) {
+  LEGENDS\src\context\GymContext.tsx:785:
+  LEGENDS\src\context\GymContext.tsx:786:  const requestSupervisorAuth = useCallback((actionLabel: string, 
+onAuthorized: () => void) => {
+> LEGENDS\src\context\GymContext.tsx:787:    // If current user is already a verified admin, still require PIN 
+confirmation for critical destructive actions
+  LEGENDS\src\context\GymContext.tsx:788:    setPendingSupervisorAction({ actionLabel, onAuthorized });
+  LEGENDS\src\context\GymContext.tsx:789:  }, []);
+  LEGENDS\src\context\GymContext.tsx:790:
+  LEGENDS\src\context\GymContext.tsx:794:
+  LEGENDS\src\context\GymContext.tsx:795:  // Auth methods
+> LEGENDS\src\context\GymContext.tsx:796:  const login = (
+  LEGENDS\src\context\GymContext.tsx:797:    identifier: string,
+> LEGENDS\src\context\GymContext.tsx:798:    passOrPin: string,
+> LEGENDS\src\context\GymContext.tsx:799:    supervisorOverridePin?: string
+  LEGENDS\src\context\GymContext.tsx:800:  ): {
+  LEGENDS\src\context\GymContext.tsx:801:    success: boolean;
+  LEGENDS\src\context\GymContext.tsx:802:    message?: string;
+  LEGENDS\src\context\GymContext.tsx:806:    requiresSupervisorOverride?: boolean;
+  LEGENDS\src\context\GymContext.tsx:807:  } => {
+> LEGENDS\src\context\GymContext.tsx:808:    const lockout = storage.getLoginLockout();
+  LEGENDS\src\context\GymContext.tsx:809:    if (lockout.lockoutUntil && Date.now() < lockout.lockoutUntil) {
+  LEGENDS\src\context\GymContext.tsx:810:      const remSec = Math.ceil((lockout.lockoutUntil - Date.now()) / 1000);
+  LEGENDS\src\context\GymContext.tsx:811:      sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:819:
+  LEGENDS\src\context\GymContext.tsx:820:    const cleanId = identifier.trim().toLowerCase();
+> LEGENDS\src\context\GymContext.tsx:821:    const cleanPass = passOrPin.trim();
+  LEGENDS\src\context\GymContext.tsx:822:
+  LEGENDS\src\context\GymContext.tsx:823:    if (!cleanId || !cleanPass) {
+> LEGENDS\src\context\GymContext.tsx:824:      return { success: false, message: 'Ingresa tu usuario / correo / c�dula 
+y tu contrase�a o PIN.' };
+  LEGENDS\src\context\GymContext.tsx:825:    }
+  LEGENDS\src\context\GymContext.tsx:826:
+  LEGENDS\src\context\GymContext.tsx:827:    const found = employees.find((emp) => {
+  LEGENDS\src\context\GymContext.tsx:833:
+  LEGENDS\src\context\GymContext.tsx:834:    if (!found) {
+> LEGENDS\src\context\GymContext.tsx:835:      const fail = storage.recordFailedLoginAttempt(cleanId);
+  LEGENDS\src\context\GymContext.tsx:836:      setSecurityAuditLogs(storage.getSecurityAuditLogs());
+  LEGENDS\src\context\GymContext.tsx:837:      sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:838:      if (fail.justLocked) {
+  LEGENDS\src\context\GymContext.tsx:851:
+  LEGENDS\src\context\GymContext.tsx:852:    const isValid =
+> LEGENDS\src\context\GymContext.tsx:853:      verifySecret(cleanPass, found.password) ||
+> LEGENDS\src\context\GymContext.tsx:854:      verifySecret(cleanPass, found.pin);
+  LEGENDS\src\context\GymContext.tsx:855:
+  LEGENDS\src\context\GymContext.tsx:856:    if (!isValid) {
+> LEGENDS\src\context\GymContext.tsx:857:      const fail = storage.recordFailedLoginAttempt(found.email);
+  LEGENDS\src\context\GymContext.tsx:858:      setSecurityAuditLogs(storage.getSecurityAuditLogs());
+  LEGENDS\src\context\GymContext.tsx:859:      sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:860:      if (fail.justLocked) {
+  LEGENDS\src\context\GymContext.tsx:868:      return {
+  LEGENDS\src\context\GymContext.tsx:869:        success: false,
+> LEGENDS\src\context\GymContext.tsx:870:        message: `Contrase�a o PIN incorrecto. Intento ${fail.attempts} de 3 
+antes del bloqueo.`
+  LEGENDS\src\context\GymContext.tsx:871:      };
+  LEGENDS\src\context\GymContext.tsx:872:    }
+  LEGENDS\src\context\GymContext.tsx:873:
+  LEGENDS\src\context\GymContext.tsx:875:    const shiftCheck = checkEmployeeShiftAllowed(found);
+  LEGENDS\src\context\GymContext.tsx:876:    if (!shiftCheck.allowed) {
+> LEGENDS\src\context\GymContext.tsx:877:      if (!supervisorOverridePin || !supervisorOverridePin.trim()) {
+  LEGENDS\src\context\GymContext.tsx:878:        storage.addSecurityAuditLog({
+  LEGENDS\src\context\GymContext.tsx:879:          type: 'SHIFT_BLOCKED',
+  LEGENDS\src\context\GymContext.tsx:880:          userName: found.fullName,
+  LEGENDS\src\context\GymContext.tsx:881:          userIdentifier: found.email,
+  LEGENDS\src\context\GymContext.tsx:882:          role: found.role,
+> LEGENDS\src\context\GymContext.tsx:883:          details: `Intento de acceso fuera de turno (${found.shift}). 
+Esperando PIN de Supervisor.`
+  LEGENDS\src\context\GymContext.tsx:884:        });
+  LEGENDS\src\context\GymContext.tsx:885:        setSecurityAuditLogs(storage.getSecurityAuditLogs());
+  LEGENDS\src\context\GymContext.tsx:886:        sounds.playAccessDenied();
+  LEGENDS\src\context\GymContext.tsx:892:      }
+  LEGENDS\src\context\GymContext.tsx:893:
+> LEGENDS\src\context\GymContext.tsx:894:      const supervisorOk = verifySupervisorPin(
+> LEGENDS\src\context\GymContext.tsx:895:        supervisorOverridePin,
+  LEGENDS\src\context\GymContext.tsx:896:        `Acceso fuera de horario para ${found.fullName} (${found.shift})`
+  LEGENDS\src\context\GymContext.tsx:897:      );
+  LEGENDS\src\context\GymContext.tsx:898:      if (!supervisorOk) {
+  LEGENDS\src\context\GymContext.tsx:900:          success: false,
+  LEGENDS\src\context\GymContext.tsx:901:          requiresSupervisorOverride: true,
+> LEGENDS\src\context\GymContext.tsx:902:          message: 'PIN o contrase�a de Supervisor incorrecto. Se requiere 
+autorizaci�n del Administrador.'
+  LEGENDS\src\context\GymContext.tsx:903:        };
+  LEGENDS\src\context\GymContext.tsx:904:      }
+  LEGENDS\src\context\GymContext.tsx:905:    }
+  LEGENDS\src\context\GymContext.tsx:906:
+> LEGENDS\src\context\GymContext.tsx:907:    storage.resetLoginAttempts();
+  LEGENDS\src\context\GymContext.tsx:908:    storage.setSecurityAlert(null);
+  LEGENDS\src\context\GymContext.tsx:909:    setSecurityAlertState(null);
+  LEGENDS\src\context\GymContext.tsx:910:    storage.saveCurrentUser(found);
+  LEGENDS\src\context\GymContext.tsx:914:    storage.saveActiveRole(found.role);
+  LEGENDS\src\context\GymContext.tsx:915:    storage.addSecurityAuditLog({
+> LEGENDS\src\context\GymContext.tsx:916:      type: 'LOGIN_SUCCESS',
+  LEGENDS\src\context\GymContext.tsx:917:      userName: found.fullName,
+  LEGENDS\src\context\GymContext.tsx:918:      userIdentifier: found.email,
+  LEGENDS\src\context\GymContext.tsx:919:      role: found.role,
+  LEGENDS\src\context\GymContext.tsx:927:  };
+  LEGENDS\src\context\GymContext.tsx:928:
+> LEGENDS\src\context\GymContext.tsx:929:  const loginQuick = (employeeId: string): boolean => {
+  LEGENDS\src\context\GymContext.tsx:930:    const found = employees.find((e) => e.id === employeeId);
+  LEGENDS\src\context\GymContext.tsx:931:    if (found) {
+> LEGENDS\src\context\GymContext.tsx:932:      storage.resetLoginAttempts();
+  LEGENDS\src\context\GymContext.tsx:933:      storage.setSecurityAlert(null);
+  LEGENDS\src\context\GymContext.tsx:934:      setSecurityAlertState(null);
+  LEGENDS\src\context\GymContext.tsx:935:      storage.saveCurrentUser(found);
+  LEGENDS\src\context\GymContext.tsx:1947:      clearSecurityAlert,
+  LEGENDS\src\context\GymContext.tsx:1948:      securityAuditLogs,
+> LEGENDS\src\context\GymContext.tsx:1949:      login,
+> LEGENDS\src\context\GymContext.tsx:1950:      loginQuick,
+  LEGENDS\src\context\GymContext.tsx:1951:      logout,
+> LEGENDS\src\context\GymContext.tsx:1952:      verifySupervisorPin,
+  LEGENDS\src\context\GymContext.tsx:1953:      requestSupervisorAuth,
+  LEGENDS\src\context\GymContext.tsx:1954:      pendingSupervisorAction,
+  LEGENDS\src\context\GymContext.tsx:1955:      cancelSupervisorAuth,
+
+

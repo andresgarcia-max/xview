@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     22/10/2026  09:02 a. m.         140204 card-cliente-nuevo.jpg                                               
+
+

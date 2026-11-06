@@ -1,0 +1,310 @@
+Command exited with code 0.
+
+Command output:
+# ==============================================================================
+# CONFIGURACIÃ“N DE ENTORNO U-BOOT (env) â€” ZTE ZXV10 B866V2 (Placa: franklin / g12a)
+# Procesador: Amlogic S905X2 | Memoria: 2GB DDR4 + 8GB eMMC | Wi-Fi: MT7661LSN
+# ==============================================================================
+
+baudrate=115200
+board=franklin
+soc=g12a
+arch=arm
+cpu=armv8
+
+# ParÃ¡metros de salida de video HDMI y espacio de color (Amlogic VOUT / HDMITX)
+hdmimode=1080p60hz
+outputmode=1080p60hz
+colorattribute=444,8bit
+dolby_status=0
+hdr_policy=1
+frac_rate_policy=1
+
+# ResoluciÃ³n del Framebuffer de interfaz (OSD)
+fb_width=1920
+fb_height=1080
+display_bpp=32
+display_color_index=32
+display_layer=osd0
+
+# Argumentos pasados al Kernel Linux (cmdline)
+initargs=rootfstype=ramfs init=/init console=ttyS0,115200 no_console_suspend earlycon=aml-uart,0xff803000 ramoops.pstore_en=1 ramoops.record_size=0x8000 ramoops.console_size=0x4000
+
+# Comandos de arranque estÃ¡ndar (Android 12 en eMMC)
+storeboot=imgread kernel boot ${loadaddr}; bootm ${loadaddr};
+
+# ConfiguraciÃ³n de Multiboot por USB / SD (Armbian / Debian / CoreELEC / EmuELEC)
+# Basado en mirko-geno/b866v2-debian y ophub/amlogic-s9xxx-armbian
+start_autoscript=if usb start; then run start_usb_autoscript; fi; if mmcinfo; then run start_mmc_autoscript; fi;
+start_usb_autoscript=if fatload usb 0 1020000 s905_autoscript; then autoscr 1020000; fi; if fatload usb 1 1020000 s905_autoscript; then autoscr 1020000; fi;
+start_mmc_autoscript=if fatload mmc 0 1020000 s905_autoscript; then autoscr 1020000; fi;
+
+Filename                           LineNumber Line                                                                     
+--------                           ---------- ----                                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1282 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1283 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1286 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1364 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1365 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1411 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1412 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1415 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1612 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1613 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1616 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1652 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1653 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1656 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3008 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3009 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3012 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3090 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3091 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3137 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3138 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3141 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3338 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3339 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3342 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3378 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3379 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3382 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4065 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4066 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4259 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4260 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4263 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4732 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4733 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4736 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4792 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4795 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4870 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4871 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4874 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5099 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5100 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5103 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5235 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5238 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6360 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6361 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6364 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6428 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6429 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6456 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6459 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6631 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6632 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6635 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8075 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8076 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8079 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8143 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8144 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8171 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8174 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8348 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8349 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8352 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8757 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8758 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8761 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8789 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8792 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8902 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8903 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8906 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       9283 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       9284 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       9287 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       9593 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       9594 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       9597 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      10850 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      10851 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      10854 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11502 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11503 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11506 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11508 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11726 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11727 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11730 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11732 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11827 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11828 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11831 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      11833 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12133 getvar() 593: unlocked                                                   
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12139 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12140 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12325 >lock_state = 1                                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12328 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12360 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12366 getvar() 593: unlocked                                                   
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12372 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12373 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12424 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12425 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12428 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12470 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12474 >lock_state = 1                                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12477 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12487 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12488 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12491 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12516 >lock_state = 1                                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12519 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12552 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12585 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12586 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12626 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12627 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12632 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12673 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12674 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12720 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12721 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12724 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12730 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12733 Please flashing unlock & flashing unlock_critical                        
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12768 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12849 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12850 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12853 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12929 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12930 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12933 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12980 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12981 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      12984 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13030 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13031 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13034 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13064 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13065 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13071 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13072 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13075 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13110 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13111 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13114 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13191 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13224 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13225 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13307 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13308 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13314 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13320 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13321 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13324 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13402 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13435 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13436 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13483 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13484 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13490 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13531 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13532 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13538 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13545 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13578 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13579 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13585 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13617 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13618 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13648 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13662 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13663 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13684 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13685 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13688 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13710 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13711 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13714 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13792 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13793 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13896 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13897 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13918 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13919 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13922 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13952 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13953 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      13956 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14041 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14042 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14134 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14135 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14503 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14504 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14507 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14537 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14538 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14541 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15779 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15780 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15885 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15886 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15889 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15919 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15920 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15923 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt        583 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt       5499 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      14549 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30757 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30758 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30761 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30763 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30766 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30769 'at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()'                
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30814 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem                        
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30817 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_                       
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30820 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_c                      
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30823 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cm                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30826 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd                    
+BLOQUES_UTF16_COMPLETOS_SESION.txt      30829 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd(                   
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31132 'at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_c                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31164 getvar() 593: unlocked                                                   
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31170 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31171 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31249 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31250 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31253 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31349 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31353 >lock_state = 1                                                          
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31356 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31480 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31481 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31498 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31539 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31540 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31643 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31644 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31647 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31765 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31766 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31769 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31816 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31817 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31820 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31942 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31943 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      31949 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32064 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32065 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32086 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32127 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32128 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32152 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32174 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32175 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32178 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32269 info->unlock_ability = 0                                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32270 info->lock_state = 1                                                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32273 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      34008 at ../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()                  
+
+

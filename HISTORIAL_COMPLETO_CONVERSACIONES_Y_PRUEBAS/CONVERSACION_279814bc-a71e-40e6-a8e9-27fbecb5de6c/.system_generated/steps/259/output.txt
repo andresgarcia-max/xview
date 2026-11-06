@@ -1,0 +1,699 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\notarize\node_modules\fs-extra\lib\copy-sync
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.           5640 copy-sync.js                                                         
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\notarize\node_modules\fs-extra\lib\json
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.            271 output-json-sync.js                                                  
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\notarize\node_modules\fs-extra\lib\move-sync
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.           1199 move-sync.js                                                         
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\osx-sign\node_modules\fs-extra\lib\copy
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.           5776 copy-sync.js                                                         
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\osx-sign\node_modules\fs-extra\lib\json
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.            276 output-json-sync.js                                                  
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\osx-sign\node_modules\fs-extra\lib\move
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.           1485 move-sync.js                                                         
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\universal\node_modules\fs-extra\lib\copy-sync
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.           5640 copy-sync.js                                                         
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\universal\node_modules\fs-extra\lib\json
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.            271 output-json-sync.js                                                  
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@electron\universal\node_modules\fs-extra\lib\move-sync
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  07:59 a. m.           1199 move-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@nodelib\fs.scandir\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  09:41 a. m.            524 async.d.ts                                                           
+-a---l     07/10/2026  09:41 a. m.           3686 async.js                                                             
+-a---l     07/10/2026  09:41 a. m.            333 sync.d.ts                                                            
+-a---l     07/10/2026  09:41 a. m.           1990 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@nodelib\fs.stat\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  09:41 a. m.            274 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.           1172 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            151 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.            619 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@nodelib\fs.walk\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            478 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.            895 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            338 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.            407 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@nodelib\fs.walk\out\readers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.           1091 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.           3157 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            477 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.           1911 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\@types\node
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.          25674 async_hooks.d.ts                                                     
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\bluebird\js\release
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           2876 async.js                                                             
+-a---l     12/10/2026  08:59 a. m.           2813 synchronous_inspection.js                                            
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\caniuse-lite\data\features
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            460 async-clipboard.js                                                   
+-a---l     07/10/2026  10:41 a. m.            433 async-functions.js                                                   
+-a---l     07/10/2026  10:41 a. m.            377 background-sync.js                                                   
+-a---l     07/10/2026  10:41 a. m.            422 filereadersync.js                                                    
+-a---l     07/10/2026  10:41 a. m.            408 script-async.js                                                      
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\dir-compare\build\src
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.            272 compareAsync.d.ts                                                    
+-a---l     12/10/2026  08:59 a. m.            145 compareAsync.d.ts.map                                                
+-a---l     12/10/2026  08:59 a. m.           7596 compareAsync.js                                                      
+-a---l     12/10/2026  08:59 a. m.           6481 compareAsync.js.map                                                  
+-a---l     12/10/2026  08:59 a. m.            271 compareSync.d.ts                                                     
+-a---l     12/10/2026  08:59 a. m.            143 compareSync.d.ts.map                                                 
+-a---l     12/10/2026  08:59 a. m.           5115 compareSync.js                                                       
+-a---l     12/10/2026  08:59 a. m.           4572 compareSync.js.map                                                   
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\dir-compare\build\src\fileCompareHandler\lines
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.            152 compareAsync.d.ts                                                    
+-a---l     12/10/2026  08:59 a. m.            234 compareAsync.d.ts.map                                                
+-a---l     12/10/2026  08:59 a. m.           4364 compareAsync.js                                                      
+-a---l     12/10/2026  08:59 a. m.           2239 compareAsync.js.map                                                  
+-a---l     12/10/2026  08:59 a. m.            148 compareSync.d.ts                                                     
+-a---l     12/10/2026  08:59 a. m.            229 compareSync.d.ts.map                                                 
+-a---l     12/10/2026  08:59 a. m.           3030 compareSync.js                                                       
+-a---l     12/10/2026  08:59 a. m.           1970 compareSync.js.map                                                   
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\electron-packager\node_modules\@electron\get\n
+    ode_modules\fs-extra\lib\copy-sync
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           5431 copy-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\electron-packager\node_modules\@electron\get\n
+    ode_modules\fs-extra\lib\json
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.            375 output-json-sync.js                                                  
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\electron-packager\node_modules\@electron\get\n
+    ode_modules\fs-extra\lib\mkdirs
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           1251 mkdirs-sync.js                                                       
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\electron-packager\node_modules\@electron\get\n
+    ode_modules\fs-extra\lib\move-sync
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           1199 move-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\fast-glob\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            416 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.            814 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            385 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.            779 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\fast-glob\out\readers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            473 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.           1213 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            506 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.           1330 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\flora-colossus\node_modules\fs-extra\lib\copy
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           5776 copy-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\flora-colossus\node_modules\fs-extra\lib\json
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.            276 output-json-sync.js                                                  
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\flora-colossus\node_modules\fs-extra\lib\move
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           1485 move-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\fs-extra\lib\copy
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           5929 copy-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\fs-extra\lib\json
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.            276 output-json-sync.js                                                  
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\fs-extra\lib\move
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           1515 move-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\fs-extra\lib\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.            806 async.js                                                             
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\galactus\node_modules\fs-extra\lib\copy
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           5776 copy-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\galactus\node_modules\fs-extra\lib\json
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.            276 output-json-sync.js                                                  
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\galactus\node_modules\fs-extra\lib\move
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.           1485 move-sync.js                                                         
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\glob
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     12/10/2026  08:59 a. m.          12020 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\lucide-react\dist\esm\icons
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:35 p. m.            950 calendar-sync.mjs                                                    
+-a---l     16/10/2026  03:35 p. m.           5051 calendar-sync.mjs.map                                                
+-a---l     16/10/2026  03:35 p. m.            824 cloud-sync.mjs                                                       
+-a---l     16/10/2026  03:35 p. m.           3970 cloud-sync.mjs.map                                                   
+-a---l     16/10/2026  03:35 p. m.            889 folder-sync.mjs                                                      
+-a---l     16/10/2026  03:35 p. m.           4721 folder-sync.mjs.map                                                  
+-a---l     16/10/2026  03:35 p. m.            914 wifi-sync.mjs                                                        
+-a---l     16/10/2026  03:35 p. m.           4893 wifi-sync.mjs.map                                                    
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\postcss-js
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            358 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.            325 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\resolve
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.             56 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.             55 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\resolve\example
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            155 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.            103 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\resolve\lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.          11550 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.           7169 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\resolve\test
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.           1427 filter_sync.js                                                       
+-a---l     16/10/2026  03:34 p. m.           3797 home_paths_sync.js                                                   
+-a---l     16/10/2026  03:34 p. m.           6589 mock_sync.js                                                         
+-a---l     16/10/2026  03:34 p. m.            901 pathfilter_sync.js                                                   
+-a---l     16/10/2026  03:34 p. m.          20921 resolver_sync.js                                                     
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\resolve\test\resolver\nested_symlinks\mylib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            846 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.            606 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\sucrase\dist\esm\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.           1274 isAsyncOperation.js                                                  
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\sucrase\dist\types\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            655 isAsyncOperation.d.ts                                                
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\sucrase\dist\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.           1372 isAsyncOperation.js                                                  
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\type-fest\source
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            715 async-return-type.d.ts                                               
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\node_modules\typescript\lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            933 lib.dom.asynciterable.d.ts                                           
+-a---l     16/10/2026  03:34 p. m.           2653 lib.es2018.asyncgenerator.d.ts                                       
+-a---l     16/10/2026  03:34 p. m.           2218 lib.es2018.asynciterable.d.ts                                        
+-a---l     16/10/2026  03:34 p. m.            933 lib.webworker.asynciterable.d.ts                                     
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\@nodelib\fs.scandir\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            524 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.           3686 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            333 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.           1990 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\@nodelib\fs.stat\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            274 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.           1172 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            151 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.            619 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\@nodelib\fs.walk\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            478 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.            895 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            338 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.            407 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\@nodelib\fs.walk\out\readers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.           1091 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.           3157 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            477 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.           1911 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\caniuse-lite\data\features
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            460 async-clipboard.js                                                   
+-a---l     07/10/2026  10:41 a. m.            433 async-functions.js                                                   
+-a---l     07/10/2026  10:41 a. m.            377 background-sync.js                                                   
+-a---l     07/10/2026  10:41 a. m.            422 filereadersync.js                                                    
+-a---l     07/10/2026  10:41 a. m.            408 script-async.js                                                      
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\fast-glob\out\providers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            416 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.            814 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            385 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.            779 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\fast-glob\out\readers
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:41 a. m.            473 async.d.ts                                                           
+-a---l     07/10/2026  10:41 a. m.           1213 async.js                                                             
+-a---l     07/10/2026  10:41 a. m.            506 sync.d.ts                                                            
+-a---l     07/10/2026  10:41 a. m.           1330 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\lucide-react\dist\esm\icons
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:35 p. m.            950 calendar-sync.mjs                                                    
+-a---l     16/10/2026  03:35 p. m.           5051 calendar-sync.mjs.map                                                
+-a---l     16/10/2026  03:35 p. m.            824 cloud-sync.mjs                                                       
+-a---l     16/10/2026  03:35 p. m.           3970 cloud-sync.mjs.map                                                   
+-a---l     16/10/2026  03:35 p. m.            889 folder-sync.mjs                                                      
+-a---l     16/10/2026  03:35 p. m.           4721 folder-sync.mjs.map                                                  
+-a---l     16/10/2026  03:35 p. m.            914 wifi-sync.mjs                                                        
+-a---l     16/10/2026  03:35 p. m.           4893 wifi-sync.mjs.map                                                    
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\postcss-js
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            358 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.            325 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\resolve
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.             56 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.             55 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\resolve\example
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            155 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.            103 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\resolve\lib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.          11550 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.           7169 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\resolve\test
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.           1427 filter_sync.js                                                       
+-a---l     16/10/2026  03:34 p. m.           3797 home_paths_sync.js                                                   
+-a---l     16/10/2026  03:34 p. m.           6589 mock_sync.js                                                         
+-a---l     16/10/2026  03:34 p. m.            901 pathfilter_sync.js                                                   
+-a---l     16/10/2026  03:34 p. m.          20921 resolver_sync.js                                                     
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\resolve\test\resolver\nested_symlinks\mylib
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            846 async.js                                                             
+-a---l     16/10/2026  03:34 p. m.            606 sync.js                                                              
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\sucrase\dist\esm\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.           1274 isAsyncOperation.js                                                  
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\sucrase\dist\types\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.            655 isAsyncOperation.d.ts                                                
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\no
+    de_modules\sucrase\dist\util
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:34 p. m.           1372 isAsyncOperation.js                                                  
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\server
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          29782 syncServer.cjs                                                       
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\repositorios\01_REPOSITORIOS_SISTEMAS_Y_POS\gym-management-
+    react-tailwind\backend\utils
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  09:15 a. m.            214 asyncHandler.js                                                      
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\scripts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  09:15 a. m.            606 sync-dist.cjs                                                        
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\server
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          29782 syncServer.cjs                                                       
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\access
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     16/10/2026  03:32 p. m.          23174 TerminalSyncModal.tsx                                                
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\config
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     20/10/2026  04:16 p. m.          12003 DataSyncModal.tsx                                                    
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\services
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     20/10/2026  04:19 p. m.          20200 syncService.ts                                                       
+
+

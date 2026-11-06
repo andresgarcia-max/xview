@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\microtik
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     05/11/2026  03:40 p. m.                microtik                                                             
+d----l     05/11/2026  03:36 p. m.                ubiquiti                                                             
+
+

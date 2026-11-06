@@ -1,0 +1,47 @@
+Command exited with code 1.
+
+Command output:
+En línea: 2 Carácter: 26
++ Add-Type -TypeDefinition @
++                          ~
+Token no reconocido en el texto de origen.
+En línea: 3 Carácter: 6
++ using System;
++      ~
+Falta la directiva using
+En línea: 3 Carácter: 1
++ using System;
++ ~~~~~
+Debe aparecer una instrucción "using" antes que cualquier otra instrucción en un script.
+En línea: 4 Carácter: 6
++ using System.Runtime.InteropServices;
++      ~
+Falta la directiva using
+En línea: 4 Carácter: 1
++ using System.Runtime.InteropServices;
++ ~~~~~
+Debe aparecer una instrucción "using" antes que cualquier otra instrucción en un script.
+En línea: 5 Carácter: 6
++ using System.Text;
++      ~
+Falta la directiva using
+En línea: 5 Carácter: 1
++ using System.Text;
++ ~~~~~
+Debe aparecer una instrucción "using" antes que cualquier otra instrucción en un script.
+En línea: 8 Carácter: 13
++  [DllImport(kernel32.dll, SetLastError = true, CharSet = CharSet.Auto ...
++             ~
+Falta el paréntesis de cierre ')' en la expresión.
+En línea: 8 Carácter: 2
++  [DllImport(kernel32.dll, SetLastError = true, CharSet = CharSet.Auto ...
++  ~~~~~~~~~~~
+Atributo 'DllImport' inesperado.
+En línea: 8 Carácter: 21
++  [DllImport(kernel32.dll, SetLastError = true, CharSet = CharSet.Auto ...
++                     ~~~~
+Token '.dll' inesperado en la expresión o la instrucción.
+No se notificaron todos los errores de análisis. Corrija los errores notificados e inténtelo de nuevo.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnrecognizedToken
+ 

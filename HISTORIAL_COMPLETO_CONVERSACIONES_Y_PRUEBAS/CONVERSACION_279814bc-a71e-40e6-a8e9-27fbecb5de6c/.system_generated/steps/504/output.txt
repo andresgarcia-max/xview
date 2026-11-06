@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\server\syncServer.cjs:421:  const reqUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
+
+

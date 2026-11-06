@@ -1,0 +1,195 @@
+Command exited with code 0.
+
+Command output:
+
+
+Key                 : VID_18D1&PID_0D02\1234567890
+DeviceDesc          : @oem78.inf,%singleadbinterface%;Android ADB Interface
+FriendlyName        : 
+HardwareID          : USB\VID_18D1&PID_0D02&REV_9999; USB\VID_18D1&PID_0D02
+CompatibleIDs       : USB\COMPAT_VID_18D1&Class_FF&SubClass_42&Prot_03; USB\COMPAT_VID_18D1&Class_FF&SubClass_42; 
+                      USB\COMPAT_VID_18D1&Class_FF; USB\Class_FF&SubClass_42&Prot_03; USB\Class_FF&SubClass_42; 
+                      USB\Class_FF
+Service             : WinUSB
+Class               : 
+ClassGUID           : {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver              : {3f966bd9-fa04-4ec5-991c-d326973b5128}\0057
+Mfg                 : @oem78.inf,%providername%;Google, Inc.
+LocationInformation : Port_#0003.Hub_#0001
+
+Key                 : VID_18D1&PID_0D02\5&2b41b6c5&0&2
+DeviceDesc          : @oem78.inf,%singleadbinterface%;Android ADB Interface
+FriendlyName        : 
+HardwareID          : USB\VID_18D1&PID_0D02&REV_9999; USB\VID_18D1&PID_0D02
+CompatibleIDs       : USB\COMPAT_VID_18D1&Class_FF&SubClass_42&Prot_03; USB\COMPAT_VID_18D1&Class_FF&SubClass_42; 
+                      USB\COMPAT_VID_18D1&Class_FF; USB\Class_FF&SubClass_42&Prot_03; USB\Class_FF&SubClass_42; 
+                      USB\Class_FF
+Service             : WinUSB
+Class               : 
+ClassGUID           : {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver              : {3f966bd9-fa04-4ec5-991c-d326973b5128}\0072
+Mfg                 : @oem78.inf,%providername%;Google, Inc.
+LocationInformation : Port_#0002.Hub_#0001
+
+Key                 : VID_18D1&PID_4E41\Z41220110379125
+DeviceDesc          : B866V2_ZTE
+FriendlyName        : 
+HardwareID          : USB\VID_18D1&PID_4E41&REV_0223; USB\VID_18D1&PID_4E41
+CompatibleIDs       : USB\COMPAT_VID_18D1&Class_FF&SubClass_FF&Prot_00; USB\COMPAT_VID_18D1&Class_FF&SubClass_FF; 
+                      USB\COMPAT_VID_18D1&Class_FF; USB\Class_FF&SubClass_FF&Prot_00; USB\Class_FF&SubClass_FF; 
+                      USB\Class_FF
+Service             : 
+Class               : 
+ClassGUID           : 
+Driver              : 
+Mfg                 : 
+LocationInformation : Port_#0002.Hub_#0001
+
+Key                 : VID_18D1&PID_4EE1\Z41220090388172
+DeviceDesc          : Xview+
+FriendlyName        : 
+HardwareID          : USB\VID_18D1&PID_4EE1&REV_0440; USB\VID_18D1&PID_4EE1
+CompatibleIDs       : USB\MS_COMP_MTP; USB\COMPAT_VID_18D1&Class_06&SubClass_01&Prot_01; 
+                      USB\COMPAT_VID_18D1&Class_06&SubClass_01; USB\COMPAT_VID_18D1&Class_06; 
+                      USB\Class_06&SubClass_01&Prot_01; USB\Class_06&SubClass_01; USB\Class_06
+Service             : WUDFWpdMtp
+Class               : 
+ClassGUID           : {eec5ad98-8080-425f-922a-dabf3de3f69a}
+Driver              : {eec5ad98-8080-425f-922a-dabf3de3f69a}\0010
+Mfg                 : ZTE
+LocationInformation : Port_#0002.Hub_#0001
+
+Key                 : VID_18D1&PID_4EE7\1234567890
+DeviceDesc          : @oem78.inf,%compositeadbinterface%;Android Composite ADB Interface
+FriendlyName        : 
+HardwareID          : USB\VID_18D1&PID_4EE7&REV_0223; USB\VID_18D1&PID_4EE7
+CompatibleIDs       : USB\COMPAT_VID_18D1&Class_FF&SubClass_42&Prot_03; USB\COMPAT_VID_18D1&Class_FF&SubClass_42; 
+                      USB\COMPAT_VID_18D1&Class_FF; USB\Class_FF&SubClass_42&Prot_03; USB\Class_FF&SubClass_42; 
+                      USB\Class_FF
+Service             : WinUSB
+Class               : 
+ClassGUID           : {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver              : {3f966bd9-fa04-4ec5-991c-d326973b5128}\0095
+Mfg                 : @oem78.inf,%providername%;Google, Inc.
+LocationInformation : Port_#0003.Hub_#0001
+
+Key                 : VID_18D1&PID_4EE7\5&2b41b6c5&0&2
+DeviceDesc          : @oem78.inf,%compositeadbinterface%;Android Composite ADB Interface
+FriendlyName        : 
+HardwareID          : USB\VID_18D1&PID_4EE7&REV_0223; USB\VID_18D1&PID_4EE7
+CompatibleIDs       : USB\COMPAT_VID_18D1&Class_FF&SubClass_42&Prot_03; USB\COMPAT_VID_18D1&Class_FF&SubClass_42; 
+                      USB\COMPAT_VID_18D1&Class_FF; USB\Class_FF&SubClass_42&Prot_03; USB\Class_FF&SubClass_42; 
+                      USB\Class_FF
+Service             : WinUSB
+Class               : 
+ClassGUID           : {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver              : {3f966bd9-fa04-4ec5-991c-d326973b5128}\0268
+Mfg                 : @oem78.inf,%providername%;Google, Inc.
+LocationInformation : Port_#0002.Hub_#0001
+
+Key                 : VID_1B8E&PID_C003\5&2b41b6c5&0&2
+DeviceDesc          : @oem80.inf,%devicename%;WorldCup Device
+FriendlyName        : 
+HardwareID          : USB\VID_1B8E&PID_C003&REV_0007; USB\VID_1B8E&PID_C003
+CompatibleIDs       : USB\COMPAT_VID_1B8E&Class_FF&SubClass_00&Prot_00; USB\COMPAT_VID_1B8E&Class_FF&SubClass_00; 
+                      USB\COMPAT_VID_1B8E&Class_FF; USB\Class_FF&SubClass_00&Prot_00; USB\Class_FF&SubClass_00; 
+                      USB\Class_FF
+Service             : libusb0
+Class               : 
+ClassGUID           : {eb781aaf-9c70-4523-a5df-642a87eca567}
+Driver              : {eb781aaf-9c70-4523-a5df-642a87eca567}\0001
+Mfg                 : @oem80.inf,%vendorname%;Amlogic, Inc.
+LocationInformation : Port_#0002.Hub_#0001
+
+Key                 : VID_1B8E&PID_C004\001671190660232c00000000
+DeviceDesc          : @oem79.inf,%devicename%;android_winusb
+FriendlyName        : 
+HardwareID          : USB\VID_1B8E&PID_C004&REV_9999; USB\VID_1B8E&PID_C004
+CompatibleIDs       : USB\COMPAT_VID_1B8E&Class_FF&SubClass_42&Prot_03; USB\COMPAT_VID_1B8E&Class_FF&SubClass_42; 
+                      USB\COMPAT_VID_1B8E&Class_FF; USB\Class_FF&SubClass_42&Prot_03; USB\Class_FF&SubClass_42; 
+                      USB\Class_FF
+Service             : WinUSB
+Class               : 
+ClassGUID           : {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver              : {3f966bd9-fa04-4ec5-991c-d326973b5128}\0266
+Mfg                 : @oem79.inf,%vendorname%;Amlogic, Inc.
+LocationInformation : Port_#0002.Hub_#0001
+
+Key                 : VID_1B8E&PID_C004\001671190660350900000000
+DeviceDesc          : @oem79.inf,%devicename%;android_winusb
+FriendlyName        : 
+HardwareID          : USB\VID_1B8E&PID_C004&REV_9999; USB\VID_1B8E&PID_C004
+CompatibleIDs       : USB\COMPAT_VID_1B8E&Class_FF&SubClass_42&Prot_03; USB\COMPAT_VID_1B8E&Class_FF&SubClass_42; 
+                      USB\COMPAT_VID_1B8E&Class_FF; USB\Class_FF&SubClass_42&Prot_03; USB\Class_FF&SubClass_42; 
+                      USB\Class_FF
+Service             : WinUSB
+Class               : 
+ClassGUID           : {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver              : {3f966bd9-fa04-4ec5-991c-d326973b5128}\0319
+Mfg                 : @oem79.inf,%vendorname%;Amlogic, Inc.
+LocationInformation : Port_#0003.Hub_#0001
+
+Key                 : ROOT_HUB30\4&1cd7ea71&0&0
+DeviceDesc          : @usbhub3.inf,%usbhub3.roothubdevicedesc%;USB Root Hub (USB 3.0)
+FriendlyName        : 
+HardwareID          : USB\ROOT_HUB30&VID8086&PID9DED&REV0030; USB\ROOT_HUB30&VID8086&PID9DED; USB\ROOT_HUB30
+CompatibleIDs       : 
+Service             : USBHUB3
+Class               : 
+ClassGUID           : {36fc9e60-c465-11cf-8056-444553540000}
+Driver              : {36fc9e60-c465-11cf-8056-444553540000}\0002
+Mfg                 : @usbhub3.inf,%generic.mfg%;(Standard USB HUBs)
+LocationInformation : 
+
+Key                 : ROOT_HUB30\4&2782102e&0&0
+DeviceDesc          : @usbhub3.inf,%usbhub3.roothubdevicedesc%;USB Root Hub (USB 3.0)
+FriendlyName        : 
+HardwareID          : USB\ROOT_HUB30&VID8086&PID9D2F&REV0021; USB\ROOT_HUB30&VID8086&PID9D2F; USB\ROOT_HUB30
+CompatibleIDs       : 
+Service             : USBHUB3
+Class               : 
+ClassGUID           : {36fc9e60-c465-11cf-8056-444553540000}
+Driver              : {36fc9e60-c465-11cf-8056-444553540000}\0006
+Mfg                 : @usbhub3.inf,%generic.mfg%;(Standard USB HUBs)
+LocationInformation : 
+
+Key                 : VID_0000&PID_0002\5&2b41b6c5&0&2
+DeviceDesc          : @usb.inf,%usb\device_descriptor_failure.devicedesc%;Unknown USB Device (Device Descriptor 
+                      Request Failed)
+FriendlyName        : 
+HardwareID          : USB\DEVICE_DESCRIPTOR_FAILURE
+CompatibleIDs       : USB\DEVICE_DESCRIPTOR_FAILURE
+Service             : 
+Class               : 
+ClassGUID           : {36fc9e60-c465-11cf-8056-444553540000}
+Driver              : {36fc9e60-c465-11cf-8056-444553540000}\0011
+Mfg                 : @usb.inf,%generic.mfg%;(Standard USB Host Controller)
+LocationInformation : Port_#0002.Hub_#0001
+
+Key                 : VID_0000&PID_0002\5&2b41b6c5&0&3
+DeviceDesc          : @usb.inf,%usb\device_descriptor_failure.devicedesc%;Unknown USB Device (Device Descriptor 
+                      Request Failed)
+FriendlyName        : 
+HardwareID          : USB\DEVICE_DESCRIPTOR_FAILURE
+CompatibleIDs       : USB\DEVICE_DESCRIPTOR_FAILURE
+Service             : 
+Class               : 
+ClassGUID           : {36fc9e60-c465-11cf-8056-444553540000}
+Driver              : {36fc9e60-c465-11cf-8056-444553540000}\0013
+Mfg                 : @usb.inf,%generic.mfg%;(Standard USB Host Controller)
+LocationInformation : Port_#0003.Hub_#0001
+
+Key                 : VID_0000&PID_0004\5&2b41b6c5&0&2
+DeviceDesc          : @usb.inf,%usb\set_address_failure.devicedesc%;Unknown USB Device (Set Address Failed)
+FriendlyName        : 
+HardwareID          : USB\SET_ADDRESS_FAILURE
+CompatibleIDs       : USB\SET_ADDRESS_FAILURE
+Service             : 
+Class               : 
+ClassGUID           : {36fc9e60-c465-11cf-8056-444553540000}
+Driver              : {36fc9e60-c465-11cf-8056-444553540000}\0019
+Mfg                 : @usb.inf,%generic.mfg%;(Standard USB Host Controller)
+LocationInformation : Port_#0002.Hub_#0001
+
+
+

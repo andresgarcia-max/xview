@@ -1,0 +1,36 @@
+Command exited with code 0.
+
+Command output:
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 1984 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                       0.60 kB │ gzip:     0.40 kB
+dist/assets/logo-EicIKV0G.png                        68.65 kB
+dist/assets/card-visita-Dv6RuRxl.jpg                134.32 kB
+dist/assets/card-cliente-nuevo-Di25OL0W.jpg         140.20 kB
+dist/assets/card-huella-KqLoqcdy.jpg                165.19 kB
+dist/assets/modal-gym-bg-D4650c6a.jpg               227.07 kB
+dist/assets/gym-dumbbell-background-Bn1Hvp3H.jpg    322.81 kB
+dist/assets/gym-background-real-COVeywxQ.jpg        698.00 kB
+dist/assets/pos-banner-BOmoHBRJ.jpg                 775.59 kB
+dist/assets/gym-background-svx8pCn8.jpg             812.09 kB
+dist/assets/gym-background-motto-BzSRG4ad.jpg     1,024.38 kB
+dist/assets/index-C2x4tRNs.css                      142.15 kB │ gzip:    19.05 kB
+dist/assets/index-BJ3gKyIc.js                     5,390.93 kB │ gzip: 3,482.03 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.02s
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 2.9s of this 4.0s build (72%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:css transform (66%, 2.6s, 1 call)
+Additional callback time came from the callbacks below and from callbacks under 1s.
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:asset load (10 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+

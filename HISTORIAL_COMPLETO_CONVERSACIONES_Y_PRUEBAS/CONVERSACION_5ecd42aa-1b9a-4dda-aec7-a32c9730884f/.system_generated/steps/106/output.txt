@@ -1,0 +1,48 @@
+Command exited with code 0.
+
+Command output:
+09-04 14:20:43.350  3513  3513 D memtrack_aml: fail to open /d/ion/heaps
+09-04 14:20:43.350  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.350  3513  3513 I memtrack_aml: debug_level:1
+09-04 14:20:43.350  3676  3866 W android.os.Debug: failed to get other pss: -2
+09-04 14:20:43.352  5116  5548 I NetManager: [GetNetworkState]: Network state is not ok 
+09-04 14:20:43.378  3676  3866 I am_meminfo: [287301632,191930368,10514432,207089664,163953664]
+09-04 14:20:43.378  3676  3866 E system_server: Can't open file: /sys/kernel/ion/total_heaps_kb
+09-04 14:20:43.378  3676  3866 E system_server: Can't open file: /sys/kernel/ion/total_pools_kb
+09-04 14:20:43.476     0     0 W prk     : [  262.786213@0]- _____1088 >green_led_blink
+09-04 14:20:43.553  5116  5548 I NetManager: [GetNetworkState]: Network state is not ok 
+09-04 14:20:43.637  3676  3697 D HdmiControlService: Process pid: 3676 is calling oneTouchPlay.
+09-04 14:20:43.638  3676  3859 D HDMI    : [S]:<Text View On> 40:0D
+09-04 14:20:43.639  3530  3560 D hdmicecd: [HdmiCecControl]:[hcc] getPhysicalAddress, physical addr: 1000, last pa: 1000, ret = 0
+09-04 14:20:43.640  3903  3903 D TvPipMenuController: hideMenu(), movePipWindow=true
+09-04 14:20:43.641  3676  3697 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.641  3676  3697 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.641  3676  3697 V [FrameworkCustomization]PMSImpl: Megacable_OTT Execute choose best Activity
+09-04 14:20:43.641  3676  3697 V [FrameworkCustomization]PMSImpl: Megacable_OTT Execute choose best Activity is :com.dotscreen.megacable.portal
+09-04 14:20:43.642  3676  3697 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+09-04 14:20:43.643  3676  3697 I wm_task_moved: [1,1,1]
+09-04 14:20:43.644  3676  3697 I wm_task_moved: [12356,1,2147483647]
+09-04 14:20:43.644  3676  3697 I wm_task_to_front: [0,12356]
+09-04 14:20:43.644  4137  4137 I wm_on_top_resumed_lost_called: [220144162,com.android.tv.settings.MainSettings,topStateChangedWhenResumed]
+09-04 14:20:43.644  3676  3697 I wm_focused_root_task: [0,0,1,12360,bringingFoundTaskToFront]
+09-04 14:20:43.645  3676  3697 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,bringingFoundTaskToFront]
+09-04 14:20:43.645  3676  3697 I wm_new_intent: [0,243087000,12356,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,android.intent.action.MAIN,NULL,NULL,268435712]
+09-04 14:20:43.645  3676  3697 I wm_task_moved: [1,1,1]
+09-04 14:20:43.646  3676  3697 I wm_pause_activity: [0,220144162,com.android.tv.settings/.MainSettings,userLeaving=true,pauseBackTasks]
+09-04 14:20:43.646  4711  4711 D HomeActivity: validateThatAProfileIsLoggedInOrRidirectToLogin(onNewIntent) - isProfileSet=false isDegradedMode=true isCurrentlyLoadingConfig=false 
+09-04 14:20:43.649  3676  3700 I input_focus: [Focus request b2d4558 com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,reason=UpdateInputWindows]
+09-04 14:20:43.651  4137  4137 I wm_on_paused_called: [220144162,com.android.tv.settings.MainSettings,performPause]
+09-04 14:20:43.656  3676  3788 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,resumeTopActivityInnerLocked]
+09-04 14:20:43.656  3676  3788 I wm_add_to_stopping: [0,220144162,com.android.tv.settings/.MainSettings,makeInvisible]
+09-04 14:20:43.656  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.656  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.657  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.657  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.657  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.657  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.657  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.657  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@a23ae54
+09-04 14:20:43.658  3676  3699 D FrameworkAdapter: getClassInstance: all size of classMap -  4

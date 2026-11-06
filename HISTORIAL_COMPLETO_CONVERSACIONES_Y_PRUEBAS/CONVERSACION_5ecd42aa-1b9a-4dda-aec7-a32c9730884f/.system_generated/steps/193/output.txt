@@ -1,0 +1,196 @@
+Command exited with code 0.
+
+Command output:
+??
+@echo off
+mode con lines=33 cols=80
+chcp 65001>nul
+color F
+cls
+title MULTI TOOL MyRepublic DV9135
+:main
+echo.
+echo		    ????????????????????? ?????????   ??????????????????????????????     ?????????????????????  ????????????????????? ????????????   ????????????
+echo		    ???????????????????????????????????? ????????????????????????????????????    ?????????????????????????????????????????????????????????????????? ???????????????
+echo		    ?????????  ????????? ????????????????????? ????????????????????????    ?????????????????????????????????   ??????????????????????????????????????????
+echo		    ?????????  ?????????  ???????????????  ????????????????????????    ?????????????????????????????????   ??????????????????????????????????????????
+echo		    ????????????????????????   ?????????   ?????????  ?????????    ?????????  ????????????????????????????????????????????? ????????? ?????????
+echo		    ?????????????????????    ?????????   ?????????  ?????????    ?????????  ????????? ????????????????????? ?????????     ?????????
+echo.
+echo ################################################################################
+echo #                    Android TV Box MyRepublic DV9135 OS-11                    #
+echo #             Hailstorm Version : 4.1.3 Firmware Version : 11.2.29             #
+echo #           Kernel Version : 5.4.125-android11-2-gff0346233560-dirty           #
+echo #              OS Version : RTTO.210829.002.20221118 release-keys              #
+echo ################################################################################
+echo.
+echo SILAHKAN PILIH MENU DIBAWAH
+echo.
+echo   1 - Scan Device
+echo   2 - Reboot Bootloader
+echo   3 - Reboot Fastboot
+echo   4 - Cek Status Bootloader/Fastboot
+echo   5 - Unlock Bootloader
+echo   6 - Erase Data/Cache
+echo   7 - Flashing
+echo   8 - Reboot system
+echo   9 - exit
+echo.
+set /p main=Silahkan Pilih Nomor Diatas :
+if %main% == 1 goto Scan Device
+if %main% == 2 goto Bootloader
+if %main% == 3 goto Fastboot
+if %main% == 4 goto Status Bootloader/Fastboot
+if %main% == 5 goto Unlock Bootloader
+if %main% == 6 goto Erase Data/Cache
+if %main% == 7 goto Flashing
+if %main% == 8 goto System
+if %main% == 9 goto exit
+echo Silahkan Pilih Menu Yang Benar...
+timeout 2 >nul
+cls
+goto main
+:Scan Device
+fastboot devices
+echo.
+pause
+cls
+goto main
+:Bootloader
+start bootloader.bat
+echo.
+cls
+goto main
+:Fastboot
+start fastboot.bat
+echo.
+cls
+goto main
+:Status Bootloader/Fastboot
+fastboot getvar all
+echo.
+pause
+cls
+goto main
+:Unlock Bootloader
+fastboot flashing unlock
+echo.
+fastboot flashing unlock_critical
+echo.
+pause
+cls
+goto main
+:Erase Data/Cache
+fastboot -w
+echo.
+pause
+cls
+goto main
+:Flashing
+fastboot delete-logical-partition system_a-cow
+echo.
+fastboot delete-logical-partition system_b-cow
+echo.
+fastboot flash boot boot.img
+echo.
+fastboot flash bootloader bootloader.img
+echo.
+fastboot flash dtbo dtbo.img
+echo.
+fastboot flash logo logo.img
+echo.
+fastboot flash odm odm.img
+echo.
+fastboot flash odm_ext odm_ext.img
+echo.
+fastboot flash oem oem.img
+echo.
+fastboot flash product product.img
+echo.
+fastboot flash system system.img
+echo.
+fastboot flash system_ext system_ext.img
+echo.
+fastboot flash --disable-verity --disable-verification vbmeta vbmeta.img
+echo.
+fastboot flash vbmeta_system vbmeta_system.img
+echo.
+fastboot flash vendor vendor.img
+echo.
+fastboot flash vendor_boot vendor_boot.img
+echo.
+pause
+cls
+goto main
+:system
+fastboot reboot
+echo.
+pause
+cls
+goto main
+:exit
+exit
+=== Files in D:\ root ===
+
+Name                                                                       Length   Mode  
+----                                                                       ------   ----  
+System Volume Information                                                           d--hs-
+LOST.DIR                                                                            d-----
+Music                                                                               d-----
+Podcasts                                                                            d-----
+Ringtones                                                                           d-----
+Alarms                                                                              d-----
+Notifications                                                                       d-----
+Pictures                                                                            d-----
+Movies                                                                              d-----
+Download                                                                            d-----
+DCIM                                                                                d-----
+Audiobooks                                                                          d-----
+Documents                                                                           d-----
+Android                                                                             d-----
+Recordings                                                                          d-----
+0FF1C3 2021 - by Diekrolo                                                           d-----
+Huawei Small                                                                        d-----
+xview                                                                               d-----
+LOG_ZTESTB_OFF                                                                      d-----
+LOG_ZTESTB                                                                          da----
+APPS_ANDROID_TV                                                                     d-----
+xview 2                                                                             d-----
+Amlogic_USB_Burning_Tool_v2.2.0                                                     d-----
+B866v2 Android 12                                                                   d-----
+B866FB                                                                              d-----
+Gambar                                                                              d-----
+TOOL CEK SLOT STB                                                                   d-----
+ADBusbDriveR_UBT                                                                    d-----
+B866FA                                                                              d-----
+com-mod-button-mapper-remap-your-keys-2-54-pro-254.apk                     4901718  -a----
+Home Screen Launcher_1.1.3_APKPure.apk                                     810594   -a----
+TVLauncher_4_google.apk                                                    38224985 -a----
+signMagisTV_APS-MUTO.apk                                                   34177881 -a----
+desktop.ini                                                                92       ---hs-
+QADEBUG.ini                                                                273      -a----
+QADEBUGTOOL.ini                                                            802      -a----
+logconfig.ini                                                              88       -a----
+usb_left.txt                                                               10       -a----
+usb_right.txt                                                              10       -a----
+autostart.apk                                                              8529     -a----
+com.esaba.downloader-2-0-4-ForGoogleAndroidDevices-arm64-v8a-android60.apk 5995174  -a----
+xuper hydra.apk                                                            35936833 -a----
+DESHABILITAR_ACTUALIZACIONES_ZTE_Y_QUITAR_BANNER.bat                       2244     -a----
+LIBERAR_SIN_ABRIR_CAJA.bat                                                 4254     -a----
+factory_update_param.aml                                                   11       -a----
+Filemanager.apk                                                            5737825  -a----
+Minimal ADB and Fastboot.lnk                                               1199     -a----
+adb comandos.txt                                                           674      -a----
+ADBAppControl-1.8.6-setup.exe                                              7972904  -a----
+▓┘╫≈╖╜╩╜.txt                                                               484      -a----
+AdbWinApi.dll                                                              97792    -a----
+AdbWinUsbApi.dll                                                           62976    -a----
+adnl.exe                                                                   2436809  -a----
+BootcardMaker.exe                                                          3008512  -a----
+libwinpthread-1.dll                                                        141538   -a----
+mmcblk0boot0.bin                                                           4194304  -a----
+MULTI TOOLS  googletv.cmd                                                  2257     -a----
+Comandos.txt                                                               15       -a----
+
+

@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\accesos directos
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     24/10/2026  10:29 a. m.          40960 ACCESO_CLIENTES_LEGENDS.exe                                          
+-a----     24/10/2026  10:29 a. m.          40960 CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe                                
+
+

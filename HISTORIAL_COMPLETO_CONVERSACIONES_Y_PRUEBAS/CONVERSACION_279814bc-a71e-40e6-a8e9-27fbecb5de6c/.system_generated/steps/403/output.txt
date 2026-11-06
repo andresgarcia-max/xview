@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+C:/Users/andre/.gemini/antigravity/bin;C:\Users\andre\AppData\Roaming\Antigravity\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\Users\andre\AppData\Local\Microsoft\WindowsApps;

@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+================================================================================
+          PROGRAMA PERFECTO - MEGACABLE XVIEW+ (ZTE ZXV10 B866V2)               
+     Fusion Total USB + ADB + Fastboot + ADNL + Launchers + Desbloqueo ZTE      
+      Regla: 100% Externo Sin Abrir Tornillos | Proteccion Widevine L1/MAC      
+================================================================================
+
+ [RADAR DE CONEXION EN TIEMPO REAL]
+  * Caja Detectada   : Xview+ (Serie: Z41220090388172)
+  * Estado Cable USB : Modo MTP Android Normal (PID_4EE1 - Falta activar Depuracion USB en TV)
+  * Sesion ADB       : En espera de Depuracion USB (PID_4EE2) o IP de Red Local
+  * Sesion Fastboot  : Ninguna activa
+--------------------------------------------------------------------------------

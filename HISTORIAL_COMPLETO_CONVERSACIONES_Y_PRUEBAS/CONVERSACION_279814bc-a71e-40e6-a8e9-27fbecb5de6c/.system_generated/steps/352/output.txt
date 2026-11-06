@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+Value                                
+-----                                
+CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe
+CONTROL_DE_ACCESO_FITNESS_LEGENDS    
+uiAccess                             
+
+

@@ -1,0 +1,119 @@
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\avatars: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\avatars'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\access: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\access'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\auth: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\auth'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\clients: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\clients'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\config: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\config'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\dashboard: 
+Acceso denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\dashboard'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\finance: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\finance'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\layout: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\layout'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\pos: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\pos'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\products: 
+Acceso denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\products'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\avatars: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\avatars'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\badges: Acceso denegado 
+a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\badges'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym_media: Acceso 
+denegado a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym_media'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+Select-String : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\sounds: Acceso denegado 
+a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\sounds'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+
+LEGENDS\public\Control_De_Acceso_Web.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+LEGENDS\public\terminal.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+ACCESO_WEB_FITNESS_LEGENDS.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+Control_De_Acceso_Web.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+
+

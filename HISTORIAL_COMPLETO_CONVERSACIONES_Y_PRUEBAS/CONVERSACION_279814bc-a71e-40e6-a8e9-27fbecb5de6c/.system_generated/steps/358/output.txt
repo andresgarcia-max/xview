@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\scripts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     23/10/2026  01:36 p. m.          17479 apply_cards_design.cjs                                               
+-a---l     23/10/2026  01:37 p. m.          16806 apply_cards_design2.cjs                                              
+-a---l     23/10/2026  08:51 a. m.           6086 build_8k_suite.cjs                                                   
+-a---l     23/10/2026  09:51 a. m.           4591 cdp_diagnose.cjs                                                     
+-a---l     23/10/2026  09:35 a. m.            704 diagnose_bg.cjs                                                      
+-a---l     23/10/2026  09:31 a. m.           1543 diagnose_black_screen.cjs                                            
+-a---l     23/10/2026  09:37 a. m.            653 diagnose_screenshot.cjs                                              
+-a---l     23/10/2026  01:39 p. m.           8227 patch_build_single.cjs                                               
+-a---l     23/10/2026  01:39 p. m.          17210 patch_clients_access.cjs                                             
+-a---l     23/10/2026  01:39 p. m.           6465 patch_edit_grid.cjs                                                  
+-a---l     23/10/2026  01:39 p. m.           3531 patch_grid.cjs                                                       
+-a---l     23/10/2026  09:47 a. m.            254 read_builder.cjs                                                     
+-a---l     23/10/2026  09:48 a. m.            261 read_builder_end.cjs                                                 
+-a---l     23/10/2026  09:52 a. m.            124 read_package_app.cjs                                                 
+-a---l     23/10/2026  09:43 a. m.            247 read_shortcut.ps1                                                    
+-a---l     23/10/2026  09:33 a. m.           1017 test_syntax.js                                                       
+
+

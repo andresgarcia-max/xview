@@ -1,0 +1,6 @@
+
+Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName                                                  
+-------  ------    -----      -----     ------     --  -- -----------                                                  
+    122      11     2508       7784             21940   1 adnl                                                         
+MSG[DNL]Amlogic USB DNL tool: V[2.6.3] at Aug 20 2021
+< waiting for Amlogic DNL device >

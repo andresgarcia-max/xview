@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+
+  // Fullscreen / Kiosk toggle
+  const toggleBackground = () => {
+    setBgIndex(prev => {
+      const next = (prev + 1) % BG_OPTIONS.length;
+      if (typeof window !== 'undefined') {
+        try {
+          localStorage.setItem('legends_terminal_bg_index', String(next));
+          localStorage.removeItem('legends_terminal_bg');
+        } catch {}
+      }
+      return next;
+    });
+  };
+  const toggleFullScreen = () => {
+    if ((window as any).electronAPI?.toggleFullScreen) {
+      (window as any).electronAPI.toggleFullScreen();
+      setIsFullScreen(!isFullScreen);
+      return;
+    }
+
+    if (!document.fullscreenElement) {

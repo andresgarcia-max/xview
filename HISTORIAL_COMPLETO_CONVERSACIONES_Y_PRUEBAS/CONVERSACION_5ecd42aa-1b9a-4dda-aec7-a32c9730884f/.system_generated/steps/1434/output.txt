@@ -1,0 +1,77 @@
+Command exited with code 0.
+
+Command output:
+
+
+Class                       : USBDevice
+FriendlyName                : android_winusb
+InstanceId                  : USB\VID_1B8E&PID_C004\00199321C9402A2200000000
+Problem                     : CM_PROB_PHANTOM
+ConfigManagerErrorCode      : CM_PROB_PHANTOM
+ProblemDescription          : Currently, this hardware device is not connected to the computer. (Code 45).
+                              
+                              To fix this problem, reconnect this hardware device to the computer.
+Caption                     : android_winusb
+Description                 : android_winusb
+InstallDate                 : 
+Name                        : android_winusb
+Status                      : Unknown
+Availability                : 
+ConfigManagerUserConfig     : False
+CreationClassName           : Win32_PnPEntity
+DeviceID                    : USB\VID_1B8E&PID_C004\00199321C9402A2200000000
+ErrorCleared                : 
+ErrorDescription            : 
+LastErrorCode               : 
+PNPDeviceID                 : USB\VID_1B8E&PID_C004\00199321C9402A2200000000
+PowerManagementCapabilities : 
+PowerManagementSupported    : 
+StatusInfo                  : 
+SystemCreationClassName     : Win32_ComputerSystem
+SystemName                  : TECNICOS
+ClassGuid                   : {3f966bd9-fa04-4ec5-991c-d326973b5128}
+CompatibleID                : {USB\COMPAT_VID_1B8E&Class_FF&SubClass_42&Prot_03, 
+                              USB\COMPAT_VID_1B8E&Class_FF&SubClass_42, USB\COMPAT_VID_1B8E&Class_FF, 
+                              USB\Class_FF&SubClass_42&Prot_03...}
+HardwareID                  : {USB\VID_1B8E&PID_C004&REV_9999, USB\VID_1B8E&PID_C004}
+Manufacturer                : Amlogic, Inc.
+PNPClass                    : USBDevice
+Present                     : False
+Service                     : WinUSB
+PSComputerName              : 
+CimClass                    : ROOT/cimv2:Win32_PnPEntity
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+[08:23:01 791][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:23:01 792][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:23:01 792][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:23:01 807][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:27:24 282][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:27:24 284][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:27:24 284][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:27:24 297][Global][Inf]--ScanUSBDevice 0 dnl device
+[08:27:24 297][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:27:24 299][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:27:24 299][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:27:24 308][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:29:15 824][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:29:15 826][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:29:15 826][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:29:15 841][Global][Inf]-------->[Port2]\\?\usb#vid_1b8e&pid_c004#00199321c9402a2200000000#{f72fe0d4-cbcb-407d-8814-9ed673d0dd6b}
+[08:29:15 858][Global][Inf]--ScanUSBDevice 1 dnl device
+[08:29:15 858][Global][Inf]--UpdateDeviceData Hub1-2
+[08:29:15 862][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:29:15 863][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:29:15 863][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:29:15 887][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:34:20 715][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:34:20 718][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:34:20 718][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:34:20 736][Global][Inf]--ScanUSBDevice 0 dnl device
+[08:34:20 737][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:34:20 738][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:34:20 738][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:34:20 752][Global][Inf]--ScanUSBDevice 0 worldcup device

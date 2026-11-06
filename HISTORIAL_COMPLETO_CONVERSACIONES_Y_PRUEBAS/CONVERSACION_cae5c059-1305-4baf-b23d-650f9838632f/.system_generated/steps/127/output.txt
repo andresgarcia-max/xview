@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+vite/8.3.3 win32-x64 node-v24.21.0

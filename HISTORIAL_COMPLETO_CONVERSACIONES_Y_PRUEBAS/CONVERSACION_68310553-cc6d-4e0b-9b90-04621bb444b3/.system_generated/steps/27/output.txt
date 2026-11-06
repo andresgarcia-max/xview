@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                               
+--------                                                               
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12             
+C:\Users\andre\OneDrive\Desktop\xview\V2\Comandos.txt                  
+C:\Users\andre\OneDrive\Desktop\gym                                    
+C:\Users\andre\OneDrive\Desktop\xview                                  
+C:\Users\andre\OneDrive\Desktop\Antigravity.lnk                        
+C:\Users\andre\OneDrive\Desktop\CONTROL DE ACCESO - FITNESS LEGENDS.lnk
+C:\Users\andre\OneDrive\Desktop\cors_test.log                          
+C:\Users\andre\OneDrive\Desktop\Microsoft Edge.lnk                     
+
+

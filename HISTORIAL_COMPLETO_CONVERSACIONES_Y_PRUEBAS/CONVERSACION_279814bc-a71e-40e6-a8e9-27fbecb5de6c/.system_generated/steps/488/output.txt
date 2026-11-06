@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+
+Control_De_Acceso_Web.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+Control_De_Acceso_Web.html:978:          {/* Espacio superior para lucir LEYENDS GYM y CLUB FITNESS sin tapar */}
+
+

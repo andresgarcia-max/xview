@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\AppData\Local\Programs\Git\cmd
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     22/10/2026  09:41 a. m.           1038 aslr-manager.ps1                                                     
+-a----     22/10/2026  09:11 a. m.         135512 git-gui.exe                                                          
+-a----     22/10/2026  09:11 a. m.          44872 git-lfs.exe                                                          
+-a----     22/10/2026  09:11 a. m.          44888 git-receive-pack.exe                                                 
+-a----     22/10/2026  09:11 a. m.          44888 git-upload-pack.exe                                                  
+-a----     22/10/2026  09:11 a. m.          44872 git.exe                                                              
+-a----     22/10/2026  09:11 a. m.         135496 gitk.exe                                                             
+-a----     22/10/2026  09:11 a. m.          44872 scalar.exe                                                           
+-a----     22/10/2026  09:11 a. m.           2973 start-ssh-agent.cmd                                                  
+-a----     22/10/2026  09:11 a. m.           2723 start-ssh-pageant.cmd                                                
+-a----     22/10/2026  09:11 a. m.          44864 tig.exe                                                              
+
+
+    Directorio: C:\Users\andre\AppData\Local\Programs\Git\bin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     22/10/2026  09:11 a. m.          44888 bash.exe                                                             
+-a----     22/10/2026  09:11 a. m.          44872 git.exe                                                              
+-a----     22/10/2026  09:11 a. m.          44888 sh.exe                                                               
+
+

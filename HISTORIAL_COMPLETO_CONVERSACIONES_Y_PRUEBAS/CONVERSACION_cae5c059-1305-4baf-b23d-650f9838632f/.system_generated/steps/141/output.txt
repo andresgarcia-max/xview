@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\context\GymContext.tsx:145:  verifyBiometricAccess: (biometricQuery: string) => { granted: boolean; 
+client?: Client; reason: string; log: AccessLog };
+LEGENDS\src\context\GymContext.tsx:1462:  const verifyBiometricAccess = (biometricQuery: string): { 
+LEGENDS\src\context\GymContext.tsx:2013:      verifyBiometricAccess,
+
+

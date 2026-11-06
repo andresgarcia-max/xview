@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                   
+----                                   
+autostart.apk                          
+B866V2-FlashATV12_Evoca_DESOFUSCADO.bat
+frpc.toml                              
+frps.toml                              
+GUIA_FRP_SERVIDORES.md                 
+instalar_servidor_frp.sh               
+start_frp.sh                           
+
+

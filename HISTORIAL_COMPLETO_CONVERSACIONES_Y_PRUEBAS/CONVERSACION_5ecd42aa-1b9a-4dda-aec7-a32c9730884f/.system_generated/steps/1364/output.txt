@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                         
+--------                                                         
+C:\Program Files (x86)\Amlogic\Aml_Burn_Tool                     
+C:\Program Files (x86)\Amlogic\Aml_Burn_Tool\V3\Aml_Burn_Tool.exe
+C:\Amlogic\Aml_Burn_Tool                                         
+C:\Amlogic\Aml_Burn_Tool\V3\Aml_Burn_Tool.exe                    
+C:\Users\andre\OneDrive\Desktop\xview\experimento\06_internet_...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\06_internet_...
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2...
+C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\adnl.exe     
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERR...
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B86...
+
+

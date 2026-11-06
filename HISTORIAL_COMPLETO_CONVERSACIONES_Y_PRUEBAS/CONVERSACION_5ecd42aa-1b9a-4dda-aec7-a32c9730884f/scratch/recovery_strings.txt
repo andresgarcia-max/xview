@@ -1,0 +1,1897 @@
+???
+????
+???
+????
+????
+????
+recovery/
+Loading make_device from %s
+recovery
+Failed to open recovery socket
+prompt_and_wipe_data
+<3>systemcontrol: [ubootenv] read error 0x%x 
+<6>systemcontrol: first env error, try second....
+%d: probed magic = 0x%0x at 0x%0x offset!
+System
+[init_market_custom] Mexico AMX Market market_custom_map.is_Forbid_Android12_To_LowerAndroid = 1
+[%s][%d]%s content broken!
+Failed to read 
+Failed to fork update binary
+Failed to verify package
+thermal_zone
+critical error: %s: failed to seek to superblock: %s
+(): failed to read DSU LP names
+length=
+readahead_size_kb=
+write failed: 
+Check failed: lock->lock_mode() == LOCK_EX
+ has unexpected state: 
+Could not swap device-mapper tables on snapshot device 
+Unknown merge status for "
+ is merging after being marked merge-complete.
+, will try again next boot
+Duplicated partition 
+cow_partition_size == 
+Successfully created snapshot partition for 
+/holders
+-base
+, expected 
+read op failed
+read failed
+invalid block type
+CHECK failed: (scc->visit_status.load(std::memory_order_relaxed)) == (SCCInfoBase::kRunning): 
+Extension not found.
+external/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
+This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
+" because it is missing required fields: 
+CHECK failed: (new_size) <= ((std::numeric_limits<size_t>::max() - kRepHeaderSize) / sizeof(old_rep->elements[0])): 
+This program requires version 
+FATAL
+CHECK failed: (temp[0]) == ('1'): 
+%llu%llu
+, 0) failed
+failed to verify whole-file signature
+Check failed: mapped_zip.HasFd()
+Zip: %s: Bad offset for zip64 central directory. cd offset %llu, cd size %llu, zip64 eocd offset %llu
+Zip: failed reading lfh extra field from offset %lld
+/sys/class/mmc_host/emmc/emmc:0001/cid
+' in ANDROID_LOG_TAGS (
+ro.build.version.codename
+make_device
+bootloader
+Quiescent recovery mode.
+update_package
+bootreason is in the blocklist; skip OTA installation
+kernel_panic
+ Reboot system now
+<3>systemcontrol: [ubootenv] CRC Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+also has logo to install,start to install logo!
+Defined CHECKMD5, need return the MD5 check result(%d)!
+calloc memory fail(%s)
+Failed to create epoll
+-- No package file selected.
+payload.bin
+Verifying update package...
+target_build: 
+" from 
+f2fs
+512
+/proc/mounts
+recoveryonly
+checkpoint=fs
+Warning: voldmanaged= flag malformed: 
+ COW file size is not a multiple of the sector size: 
+Block device size for 
+Unexpected device-mapper table for snapshot: 
+ has incorrect target type: 
+Direct read failed 
+All partitions are re-flashed after update, removing all update states.
+ for source partition; removing without unmap.
+, cow_file_size = 
+merge-failed
+Unable to parse state file as SnapshotUpdateStatus, using the old format
+incorrect header check
+data error
+buffer error
+lseek failed
+Unable to serialize SnapshotMergeStats.
+system/core/fs_mgr/libsnapshot/snapshot_metadata_updater.cpp
+Zero-filling COW device: 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+This can't happen; base64 decoder state = 
+Invalid range: 
+failed to open block device 
+failed to map range 
+Empty filename
+Zip: invalid offset %lld
+cd_size
+Zip: The size of central directory doesn't fit in range of size_t: %llu
+Zip: Found `Disk Start Number` field in extra block. Ignoring it.
+Invalid entry name
+rue
+bootable/recovery/recovery_main.cpp
+Rebooting to recovery...
+Entering fastboot
+Can't read 
+wipe_ab
+otg_device
+Set USB Status Success!
+%s=%s
+do not need to install app,need to remove %s
+%d: ERROR!!! MD5 Mismatched!!!!
+WifiMacAddr
+hdcp_key
+bootable/recovery/zte/zte_inifile.c
+[%s][%d]%s content is illegal!
+Supported API: %d
+  Done
+/dev/block/mmcblk
+Failed to write to 
+project_quota,extra_attr
+critical error: %s: failed to seek to block group descriptors: %s
+critical error: %s: failed to alloc buffer
+/%s
+in libfs_mgr 
+slot_suffix
+Can't RemoveAllUpdateState: prolog failed.
+Could not create source device for snapshot 
+Could not delete snapshot device: 
+Skipping delete of snapshot 
+Deleting snapshot for partition 
+opendir failed: 
+Mapping snapshot with a different name is unsupported: partition_name = 
+Skipping zero-length logical partition: 
+Found snapshot status named 
+Unable to write new update state
+Detected overflow in snapshot 
+cow
+android.snapshot.SnapshotStatus.name
+ Scratch space found of size: 
+Gz stream ended prematurely
+lseek failed for writing data.
+logical_block_size is not power of 2
+CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
+libprotobuf-native
+Check failed: !package_content_.empty()
+bootable/recovery/otautil/rangeset.cpp
+bootable/recovery/otautil/verifier.cpp
+Invalid zip length %lld
+Zip: failed reading lfh name from offset %lld
+Zip: gpb flag mismatch at bit 3. expected {%04x}, was {%04x}
+/proc/self/exe
+/dev/pmsg0
+Failed to set USB config to 
+Boot status: 
+Couldn't read from socket
+power off
+/cache/recovery/last_log
+bkmgtpe
+<3>systemcontrol: [ubootenv] get MTD info error
+mtd
+<6>systemcontrol: [ubootenv] set property count: %d
+ota_path_http = [%s]
+UpdateModefile:%d
+FfsInit return %d
+install ota status(%d)
+[%s][%d]open %s failed
+/sideload/exit
+Failed to set usb config to sideload
+Failed to add socket fd to epoll
+Failed to parse command in message 
+-- Couldn't mount 
+, actual 
+Package is for serial 
+post-build
+Update package id: 
+failed to set up expected mounts for install; aborting
+Check failed: max_temperature != nullptr
+Failed to convert to file encryption
+Secure-wiping "
+bootable/recovery/recovery_utils/logging.cpp
+Warning: reserve_root= flag malformed: 
+%s/%s/dev
+android,fstab
+Cannot cancel update after it has completed or started merging
+/dev/dm-user/
+Could not read dynamic partition metadata for device: 
+MapAllSnapshots failed to map: 
+Failed to unmap snapshot: 
+Unexpected update status: 
+Unable to serialize SnapshotStatus for 
+    device size (bytes): 
+    snapshot size (bytes): 
+/metadata is mounted, but errors occur when acquiring a shared lock. Subsequent calls to SnapshotManager will fail. Unmounting /metadata now.
+ slot, no action is taken.
+android.snapshot.SnapshotMergeReport
+inflate returned error code 
+Unable to set the snapshot merge status
+Failed to remove merge statistics file 
+build.tools.releasetools.OtaMetadata.PropertyFilesEntry.key
+".)
+%ld
+WARNING
+ total number of blocks: 
+Failed to get the ec_group from the ec_key
+Zip: The zip64 extended field in the local header MUST include BOTH original and compressed file size fields.
+Check failed: zip64_info.uncompressed_file_size.has_value()
+Zip: unable to truncate file to %lld: %s
+Invalid offset
+/dev/kmsg
+fdopen failed
+ arguments from 
+ADB
+/cache/recovery/last_kmsg
+yes
+<3>systemcontrol: [ubootenv] %s is not a ubootenv varible.
+<3>systemcontrol: [ubootenv] Not enough memory for environment (%u bytes)
+/data
+fopen file %s return failed(%s)
+fwrite %d file(%s) failed, error(%d)%s
+malloc failed
+config file zteconfig.ini is error.
+[%s][%d]%s,%s,%d, enter debuging state 4
+[%s][%d]Failed to open tmpname, %s
+Timed out waiting for fuse to be ready.
+verify_sdk_compatibility...
+error: %d
+Installation aborts. The canonical path 
+ but package has timestamp 
+wbe
+complete
+Unable to check update status or complete merge, cannot wipe partitions.
+Failed to verify wipe package
+Failed to open "
+recovery filesystem table
+    Block size: %d
+(): failed to read fstab from dt
+nosuid
+checkpoint=block
+/fstab/compatible
+fstab_suffix
+Check failed: out_val != nullptr
+ snapshot size is not a multiple of the sector size: 
+. Skip merging it anyways.
+Could not derive underlying devices for snapshot: 
+Successfully switched snapshot device to a merge target: 
+Failed to open 
+Could not create a DmTable for partition: 
+Cannot create target metadata builder.
+Unable to map partitions to complete merge.
+Unrecoverable merge failure detected.
+Reverting to old slot since update will be deleted.
+, size = 
+Failed to find device after regenerating uevents: 
+active
+ to snapuserd
+Expected: 
+Decompressor expected more bytes
+insufficient memory
+ota
+SnapshotMergeStats running_ == 
+Group 
+CHECK failed: !coded_out.HadError(): 
+close() failed: 
+ details: 
+Signature start is in the footer
+Modulus should be 2048 or 4096 bits long, actual: 
+Failed to iterate over entries in the certificate zipfile: 
+Zip: %s: Zip64 eocd record signature not found at offset %lld
+Zip: extra field for entry %llu exceeds the central directory range, file_name_length: %u, cd_length: %zu
+Zip: unable to seek to current location on fd %d: %s
+Zip: Unexpected size %zu  (declared) vs %zu (actual)
+Entry not found
+I/O error
+%s%.*s
+Entering recovery
+getline failed
+Rebooting automatically.
+<3>systemcontrol: [ubootenv] don't init done
+<3>systemcontrol: [ubootenv] SYS_LOGE write, size %d 
+[%s]-%s is unallowed to update!
+Read Current config from STB success, len = %d, buff =
+decrypt the config to file success!
+-- Install %s ...
+META-INF/com/android/metadata
+Skip package metadata check for ota type 
+invalid "progress" parameters: 
+Unable to check merge status and/or complete update merge.
+Failed to get ZipArchiveHandle
+last_
+format_volume: fs_type "
+format_volume: failed to open 
+64bit
+    Blocks per group: %d
+(): failed to load fstab from kernel:
+-verity
+notrim
+fsverity
+Warning: swapprio= flag malformed: 
+Warning: readahead_size_kb= flag malformed (0 ~ 16MB): 
+/fstab
+okay
+dt_fstab: Using a specified mount point 
+Could not remove all snapshots
+ cow partition size is not a multiple of the sector size: 
+, got 
+, snapshot size = 
+ slot, taking no action.
+Detected rollback, cancelling unverified update.
+Check failed: snapshot_status.cow_partition_size() > 0
+source
+    metadata sectors: 
+Unable to diagnose DM_DEV_REMOVE failure.
+Remove failed: 
+android.snapshot.SnapshotStatus
+init.svc.snapuserd
+Failed waiting to delete device 
+Header version mismatch
+, last label=
+Failed to seek to footer position.
+system/core/fs_mgr/libsnapshot/dm_snapshot_internals.h
+Division or mod by zero: dividend.hi=
+nullptr output boolean given.
+bootable/recovery/otautil/package.cpp
+File size is too large for mmap 
+Invalid number of tokens: 
+Empty or negative range: 
+ bytes from end
+Zip: Failed to map central directory, offset exceeds mapped memory region (start_offset %lld, cd_size %zu, mapped_region_size %lld)
+Zip: read %lld from offset %lld failed
+Zip: Data size should not be 0 in zip64 extended field
+Zip: lfh name length did not match central directory for %s: %u %u
+Zip: inflate zerr=%d (nIn=%p aIn=%u nOut=%p aOut=%u)
+system/libbase/file.cpp
+none
+install_with_fuse
+bootable/recovery/recovery.cpp
+Mounted /system.
+Failed to set up the package access, skipping installation
+[%s]-%s is updating to (%s)
+wb+
+calloc memory(%d) failed
+line(%s) is not available
+zte_restore_factory_config success!!!
+[%s][%d]%s,%s,%s exist! rename done!
+Failed to fork child process
+(adbd status 
+META-INF/com/google/android/update-binary
+temperature_max: 
+Failed to get canonical of 
+Retry attempt: %d
+Invalid status code 
+Empty wipe ab partition list
+Check failed: !fstab.empty()
+ failed with status 
+    Block groups: %d
+    Reserved block group size: %d
+system/core/fs_mgr/fs_mgr_fstab.cpp
+/system/bin/recovery
+logicalblk=
+open failed: 
+ for snapshot device: 
+Update state is being processed while booting at 
+, device_name = 
+, device size = 
+Update state in recovery: 
+ bytes, sent 
+read header failed
+lseek next op failed
+Header sync failed
+ cannot be deleted because the following partitions are left unassigned: [
+Cannot unmount 
+build.tools.releasetools.PartitionState.partition_name
+can't reach here.
+StringOutputStream.
+Requested size is too large to fit into size_t.
+failed to map file
+Failed to construct byte ranges to read, start_block: 
+ bytes; signature is 
+Zip: failed to read at offset %lld
+Zip: ran off the end (item #%llu, %zu bytes of central directory)
+Zip: Invalid entry pointer
+Zip: bad data offset %lld in zip
+persist.logd.security
+id-ID
+Failed to dlopen %s: %s
+E:%s
+Failed to create pipe for redirecting stdio
+Can't mount 
+Unrecognized char from socket 
+update_in_progress
+<3>systemcontrol: [ubootenv] open devices error: %s
+Search magic number 0x%0x in the range 0x0 ~ 0x%0x, filelen = 0x%0x
+update config file successfully!
+stbcfg update failed,so stbcfgbaks also no need to update!
+set_ini_string
+[%s][%d]:parameters is invalid
+time_total: 
+canonical
+Failed to get partition size
+auto
+failed to parse uint in 
+false
+error: %s: superblock magic incorrect
+get_file_size
+lowerdir=
+defaults
+Warning: max_comp_streams= flag malformed: 
+%s/%s/fsmgr_flags
+Cannot read 
+Detected re-flashing, cancelling unverified update.
+Mapped COW device for 
+Cannot unmap: 
+merging
+Cannot create update snapshots with overlayfs setup. Run `adb enable-verity`
+EnsureMetadataMounted does nothing in Android mode.
+Minor version: 
+lseek ops failed
+invalid data offset: 
+Skip deleting partitions for partial update
+Cannot mount 
+build.tools.releasetools.DeviceState.security_patch_level
+ Can't back up over more bytes than were returned by the last call to Next().
+INFO
+CHECK failed: dest: 
+\%03o
+CHECK failed: s != nullptr: 
+ a protocol 
+Reboot failed
+not big enough to contain footer
+Zip: Null ZipArchiveHandle
+Zip: invalid read length %lld overflows, offset %lld
+Zip: lfh name length invalid
+Zip: file size %llu is larger than the buffer size %zu.
+Zip: file size %llu is too large to extract.
+Zip: Found duplicate entry %.*s
+Zlib error
+fopen "
+Bad boot message: "
+--retry_count
+Serial number - 
+only has  logo to install,start to install logo!
+malloc return failed, ret = %d
+fault error! no config file(%s) exist!
+MarketCode
+You need adb 1.0.32 or newer to sideload
+to this device.
+post-sdk-level
+verify_sdk_compatibility ok
+Finding update package...
+Failed to get device's current security patch level. Target SPL is 
+W:failed to mount %s on %s (%s).try read-only ...
+format_volume: Failed to unmount "
+stride=%d,stripe-width=%d
+Check failed: !args.empty()
+    Block group descriptor size: %d
+warning: %s: Discard failed
+nodiratime
+sysfs_path=
+androidboot.
+/proc/bootconfig
+system/core/fs_mgr/libsnapshot/snapshot.cpp
+Update has been initiated, now canceling
+Failed to remove all update state after acknowleding cancelled update.
+ to be merged, 
+Snapshot status for 
+Cannot unmap image 
+Snapshot: 
+Wipe will be scheduled. Allowing forward merge of snapshots.
+-src
+Operation size unknown, read 
+inflateInit returned error code 
+incompatible version
+Can't open COW device: 
+Non-primitive types can't be packed.
+external/protobuf/src/google/protobuf/io/coded_stream.cc
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+%lld
+CHECK failed: value != nullptr: 
+, range_count 
+' failed
+Number of tokens must be even: 
+,%zu,%zu
+range_start
+64211847
+ entry hash_table, entry size: 
+Invalid file
+%m-%d %H:%M:%S
+XXVDIWEF
+ro.debuggable
+) on 
+Shutting down...
+VDIWEF
+sys.usb.config
+sideload
+sideload_auto_reboot
+SetUSBHost 
+Failed to mount 
+Can't unlink 
+<3>systemcontrol: [ubootenv] Get MTD info error
+install_ota failed, ret = %d 
+%d: Calculateed MD5=0x%02x, Image MD5=0x%02x
+MultiplexConfigFile
+FfsOpen return %d,file not exist
+/cache/recovery/last_zteconfig.ini
+/tmp/zteconfigTmp.ini
+[%s][%d]filename is null
+Unsupported command code: 
+Error exit from the fuse process: 
+Failed to extract 
+payload_properties.txt
+--headers=
+current stb sdk level: 31, prepare update ota sdk level: 
+failed to write 
+  Trying BLKDISCARD...
+META-INF/com/android/metadata.pb
+boot0
+E:Can't get blk_device
+extra_attr
+ANDROID_SOCKET_
+critical error: %s: failed to read block group descriptors: %s
+vroot
+/compatible
+invalid blockdev size for 
+Merge is unexpectedly incomplete for device 
+Unable to collapse snapshot: 
+Could not map dm-user device for partition 
+Cannot determine major/minor for: 
+Acquire flock failed: 
+cancelled
+Cannot write target metadata
+may not be available in first stage init! 
+ms remaining)
+passive
+too many length or distance symbols
+build.tools.releasetools.DeviceState.device
+CHECK failed: (count) <= (last_returned_size_): 
+ Parameter to BackUp() can't be negative.
+%d.%d.%d
+Can't open package
+reboot,
+, range_end=
+signature start: 
+x509.pem
+Zip: Invalid filename of length %zu
+Zip: MappedZipFile doesn't have a file descriptor.
+Zip: %s: Read %zu from offset %lld failed %s
+Zip: %s: Zip64 eocd locator signature not found at offset %lld
+Zip: Unexpected size %zu (declared) vs %zu (actual)
+<%d>%s: %.*s
+Failed to fork for redirecting stdio
+[%12.6lf] %s
+shutdown_after
+ ota_update return :[%d]  
+MacAddr2
+NetLoopTest
+[%s][%d]error size %llu
+Command 
+uncrypt_
+Package is for source build 
+error_sdk: %d
+invalid "log" parameters: 
+Error in 
+call to getcwd failed
+filesystem error: %s [%s]
+Could not create SnapshotManager
+bootable/recovery/recovery_utils/battery_utils.cpp
+android
+Failed to find CPU thermal info in 
+    Inode size: %d
+    Label: %s
+max_comp_streams=
+keydirectory=
+dt_fstab: Failed to find device for partition 
+/fstab/status
+ parameters: 
+Unable to delete source device for snapshot: 
+MapAllSnapshots succeeded.
+ro.build.fingerprint
+Unable to write SnapshotStatus to 
+ is not a multiple of sector size 
+Cannot create COW partition on metadata with size 
+Snapshots cannot be written in first-stage init or recovery
+Update state: 
+Unable to write forward merge indicator: 
+system/core/fs_mgr/libsnapshot/snapuserd_client.cpp
+query
+Send failed
+Header Magic corrupted. Magic: 
+Unknown compression type: 
+invalid code -- missing end-of-block
+incorrect length check
+unrecognized compression: 
+fstat failed
+write failed
+writing scratch space failed
+Failed to lseek to find current position
+Unable to parse merge statistics file as SnapshotMergeReport
+CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
+size_t to int conversion
+external/protobuf/src/google/protobuf/stubs/int128.cc
+mmap(
+failed to reserve address space
+Map of '
+ (idx=
+Zip: %s: read %zu from offset %lld failed %s
+Zip: bad CD advance (%tu vs %zu) at entry %llu
+<%d>%s: **previous message missing %zu bytes** %zu-byte message too long for printk
+%s %c %s %5d %5llu 
+Starting recovery (pid 
+Failed to write bootloader message: 
+Partitions may be mounted - rebooting to enter fastboot.
+%c:%s
+[%12.6lf]
+dup2 stdout failed
+Failed to accept socket connection
+wipe_cache
+ "%s"
+HW version - 
+sys.multicast.upgrade
+/proc/ledlight/powerred/state
+copy local_ver to pver[%s]
+Using config file %s to flash
+read error(%s)
+einifile_export_buff %s error
+write config file failed!
+find backup config file,need to chown!
+[%s][%d]%s,%s,%d, enter debuging state 5
+read_einifile_content
+FfsDecryption
+ and downgrade not allowed.
+%s.%d
+format_volume: Failed to make_f2fs on 
+/proc/cmdline
+Error parsing mount_flags
+%s/%s/mnt_flags
+/odm/etc/fstab.
+ device size is not a multiple of the sector size: 
+ after global merging has completed.
+Expected snapshot or snapshot-merge for device: 
+Snapshot device has invalid target type: 
+Failed to determine whether partitions have been flashed. Not
+ is invalid, ignoring: state = 
+Successfully unmapped snapshot 
+ in update manifest.
+Allocating CoW images.
+exists
+Unexpected merge-needs-reboot state in recovery.
+(nullptr)
+snapuserd
+connect failed: 
+ sockfd: 
+Failed to send message 
+success
+Failed to receive number of sectors for 
+Footer size unknown, read 
+Remaining free space for COW: 
+ is missing between two ranges: 
+SHA-1 digest: 
+Field size of the ec key should be 256 bits long, actual: 
+Error while iterating over zip entries: 
+Zip: failed to map central directory (offset %lld, size %zu): %s
+%s%cTemporaryDir-XXXXXX
+%s %c %s %5d %5llu %s:%u] %s
+REL
+security
+Check failed: device->GetReason().has_value()
+Invalid status code of INSTALL_REBOOT
+Virtual A/B: snapshot partitions creation failed.
+  Your device may fail to boot if you 
+<3>systemcontrol: [ubootenv] bootenv do not init
+<3>systemcontrol: [ubootenv] Invalid env data key:%s, value:%s
+install_ota path=[%s],retry_count=[%d]
+Version
+factory file not found(%s).
+write Current config to file error.
+[%s][%d]buf is NULL 
+[%s][%d]%s,%s,%d, enter debuging state 2
+[%s][%d]%s,%s,%d, enter debuging state 3
+[%s][%d]%s exist! rename done!
+Failed to wait for epoll events
+.map
+ but expected 
+--status_fd=%d
+current_path
+Failed to read log file 
+can't format_volume "
+get_file_size: invalid size 
+HealthHalUtils
+hardware/interfaces/health/2.0/utils/libhealthhalutils/HealthHalUtils.cpp
+Error parsing fs_mgr_options
+No entries found in fstab
+voldmanaged=
+%s/%s/type
+Detected re-flashing for partition 
+Merge could not be completed and will be marked as failed.
+Update state is being processed before reboot, taking no action.
+ control device to delete
+Could not write to state file
+Metadata not mounted.
+android.snapshot.SnapshotUpdateStatus.source_build_fingerprint
+Received failure querying daemon
+Check failed: !Done()
+open /dev/null failed
+Failed to truncate.
+Could not write to merge statistics file
+Failed to auto delete snapshot 
+external/protobuf/src/google/protobuf/extension_set.cc
+Index out-of-bounds (field is empty).
+.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+, lo=
+ '%s'
+ total number of blocks the range contains is 
+Zip: lfh name did not match central directory
+Zip: bad uncompressed length in zip (%lld + %llu > %lld)
+, 1=
+Zip: unable to fstat file: %s
+declared_length
+, (4294967295U)=
+Zip: unable to allocate the 
+is not a regular file or symbolic link
+TMPDIR
+unlink 
+ro.organization_owned
+userrequested,recovery
+Invalid command argument
+error: 
+bootable/recovery/fastboot/fastboot.cpp
+<3>systemcontrol: [ubootenv] CRC2 Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+<3>systemcontrol: [ubootenv] Read access failed !!!
+bootable/recovery/zte/zte_recovery.cpp
+COMControlFlag
+*i_iLen = %d, lineflag = %d
+cfg_decrypt_to_file failed, ret = %d!
+update_cfg_to_file error.(%d)
+current config is not exist,just update download cfg
+select_and_read_einifile
+/cache
+Check failed: should_use_fuse != nullptr
+clear_display
+unknown command [
+in 
+Failed to read wipe package
+vfat
+charge_status 
+" unsupported
+footer
+compression
+/dev/socket/
+error: %s: filesystem state not valid
+read_ext
+ro.product.first_api_level
+ReadFstabFromDt
+reserve_root=
+Warning: zramsize= flag malformed: 
+fileencryption=
+Warning: eraseblk= flag malformed: 
+/dev/block
+Failed to retrieve base_sectors from Snapuserd
+ after merging has completed.
+snapshot-merge
+Check failed: update_status.merge_phase() == MergePhase::FIRST_PHASE
+merge-completed
+ dap_metadata.cow_version(): 
+    compression: 
+Merge returned unexpected status: 
+-cow
+android.snapshot.SnapshotUpdateStatus
+delete,
+Failed to receive ack for 
+, found 
+invalid distance too far back
+AddRawBlocks: compression failed
+Compressed block is too large: 
+system/core/fs_mgr/libsnapshot/snapshot_stats.cpp
+system/core/fs_mgr/libsnapshot/partition_cow_creator.cpp
+Not creating snapshot for partition 
+build.tools.releasetools.DeviceState.build
+[libprotobuf 
+mmapped 
+Failed to read footer
+signature length doesn't match EOCD marker
+Zip: the entry size is too large to fit into the 32 bits ZipEntry, uncompressed length %llu, compressed length %llu
+Check failed: zip64_info.local_header_offset.has_value()
+Zip: Entry at offset zero has invalid LFH signature %x
+(65535)
+Zip: extra field has a bad size for entry %s
+Zip: bad compressed length in zip (%lld + %llu > %lld)
+(4294967295U)
+VDIWEFF
+%s %c %s %5d %5llu %s:%u] 
+%s:%u] 
+fastboot
+unknown
+dup2 stderr failed
+Boot command: 
+battery capacity is not enough for installing package: %d%% needed
+ Power off
+Set USB Status Failed!
+<6>systemcontrol: [ubootenv] update value name [%s]: value [%s] 
+ota_is_base =%d and to be changed to 1
+========> led_blink, type = %d!
+[PreUpdateConfig]-input pcFBuf not available
+FfsRead return failed, ret = %d
+fopen file(%s) failed, error(%d)%s
+open %s failed file_len = %d
+calloc newfileBuf failed!
+the file is not encrypt!
+write download config to file error.
+%s_lock
+[%s][%d]%s,%s exist! remove tmpfile done!
+[%s][%d]get_ini_string: gotoapp failed when filename=%s, appname=%s
+[%s][%d]error stat failed!
+Failed to create 
+/udisk
+progress
+ (killed by signal 
+ntfs
+E:failed to mount %s on %s by read-only (%s), errno = %d
+, capacity 
+metadata_csum
+ext4_create_fs_aux_info
+Error parsing mount_point
+formattable
+%s/%s/mnt_point
+Merged with state = 
+Cannot begin merge; device 
+CheckMergeState for snapshots returned: 
+COW consistency check failed, expected 
+Unable to delete base device for snapshot: 
+Could not remove all snapshot artifacts
+Can't map snapshot for 
+Cannot call MapAllSnapshots when booting from the target slot.
+Shutdown snapuserd daemon
+Cannot write old metadata to 
+    cow partition size (bytes): 
+running
+system/core/fs_mgr/libsnapshot/cow_decompress.cpp
+Could not acquire buffer from sink
+build.tools.releasetools.PartitionState.build
+CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kBlockHeaderSize): 
+CHECK failed: extension != NULL: 
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in net/proto2/io/public/coded_stream.h.
+BackUp() can only be called after a successful Next().
+fstat(
+Check failed: false
+ num_of_blocks 
+Failed to load keys from 
+Zip: prefix/suffix too long
+Zip: MappedZipFile doesn't have a base pointer.
+ (declared_length=
+Iteration ended
+Empty archive
+Allocation failed
+/dev/block/conf
+%s: %s
+ro.build.version.sdk
+boot-rescue
+thread constructor failed
+Retry attempt %d
+--retry_count=%d
+SD card
+Product name - 
+logo_path path=[%s] ,retry_count=[%d]
+BTMacAddr
+copy up_ver to pver[%s]
+up config file has no CfgVersion,stop update!
+don't check is update lower android big version
+need check is update lower android big version
+[%s][%d]filename %s not exist
+[%s][%d]fopen failed
+--socket_fd
+ finished with 
+--offset=%ld
+Downgrade package must have a pre-build version set, not allowed.
+Denying OTA because it's SPL downgrade
+log
+filesystem error: %s
+Waiting for merge to complete: %.2f
+bootable/recovery/install/wipe_data.cpp
+  Failed
+/udisk/factory_update_param.aml
+Failed to opendir 
+extent
+backup
+true
+(): failed to find device default fstab
+boot_devices
+first_stage_mount
+fscompress
+Warning: reservedsize= flag malformed: 
+hardware.platform
+FinishedSnapshotWrites already called before. Ignored.
+Cannot delete snapshot for partition 
+snapshot
+": 
+Failed to switch snapshot to a second-phase merge target: 
+Detected re-flashing of partition 
+Created logical partitions with snapshot.
+Cannot unmap 
+Cannot calculate new metadata.
+Successfully created snapshot for 
+Unable to unmap all partitions; fastboot may fail to flash.
+Wipe is not scheduled. Deleting forward merge indicator.
+Block device was lazily unmounted and is still in-use: 
+Sendmsg: msg 
+lseek end failed
+build.tools.releasetools.PartitionState.device
+out/soong/.intermediates/build/make/tools/releasetools/ota_metadata_proto_cc/android_recovery_arm_armv8-a_cortex-a53_static/gen/proto/ota_metadata.pb.cc
+ with type 
+CHECK failed: (last_returned_size_) > (0): 
+ was modified concurrently during serialization.
+external/protobuf/src/google/protobuf/stubs/common.cc
+FastHexToBuffer() wants non-negative integers, not 
+bootable/recovery/otautil/sysutil.cpp
+Invalid size in block map file: size 
+Failed to parse the number of tokens: 
+Failed to get the sub ranges for start_index 
+Check failed: package
+EOCD marker occurs after start of EOCD
+whole-file signature verified against EC key 
+Zip: invalid file map
+Zip: empty archive?
+id_ID
+just_exit
+wipe_package_size
+could not set boot env
+in finishrecovery, upgrade_step is %s
+<3>systemcontrol: [ubootenv] %s is not a ubootenv variable.
+<3>systemcontrol: [ubootenv] MEMERASE SYS_LOGE %d
+UpdateMode:%d
+Input param error!
+Common
+PreUpdateConfig failed, ret = %d!
+uilen(%d) < position(%d)!
+file line(%d) over length(%d)
+Package is for product 
+Update package verification took %.1f s (result %d).
+Installing update...
+directory_iterator::directory_iterator(...)
+Cache wipe %s.
+W:try mount %s ...
+, charging 
+=========================
+    Blocks: %llu
+Error parsing fs_type
+rec
+unbindable
+shared
+nonremovable
+zramsize=
+Invalid snapshot size for 
+Failed to remove status file 
+. Skip merging it.
+Failed to get flashing status
+Could not read update state to determine snapshot status
+Could not map source device for: 
+Cannot add group 
+Cannot unmap existing snapshot before re-mapping it: 
+Forward merge allowed, initiating merge now.
+Could not list snapshots.
+MapPartitionWithSnapshot has reached timeout 
+ctl.start
+lseek header failed
+ bytes
+invalid literal/lengths set
+ unbootable: 
+Check failed: g_instance.path_ == parent.GetMergeStateFilePath()
+Invalid COW size.
+build.tools.releasetools.PartitionState.version
+external/protobuf/src/google/protobuf/arena.cc
+external/protobuf/src/google/protobuf/generated_message_util.cc
+Cannot allocate buffer larger than kint32max for 
+CHECK failed: backup_bytes_ == 0 && buffer_.get() != NULL: 
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
+external/protobuf/src/google/protobuf/repeated_field.h
+external/protobuf/src/google/protobuf/io/strtod.cc
+external/protobuf/src/google/protobuf/stubs/stringprintf.cc
+, blocks_=
+block_start 
+footer is wrong
+Zip: Failed to map central directory, bad mapped_zip base pointer
+Zip: file name for entry %llu exceeds the central directory range, file_name_length: %u, cd_length: %zu
+Zip: invalid file name at entry %llu
+Check failed: zip64_info.compressed_file_size.has_value()
+zerr
+android::WriteStringToFile fchmod failed
+Rebooting to recovery/fastboot...
+Rebooting to recovery/rescue...
+Check failed: 
+Got 
+Failed to initialize UI; using stub UI instead.
+SetUSBDevice 
+Failed to clear BCB message: 
+Baseband version - 
+Found magic number 0x%0x at the offset 0x%0x, break!
+ERROR!!! Havn't found magic number 0x%0x at the first 0x%0x bytes!!!!
+DeviceId
+Failed to create fuse data provider.
+set_progress
+source_build: 
+-- Wiping data...
+/system/bin/make_f2fs
+critical error: %s: first data block does not match
+read_block_group_descriptors
+critical error: %s: failed to read all the block group descriptors
+/boot_devices
+/metadata/gsi/dsu/
+Error updating for slotselect
+nodev
+verifyatboot
+android_dt_dir
+Could not parse snapshot status text: 
+Failed to get path for cow device: 
+Could not parse snapshot device 
+Not booting from new slot. Will not mount snapshots.
+Could not determine path for: 
+unverified
+Read state file failed
+Cannot create metadata builder.
+Successfully created all snapshots for target slot 
+Failed to initiate merge on data wipe.
+Partition still mounted: 
+detach
+Could not read COW footer
+ while reading COW (no labels found)
+ops checksum does not match
+invalid distance code
+build.tools.releasetools.DeviceState.build_incremental
+external/protobuf/src/google/protobuf/message_lite.cc
+external/protobuf/src/google/protobuf/stubs/strutil.cc
+%.*g
+buffer. Use the 'bytes' type if you intend to send raw 
+parsing
+Failed to parse file size and block size: 
+, blksize 
+Unable to open '
+,quiescent
+Invalid number of tokens
+Invalid range text: 
+comment is 
+): 
+Zip: %lld extraneous bytes at the end of the central directory
+Zip: %s: Not enough space for zip64 eocd locator
+, (65535)=
+/data/local/tmp
+%s %c %s %5d %5llu %s
+show_text
+in-ID
+locale is [
+Failed to clear USB config
+ubootenv.var.
+upgrade_step
+Bootloader version - 
+<3>systemcontrol: [ubootenv] Out of memory!!!
+; falling back to install with fuse
+/cache/recovery/last_upflag
+read %s buf:(%s)
+[%s][%d]filename %s is not regular file
+[%s][%d]get_ini_string: access failed when filename=%s, filebak=%s, tmpfile=%s 
+[%s][%d]open failed : %s
+[%s][%d]parameter error!
+Check failed: metadata != nullptr
+--payload=file://
+Failed to find update binary 
+Package doesn't contain 
+Failed to create pipe for updater-recovery communication
+ui_print
+enable_reboot
+directory_iterator::operator++()
+at root "%s"
+old spl: 
+, status 
+Failed to read default fstab
+ for 
+health: cannot get 
+critical error: %s: filesystem size too small
+(): failed to load fstab from : '
+dsu
+(): failed to create a file stream for fstab dt
+Warning: zram_backingdev_size= flag malformed: 
+Failed to open direct 
+Unable to connect to snapuserd
+Cannot delete source device: 
+ at 
+Failed to unlock file: 
+initiated
+ as SnapshotStatus
+Check failed: !status.name().empty()
+Cannot create update snapshots in state 
+Cannot export target metadata
+Could not export current metadata
+open 
+    allocated sectors: 
+invalid distances set
+file error
+unhandled compression type: 
+This shouldn't be called if all the sizes are equal.
+external/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc
+ERROR
+terminating.
+0123456789abcdef
+%.1f
+, lines 
+idx
+ is larger than comment size: 
+Could not find signature DER block
+directory_map->size()
+Zip: %zu byte read exceeds the boundary of allocated buf, offset %zu, bufSize %zu
+Zip: bad local hdr offset in zip
+Success
+File mapping failed
+locale
+Rebooting...
+Installing package 
+/cache/recovery/last_middwarecfg_otaUpgrade.ini
+Read config from cfg file success, len = %d, buff =
+config file not found!no need update
+[%s][%d]file %s isn't existed
+bootable/recovery/install/adb_install.cpp
+Waiting for rescue commands...
+Unexpected ota package type, expects 
+ to 
+SPL downgrade detected, but OTA package explicitly permitts this(OtaMetadata has spl_downgrade / downgrade bit set).Permitting update anyway.Installing a SPL downgrade OTA can cause /data fail to decrypt and device fails to boot.
+W:successful to mount %s
+Can't open 
+/sys/class/thermal/
+Failed to scandir 
+ReadDefaultFstab
+androidboot.boot_device
+slotselect_other
+/first_stage_ramdisk/fstab.
+Can only transition to the Unverified state from the Initiated state.
+Check failed: lock
+Failed to switch snapshot to a merge target: 
+removing update states.
+Could not determine major/minor for: 
+Unable to serialize SnapshotUpdateStatus.
+, reboot, then try again.
+target
+Booting from 
+Couldn't access state file.
+-cow-img
+android.snapshot.SnapshotStatus.compression_algorithm
+android.snapshot.SnapshotMergeReport.source_build_fingerprint
+Snapuserd is terminating
+Snapuserd:client: recv failed
+Failed to parse input string to sectors
+brotli decode failed
+compress2 returned: 
+fsync failed
+EnsureMetadataMounted can't find entry for 
+CHECK failed: (count) <= (buffer_used_): 
+ message of type "
+This program was compiled against version 
+range_end
+whole-file signature verified against RSA key 
+Zip: didn't find signature at start of lfh, offset=%lld
+Check failed: entry_map->hash_table_ != nullptr
+rmdir 
+reason
+Failed to WriteUpdateInProgress: 
+<6>systemcontrol: [ubootenv] using %s with size(%d) (%d)
+ATV mutilcast upgrade successfull,need to reboot
+========> create led_thread!
+Read config file success, len = %d
+[%s]
+[%s][%d]get_ini_string,fatal error: fopen failed when filename=%s : %s
+[%s][%d]dec_content:%s
+/sideload
+Failed to load keys
+Failed to parse metadata in the zip file
+Failed to mkdir 
+sdcard
+/sdcard
+%s/%s
+format_volume: Failed to make ext4 on 
+ service
+    Size: %llu
+noatime
+/fstab.
+/dev/block/by-name
+Should not create a snapshot device for 
+Cannot begin a merge if an update has not been verified
+ is not mapped.
+Could not update status file for snapshot: 
+/allow-forward-merge
+Rollback indicator not detected. 
+ slot
+Could not map cow image for partition: 
+PartitionCowCreator returned no value for 
+ failed for snapshot 
+, CoW device size computation is wrong!
+  Probably a file descriptor was leaked or held open, or a loop device is
+COW file read complete. Total ops: 
+header crc mismatch
+AddRawBlocks: write failed
+Could not find IBootControl HAL
+Check failed: logical_block_size != 0 && !(logical_block_size & (logical_block_size - 1))
+Multiple extension registrations for type "
+external/protobuf/src/google/protobuf/repeated_field.cc
+CHECK failed: (size) <= (6): 
+ contains invalid 
+ bytes data at offset 
+Invalid ranges: remaining blocks 
+Invalid ranges: remaining_size 
+Failed to munmap(
+Mismatching number of tokens: 
+Unknown key type 
+Failed to validate the ec key info from the public key
+Zip: invalid read offset %lld overflows, fd offset %lld
+ (directory_map->size()=
+Zip: zip64 extended info isn't found in the extra field.
+Call to inflateInit2 failed (zerr=%d)
+Zip: size mismatch on inflated file (%lu vs %llu)
+Assertion failed: %s
+ arguments from boot message
+rescue
+Installation aborted.
+reboot
+chosen_item=%d
+<3>systemcontrol: [ubootenv] parse attribute malloc error 
+hdcp22_key
+read Current cfg to %s failed!
+/cache/recovery/last_zteconfigbak.ini
+Socket has been closed
+bootable/recovery/install/fuse_install.cpp
+ because's uncompressed size exceeds size of address space. 
+failed to read uncrypt status
+ key(s) loaded from 
+casefold
+critical error: %s: calloc: %s
+wipe_block_device
+system
+avb
+forcefdeorfbe=
+reservedsize=
+Wait for merge (if any) before beginning a new update.
+Canceling previously completed updates (if any)
+Could not map source device due to missing or corrupt metadata
+ in recovery.
+Could not query merge status for snapshot: 
+Failed to parse cow 
+posix_memalign with page size 
+/old-partition-metadata
+Unexpected target type 
+Could not delete snapshot: 
+Could not map snapshot for partition: 
+Cannot delete base device: 
+Unable to parse 
+Check failed: needs_snapshot == needs_cow
+Can't zero-fill COW device for 
+Current slot: 
+Source build fingerprint: 
+start,
+init
+Snapuserd daemon COW device initialized: 
+num ops does not match, expected 
+invalid bit length repeat
+Block size is too large
+%llu
+serializing
+Zip: Unable to read header for entry at offset == 0.
+Zip: Extra field isn't large enough to hold zip64 info, size %u
+Zip: Data size exceeds the boundary of extra field, data size %u
+Zip: size/crc32 mismatch. expected {%llu, %llu, %x}, was {%llu, %llu, %x}
+system/libziparchive/zip_cd_entry_map.cc
+Unsupported zip entry size
+android::WriteStringToFile open failed
+, 0=
+wipe_data
+ubootenv.var.bootcmd
+<5>systemcontrol: [ubootenv] ubootenv.var.%s not found, create it.
+<3>systemcontrol: [ubootenv] open devices error
+ERROR:package is not exist! ota_path = %s
+need to reboot blink green,so just do nothing here!
+off
+MacAddr
+FfsState return failed, ret = %d
+[%s][%d]%s open failed : %s
+ forbid update
+retry: 
+Could not create SnapshotManager.
+No /cache partition found.
+  Trying BLKSECDISCARD...
+Current SPL: 
+" to format_volume
+/system/bin/mke2fs
+current maximum temperature: 
+/temp
+critical error: %s: failed to read superblock: %s
+Found filesystem with parameters:
+private
+dt_fstab: Skip disabled entry for partition 
+Could not write snapshot status: 
+Timed out waiting for 
+Could not open ImageManager
+ cannot be unmapped and its space cannot be reclaimed
+ isn't included in the payload, skipping the cow creation.
+Could not initialize COW device for 
+Couldn't mount Metadata.
+ still in use.
+Failed to detach snapuserd.
+system/core/fs_mgr/libsnapshot/utility.cpp
+, skipping
+CHECK failed: (index) >= (0): 
+Logic problem? szsrc = 
+UTF-8 data when 
+CHECK failed: (v.size()) <= (kStringPrintfVectorMaxArgs): 
+Feel free to add support for more if you need it.
+, total package_size: 
+SHA-256 digest: 
+Unrecognized signature nid 
+Zip: Invalid data size in zip64 extended field, expect %zu , get %u, uncompressed size %u, compressed size %u, local header offset %s
+%2x
+this is user debug version
+convert_fbe
+Back
+never copy package to /tmp dir, use origianl dir %s
+path_buf = [%s]
+delete file:(%s)!
+set_ini_string failed!acKey=%s
+Common_ext
+/tmp/zteconfigflash.ini
+open %s failed(%s)
+/tmp/factory.ini
+error opening 
+temperature_start: 
+temperature_end: 
+bootable/recovery/install/wipe_device.cpp
+ treating this as non-spl-downgrade, permit OTA install. If device bricks after installing, check kernel log to see if /data failed to decrypt
+Failed to stat 
+/system/bin/e2fsdroid
+/system/bin/sload_f2fs
+format_volume: Failed to sload_f2fs on 
+Skip mounting mountpoint: 
+/etc/recovery.fstab
+noexec
+logical
+forceencrypt=
+hardware
+An update is already in progress, cannot begin a new update
+Check failed: status
+Could not create snapshot device: 
+Could not map image device: 
+Failed to list snapshots to determine whether device has been flashed 
+Skip mapping partition 
+ in group 
+ to unlink
+, cow file size = 
+Cannot unmap existing COW devices before re-mapping them for zero-fill: 
+Boot indicator: booting from 
+    cow file size (bytes): 
+Data wipes are only allowed in recovery.
+Calling GetMappedImageDevice with local image manager; device 
+No timeout was specified to wait for device: 
+Timed out waiting for device to appear: 
+Child device-mapper device still mapped: 
+Could not query device: 
+out/soong/.intermediates/system/core/fs_mgr/libsnapshot/libsnapshot_nobinder/android_recovery_arm_armv8-a_cortex-a53_static/gen/proto/android/snapshot/snapshot.pb.cc
+Partial data sent, expected 
+ to snapuserd daemon
+Decompressor terminated early
+/dev/null
+BrotliEncoderMaxCompressedSize returned 0
+clearing unused cluster area failed
+Read merge statistics file failed
+Skip deleting groups for partial update
+rename failed from 
+out/soong/.intermediates/system/update_engine/update_metadata-protos/android_recovery_arm_armv8-a_cortex-a53_static/gen/proto/update_engine/update_metadata.pb.cc
+ BackUp() can only be called after Next().
+ exceeded maximum protobuf size of 2GB: 
+CHECK failed: i >= 0: 
+external/protobuf/src/google/protobuf/wire_format_lite.cc
+Failed to get the package size
+failed to parse range 
+ ranges
+ (total blocks: 
+/sys/fs/pstore/pmsg-ramoops-0
+Warning: No file_contexts
+Falling back to the default make_device() instead
+Install from ADB complete (status: %d).
+%s=%s
+Panic
+<3>systemcontrol: [ubootenv] error need '=' skip this value
+increment_path path=[%s] base_path=[%s],retry_count=[%d]
+/metadata
+ entry
+corrupted uncrypt_status: 
+Update package is older than the current build, expected a build newer than timestamp 
+Failed to parse ota_medata
+W:successful to mount %s on %s by read-only
+unknown volume "
+Failed to parse integer in 
+ext4_parse_sb_info
+/metadata_encryption_dir
+sync
+Warning: unknown flag: 
+dt_fstab: Failed to find type for partition 
+/by-name
+SnapshotStatus has no name.
+ProcessUpdateState handling state: 
+ on 
+Can't determine flashing status for 
+Open failed: 
+Check failed: cow_creator_ret->snapshot_status.cow_partition_size() % kSectorSize == 0
+ is only allowed in recovery.
+Could not read old partition metadata from 
+Snapuserd:client disconnected
+Did not find label 
+unknown compression method
+stream error
+Could not find IBootControl 1.1 HAL
+Update manifest does not include a COW size
+Check failed: suffix == "_a" || suffix == "_b"
+CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (count) >= (0): 
+Out of bound index 
+ (range_start=
+ exceeds the limit of current RangeSet: 
+not big enough to contain EOCD
+failed to verify against EC key 
+Public exponent should be 3 or 65537, actual: 
+Invalid zip offset %lld
+Zip: invalid read length %lld exceeds data length %lld, offset %lld
+Zip: missed a central dir sig (at %llu)
+ANDROID_LOG_TAGS
+ro.
+--rescue
+orange
+this is user version
+<3>systemcontrol: [ubootenv] Cannot write %s: %d.
+Not correct upgrade type: %d!
+have app to install,need to reboot
+Open %s failed.
+open config file with FFO_WRONLY mode return %d
+[%s][%d]%s file size = %lld bytes
+Timeout waiting for messages from minadbd
+Timed out waiting for the fuse-provided package.
+ Target SPL: 
+/dev/block/sd
+Failed to fsync 
+Error in reading klog
+/tmp
+default
+warning: %s: Computed filesystem size less than 0
+barrier=1
+ReadFstabFromFile
+boot_device
+android,firmware
+Error parsing mount source
+noemulatedsd
+Warning: logicalblk= flag malformed: 
+Snapshot 
+Rollback detected, writing rollback indicator to 
+Creating logical partitions with snapshots as needed
+Detected re-flashing of partition, will skip snapshot: 
+, cow_partition_size = 
+Check failed: snapshot_status.cow_partition_size() + snapshot_status.cow_file_size() > 0
+MapAllSnapshots could not read dynamic partition metadata for device: 
+Unknown update state: 
+ writer.GetCowVersion(): 
+Clusters must contain at least two operations to function.
+Offset goes out of bounds.
+.tmp
+Can't 
+Can't BackUp() after failed Next().
+CHECK failed: (value.size()) <= (kint32max): 
+String field
+Failed to validate the rsa key info from public key
+Zip: bad offsets (dir %u, size %u, eocd %lld)
+Zip: lfh name offset invalid
+nullptr
+%s%s%.*s
+alse
+liblog
+en-US
+librecovery_ui_ext.so
+reason is [%s]
+ now.
+/cache/recovery/last_updatemode
+open %s failed %d(%s)
+ERROR: There is not ota ot inc package
+CfgVersion
+Read last need update config success, len = %d, buff =
+4301
+Read current config file success,update download cfg
+fault error! pConfFile is null!
+get_ini_string
+%s.bak
+[%s][%d]%s no exist or read permission denied
+Now send the package you want to apply
+to the device with "adb sideload <filename>"...
+Failed to read message from minadbd
+Unsupported command: 
+Signature verification failed
+invalid "set_progress" parameters: 
+retry_update
+, falling back to use the partition list on device.
+ new spl: 
+bootable/recovery/install/udisk_upgrade.cpp
+No health implementation is found; assuming defaults
+Error getting klog size
+can't give path "
+format_volume: Failed to open 
+bind
+slave
+system/core/fs_mgr/fs_mgr_boot_config.cpp
+Could not determine block device size: 
+ does not match
+(expected 
+Device 
+ as device 
+ as snapshot device at 
+Failed to wait for 
+Cannot determine path for 
+Cannot use MapUpdateSnapshot with compressed snapshots
+Unable to map partitions.
+Device-mapper device 
+-user-cow
+Timed out connecting to snapuserd socket: 
+No COW footer found
+brotli
+write footer failed
+system/core/fs_mgr/libsnapshot/device_info.cpp
+number of blocks do not equal in src_extents and dst_extents
+Failed to auto unmap cow image 
+Don't lookup extension types if they aren't present (1). 
+CHECK failed: (buffer_size) >= (0): 
+MessageLite at 0x
+StringPrintfVector currently only supports up to 
+Invalid data in block map file: size 
+blocks_
+signature (offset: 
+Unrecognized public key type 
+Zip: bad LFH offset %lld at entry %llu
+Invalid handle
+system/libbase/logging.cpp
+unsupported '
+retry_count
+Failed to write 
+<6>systemcontrol: [ubootenv] Save ubootenv to %s succeed!
+<3>systemcontrol: [ubootenv] read %s failed 
+update_package = [%s]
+%s/last_increment.zip
+BoardID
+[PreUpdateConfig]-[calloc] failed
+FfsWrite error! fsize %d ret %d
+the is no Section in the config buffer!
+Failed to create socket
+E:Can't run %s (%s)
+utf8
+bootable/recovery/recovery_utils/thermalutil.cpp
+read_sb
+critical error: %s: failed to read all of superblock
+(): cannot open file: '
+aes-256-xts:aes-256-cts
+eraseblk=
+metadata_encryption=
+/dev/block/
+Cannot ensure there are no overflow snapshots.
+-init
+Could not list snapshots
+ is not a snapshot or snapshot-merge device
+Cannot call MapAllSnapshots from update state: 
+Check failed: current_metadata->GetBlockDevicePartitionName(0) == LP_METADATA_DEFAULT_PARTITION_NAME && target_metadata->GetBlockDevicePartitionName(0) == LP_METADATA_DEFAULT_PARTITION_NAME
+because nothing needs to be snapshotted.
+ Num-sectors: 
+Stream ended prematurely
+unknown header flags set
+invalid literal/length code
+incorrect data check
+CHECK failed: type == WireFormatLite::TYPE_MESSAGE || type == WireFormatLite::TYPE_GROUP: 
+Can't get here.
+ of the Protocol Buffer runtime library, but the installed version is 
+%lu
+ arguments. 
+%llu%u
+shutdown,
+num_of_blocks is zero when calling GetSubRanges()
+ziparchive
+36392138
+ (entryName.size()=
+Zip: unable to write %zu bytes to file; %s
+Duplicate entries in archive
+android::WriteStringToFile write failed
+ANDROID_FILE__dev_kmsg
+userrequested,fastboot
+Failed to set BCB message: 
+stage is [%s]
+%s%s
+<3>systemcontrol: [ubootenv] Cannot read %s: %d.
+Failed to memory map package 
+increment_ota_path_http = [%s]
+Install ota successed in recovery mode!
+/proc/ledlight/powergreen/state
+ProductID
+UpCheckInterval
+OperatorsCode
+[%s][%d]filename is NULL 
+%s~
+[%s][%d]%s,%s exist! rename done!
+%s.back
+[%s][%d]:FfsDecryption success
+ doesn't equal the original path 
+filesystem error: %s [%s] [%s]
+Formatting %s...
+/tmp/convert_fbe/convert_fbe
+wipe_package_size is zero
+  Trying BLKZEROOUT...
+bootable/recovery/install/spl_check.cpp
+exfat
+/dev/block/mmcblk#p#
+Wiping 
+    Inodes per group: %d
+warning: %s: Writing zeros failed
+warning: %s: Wipe via secure discard failed, used discard instead
+(): failed to get active DSU slot
+wait
+verify
+slotselect
+quota
+swapprio=
+/vendor/etc/fstab.
+ro.boot.
+Removing all update state.
+CheckTargetMergeState for 
+, cow partition size = 
+Major version: 
+ops size does not match 
+invalid code lengths set
+Not implemented field number 
+external/protobuf/src/google/protobuf/stubs/stringpiece.cc
+size too big: 
+\x%02x
+bytes. 
+Out of bound read, offset: 
+ : 
+Block map file is too short: 
+%zu
+Failed to parse block map header: 
+) failed
+Failed to read x509 certificate
+Zip: invalid offset: %lld, read length: %zu, data length: %lld
+Zip: EOCD not found, %s is not zip
+Zip: inflate read failed, getSize = %u: %s
+Failed to dlsym make_device: %s
+adb
+ (argc=
+Failed to save locale to 
+<3>systemcontrol: [ubootenv] open device(%s) error
+ with fuse
+package install failed,no need to flash config file(%d)!
+flash_config_to_fs failed, ret = %d!
+/cache/recovery/last_productcfg.eini
+CfgVersion is same, no need update!
+[%s][%d]filename shouldn't be ""
+[%s][%d]rename %s to %s
+/system/bin/minadbd
+Failed to write message 
+failed
+failed to read "
+ CHECK passes
+ext4
+critical error: %s: failed to seek to end of input image: %s
+check
+nofail
+/dev/block/bootdevice/by-name
+Mapped 
+Skipping merge validation of unexpected snapshot: 
+For partition 
+Forward merge indicator: 
+RecoveryCreateSnapshotDevices
+/sys/fs
+; possibly open file descriptor or attached loop device.
+ attached.
+ms (
+Snapuserd daemon initialized with 
+Could not return buffer to sink
+invalid window size
+invalid stored block lengths
+need dictionary
+stream end
+Failed to auto unmap device 
+build.tools.releasetools.OtaMetadata.PropertyFilesEntry.value
+CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
+", field number 
+CHECK failed: target_ != NULL: 
+CHECK failed: (backup_bytes_) == (0): 
+CHECK failed: (buffer_used_) == (buffer_size_): 
+external/protobuf/src/google/protobuf/io/zero_copy_stream.cc
+CHECK failed: result != nullptr: 
+Unable to open '%s': %s
+Zip: Error adding entry to hash table %d
+Installed zlib is not compatible with linked version (%s)
+Unknown return code
+Inconsistent information
+%s%cTemporaryFile-XXXXXX
+argc
+%d/%d
+bootcmd
+use origianl dir %s
+UpdateMode=1,need to wipe_data
+========> init_led, led_t = %ld!
+[PreUpdateConfig]-input iLen not available
+decrypt the config file!
+find middware config file,need to chown system!
+zte_restore_factory_config failed!!!
+[%s][%d]%s,%s,%d, enter debuging state 1
+Check failed: cmd != nullptr
+ (status 
+bootable/recovery/install/snapshot_utils.cpp
+Data wipe %s.
+ permitting OTA install
+W:decompose blk_device error(%s) in recovery.fstab
+can't set up install mounts: no fstab loaded
+ANDROID_FILE_
+/proc/self/fd/%d
+    Used %d/%d inodes and %d/%d blocks
+(): assuming default DSU slot: 
+(): failed to access() DSU booted indicator
+userdata_gsi
+latemount
+Warning: length= flag malformed: 
+%s/%s/status
+ cow file size is not a multiple of the sector size: 
+Device size and snapshot size must be the same (device size = 
+Unexpected snapshot found during merge: 
+ returned: 
+ were actually recorded.
+Unable to write rollback indicator: 
+: Can't access 
+Could not create COW device: 
+ in 
+    state: 
+/sys/class/block/
+Timed out waiting for snapuserd to start.
+1.2.11
+BrotliEncoderCompress failed
+lseek failed for writing operation.
+Cannot read default fstab
+A protocol message was rejected because it was too big (more than 
+).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+, R, PRIVATE, 
+RangeSet size overflow
+Failed to extract the public key from x509 certificate
+Check failed: sig_der != nullptr
+Zip: Invalid ZipArchiveHandle
+Zip: lseek on fd %d failed: %s
+Zip: %s: Bad zip64 eocd offset %lld, eocd locator offset %lld
+missing
+Zip: unable to allocate %llu bytes at offset %lld: %s
+android::WriteStringToFile fchown failed
+Rebooting to bootloader...
+" failed
+boot-fastboot
+Command:
+Install from %s completed with status %d.
+Invalid chosen action 
+Saving locale "
+open config file with FFO_RDONLY mode return %d
+Input param invalid!
+fread failed
+.zip
+bootable/recovery/install/install.cpp
+Failed to find 
+sdkversion: %d, postbuild version: %d
+Check failed: package->GetType() == PackageType::kFile
+-- Wiping cache...
+Failed to open wipe package
+ this is considered a downgrade
+/dev/block/sd##
+bootable/recovery/recovery_utils/roots.cpp
+Failed to unmount 
+[libfs_mgr]
+remount
+encryptable=
+avb_keys=
+zram_backingdev_size=
+Device cannot merge while not booting from new slot
+Could not read snapshot device table: 
+but 
+Aborting merge progress for snapshot 
+Check failed: update_status.state() == UpdateState::Merging
+ size is not sector aligned: 
+after applying an update. Assuming no snapshots.
+Detected snapshot 
+Could not create logical partition 
+Mapped COW image for 
+MapAllSnapshots could not unmap snapshot: 
+merge-needs-reboot
+super
+Cannot delete existing snapshot before creating a new one for partition 
+Skip creating snapshot for partition 
+Compression: 
+Rollback indicator: 
+Unknown merge state in update state file: "
+ from snapuserd daemon
+system/core/fs_mgr/libsnapshot/cow_reader.cpp
+lseek to read raw bytes failed
+system/core/fs_mgr/libsnapshot/cow_writer.cpp
+Check failed: !merge_in_progress_
+Error setting slot 
+Invalid COW size, chunk_id is too large.
+ro.virtual_ab.compression.enabled
+build.tools.releasetools.DeviceState.sdk_level
+Don't lookup extension types if they aren't present (2). 
+parse
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: !is_closed_: 
+CHECK failed: (index) < (current_size_): 
+CHECK failed: (temp[size - 1]) == ('5'): 
+, size: 
+Failed to find block number for index 
+, num_of_blocks: 
+Failed to read EOCD of 
+, length: 
+failed to verify against RSA key 
+system/libziparchive/zip_archive.cc
+, cd_size=
+entryName.size()
+CopyFileToFile: copy read failed, block_size = %u, offset = %lld: %s
+ (zerr=
+/cache/recovery/last_locale
+/system/bin/update_engine_sideload
+/cache/recovery
+post-timestamp
+NOT_SUPPORTED
+PERMISSION_DENIED
+persist.log.tag.
+/snapshots
+/snapshots/
+(cannot determine missing fields for lite message)
+Unspecified assertion failed
+Secure boot - 
+ro.system.build.version.sdk
+ro.virtual_ab.allow_non_ab
+--show_text
+/cache/recovery/last_log
+build.tools.releasetools.PartitionState
+/tmp/convert_fbe
+/cache/recovery/last_kmsg
+FAILED_PRECONDITION
+/mnt/system
+/sideload/package.zip
+/metadata/ota
+/tmp/last_install
+/tmp/update-binary
+ Factory data reset
+/dev/block/ubootenv
+/cache/recovery/uncrypt_status
+sys.powerctl
+  Confirm reboot?
+ro.build.date.utc
+DATA_LOSS
+ro.debuggable
+/sdcard/factory_update_param.aml
+OUT_OF_RANGE
+/dev/socket/logdw
+--fastboot
+ro.boot.bootreason
+ro.virtual_ab.enabled
+default-key
+chromeos_update_engine.Extent
+CANCELLED
+UNIMPLEMENTED
+ro.build.fingerprint
+ro.bootloader
+external_storage.projid.enabled
+post-build-incremental
+CALLBACK_DIED
+INVALID_ARGUMENT
+RESOURCE_EXHAUSTED
+ro.boot.quiescent
+DISCHARGING
+/dev/socket/
+/cache/recovery/last_command
+Reboot system now
+Choose a package to install:
+ro.build.version.sdk
+Wipe all user data?
+  THIS CAN NOT BE UNDONE!
+Reboot to bootloader
+/merge_state
+sys.usb.state
+Select file to view
+recovery

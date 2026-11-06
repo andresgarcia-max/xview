@@ -1,1 +1,1 @@
-﻿[2026-10-29 22:35:20.216] [Pass #17] Monitoreando SmarTTY PID=3284 WS=275.3MB | Lineas unicas: 6623 (+0) | Bloques: 1769 (+0) | Puertos: Silicon Labs CP210x USB to UART Bridge (COM8), Intel(R) Active Management Technology - SOL (COM3)
+﻿[2026-10-29 23:06:53.541] [Pass #1] En espera de SmarTTY.exe... | Lineas acumuladas: 7051 | Puertos: Silicon Labs CP210x USB to UART Bridge (COM8), Intel(R) Active Management Technology - SOL (COM3)

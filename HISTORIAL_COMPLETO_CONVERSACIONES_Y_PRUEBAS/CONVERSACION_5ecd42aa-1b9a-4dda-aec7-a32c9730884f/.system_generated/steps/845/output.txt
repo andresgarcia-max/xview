@@ -1,0 +1,46 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                       Length
+----                                                       ------
+cache_ext4.img                                           67108864
+EJECUTAR_VALIDADOR_FIRMWARE_ZTE.bat                           208
+FLASHEAR_B866V2_ANDROID12_SEGURO_SIN_PERDER_WIDEVINE.bat     4459
+init.recovery.amlogic.rc                                    17165
+prop.default                                                15040
+recovery_original_zte.img                                25165824
+releasekey.x509.pem                                          1356
+REPORTE_VALIDACION_FIRMWARE_Y_OTA_ZTE.md                     9854
+system_bin_recovery                                       1579124
+system_etc_recovery.fstab                                    2045
+system_etc_security_otacerts.zip                             1140
+system_lib_librecovery_zte_conf.so                          21176
+VALIDAR_FIRMWARE_Y_OTA_ZTE.ps1                              10776
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+Set USB Status Success!
+Failed to set USB config to 
+Failed to set usb config to sideload
+ a protocol 
+sys.usb.config
+SetUSBHost 
+.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+Set USB Status Failed!
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of 
+SetUSBDevice 
+Failed to clear USB config
+ of the Protocol Buffer runtime library, but the installed version is 
+A protocol message was rejected because it was too big (more than 
+).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+sys.usb.state
+The but notdensityBritainChineselack oftributeIreland" data-factorsreceivethat isLibraryhusbandin factaffairsCharlesradicalbroughtfindinglanding:lang="return leadersplannedpremiumpackageAmericaEdition]&quot;Messageneed tovalue="complexlookingstationbelievesmaller-mobilerecordswant tokind ofFirefoxyou aresimilarstudiedmaximumheadingrapidlyclimatekingdomemergedamountsfoundedpioneerformuladynastyhow to SupportrevenueeconomyResultsbrothersoldierlargelycalling.&quot;AccountEdward segmentRobert effortsPacificlearnedup withheight:we haveAngelesnations_searchappliedacquiremassivegranted: falsetreatedbiggestbenefitdrivingStudiesminimumperhapsmorningsellingis usedreversevariant role="missingachievepromotestudentsomeoneextremerestorebottom:evolvedall thesitemapenglishway to  AugustsymbolsCompanymattersmusicalagainstserving})();
+<!organis <br />Beijingcatal??deutscheuropeueuskaragaeilgesvenskaespa??amensajeusuariotrabajom??xicop??ginasiempresistemaoctubredurantea??adirempresamomentonuestroprimeratrav??sgraciasnuestraprocesoestadoscalidadpersonan??meroacuerdom??sicamiembroofertasalgunospa??sesejemploderechoadem??sprivadoagregarenlacesposiblehotelessevillaprimero??ltimoeventosarchivoculturamujeresentradaanuncioembargomercadograndesestudiomejoresfebrerodise??oturismoc??digoportadaespaciofamiliaantoniopermiteguardaralgunaspreciosalguiensentidovisitast??tuloconocersegundoconsejofranciaminutossegundatenemosefectosm??lagasesi??nrevistagranadacompraringresogarc??aacci??necuadorquienesinclusodeber??materiahombresmuestrapodr??ama??ana??ltimaestamosoficialtambienning??nsaludospodemosmejorarpositionbusinesshomepagesecuritylanguagestandardcampaignfeaturescategoryexternalchildrenreservedresearchexchangefavoritetemplatemilitaryindustryservicesmaterialproductsz-index:commentssoftwarecompletecalendarplatformarticlesrequiredmovementquestionbuildingpoliticspossiblereligionphysicalfeedbackregisterpicturesdisabledprotocolaudiencesettingsactivityelementslearninganythingabstractprogressoverviewmagazineeconomictrainingpressurevarious <strong>propertyshoppingtogetheradvancedbehaviordownloadfeaturedfootballselectedLanguagedistanceremembertrackingpasswordmodifiedstudentsdirectlyfightingnortherndatabasefestivalbreakinglocationinternetdropdownpracticeevidencefunctionmarriageresponseproblemsnegativeprogramsanalysisreleasedbanner">purchasepoliciesregionalcreativeargumentbookmarkreferrerchemicaldivisioncallbackseparateprojectsconflicthardwareinterestdeliverymountainobtained= false;for(var acceptedcapacitycomputeridentityaircraftemployedproposeddomesticincludesprovidedhospitalverticalcollapseapproachpartnerslogo"><adaughterauthor" culturalfamilies/images/assemblypowerfulteachingfinisheddistrictcriticalcgi-bin/purposesrequireselectionbecomingprovidesacademicexerciseactuallymedicineconstantaccidentMagazinedocumentstartingbottom">observed: &quot;extendedpreviousSoftwarecustomerdecisionstrengthdetailedslightlyplanningtextareacurrencyeveryonestraighttransferpositiveproducedheritageshippingabsolutereceivedrelevantbutton" violenceanywherebenefitslaunchedrecentlyalliancefollowedmultiplebulletinincludedoccurredinternal$(this).republic><tr><tdcongressrecordedultimatesolution<ul id="discoverHome</a>websitesnetworksalthoughentirelymemorialmessagescontinueactive">somewhatvictoriaWestern  title="LocationcontractvisitorsDownloadwithout right">
+<location.protocolframeborder="0" s" />
+/sdcard/ZTESTBUSB/ota.zip
+/udisk/ZTESTBUSB/ota.zip
+/udisk/ZTESTBUSB/increment.zip
+/sdcard/ZTESTBUSB/increment.zip
+/udisk/ZTESTBUSB/ota_logo.zip
+/sdcard/ZTESTBUSB/ota_logo.zip
+
+

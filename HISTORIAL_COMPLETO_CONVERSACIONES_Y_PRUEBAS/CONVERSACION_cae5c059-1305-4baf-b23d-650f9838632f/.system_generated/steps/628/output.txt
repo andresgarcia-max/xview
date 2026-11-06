@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+
+Name          : ACCESO_CLIENTES_LEGENDS.exe
+Length        : 39936
+FullName      : C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe
+LastWriteTime : 24/10/2026 10:25:11 a. m.
+
+
+

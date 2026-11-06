@@ -1,0 +1,41 @@
+[MONITOR] Iniciando vigilancia en tiempo real sobre PROGRAMA_PERFECTO_XVIEW_B866V2.exe (Lineas previas en bitacora: 1)...
+[MONITOR] Proceso activo detectado: PID=14836
+[2026-11-04 00:26:21.395] [RADAR] SN=Z41220090388172 | RawPid=0D02 | FastbootLive=True | ADB=
+[2026-11-04 00:26:21.403] [UI] Selecciona el numero de la opcion [0-7]:
+[2026-11-04 00:27:03.096] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 00:27:03.101] [OPCION_1] Iniciando Radar Multi-Canal (48ms WorldCup + Fastbootd + Fastboot + ADB)...
+[2026-11-04 00:27:03.103] [UI] OPCION 1: CAPTURA Y SALTO AUTOMATICO MULTI-CANAL (SALTA CANDADO QR / AZUL)
+[2026-11-04 00:27:03.109] [UI] Este modo atrapa tu caja en milisegundos sin abrir tornillos y sin codigo QR:
+[2026-11-04 00:27:03.110] [UI] PASOS RAPIDOS EN LA CAJA:
+[2026-11-04 00:27:03.111] [UI] * PARA DESBLOQUEAR Y FLASHEAR DESDE CERO (WorldCup 48ms -> Fastboot):
+[2026-11-04 00:27:03.111] [UI] 1. Deja conectado SOLO el cable USB Macho-a-Macho a la PC (retira la memoria
+[2026-11-04 00:27:03.112] [UI] USB de la caja por un momento para que no salte a Recovery).
+[2026-11-04 00:27:03.112] [UI] 2. Desconecta la corriente de la caja, manten presionado el boton RESET
+[2026-11-04 00:27:03.113] [UI] y conecta la corriente (manten RESET 5 segundos).
+[2026-11-04 00:27:03.113] [UI] -> Este radar cazara 'InUsbBurn (VID_1B8E)' en 48ms, inyectara
+[2026-11-04 00:27:03.114] [UI] 'env_unlocked.img' (lock=10100000) y dejara Fastboot 100% DESBLOQUEADO!
+[2026-11-04 00:27:03.115] [UI] [*] RADAR ULTRARRAPIDO (48ms) ESCUCHANDO EN VIVO... (Presiona ESC para volver al menu)
+[2026-11-04 00:27:03.989] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: yes  | Finished. Total time: 0.001s
+[2026-11-04 00:27:03.990] [FASTBOOTD_CAUGHT] Detectado Recovery fastbootd (PID_4EE7 / Z41220090388172).
+[2026-11-04 00:27:03.991] [UI] [+] Detectado Recovery Fastbootd (PID_4EE7 / Z41220090388172)!
+[2026-11-04 00:27:03.992] [UI] Probando desbloqueo directo de 'env' en fastbootd...
+[2026-11-04 00:27:04.053] [CMD] fastboot_moderno.exe flashing unlock (Exit=1) -> FAILED (remote: 'Unrecognized command flashing unlock')  | fastboot: error: Command failed
+[2026-11-04 00:27:04.099] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=1) -> FAILED (remote: 'Unrecognized command flashing unlock_critical')  | fastboot: error: Command failed
+[2026-11-04 00:27:04.157] [CMD] fastboot_moderno.exe flash env "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\env_unlocked.img" (Exit=1) -> Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 00:27:04.158] [UI] Saltando a U-Boot Bootloader (PID_0D02) y activando caza WorldCup...
+[2026-11-04 00:27:04.231] [CMD] fastboot_moderno.exe reboot bootloader (Exit=0) -> Rebooting into bootloader                          OKAY [  0.000s]  | Finished. Total time: 0.000s
+[2026-11-04 00:27:08.357] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: no  | Finished. Total time: 0.014s
+[2026-11-04 00:27:08.358] [UBOOT_FASTBOOT_CAUGHT] Detectado U-Boot Fastboot en vivo (PID_0D02 / Z41220090388172).
+[2026-11-04 00:27:08.358] [UI] [+] Caja atrapada en U-Boot Fastboot en vivo (Serie: Z41220090388172)!
+[2026-11-04 00:27:08.360] [UI] Reteniendo Watchdog y ejecutando secuencia de desbloqueo limpia...
+[2026-11-04 00:27:08.416] [CMD] fastboot_moderno.exe flashing get_unlock_ability (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:27:08.460] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:27:08.501] [CMD] fastboot_moderno.exe flashing unlock (Exit=0) -> OKAY [  0.005s]  | Finished. Total time: 0.005s
+[2026-11-04 00:27:08.570] [CMD] fastboot_moderno.exe oem "watchdog off" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:27:08.644] [CMD] fastboot_moderno.exe oem "setenv lock 10100000;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:27:08.882] [CMD] fastboot_moderno.exe oem "setenv otg_device 1;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:27:09.011] [CMD] fastboot_moderno.exe oem "saveenv" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:27:09.246] [CMD] fastboot_moderno.exe getvar unlocked (Exit=0) -> unlocked: no  | Finished. Total time: 0.038s
+[2026-11-04 00:27:09.564] [CMD] fastboot_moderno.exe flash _aml_dtb "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img" (Exit=1) -> Sending '_aml_dtb' (256 KB)                        FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:27:09.567] [FASTBOOT_LOCKED_ASSIST] Entrando en StartDedicatedWorldCupHuntFromLockedFastboot (lock=10001000).
+=== WAKEUP_REASON: EVENT_REQUIRING_ATTENTION ===

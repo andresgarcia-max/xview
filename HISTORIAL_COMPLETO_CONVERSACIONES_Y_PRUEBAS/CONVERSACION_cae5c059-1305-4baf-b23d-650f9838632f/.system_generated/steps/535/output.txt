@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+Includes gym-background-C2ZRMS71.jpg: true
+Includes legends_terminal_bg_ver: true
+Includes v12_bulletproof_original_bg: true
+Includes UserPlus: true
+Includes Pase del Día: true
+Includes Ya Tengo Membresía: true

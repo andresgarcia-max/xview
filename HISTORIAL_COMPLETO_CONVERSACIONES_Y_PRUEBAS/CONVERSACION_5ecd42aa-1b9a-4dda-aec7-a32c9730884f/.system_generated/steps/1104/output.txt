@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                     Length
+----                                                     ------
+AppUpgradeService                                              
+com_zte_adb                                                    
+ControlDevice                                                  
+INFORME_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE.md 23369 
+
+

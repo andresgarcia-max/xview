@@ -1,0 +1,83 @@
+Command exited with code 0.
+
+Command output:
+02-05 02:18:03.007  3655  3760 I am_proc_bound: [0,6883,com.omni.simplesetup]
+02-05 02:18:03.008     0     0 I prk     : [   53.655141@3]- binder: 6883:6883 ioctl 40046210 ffdad4e8 returned -22
+02-05 02:18:03.009  3655  3760 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 1000; state: DISABLED
+02-05 02:18:03.011  3655  3760 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.011  3655  3760 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.017  4273  4282 I .gms.persisten: Background concurrent copying GC freed 150807(8875KB) AllocSpace objects, 5(228KB) LOS objects, 49% free, 8897KB/17MB, paused 152us total 189.088ms
+02-05 02:18:03.017  6883  6883 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 1000; state: ENABLED
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.051  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.051  3655  3962 W [FrameworkCustomization]OomAdjusterImpl: com.dotscreen.megacable.core, change oom_adj=-14
+02-05 02:18:03.051  3655  3962 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+02-05 02:18:03.063  4273  4855 W PhBaseOp: Phenotype API error. Event: # dctz@5623587f, EventCode: COMMIT_CONFIG [CONTEXT service_id=51 ]
+02-05 02:18:03.063  4273  4855 W PhBaseOp: bsyp: 29543: Stale snapshot for com.google.android.libraries.performance.primes#com.google.android.youtube.tv(new configuration available)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at btan.d(:com.google.android.gms@254730118@25.47.30 (180300-833691957):372)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at btan.b(:com.google.android.gms@254730118@25.47.30 (180300-833691957):43)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at btam.i(:com.google.android.gms@254730118@25.47.30 (180300-833691957):3)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at btai.h(:com.google.android.gms@254730118@25.47.30 (180300-833691957):31)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at btai.f(:com.google.android.gms@254730118@25.47.30 (180300-833691957):13)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at axjz.eY(:com.google.android.gms@254730118@25.47.30 (180300-833691957):1)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at axkd.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):118)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at cldz.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):19)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at afnw.c(:com.google.android.gms@254730118@25.47.30 (180300-833691957):50)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at afnw.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):73)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at afth.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):8)
+02-05 02:18:03.063  4273  4855 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:920)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: operation=CommitToConfigurationOperationCall, opStatusCode=29543 [CONTEXT service_id=51 ]
+02-05 02:18:03.064  4273  4855 W AsyncOperation: OperationException[Status{statusCode=Stale snapshot for com.google.android.libraries.performance.primes#com.google.android.youtube.tv(new configuration available), resolution=null}]
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at btai.h(:com.google.android.gms@254730118@25.47.30 (180300-833691957):61)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at btai.f(:com.google.android.gms@254730118@25.47.30 (180300-833691957):13)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at axjz.eY(:com.google.android.gms@254730118@25.47.30 (180300-833691957):1)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at axkd.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):118)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at cldz.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):19)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at afnw.c(:com.google.android.gms@254730118@25.47.30 (180300-833691957):50)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at afnw.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):73)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at afth.run(:com.google.android.gms@254730118@25.47.30 (180300-833691957):8)
+02-05 02:18:03.064  4273  4855 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:920)
+02-05 02:18:03.073  3655  3690 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.073  3655  3690 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.073  3655  3690 W [FrameworkCustomization]OomAdjusterImpl: com.dotscreen.megacable.core, change oom_adj=-14
+02-05 02:18:03.073  3655  3690 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+02-05 02:18:03.097  6883  6883 V GraphicsEnvironment: ANGLE Developer option for 'com.omni.simplesetup' set to: 'default'
+02-05 02:18:03.097  6883  6883 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-05 02:18:03.099  6883  6883 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+02-05 02:18:03.099  6883  6883 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+02-05 02:18:03.106  6883  6883 D OMNI.SSU.BootComplete: Boot Complete
+02-05 02:18:03.107  6883  6883 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startForegroundService:1823 android.content.ContextWrapper.startForegroundService:781 android.content.ContextWrapper.startForegroundService:781 com.omni.simplesetup.services.BootComplete.onReceive:21 android.app.ActivityThread.handleReceiver:4308 
+02-05 02:18:03.108  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.108  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.111  3655  3962 I am_uid_running: 10018
+02-05 02:18:03.112  3655  3962 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10018; state: DISABLED
+02-05 02:18:03.112  6883  6883 D OMNI.SSU.MyService: onCreate
+02-05 02:18:03.112  3655  3962 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10018; state: DISABLED
+02-05 02:18:03.112  3655  3962 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10018; state: DISABLED
+02-05 02:18:03.112  3655  3962 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10018; state: DISABLED
+02-05 02:18:03.113  3655  3692 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10018; state: DISABLED
+02-05 02:18:03.116  6883  6883 D OMNI.SSU.OmniBle: OmniBle: 
+02-05 02:18:03.119  6883  6883 D BluetoothHidHost: Binding service...
+02-05 02:18:03.125  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.125  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.125  3655  3962 W [FrameworkCustomization]OomAdjusterImpl: com.dotscreen.megacable.core, change oom_adj=-14
+02-05 02:18:03.125  3655  3962 W OomAdjuster: change oom_adj=-14 state.getSetAdj()=-14
+02-05 02:18:03.127  6883  6883 D OMNI.SSU.SimpleSetupImpl: SimpleSetupImpl: 
+02-05 02:18:03.129  3433  3433 D Zygote  : Forked child process 6910
+02-05 02:18:03.130  3655  3692 I am_proc_start: [0,6910,10018,com.uei.otademo,broadcast,{com.uei.otademo/com.uei.otademo.BootReceiver}]
+02-05 02:18:03.130  3655  3692 I ActivityManager: Start proc 6910:com.uei.otademo/u0a18 for broadcast {com.uei.otademo/com.uei.otademo.BootReceiver}
+02-05 02:18:03.132  4273  4273 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+02-05 02:18:03.132  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.132  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4
+02-05 02:18:03.133  3655  3962 D FrameworkAdapter: getInstance: new mFrameworkAdapter - android.content.FrameworkAdapter@2bc2b7
+02-05 02:18:03.133  3655  3962 D FrameworkAdapter: getClassInstance: all size of classMap -  4

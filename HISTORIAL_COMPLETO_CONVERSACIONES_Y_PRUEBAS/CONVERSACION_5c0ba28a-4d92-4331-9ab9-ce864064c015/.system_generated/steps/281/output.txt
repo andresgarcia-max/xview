@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\types\index.ts:221:}
+  LEGENDS\src\types\index.ts:222:
+  LEGENDS\src\types\index.ts:223:// Gastos & Egresos (Expenses)
+> LEGENDS\src\types\index.ts:224:export type ExpenseCategory = 
+  LEGENDS\src\types\index.ts:225:  | 'rent'
+  LEGENDS\src\types\index.ts:226:  | 'utilities' // Luz, agua, aire acondicionado
+  LEGENDS\src\types\index.ts:227:  | 'equipment' // Mantenimiento de pesas, poleas, caminadoras
+  LEGENDS\src\types\index.ts:228:  | 'supplements_stock' // Compra de suplementos a proveedores
+  LEGENDS\src\types\index.ts:229:  | 'payroll' // N�mina de coaches, recepcionistas, limpieza
+  LEGENDS\src\types\index.ts:235:  id: string;
+  LEGENDS\src\types\index.ts:236:  folio: string;
+  LEGENDS\src\types\index.ts:237:  date: string; // ISO date
+> LEGENDS\src\types\index.ts:238:  category: ExpenseCategory;
+  LEGENDS\src\types\index.ts:239:  description: string;
+  LEGENDS\src\types\index.ts:240:  amount: number;
+  LEGENDS\src\types\index.ts:241:  paymentMethod: PaymentMethod;
+  LEGENDS\src\types\index.ts:242:  paidFromCashRegister: boolean;
+  LEGENDS\src\types\index.ts:243:  registeredBy: string;
+
+

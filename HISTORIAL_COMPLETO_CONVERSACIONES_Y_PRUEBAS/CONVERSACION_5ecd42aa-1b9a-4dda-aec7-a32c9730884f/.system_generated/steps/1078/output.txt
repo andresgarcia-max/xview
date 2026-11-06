@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+=== ESCANEO RAPIDO SUBRED 192.168.0.1..254 PUERTO 5555 ===
+ForEach-Object : No se puede resolver el conjunto de parámetros usando los parámetros con nombre especificados.
+En línea: 3 Carácter: 10
++ 1..254 | ForEach-Object -Parallel {
++          ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : MetadataError: (:) [ForEach-Object], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Microsoft.PowerShell.Commands.ForEachObjectCommand
+ 
+IPs con puerto 5555 abierto: 
+=== USB PNP ACTUAL ===
+
+Status Class     FriendlyName                    InstanceId                                   
+------ -----     ------------                    ----------                                   
+OK     Camera    Integrated Webcam               USB\VID_0BDA&PID_5650&MI_00\6&1D5726D5&0&0000
+OK     USB       Dispositivo compuesto USB       USB\VID_0BDA&PID_5650\200901010001           
+OK     USB       Concentrador raíz USB (USB 3.0) USB\ROOT_HUB30\4&2782102E&0&0                
+OK     Bluetooth Intel(R) Wireless Bluetooth(R)  USB\VID_8087&PID_0A2B\5&2B41B6C5&0&7         
+
+
+List of devices attached
+

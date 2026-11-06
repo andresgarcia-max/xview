@@ -1,0 +1,25 @@
+The search for ""Ubiquiti-App" OR "UISP" OR "UNMS" OR "airMAX" OR "airOS" ubiquiti mikrotik" returned the following summary:
+This combination of keywords highlights a common scenario in Wireless Internet Service Provider (WISP) network architectures, bringing together Ubiquiti’s ISP-focused ecosystem and competitor/alternative hardware like MikroTik[1]. 
+
+Here is a breakdown of how these terms relate to each other in networking and WISP management:
+
+### 1. Ubiquiti's ISP Ecosystem (`UISP`, `UNMS`, `airMAX`, `airOS`)
+* **airOS & airMAX:** **airOS** is the proprietary operating system running on Ubiquiti’s **airMAX** hardware lineup (such as Rocket, NanoBeam, and LiteBeam gear used for Point-to-Point [PtP] and Point-to-Multipoint [PtMP] wireless links). 
+* **UISP (formerly UNMS):** **UISP** (*Ubiquiti Internet Service Provider*) is the evolution of **UNMS** (*Ubiquiti Network Management System*)[1]. It is a centralized management and CRM platform designed specifically for WISP infrastructures[2][3]. It allows operators to monitor network health, handle device configurations, map towers, and manage billing/ticketing.
+* **Ubiquiti App / UISP Mobile App:** A companion mobile application utilized by technicians in the field to easily discover, configure, align antennas (via Bluetooth or management radios), and onboard airMAX, LTU, or Wave devices directly into a UISP server controller[4].
+
+### 2. The Ubiquiti and MikroTik Intersection (`mikrotik`)
+While Ubiquiti offers an end-to-end hardware ecosystem (airMAX/EdgeMAX/UISP routers), many WISPs operate in mixed environments—frequently pairing **MikroTik routers** (RouterOS) at the core/edge or tower level with Ubiquiti airMAX gear serving as Customer Premises Equipment (CPE) or access points.
+
+* **Integration Challenges & Plugins:** Because UISP/UNMS was natively built to manage Ubiquiti infrastructure, integrating a MikroTik core router into a UISP/UCRM billing and traffic-shaping setup traditionally requires community-driven or third-party integrations (such as open-source MikroTik plugins handling NetFlow data, client suspensions, and traffic control rules)[1]. 
+* **WISP Alternatives:** Operators choosing MikroTik for routing often weigh it against Ubiquiti’s EdgeRouter or UISP Console options depending on routing throughput, BGP requirements, and script flexibility.
+
+Are you trying to configure airMAX CPEs, integrate a MikroTik router with a UISP server, or troubleshoot a mobile app deployment? Let me know specifics to narrow down the technical steps!
+
+Sources:
+[1] [ui.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlIEmM5nliREj-4P_dyu3G1BnHg47zHPv8nl3FmBtYB2iJeUdwQbIUSGJiXN45IYWHWssL0CycNDaw2V2sx3LMnNz04HIyW_JrVBthE49yntHtF75Rf53o033v7MomyNlqlrOrW-BWv5gS4Urdw9tJ1YM6dTWXeMAFAYAyvpClhFEE1Cd4Nae8ErH5wLTdd5b_16QAZ0PJNDZi3sM-B-syIidoeA==)
+[2] [ui.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHqLQpNhwhCD_o0vJ_JZowJSFarLgumXwl0x8AD-O8CIQyI4IeYIgUXTZ-gCrDE2cQRE9k1cDMHeNQVIYsLkvU1z3-UVF09orvEfc-YYWDzDQ0t2h7r65VnFPAcuPIX6gBzzuBbZg5oMuNlFBLVvpt2WQLRnk0AO2jWyVlE9pDoXzCQcL4yaG2rqbUeEo5EtKtlunK)
+[3] [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_g2eFDOc7xZwd_ENeiKvSDR-qCXvZvwbE8IltvgNxaYYnusKwG5Z5aDIJDvwHcklUQzx3nIVJI-66GpIWo6UKO29r553bOmh7-EgYP88j5bhiUQyK8bTAGUO9FWn-ULy)
+[4] [google.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzYyJypYHZBQXwmPptv2gzztK-KltjcebUJd7RK-FmzkvcUmEyaLgf0VnZzF0Mu7VpwDYHHpZuvS_ACMNTN9T4fzhOOKXnUswTMlniAzerZqNCq_D3sL6SFOmuCAfQZ9DlamEBfZrbwSAX1H1OSkkcToc7muFpxnNj1A==)
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

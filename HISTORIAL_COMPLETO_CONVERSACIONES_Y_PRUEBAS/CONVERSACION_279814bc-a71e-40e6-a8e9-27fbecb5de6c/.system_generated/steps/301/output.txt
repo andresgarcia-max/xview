@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Created shortcut: 1. Sistema ERP Administrador.lnk
+Created shortcut: 2. Terminal Torniquete Acceso.lnk
+Created shortcut: 3. Cartera de Clientes.lnk
+Created shortcut: 4. Vincular Equipos en Red LAN.lnk

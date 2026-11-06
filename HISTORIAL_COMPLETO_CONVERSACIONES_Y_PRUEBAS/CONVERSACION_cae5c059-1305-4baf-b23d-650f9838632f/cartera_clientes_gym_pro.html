@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartera de Clientes & Membresías • FITNESS LEGENDS PRO</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    body {
+      background: #09090C;
+      color: #F4F4F6;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#09090C] text-zinc-100 p-4 sm:p-6 antialiased">
+  <div class="max-w-7xl mx-auto space-y-5">
+    
+    <!-- Top Header -->
+    <div class="bg-gradient-to-r from-[#14151c] via-[#101117] to-[#181924] p-5 rounded-3xl border border-zinc-800 shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-black font-black text-lg shadow-lg">
+            FL
+          </div>
+          <div>
+            <h1 class="text-xl font-black text-white uppercase tracking-wide">Cartera de Clientes & Membresías</h1>
+            <p class="text-xs text-zinc-400 mt-0.5">Administración integral, vigencias en vivo y torniquetes biométricos.</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 mt-3 flex-wrap text-xs">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Torniquetes Biométricos Online (ZKTeco & RFID)</span>
+          </span>
+          <span class="inline-flex items-center gap-1 px-3 py-1 rounded-xl bg-zinc-800 border border-zinc-700 text-zinc-300 font-mono">
+            ⚡ 38 Asistencias Hoy
+          </span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2.5">
+        <span class="px-3 py-1.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-black text-xs">
+          8 SOCIOS REGISTRADOS
+        </span>
+      </div>
+    </div>
+
+    <!-- 5 KPI Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+      <div class="p-3.5 rounded-2xl border border-amber-500/50 bg-amber-500/10">
+        <span class="text-xs text-zinc-400 block font-semibold">Total Cartera</span>
+        <span class="text-3xl font-black text-white">8</span>
+        <span class="text-[11px] text-zinc-400 block mt-0.5">6 vigentes (75%)</span>
+      </div>
+
+      <div class="p-3.5 rounded-2xl border border-emerald-500/50 bg-emerald-500/10">
+        <span class="text-xs text-emerald-400 block font-bold">Activos Vigentes</span>
+        <span class="text-3xl font-black text-emerald-400">6</span>
+        <span class="text-[11px] text-emerald-400/80 block mt-0.5">Pase Libre OK</span>
+      </div>
+
+      <div class="p-3.5 rounded-2xl border border-amber-400/50 bg-amber-400/10">
+        <span class="text-xs text-amber-400 block font-bold">Por Vencer (&le; 5 d)</span>
+        <span class="text-3xl font-black text-amber-400">1</span>
+        <span class="text-[11px] text-amber-400/80 block mt-0.5">Aviso urgente</span>
+      </div>
+
+      <div class="p-3.5 rounded-2xl border border-red-500/50 bg-red-500/10">
+        <span class="text-xs text-red-400 block font-bold">Vencidos / Morosos</span>
+        <span class="text-3xl font-black text-red-400">1</span>
+        <span class="text-[11px] text-red-400/80 block mt-0.5">Acceso denegado</span>
+      </div>
+
+      <div class="p-3.5 rounded-2xl border border-purple-500/50 bg-purple-500/10 col-span-2 sm:col-span-1">
+        <span class="text-xs text-purple-400 block font-bold">Sin Huella</span>
+        <span class="text-3xl font-black text-purple-400">0</span>
+        <span class="text-[11px] text-purple-400/80 block mt-0.5">100% Enrolados</span>
+      </div>
+    </div>
+
+    <!-- Complete Table without clipping -->
+    <div class="bg-[#101117] rounded-3xl border border-zinc-800 overflow-hidden shadow-2xl">
+      <div class="p-4 bg-[#141520] border-b border-zinc-800 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-black text-white uppercase tracking-wider">Padrón de Socios Activo</span>
+          <span class="px-2 py-0.5 rounded-full bg-black/40 text-zinc-300 text-xs font-mono font-bold">8 Registros</span>
+        </div>
+        <span class="text-xs text-zinc-400 font-semibold">100% Columnas Visibles • Formato Responsivo</span>
+      </div>
+
+      <div class="overflow-x-auto w-full">
+        <table class="w-full text-left border-collapse min-w-[900px]">
+          <thead>
+            <tr class="border-b border-zinc-800 bg-[#161725] text-[11px] font-black uppercase tracking-wider text-zinc-400">
+              <th class="py-3 px-4 pl-5">Socio</th>
+              <th class="py-3 px-3">Contacto Directo</th>
+              <th class="py-3 px-3">Membresía / Plan</th>
+              <th class="py-3 px-3">Estado & Vigencia</th>
+              <th class="py-3 px-3 text-center">Acceso Huella</th>
+              <th class="py-3 px-4 pr-5 text-right">Acciones Rápidas</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-800/60 text-xs">
+            
+            <!-- Carlos Mendoza -->
+            <tr class="hover:bg-white/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-amber-500/20 border-2 border-emerald-400 flex items-center justify-center font-bold text-amber-400 relative">
+                    CM
+                    <span class="absolute -top-1.5 -right-1.5 text-[10px]">👑</span>
+                  </div>
+                  <div>
+                    <div class="font-black text-white text-sm">Carlos Mendoza <span class="text-[9px] px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-400 font-bold">VIP</span></div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-001 • DNI: 45892011</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 1234 5678</div>
+                <div class="text-zinc-400 text-[10px]">carlos.mendoza@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Membresía Black VIP Anual</div>
+                <div class="text-amber-400 font-mono font-bold">$9,500 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-black">ACTIVA</span>
+                  <span class="text-emerald-400 font-mono font-bold">95 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-emerald-400 h-full w-3/4"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2027-01-10</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">142 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200 hover:text-amber-400" title="Simular Pase">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Credencial QR">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Ver Expediente">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold border border-emerald-500/30">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Valeria Ríos -->
+            <tr class="hover:bg-white/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-zinc-800 border-2 border-emerald-400 flex items-center justify-center font-bold text-zinc-200">VR</div>
+                  <div>
+                    <div class="font-black text-white text-sm">Valeria Ríos Gómez</div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-002 • DNI: 78291034</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 4433 2211</div>
+                <div class="text-zinc-400 text-[10px]">valeria.rios@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Mensualidad Estándar</div>
+                <div class="text-amber-400 font-mono font-bold">$850 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-black">ACTIVA</span>
+                  <span class="text-emerald-400 font-mono font-bold">18 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-emerald-400 h-full w-2/3"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2026-10-25</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">28 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200" title="Simular Pase">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Credencial QR">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Ver Expediente">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold border border-emerald-500/30">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Alejandro Soto (Por Vencer) -->
+            <tr class="hover:bg-white/[0.03] bg-amber-500/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-amber-500/10 border-2 border-amber-400 flex items-center justify-center font-bold text-amber-400">AS</div>
+                  <div>
+                    <div class="font-black text-white text-sm">Alejandro Soto Vega</div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-003 • DNI: 63901245</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 7788 9900</div>
+                <div class="text-zinc-400 text-[10px]">alejandro.soto@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Plan Trimestral Fuerza</div>
+                <div class="text-amber-400 font-mono font-bold">$2,300 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-400 text-[10px] font-black">POR VENCER</span>
+                  <span class="text-amber-400 font-mono font-bold">2 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-amber-400 h-full w-1/4 animate-pulse"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2026-10-09</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">56 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200" title="Simular Pase">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Credencial QR">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Ver Expediente">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-amber-500 text-black font-black">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Sofía Domínguez (Vencida) -->
+            <tr class="hover:bg-white/[0.03] bg-red-500/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-red-500/10 border-2 border-red-500 flex items-center justify-center font-bold text-red-400">SD</div>
+                  <div>
+                    <div class="font-black text-white text-sm">Sofía Domínguez</div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-004 • DNI: 89104523</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 6655 4433</div>
+                <div class="text-zinc-400 text-[10px]">sofia.dominguez@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Mensualidad Estándar</div>
+                <div class="text-amber-400 font-mono font-bold">$850 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-red-500/20 text-red-400 text-[10px] font-black">VENCIDA</span>
+                  <span class="text-red-400 font-mono font-bold">-5 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-red-500 h-full w-full"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2026-10-02</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">19 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200" title="Simular Pase">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Credencial QR">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200" title="Ver Expediente">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-emerald-500 text-black font-black">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Mateo Guerrero -->
+            <tr class="hover:bg-white/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-zinc-800 border-2 border-emerald-400 flex items-center justify-center font-bold text-zinc-200">MG</div>
+                  <div>
+                    <div class="font-black text-white text-sm">Mateo Guerrero</div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-005 • DNI: 32091487</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 9900 1122</div>
+                <div class="text-zinc-400 text-[10px]">mateo.guerrero@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Plan Estudiante Gym</div>
+                <div class="text-amber-400 font-mono font-bold">$650 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-black">ACTIVA</span>
+                  <span class="text-emerald-400 font-mono font-bold">22 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-emerald-400 h-full w-2/3"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2026-10-29</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">15 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Laura Paredes -->
+            <tr class="hover:bg-white/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-zinc-800 border-2 border-emerald-400 flex items-center justify-center font-bold text-zinc-200">LP</div>
+                  <div>
+                    <div class="font-black text-white text-sm">Laura Paredes Ruiz</div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-006 • DNI: 54019283</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 3322 1100</div>
+                <div class="text-zinc-400 text-[10px]">laura.paredes@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Mensualidad Estándar</div>
+                <div class="text-amber-400 font-mono font-bold">$850 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-black">ACTIVA</span>
+                  <span class="text-emerald-400 font-mono font-bold">30 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-emerald-400 h-full w-full"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2026-11-06</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">6 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Diego Alarcón -->
+            <tr class="hover:bg-white/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-zinc-800 border-2 border-red-500 flex items-center justify-center font-bold text-red-400">DA</div>
+                  <div>
+                    <div class="font-black text-white text-sm">Diego Alarcón Cruz</div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-007 • DNI: 90812345</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 8765 4321</div>
+                <div class="text-zinc-400 text-[10px]">diego.alarcon@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Pase por Día (Day Pass)</div>
+                <div class="text-amber-400 font-mono font-bold">$150 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-red-500/20 text-red-400 text-[10px] font-black">VENCIDA</span>
+                  <span class="text-red-400 font-mono font-bold">-2 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-red-500 h-full w-full"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2026-10-05</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">4 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-emerald-500 text-black font-black">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Juan Solis -->
+            <tr class="hover:bg-white/[0.03]">
+              <td class="py-3.5 px-4 pl-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-2xl bg-zinc-800 border-2 border-emerald-400 flex items-center justify-center font-bold text-zinc-200">JS</div>
+                  <div>
+                    <div class="font-black text-white text-sm">Juan Solis</div>
+                    <div class="text-[11px] text-zinc-400 font-mono">ID: MEM-008 • DNI: 55892018</div>
+                  </div>
+                </div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-mono text-emerald-400 font-bold">📱 +52 55 4829 1039</div>
+                <div class="text-zinc-400 text-[10px]">juan.solis@email.com</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="font-bold text-white">Mensualidad Estándar</div>
+                <div class="text-amber-400 font-mono font-bold">$850 MXN</div>
+              </td>
+              <td class="py-3.5 px-3">
+                <div class="flex items-center gap-1.5 mb-1">
+                  <span class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 text-[10px] font-black">ACTIVA</span>
+                  <span class="text-emerald-400 font-mono font-bold">30 d</span>
+                </div>
+                <div class="w-full bg-zinc-800 rounded-full h-1 overflow-hidden">
+                  <div class="bg-emerald-400 h-full w-full"></div>
+                </div>
+                <span class="text-[10px] text-zinc-500 block mt-0.5">Fin: 2026-11-13</span>
+              </td>
+              <td class="py-3.5 px-3 text-center">
+                <span class="px-2 py-0.5 rounded-lg bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-bold text-[11px]">🔒 Enrolada</span>
+                <span class="text-[10px] text-zinc-400 block mt-0.5 font-mono">3 visitas</span>
+              </td>
+              <td class="py-3.5 px-4 pr-5 text-right whitespace-nowrap">
+                <div class="inline-flex items-center gap-1">
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-amber-500/20 text-zinc-200">🚪</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">🆔</button>
+                  <button class="p-1.5 rounded-lg bg-zinc-800 hover:bg-white/10 text-zinc-200">👁️</button>
+                  <button class="px-2.5 py-1 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold">🔄 Renovar</button>
+                </div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

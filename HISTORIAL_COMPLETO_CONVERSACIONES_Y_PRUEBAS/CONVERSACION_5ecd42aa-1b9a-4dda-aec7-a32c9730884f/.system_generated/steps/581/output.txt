@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+   Id ProcessName                    MainWindowTitle StartTime                
+   -- -----------                    --------------- ---------                
+18200 PROGRAMA_PERFECTO_XVIEW_B866V2                 04/11/2026 12:54:44 a. m.
+
+

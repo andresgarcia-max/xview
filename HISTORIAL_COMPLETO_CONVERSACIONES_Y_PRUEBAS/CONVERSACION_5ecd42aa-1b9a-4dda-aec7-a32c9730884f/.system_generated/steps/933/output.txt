@@ -1,0 +1,543 @@
+Command exited with code 0.
+
+Command output:
+
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1:[2026-10-29 23:03:53.057] === INICIANDO 
+CONTROLADOR DIRECTO ANTIGRAVITY (UART COM8 + USB FASTBOOT) ===
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:2:[2026-10-29 23:03:53.209] [+] CONECTADO 
+DIRECTAMENTE A COM8 (115200 8N1) - Esperando datos de la caja...
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:3:[2026-10-29 23:06:21.698] [+] CONECTADO 
+DIRECTAMENTE A COM8 (115200 8N1) - Esperando datos de la caja...
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:4:[2026-10-29 23:06:21.985] [UART-RX] 
+G12A:BL:0253b8:61aa2d;FEAT:F2F939B2:32060;POC:F;RCY:0;READ:0;
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:34:[2026-10-29 23:06:22.877] [UART-RX] 
+00000000
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:35:[2026-10-29 23:06:22.902] [UART-RX] emmc 
+switch 2 ok
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:36:[2026-10-29 23:06:22.920] [UART-RX]  NO 
+find ddr boot_info from eMMC
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:37:[2026-10-29 23:06:22.940] [UART-RX] 
+fastboot data verify
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:38:[2026-10-29 23:06:22.962] [UART-RX] 
+result: 255
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:39:[2026-10-29 23:06:22.994] [UART-RX] Cfg 
+max: 12, cur: 1. Board id: 255. Force loop cfg
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:40:[2026-10-29 23:06:23.013] [UART-RX] DDR4 
+probe
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:192:[2026-10-29 23:06:26.686] [UART-RX] In: 
+   serial
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:193:[2026-10-29 23:06:26.702] [UART-RX] 
+Out:   serial
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:194:[2026-10-29 23:06:26.726] [UART-RX] 
+Err:   serial
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:195:[2026-10-29 23:06:26.741] [UART-RX] 
+reboot_mode=cold_boot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:196:[2026-10-29 23:06:26.765] [UART-RX] 
+gpio: pin GPIOH_8 (gpio 39) value is 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:197:[2026-10-29 23:06:26.781] [UART-RX] 
+gpio: pin GPIOH_5 (gpio 36) value is 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:198:[2026-10-29 23:06:26.797] [UART-RX] 
+gpio: pin GPIOAO_4 (gpio 4) value is 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:255:[2026-10-29 23:06:28.236] [UART-RX] 
+wipe_data=successful
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:256:[2026-10-29 23:06:28.253] [UART-RX] 
+wipe_cache=successful
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:257:[2026-10-29 23:06:28.272] [UART-RX] 
+upgrade_step=2
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:258:[2026-10-29 23:06:28.290] [UART-RX] 
+reboot_mode:::: cold_boot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:259:[2026-10-29 23:06:28.313] [UART-RX] 
+s_version: U-Boot 2015.01-g220e992
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:260:[2026-10-29 23:06:28.340] [UART-RX] 
+amlkey_init() enter!
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:261:[2026-10-29 23:06:28.370] [UART-RX] 
+amlkey_init() 59: already init!
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:561:[2026-10-29 23:06:42.807] [UART-TX -> 
+COM8] reboot bootloader
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:562:[2026-10-29 23:06:43.071] [UART-RX] 
+reboot bootloader
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:563:
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:564:[2026-10-29 23:06:43.080] [UART-RX] 
+prk: [   15.261091@0]- reboot: Restarting system with command 'bootloader'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:565:[2026-10-29 23:06:43.101] [UART-RX] 
+bl31 reboot reason: 0xd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:566:[2026-10-29 23:06:43.130] [UART-RX] 
+bl31 reboot reason: 0x7
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:567:[2026-10-29 23:06:43.152] [UART-RX] 
+system cmd  1.
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:600:[2026-10-29 23:06:43.962] [UART-RX] 
+00000000
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:601:[2026-10-29 23:06:43.987] [UART-RX] 
+emmc switch 2 ok
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:602:[2026-10-29 23:06:44.010] [UART-RX]  NO 
+find ddr boot_info from eMMC
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:603:[2026-10-29 23:06:44.040] [UART-RX] 
+fastboot data verify
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:604:[2026-10-29 23:06:44.052] [UART-RX] 
+result: 255
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:605:[2026-10-29 23:06:44.070] [UART-RX] Cfg 
+max: 12, cur: 1. Board id: 255. Force loop cfg
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:606:[2026-10-29 23:06:44.089] [UART-RX] 
+DDR4 probe
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:766:[2026-10-29 23:06:47.560] [UART-RX] In: 
+   serial
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:767:[2026-10-29 23:06:47.588] [UART-RX] 
+Out:   serial
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:768:[2026-10-29 23:06:47.619] [UART-RX] 
+Err:   serial
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:769:[2026-10-29 23:06:47.641] [UART-RX] 
+reboot_mode=fastboot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:770:[2026-10-29 23:06:47.667] [UART-RX] 
+gpio: pin GPIOH_8 (gpio 39) value is 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:771:[2026-10-29 23:06:47.689] [UART-RX] 
+gpio: pin GPIOH_5 (gpio 36) value is 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:772:[2026-10-29 23:06:47.706] [UART-RX] 
+gpio: pin GPIOAO_4 (gpio 4) value is 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:830:[2026-10-29 23:06:49.116] [UART-RX] 
+wipe_data=successful
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:831:[2026-10-29 23:06:49.132] [UART-RX] 
+wipe_cache=successful
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:832:[2026-10-29 23:06:49.153] [UART-RX] 
+upgrade_step=2
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:833:[2026-10-29 23:06:49.176] [UART-RX] 
+reboot_mode:::: fastboot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:834:[2026-10-29 23:06:49.193] [UART-RX] 
+s_version: U-Boot 2015.01-g220e992
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:835:[2026-10-29 23:06:49.209] [UART-RX] 
+amlkey_init() enter!
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:836:[2026-10-29 23:06:49.226] [UART-RX] 
+amlkey_init() 59: already init!
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1145:tmpfs on /tmp type tmpfs 
+(rw,seclabel,relatime)
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1146:none on /config type configfs 
+(rw,relatime)
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1147:adb on /dev/usb-ffs/adb type 
+functionfs (rw,relatime)
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1148:fastboot on /dev/usb-ffs/fastboot type 
+functionfs (rw,relatime)
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1149:# 
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1150:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1151:# ls -la /dev/block
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1311:brw-------  1 root root 
+u:object_r:ram_device:s0               1,   0 2015-01-01 00:00 ram0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1312:brw-------  1 root root 
+u:object_r:ram_device:s0               1,   1 2015-01-01 00:00 ram1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1313:brw-------  1 root root 
+u:object_r:ram_device:s0               1,  10 2015-01-01 00:00 ram10
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1314:brw-------  1 root root 
+u:object_r:ram_dls -laZ /sbin /system/bin/recovery /system/bin/fastbootd /system/bin/adbd /system/bin/sh 2>&1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1315:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1316:evice:s0               1,  11 
+2015-01-01 00:00 ram11
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1317:brw-------  1 root root 
+u:object_r:ram_device:s0               1,  12 2015-01-01 00:00 ram12
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1335:brw-------  1 root root 
+u:object_r:swap_block_device:s0      253,   0 2015-01-01 00:00 zram0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1336:# 
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1337:
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1338:# ls -laZ /sbin /system/bin/recovery 
+/system/bin/fastbootd /system/bin/adbd /s
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1339:in/recovery /system/bin/fastbootd 
+/system/bin/adbd /s                         <ystem/bin/sh 2>&1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1340:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1341:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1342:-rwxr-xr-x 1 root root 
+u:object_r:rootfs:s0  1726392__bionic_open_tzdata: couldn't find any tzdata when looking for America/Mexico_City!
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1343: 1970-01-01 00:00 /system/bin/adbd
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1344:-rwxr-xr-x 1 root root 
+u:object_r:rootfs:s0  1053648 1970-01-01 00:00 /system/bin/fastbootd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1345:-rwxr-xr-x 1 root root 
+u:object_r:rootfs:s0  1578364 1970-01-01 00:00 /system/bin/recovery
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1346:-rwxr-xr-x 1 root root 
+u:object_r:rootfs:s0   213656 1970-01-01 00:00 /system/bin/sh
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1347:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1382:    mkdir /udisk
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1383:    mkdir /dev/usb-ffs 0770 system 
+system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1384:    mkdir /dev/usb-ffs/adb 0770 system 
+system
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1385:    mkdir /dev/usb-ffs/fastboot 0770 
+system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1386:    mount configfs none /config
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1387:    mkdir /config/usb_gadget/g1 0770 
+system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1388:    write 
+/config/usb_gadget/g1/idVendor 0x18d1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1393:    write 
+/config/usb_gadget/g1/strings/0x409/manufacturer droidlogic
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1394:    write 
+/config/usb_gadget/g1/strings/0x409/product ${ro.product.name}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1395:    mkdir 
+/config/usb_gadget/g1/functions/ffs.adb
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1396:    mkdir 
+/config/usb_gadget/g1/functions/ffs.fastboot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1397:    mkdir 
+/config/usb_gadget/g1/functions/mtp.gs0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1398:    mkdir 
+/config/usb_gadget/g1/configs/b.1 0770 system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1399:    mkdir 
+/config/usb_gadget/g1/configs/b.1/strings/0x409 0770 system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1400:    write 
+/config/usb_gadget/g1/configs/b.1/MaxPower 500
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1401:    symlink 
+/config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1402:    mount functionfs adb 
+/dev/usb-ffs/adb uid=2000,gid=2000
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1403:    mount functionfs fastboot 
+/dev/usb-ffs/fastboot rmode=0770,fmode=0660,uid=1000,gid=1000
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1404:    setprop sys.usb.configfs 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1405:    setprop sys.usb.controller 
+${sys.usb.controller}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1406:    symlink /dev/block/userdata 
+/dev/block/data
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1441:on property:sys.usb.config=adb && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1442:    write 
+/config/usb_gadget/g1/idProduct 0x4ee0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1443:
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1444:on property:sys.usb.config=fastboot && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1445:    write 
+/config/usb_gadget/g1/idProduct 0x4ee7
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1446:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1447:on property:sys.usb.config=adb && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1453:on property:sys.usb.config=none && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1454:    write /config/usb_gadget/g1/UDC 
+"none"
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1455:    stop adbd
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1456:    stop fastbootd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1457:    setprop sys.usb.ffs.ready 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1458:    write 
+/config/usb_gadget/g1/bDeviceClass 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1459:    write 
+/config/usb_gadget/g1/bDeviceSubClass 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1467:on property:sys.usb.config=adb && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1468:    start adbd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1469:
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1470:on property:sys.usb.config=fastboot && 
+property:sys.usb.configfs=1
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1471:    start fastbootd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1472:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1473:on property:sys.usb.ffs.ready=1 && 
+property:sys.usb.config=adb && propgetprop | grep -E 'usb|boot|ro\.|init\.svc|uboot|sys\.'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1474:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1478:    write /config/usb_gadget/g1/UDC 
+${sys.usb.controller}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1479:    setprop sys.usb.state 
+${sys.usb.config}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1480:
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1481:on property:sys.usb.ffs.ready=1 && 
+property:sys.usb.config=fastboot && property:sys.usb.configfs=1
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1482:    write 
+/config/usb_gadget/g1/configs/b.1/strings/0x409/configuration "fastboot"
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1483:    symlink 
+/config/usb_gadget/g1/functions/ffs.fastboot /config/usb_gadget/g1/configs/b.1/f1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1484:    write /config/usb_gadget/g1/UDC 
+${sys.usb.controller}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1485:    setprop sys.usb.state 
+${sys.usb.config}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1486:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1493:[init.svc.adbd]: [stopped]
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1494:[init.svc.charger]: [running]
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1495:[init.svc.console]: [running]
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1496:[init.svc.fastbootd]: [stopped]
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1497:[init.svc.recovery]: [running]
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1498:[init.svc.remotecfg1]: [stopped]
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1499:[init.svc.remotecfg2]: [stopped]
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1673:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 expr -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1674:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 fallocate -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1675:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 false -> toybox
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1676:-rwxr-xr-x 1 root root 
+u:object_r:rootfs:s0  1053648 1970-01-01 00:00 fastbootd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1677:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 fgrep -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1678:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 file -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1679:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 find -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1703:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 inotifyd -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1704:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 insmod -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1705:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 install -> toybox
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1706:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        7 1970-setprop sys.usb.config fastboot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1707:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1708:01-01 00:00 ioctl -> toolbox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1709:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 ionice -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1841:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        6 1970-01-01 00:00 zcat -> toybox
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1842:lrwxrwxrwx 1 root root 
+u:object_r:rootfs:s0        7 1970-01-01 00:00 zipinfo -> ziptool
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1843:-rwxr-xr-x 1 root root 
+u:object_r:rootfs:s0    19576 1970-01-01 00:00 ziptool
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1844:getprop init.svc.fastbootd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1845:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1846:# 
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1847:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1869:    mkdir /udisk
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1870:    mkdir /dev/usb-ffs 0770 system 
+system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1871:    mkdir /dev/usb-ffs/adb 0770 system 
+system
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1872:    mkdir /dev/usb-ffs/fastboot 0770 
+system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1873:    mount configfs none /config
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1874:    mkdir /config/usb_gadget/g1 0770 
+system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1875:    write 
+/config/usb_gadget/g1/idVendor 0x18d1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1880:    write 
+/config/usb_gadget/g1/strings/0x409/manufacturer droidlogic
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1881:    write 
+/config/usb_gadget/g1/strings/0x409/product ${ro.product.name}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1882:    mkdir 
+/config/usb_gadget/g1/functions/ffs.adb
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1883:    mkdir 
+/config/usb_gadget/g1/functions/ffs.fastboot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1884:    mkdir 
+/config/usb_gadget/g1/functions/mtp.gs0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1885:    mkdir 
+/config/usb_gadget/g1/configs/b.1 0770 system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1886:    mkdir 
+/config/usb_gadget/g1/configs/b.1/strings/0x409 0770 system system
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1887:    write 
+/config/usb_gadget/g1/configs/b.1/MaxPower 500
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1888:    symlink 
+/config/usb_gadget/g1/configs/b.1 /config/usb_gadget/g1/os_desc/b.1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1889:    mount functionfs adb 
+/dev/usb-ffs/adb uid=2000,gid=2000
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1890:    mount functionfs fastboot 
+/dev/usb-ffs/fastboot rmode=0770,fmode=0660,uid=1000,gid=1000
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1891:    setprop sys.usb.configfs 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1892:    setprop sys.usb.controller 
+${sys.usb.controller}
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1893:    symlink /dev/block/userdata 
+/dev/block/data
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1928:on property:sys.usb.config=adb && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1929:    write 
+/config/usb_gadget/g1/idProduct 0x4ee0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1930:
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1931:on property:sys.usb.config=fastboot && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1932:    write 
+/config/usb_gadget/g1/idProduct 0x4ee7
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1933:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1934:on property:sys.usb.config=adb && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1940:on property:sys.usb.config=none && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1941:    write /config/usb_gadget/g1/UDC 
+"none"
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1942:    stop adbd
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1943:    stop fastbootd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1944:    setprop sys.usb.ffs.ready 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1945:    write 
+/config/usb_gadget/g1/bDeviceClass 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1946:    write 
+/config/usb_gadget/g1/bDeviceSubClass 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1954:on property:sys.usb.config=adb && 
+property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1955:    start adbd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1956:
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1957:on property:sys.usb.config=fastboot && 
+property:sys.usb.configfs=1
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1958:    start fastbootd
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1959:
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1960:on property:sys.usb.ffs.ready=1 && 
+property:sys.usb.config=adb && property:sys.usb.configfs=1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log:1961:    w
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:52:[2026-10-29 22:09:48] U_BOOT_DATE_TIME: 
+230905.041301
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:53:[2026-10-29 22:09:48] s_version: 
+01.01.230905.041301
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:54:[2026-10-29 22:09:48] ERROR: unknown 
+variable: has-slot:_aml_dtb
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:55:[2026-10-29 22:09:48] at 
+../drivers/usb/gadget/f_fastboot.c:987/getvar()
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:56:[2026-10-29 22:09:48] [ASCII] NOTICE:  BL31: 
+BL33 decompress pass
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:57:[2026-10-29 22:09:48] INFO:    BL3-2: 
+ATOS-V2.4.4-155-g0ce7c357b #1 Mon Jul 31 23:21:06 2023 -0700 arm
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:58:[2026-10-29 22:09:48] INFO:    BL3-2: Chip: 
+G12A Rev: E (28:E - 40:2)
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:119:[2026-10-29 22:09:48] In:    serial
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:120:[2026-10-29 22:09:48] Out:   serial
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:121:[2026-10-29 22:09:48] Err:   serial
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:122:[2026-10-29 22:09:48] 
+reboot_mode=watchdog_reboot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:123:[2026-10-29 22:09:48] gpio: pin GPIOH_8 
+(gpio 39) value is 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:124:[2026-10-29 22:09:48] gpio: pin GPIOH_5 
+(gpio 36) value is 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:125:[2026-10-29 22:09:48] gpio: pin GPIOAO_4 
+(gpio 4) value is 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:167:[2026-10-29 22:09:48] wipe_data=successful
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:168:[2026-10-29 22:09:48] wipe_cache=successful
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:169:[2026-10-29 22:09:48] upgrade_step=2
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:170:[2026-10-29 22:09:48] reboot_mode:::: 
+watchdog_reboot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:171:[2026-10-29 22:09:48] s_version: U-Boot 
+2015.01-g220e992
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:172:[2026-10-29 22:09:48] 
+[KM]Error:f[key_manage_query_size]L503:key[usid] not programed yet
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:173:[2026-10-29 22:09:48] 
+[KM]Error:f[key_manage_query_size]L503:key[mac] not programed yet
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:323:[2026-10-29 22:09:48] [UTF16] [store]To run 
+cmd[emmc dtb_read 0x1000000 0x40000]
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:324:[2026-10-29 22:09:48] [UTF16] Net:   
+dwmac.ff3f0000amlkey_init() enter!
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:325:[2026-10-29 22:09:48] [UTF16] amlkey_init() 
+59: already init!
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:326:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: cold_boot
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:327:[2026-10-29 22:09:48] [UTF16] s_version: 
+U-Boot 2015.01-g220e992
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:328:[2026-10-29 22:09:48] [UTF16] [OSD]load fb 
+addr from dts:/meson-fb
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:329:[2026-10-29 22:09:48] [UTF16] gpio: pin 
+GPIOAO_3 (gpio 3) value is 0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:346:[2026-10-29 22:09:48] [UTF16] prk: [    
+8.832272@2]s input: gpio_keypad_down_cnt: 60
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:347:[2026-10-29 22:09:48] [UTF16] # prk: [   
+10.307657@2]s input: gpio, power_state: 1, power_key_stat
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:348:[2026-10-29 22:09:48] [UTF16] prk: [   
+10.308283@2]s input: gpio_keypad_down_cnt: 60
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:349:[2026-10-29 22:09:48] [UTF16] prk: [   
+78.628138@0]- reboot: Restarting system with command 'recov
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:350:[2026-10-29 22:09:48] [UTF16] 
+G12A:BL:0253b8:61aa2d;FEAT:F2F939B2:32060;POC:F;RCY:0;EMMC:0;READ:0;
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:351:[2026-10-29 22:09:48] [UTF16] ** File not 
+found /recovery/command **
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:352:[2026-10-29 22:09:48] [UTF16] run recovery, 
+but not factory reset.
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:353:[2026-10-29 22:09:48] [UTF16] recovery 
+mode, need disable dolby
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:354:[2026-10-29 22:09:48] [UTF16] gpio: pin 
+GPIOAO_3 (gpio 3) value is 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:355:[2026-10-29 22:09:48] [UTF16] 
+[commannd:boot-recovery]
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:356:[2026-10-29 22:09:48] [UTF16] # prk: [   
+26.543996@0]- reboot: Restarting system with command 'boo
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:357:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: fastboot
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:358:[2026-10-29 22:09:48] [UTF16] 
+g_dnl_register: g_dnl_driver.name = usb_dnl_fastboot
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:359:[2026-10-29 22:09:48] [UTF16] at 
+../drivers/usb/gadget/f_fastboot.c:1649/cb_oem_cmd()
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:360:[2026-10-29 22:09:48] [UTF16] cmd cb_reboot 
+is reboot-bootloader
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:361:[2026-10-29 22:09:48] [UTF16] cmd cb_reboot 
+is bootloader
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:362:[2026-10-29 22:09:48] [UTF16] at 
+../drivers/usb/gadget/f_fastboot.c:1075/cb_download()
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:363:[2026-10-29 22:09:48] [UTF16] getvar() 593: 
+has-slot:_aml_dtb
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:364:[2026-10-29 22:09:48] [UTF16] ERROR: 
+unknown variable: has-slot:_aml_dtb
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:365:[2026-10-29 22:09:48] [UTF16] at 
+../drivers/usb/gadget/f_fastboot.c:987/getvar()
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:366:[2026-10-29 22:09:48] [UTF16] getvar() 593: 
+is-logical:_aml_dtb
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:367:[2026-10-29 22:09:48] [UTF16] getvar() 593: 
+has-slot:vbmeta
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:368:[2026-10-29 22:09:48] [UTF16] getvar() 593: 
+is-logical:vbmeta
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:369:[2026-10-29 22:09:48] [UTF16] getvar() 593: 
+has-slot:recovery
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:370:[2026-10-29 22:09:48] [UTF16] getvar() 593: 
+is-logical:recovery
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:371:[2026-10-29 22:09:48] [UTF16] at 
+../drivers/usb/gadget/f_fastboot.c:1530/erase()
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:372:[2026-10-29 22:09:48] [UTF16] 'NOTICE:  
+BL31: BL33 decompress pass'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:373:[2026-10-29 22:09:48] [UTF16] 'U-Boot 
+2015.01-g220e992 (Sep 05 2023 - 04:13:01)'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:374:[2026-10-29 22:09:48] [UTF16] NOTICE:  
+BL31: v1.3(rele
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:624:[2026-10-29 22:09:48] [UTF16] 01:  recovery 
+  0000000001800000
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:625:[2026-10-29 22:09:48] [UTF16] adata	
+0000000001000000 1
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:626:[2026-10-29 22:09:48] [UTF16] 'eMMC/TSD 
+partition table have been checked OK!'
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:627:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode=watchdog_reboot
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:628:[2026-10-29 22:09:48] [UTF16] 
+'reboot_mode=watchdog_reboot'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:629:[2026-10-29 22:09:48] [UTF16] 'gpio: pin 
+GPIOAO_4 (gpio 4) value is 1'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:630:[2026-10-29 22:09:48] [UTF16] '[store]To 
+run cmd[emmc dtb_read 0x1000000 0x40000]'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:631:[2026-10-29 22:09:48] [UTF16] eMMC/TSD 
+partition table
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:646:[2026-10-29 22:09:48] [UTF16] eMMC/TSD 
+partition table have been checked
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:647:[2026-10-29 22:09:48] [UTF16] eMMC/TSD 
+partition table have been checked O
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:648:[2026-10-29 22:09:48] [UTF16] eMMC/TSD 
+partition table have been checked OK
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:649:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode=watchdog_reb
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:650:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode=watchdog_rebo
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:651:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode=watchdog_reboo
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:652:[2026-10-29 22:09:48] [UTF16] gpio: pin 
+GPIOAO_4 (gpio
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:653:[2026-10-29 22:09:48] [UTF16] gpio: pin 
+GPIOAO_4 (gpio 4
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:654:[2026-10-29 22:09:48] [UTF16] gpio: pin 
+GPIOAO_4 (gpio 4)
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:688:[2026-10-29 22:09:48] [UTF16] do_sync_vout 
+read conf item ok
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:689:[2026-10-29 22:09:48] [UTF16] (from env)
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:690:[2026-10-29 22:09:48] [UTF16] 
+'amlkey_init() 59: already init!'
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:691:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog_reboot
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:692:[2026-10-29 22:09:48] [UTF16] 
+'reboot_mode:::: watchdog_reboot'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:693:[2026-10-29 22:09:48] [UTF16] 's_version: 
+U-Boot 2015.01-g220e992'
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:694:[2026-10-29 22:09:48] [UTF16] Net:   
+dwmac.ff3f0000amlkey
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:695:[2026-10-29 22:09:48] [UTF16] Net:   
+dwmac.ff3f0000amlkey_
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:710:[2026-10-29 22:09:48] [UTF16] amlkey_init() 
+59: already in
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:711:[2026-10-29 22:09:48] [UTF16] amlkey_init() 
+59: already ini
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:712:[2026-10-29 22:09:48] [UTF16] amlkey_init() 
+59: already init
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:713:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:714:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog_
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:715:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog_r
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:716:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog_re
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:717:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog_reb
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:718:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog_rebo
+> experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:719:[2026-10-29 22:09:48] [UTF16] 
+reboot_mode:::: watchdog_reboo
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:720:[2026-10-29 22:09:48] [UTF16] s_version: 
+U-Boot 2015.0
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:721:[2026-10-29 22:09:48] [UTF16] s_version: 
+U-Boot 2015.01
+  experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_EN_VIVO_SMARTTY.log:722:[2026-10-29 22:09:48] [UTF16] s_version: 
+U-Boot 2015.01-
+
+

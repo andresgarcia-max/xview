@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+src/components/access/IndependentTerminalApp.tsx-730-      {/* Real Gym Background Photo */}
+src/components/access/IndependentTerminalApp.tsx-731-      <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-732-        <img
+src/components/access/IndependentTerminalApp.tsx-733-          key={currentBgSrc}
+src/components/access/IndependentTerminalApp.tsx-734-          src={currentBgSrc}
+src/components/access/IndependentTerminalApp.tsx:735:          alt="Fitness Legends Gym Background"
+src/components/access/IndependentTerminalApp.tsx-736-          onError={() => {
+src/components/access/IndependentTerminalApp.tsx-737-            const chosen = BG_OPTIONS[bgIndex] || BG_OPTIONS[0];
+src/components/access/IndependentTerminalApp.tsx-738-            if (currentBgSrc !== chosen.fallback) {
+src/components/access/IndependentTerminalApp.tsx-739-              setCurrentBgSrc(chosen.fallback);
+src/components/access/IndependentTerminalApp.tsx-740-            } else if (currentBgSrc !== './gym-background.jpg') {

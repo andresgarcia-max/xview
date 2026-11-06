@@ -1,0 +1,93 @@
+Command exited with code 0.
+
+Command output:
+
+> ACCESO_WEB_FITNESS_LEGENDS.html:61:      background: rgba(0, 0, 0, 0.4);
+  ACCESO_WEB_FITNESS_LEGENDS.html:62:    }
+  ACCESO_WEB_FITNESS_LEGENDS.html:63:    ::-webkit-scrollbar-thumb {
+> ACCESO_WEB_FITNESS_LEGENDS.html:64:      background: rgba(245, 158, 11, 0.4);
+  ACCESO_WEB_FITNESS_LEGENDS.html:65:      border-radius: 9999px;
+  ACCESO_WEB_FITNESS_LEGENDS.html:66:    }
+> ACCESO_WEB_FITNESS_LEGENDS.html:68:      background: #f59e0b;
+  ACCESO_WEB_FITNESS_LEGENDS.html:69:    }
+  ACCESO_WEB_FITNESS_LEGENDS.html:70:  
+> ACCESO_WEB_FITNESS_LEGENDS.html:350:      const toggleBackground = () => {
+  ACCESO_WEB_FITNESS_LEGENDS.html:351:        const next = (currentBgIndex + 1) % 3;
+  ACCESO_WEB_FITNESS_LEGENDS.html:352:        setCurrentBgIndex(next);
+> ACCESO_WEB_FITNESS_LEGENDS.html:383:      // Multi-Window & Background Sync: BroadcastChannel + storage event + 1.5s 
+live sync
+  ACCESO_WEB_FITNESS_LEGENDS.html:384:      useEffect(() => {
+  ACCESO_WEB_FITNESS_LEGENDS.html:385:        let channel = null;
+> ACCESO_WEB_FITNESS_LEGENDS.html:887:                onClick={toggleBackground}
+  ACCESO_WEB_FITNESS_LEGENDS.html:888:                className="px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-2xl bg-black/70 
+hover:bg-black/90 backdrop-blur-md border border-white/20 text-white font-bold text-xs sm:text-sm flex items-center 
+gap-2 shadow-2xl transition-all cursor-pointer transform hover:scale-105 active:scale-95 select-none"
+  ACCESO_WEB_FITNESS_LEGENDS.html:889:                title="Cambiar Foto de Fondo"
+> ACCESO_WEB_FITNESS_LEGENDS.html:908:          {/* 100% COVER REAL WHATSAPP GYM PHOTO BACKGROUND */}
+  ACCESO_WEB_FITNESS_LEGENDS.html:909:          <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+  ACCESO_WEB_FITNESS_LEGENDS.html:910:            <img 
+> ACCESO_WEB_FITNESS_LEGENDS.html:1728:                    {/* Cyber Grid Lines Background */}
+  ACCESO_WEB_FITNESS_LEGENDS.html:1729:                    <div className="absolute inset-0 
+bg-[linear-gradient(to_right,#052e16_1px,transparent_1px),linear-gradient(to_bottom,#052e16_1px,transparent_1px)] 
+bg-[size:16px_16px] opacity-40 pointer-events-none" />
+  ACCESO_WEB_FITNESS_LEGENDS.html:1730:
+> Control_De_Acceso_Web.html:61:      background: rgba(0, 0, 0, 0.4);
+  Control_De_Acceso_Web.html:62:    }
+  Control_De_Acceso_Web.html:63:    ::-webkit-scrollbar-thumb {
+> Control_De_Acceso_Web.html:64:      background: rgba(245, 158, 11, 0.4);
+  Control_De_Acceso_Web.html:65:      border-radius: 9999px;
+  Control_De_Acceso_Web.html:66:    }
+> Control_De_Acceso_Web.html:68:      background: #f59e0b;
+  Control_De_Acceso_Web.html:69:    }
+  Control_De_Acceso_Web.html:70:  
+> Control_De_Acceso_Web.html:350:      const toggleBackground = () => {
+  Control_De_Acceso_Web.html:351:        const next = (currentBgIndex + 1) % 3;
+  Control_De_Acceso_Web.html:352:        setCurrentBgIndex(next);
+> Control_De_Acceso_Web.html:383:      // Multi-Window & Background Sync: BroadcastChannel + storage event + 1.5s live 
+sync
+  Control_De_Acceso_Web.html:384:      useEffect(() => {
+  Control_De_Acceso_Web.html:385:        let channel = null;
+> Control_De_Acceso_Web.html:887:                onClick={toggleBackground}
+  Control_De_Acceso_Web.html:888:                className="px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-2xl bg-black/70 
+hover:bg-black/90 backdrop-blur-md border border-white/20 text-white font-bold text-xs sm:text-sm flex items-center 
+gap-2 shadow-2xl transition-all cursor-pointer transform hover:scale-105 active:scale-95 select-none"
+  Control_De_Acceso_Web.html:889:                title="Cambiar Foto de Fondo"
+> Control_De_Acceso_Web.html:908:          {/* 100% COVER REAL WHATSAPP GYM PHOTO BACKGROUND */}
+  Control_De_Acceso_Web.html:909:          <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+  Control_De_Acceso_Web.html:910:            <img 
+> Control_De_Acceso_Web.html:1728:                    {/* Cyber Grid Lines Background */}
+  Control_De_Acceso_Web.html:1729:                    <div className="absolute inset-0 
+bg-[linear-gradient(to_right,#052e16_1px,transparent_1px),linear-gradient(to_bottom,#052e16_1px,transparent_1px)] 
+bg-[size:16px_16px] opacity-40 pointer-events-none" />
+  Control_De_Acceso_Web.html:1730:
+> LEGENDS\public\terminal.html:61:      background: rgba(0, 0, 0, 0.4);
+  LEGENDS\public\terminal.html:62:    }
+  LEGENDS\public\terminal.html:63:    ::-webkit-scrollbar-thumb {
+> LEGENDS\public\terminal.html:64:      background: rgba(245, 158, 11, 0.4);
+  LEGENDS\public\terminal.html:65:      border-radius: 9999px;
+  LEGENDS\public\terminal.html:66:    }
+> LEGENDS\public\terminal.html:68:      background: #f59e0b;
+  LEGENDS\public\terminal.html:69:    }
+  LEGENDS\public\terminal.html:70:  
+> LEGENDS\public\terminal.html:350:      const toggleBackground = () => {
+  LEGENDS\public\terminal.html:351:        const next = (currentBgIndex + 1) % 3;
+  LEGENDS\public\terminal.html:352:        setCurrentBgIndex(next);
+> LEGENDS\public\terminal.html:383:      // Multi-Window & Background Sync: BroadcastChannel + storage event + 1.5s 
+live sync
+  LEGENDS\public\terminal.html:384:      useEffect(() => {
+  LEGENDS\public\terminal.html:385:        let channel = null;
+> LEGENDS\public\terminal.html:887:                onClick={toggleBackground}
+  LEGENDS\public\terminal.html:888:                className="px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-2xl bg-black/70 
+hover:bg-black/90 backdrop-blur-md border border-white/20 text-white font-bold text-xs sm:text-sm flex items-center 
+gap-2 shadow-2xl transition-all cursor-pointer transform hover:scale-105 active:scale-95 select-none"
+  LEGENDS\public\terminal.html:889:                title="Cambiar Foto de Fondo"
+> LEGENDS\public\terminal.html:908:          {/* 100% COVER REAL WHATSAPP GYM PHOTO BACKGROUND */}
+  LEGENDS\public\terminal.html:909:          <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+  LEGENDS\public\terminal.html:910:            <img 
+> LEGENDS\public\terminal.html:1728:                    {/* Cyber Grid Lines Background */}
+  LEGENDS\public\terminal.html:1729:                    <div className="absolute inset-0 
+bg-[linear-gradient(to_right,#052e16_1px,transparent_1px),linear-gradient(to_bottom,#052e16_1px,transparent_1px)] 
+bg-[size:16px_16px] opacity-40 pointer-events-none" />
+  LEGENDS\public\terminal.html:1730:
+
+

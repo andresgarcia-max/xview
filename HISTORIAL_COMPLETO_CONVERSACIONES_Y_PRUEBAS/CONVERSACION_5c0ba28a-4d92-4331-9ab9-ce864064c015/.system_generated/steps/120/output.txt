@@ -1,0 +1,1 @@
+Made 3 replacements in C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\scripts\build-single-html.cjs starting at line 1123 (+12/-9 lines).

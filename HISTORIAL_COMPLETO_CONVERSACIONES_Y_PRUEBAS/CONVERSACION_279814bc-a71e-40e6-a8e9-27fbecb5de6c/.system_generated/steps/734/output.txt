@@ -1,0 +1,30 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\context\GymContext.tsx:26:import { verifySecret, checkEmployeeShiftAllowed } from 
+'../utils/securityCrypto';
+LEGENDS\src\context\GymContext.tsx:52:    passOrPin: string,
+LEGENDS\src\context\GymContext.tsx:53:    supervisorOverridePin?: string
+LEGENDS\src\context\GymContext.tsx:60:    requiresSupervisorOverride?: boolean;
+LEGENDS\src\context\GymContext.tsx:64:  verifySupervisorPin: (pinOrPass: string, actionLabel?: string) => boolean;
+LEGENDS\src\context\GymContext.tsx:65:  requestSupervisorAuth: (actionLabel: string, onAuthorized: () => void) => void;
+LEGENDS\src\context\GymContext.tsx:66:  pendingSupervisorAction: { actionLabel: string; onAuthorized: () => void } | 
+null;
+LEGENDS\src\context\GymContext.tsx:67:  cancelSupervisorAuth: () => void;
+LEGENDS\src\context\GymContext.tsx:156:  employees: Employee[];
+LEGENDS\src\context\GymContext.tsx:188:  const [employees, setEmployees] = useState<Employee[]>(() => 
+storage.getEmployees());
+LEGENDS\src\context\GymContext.tsx:209:    const staff = storage.getEmployees();
+LEGENDS\src\context\GymContext.tsx:210:    const admin = staff.find((e) => e.role === 'admin' && e.status === 
+'active') || staff[0];
+LEGENDS\src\context\GymContext.tsx:211:    if (admin) {
+LEGENDS\src\context\GymContext.tsx:212:      try { storage.saveCurrentUser(admin); } catch {}
+LEGENDS\src\context\GymContext.tsx:213:      return admin;
+LEGENDS\src\context\GymContext.tsx:239:  useEffect(() => { storage.saveEmployees(employees); }, [employees]);
+LEGENDS\src\context\GymContext.tsx:481:            if (Array.isArray(db.employees) && db.employees.length > 0) {
+LEGENDS\src\context\GymContext.tsx:482:              setEmployees(prev => {
+LEGENDS\src\context\GymContext.tsx:483:                const merged = mergeById(prev, db.employees!);
+LEGENDS\src\context\GymContext.tsx:484:                storage.saveEmployees(merged);
+
+

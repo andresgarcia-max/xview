@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     07/10/2026  10:42 a. m.             80 postcss.config.js                                                    
+-a---l     09/10/2026  05:54 p. m.           1433 tailwind.config.js                                                   
+
+

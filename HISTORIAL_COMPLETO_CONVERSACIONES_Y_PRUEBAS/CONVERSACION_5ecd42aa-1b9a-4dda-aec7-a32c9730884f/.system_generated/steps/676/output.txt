@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\autostart.apk                           
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\B866V2-FlashATV12_Evoca_DESOFUSCADO.bat 
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\frpc.toml                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\frps.toml                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\GUIA_FRP_SERVIDORES.md                  
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\instalar_servidor_frp.sh                
+C:\Users\andre\OneDrive\Desktop\xview\experimento\09_analisis_archivos_usuario\start_frp.sh                            
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\12_KIT_USB_QADEBUG_Y_EXTRACCION      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\ARCHIVOS_PARA_RAIZ_USB               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090388172_C4741EF6...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\1_PREPARAR_MEMORIA_USB_QADEBUG.bat   
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\2_ANALIZAR_Y_DESENCRIPTAR_LOGS_EXT...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\desencriptar_logs_usb.ps1            
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\QADEBUG.ini                          
+
+

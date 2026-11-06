@@ -1,0 +1,40 @@
+Command exited with code 0.
+
+Command output:
+{
+    "ComputerSystem":  {
+                           "Manufacturer":  "Dell Inc.",
+                           "Model":  "Latitude 7490",
+                           "SystemType":  "x64-based PC"
+                       },
+    "Processor":  {
+                      "Name":  "Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz",
+                      "Manufacturer":  "GenuineIntel",
+                      "Caption":  "Intel64 Family 6 Model 142 Stepping 10"
+                  },
+    "BaseBoard":  {
+                      "Manufacturer":  "Dell Inc.",
+                      "Product":  "0KP0FT",
+                      "SerialNumber":  "/H1NS1Z2/CNCMK0099O0FB5/",
+                      "Version":  "A00"
+                  },
+    "USBControllers":  {
+                           "Name":  "Controlador de host eXtensible Intel(R) USB 3.0 - 1.0 (Microsoft)",
+                           "Manufacturer":  "Controladora de host USB genérico xHCI",
+                           "DeviceID":  "PCI\\VEN_8086\u0026DEV_9D2F\u0026SUBSYS_081C1028\u0026REV_21\\3\u002611583659\u00260\u0026A0",
+                           "PNPDeviceID":  "PCI\\VEN_8086\u0026DEV_9D2F\u0026SUBSYS_081C1028\u0026REV_21\\3\u002611583659\u00260\u0026A0",
+                           "Status":  "OK"
+                       },
+    "BIOS":  {
+                 "Manufacturer":  "Dell Inc.",
+                 "Name":  "1.25.0",
+                 "SMBIOSBIOSVersion":  "1.25.0",
+                 "ReleaseDate":  "\/Date(1648080000000)\/"
+             },
+    "OS":  {
+               "Caption":  "Microsoft Windows 11 Pro",
+               "Version":  "10.0.26200",
+               "BuildNumber":  "26200",
+               "OSArchitecture":  "64 bits"
+           }
+}

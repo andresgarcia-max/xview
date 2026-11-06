@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     15/10/2026  11:21 a. m.            326 .gitignore                                                           
+-a---l     07/10/2026  09:39 a. m.            245 .oxlintrc.json                                                       
+-a----     17/10/2026  12:07 p. m.           2463 ControlDeAccesoLegends.lnk                                           
+-a---l     24/10/2026  09:15 a. m.          40448 CONTROL_BIOMETRICO_WEB.exe                                           
+-a---l     24/10/2026  09:15 a. m.           1775 EJECUTAR_CONTROL_BIOMETRICO_WEB.bat                                  
+-a---l     24/10/2026  09:15 a. m.            637 EJECUTAR_SISTEMA_ERP_ESCRITORIO.bat                                  
+-a---l     24/10/2026  09:43 a. m.            142 EJECUTAR_SISTEMA_PRINCIPAL.bat                                       
+-a---l     24/10/2026  09:15 a. m.            676 EJECUTAR_SISTEMA_WEB.bat                                             
+-a---l     24/10/2026  09:43 a. m.            152 EJECUTAR_TERMINAL_ACCESO.bat                                         
+-a---l     09/10/2026  05:42 p. m.            501 index.html                                                           
+-a---l     12/10/2026  09:05 a. m.            793 INICIAR_SISTEMA_PRINCIPAL.bat                                        
+-a---l     24/10/2026  09:15 a. m.          48128 INICIAR_SISTEMA_WEB.exe                                              
+-a---l     09/10/2026  05:33 p. m.            788 INICIAR_TERMINAL_ACCESO.bat                                          
+-a---l     24/10/2026  09:15 a. m.          48128 LegendsGym_Web.exe                                                   
+-a---l     24/10/2026  09:15 a. m.         155250 package-lock.json                                                    
+-a---l     24/10/2026  09:15 a. m.           1247 package.json                                                         
+-a---l     07/10/2026  09:42 a. m.             80 postcss.config.js                                                    
+-a---l     07/10/2026  12:43 p. m.           3369 README.md                                                            
+-a---l     24/10/2026  09:15 a. m.           1339 SUBIR_CAMBIOS_A_GITHUB.bat                                           
+-a---l     09/10/2026  04:54 p. m.           1433 tailwind.config.js                                                   
+-a---l     07/10/2026  09:46 a. m.            659 tsconfig.app.json                                                    
+-a---l     07/10/2026  09:39 a. m.            119 tsconfig.json                                                        
+-a---l     07/10/2026  09:39 a. m.            558 tsconfig.node.json                                                   
+-a---l     21/10/2026  05:12 p. m.            337 vercel.json                                                          
+-a---l     13/10/2026  03:39 p. m.            338 vite.config.ts                                                       
+-a---l     24/10/2026  09:15 a. m.         186225 WhatsApp Image 2026-10-19 at 8.32.23 AM.jpeg                         
+-a---l     24/10/2026  09:15 a. m.         297334 WhatsApp Image 2026-10-19 at 8.32.24 AM.jpeg                         
+
+

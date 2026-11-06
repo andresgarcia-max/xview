@@ -1,0 +1,160 @@
+Command exited with code 0.
+
+Command output:
+=== C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\INFORME_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE.md ===
+# Informe de Ingeniería Inversa y Descompilación Estática (REA + JADX + Apktool): `AppUpgradeService.apk` y `ControlDevice.apk`
+
+**Fecha:** 1 de noviembre de 2026  
+**Dispositivo Origen:** ZTE B866V2 (`ViettelBox_B866V2` / `MediaBox_B866V2`)  
+**Herramientas Empleadas:** `jadx 1.5.1`, `apktool 2.10.0`, `androguard` / analizador DEX estático REA  
+
+---
+
+## 1. Resumen Ejecutivo e Inventario de Binarios Extraídos
+
+Se extrajeron desde la partición del sistema del dispositivo (`192.168.0.47:5555`) seis aplicaciones clave del ecosistema OEM/operador en [`experimento/04_apks_dispositivo/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo), descompilando a nivel de código fuente Java y recursos XML los dos paquetes principales solicitados:
+
+| Archivo APK | Ruta en el Dispositivo | Package Name | `sharedUserId` | Tamaño (Bytes) | SHA-256 |
+| :--- | :--- | :--- | :--- | ---: | :--- |
+| [`AppUpgradeService.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/AppUpgradeService.apk) | `/system/app/AppUpgradeService/AppUpgradeService.apk` | `tv.upgrade.service` | `android.uid.system` (`1000`) | `54,239` | `e74d5620c7f2fc10de95e1a036fd956747720cb699186bc2ba94ff8455079d9e` |
+| [`ControlDevice.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/ControlDevice.apk) | `/system/system_ext/priv-app/ControlDevice/ControlDevice.apk` | `com.control.device` | `android.uid.system` (`1000`) | `17,876,564` | `35622a5a95db9c71667c8c00fd4856e9829098f819ff1ab54144b71a2678069d` |
+| [`DLStore.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/DLStore.apk) | `/system/app/DLStore/DLStore.apk` | — | — | `3,313,530` | `f326b172844ff859a282c81ec1bc26323c2020ee5803d2224605168b7a5e9dc5` |
+| [`Hdplay.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/Hdplay.apk) | `/system/app/Hdplay/Hdplay.apk` | — | — | `3,568,385` | `367a8a7827d42c1a9043c196be6a3eb78042fd0c0cb51234ff0c3040dc284cf6` |
+| [`Filemanager.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/Filemanager.apk) | `/system/app/Filemanager/Filemanager.apk` | — | — | `5,737,825` | `1b5e0985ade89bc37ade1ab64f53db6090267af5b4fbea015fb6b87f2a215cee` |
+| [`AppDMC.apk`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/04_apks_dispositivo/AppDMC.apk) | `/system/priv-app/AppDMC/AppDMC.apk` | — | — | `577,580` | `2f03eff6dfcd7af4c937113fe8649a667bfea69cc293dfe72adda94459180065` |
+
+---
+
+## 2. Análisis Profundo de `AppUpgradeService.apk` (`tv.upgrade.service`)
+
+### 2.1. Métricas del Binario y Manifiesto
+- **Ruta de descompilación JADX:** [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src)
+- **Ruta de recursos Apktool:** [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/apktool_res/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/apktool_res)
+- **Manifiesto:** [`AndroidManifest.xml`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/resources/AndroidManifest.xml)
+- **Estadísticas DEX:** 50 clases, 552 métodos, 202 campos y 1,213 cadenas de texto.
+- **Privilegios:** Ejecuta bajo `android:sharedUserId="android.uid.system"` (`UID 1000`) con `android:usesCleartextTraffic="true"` (permite tráfico HTTP en texto plano) y permisos de nivel firma/sistema (`INSTALL_PACKAGES`, `DELETE_PACKAGES`, `BACKUP`, `MASTER_CLEAR`, `WRITE_SECURE_SETTINGS`).
+
+### 2.2. Arquitectura de Componentes Declarados
+1. **[`BootBroadcastReceiver.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/BootBroadcastReceiver.java):**
+   - Escucha `android.intent.action.BOOT_COMPLETED` con prioridad `1000`.
+   - Al arrancar el equipo, inicia en segundo plano el servicio principal [`AppUpgradeService`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/AppUpgradeService.java).
+2. **[`AppUpgradeService.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/AppUpgradeService.java):**
+   - Servicio central de aprovisionamiento y actualización silenciosa de APKs de ZTE.
+   - Se comunica con el proveedor de configuración propietario de ZTE [`ZteMcspCfgManager.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/com/zte/mcsp/cfgmanager/ZteMcspCfgManager.java) mediante el ContentProvider `content://com.ztestb.basecomp.provider/cfginfo/`.
+3. **[`ReadFileServer.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/ReadFileServer.java):**
+   - Servicio exportado (`action: com.ReadFileServer`) que expone la interfaz Binder AIDL [`ReadFile.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/ReadFile.java).
+   - Su método `getReadFileString()` lee la ruta almacenada en `Settings.Global.getString(getContentResolver(), "settingsAutoTestFilePath")` y devuelve el contenido íntegro del archivo al cliente Binder con permisos de `system`.
+4. **[`ResetService.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/ResetService.java):**
+   - Servicio exportado (`action: com.zte.ResetService`) que invoca `mZteMcspCfgManager.ProductCfgReset()` y emite el broadcast `android.intent.action.FACTORY_RESET` con razón `"ResetButon"` y `android.intent.extra.WIPE_EXTERNAL_STORAGE = true`.
+
+### 2.3. Flujo de Actualización por Lotes (`apkUpdateInfo.xml`) e Instalación Silenciosa
+En [`AppUpgradeService.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/AppUpgradeService.java#L417-L561):
+1. **Resolución del Servidor de Versiones (`getVersionUrl()`):**
+   - En dispositivos normales lee `Common -> VersionServer` desde `ZteMcspCfgManager`.
+   - En perfil de operador `3501` (`OperatorCode == 2`), lee `Pltm_option -> OTTVersionServer`.
+   - Si está activo el modo de prueba automática (`autoUpdateUrl`), prioriza la URL de prueba.
+2. **Descarga y Parseo de `apkUpdateInfo.xml`:**
+   - Descarga `<VersionServer>/updateAPK/apkUpdateInfo.xml` en `/data/data/tv.upgrade.service/apkUpdateInfo.xml`.
+   - El parser XML (`readXML()`) procesa las etiquetas:
+     - `<xmlversion>`: versión del manifiesto XML (comparada contra `SharedPreferences("updateXml", "version")`, salvo que sea `"0"`, lo cual fuerza la ejecución siempre).
+     - `<model>`: modelo objetivo (comparado con `Build.MODEL` o comodín `"ALL"`).
+     - `<apk number="...">`: entradas individuales con `<filename>`, `<packagename>`, `<versioncode>`, `<action>` y `<md5>`.
+3. **Acciones Soportadas (`<action>`):**
+   - **`update`**: Descarga `<VersionServer>/updateAPK/<filename>` hacia `/data/data/tv.upgrade.service/cache/`, verifica el hash MD5 (`getFileMD5()`), e instala silenciosamente mediante `PackageInstaller.Session` con `installFlags = 128` (`INSTALL_REPLACE_EXISTING`).
+   - **`fallback`**: Si la versión instalada en el sistema es mayor a `<versioncode>`, primero desinstala silenciosamente el paquete (`uninstallApkSilent()`) y luego instala la versión anterior descargada.
+   - **`delete`**: Desinstala silenciosamente cualquier paquete indicado en `<packagename>` usando `PackageInstaller.uninstall()`.
+
+### 2.4. Hallazgos de Diseño y Seguridad en `AppUpgradeService.apk`
+1. **Receptor de Broadcast Dinámico sin Permiso (`com.zte.APPUP_SINGLE_INSTALL`):**
+   - En [`AppUpgradeService.java` (líneas 137-161 y 352-356)](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/AppUpgradeService.java#L137-L161), el método `onCreate()` registra dinámicamente `singleInstallReceiver` para la acción `com.zte.APPUP_SINGLE_INSTALL` sin especificar un permiso de envío en `registerReceiver()`.
+   - Este receptor extrae los extras `fileName`, `packageName` y `md5`, e invoca `startUpdateSingle()` para descargar e instalar silenciosamente un paquete individual desde `<VersionServer>/updateSingleAPK/<fileName>`.
+2. **Validación Incompleta de Certificados TLS ([`MyX509TrustManager.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/MyX509TrustManager.java)):**
+   - En [`AppUpgradeService.java` (líneas 67-76)](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/AppUpgradeService.java#L67-L76), `TrustAnyHostnameVerifier` devuelve siempre `true` en `verify(String, SSLSession)`.
+   - Asimismo, [`MyX509TrustManager.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/MyX509TrustManager.java#L22-L38) únicamente verifica la fecha de vigencia del certificado (`cert.checkValidity()`) sin validar la cadena de confianza ni la autoridad certificadora (`getAcceptedIssuers()` retorna `null`).
+   - *Recomendación defensiva:* Utilizar el `TrustManager` predeterminado del sistema Android y `HttpsURLConnection.getDefaultHostnameVerifier()`, además de exigir firmas criptográficas de paquete válidas.
+3. **Gancho de AutoTest (`Android -> XtsAuto`) y Captura de Logcat ([`LogcatWrite.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/LogcatWrite.java)):**
+   - En [`AppUpgradeService.java` (líneas 322-351)](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/AppUpgradeService.java#L322-L351), al iniciar el servicio consulta `mZteMcspCfgManager.ReadStrFromCfgmanager("Android", "XtsAuto", "")`.
+   - Si el valor tiene el formato `1#<SSID>#<Password>#<AutoUpdateUrl>`, el servicio activa automáticamente el Wi-Fi, se asocia a la red `<SSID>`, lanza `logcat -v time *:V -f ...` mediante [`LogcatWrite.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/sources/tv/upgrade/service/LogcatWrite.java) hacia el almacenamiento USB externo (`/mnt/media_rw/...`), y descarga actualizaciones desde `<AutoUpdateUrl>`.
+
+---
+
+## 3. Análisis Profundo de `ControlDevice.apk` (`com.control.device`)
+
+### 3.1. Identidad Real del Paquete
+- **Ruta de descompilación JADX:** [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src)
+- **Manifiesto:** [`AndroidManifest.xml`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/resources/AndroidManifest.xml)
+- **Estadísticas DEX:** 3,569 clases, 28,934 métodos, 13,205 campos y 27,315 cadenas.
+- **Naturaleza del binario:** Aunque en la ROM personalizada `ViettelBox_B866V2` lleva por nombre `ControlDevice.apk` (`package="com.control.device"`, etiqueta `"Khiv"`, `versionName="62531"`), el análisis de sus paquetes internos (`com.control.device.*` y `com.android.tv.settings.*`) demuestra que **es la aplicación `TvSettings` propietaria de ZTE**, renombrada bajo el namespace `com.control.device` para coexistir en `/system/system_ext/priv-app/` junto con el `TvSettings` estándar de Android TV sin conflicto de nombres de paquete.
+
+### 3.2. Matriz Global de Perfiles de Operador (`MarketUtil.java`)
+El archivo [`MarketUtil.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/util/MarketUtil.java) revela cómo un mismo binario de ZTE adapta su comportamiento para 20 operadores internacionales leyendo `Common -> MarketCode` y `Common -> OperatorCode` desde `ZteMcspCfgManager`:
+
+| `MarketCode + OperatorCode` | Constante Interna en `MarketUtil.java` | Operador / País |
+| :--- | :--- | :--- |
+| **`4301 4`** | `MEXICO_IZZI` | Izzi Telecom (México) |
+| **`4301 5`** | `MEXICO_MEGACABLE_OTT` | **Megacable Xview+ OTT (México)** |
+| **`4301 6`** | `MEXICO_AMCO` | Claro Video / América Móvil (México/LatAm) |
+| **`1301 1`** | `VIETNAM_FPT` | FPT Telecom (Vietnam) |
+| **`1301 2`** | `Viettel_OTT_12` | **Viettel TV360 Android 12 (Vietnam — perfil base de la ROM liberada)** |
+| **`1301 4`** | `VIETNAM_VTV` | VTVcab (Vietnam) |
+| **`1301 5`** | `VNPT_OTT_12` | VNPT (Vietnam) |
+| **`3601 1`** | `Indonesia_Telcom` | Telkomsel / IndiHome (Indonesia) |
+| **`3501 2`** / **`3501 3`** | `FRANCE_NORDNET` / `Nordnet_OTT_12` | Nordnet / Orange (Francia) |
+| **`6901 1`** | `MONGOLIA_UNIVISION` | Univision (Mongolia) |
+| **`6401 3`** | `Belarus_A1` | A1 (Bielorrusia) |
+| **`8101 2`** | `Colombia_ETB` | ETB (Colombia) |
+| **`7501 1`** | `Argentina_Telecentro` | Telecentro (Argentina) |
+
+### 3.3. El Interceptor Global de Arranque y Botones (`ZteKeyInterceptorReceiver.java`)
+El componente [`ZteKeyInterceptorReceiver.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/recevier/ZteKeyInterceptorReceiver.java) escucha `BOOT_COMPLETED`, `GLOBAL_BUTTON` y acciones de red. Al recibir `BOOT_COMPLETED`, ejecuta la siguiente lógica según el operador:
+
+1. **Verificación de Autorización ADB en el Arranque (`AdbAuthCheck(context)`):**
+   - En [`ZteKeyInterceptorReceiver.java` (líneas 564-592)](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/recevier/ZteKeyInterceptorReceiver.java#L564-L592), si el perfil es `Indonesia_Telcom` (`3601 1`), `Viettel_OTT_12` (`1301 2`) o `Nordnet_OTT_12` (`3501 3`) y `ro.build.type` es `"user"`:
+   - Llama a `AdbAuthCheckUtil.isNeedAuth()`. Si determina que requiere autorización y que ADB o las Opciones de Desarrollador están encendidos, invoca **`AdbAuthCheckUtil.stopAdbService(context)`** y **`DevelopmentSettingsEnabler.setDevelopmentSettingsEnabled(context, false)`**, apagando ADB automáticamente en el arranque.
+2. **Inicialización Específica para Megacable (`defaultSetOfMegacable(context)`):**
+   - En [`ZteKeyInterceptorReceiver.java` (líneas 490-531)](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/recevier/ZteKeyInterceptorReceiver.java#L490-L531), cuando `MarketUtil.isMegacable()` (`4301 5`) es verdadero:
+     - Escribe la relación de aspecto en `/sys/class/video/mega_ratio`.
+     - Genera o actualiza `Common_ext -> OemKey` (concatenando `MarketCode + OperatorCode` relleno con `'0'` hasta 32 caracteres).
+     - Llama a [`OpsInitUtil.init()`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/util/OpsInitUtil.java) para otorgar permisos especiales `AppOpsManager` (`mode = 0`, códigos `66` y `24`) a los paquetes de Megacable (`com.dotscreen.megacable.updater`, `com.dotscreen.megacable.portal`, `com.dotscreen.megacable.livetv`, `com.dotscreen.megacable.core`, `com.zte.ac` y `tv.broadpeak.nanocdnwrapper`).
+3. **Secuestro de Teclas en Izzi (`izzisetdisable(context)`):**
+   - En [`ZteKeyInterceptorReceiver.java` (líneas 594-614)](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/recevier/ZteKeyInterceptorReceiver.java#L594-L614), cuando `MarketUtil.isMexicoIzzi()` (`4301 4`) es verdadero, fuerza en `Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES` el servicio `com.zte.deviceinfoservice/com.zte.deviceinfoservice.MyKeyService` para interceptar las teclas del control remoto.
+4. **Intercepción de `GLOBAL_BUTTON`:**
+   - Intercepta `KEYCODE_SETTINGS (176)`, `KEYCODE_GUIDE (172)`, `KEYCODE_F4 (134)`, `KEYCODE_STB_POWER (179)` y `KEYCODE_INFO (165)`.
+   - Si el botón `KEYCODE_STB_POWER (179)` se mantiene presionado hasta `repeatCount == 100`, ejecuta `ProductCfgReset()` y lanza un `FACTORY_RESET` completo.
+
+### 3.4. Mecanismo de Bloqueo QR para ADB (`AdbAuthCheckUtil.java` y `AdbAuthCheckUtil_amx.java`)
+El análisis de [`AdbAuthCheckUtil.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/settings/adbsettings/AdbAuthCheckUtil.java) y [`AdbAuthCheckUtil_amx.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/settings/adbsettings/AdbAuthCheckUtil_amx.java) documenta con exactitud cómo controla ZTE la activación de ADB mediante código QR en la interfaz de Ajustes:
+
+1. **Archivos de Persistencia en `/cache/recovery/`:**
+   - `/cache/recovery/last_QR`: almacena el contador de usos restantes de desbloqueo ADB.
+   - `/cache/recovery/last_QR_Time`: almacena la marca de tiempo (`System.currentTimeMillis()`) de la primera autorización QR (utilizada en los perfiles `4301 5` Megacable y `4301 6` Claro/AMX).
+   - `/cache/recovery/test`: archivo centinela verificado al inicio de `isNeedAuth()`.
+2. **Algoritmo de Ofuscación (`encrypt` / `decrypt`):**
+   - En [`AdbAuthCheckUtil.java` (líneas 221-235)](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/settings/adbsettings/AdbAuthCheckUtil.java#L221-L235), la función `encrypt(String)` aplica una operación **XOR bit a bit con el carácter `'t'` (`0x74`)** a cada carácter de la cadena:
+     ```java
+     for (int i = 0; i < charArray.length; i++) {
+         charArray[i] = (char) (charArray[i] ^ 't');
+     }
+     ```
+   - Antes de cifrar el contador numérico de intentos restantes, ZTE le suma la constante `confusion = 99` (`String.valueOf(count + 99)`).
+   - Por ejemplo:
+     - En el perfil estándar (`TOTAL_COUNT = 6`), el valor inicial autorizado `6 + 99 = 105` (`"105"`) XOR `'t'` produce la cadena de 3 caracteres `"EED"`.
+     - En el perfil Megacable (`TOTAL_COUNT_FOR_MEGA = 15`), `15 + 99 = 114` (`"114"`) XOR `'t'` produce `"EE@"`.
+     - El valor centinela sin inicializar (`600 + 99 = 699`, `"699"`) XOR `'t'` corresponde a `"BMM"`.
+3. **Temporizador de Expiración de ADB (`AmxAdbCheckService.java`):**
+   - En [`AmxAdbCheckService.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/settings/MexicAmco/AmxAdbCheckService.java), un `TimerTask` periódico se ejecuta cada 15 minutos (`900,000 ms`) y verifica si han transcurrido 14 días (`1,209,600,000 ms`) en Claro/AMX o 7 días (`604,800,000 ms`) en Megacable desde el timestamp guardado en `/cache/recovery/last_QR_Time`. Al expirar dicho plazo, restablece el contador y desactiva `Settings.Global.ADB_ENABLED`.
+
+### 3.5. Aprovisionamiento de Llaves DRM Widevine L1 y Google Attestation (`AMXUpdateAtvKey`)
+Dentro del paquete `com.control.device.settings.MexicAmco.AMXUpdateAtvKey` ([`WidevineKeyUtil.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/settings/MexicAmco/AMXUpdateAtvKey/WidevineKeyUtil.java), [`AttestationKeyUtil.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/settings/MexicAmco/AMXUpdateAtvKey/AttestationKeyUtil.java) y [`HttpUtil.java`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/settings/MexicAmco/AMXUpdateAtvKey/HttpUtil.java)):
+- El servicio comprueba mediante `MediaDrm` (`WIDEVINE_UUID`) si la propiedad `systemId` es igual a `"24428"` (`INVALIDATE_SYSTEM_ID`, que identifica una llave Widevine de prueba/inválida).
+- Si detecta una llave inválida, solicita un token OAuth (`client_credentials`), descarga los paquetes `widevine_<SerialNo>.zip` (`widevine_<SN>_enc.bin` + `widevine_<SN>_hash.txt`) y `attestation_<SerialNo>.zip`, verifica su SHA-256, y los inyecta directamente en el almacenamiento seguro (UnifyKey / Keymaster de Amlogic) invocando `SystemControlManager.writeWidevineKey()` (tipo `17`) y `SystemControlManager.writeAttestationKey()` (tipo `66`).
+
+---
+
+## 4. Estructura de Archivos Guardados en el Repositorio
+
+- [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/INFORME_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE.md`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/INFORME_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE.md): Este informe técnico detallado.
+- [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/jadx_src): Código fuente Java completo descompilado de `AppUpgradeService.apk`.
+- [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/apktool_res/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/AppUpgradeService/apktool_res): Recursos XML, `AndroidManifest.xml` y código `smali` de `AppUpgradeService.apk`.
+- [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device): Código fuente Java propietario de ZTE descompilado de `ControlDevice.apk`.
+- [`experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/android/tv/settings/`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/android/tv/settings): Módulos de ajustes de TV personalizados por ZTE dentro de `ControlDevice.apk`.

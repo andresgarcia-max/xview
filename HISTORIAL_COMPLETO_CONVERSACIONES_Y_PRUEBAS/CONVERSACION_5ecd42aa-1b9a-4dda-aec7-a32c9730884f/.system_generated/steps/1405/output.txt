@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                   Length LastW
+                                                                                                                  riteT
+                                                                                                                  ime  
+--------                                                                                                   ------ -----
+C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2-FlashATV12 - Evoca.bat                                   2892 04...
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2-FlashATV12 - Evoca.bat   2892 04...
+
+

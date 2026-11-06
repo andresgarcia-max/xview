@@ -1,0 +1,81 @@
+Command exited with code 0.
+
+Command output:
+
+Status   Class                    FriendlyName                                                                         
+------   -----                    ------------                                                                         
+OK       USB                      Controlador de host eXtensible Intel(R) USB 3.0 - 1.0 (Microsoft)                    
+OK       System                   Recursos de la placa base                                                            
+OK       System                   Recursos de la placa base                                                            
+OK       System                   Recursos de la placa base                                                            
+OK       System                   Controladora integrada compatible con Microsoft ACPI                                 
+OK       System                   Mobile Intel(R) Processor Family I/O SMBUS - 9D23                                    
+OK       libusb-win32 Usb Devices WorldCup Device                                                                      
+OK       libusb-win32 Usb Devices WorldCup Device                                                                      
+OK       System                   Agregador de procesador ACPI                                                         
+OK       System                   DESKTOP-TSIJ0TF Hands-Free AG                                                        
+OK       System                   Controladora de host de Intel(R) Serial IO I2C: 9D62                                 
+OK       System                   Administrador de volúmenes                                                           
+OK       System                   Intel(R) Dynamic Tuning Manager                                                      
+OK       System                   Controlador de pantalla básica de Microsoft                                          
+OK       System                   Intel(R) Dynamic Tuning Generic Participant                                          
+OK       System                   Intel(R) Dynamic Tuning Generic Participant                                          
+OK       System                   Zona térmica ACPI                                                                    
+OK       System                   Botón de suspensión ACPI                                                             
+Degraded System                   Servicio de hipervisor de Microsoft                                                  
+OK       Ports                    Intel(R) Active Management Technology - SOL (COM3)                                   
+OK       System                   Mobile Intel(R) Processor Family I/O Thermal subsystem - 9D31                        
+OK       System                   Controladora de host de Intel(R) Serial IO I2C: 9D64                                 
+OK       System                   Interfaz de administración para ACPI de Microsoft Windows                            
+OK       System                   Mobile 7th/8th Generation Intel(R) Processor Family I/O LPC Controller (U with       
+                                  iHDCP2.2 Premium) - 9D4E                                                             
+OK       System                   Sistema CMOS/reloj en tiempo real                                                    
+OK       System                   Controlador de infraestructura de virtualización de Microsoft Hyper-V                
+OK       System                   Temporizador de eventos de alta precisión                                            
+OK       System                   Enumerador de bus compuesto                                                          
+OK       System                   Enumerador de unidades virtuales de Microsoft                                        
+OK       System                   OED Tecnología Intel® Smart Sound                                                    
+OK       System                   Intel(R) Management Engine Interface #1                                              
+OK       System                   Mobile Intel(R) Processor Family I/O PCI Express Root Port #1 - 9D10                 
+OK       System                   Intel(R) Dynamic Tuning Generic Participant                                          
+OK       System                   Tapa ACPI                                                                            
+OK       System                   Recursos de la placa base                                                            
+OK       System                   Enumerador de bus raíz de UMBus                                                      
+OK       System                   Controladora de host de Intel(R) Serial IO I2C: 9D61                                 
+OK       System                   Controlador de arbitraje de carga                                                    
+OK       System                   Interfaz de administración para ACPI de Microsoft Windows                            
+OK       System                   Interfaz de administración para ACPI de Microsoft Windows                            
+OK       System                   Complejo raíz PCI Express                                                            
+OK       System                   Detection Verification                                                               
+OK       System                   Botón de inicio/apagado ACPI                                                         
+OK       System                   Sistema Microsoft compatible con ACPI                                                
+OK       System                   Controlador de representación básica de Microsoft                                    
+OK       System                   Controladora programable de interrupciones                                           
+OK       USB                      Dispositivo compuesto USB                                                            
+OK       System                   Sistema compatible con Microsoft UEFI                                                
+OK       System                   Mobile Intel(R) Processor Family I/O PCI Express Root Port #3 - 9D12                 
+OK       System                   Botón de característica fija ACPI                                                    
+OK       System                   DESKTOP-TSIJ0TF Hands-Free HF                                                        
+OK       libusb-win32 Usb Devices WorldCup Device                                                                      
+OK       USB                      Concentrador raíz USB (USB 3.0)                                                      
+OK       System                   Complemento de motor de energía Intel(R)                                             
+OK       System                   Controladora de host de Intel(R) Serial IO I2C: 9D63                                 
+OK       System                   Recursos de la placa base                                                            
+OK       System                   Android TV Hands-Free HF                                                             
+OK       System                   Mobile Intel(R) Processor Family I/O PMC - 9D21                                      
+OK       System                   Enumerador de adaptador de red virtual NDIS                                          
+OK       System                   Intel(R) Host Bridge/DRAM Registers - 5914                                           
+OK       System                   Controladora de host de Intel(R) Serial IO I2C: 9D60                                 
+OK       System                   Redmi Note 12 Hands-Free HF                                                          
+OK       System                   Controlador de audio de la tecnología Intel(R) Smart Sound                           
+OK       System                   Temporizador del sistema                                                             
+OK       System                   Controlador BIOS de Microsoft System Management                                      
+OK       System                   Recursos de la placa base                                                            
+OK       System                   Dispositivo heredado                                                                 
+OK       System                   Interfaz de administración para ACPI de Microsoft Windows                            
+OK       System                   Intel(R) Dynamic Tuning Processor Participant                                        
+OK       System                   Enumerador de dispositivos de software Plug and Play                                 
+OK       System                   Bus del Redirector de dispositivos de Escritorio remoto                              
+OK       System                   Recursos de la placa base                                                            
+
+

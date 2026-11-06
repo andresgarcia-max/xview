@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+src/components/access/IndependentTerminalApp.tsx:import gymBg from '../../assets/gym-background.jpg';
+src/components/access/IndependentTerminalApp.tsx:import gymBgMotto from '../../assets/gym-background-motto.jpg';
+src/components/access/IndependentTerminalApp.tsx:    { id: 'gymBg', name: 'Gimnasio Legends (Pared Neón & Caminadoras)', primary: gymBg, fallback: './gym-background.jpg' },
+src/components/access/IndependentTerminalApp.tsx:    { id: 'gymBgMotto', name: 'Mural Motivacional Legends', primary: gymBgMotto, fallback: './gym-background-motto.jpg' },
+src/components/access/IndependentTerminalApp.tsx:            } else if (currentBgSrc !== './gym-background.jpg') {
+src/components/access/IndependentTerminalApp.tsx:              setCurrentBgSrc('./gym-background.jpg');
+src/components/access/SmartFitKiosk.tsx:import gymBg4k from '../../assets/gym-background-4k.jpg';
+src/components/access/TurnstileTerminal.tsx:import gymBg from '../../assets/gym-background.jpg';
+src/components/access/TurnstileTerminal.tsx:import gymBgMain from '../../assets/gym-background.jpg';
+src/components/access/TurnstileTerminal.tsx:import gymBgMotivational from '../../assets/gym-background-4k.jpg';
+src/components/access/TurnstileTerminal.tsx:              target.src = './gym-background.jpg';

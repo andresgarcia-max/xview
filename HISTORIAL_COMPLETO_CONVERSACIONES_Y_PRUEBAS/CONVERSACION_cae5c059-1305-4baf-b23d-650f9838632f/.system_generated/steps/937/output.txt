@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+Total lines: 1579
+L1: import cardClienteNuevo from '../../assets/card-cliente-nuevo.jpg';
+L4: import gymBg from '../../assets/gym-background.jpg';
+L5: import gymBgMotto from '../../assets/gym-background-motto.jpg';
+L149: const [bgImage, setBgImage] = useState<string>(() => {
+L152: localStorage.setItem('legends_terminal_bg', gymBg);
+L153: return gymBg;
+L155: return localStorage.getItem('legends_terminal_bg') || gymBg;
+L597: const nextBg = bgImage === gymBg ? gymBgMotto : gymBg;
+L676: src={bgImage}
+L765: src={cardClienteNuevo}

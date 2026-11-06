@@ -1,0 +1,732 @@
+
+Status  Class     FriendlyName                    InstanceId                                    
+------  -----     ------------                    ----------                                    
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090223872         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110116171         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090175734         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040291815         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A3084000132900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110116289         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47022070008666         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110307408         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016711906803A2B00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090357635         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110430029         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110353686         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A3080120321900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020050383         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040075031         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110154316         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D610064150150300000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040075115         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090007222         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D6100600C0321B00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090144369         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110098921         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z43823070395850         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040274984         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090010957         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110067019         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110046455         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020033693         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9720DC950341300000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020033724         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110196225         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A3088051311800000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80599070C1B0182600000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090127511         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040394976         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090204069         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110091109         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801671190650381100000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040272264         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040087373         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110273226         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D97211C0A0182C00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040272539         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040468739         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040178579         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090172436         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040320970         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040087727         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040121548         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110074365         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020166566         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110273808         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020075787         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090005755         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016711906A00E2900000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040118611         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110127854         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110127897         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110127998         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040147141         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090198124         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090292564         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8096100107C13A1100000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110376060         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020135236         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z61523080573662         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090246782         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090414016         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110467197         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020149992         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110285566         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040025162         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110180690         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040224689         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9720D8951112500000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110467666         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090400392         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090261536         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040283507         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30840A0361400000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110302531         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040374648         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040175293         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040102464         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040283906         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D6100640A1092300000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090002433         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016B10449A2110800000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110055788         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z61523080602373         
+Unknown           B866V2_ZTE                      USB\VID_18D1&PID_4E41\Z41220110379125         
+Unknown WPD       Xview+                          USB\VID_18D1&PID_4EE1\Z41220090388172         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110153137         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8016B1044922340E00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110331952         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110097103         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020116457         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019431904901C1500000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090471612         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9C308C871131600000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9720D89812F2C00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110010573         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020161196         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110188631         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47021060474134         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110279926         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090298198         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040142133         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110493700         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110493717         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001993210992100900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040429285         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110066742         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040204963         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040415048         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090150841         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090193620         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020082393         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110325372         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A30840301B0E00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110280660         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001943198470241800000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110049666         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040020049         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090452140         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110078082         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30409821B2A00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110186812         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090315546         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110445014         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020022558         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040111356         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110308362         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0059708009321B1F00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090068204         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090102044         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090210650         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110169408         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090449573         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110203330         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020051260         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110354623         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090116698         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090159379         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040275428         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110155328         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020051410         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110050181         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110246257         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090054317         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110109694         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090054584         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110050592         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020139679         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040486350         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110323503         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090421893         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090219126         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040395799         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110487770         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040196679         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\5&2B41B6C5&0&2          
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\5&2B41B6C5&0&3          
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090372405         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090386816         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090477730         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040091975         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110075042         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110083394         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110201661         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040409324         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090006385         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040256174         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8096100186502A2400000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090398078         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8096000D47020B0E00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016B10446820C1B00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001943198490120E00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040000070         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47021060375536         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8016A1048510201700000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090250666         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020196308         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110100265         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090489496         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110351850         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110439385         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8019A070C960091B00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090293644         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090324102         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0056100E01811C1400000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110044464         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110181303         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110471691         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020074140         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040298373         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110181558         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110408051         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090461545         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040302064         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090216137         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090034691         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090034694         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9C31141103E1600000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001671190660232C00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\5&2B41B6C5&0&2          
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\5&2B41B6C5&0&3          
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040316835         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110408721         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040012440         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110080021         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020014723         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110150319         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090430488         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110238050         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090427292         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9920D45121D0A00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A3080120340800000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090486271         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020026172         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040478096         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090395531         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8059507444C2352300000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z61523080131784         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090322813         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110133749         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9720DC991041E00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110092026         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110297783         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090032965         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8019431904B03A2800000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020103321         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020071077         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040097753         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040282838         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040404187         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040128446         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040464836         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090378922         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110029135         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090455574         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110357473         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A3088041110F00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090074916         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z61523080583702         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D97211C050320A00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090470262         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A3080021251500000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040234357         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110061838         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016A104C5B0361900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110463034         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020174115         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110044415         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A30841502E2200000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020174381         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110187526         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040402236         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110135572         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110187742         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110278783         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090120500         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110118121         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30800010E0900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020052001         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9720DC980041E00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090407704         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090302548         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020100312         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020100347         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110446539         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040370783         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090240346         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110341619         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110247456         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040203937         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090422246         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090436655         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040458597         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040109928         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110397061         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001671190680350900000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0059906C4832251F00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090390363         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040382115         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040154486         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9C30808B2160D00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040092249         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110034620         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090223872         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040291815         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110307408         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8059906C0891341F00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040123007         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110275224         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040075031         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040075115         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090007222         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090265255         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110098921         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090450449         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040274984         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090010957         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0059907081612F2A00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040015177         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110132908         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110067019         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9720DC9601C3500000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090052270         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8016B1044730372100000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110196225         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110091109         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110426316         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020046725         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110273226         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090143846         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110230662         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019A070C930271700000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110227478         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090308032         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090172436         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040320970         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040121548         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110122475         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110227763         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110074365         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020166566         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110273808         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020075787         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9C308C881131100000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110031817         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\005970800932171100000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090021607         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040118611         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110127854         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110127897         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110095575         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110127998         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019431984301D1E00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D6100640310E2800000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8019431904B03E1B00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090004492         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090203933         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020135236         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090246782         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090414016         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A30449B2370A00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040177934         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040359660         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020149992         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040163628         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47021060206693         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020180010         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090473123         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090400392         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30449822C2C00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090197597         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110466098         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110483819         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001671190660350900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110302531         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040374648         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040175293         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040283906         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47021060689815         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110375771         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090002433         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9720DC9811C1800000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040129729         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110016071         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090348303         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110153137         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090439341         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090334289         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020055644         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110236182         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110097103         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090425424         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\009610018660352800000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110016927         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47021060627025         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110054732         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D97211C0101C2800000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090471612         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801943198430170800000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020161196         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110188631         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8096100186703B1600000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090212101         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090044943         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110313401         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040476539         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110279926         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040462212         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090212690         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020010426         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040371698         
+Unknown libusb... WorldCup Device                 USB\VID_1B8E&PID_C003\5&2B41B6C5&0&2          
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A30841503E1D00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040186681         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040371951         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801943190470282900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110066742         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040204963         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040064083         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090150841         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110325372         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090496506         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110006830         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110049666         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090388172         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110056074         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090283056         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040431578         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090297509         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090315546         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020022558         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040141475         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30840C0342000000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110199415         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110308362         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110293781         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090189276         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090102044         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090210650         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801671190650371700000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040141729         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110203330         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090116698         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040275428         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110199990         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090451195         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110370750         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A308C160291200000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110109694         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110116171         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090175734         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110116289         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090357635         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110430029         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110353686         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801993210992250500000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020050383         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110154316         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090144369         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110140385         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110487770         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090372405         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090386816         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110046455         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020033693         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110075042         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016B10449320A0A00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8019431984403C2600000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040409324         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020033724         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090127511         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040394976         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090204069         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30840800E2E00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47021060147514         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040272264         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040000070         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040087373         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090250666         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040272539         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110100265         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110351850         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110439385         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040468739         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040178579         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040087727         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30841400C1400000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090324102         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090005755         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110044464         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040298373         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110408051         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040147141         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090198124         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090216137         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090034691         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090034694         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090292564         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019A070C950123700000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110376060         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110467197         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110408721         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110285566         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110080021         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30449C2081F00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9720DC911342900000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30409823B2900000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020014723         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9720D89112D2B00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D6100600B02D0D00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040025162         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110180690         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040224689         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110467666         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090261536         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D97211C0301A2C00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8019A070C980261D00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090486271         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040102464         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090395531         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8059507444A2202100000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019932109A22C3200000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110297783         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110055788         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020071077         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\1234567890              
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040404187         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110331952         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040128446         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A3088080071D00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090378922         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9A30840001B1100000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47021060051450         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110029135         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090455574         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020116457         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110357473         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8019431903823E1400000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090074916         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110010573         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8016B1044700300C00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8016B10449221D1600000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090298198         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040142133         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110493700         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110493717         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A3080021270500000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040429285         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090120500         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040415048         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090193620         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090407704         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090302548         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020100312         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020100347         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110280660         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040370783         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040020049         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090452140         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110078082         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110186812         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040458597         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110445014         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9C30808922E0B00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040111356         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110397061         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090068204         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110169408         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090449573         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090390363         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020051260         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110354623         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8059907081B0312D00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090159379         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040154486         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110155328         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020051410         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110050181         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110246257         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090054317         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090054584         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110050592         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A30801200E0F00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040123007         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020139679         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110275224         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9C30808A21E1200000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801943190470082700000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040486350         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110323503         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090421893         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090219126         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090265255         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040395799         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9A30880C0302E00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090450449         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040015177         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040196679         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110132908         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\805970800922141F00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0056000E05B01F1000000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016B1048821361500000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9920D4512270A00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090052270         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040091975         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110083394         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110201661         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090006385         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040256174         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001943190480201B00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110426316         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090398078         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020046725         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090143846         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110230662         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020196308         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110227478         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090489496         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090308032         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110122475         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090293644         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110227763         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D610064071300B00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110031817         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090021607         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110181303         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110471691         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020074140         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110095575         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110181558         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090461545         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040302064         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090004492         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090203933         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040316835         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\009610010751200F00000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\001943198450362200000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040177934         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040359660         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040163628         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040012440         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0056000E04B2211F00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110150319         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020180010         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801943198490231500000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090430488         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090473123         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110238050         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090427292         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0016A104C530180C00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090197597         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\801671190690182400000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110466098         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110483819         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D972118050221A00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020026172         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040478096         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090214103         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110375771         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090322813         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110133749         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019932109521F0F00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110092026         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040129729         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090032965         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110016071         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020103321         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019A070C910262B00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090348303         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80199321C9103B1F00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040097753         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040282838         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090439341         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9720DC9900D1E00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090334289         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020055644         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040464836         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110236182         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090425424         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110016927         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110054732         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090212101         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0059907081A12A1E00000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090044943         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110313401         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090470262         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040234357         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110061838         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040476539         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110463034         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040462212         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090212690         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220020010426         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020174115         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110044415         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020174381         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040371698         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040186681         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\0019431984602C2500000000
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D97211C0600F0A00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110187526         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z47022070056073         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040402236         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110135572         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110187742         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040371951         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040064083         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110278783         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221110118121         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D610064021071B00000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220020052001         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\00D9C31141322D1400000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090496506         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110006830         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\8019932149921B1900000000
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110446539         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090388172         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221110056074         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\1234567890              
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090240346         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090283056         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040431578         
+Unknown USBDevice android_winusb                  USB\VID_1B8E&PID_C004\80D9C3114230303300000000
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090297509         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110341619         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110247456         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040203937         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090422246         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220090436655         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040141475         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110199415         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040109928         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110293781         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090189276         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41221040141729         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040382115         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110199990         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220090451195         
+Unknown USBDevice Android Composite ADB Interface USB\VID_18D1&PID_4EE7\Z41220110370750         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040092249         
+Unknown USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110034620         
+
+

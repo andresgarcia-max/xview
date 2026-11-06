@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+Updated: ACCESO_WEB_FITNESS_LEGENDS.html
+Updated: Control_De_Acceso_Web.html
+Updated: LEGENDS\public\Control_De_Acceso_Web.html
+Updated: LEGENDS\public\terminal.html
+Updated: LEGENDS\dist\Control_De_Acceso_Web.html
+Updated: LEGENDS\dist\terminal.html
+Updated: LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html
+Updated: LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html
+Updated: LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\Control_De_Acceso_Web.html
+Updated: LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\terminal.html

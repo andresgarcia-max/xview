@@ -1,0 +1,227 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+D:\xview 2\v2f                                                                                                         
+D:\xview 2\BootcardMaker_b866f                                                                                         
+D:\xview 2\WorldCup_Device                                                                                             
+D:\xview 2\v2f\ADBusbDriveR_UBT                                                                                        
+D:\xview 2\v2f\B866FA                                                                                                  
+D:\xview 2\v2f\B866FB                                                                                                  
+D:\xview 2\v2f\BootcardMaker_b866f                                                                                     
+D:\xview 2\v2f\Gambar                                                                                                  
+D:\xview 2\v2f\TOOL CEK SLOT STB                                                                                       
+D:\xview 2\v2f\AdbWinApi.dll                                                                                           
+D:\xview 2\v2f\AdbWinUsbApi.dll                                                                                        
+D:\xview 2\v2f\adnl.exe                                                                                                
+D:\xview 2\v2f\libwinpthread-1.dll                                                                                     
+D:\xview 2\v2f\MULTI TOOLS  B866F1.1.cmd                                                                               
+D:\xview 2\v2f\slot A.bat                                                                                              
+D:\xview 2\v2f\slot B.bat                                                                                              
+D:\xview 2\v2f\▓┘╫≈╖╜╩╜.txt                                                                                            
+D:\xview 2\v2f\ADBusbDriveR_UBT\adb_and_fastboot_driver_1.4.3                                                          
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0                                                        
+D:\xview 2\v2f\ADBusbDriveR_UBT\adb_and_fastboot_driver_1.4.3.zip                                                      
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0.zip                                                    
+D:\xview 2\v2f\ADBusbDriveR_UBT\adb_and_fastboot_driver_1.4.3\adb_and_fastboot_driver_1.4.3.exe                        
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic_USB_Burning_Tool_v3.2.0                        
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic_USB_Burning_Tool_v3.2.0\Driver                 
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic USB Burning ...
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic_USB_Burning_Tool_v3.2.0\Credits.txt            
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic_USB_Burning_Tool_v3.2.0\How to Use.url         
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic_USB_Burning_Tool_v3.2.0\Latest Version.url     
+D:\xview 2\v2f\ADBusbDriveR_UBT\Amlogic_USB_Burning_Tool_v3.2.0\Amlogic_USB_Burning_Tool_v3.2.0\Driver\Download.url    
+D:\xview 2\v2f\B866FA\boot.img                                                                                         
+D:\xview 2\v2f\B866FA\bootloader.img                                                                                   
+D:\xview 2\v2f\B866FA\odm_ext.img                                                                                      
+D:\xview 2\v2f\B866FA\super_a.img                                                                                      
+D:\xview 2\v2f\B866FA\vbmeta.img                                                                                       
+D:\xview 2\v2f\B866FA\vbmeta_system.img                                                                                
+D:\xview 2\v2f\B866FA\vendor_boot.img                                                                                  
+D:\xview 2\v2f\B866FB\boot.img                                                                                         
+D:\xview 2\v2f\B866FB\bootloader.img                                                                                   
+D:\xview 2\v2f\B866FB\odm_ext.img                                                                                      
+D:\xview 2\v2f\B866FB\super_b.img                                                                                      
+D:\xview 2\v2f\B866FB\vbmeta.img                                                                                       
+D:\xview 2\v2f\B866FB\vbmeta_system.img                                                                                
+D:\xview 2\v2f\B866FB\vendor_boot.img                                                                                  
+D:\xview 2\v2f\BootcardMaker_b866f\BootcardMaker_b866f                                                                 
+D:\xview 2\v2f\BootcardMaker_b866f\BootcardMaker_b866f\BootcardMaker.exe                                               
+D:\xview 2\v2f\BootcardMaker_b866f\BootcardMaker_b866f\mmcblk0boot0.bin                                                
+D:\xview 2\v2f\Gambar\gambar slot a-b.png                                                                              
+D:\xview 2\v2f\Gambar\PORT USB.png                                                                                     
+D:\xview 2\v2f\Gambar\shortpin_B866F.png                                                                               
+D:\xview 2\v2f\TOOL CEK SLOT STB\adb.exe                                                                               
+D:\xview 2\v2f\TOOL CEK SLOT STB\AdbWinApi.dll                                                                         
+D:\xview 2\v2f\TOOL CEK SLOT STB\AdbWinUsbApi.dll                                                                      
+D:\xview 2\v2f\TOOL CEK SLOT STB\bootloader.bat                                                                        
+D:\xview 2\v2f\TOOL CEK SLOT STB\cmd-here.exe                                                                          
+D:\xview 2\v2f\TOOL CEK SLOT STB\dmtracedump.exe                                                                       
+D:\xview 2\v2f\TOOL CEK SLOT STB\dtbo.img                                                                              
+D:\xview 2\v2f\TOOL CEK SLOT STB\etc1tool.exe                                                                          
+D:\xview 2\v2f\TOOL CEK SLOT STB\fastboot.bat                                                                          
+D:\xview 2\v2f\TOOL CEK SLOT STB\fastboot.exe                                                                          
+D:\xview 2\v2f\TOOL CEK SLOT STB\hprof-conv.exe                                                                        
+D:\xview 2\v2f\TOOL CEK SLOT STB\libwinpthread-1.dll                                                                   
+D:\xview 2\v2f\TOOL CEK SLOT STB\make_f2fs.exe                                                                         
+D:\xview 2\v2f\TOOL CEK SLOT STB\make_f2fs_casefold.exe                                                                
+D:\xview 2\v2f\TOOL CEK SLOT STB\mke2fs.conf                                                                           
+D:\xview 2\v2f\TOOL CEK SLOT STB\mke2fs.exe                                                                            
+D:\xview 2\v2f\TOOL CEK SLOT STB\source.properties                                                                     
+D:\xview 2\v2f\TOOL CEK SLOT STB\sqlite3.exe                                                                           
+D:\xview 2\v2f\TOOL CEK SLOT STB\Tools cek slot .bat                                                                   
+D:\xview 2\BootcardMaker_b866f\BootcardMaker.exe                                                                       
+D:\xview 2\BootcardMaker_b866f\mmcblk0boot0.bin                                                                        
+D:\xview 2\WorldCup_Device\amd64                                                                                       
+D:\xview 2\WorldCup_Device\x86                                                                                         
+D:\xview 2\WorldCup_Device\dpinst.xml                                                                                  
+D:\xview 2\WorldCup_Device\dpinst32.exe                                                                                
+D:\xview 2\WorldCup_Device\dpinst64.exe                                                                                
+D:\xview 2\WorldCup_Device\dpscat.exe                                                                                  
+D:\xview 2\WorldCup_Device\InstallDriver.exe                                                                           
+D:\xview 2\WorldCup_Device\Instructions.txt                                                                            
+D:\xview 2\WorldCup_Device\WorldCup_Device.cat                                                                         
+D:\xview 2\WorldCup_Device\WorldCup_Device.inf                                                                         
+D:\xview 2\WorldCup_Device\amd64\libusb0.dll                                                                           
+D:\xview 2\WorldCup_Device\amd64\libusb0.sys                                                                           
+D:\xview 2\WorldCup_Device\amd64\libusbK.dll                                                                           
+D:\xview 2\WorldCup_Device\x86\libusb0.sys                                                                             
+D:\xview 2\WorldCup_Device\x86\libusb0_x86.dll                                                                         
+D:\xview 2\WorldCup_Device\x86\libusbK_x86.dll                                                                         
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1                                                                            
+D:\LOG_ZTESTB\STARTUPLOG                                                                                               
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2                                                                            
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3                                                                            
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4                                                                            
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5                                                                            
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6                                                                            
+D:\LOG_ZTESTB\logconfig.ini                                                                                            
+D:\LOG_ZTESTB\logconfig.ini_lock                                                                                       
+D:\LOG_ZTESTB\startedTimes.ini_lock                                                                                    
+D:\LOG_ZTESTB\startedTimes.ini                                                                                         
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\MiddleWareCfgInfo                                                          
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\route.info                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\ULog_1.log                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\arp.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\ps.info                                                                    
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\top.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\ifconfig.info                                                              
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\meminfo.info                                                               
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\MiddleWareCfgInfo\cfgchglog                                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\MiddleWareCfgInfo\ztecfg                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                     
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\MiddleWareCfgInfo\ztecfg\config.eini                                       
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                           
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_1\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\MiddleWareCfgInfo                                                          
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\route.info                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\arp.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\ps.info                                                                    
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\top.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\ULog_1.log                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\ifconfig.info                                                              
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\meminfo.info                                                               
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\MiddleWareCfgInfo\cfgchglog                                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\MiddleWareCfgInfo\ztecfg                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                     
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\MiddleWareCfgInfo\ztecfg\config.eini                                       
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                           
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041418_2\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\MiddleWareCfgInfo                                                          
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\route.info                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\arp.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\ps.info                                                                    
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\top.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\ifconfig.info                                                              
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\ULog_1.log                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\meminfo.info                                                               
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\ULog_2.log                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\MiddleWareCfgInfo\cfgchglog                                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\MiddleWareCfgInfo\ztecfg                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                     
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\MiddleWareCfgInfo\ztecfg\config.eini                                       
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                           
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_3\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\MiddleWareCfgInfo                                                          
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\route.info                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\arp.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\ps.info                                                                    
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\top.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\ifconfig.info                                                              
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\ULog_1.log                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\MiddleWareCfgInfo\cfgchglog                                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\MiddleWareCfgInfo\ztecfg                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                     
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\MiddleWareCfgInfo\ztecfg\config.eini                                       
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                           
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_4\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\MiddleWareCfgInfo                                                          
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\route.info                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\ULog_1.log                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\arp.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\ps.info                                                                    
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\top.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\ifconfig.info                                                              
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\MiddleWareCfgInfo\cfgchglog                                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\MiddleWareCfgInfo\ztecfg                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                     
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\MiddleWareCfgInfo\ztecfg\config.eini                                       
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                           
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_5\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\MiddleWareCfgInfo                                                          
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\route.info                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\arp.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\ps.info                                                                    
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\ULog_1.log                                                                 
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\top.info                                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\ifconfig.info                                                              
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\meminfo.info                                                               
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\MiddleWareCfgInfo\cfgchglog                                                
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\MiddleWareCfgInfo\ztecfg                                                   
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                     
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\MiddleWareCfgInfo\ztecfg\config.eini                                       
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                           
+D:\LOG_ZTESTB\U_C4741EF6BE19_202309041417_6\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                                
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1                                                                        
+D:\LOG_ZTESTB_OFF\STARTUPLOG                                                                                           
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2                                                                        
+D:\LOG_ZTESTB_OFF\logconfig.ini                                                                                        
+D:\LOG_ZTESTB_OFF\logconfig.ini_lock                                                                                   
+D:\LOG_ZTESTB_OFF\startedTimes.ini_lock                                                                                
+D:\LOG_ZTESTB_OFF\startedTimes.ini                                                                                     
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\MiddleWareCfgInfo                                                      
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\route.info                                                             
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\arp.info                                                               
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\ps.info                                                                
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\ULog_1.log                                                             
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\top.info                                                               
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\ifconfig.info                                                          
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\MiddleWareCfgInfo\cfgchglog                                            
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\MiddleWareCfgInfo\ztecfg                                               
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                 
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                            
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                       
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050218_1\MiddleWareCfgInfo\ztecfg\config.eini                                   
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\MiddleWareCfgInfo                                                      
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\route.info                                                             
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\arp.info                                                               
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\ULog_1.log                                                             
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\ps.info                                                                
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\top.info                                                               
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\ifconfig.info                                                          
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\MiddleWareCfgInfo\cfgchglog                                            
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\MiddleWareCfgInfo\ztecfg                                               
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\MiddleWareCfgInfo\cfgchglog\CfgChg.log                                 
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\MiddleWareCfgInfo\ztecfg\update_4301_5.eini                            
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\MiddleWareCfgInfo\ztecfg\update_4301_5.eini.back                       
+D:\LOG_ZTESTB_OFF\U_C4741EF2FAFB_202402050220_2\MiddleWareCfgInfo\ztecfg\config.eini                                   
+D:\Amlogic_USB_Burning_Tool_v2.2.0\Driver                                                                              
+D:\Amlogic_USB_Burning_Tool_v2.2.0\Amlogic USB Burning Tool v2.2.0.exe                                                 
+D:\Amlogic_USB_Burning_Tool_v2.2.0\Credits.txt                                                                         
+D:\Amlogic_USB_Burning_Tool_v2.2.0\How to Use.url                                                                      
+D:\Amlogic_USB_Burning_Tool_v2.2.0\Latest Version.url                                                                  
+D:\Amlogic_USB_Burning_Tool_v2.2.0\Driver\Download.url                                                                 
+
+

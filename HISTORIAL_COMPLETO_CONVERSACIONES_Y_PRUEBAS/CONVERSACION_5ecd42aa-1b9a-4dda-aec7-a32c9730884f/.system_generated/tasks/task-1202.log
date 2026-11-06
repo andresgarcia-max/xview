@@ -1,0 +1,36 @@
+
+File           Hash_V2          Hash_Normal      Hash_5_FW       
+----           -------          -----------      ---------       
+boot.img       80EA01A3CD790586 80EA01A3CD790586 80EA01A3CD790586
+bootloader.img 5E2D75B503898C22 5E2D75B503898C22 5E2D75B503898C22
+conf.img       62F3DBF4D1402D03 62F3DBF4D1402D03 62F3DBF4D1402D03
+cri_data.img   F0BD6FEB51DDECEF F0BD6FEB51DDECEF NO_EXISTE       
+dtb.img        DA5D342D327DEA07 DA5D342D327DEA07 DA5D342D327DEA07
+dtbo.img       446040AA48DB036F 446040AA48DB036F 446040AA48DB036F
+factory.img    4E94BC4A31F30FF1 4E94BC4A31F30FF1 NO_EXISTE       
+logo.img       2F6F6636F2E64AEC 2F6F6636F2E64AEC 2F6F6636F2E64AEC
+oem.img        080ACF35A507AC98 080ACF35A507AC98 080ACF35A507AC98
+param.img      048594B9FB17D123 048594B9FB17D123 048594B9FB17D123
+recovery.img   7CB3D56D3200966B 497B76DF356F457C 9AE79A6F88D0E541
+vbmeta.img     D5DF0D60A74AF48E NO_EXISTE        D5DF0D60A74AF48E
+
+
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\aml_upgrade_package.conf    
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12-common.dtsi       
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a-u200.dts         
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a-x96-max.dts      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a.dtsi             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-s4.dtsi               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\optimizar_imagen_y_hdmi_x...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\uboot_env_franklin_b866v2...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\BLOQUES_ASCII_RAW_COMPLETOS.txt          
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md  
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\LECTURA_COMPLETA_UART_UTF16.txt          
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\LOG_UART_LIMPIO_COMPLETO.txt             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\SECCIONES_CRITICAS_COMPLETAS.txt         
+C:\Users\andre\OneDrive\Desktop\xview\experimento\13_CAPTURA_UART_TTL_SMARTTY\SECUENCIA_ARRANQUE_CONTIGUA_UART.txt     
+
+

@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:152:<<<<<<< HEAD
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:155:=======
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:158:>>>>>>> origin/main
+
+

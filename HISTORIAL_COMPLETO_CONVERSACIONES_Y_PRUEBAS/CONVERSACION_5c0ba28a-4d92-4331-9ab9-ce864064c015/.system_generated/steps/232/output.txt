@@ -1,0 +1,41 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:152:<<<<<<< HEAD
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:155:=======
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:158:>>>>>>> origin/main
+LEGENDS\src\components\access\SmartFitKiosk.tsx:500:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:502:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:645:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:647:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:984:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:986:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:1101:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:1103:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:1192:        {/* 
+============================================================== */}
+LEGENDS\src\components\access\SmartFitKiosk.tsx:1194:        {/* 
+============================================================== */}
+LEGENDS\src\utils\excelExport.ts:47:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:49:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:110:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:112:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:166:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:168:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:219:// ==========================================
+LEGENDS\src\utils\excelExport.ts:221:// ==========================================
+LEGENDS\src\utils\excelExport.ts:251:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:253:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:294:  // ==========================================
+LEGENDS\src\utils\excelExport.ts:296:  // ==========================================
+
+

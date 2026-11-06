@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+
+      </div>
+
+      {/* MODAL 1: REGISTRO CLIENTE NUEVO */}
+      {showNewMemberModal && (
+        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+          <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-xl w-full p-5 sm:p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 my-auto max-h-[95vh] overflow-y-auto overflow-hidden">
+            {/* Background Fitness Dumbbell Photo */}
+            <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+              <img 
+                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+                className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent shadow-[0_0_15px_#f59e0b] pointer-events-none" />
+            </div>
+            
+            {/* Header */}
+            <div className="relative z-10 flex items-center justify-between border-b border-white/15 pb-4 mb-4">
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-2xl shadow-inner">
+                  👤
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h3 className="text-lg sm:text-xl font-black text-white uppercase tracking-wider">
+                      Registro de Cliente Nuevo
+                    </h3>
+                    <span className="text-[10px] uppercase font-black px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/40">
+                      Inscripción
+                    </span>
+                  </div>
+                  <p className="text-xs text-gray-300 mt-0.5">
+                    Ingresa tus datos personales, mensualidad y opción de pago
+                  </p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setShowNewMemberModal(false)}
+                className="p-2 rounded-xl hover:bg-white/10 text-gray-400 hover:text-white transition-colors"

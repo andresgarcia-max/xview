@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\aml_upgrade_package.conf    
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12-common.dtsi       
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a-u200.dts         
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a-x96-max.dts      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a.dtsi             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-s4.dtsi               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\optimizar_imagen_y_hdmi_x...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\uboot_env_franklin_b866v2...
+
+

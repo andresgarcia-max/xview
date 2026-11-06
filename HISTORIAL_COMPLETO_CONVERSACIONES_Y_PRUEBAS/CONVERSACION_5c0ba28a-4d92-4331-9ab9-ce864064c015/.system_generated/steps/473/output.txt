@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\tmp_update_storage.js' imported from C:\Users\andre\OneDrive\Desktop\gym\
+Did you mean to import "file:///c:/Users/andre/OneDrive/Desktop/gym/LEGENDS/tmp_update_storage.js"?
+    at finalizeResolution (node:internal/modules/esm/resolve:276:11)
+    at moduleResolve (node:internal/modules/esm/resolve:892:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1019:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:705:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:725:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:763:56)
+    at #resolve (node:internal/modules/esm/loader:687:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:607:35)
+    at node:internal/modules/esm/loader:636:32
+    at TracingChannel.tracePromise (node:diagnostics_channel:362:14) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///c:/Users/andre/OneDrive/Desktop/gym/LEGENDS/tmp_update_storage.js'
+}
+
+Node.js v24.21.0

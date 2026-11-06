@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Spawning: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\ControlDeAccesoLegends.exe
+STDERR: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\ControlDeAccesoLegends.exe: bad option: --terminal
+
+Exited with code: 9 signal: null
+Still running after 5s? PID: 320

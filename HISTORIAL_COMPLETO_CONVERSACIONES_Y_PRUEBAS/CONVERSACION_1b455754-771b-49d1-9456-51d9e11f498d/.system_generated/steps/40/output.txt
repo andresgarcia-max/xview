@@ -1,0 +1,40 @@
+Command exited with code 0.
+
+Command output:
+
+Folder                                                                     SizeMB
+------                                                                     ------
+04_Puertos_Monitoreo_y_Administracion                                      181.26
+04_Puertos_Monitoreo_y_Administracion\routerfleet                          139.84
+02_IP_Listas_y_Redes                                                        92.61
+01_Configuraciones_y_Scripts                                                92.22
+01_Configuraciones_y_Scripts\mikrotik-tools                                 89.09
+02_IP_Listas_y_Redes\iplist                                                 84.44
+04_Puertos_Monitoreo_y_Administracion\MikroDash                              39.7
+03_Seguridad_y_Firewall                                                     24.61
+03_Seguridad_y_Firewall\BlackIPforFirewall                                  11.13
+03_Seguridad_y_Firewall\mikrotik-fwban                                       8.35
+02_IP_Listas_y_Redes\Mikrotik-IP-Firewall                                    6.55
+03_Seguridad_y_Firewall\sara                                                 3.68
+01_Configuraciones_y_Scripts\routeros-scripts                                2.16
+02_IP_Listas_y_Redes\IP-Prefix-List                                          1.55
+04_Puertos_Monitoreo_y_Administracion\mktxp                                  1.23
+03_Seguridad_y_Firewall\Mikrotik-Blacklist                                   0.84
+04_Puertos_Monitoreo_y_Administracion\MAC-Telnet                             0.48
+03_Seguridad_y_Firewall\mikrotik-toolkit                                     0.47
+01_Configuraciones_y_Scripts\Mikrotik-RouterOS-automatic-backup-and-update   0.46
+01_Configuraciones_y_Scripts\mikrotik_configurator                           0.31
+03_Seguridad_y_Firewall\routeros-scanner                                     0.14
+01_Configuraciones_y_Scripts\Scripts-MikroTik                                0.12
+01_Configuraciones_y_Scripts\awesome-mikrotik                                0.06
+02_IP_Listas_y_Redes\mikrotik-wireguard-config-generator                     0.06
+01_Configuraciones_y_Scripts\perfectrestore                                  0.04
+00_Plantillas_RSC_Listas_Para_Usar                                           0.02
+
+
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\microtik\microtik\01_Configuraciones_y_Scripts\mikrotik-tools\.git\objects\pack\pack...
+
+

@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+=1 : El t�rmino '=1' no se reconoce como nombre de un cmdlet, funci�n, archivo de script o programa ejecutable. 
+Compruebe si escribi� correctamente el nombre o, si incluy� una ruta de acceso, compruebe que dicha ruta es correcta e 
+int�ntelo de nuevo.
+En l�nea: 1 Car�cter: 1
++ ='1'; cd 'LEGENDS/release/FITNESS_LEGENDS_TERMINAL-win32-x64'; .\Cont ...
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (=1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+

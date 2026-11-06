@@ -1,0 +1,75 @@
+Command exited with code 0.
+
+Command output:
+0x00FA21: _Z17read_wipe_packagePNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEjS6_
+0x010004: wipe_block_device
+0x0309BF: prompt_and_wipe_data
+0x0309D6: <3>systemcontrol: [ubootenv] read error 0x%x 
+0x0310DF: update_package
+0x031145: <3>systemcontrol: [ubootenv] CRC Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+0x0316C6: bootable/recovery/recovery_main.cpp
+0x031722: wipe_ab
+0x0317B9: bootable/recovery/zte/zte_inifile.c
+0x031BA0: bootable/recovery/otautil/rangeset.cpp
+0x031BC7: bootable/recovery/otautil/verifier.cpp
+0x031CFB: <3>systemcontrol: [ubootenv] get MTD info error
+0x031D30: <6>systemcontrol: [ubootenv] set property count: %d
+0x031F35: bootable/recovery/recovery_utils/logging.cpp
+0x0323D8: <3>systemcontrol: [ubootenv] %s is not a ubootenv varible.
+0x032414: <3>systemcontrol: [ubootenv] Not enough memory for environment (%u bytes)
+0x032BA1: <3>systemcontrol: [ubootenv] don't init done
+0x032BCF: <3>systemcontrol: [ubootenv] SYS_LOGE write, size %d 
+0x0330F6: bootable/recovery/otautil/package.cpp
+0x03330E: bootable/recovery/recovery.cpp
+0x033906: <3>systemcontrol: [ubootenv] open devices error: %s
+0x034459: SetUSBHost 
+0x034484: <3>systemcontrol: [ubootenv] Get MTD info error
+0x034B83: bootable/recovery/recovery_utils/battery_utils.cpp
+0x035177: wipe_cache
+0x03576C: <3>systemcontrol: [ubootenv] bootenv do not init
+0x03579E: <3>systemcontrol: [ubootenv] Invalid env data key:%s, value:%s
+0x035EB3: bootable/recovery/fastboot/fastboot.cpp
+0x035EDB: <3>systemcontrol: [ubootenv] CRC2 Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+0x035F2C: <3>systemcontrol: [ubootenv] Read access failed !!!
+0x035F61: bootable/recovery/zte/zte_recovery.cpp
+0x0366B6: <6>systemcontrol: [ubootenv] update value name [%s]: value [%s] 
+0x036741: [PreUpdateConfig]-input pcFBuf not available
+0x037030: bootable/recovery/install/wipe_data.cpp
+0x0374DC: bootable/recovery/otautil/sysutil.cpp
+0x037622: wipe_package_size
+0x037673: <3>systemcontrol: [ubootenv] %s is not a ubootenv variable.
+0x0376B0: <3>systemcontrol: [ubootenv] MEMERASE SYS_LOGE %d
+0x03770C: PreUpdateConfig failed, ret = %d!
+0x037EFD: SetUSBDevice 
+0x038568: ubootenv.var.
+0x038599: <3>systemcontrol: [ubootenv] Out of memory!!!
+0x038BF0: /cache/recovery/last_middwarecfg_otaUpgrade.ini
+0x038C9B: bootable/recovery/install/adb_install.cpp
+0x039253: <6>systemcontrol: [ubootenv] using %s with size(%d) (%d)
+0x03996C: <3>systemcontrol: [ubootenv] parse attribute malloc error 
+0x039A10: bootable/recovery/install/fuse_install.cpp
+0x039AD7: wipe_block_device
+0x039F47: wipe_data
+0x039F53: ubootenv.var.bootcmd
+0x039F68: <5>systemcontrol: [ubootenv] ubootenv.var.%s not found, create it.
+0x039FAC: <3>systemcontrol: [ubootenv] open devices error
+0x03A5E4: bootable/recovery/install/wipe_device.cpp
+0x03ADDC: <3>systemcontrol: [ubootenv] error need '=' skip this value
+0x03B38F: <3>systemcontrol: [ubootenv] Cannot write %s: %d.
+0x03BB56: bootable/recovery/install/udisk_upgrade.cpp
+0x03BFAA: <6>systemcontrol: [ubootenv] Save ubootenv to %s succeed!
+0x03BFE5: <3>systemcontrol: [ubootenv] read %s failed 
+0x03C013: update_package = [%s]
+0x03C048: [PreUpdateConfig]-[calloc] failed
+0x03C0EB: bootable/recovery/recovery_utils/thermalutil.cpp
+0x03C5B4: <3>systemcontrol: [ubootenv] Cannot read %s: %d.
+0x03C770: wipe_package_size is zero
+0x03C7A1: bootable/recovery/install/spl_check.cpp
+0x03CB45: <3>systemcontrol: [ubootenv] open device(%s) error
+0x03D0F1: UpdateMode=1,need to wipe_data
+0x03D132: [PreUpdateConfig]-input iLen not available
+0x03D176: find middware config file,need to chown system!
+0x03D222: bootable/recovery/install/snapshot_utils.cpp
+0x03D8E5: bootable/recovery/install/install.cpp
+0x03D9DA: bootable/recovery/recovery_utils/roots.cpp
+0x03E2B0: /dev/block/ubootenv

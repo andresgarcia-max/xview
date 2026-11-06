@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+String 'Entering fastboot' at 0x31704
+String 'Set USB Status Success!' at 0x31737
+String 'SetUSBDevice' at 0x37EFD
+String 'SetUSBHost' at 0x34459
+String 'Reboot to bootloader' at 0x3E5A8
+String 'Enter fastboot' at 0xFFFFFFFF
+String 'Enter recovery' at 0x3E9F0

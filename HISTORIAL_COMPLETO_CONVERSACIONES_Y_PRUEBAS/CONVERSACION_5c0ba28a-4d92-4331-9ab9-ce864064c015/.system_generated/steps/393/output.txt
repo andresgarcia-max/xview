@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+Starting diagnosis for packaged app...
+Loading packaged indexPath: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\index.html
+Load completed. Waiting 4s...
+[RENDERER CONSOLE 2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged. (node:electron/js2c/sandbox_bundle:2)
+Screen captured to diagnose_screen.png, dimensions: 1899x914

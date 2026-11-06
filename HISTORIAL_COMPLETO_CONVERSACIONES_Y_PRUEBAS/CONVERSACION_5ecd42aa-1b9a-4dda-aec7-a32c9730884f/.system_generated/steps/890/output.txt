@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+CSC ExitCode: 0
+================================================================================
+   PROGRAMA PERFECTO v4.1 - LIBERACION DIRECTA EN 4 PASOS (XVIEW+ ZTE B866V2)   
+   1. Escanear Memoria -> 2. Modo Fastboot -> 3. Inyectar Firmware -> 4. Exito  
+================================================================================
+  * Caja Detectada : Xview+ ZTE B866V2 (Serie: No detectado)
+  * Estado Actual  : Ninguno detectado por cable USB directo
+--------------------------------------------------------------------------------
+  [1] INICIAR LIBERACION AUTOMATICA EN 4 PASOS CORTOS:
+      1. Escanear la Memoria  ->  2. Entrar en Modo Fastboot  ->  3. Inyectar Firmware  ->  4. Exito Total
+  [2] Preparar Memoria USB (KINGSTON) en PC con Llaves y Firmware Liberado
+  [3] Aplicar Interfaz Xview Liberado directo por ADB / Red Local (:5555)
+  [4] Salir
+--------------------------------------------------------------------------------

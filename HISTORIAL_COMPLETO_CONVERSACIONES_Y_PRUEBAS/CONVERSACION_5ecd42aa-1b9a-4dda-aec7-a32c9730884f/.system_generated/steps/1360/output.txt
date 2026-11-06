@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+
+ProcessId      : 6312
+Name           : Aml_Burn_Tool.exe
+ExecutablePath : 
+CommandLine    : 
+
+
+

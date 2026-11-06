@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                 Length LastWriteTime            
+----                                 ------ -------------            
+1. Sistema ERP Administrador.lnk       2481 24/10/2026 11:37:34 a. m.
+1. SISTEMA_ERP_ADMINISTRADOR.bat        825 24/10/2026 10:53:11 a. m.
+1. SISTEMA_ERP_ADMINISTRADOR.exe      40448 24/10/2026 11:36:41 a. m.
+2. Terminal Torniquete de Acceso.lnk   2543 24/10/2026 11:37:34 a. m.
+2. TERMINAL_TORNIQUETE_ACCESO.bat      1059 24/10/2026 10:53:14 a. m.
+2. TERMINAL_TORNIQUETE_ACCESO.exe     40960 24/10/2026 11:36:46 a. m.
+3. ACCESO_CARTERA_CLIENTES.bat          642 24/10/2026 10:53:17 a. m.
+3. Cartera de Clientes & Socios.lnk    2119 24/10/2026 11:37:34 a. m.
+4. Vincular Equipos en Red LAN.lnk     2116 24/10/2026 11:37:34 a. m.
+4. VINCULAR_EQUIPOS_RED_LAN.bat        2402 24/10/2026 10:53:21 a. m.
+ACCESO_CLIENTES_LEGENDS.exe           41472 24/10/2026 10:31:14 a. m.
+CONTROL_DE_ACCESO.exe                 40960 24/10/2026 11:36:46 a. m.
+LEEME_INSTRUCCIONES_VINCULACION.txt    4487 24/10/2026 10:53:30 a. m.
+SISTEMA_ERP.exe                       40448 24/10/2026 11:36:41 a. m.
+
+

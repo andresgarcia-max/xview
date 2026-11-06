@@ -1,0 +1,31 @@
+Command exited with code 0.
+
+Command output:
+
+
+PSPath            : Microsoft.PowerShell.Core\FileSystem::C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\assets
+PSParentPath      : Microsoft.PowerShell.Core\FileSystem::C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist
+PSChildName       : assets
+PSDrive           : C
+PSProvider        : Microsoft.PowerShell.Core\FileSystem
+PSIsContainer     : True
+Mode              : dar--l
+BaseName          : assets
+Target            : {}
+LinkType          : 
+Name              : assets
+FullName          : C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\assets
+Parent            : dist
+Exists            : True
+Root              : C:\
+Extension         : 
+CreationTime      : 23/10/2026 05:14:21 p. m.
+CreationTimeUtc   : 23/10/2026 11:14:21 p. m.
+LastAccessTime    : 24/10/2026 11:34:15 a. m.
+LastAccessTimeUtc : 24/10/2026 05:34:15 p. m.
+LastWriteTime     : 24/10/2026 11:33:50 a. m.
+LastWriteTimeUtc  : 24/10/2026 05:33:50 p. m.
+Attributes        : ReadOnly, Directory, Archive, ReparsePoint
+
+
+

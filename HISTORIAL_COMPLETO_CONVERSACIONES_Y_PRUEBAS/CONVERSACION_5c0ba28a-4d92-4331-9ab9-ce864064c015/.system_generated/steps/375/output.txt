@@ -1,0 +1,41 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\assets
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  11:43 a. m.         140204 card-cliente-nuevo-Di25OL0W.jpg                                      
+-a---l     24/10/2026  11:43 a. m.         165191 card-huella-KqLoqcdy.jpg                                             
+-a---l     24/10/2026  11:43 a. m.         134325 card-visita-Dv6RuRxl.jpg                                             
+-a---l     24/10/2026  11:26 a. m.        3978592 gym-background-C2ZRMS71.jpg                                          
+-a---l     24/10/2026  11:43 a. m.        1024389 gym-background-motto-BzSRG4ad.jpg                                    
+-a---l     24/10/2026  11:43 a. m.         698002 gym-background-real-COVeywxQ.jpg                                     
+-a---l     24/10/2026  11:43 a. m.         812097 gym-background-svx8pCn8.jpg                                          
+-a---l     24/10/2026  11:26 a. m.        3978592 gym-background.jpg                                                   
+-a---l     24/10/2026  11:43 a. m.         322819 gym-dumbbell-background-Bn1Hvp3H.jpg                                 
+-a---l     24/10/2026  11:26 a. m.        5383994 index-58h3VA_v.js                                                    
+-a---l     24/10/2026  11:26 a. m.         138077 index-6FVZUD2u.css                                                   
+-a---l     24/10/2026  11:26 a. m.        5386908 index-aHGM4Amh.js                                                    
+-a---l     24/10/2026  11:26 a. m.        5387557 index-BDs6okdm.js                                                    
+-a---l     24/10/2026  11:43 a. m.        5390936 index-BJ3gKyIc.js                                                    
+-a---l     24/10/2026  11:43 a. m.        5390367 index-Bt2cl1D3.js                                                    
+-a---l     24/10/2026  11:43 a. m.         142154 index-C2x4tRNs.css                                                   
+-a---l     24/10/2026  11:26 a. m.         141834 index-C99IV4c9.css                                                   
+-a---l     24/10/2026  11:26 a. m.         141585 index-CfcQ9sZ0.css                                                   
+-a---l     24/10/2026  11:26 a. m.         137933 index-ChZxWdoo.css                                                   
+-a---l     24/10/2026  11:26 a. m.        5383126 index-CvPFvsZt.js                                                    
+-a---l     24/10/2026  11:26 a. m.         142004 index-DI3DitWH.css                                                   
+-a---l     24/10/2026  11:43 a. m.         142221 index-DKCV7JLQ.css                                                   
+-a---l     24/10/2026  11:26 a. m.         140967 index-g8NxdOF7.css                                                   
+-a---l     24/10/2026  11:26 a. m.        5389458 index-LtdIavQv.js                                                    
+-a---l     24/10/2026  11:26 a. m.        5388328 index-MNmv5XxK.js                                                    
+-a---l     24/10/2026  11:43 a. m.          68651 logo-EicIKV0G.png                                                    
+-a---l     24/10/2026  11:43 a. m.         227074 modal-gym-bg-D4650c6a.jpg                                            
+-a---l     24/10/2026  11:43 a. m.         775598 pos-banner-BOmoHBRJ.jpg                                              
+
+

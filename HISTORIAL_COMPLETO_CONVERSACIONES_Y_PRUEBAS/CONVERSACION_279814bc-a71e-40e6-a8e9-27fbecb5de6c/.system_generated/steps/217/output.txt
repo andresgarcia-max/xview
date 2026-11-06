@@ -1,0 +1,112 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\auth\LoginScreen.tsx:161:    <div className="min-h-screen bg-gym-bg text-gym-text flex flex-col 
+justify-between relative overflow-hidden select-none">
+LEGENDS\src\components\auth\LoginScreen.tsx:164:      <div className="absolute top-[-15%] left-[-10%] w-[550px] 
+h-[550px] bg-amber-500/10 rounded-full blur-[130px] pointer-events-none" />
+LEGENDS\src\components\auth\LoginScreen.tsx:165:      <div className="absolute bottom-[-15%] right-[-10%] w-[550px] 
+h-[550px] bg-amber-600/10 rounded-full blur-[140px] pointer-events-none" />
+LEGENDS\src\components\auth\LoginScreen.tsx:166:      <div className="absolute top-[40%] right-[20%] w-[350px] 
+h-[350px] bg-amber-500/5 rounded-full blur-[120px] pointer-events-none" />
+LEGENDS\src\components\auth\LoginScreen.tsx:180:          <div className="w-10 h-10 rounded-xl bg-black border 
+border-amber-500/50 p-1 flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.25)]">
+LEGENDS\src\components\auth\LoginScreen.tsx:186:              <span className="text-[10px] uppercase font-black px-1.5 
+py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30">
+LEGENDS\src\components\auth\LoginScreen.tsx:198:            className="flex items-center gap-1.5 px-3 py-1.5 
+rounded-full bg-gym-card/80 hover:bg-gym-surface border border-gym-border text-xs text-gray-300 transition-colors"
+LEGENDS\src\components\auth\LoginScreen.tsx:204:              <span className="px-1.5 py-0.2 rounded-full bg-white/10 
+text-[10px] font-bold text-white">
+LEGENDS\src\components\auth\LoginScreen.tsx:210:          <div className="hidden md:flex items-center gap-2 px-3 
+py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-xs text-emerald-300 font-semibold">
+LEGENDS\src\components\auth\LoginScreen.tsx:223:            <div className="p-4 rounded-2xl bg-red-500/15 border-2 
+border-red-500/50 text-red-200 shadow-[0_0_30px_rgba(239,68,68,0.25)] flex items-start justify-between gap-3 
+animate-shake">
+LEGENDS\src\components\auth\LoginScreen.tsx:225:                <div className="p-2 rounded-xl bg-red-500/20 border 
+border-red-500/40 text-red-400 shrink-0 mt-0.5">
+LEGENDS\src\components\auth\LoginScreen.tsx:240:                className="p-1.5 rounded-lg bg-red-500/20 
+hover:bg-red-500/30 text-red-300 transition-colors shrink-0"
+LEGENDS\src\components\auth\LoginScreen.tsx:251:            <div className="lg:col-span-7 bg-gym-card/90 
+backdrop-blur-xl border border-gym-border rounded-3xl p-6 sm:p-8 shadow-2xl relative">
+LEGENDS\src\components\auth\LoginScreen.tsx:254:              <div className="absolute top-0 left-8 right-8 h-[2px] 
+bg-gradient-to-r from-transparent via-amber-500/60 to-transparent" />
+LEGENDS\src\components\auth\LoginScreen.tsx:257:                <div className="inline-flex items-center gap-1.5 
+px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold mb-3">
+LEGENDS\src\components\auth\LoginScreen.tsx:271:                <div className="mb-5 p-4 rounded-xl bg-red-500/20 
+border border-red-500/50 text-red-200 text-xs flex items-center justify-between gap-3">
+LEGENDS\src\components\auth\LoginScreen.tsx:281:                  <span className="px-3 py-1.5 rounded-lg bg-black/50 
+border border-red-500/40 font-mono font-black text-sm text-red-300 shrink-0">
+LEGENDS\src\components\auth\LoginScreen.tsx:291:                    ? 'bg-amber-500/15 border-amber-500/40 
+text-amber-300'
+LEGENDS\src\components\auth\LoginScreen.tsx:292:                    : 'bg-red-500/15 border-red-500/40 text-red-300'
+LEGENDS\src\components\auth\LoginScreen.tsx:301:                <div className="mb-5 p-3.5 rounded-xl 
+bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 text-xs flex items-center gap-2.5 animate-pulse">
+LEGENDS\src\components\auth\LoginScreen.tsx:332:                      className="w-full bg-gym-surface/80 border 
+border-gym-border rounded-xl pl-10 pr-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none 
+focus:border-amber-400 focus:ring-1 focus:ring-amber-400 transition-all disabled:opacity-50"
+LEGENDS\src\components\auth\LoginScreen.tsx:368:                      className="w-full bg-gym-surface/80 border 
+border-gym-border rounded-xl pl-10 pr-11 py-3 text-sm text-white placeholder-gray-500 focus:outline-none 
+focus:border-amber-400 focus:ring-1 focus:ring-amber-400 transition-all disabled:opacity-50 tracking-wider"
+LEGENDS\src\components\auth\LoginScreen.tsx:391:                  <div className="p-4 rounded-2xl bg-amber-500/10 
+border border-amber-500/40 space-y-2.5 animate-fade-in">
+LEGENDS\src\components\auth\LoginScreen.tsx:422:                        className="w-full pl-10 pr-4 py-2.5 rounded-xl 
+bg-black/60 border border-amber-500/40 text-white text-xs font-mono tracking-widest focus:outline-none 
+focus:border-amber-400"
+LEGENDS\src\components\auth\LoginScreen.tsx:430:                  <div className="p-3.5 rounded-2xl bg-gym-surface/60 
+border border-gym-border space-y-2">
+LEGENDS\src\components\auth\LoginScreen.tsx:446:                          className="py-2.5 rounded-xl bg-gym-card 
+hover:bg-white/10 border border-gym-border text-sm font-black text-white transition-all active:scale-95"
+LEGENDS\src\components\auth\LoginScreen.tsx:457:                        className="py-2.5 rounded-xl bg-red-500/10 
+hover:bg-red-500/20 border border-red-500/30 text-xs font-bold text-red-300 transition-all"
+LEGENDS\src\components\auth\LoginScreen.tsx:465:                        className="py-2.5 rounded-xl bg-gym-card 
+hover:bg-white/10 border border-gym-border text-sm font-black text-white transition-all active:scale-95"
+LEGENDS\src\components\auth\LoginScreen.tsx:473:                        className="py-2.5 rounded-xl bg-gym-card 
+hover:bg-white/10 border border-gym-border flex items-center justify-center text-gray-300 transition-all"
+LEGENDS\src\components\auth\LoginScreen.tsx:485:                  className="w-full mt-2 py-3 px-4 rounded-xl 
+bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 text-black font-extrabold text-sm flex items-center 
+justify-center gap-2 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all transform active:scale-[0.99] 
+disabled:opacity-50 disabled:cursor-not-allowed"
+LEGENDS\src\components\auth\LoginScreen.tsx:515:                  <span className="w-2 h-2 rounded-full bg-emerald-400 
+animate-pulse" />
+LEGENDS\src\components\auth\LoginScreen.tsx:525:              <div className="bg-gym-card/60 backdrop-blur-md border 
+border-gym-border/80 rounded-2xl p-5 shadow-lg">
+LEGENDS\src\components\auth\LoginScreen.tsx:531:                  <span className="text-[10px] px-2 py-0.5 
+rounded-full bg-white/5 border border-white/10 text-gym-muted font-semibold">
+LEGENDS\src\components\auth\LoginScreen.tsx:544:                        ? { label: 'Administrador', color: 
+'bg-amber-500/20 text-amber-400 border-amber-500/30' }
+LEGENDS\src\components\auth\LoginScreen.tsx:546:                        ? { label: 'Recepci�n', color: 'bg-blue-500/20 
+text-blue-400 border-blue-500/30' }
+LEGENDS\src\components\auth\LoginScreen.tsx:547:                        : { label: 'Entrenador', color: 
+'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' };
+LEGENDS\src\components\auth\LoginScreen.tsx:557:                            ? 'bg-white/10 border-amber-400 ring-1 
+ring-amber-400/40'
+LEGENDS\src\components\auth\LoginScreen.tsx:558:                            : 'bg-gym-surface/80 hover:bg-gym-surface 
+border-gym-border hover:border-amber-500/50'
+LEGENDS\src\components\auth\LoginScreen.tsx:579:                                <span className="text-[9px] 
+text-zinc-400 bg-white/5 px-1.5 py-0.2 rounded">
+LEGENDS\src\components\auth\LoginScreen.tsx:589:                            ? 'bg-amber-500 text-black'
+LEGENDS\src\components\auth\LoginScreen.tsx:590:                            : 'bg-gym-card text-gym-muted 
+group-hover:text-amber-400 group-hover:bg-amber-500/20'
+LEGENDS\src\components\auth\LoginScreen.tsx:601:              <div className="p-4 rounded-2xl bg-gym-card/60 border 
+border-gym-border text-xs space-y-2.5">
+LEGENDS\src\components\auth\LoginScreen.tsx:619:                    <span className="w-1.5 h-1.5 rounded-full 
+bg-emerald-400 shrink-0" />
+LEGENDS\src\components\auth\LoginScreen.tsx:623:                    <span className="w-1.5 h-1.5 rounded-full 
+bg-emerald-400 shrink-0" />
+LEGENDS\src\components\auth\LoginScreen.tsx:627:                    <span className="w-1.5 h-1.5 rounded-full 
+bg-emerald-400 shrink-0" />
+LEGENDS\src\components\auth\LoginScreen.tsx:631:                    <span className="w-1.5 h-1.5 rounded-full 
+bg-emerald-400 shrink-0" />
+LEGENDS\src\components\auth\LoginScreen.tsx:654:        <div className="fixed inset-0 z-50 bg-black/80 
+backdrop-blur-sm flex items-center justify-center p-4">
+LEGENDS\src\components\auth\LoginScreen.tsx:655:          <div className="bg-gym-card border border-gym-border 
+rounded-2xl w-full max-w-lg overflow-hidden shadow-2xl">
+LEGENDS\src\components\auth\LoginScreen.tsx:692:                          ? 'bg-red-500/10 border-red-500/30 
+text-red-200'
+LEGENDS\src\components\auth\LoginScreen.tsx:694:                          ? 'bg-emerald-500/10 border-emerald-500/30 
+text-emerald-200'
+LEGENDS\src\components\auth\LoginScreen.tsx:695:                          : 'bg-gym-surface border-gym-border 
+text-gray-300'
+
+

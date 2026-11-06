@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+modal-gym-bg.jpg size: 227074
+gym-dumbbell-background.jpg size: 322819

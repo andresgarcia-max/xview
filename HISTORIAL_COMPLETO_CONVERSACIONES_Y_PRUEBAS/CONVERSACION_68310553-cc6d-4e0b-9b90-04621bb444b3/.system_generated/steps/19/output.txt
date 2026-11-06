@@ -1,0 +1,55 @@
+Command exited with code 0.
+
+Command output:
+
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:14:| **Nombre en clave de 
+placa (Board)** | `franklin` (Referencia Amlogic `u212`) |
+> experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:15:| **SoC (Procesador)** | 
+**Amlogic S905X2** (`meson-g12a`), 12 nm, Quad-Core ARM Cortex-A53 @ 1.8 GHz |
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:16:| **GPU** | ARM Mali-G31 
+MP2 (Soporte OpenGL ES 3.2, Vulkan 1.1) |
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:29:
+> experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:30:| Modelo / Variante | Año 
+/ Generación | Procesador (SoC) | Arquitectura / Nodo | Códec AV1 | GPU | Notas y Cambios Clave |
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:31:| :--- | :--- | :--- | 
+:--- | :--- | :--- | :--- |
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:54:### B. SlimBoxTV (`sbox`) 
+y Aidan's ROM
+> experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:55:* Desarrolladas en los 
+foros rusos **4PDA** y en **XDA Developers** para procesadores Amlogic `S905X2` (`u212` / `g12a`).
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:56:* Incluyen acceso **Root 
+(Magisk/SuperSU)** opcional, ajustes avanzados de **Amlogic DroidSettings** (control manual de HDR→SDR, espacio de 
+color RGB/YCbCr 4:4:4, auto-framerate y control CEC avanzado).
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:60:* **Debian en B866V2 
+(`mirko-geno/b866v2-debian`):** Configuración documentada para arrancar Debian Linux mínimo en el ZTE B866V2 usando el 
+DTB `meson-g12a-u200.dtb` / `meson-g12a-x96-max.dtb`.
+> experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:61:* **Armbian 
+(`ophub/amlogic-s9xxx-armbian`):** Soporta los procesadores `S905X2` (`g12a`) y `S905Y4` mediante arranque externo 
+USB/SD card (`u-boot.ext`).
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:62:
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:89:7. **`Explorer9952__b600` 
+y `Explorer9952__zte-b700v5-binder-devkit`:** Documentación y utilidades para decodificadores ZTE ZXV10.
+> experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:90:8. 
+**`7Ji__amlogic-s9xxx-archlinuxarm`:** Herramientas de arranque para procesadores Amlogic S9xxx (`g12a`).
+  experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:91:9. 
+**`bg4hkq__meson-gxl-s905mb-p211`:** Volcados de Device Tree (`.dts` / `.dtb`) y particiones de decodificadores ZTE 
+ZXV10.
+  experimento\06_internet_y_repositorios\INVESTIGACION_GLOBAL_ZTE_ZXV10_B820C_A15_LE.md:32:| :--- | :--- | :--- |
+> experimento\06_internet_y_repositorios\INVESTIGACION_GLOBAL_ZTE_ZXV10_B820C_A15_LE.md:33:| **SoC (Procesador)** | 
+**Amlogic S905X2** (`meson-g12a`, 12 nm) | **Idéntico** (`Amlogic S905X2`) |
+  experimento\06_internet_y_repositorios\INVESTIGACION_GLOBAL_ZTE_ZXV10_B820C_A15_LE.md:34:| **CPU** | Quad-Core **ARM 
+Cortex-A53** @ hasta **1.8 GHz** (64-bit `aarch64`, 18,400 DMIPS) | **Idéntico** |
+  experimento\06_internet_y_repositorios\INVESTIGACION_GLOBAL_ZTE_ZXV10_B820C_A15_LE.md:45:> **Incompatibilidad 
+directa de `bootloader.img` (BL2) entre B820C-A15 y B866V2:**
+> experimento\06_internet_y_repositorios\INVESTIGACION_GLOBAL_ZTE_ZXV10_B820C_A15_LE.md:46:> Aunque ambos usan el SoC 
+**Amlogic S905X2**, el **B820C-A15 LE** utiliza memoria **DDR3**, mientras que el **B866V2** usa **DDR4** 
+(`g12a_u212_2g`). Flashear directamente el `bootloader.img` de un `B866V2` sobre un `B820C-A15` provocará fallo de 
+inicialización de RAM en `BL2` (brick recuperable únicamente por puente **MaskROM / ISP**).
+  experimento\06_internet_y_repositorios\INVESTIGACION_GLOBAL_ZTE_ZXV10_B820C_A15_LE.md:47:
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:126:| :--- | :--- | :--- |
+> experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:127:| **SoC** | `Amlogic G12A 
+(S905X2) Rev C` (`28:C - 40:2`) | Revisión C del procesador S905X2, 4 núcleos ARM Cortex-A53 @ `1200 MHz` |
+  experimento\13_CAPTURA_UART_TTL_SMARTTY\INFORME_FORENSE_UART_TTL_SMARTTY_REA.md:128:| **Chip Ring / Efuse ID** | `28 
+0c 40 00 01 19 10 00 00 0e 34 32 35 57 33 50` | Serial único en silicio (`OPS=0x40`). Lote de oblea ASCII: `425W3P` |
+
+

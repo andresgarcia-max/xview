@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+gym-dumbbell-background.jpg -> 2560x1440
+dumbbell_widescreen_test.jpg -> 2560x1440
+wide_dumbbell_seamless.jpg -> 2560x1440
+modal-gym-bg-hd.jpg -> 1200x1800
+LEGENDS\src\assets\modal-gym-bg.jpg -> 1200x1800
+LEGENDS\src\assets\web-gym-weights.jpg -> 800x533
+LEGENDS\src\assets\gym-background-club-perfect.jpg -> 3840x2160

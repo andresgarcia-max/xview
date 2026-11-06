@@ -1,0 +1,76 @@
+Command exited with code 0.
+
+Command output:
+getvar:unlocked                                    FAILED (Write to device failed (no link))
+Finished. Total time: 5.009s
+
+Name                     Length
+----                     ------
+boot.img               16777216
+bootloader.img          1857536
+cache_ext4.img         67108864
+conf.img                4194304
+dtb.img                  262144
+dtbo.img                8388608
+env_unlocked.img          65536
+logo.img                 287800
+misc_clean.img             4096
+oem.img                16777216
+param.img              16777216
+recovery.img           25165824
+vbmeta.img              2097152
+.gitignore                   16
+7za.exe                  739840
+adb.exe                 5992960
+AdbWinApi.dll             97792
+AdbWinUsbApi.dll          62976
+adnl.exe                2436809
+Amldbglog.dll             11776
+AmlLibusb.dll             26624
+AmlUsbScanX3.dll          26112
+boot.img               16777216
+bootloader.img          1857536
+brotli.exe               780536
+busybox.exe              234496
+conf.img                4194304
+cri_data.img            8388608
+cygwin1.dll             3406908
+cygz.dll                  81437
+dmtracedump.exe          241664
+dtb.img                  262144
+dtbo.img                8388608
+etc1tool.exe             434176
+factory.img             8388608
+fastboot.exe            1775104
+hprof-conv.exe            44032
+libiconv2.dll            978432
+libintl3.dll             103424
+libmagic.dll             381440
+libwinpthread-1.dll      141538
+logo.ccd                    768
+logo.img                 287800
+logo.sub                  92160
+magic.mgc               5842840
+make_f2fs.exe            150528
+make_f2fs_casefold.exe   150528
+mke2fs.conf                1157
+mke2fs.exe               749568
+msvcp100.dll             421200
+msvcp140.dll             419984
+msvcr100.dll             773968
+NOTICE.txt              1073883
+oem.img                16777216
+param.img              16777216
+pcre3.dll                140288
+recovery.img           25165824
+regex2.dll                79360
+source.properties            40
+sqlite3.exe             1153536
+update.exe                59904
+UsbRomDrv.dll             24576
+vbmeta.img              2097152
+vccorlib140.dll          264032
+vcruntime140.dll          77576
+zlib1.dll                107520
+
+

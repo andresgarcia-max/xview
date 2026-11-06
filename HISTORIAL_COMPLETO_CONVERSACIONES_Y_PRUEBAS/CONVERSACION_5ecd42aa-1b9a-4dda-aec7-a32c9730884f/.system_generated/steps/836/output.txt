@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+_Z23read_bootloader_messageP18bootloader_messagePNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+_Z24write_bootloader_messageRK18bootloader_messagePNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+_Z25update_bootloader_messageRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEEPS6_
+_Z24clear_bootloader_messagePNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+libbootloader_message.so
+bootloader
+Entering fastboot
+sys.usb.config
+Failed to write bootloader message: 
+Partitions may be mounted - rebooting to enter fastboot.
+bootable/recovery/fastboot/fastboot.cpp
+fastboot
+Unable to unmap all partitions; fastboot may fail to flash.
+Rebooting to recovery/fastboot...
+Bootloader version - 
+userrequested,fastboot
+Rebooting to bootloader...
+boot-fastboot
+--fastboot
+ro.bootloader
+Reboot to bootloader
+Android Fastboot

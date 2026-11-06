@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     23/10/2026  05:19 p. m.                avatars                                                              
+-a---l     22/10/2026  09:02 a. m.         140204 card-cliente-nuevo.jpg                                               
+-a---l     22/10/2026  09:02 a. m.         165191 card-huella.jpg                                                      
+-a---l     22/10/2026  09:02 a. m.         134325 card-visita.jpg                                                      
+-a----     24/10/2026  09:15 a. m.         297334 gym-background-2.jpg                                                 
+-a----     24/10/2026  09:15 a. m.        3978592 gym-background-4k.jpg                                                
+-a----     24/10/2026  09:15 a. m.         963759 gym-background-club-4k.jpg                                           
+-a----     24/10/2026  09:15 a. m.        3978592 gym-background-club-8k.jpg                                           
+-a----     24/10/2026  09:15 a. m.         879111 gym-background-club-noceiling.jpg                                    
+-a----     24/10/2026  09:15 a. m.         963759 gym-background-club-perfect.jpg                                      
+-a---l     19/10/2026  08:38 a. m.        1024389 gym-background-motto.jpg                                             
+-a----     24/10/2026  09:15 a. m.        3978592 gym-background.jpg                                                   
+-a---l     16/10/2026  03:32 p. m.          13057 hero.png                                                             
+-a---l     16/10/2026  03:32 p. m.          68651 logo.png                                                             
+-a---l     23/10/2026  03:49 p. m.         227074 modal-gym-bg.jpg                                                     
+-a----     24/10/2026  09:15 a. m.         775598 pos-banner.jpg                                                       
+-a---l     16/10/2026  03:32 p. m.           4126 react.svg                                                            
+-a---l     16/10/2026  03:32 p. m.           8710 vite.svg                                                             
+-a---l     23/10/2026  08:30 a. m.          83260 web-gym-nuevo.jpg                                                    
+-a---l     23/10/2026  08:30 a. m.          68834 web-gym-visita.jpg                                                   
+-a---l     23/10/2026  08:30 a. m.          94038 web-gym-weights.jpg                                                  
+
+

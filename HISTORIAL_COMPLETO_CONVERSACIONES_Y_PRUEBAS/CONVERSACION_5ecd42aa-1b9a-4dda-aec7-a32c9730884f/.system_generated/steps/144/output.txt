@@ -1,0 +1,61 @@
+Command exited with code 0.
+
+Command output:
+node : El término 'node' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ node -v
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (node:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.agents
+.github
+.husky
+bridge
+docs
+examples
+experiments
+licenses
+native
+patches
+scripts
+src
+tests
+third_party
+website
+.gitattributes
+.gitignore
+.gitmodules
+.jscpd.json
+.npmrc
+.nvmrc
+.oxfmtrc.json
+.oxlintrc.json
+.release-please-manifest.json
+AGENTS.md
+CHANGELOG.md
+CONTRIBUTING.md
+DISCLAIMER.md
+install.sh
+knip.json
+knip.production.json
+LICENSE
+package-lock.json
+package.json
+README.md
+release-please-config.json
+SECURITY.md
+server.json
+stryker.config.mjs
+stryker.semantics.config.mjs
+THIRD_PARTY_NOTICES.md
+tsconfig.build.json
+tsconfig.frida-verification.json
+tsconfig.json
+tsconfig.reverse-tools-mutation.json
+turbo.json
+vitest.config.ts
+vitest.reverse-tools-semantics.config.ts
+vitest.reverse-tools.config.ts

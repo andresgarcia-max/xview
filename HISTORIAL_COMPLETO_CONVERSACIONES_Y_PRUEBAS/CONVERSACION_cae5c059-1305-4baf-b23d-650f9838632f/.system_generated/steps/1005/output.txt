@@ -1,0 +1,42 @@
+Command exited with code 0.
+
+Command output:
+  const [isMuted, setIsMuted] = useState(false);
+  // Bulletproof gym background wallpapers with multi-tier fallbacks
+  const BG_OPTIONS = [
+    { id: 'gymBg', name: 'Gimnasio Legends (Pared Neón & Caminadoras)', primary: gymBg, fallback: './gym-background.jpg' },
+    { id: 'gymBgMotto', name: 'Mural Motivacional Legends', primary: gymBgMotto, fallback: './gym-background-motto.jpg' },
+    { id: 'modalGymBg', name: 'Mancuernas Pro Dark', primary: modalGymBg, fallback: './modal-gym-bg.jpg' }
+  ];
+
+  const [bgIndex, setBgIndex] = useState<number>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const ver = localStorage.getItem('legends_terminal_bg_ver');
+        if (ver !== 'v12_bulletproof_original_bg') {
+          localStorage.setItem('legends_terminal_bg_ver', 'v12_bulletproof_original_bg');
+          localStorage.removeItem('legends_terminal_bg');
+          localStorage.setItem('legends_terminal_bg_index', '0');
+          return 0;
+        }
+        const saved = localStorage.getItem('legends_terminal_bg_index');
+        if (saved !== null) {
+          const parsed = parseInt(saved, 10);
+          if (!isNaN(parsed) && parsed >= 0 && parsed < BG_OPTIONS.length) return parsed;
+        }
+      } catch {}
+    }
+    return 0;
+  });
+
+  const activeBg = BG_OPTIONS[bgIndex] || BG_OPTIONS[0];
+  const [currentBgSrc, setCurrentBgSrc] = useState<string>(() => activeBg.primary || activeBg.fallback);
+
+  useEffect(() => {
+    const chosen = BG_OPTIONS[bgIndex] || BG_OPTIONS[0];
+    setCurrentBgSrc(chosen.primary || chosen.fallback);
+  }, [bgIndex]);
+
+  // Standalone terminal configuration
+  const [config, setConfig] = useState<TerminalConfig>(() => getTerminalConfig());
+  const [isSyncing, setIsSyncing] = useState(false);

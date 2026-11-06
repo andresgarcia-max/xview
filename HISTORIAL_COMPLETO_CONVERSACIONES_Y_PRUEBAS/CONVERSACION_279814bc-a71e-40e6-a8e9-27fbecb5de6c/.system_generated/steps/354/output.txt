@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Target: C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe
+Arguments: --terminal
+WorkingDir: C:\Users\andre\OneDrive\Desktop\gym

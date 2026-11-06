@@ -1,0 +1,65 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\context\GymContext.tsx:25:import { getGymAvatar } from '../utils/genderAvatar';
+> LEGENDS\src\context\GymContext.tsx:26:import { verifySecret, checkEmployeeShiftAllowed } from 
+'../utils/securityCrypto';
+  LEGENDS\src\context\GymContext.tsx:27:import { 
+  LEGENDS\src\context\GymContext.tsx:28:  broadcastLocalSync, 
+  LEGENDS\src\context\GymContext.tsx:29:  subscribeToLocalSync, 
+  LEGENDS\src\context\GymContext.tsx:155:  // Empleados (Staff)
+> LEGENDS\src\context\GymContext.tsx:156:  employees: Employee[];
+  LEGENDS\src\context\GymContext.tsx:157:  addEmployee: (employeeData: Omit<Employee, 'id'>) => Employee;
+  LEGENDS\src\context\GymContext.tsx:158:  updateEmployee: (id: string, updates: Partial<Employee>) => void;
+  LEGENDS\src\context\GymContext.tsx:159:  deleteEmployee: (id: string) => void;
+  LEGENDS\src\context\GymContext.tsx:187:  const [cart, setCart] = useState<CartItem[]>([]);
+> LEGENDS\src\context\GymContext.tsx:188:  const [employees, setEmployees] = useState<Employee[]>(() => 
+storage.getEmployees());
+  LEGENDS\src\context\GymContext.tsx:189:  const [roles, setRoles] = useState<RoleDefinition[]>(() => 
+storage.getRoles());
+  LEGENDS\src\context\GymContext.tsx:190:  const [gymSettings, setGymSettings] = useState<GymSettings>(() => 
+storage.getSettings());
+  LEGENDS\src\context\GymContext.tsx:191:  const [catalogPlans, setCatalogPlans] = useState<SystemCatalogPlan[]>(() => 
+storage.getCatalogPlans());
+  LEGENDS\src\context\GymContext.tsx:228:  useEffect(() => { storage.saveCashSession(cashSession); }, [cashSession]);
+> LEGENDS\src\context\GymContext.tsx:229:  useEffect(() => { storage.saveEmployees(employees); }, [employees]);
+  LEGENDS\src\context\GymContext.tsx:230:  useEffect(() => { storage.saveRoles(roles); }, [roles]);
+  LEGENDS\src\context\GymContext.tsx:231:  useEffect(() => { storage.saveSettings(gymSettings); }, [gymSettings]);
+  LEGENDS\src\context\GymContext.tsx:232:  useEffect(() => { storage.saveCatalogPlans(catalogPlans); }, 
+[catalogPlans]);
+  LEGENDS\src\context\GymContext.tsx:470:            }
+> LEGENDS\src\context\GymContext.tsx:471:            if (Array.isArray(db.employees) && db.employees.length > 0) {
+> LEGENDS\src\context\GymContext.tsx:472:              setEmployees(prev => {
+> LEGENDS\src\context\GymContext.tsx:473:                const merged = mergeById(prev, db.employees!);
+> LEGENDS\src\context\GymContext.tsx:474:                storage.saveEmployees(merged);
+  LEGENDS\src\context\GymContext.tsx:475:                return merged;
+  LEGENDS\src\context\GymContext.tsx:476:              });
+  LEGENDS\src\context\GymContext.tsx:477:            }
+  LEGENDS\src\context\GymContext.tsx:502:              cashSession: storage.getCashSession(),
+> LEGENDS\src\context\GymContext.tsx:503:              employees: storage.getEmployees(),
+  LEGENDS\src\context\GymContext.tsx:504:              settings: storage.getSettings(),
+  LEGENDS\src\context\GymContext.tsx:505:              catalogPlans: storage.getCatalogPlans(),
+  LEGENDS\src\context\GymContext.tsx:506:            }).catch(() => {});
+  LEGENDS\src\context\GymContext.tsx:514:              cashSession: storage.getCashSession(),
+> LEGENDS\src\context\GymContext.tsx:515:              employees: storage.getEmployees(),
+  LEGENDS\src\context\GymContext.tsx:516:              settings: storage.getSettings(),
+  LEGENDS\src\context\GymContext.tsx:517:              catalogPlans: storage.getCatalogPlans(),
+  LEGENDS\src\context\GymContext.tsx:518:            }).catch(() => {});
+  LEGENDS\src\context\GymContext.tsx:575:            }
+> LEGENDS\src\context\GymContext.tsx:576:            if (Array.isArray(db.employees) && db.employees.length > 0) {
+> LEGENDS\src\context\GymContext.tsx:577:              setEmployees(prev => {
+> LEGENDS\src\context\GymContext.tsx:578:                const next = mergeById(prev, db.employees!);
+> LEGENDS\src\context\GymContext.tsx:579:                storage.saveEmployees(next);
+  LEGENDS\src\context\GymContext.tsx:580:                return next;
+  LEGENDS\src\context\GymContext.tsx:581:              });
+  LEGENDS\src\context\GymContext.tsx:582:            }
+  LEGENDS\src\context\GymContext.tsx:762:
+> LEGENDS\src\context\GymContext.tsx:763:      const admins = employees.filter((e) => e.role === 'admin' && e.status 
+=== 'active');
+  LEGENDS\src\context\GymContext.tsx:764:      const matchedAdmin = admins.find(
+  LEGENDS\src\context\GymContext.tsx:765:        (adm) => verifySecret(clean, adm.password) || verifySecret(clean, 
+adm.pin)
+  LEGENDS\src\context\GymContext.tsx:766:      );
+
+

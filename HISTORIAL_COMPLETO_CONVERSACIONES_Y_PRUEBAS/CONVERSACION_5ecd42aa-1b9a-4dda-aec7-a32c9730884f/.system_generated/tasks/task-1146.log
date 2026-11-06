@@ -1,0 +1,49 @@
+
+Status Class     FriendlyName                    InstanceId                                   
+------ -----     ------------                    ----------                                   
+OK     Camera    Integrated Webcam               USB\VID_0BDA&PID_5650&MI_00\6&1D5726D5&0&0000
+OK     USB       Dispositivo compuesto USB       USB\VID_0BDA&PID_5650\200901010001           
+OK     USB       Concentrador raíz USB (USB 3.0) USB\ROOT_HUB30\4&2782102E&0&0                
+OK     Bluetooth Intel(R) Wireless Bluetooth(R)  USB\VID_8087&PID_0A2B\5&2B41B6C5&0&7         
+
+
+[2026-11-04 23:47:58.289] [UI] * Certificados Widevine L1 (factory) y MAC/Serie (cri_data) 100% protegidos.
+[2026-11-04 23:47:58.289] [MISION_4_PASOS] === PASO 4/4: EXITO TOTAL COMPLETADO ===
+[2026-11-04 23:47:58.289] [UI] Presiona [1] para Reiniciar la caja ahora o [ENTER] para mantenerla en Fastboot y volver:
+[2026-11-04 23:55:44.406] [SESION] === INICIO DE PROGRAMA_PERFECTO_XVIEW_B866V2.EXE v4.1 (PID=15988) ===
+[2026-11-04 23:55:45.736] [RADAR] SN=Z41220110063684 | RawPid=0D02_GHOST | FastbootLive=False | ADB=
+[2026-11-04 23:55:45.746] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]): 1 (Auto-Inicio Activo)
+[2026-11-04 23:55:45.751] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 23:55:45.778] [MISION_4_PASOS] === INICIANDO FLUJO DIRECTO DE 4 PASOS (v4.1) ===
+[2026-11-04 23:55:45.786] [UI] [PASO 1/4] ESCANEANDO LA MEMORIA...
+[2026-11-04 23:55:45.791] [UI] [+] Memoria USB KINGSTON lista en la caja (con factory_update_param.aml + QADEBUG.ini).
+[2026-11-04 23:55:45.794] [UI] [OK] Memoria de Firmware verificada: 14 particiones .img + 15 APKs de Interfaz Xview Liberada.
+[2026-11-04 23:55:45.796] [UI] [OK] Imagen 'super.img' detectada en: C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img
+[2026-11-04 23:55:45.805] [UI] [PASO 2/4] ENTRANDO EN MODO FASTBOOT...
+[2026-11-04 23:55:45.807] [UI] * SI TU TV YA ESTA EN LA PANTALLA AZUL 'fastbootd' (letras rosas):
+[2026-11-04 23:55:45.809] [UI] 1. Conecta el cable USB Macho-a-Macho en el puerto TRASERO (junto a MicroSD y HDMI).
+[2026-11-04 23:55:45.811] [UI] 2. En la TV baja a 'Reboot to bootloader' y presiona OK (o entra a 'Enter recovery'
+[2026-11-04 23:55:45.813] [UI] -> 'Set USB device' -> 'Yes' para activar el puerto USB de la caja).
+[2026-11-04 23:55:45.821] [UI] * O si la caja esta encendida normal: desconecta corriente, manten presionado RESET
+[2026-11-04 23:55:45.823] [UI] y vuelve a conectar corriente...
+[2026-11-04 23:55:45.825] [UI] --------------------------------------------------------------------------------
+[2026-11-04 23:55:45.826] [UI] [*] ESCUCHANDO EN VIVO (Fastboot PID_0D02 / Fastbootd PID_4EE7 / WorldCup 48ms / ADB)...
+[2026-11-05 00:12:30.324] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=192.168.0.47:5555 [unauthorized]
+[2026-11-05 00:18:20.867] [SESION] === INICIO DE PROGRAMA_PERFECTO_XVIEW_B866V2.EXE v4.1 (PID=21712) ===
+[2026-11-05 00:18:22.686] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-05 00:18:22.708] [UI] Presiona [1] para Iniciar los 4 Pasos Automaticos (o elige [2-4]): 1 (Auto-Inicio Activo)
+[2026-11-05 00:18:22.712] [MENU] Usuario selecciono opcion: '1'
+[2026-11-05 00:18:22.760] [MISION_4_PASOS] === INICIANDO FLUJO DIRECTO DE 4 PASOS (v4.1) ===
+[2026-11-05 00:18:22.762] [UI] [PASO 1/4] ESCANEANDO LA MEMORIA...
+[2026-11-05 00:18:22.770] [UI] [+] Memoria USB KINGSTON lista en la caja (con factory_update_param.aml + QADEBUG.ini).
+[2026-11-05 00:18:22.777] [UI] [OK] Memoria de Firmware verificada: 14 particiones .img + 15 APKs de Interfaz Xview Liberada.
+[2026-11-05 00:18:22.781] [UI] [OK] Imagen 'super.img' detectada en: C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img
+[2026-11-05 00:18:22.785] [UI] [PASO 2/4] ENTRANDO EN MODO FASTBOOT...
+[2026-11-05 00:18:22.788] [UI] * SI TU TV YA ESTA EN LA PANTALLA AZUL 'fastbootd' (letras rosas):
+[2026-11-05 00:18:22.790] [UI] 1. Conecta el cable USB Macho-a-Macho en el puerto TRASERO (junto a MicroSD y HDMI).
+[2026-11-05 00:18:22.795] [UI] 2. En la TV baja a 'Reboot to bootloader' y presiona OK (o entra a 'Enter recovery'
+[2026-11-05 00:18:22.795] [UI] -> 'Set USB device' -> 'Yes' para activar el puerto USB de la caja).
+[2026-11-05 00:18:22.798] [UI] * O si la caja esta encendida normal: desconecta corriente, manten presionado RESET
+[2026-11-05 00:18:22.802] [UI] y vuelve a conectar corriente...
+[2026-11-05 00:18:22.807] [UI] --------------------------------------------------------------------------------
+[2026-11-05 00:18:22.810] [UI] [*] ESCUCHANDO EN VIVO (Fastboot PID_0D02 / Fastbootd PID_4EE7 / WorldCup 48ms / ADB)...

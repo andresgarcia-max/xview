@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+card-cliente-nuevo.jpg - Width: 1200, Height: 800
+  Top-Left (10, 10): Color [A=255, R=135, G=88, B=42]
+  Center: Color [A=255, R=5, G=48, B=55]
+  Bottom-Center: Color [A=255, R=192, G=170, B=156]
+card-huella.jpg - Width: 1200, Height: 800
+  Top-Left (10, 10): Color [A=255, R=0, G=4, B=5]
+  Center: Color [A=255, R=170, G=211, B=205]
+  Bottom-Center: Color [A=255, R=138, G=116, B=93]
+card-visita.jpg - Width: 1200, Height: 800
+  Top-Left (10, 10): Color [A=255, R=1, G=11, B=13]
+  Center: Color [A=255, R=200, G=151, B=134]
+  Bottom-Center: Color [A=255, R=4, G=24, B=25]

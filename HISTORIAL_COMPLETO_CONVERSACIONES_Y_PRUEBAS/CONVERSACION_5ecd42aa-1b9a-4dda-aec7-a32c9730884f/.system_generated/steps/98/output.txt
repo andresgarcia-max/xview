@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+09-04 14:16:43.818  3676  4061 I wm_set_resumed_activity: [0,com.android.tv.settings/.system.FallbackHome,minimalResumeActivityLocked]
+09-04 14:16:50.751  3676  4296 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,minimalResumeActivityLocked]
+09-04 14:16:58.302  3676  3699 I wm_set_resumed_activity: [0,com.dotscreen.megacable.core/.KeepAliveActivity,minimalResumeActivityLocked]
+09-04 14:16:59.287  3676  4609 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,resumeTopActivityInnerLocked]
+09-04 14:18:18.011  3676  6581 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,positionChildAt]
+09-04 14:18:18.036  3676  4624 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.applications.ApplicationsActivity,minimalResumeActivityLocked]
+09-04 14:18:45.770  3676  4609 I wm_set_resumed_activity: [0,com.omni.simplesetup/.ui.MainActivity,minimalResumeActivityLocked]
+09-04 14:18:48.719  3676  3697 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.applications.ApplicationsActivity,bringingFoundTaskToFront]
+09-04 14:18:48.739  3676  4972 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,resumeTopActivityInnerLocked]
+09-04 14:18:49.200  3676  3697 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,positionChildAt]
+09-04 14:18:52.135  3676  3691 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,positionChildAt]
+09-04 14:18:52.153  3676  3866 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.applications.ApplicationsActivity,minimalResumeActivityLocked]
+09-04 14:19:09.143  3676  4622 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,resumeTopActivityInnerLocked]
+09-04 14:19:13.509  3676  3690 I wm_set_resumed_activity: [0,com.android.tv.settings/.MainSettings,minimalResumeActivityLocked]
+09-04 14:20:43.645  3676  3697 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,bringingFoundTaskToFront]
+09-04 14:20:43.656  3676  3788 I wm_set_resumed_activity: [0,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,resumeTopActivityInnerLocked]

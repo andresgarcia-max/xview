@@ -1,0 +1,19 @@
+--- Testing ERP (--main) ---
+
+[DB] Base de datos cargada desde C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\data\legends_database.json (8 socios, 14 accesos)
+[SYNC SERVER] Puerto 3001 ya está en uso por otra instancia. Modo cliente LAN compartido activo.
+[10536:1028/175647.686:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Acceso denegado. (0x5)
+[10536:1028/175647.687:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Acceso denegado. (0x5)
+[10536:1028/175647.687:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Acceso denegado. (0x5)
+[10536:1028/175647.688:ERROR:net\disk_cache\disk_cache.cc:290] Unable to create cache
+[10536:1028/175647.688:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[10536:1028/175647.689:ERROR:net\disk_cache\disk_cache.cc:290] Unable to create cache
+[10536:1028/175647.689:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[10536:1028/175647.689:ERROR:net\disk_cache\disk_cache.cc:290] Unable to create cache
+[10536:1028/175647.689:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[10536:1028/175647.694:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Acceso denegado. (0x5)
+[10536:1028/175647.695:ERROR:net\disk_cache\disk_cache.cc:290] Unable to create cache
+[10536:1028/175647.695:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[10536:1028/175647.751:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Acceso denegado. (0x5)
+[10536:1028/175647.751:ERROR:net\disk_cache\disk_cache.cc:290] Unable to create cache
+[10536:1028/175647.751:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2

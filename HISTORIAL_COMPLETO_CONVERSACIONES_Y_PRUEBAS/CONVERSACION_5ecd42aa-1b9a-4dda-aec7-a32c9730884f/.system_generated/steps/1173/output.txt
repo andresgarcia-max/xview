@@ -1,0 +1,13 @@
+Task: 5ecd42aa-1b9a-4dda-aec7-a32c9730884f/task-1139
+Status: RUNNING
+Log: file:///C:/Users/andre/.gemini/antigravity/brain/5ecd42aa-1b9a-4dda-aec7-a32c9730884f/.system_generated/tasks/task-1139.log
+Log output:
+<truncated 114 lines>
+00:24:56.976] [UI] [OK] Particion 'super' (1.88 GB - DMC.v2.25) escrita e inyectada al 100%.
+[2026-11-05 00:24:57.078] [UI] -> Limpiando cache / userdata y reiniciando hacia el Firmware Liberado DMC.v2.25...
+[2026-11-05 00:24:57.243] [CMD] fastboot_moderno.exe erase cache (Exit=0) -> ******** Did you mean to fastboot format this ext4 partition?  | Erasing 'cache'                                    OKAY [  0.066s]  | Finished. Total time: 0.069s
+[2026-11-05 00:24:57.821] [CMD] fastboot_moderno.exe erase userdata (Exit=0) -> ******** Did you mean to fastboot format this ext4 partition?  | Erasing 'userdata'                                 OKAY [  0.504s]  | Finished. Total time: 0.504s
+[2026-11-05 00:24:57.901] [CMD] fastboot_moderno.exe reboot (Exit=0) -> Rebooting                                          OKAY [  0.000s]  | Finished. Total time: 0.000s
+[2026-11-05 00:24:57.903] [UI] -> Esperando encendido de DMC.v2.25 para instalar /data/app (Xuper + MXL) y validar Visto Bueno...
+
+Last progress: 17s ago

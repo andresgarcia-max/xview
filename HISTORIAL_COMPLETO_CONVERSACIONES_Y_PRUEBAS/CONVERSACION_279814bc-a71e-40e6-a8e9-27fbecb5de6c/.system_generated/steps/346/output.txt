@@ -1,0 +1,58 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     20/10/2026  09:41 a. m.            668 ABRIR_CONTROL_DE_ACCESO_WEB.bat                                      
+-a---l     20/10/2026  09:14 a. m.            123 ACCESO_WEB_FITNESS_LEGENDS.url                                       
+-a---l     20/10/2026  09:14 a. m.            137 ACCESO_WEB_NUBE.url                                                  
+-a---l     20/10/2026  09:14 a. m.            138 CONTROL_DE_ACCESO_WEB.url                                            
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  10:05 a. m.        8348420 Control_De_Acceso_Web.html                                           
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  10:05 a. m.        8348420 Control_De_Acceso_Web.html                                           
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  10:24 a. m.        8348420 Control_De_Acceso_Web.html                                           
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  09:43 a. m.        8348341 Control_De_Acceso_Web.html                                           
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\repositorios\legends-gym\public
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     23/10/2026  10:19 p. m.        3908563 Control_De_Acceso_Web.html                                           
+
+

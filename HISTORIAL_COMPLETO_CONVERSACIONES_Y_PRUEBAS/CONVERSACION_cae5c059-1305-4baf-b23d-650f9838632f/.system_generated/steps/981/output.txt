@@ -1,0 +1,78 @@
+Command exited with code 0.
+
+Command output:
+  };
+  const toggleFullScreen = () => {
+    if ((window as any).electronAPI?.toggleFullScreen) {
+      (window as any).electronAPI.toggleFullScreen();
+      setIsFullScreen(!isFullScreen);
+      return;
+    }
+
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().then(() => {
+        setIsFullScreen(true);
+        setShowEscHint(true);
+        setTimeout(() => setShowEscHint(false), 3500);
+      }).catch(() => {
+        setIsFullScreen(true);
+      });
+    } else {
+      document.exitFullscreen().then(() => {
+        setIsFullScreen(false);
+        if (onExitFullScreen) onExitFullScreen();
+      }).catch(() => {
+        setIsFullScreen(false);
+        if (onExitFullScreen) onExitFullScreen();
+      });
+    }
+  };
+
+  // Manual sync trigger
+  const handleManualSync = async (): Promise<boolean> => {
+    setIsSyncing(true);
+    try {
+      serverVersionRef.current = 0; // Force full check on manual request
+      const connected = await syncWithServer();
+      setLastSyncTime(new Date());
+      setIsSyncing(false);
+      return connected;
+    } catch {
+      setIsSyncing(false);
+      return false;
+    }
+  };
+
+  const handleSaveConfig = (newConfig: TerminalConfig) => {
+    setConfig(newConfig);
+    saveTerminalConfig(newConfig);
+    serverVersionRef.current = 0;
+    syncWithServer();
+  };
+
+  return (
+    <div className="relative min-h-screen h-screen w-full overflow-y-auto text-gym-text flex flex-col justify-between font-sans select-none p-3 sm:p-4 lg:p-5 gap-3">
+      
+            
+
+      
+      {/* BOTÓN PANTALLA COMPLETA (VISIBLE SOLO CUANDO NO ESTÁ EN PANTALLA COMPLETA) */}
+      {!isFullScreen && (
+        <div className="fixed top-4 right-4 z-40 flex items-center gap-2">
+          {onOpenClients && (
+            <button
+              onClick={onOpenClients}
+              className="px-3.5 py-2.5 rounded-2xl bg-gradient-to-r from-amber-500/25 to-amber-600/35 hover:from-amber-500/40 hover:to-amber-600/50 backdrop-blur-md border border-amber-400/70 text-amber-300 hover:text-white font-black text-xs sm:text-sm flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.35)] transition-all cursor-pointer transform hover:scale-105 active:scale-95 select-none"
+              title="Abrir Cartera de Clientes & Membresías sin cerrar el programa"
+            >
+              <Users className="w-4 h-4 text-amber-400" />
+              <span className="font-black">CARTERA DE CLIENTES</span>
+            </button>
+          )}
+          <button
+            onClick={toggleBackground}
+            className="px-3.5 py-2.5 rounded-2xl bg-black/70 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white font-bold text-xs sm:text-sm flex items-center gap-2 shadow-2xl transition-all cursor-pointer transform hover:scale-105 active:scale-95 select-none"
+            title="Cambiar imagen de fondo (Mancuernas / Estudio / Neón)"
+          >
+            <Image className="w-4 h-4 text-amber-400" />
+            <span className="hidden sm:inline">CAMBIAR FONDO</span>

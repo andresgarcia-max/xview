@@ -1,0 +1,68 @@
+Command exited with code 0.
+
+Command output:
+
+Filename                           LineNumber Line                                                                     
+--------                           ---------- ----                                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt        828 ztebsp: bootcmd=bootsys                                                  
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1265 ztebsp: bootcmd=bootsys                                                  
+BLOQUES_ASCII_COMPLETOS_SESION.txt       2991 ztebsp: bootcmd=bootsys                                                  
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5329 tcmd=bootsys).a la placa (reboot_mode:::: watchdog_rebo               ...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5364 Motivo B (Watchdog de hardware activo): Adem?s, mientras est? en U-Boo...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5367 (Watchdog de hardware activo): Adem?s, mientras est? en U-Boot/Fastboo...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5370 tcmd=bootsys).k                                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5378 rmal (ztebsp: bootcmd=bootsys).                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6003 tcmd=bootsys).a la placa (reboot_mode:::: watchdog_rebo               ...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6021 Motivo B (Watchdog de hardware activo): Adem?s, mientras est? en U-Boo...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6257 rmal (ztebsp: bootcmd=bootsys).                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt       6464 tcmd=bootsys).k                                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt       7049 (Watchdog de hardware activo): Adem?s, mientras est? en U-Boot/Fastboo...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       7053  sistema normal (ztebsp: bootcmd=bootsys).Motivo B (W                 ...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       7057 bootcmd=bootsys).Motivo B (Watchdog de hardware activ                 ...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       7733 Motivo B (Watchdog de hardware activo): Adem?s, mientras est? en U-Boo...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       7945 rmal (ztebsp: bootcmd=bootsys).q                                         
+BLOQUES_ASCII_COMPLETOS_SESION.txt       7972 rmal (ztebsp: bootcmd=bootsys).                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8207 tcmd=bootsys).k                                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8216  sistema normal (ztebsp: bootcmd=bootsys).Motivo B (W                 ...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8220 bootcmd=bootsys).Motivo B (Watchdog de hardware activ                 ...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       8798  sistema normal (ztebsp: bootcmd=bootsys).Motivo B (W                 ...
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14183 ztebsp: bootcmd=bootsys                                                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt        655 ztebsp: bootcmd=bootsys                                                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3288 ztebsp: bootcmd=bootsys                                                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt       5571 ztebsp: bootcmd=bootsys                                                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      12982 a bootonce-bootloader (de un solo uso), en el siguiente reinicio ya no...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      13644 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).      
+BLOQUES_UTF16_COMPLETOS_SESION.txt      13893 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys        
+BLOQUES_UTF16_COMPLETOS_SESION.txt      13896 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys)       
+BLOQUES_UTF16_COMPLETOS_SESION.txt      14654 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).      
+BLOQUES_UTF16_COMPLETOS_SESION.txt      15953 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys        
+BLOQUES_UTF16_COMPLETOS_SESION.txt      15956 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys)       
+BLOQUES_UTF16_COMPLETOS_SESION.txt      16895 a bootonce-bootloader (de un solo uso), en el siguiente reinicio ya no...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17521  sistema normal (ztebsp: bootcmd=bootsys).Motivo B (W                 ...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17525 bootcmd=bootsys).Motivo B (Watchdog de hardware activ                 ...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17552 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).Motivo
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17555 sistema normal (ztebsp: bootcmd=bootsys).Motivo B (W                  ...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17558 ' sistema normal (ztebsp: bootcmd=bootsys).Motivo B (W                ...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17561 sistema normal (ztebsp: bootcmd=bootsys).Motivo B (W                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17564 sistema normal (ztebsp: bootcmd=bootsys).Motivo B (Watchdog de hardware  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17567 bootcmd=bootsys).Motivo B (Watchdog de hardware activ                 ...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17570 'bootcmd=bootsys).Motivo B (Watchdog de hardware activ                ...
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17573 bootcmd=bootsys).Motivo B (Watchdog de hardware activ                    
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17576 bootcmd=bootsys).Motivo B (Watchdog de hardware activo): Adem?s, mientras
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17645 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).M     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17648 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).Mo    
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17651 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).Mot   
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17654 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).Moti  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17657 astboot sino que carga el sistema normal (ztebsp: bootcmd=bootsys).Motiv 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17714 sistema normal (ztebsp: bootcmd=bootsys                                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17717 sistema normal (ztebsp: bootcmd=bootsys)                                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17720 sistema normal (ztebsp: bootcmd=bootsys).                                
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17723 sistema normal (ztebsp: bootcmd=bootsys).M                               
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17726 sistema normal (ztebsp: bootcmd=bootsys).Mo                              
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17729 sistema normal (ztebsp: bootcmd=bootsys).Mot                             
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17732 sistema normal (ztebsp: bootcmd=bootsys).Moti                            
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17735 sistema normal (ztebsp: bootcmd=bootsys).Motiv                           
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17738 sistema normal (ztebsp: bootcmd=bootsys).Motivo                          
+BLOQUES_UTF16_COMPLETOS_SESION.txt      17741 sistema normal (ztebsp: bootcmd=bootsys).Motivo B                        
+
+

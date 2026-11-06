@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+PID=4492 Parent=17972 Name=powershell.exe
+PID=17972 Parent=14164 Name=language_server.exe
+PID=14164 Parent=9600 Name=Antigravity.exe

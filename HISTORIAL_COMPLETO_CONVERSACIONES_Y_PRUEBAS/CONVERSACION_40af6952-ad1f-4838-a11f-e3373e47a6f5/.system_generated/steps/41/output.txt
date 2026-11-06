@@ -1,0 +1,32 @@
+Command exited with code 1.
+
+Command output:
+=== LIBUSB-WIN32 Class {eb781aaf-9c70-4523-a5df-642a87eca567} ===
+
+Key  DriverDesc      ProviderName DriverVersion InfPath   MatchingDeviceId     
+---  ----------      ------------ ------------- -------   ----------------     
+0001 WorldCup Device libusb-win32 1.2.6.0       oem80.inf usb\vid_1b8e&pid_c003
+0002 WorldCup Device libusb-win32 1.2.6.0       oem80.inf usb\vid_1b8e&pid_c003
+0004 WorldCup Device libusb-win32 1.2.6.0       oem80.inf usb\vid_1b8e&pid_c003
+0005 WorldCup Device libusb-win32 1.2.6.0       oem80.inf usb\vid_1b8e&pid_c003
+
+
+=== WPD / MTP Class {eec5ad98-8080-425f-922a-dabf3de3f69a} ===
+
+Key  DriverDesc                              ProviderName DriverVersion   InfPath    MatchingDeviceId
+---  ----------                              ------------ -------------   -------    ----------------
+0000 TECNICO SAI                             Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0001 Controlador de volumen FileSytem de WPD Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0002 ESD-USB                                 Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0003 Controlador de volumen FileSytem de WPD Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0004 D:\                                     Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0005 Controlador de volumen FileSytem de WPD Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0006 Controlador de volumen FileSytem de WPD Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0007 ESD-USB                                 Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0008 Controlador de volumen FileSytem de WPD Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0009 RUFUS_BOOT                              Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0010 Xview+                                  Microsoft    10.0.26100.9711 wpdmtp.inf usb\ms_comp_mtp 
+0011 Controlador de volumen FileSytem de WPD Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+0012 KINGSTON                                Microsoft    10.0.26100.9711 wpdfs.inf  wpdbusenum\fs   
+
+

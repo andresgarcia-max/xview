@@ -1,0 +1,83 @@
+Command exited with code 0.
+
+Command output:
+
+
+HubKey         : 4&1cd7ea71&0&0
+HardwareID     : USB\ROOT_HUB30&VID8086&PID9DED&REV0030; USB\ROOT_HUB30&VID8086&PID9DED; USB\ROOT_HUB30
+DeviceDesc     : @usbhub3.inf,%usbhub3.roothubdevicedesc%;USB Root Hub (USB 3.0)
+Driver         : {36fc9e60-c465-11cf-8056-444553540000}\0002
+ParentIdPrefix : 5&7d754c8&0
+
+HubKey         : 4&2782102e&0&0
+HardwareID     : USB\ROOT_HUB30&VID8086&PID9D2F&REV0021; USB\ROOT_HUB30&VID8086&PID9D2F; USB\ROOT_HUB30
+DeviceDesc     : @usbhub3.inf,%usbhub3.roothubdevicedesc%;USB Root Hub (USB 3.0)
+Driver         : {36fc9e60-c465-11cf-8056-444553540000}\0006
+ParentIdPrefix : 5&2b41b6c5&0
+
+HubKey         : 7&8a7e8f&0&0
+HardwareID     : USB\ROOT_HUB30&VID8086&PID15DB&REV0002; USB\ROOT_HUB30&VID8086&PID15DB; USB\ROOT_HUB30
+DeviceDesc     : @usbhub3.inf,%usbhub3.roothubdevicedesc%;USB Root Hub (USB 3.0)
+Driver         : {36fc9e60-c465-11cf-8056-444553540000}\0003
+ParentIdPrefix : 
+
+
+
+
+
+VID_PID        : VID_18D1&PID_0D02
+TotalInstances : 312
+Samples        : 1234567890 [Loc:Port_#0003.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0057] 
+                 [Svc:WinUSB] [Desc:@oem78.inf,%singleadbinterface%;Android ADB Interface] | 5&2b41b6c5&0&2 
+                 [Loc:Port_#0002.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0072] [Svc:WinUSB] 
+                 [Desc:@oem78.inf,%singleadbinterface%;Android ADB Interface] | 5&2b41b6c5&0&3 
+                 [Loc:Port_#0003.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0037] [Svc:WinUSB] 
+                 [Desc:@oem78.inf,%singleadbinterface%;Android ADB Interface] | Z41220020010426 
+                 [Loc:Port_#0002.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0644] [Svc:WinUSB] 
+                 [Desc:@oem78.inf,%singleadbinterface%;Android ADB Interface] | Z41220020014723 
+                 [Loc:Port_#0003.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0546] [Svc:WinUSB] 
+                 [Desc:@oem78.inf,%singleadbinterface%;Android ADB Interface]
+
+VID_PID        : VID_18D1&PID_4E41
+TotalInstances : 1
+Samples        : Z41220110379125 [Loc:Port_#0002.Hub_#0001] [Driver:] [Svc:] [Desc:B866V2_ZTE]
+
+VID_PID        : VID_18D1&PID_4EE1
+TotalInstances : 1
+Samples        : Z41220090388172 [Loc:Port_#0002.Hub_#0001] [Driver:{eec5ad98-8080-425f-922a-dabf3de3f69a}\0010] 
+                 [Svc:WUDFWpdMtp] [Desc:Xview+]
+
+VID_PID        : VID_18D1&PID_4EE7
+TotalInstances : 292
+Samples        : 1234567890 [Loc:Port_#0003.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0095] 
+                 [Svc:WinUSB] [Desc:@oem78.inf,%compositeadbinterface%;Android Composite ADB Interface] | 
+                 5&2b41b6c5&0&2 [Loc:Port_#0002.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0268] 
+                 [Svc:WinUSB] [Desc:@oem78.inf,%compositeadbinterface%;Android Composite ADB Interface] | 
+                 5&2b41b6c5&0&3 [Loc:Port_#0003.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0336] 
+                 [Svc:WinUSB] [Desc:@oem78.inf,%compositeadbinterface%;Android Composite ADB Interface] | 
+                 Z41220020010426 [Loc:Port_#0002.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0643] 
+                 [Svc:WinUSB] [Desc:@oem78.inf,%compositeadbinterface%;Android Composite ADB Interface] | 
+                 Z41220020014723 [Loc:Port_#0003.Hub_#0001] [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0545] 
+                 [Svc:WinUSB] [Desc:@oem78.inf,%compositeadbinterface%;Android Composite ADB Interface]
+
+VID_PID        : VID_1B8E&PID_C003
+TotalInstances : 1
+Samples        : 5&2b41b6c5&0&2 [Loc:Port_#0002.Hub_#0001] [Driver:{eb781aaf-9c70-4523-a5df-642a87eca567}\0001] 
+                 [Svc:libusb0] [Desc:@oem80.inf,%devicename%;WorldCup Device]
+
+VID_PID        : VID_1B8E&PID_C004
+TotalInstances : 131
+Samples        : 001671190660232c00000000 [Loc:Port_#0002.Hub_#0001] 
+                 [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0266] [Svc:WinUSB] 
+                 [Desc:@oem79.inf,%devicename%;android_winusb] | 001671190660350900000000 [Loc:Port_#0003.Hub_#0001] 
+                 [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0319] [Svc:WinUSB] 
+                 [Desc:@oem79.inf,%devicename%;android_winusb] | 001671190680350900000000 [Loc:Port_#0002.Hub_#0001] 
+                 [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0632] [Svc:WinUSB] 
+                 [Desc:@oem79.inf,%devicename%;android_winusb] | 0016711906803a2b00000000 [Loc:Port_#0002.Hub_#0001] 
+                 [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0606] [Svc:WinUSB] 
+                 [Desc:@oem79.inf,%devicename%;android_winusb] | 0016711906a00e2900000000 [Loc:Port_#0003.Hub_#0001] 
+                 [Driver:{3f966bd9-fa04-4ec5-991c-d326973b5128}\0317] [Svc:WinUSB] 
+                 [Desc:@oem79.inf,%devicename%;android_winusb]
+
+
+

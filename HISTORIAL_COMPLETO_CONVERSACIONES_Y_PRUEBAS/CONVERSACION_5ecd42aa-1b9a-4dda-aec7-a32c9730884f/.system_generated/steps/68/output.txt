@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Lcom/android/settingslib/applications/instantapps/InstantAppDataProvider; extends Ljava/lang/Object; (source: InstantAppDataProvider.java)
+Lcom/android/settingslib/widget/AppSwitchPreference; extends Landroidx/preference/SwitchPreference; (source: AppSwitchPreference.java)

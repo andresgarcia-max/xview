@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+CARTERA_CLIENTES_INTERFAZ_PRO.html:15:  <link rel="preconnect" href="https://fonts.googleapis.com">
+CARTERA_CLIENTES_INTERFAZ_PRO.html:17:  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;70
+0;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+

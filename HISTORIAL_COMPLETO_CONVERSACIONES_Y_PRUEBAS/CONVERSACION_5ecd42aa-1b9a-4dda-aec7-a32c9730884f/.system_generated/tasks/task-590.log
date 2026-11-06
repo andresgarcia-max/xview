@@ -1,0 +1,161 @@
+[MONITOR ACTIVO] Monitoreando instancia activa de PROGRAMA_PERFECTO_XVIEW_B866V2.exe (PID=5376)...
+[2026-11-04 01:07:13.190] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 01:07:13.199] [MISION_PRINCIPAL] Iniciando Opcion 1: Mision Principal (Liberacion Total + Interfaz Firmware Xview Liberado DMC.v2.25)...
+[2026-11-04 01:07:13.200] [UI] MISION PRINCIPAL: LIBERAR CAJA + INTERFAZ FIRMWARE XVIEW LIBERADO (DMC.v2.25)
+[2026-11-04 01:07:13.201] [UI] Resultado Final de esta Mision:
+[2026-11-04 01:07:13.202] [UI] 1. Quitar Pantalla Azul 'ESTE EQUIPO ES PROPIEDAD DE MEGACABLE' y candado QR.
+[2026-11-04 01:07:13.202] [UI] 2. Instalar el Firmware / Interfaz Xview Liberado (Launcher Android TV Oficial,
+[2026-11-04 01:07:13.203] [UI] Google TV, AppDMC, DLStore, HDPlay, Xuper Hydra, XSairec, MXL Movies, MagisTV).
+[2026-11-04 01:07:13.205] [UI] 3. Conservar 100% intactos tus certificados Widevine L1 (factory) y MAC (cri_data).
+[2026-11-04 01:07:13.205] [UI] COMO ACTIVAR EL SALTO EXTERNO EN TU CAJA AHORA MISMO:
+[2026-11-04 01:07:13.206] [UI] * Con la memoria USB KINGSTON insertada en la caja y el cable USB Macho-a-Macho
+[2026-11-04 01:07:13.206] [UI] conectado a la PC, desconecta la corriente, manten presionado el boton RESET
+[2026-11-04 01:07:13.207] [UI] y vuelve a conectar la corriente (o si ya esta en Fastboot/ADB la atrapara al instante).
+[2026-11-04 01:07:13.207] [UI] [*] RADAR MULTICANAL ACTIVO (48ms WorldCup + Fastbootd + Fastboot + ADB)... (ESC para volver al menu)
+[2026-11-04 01:07:13.956] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: yes  | Finished. Total time: 0.000s
+[2026-11-04 01:07:13.956] [FASTBOOTD_CAUGHT] Detectado Recovery fastbootd (PID_4EE7 / Z41220090388172).
+[2026-11-04 01:07:13.959] [FASTBOOTD_FLASH] Intentando desbloqueo e inyeccion en Recovery fastbootd (PID_4EE7 / Z41220090388172)...
+[2026-11-04 01:07:13.960] [UI] [+] CAJA DETECTADA EN RECOVERY FASTBOOTD (PID_4EE7 / Serie: Z41220090388172)
+[2026-11-04 01:07:13.961] [UI] Ejecutando secuencia de desbloqueo e inyeccion en espacio de usuario (fastbootd)...
+[2026-11-04 01:07:14.021] [CMD] fastboot_moderno.exe flashing unlock (Exit=1) -> FAILED (remote: 'Unrecognized command flashing unlock')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.075] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=1) -> FAILED (remote: 'Unrecognized command flashing unlock_critical')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.076] [UI] -> Probando inyeccion fastbootd en 'env' (env_unlocked.img)...
+[2026-11-04 01:07:14.158] [CMD] fastboot_moderno.exe flash env "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\env_unlocked.img" (Exit=1) -> Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.159] [UI] -> Probando inyeccion fastbootd en 'conf' (conf.img)...
+[2026-11-04 01:07:14.292] [CMD] fastboot_moderno.exe flash conf "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\conf.img" (Exit=1) -> Sending 'conf' (4096 KB)                           FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.295] [UI] -> Probando inyeccion fastbootd en 'vbmeta' (vbmeta.img)...
+[2026-11-04 01:07:14.388] [CMD] fastboot_moderno.exe flash vbmeta "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\vbmeta.img" (Exit=1) -> Sending 'vbmeta' (2048 KB)                         FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.389] [UI] -> Probando inyeccion fastbootd en 'logo' (logo.img)...
+[2026-11-04 01:07:14.469] [CMD] fastboot_moderno.exe flash logo "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\logo.img" (Exit=1) -> Sending 'logo' (281 KB)                            FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.470] [UI] -> Probando inyeccion fastbootd en 'oem' (oem.img)...
+[2026-11-04 01:07:14.564] [CMD] fastboot_moderno.exe flash oem "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\oem.img" (Exit=1) -> Sending 'oem' (16384 KB)                           FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.565] [UI] -> Probando inyeccion fastbootd en 'cache' (cache_ext4.img)...
+[2026-11-04 01:07:14.683] [CMD] fastboot_moderno.exe flash cache "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img" (Exit=1) -> Sending 'cache' (65536 KB)                         FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.684] [UI] -> Probando inyeccion fastbootd en 'boot' (boot.img)...
+[2026-11-04 01:07:14.810] [CMD] fastboot_moderno.exe flash boot "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\boot.img" (Exit=1) -> Sending 'boot' (16384 KB)                          FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.812] [UI] -> Probando inyeccion fastbootd en 'dtbo' (dtbo.img)...
+[2026-11-04 01:07:14.914] [CMD] fastboot_moderno.exe flash dtbo "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtbo.img" (Exit=1) -> Sending 'dtbo' (8192 KB)                           FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:14.915] [UI] -> Probando inyeccion fastbootd en 'recovery' (recovery.img)...
+[2026-11-04 01:07:15.006] [CMD] fastboot_moderno.exe flash recovery "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\recovery.img" (Exit=1) -> Sending 'recovery' (24576 KB)                      FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:07:15.006] [UI] -> Saltando ahora de Recovery Fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[2026-11-04 01:07:15.073] [CMD] fastboot_moderno.exe reboot bootloader (Exit=0) -> Rebooting into bootloader                          OKAY [  0.001s]  | Finished. Total time: 0.001s
+[2026-11-04 01:07:19.222] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: no  | Finished. Total time: 0.015s
+[2026-11-04 01:07:19.223] [UBOOT_FASTBOOT_CAUGHT] Detectado U-Boot Fastboot en vivo (PID_0D02 / Z41220090388172).
+[2026-11-04 01:07:19.223] [UI] [+] Caja atrapada en U-Boot Fastboot en vivo (Serie: Z41220090388172)!
+[2026-11-04 01:07:19.224] [UI] Reteniendo Watchdog y ejecutando secuencia de desbloqueo limpia...
+[2026-11-04 01:07:19.288] [CMD] fastboot_moderno.exe flashing get_unlock_ability (Exit=0) -> OKAY [  0.003s]  | Finished. Total time: 0.003s
+[2026-11-04 01:07:19.339] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 01:07:19.393] [CMD] fastboot_moderno.exe flashing unlock (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 01:07:19.481] [CMD] fastboot_moderno.exe oem "watchdog off" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:07:19.660] [CMD] fastboot_moderno.exe oem "setenv lock 10100000;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:07:19.750] [CMD] fastboot_moderno.exe oem "setenv otg_device 1;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:07:19.894] [CMD] fastboot_moderno.exe oem "saveenv" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:07:20.062] [CMD] fastboot_moderno.exe getvar unlocked (Exit=0) -> unlocked: no  | Finished. Total time: 0.030s
+[2026-11-04 01:07:20.277] [CMD] fastboot_moderno.exe flash _aml_dtb "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img" (Exit=1) -> Sending '_aml_dtb' (256 KB)                        FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:07:20.286] [FASTBOOT_LOCKED_ASSIST] Entrando en HandleLockedFastbootInMainMission (lock=10001000).
+[2026-11-04 01:07:20.289] [UI] CAJA RETENIDA EN FASTBOOT (PID_0D02) CON CANDADO U-BOOT (lock=10001000)
+[2026-11-04 01:07:20.293] [UI] Tu caja ZTE B866V2 (U-Boot Sep 05 2023) esta conectada y retenida en Fastboot.
+[2026-11-04 01:07:20.295] [UI] Elige como deseas continuar hacia la Interfaz del Firmware Xview Liberado:
+[2026-11-04 01:07:20.297] [UI] [1] CAZAR MODO WORLDCUP (48ms) CON CUENTA REGRESIVA DE 5 SEGUNDOS:
+[2026-11-04 01:07:20.298] [UI] (Retira la memoria USB KINGSTON de la caja, deja SOLO el cable USB Macho-a-Macho,
+[2026-11-04 01:07:20.299] [UI] el programa te dara 5 segundos para presionar RESET antes de reiniciar la caja
+[2026-11-04 01:07:20.301] [UI] y cazara WorldCup / Fastbootd / ADB simultaneamente)
+[2026-11-04 01:07:20.302] [UI] [2] PREPARAR MEMORIA USB KINGSTON CON PACK COMPLETO FIRMWARE XVIEW LIBERADO
+[2026-11-04 01:07:20.304] [UI] + REINICIAR CAJA Y ESCANEAR PUENTE ADB (USB y Red Local :5555)
+[2026-11-04 01:07:20.305] [UI] [3] Volver al menu principal (manteniendo la caja en Fastboot)
+[2026-11-04 01:07:20.309] [UI] Elige 1, 2 o 3 (1/2/3):
+[2026-11-04 01:08:22.757] [UI] 1
+[2026-11-04 01:08:22.758] [INPUT] Eleccion del usuario (KeepAlive): 1
+[2026-11-04 01:08:22.760] [UI] PREPARATE: RETIRA LA MEMORIA USB DE LA CAJA Y PRESIONA EL BOTON RESET AHORA
+[2026-11-04 01:08:22.762] [UI] -> Reiniciando caja en 5 segundos... (MANTEN PRESIONADO RESET CON EL CLIP!)
+[2026-11-04 01:08:23.759] [UI] -> Reiniciando caja en 4 segundos... (MANTEN PRESIONADO RESET CON EL CLIP!)
+[2026-11-04 01:08:24.750] [UI] -> Reiniciando caja en 3 segundos... (MANTEN PRESIONADO RESET CON EL CLIP!)
+[2026-11-04 01:08:25.751] [UI] -> Reiniciando caja en 2 segundos... (MANTEN PRESIONADO RESET CON EL CLIP!)
+[2026-11-04 01:08:26.733] [UI] -> Reiniciando caja en 1 segundos... (MANTEN PRESIONADO RESET CON EL CLIP!)
+[2026-11-04 01:08:27.746] [UI] [*] Enviando 'fastboot reboot' AHORA! (Sigue manteniendo RESET 5 segundos)...
+[2026-11-04 01:08:27.817] [CMD] fastboot_moderno.exe reboot (Exit=0) -> Rebooting                                          OKAY [  0.003s]  | Finished. Total time: 0.003s
+[2026-11-04 01:09:12.891] [UI] [!] La caja encendio en Android sin abrir WorldCup (VID_1B8E). Probando escaneo ADB en red local...
+[2026-11-04 01:09:12.921] [NET_SCAN] Iniciando escaneo rapido de subred local para puerto ADB 5555...
+[2026-11-04 01:09:12.923] [UI] [*] Escaneando red local (Wi-Fi / Ethernet) en busca de la caja Xview+ (:5555)...
+[2026-11-04 01:09:12.983] [UI] -> Sondeando subred 192.168.0.1-254 (puerto 5555)...
+[2026-11-04 01:09:15.179] [UI] Presiona ENTER para volver al menu:
+[2026-11-04 01:09:15.424] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-04 01:09:15.427] [UI] Selecciona el numero de la opcion [0-8]:
+[2026-11-04 01:10:39.343] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 01:10:39.344] [MISION_PRINCIPAL] Iniciando Opcion 1: Mision Principal (Liberacion Total + Interfaz Firmware Xview Liberado DMC.v2.25)...
+[2026-11-04 01:10:39.345] [UI] MISION PRINCIPAL: LIBERAR CAJA + INTERFAZ FIRMWARE XVIEW LIBERADO (DMC.v2.25)
+[2026-11-04 01:10:39.346] [UI] Resultado Final de esta Mision:
+[2026-11-04 01:10:39.347] [UI] 1. Quitar Pantalla Azul 'ESTE EQUIPO ES PROPIEDAD DE MEGACABLE' y candado QR.
+[2026-11-04 01:10:39.348] [UI] 2. Instalar el Firmware / Interfaz Xview Liberado (Launcher Android TV Oficial,
+[2026-11-04 01:10:39.348] [UI] Google TV, AppDMC, DLStore, HDPlay, Xuper Hydra, XSairec, MXL Movies, MagisTV).
+[2026-11-04 01:10:39.349] [UI] 3. Conservar 100% intactos tus certificados Widevine L1 (factory) y MAC (cri_data).
+[2026-11-04 01:10:39.351] [UI] COMO ACTIVAR EL SALTO EXTERNO EN TU CAJA AHORA MISMO:
+[2026-11-04 01:10:39.351] [UI] * Con la memoria USB KINGSTON insertada en la caja y el cable USB Macho-a-Macho
+[2026-11-04 01:10:39.352] [UI] conectado a la PC, desconecta la corriente, manten presionado el boton RESET
+[2026-11-04 01:10:39.353] [UI] y vuelve a conectar la corriente (o si ya esta en Fastboot/ADB la atrapara al instante).
+[2026-11-04 01:10:39.355] [UI] [*] RADAR MULTICANAL ACTIVO (48ms WorldCup + Fastbootd + Fastboot + ADB)... (ESC para volver al menu)
+[2026-11-04 01:10:40.067] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: yes  | Finished. Total time: 0.000s
+[2026-11-04 01:10:40.068] [FASTBOOTD_CAUGHT] Detectado Recovery fastbootd (PID_4EE7 / Z41220090388172).
+[2026-11-04 01:10:40.068] [FASTBOOTD_FLASH] Intentando desbloqueo e inyeccion en Recovery fastbootd (PID_4EE7 / Z41220090388172)...
+[2026-11-04 01:10:40.069] [UI] [+] CAJA DETECTADA EN RECOVERY FASTBOOTD (PID_4EE7 / Serie: Z41220090388172)
+[2026-11-04 01:10:40.071] [UI] Ejecutando secuencia de desbloqueo e inyeccion en espacio de usuario (fastbootd)...
+[2026-11-04 01:10:40.136] [CMD] fastboot_moderno.exe flashing unlock (Exit=1) -> FAILED (remote: 'Unrecognized command flashing unlock')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.187] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=1) -> FAILED (remote: 'Unrecognized command flashing unlock_critical')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.188] [UI] -> Probando inyeccion fastbootd en 'env' (env_unlocked.img)...
+[2026-11-04 01:10:40.261] [CMD] fastboot_moderno.exe flash env "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\env_unlocked.img" (Exit=1) -> Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.262] [UI] -> Probando inyeccion fastbootd en 'conf' (conf.img)...
+[2026-11-04 01:10:40.333] [CMD] fastboot_moderno.exe flash conf "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\conf.img" (Exit=1) -> Sending 'conf' (4096 KB)                           FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.334] [UI] -> Probando inyeccion fastbootd en 'vbmeta' (vbmeta.img)...
+[2026-11-04 01:10:40.409] [CMD] fastboot_moderno.exe flash vbmeta "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\vbmeta.img" (Exit=1) -> Sending 'vbmeta' (2048 KB)                         FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.412] [UI] -> Probando inyeccion fastbootd en 'logo' (logo.img)...
+[2026-11-04 01:10:40.496] [CMD] fastboot_moderno.exe flash logo "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\logo.img" (Exit=1) -> Sending 'logo' (281 KB)                            FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.497] [UI] -> Probando inyeccion fastbootd en 'oem' (oem.img)...
+[2026-11-04 01:10:40.560] [CMD] fastboot_moderno.exe flash oem "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\oem.img" (Exit=1) -> Sending 'oem' (16384 KB)                           FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.561] [UI] -> Probando inyeccion fastbootd en 'cache' (cache_ext4.img)...
+[2026-11-04 01:10:40.630] [CMD] fastboot_moderno.exe flash cache "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img" (Exit=1) -> Sending 'cache' (65536 KB)                         FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.638] [UI] -> Probando inyeccion fastbootd en 'boot' (boot.img)...
+[2026-11-04 01:10:40.708] [CMD] fastboot_moderno.exe flash boot "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\boot.img" (Exit=1) -> Sending 'boot' (16384 KB)                          FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.709] [UI] -> Probando inyeccion fastbootd en 'dtbo' (dtbo.img)...
+[2026-11-04 01:10:40.770] [CMD] fastboot_moderno.exe flash dtbo "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtbo.img" (Exit=1) -> Sending 'dtbo' (8192 KB)                           FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.771] [UI] -> Probando inyeccion fastbootd en 'recovery' (recovery.img)...
+[2026-11-04 01:10:40.829] [CMD] fastboot_moderno.exe flash recovery "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\recovery.img" (Exit=1) -> Sending 'recovery' (24576 KB)                      FAILED (remote: 'Download is not allowed on locked devices')  | fastboot: error: Command failed
+[2026-11-04 01:10:40.831] [UI] -> Saltando ahora de Recovery Fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[2026-11-04 01:10:40.887] [CMD] fastboot_moderno.exe reboot bootloader (Exit=0) -> Rebooting into bootloader                          OKAY [  0.000s]  | Finished. Total time: 0.001s
+[2026-11-04 01:10:44.974] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: no  | Finished. Total time: 0.015s
+[2026-11-04 01:10:44.975] [UBOOT_FASTBOOT_CAUGHT] Detectado U-Boot Fastboot en vivo (PID_0D02 / Z41220090388172).
+[2026-11-04 01:10:44.977] [UI] [+] Caja atrapada en U-Boot Fastboot en vivo (Serie: Z41220090388172)!
+[2026-11-04 01:10:44.978] [UI] Reteniendo Watchdog y ejecutando secuencia de desbloqueo limpia...
+[2026-11-04 01:10:45.058] [CMD] fastboot_moderno.exe flashing get_unlock_ability (Exit=0) -> OKAY [  0.003s]  | Finished. Total time: 0.004s
+[2026-11-04 01:10:45.119] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=0) -> OKAY [  0.005s]  | Finished. Total time: 0.005s
+[2026-11-04 01:10:45.174] [CMD] fastboot_moderno.exe flashing unlock (Exit=0) -> OKAY [  0.005s]  | Finished. Total time: 0.005s
+[2026-11-04 01:10:45.261] [CMD] fastboot_moderno.exe oem "watchdog off" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:10:45.502] [CMD] fastboot_moderno.exe oem "setenv lock 10100000;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:10:45.634] [CMD] fastboot_moderno.exe oem "setenv otg_device 1;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:10:45.874] [CMD] fastboot_moderno.exe oem "saveenv" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:10:45.981] [CMD] fastboot_moderno.exe getvar unlocked (Exit=0) -> unlocked: no  | Finished. Total time: 0.029s
+[2026-11-04 01:10:46.184] [CMD] fastboot_moderno.exe flash _aml_dtb "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img" (Exit=1) -> Sending '_aml_dtb' (256 KB)                        FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 01:10:46.187] [FASTBOOT_LOCKED_ASSIST] Entrando en HandleLockedFastbootInMainMission (lock=10001000).
+[2026-11-04 01:10:46.194] [UI] CAJA RETENIDA EN FASTBOOT (PID_0D02) CON CANDADO U-BOOT (lock=10001000)
+[2026-11-04 01:10:46.201] [UI] Tu caja ZTE B866V2 (U-Boot Sep 05 2023) esta conectada y retenida en Fastboot.
+[2026-11-04 01:10:46.204] [UI] Elige como deseas continuar hacia la Interfaz del Firmware Xview Liberado:
+[2026-11-04 01:10:46.207] [UI] [1] CAZAR MODO WORLDCUP (48ms) CON CUENTA REGRESIVA DE 5 SEGUNDOS:
+[2026-11-04 01:10:46.209] [UI] (Retira la memoria USB KINGSTON de la caja, deja SOLO el cable USB Macho-a-Macho,
+[2026-11-04 01:10:46.212] [UI] el programa te dara 5 segundos para presionar RESET antes de reiniciar la caja
+[2026-11-04 01:10:46.213] [UI] y cazara WorldCup / Fastbootd / ADB simultaneamente)
+[2026-11-04 01:10:46.215] [UI] [2] PREPARAR MEMORIA USB KINGSTON CON PACK COMPLETO FIRMWARE XVIEW LIBERADO
+[2026-11-04 01:10:46.216] [UI] + REINICIAR CAJA Y ESCANEAR PUENTE ADB (USB y Red Local :5555)
+[2026-11-04 01:10:46.217] [UI] [3] Volver al menu principal (manteniendo la caja en Fastboot)
+[2026-11-04 01:10:46.220] [UI] Elige 1, 2 o 3 (1/2/3):
+[2026-11-04 01:11:01.420] [UI] 2
+[2026-11-04 01:11:01.421] [INPUT] Eleccion del usuario (KeepAlive): 2
+[2026-11-04 01:11:01.436] [UI] [!] No se detecto una memoria USB conectada en la PC en este momento.
+[2026-11-04 01:11:01.437] [UI] [*] Reiniciando la caja hacia Android y activando escaneo de ADB USB + Red (:5555)...
+[2026-11-04 01:11:01.501] [CMD] fastboot_moderno.exe reboot (Exit=0) -> Rebooting                                          OKAY [  0.002s]  | Finished. Total time: 0.002s
+[2026-11-04 01:11:01.502] [UI] [*] Esperando a que la caja termine de encender (45s) mientras buscamos ADB por USB y Red...
+[2026-11-04 01:11:47.014] [NET_SCAN] Iniciando escaneo rapido de subred local para puerto ADB 5555...
+[2026-11-04 01:11:47.016] [UI] [*] Escaneando red local (Wi-Fi / Ethernet) en busca de la caja Xview+ (:5555)...
+[2026-11-04 01:11:47.042] [UI] -> Sondeando subred 192.168.0.1-254 (puerto 5555)...
+[2026-11-04 01:11:49.151] [UI] [i] Si acabas de preparar la memoria USB KINGSTON, insertala en la caja para abrir el modo debug/instalador.
+[2026-11-04 01:11:49.153] [UI] Presiona ENTER para volver al menu:
+[2026-11-04 01:12:41.037] [RADAR] SN=Z41220090388172 | RawPid=4EE1 | FastbootLive=False | ADB=
+[2026-11-04 01:12:41.043] [UI] Selecciona el numero de la opcion [0-8]:

@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+
+experimento\06_internet_y_repositorios\ENCICLOPEDIA_XVIEW_ZTE_B866_Y_VARIANTES_2027.md:73:   * Para forzar el modo 
+MaskROM cuando el bootloader está cerrado, se realiza un puente momentáneo (*test point*) entre el pin **DAT0 (o CLK) 
+de la memoria eMMC y tierra (GND)** al conectar la alimentación mientras el cable USB-A a USB-A está conectado al 
+puerto USB del B866V2.
+experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\INFORME_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE.md:1
+14:     - Llama a [`OpsInitUtil.init()`](file:///c:/Users/CORSAIR/Desktop/xview/experimento/14_DESCOMPILACION_REA_CONTR
+OLDEVICE_Y_APPUPGRADE/ControlDevice/jadx_src/sources/com/control/device/util/OpsInitUtil.java) para otorgar permisos 
+especiales `AppOpsManager` (`mode = 0`, códigos `66` y `24`) a los paquetes de Megacable 
+(`com.dotscreen.megacable.updater`, `com.dotscreen.megacable.portal`, `com.dotscreen.megacable.livetv`, 
+`com.dotscreen.megacable.core`, `com.zte.ac` y `tv.broadpeak.nanocdnwrapper`).
+ANALISIS_REA_XUPER_Y_FIRMWARE_XVIEW.md:234:oSof $\rightarrow$ system = recovery. El botón físico RESET (GPIOAO_3, 
+activo en bajo) estaba presionado/en corto, obligando a U-Boot a activar InUsbBurn durante 1.5s y luego saltar a 
+Recovery. Al liberar GPIOAO_3 (alue is 1), U-Boot dejó de forzar Recovery.
+
+

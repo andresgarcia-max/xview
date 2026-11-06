@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+const { app, BrowserWindow, ipcMain, globalShortcut, Menu, nativeImage, screen } = require('electron');
+const path = require('path');
+const fs = require('fs');
+const url = require('url');
+
+if (process.platform === 'win32') {
+  app.setAppUserModelId('com.fitnesslegends.controlacceso.v2');
+}
+
+// Disable HTTP/Chromium disk cache so updates on disk are loaded immediately on start or reload
+app.commandLine.appendSwitch('disable-http-cache');
+
+let mainWindow = null;
+const isDev = process.env.NODE_ENV === 'development' || process.argv.includes('--dev');
+const appMode = process.env.APP_MODE || (process.argv.includes('--terminal') ? 'terminal' : (process.argv.includes('--main') ? 'main' : 'main'));
+process.env.APP_MODE = appMode;
+const startUrlArg = process.env.START_URL;
+
+function resolveAppIcon() {
+  const candidates = [
+    path.join(__dirname, '../build/icon.ico'),
+    path.join(__dirname, '../public/favicon.ico'),
+    path.join(__dirname, '../public/logo.png'),
+    path.join(__dirname, '../dist/logo.png'),
+  ];
+  for (const p of candidates) {
+    if (fs.existsSync(p)) {
+      const img = nativeImage.createFromPath(p);
+      if (!img.isEmpty()) return img;
+    }
+  }
+  return path.join(__dirname, '../public/logo.png');
+}
+
+function createWindow() {
+  const appIcon = resolveAppIcon();
+  const workArea = screen.getPrimaryDisplay().workAreaSize;
+  const winWidth = Math.min(1280, Math.round(workArea.width * 0.92));
+  const winHeight = Math.min(820, Math.round(workArea.height * 0.94));
+
+  mainWindow = new BrowserWindow({
+    width: winWidth,
+    height: winHeight,
+    minWidth: 760,
+    minHeight: 560,
+    center: true,
+    title: appMode === 'terminal' 
+      ? 'FITNESS LEGENDS - Terminal de Control de Acceso' 
+      : 'FITNESS LEGENDS GYM - Sistema de Gesti�n',
+    backgroundColor: '#09090b',
+    icon: appIcon,
+    autoHideMenuBar: true,
+    webPreferences: {
+      preload: path.join(__dirname, 'preload.cjs'),
+      nodeIntegration: false,
+      contextIsolation: true,
+      webSecurity: true,
+    },
+  });
+

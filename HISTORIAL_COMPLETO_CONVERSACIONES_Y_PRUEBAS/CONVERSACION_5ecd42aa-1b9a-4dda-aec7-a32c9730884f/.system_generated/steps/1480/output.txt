@@ -1,0 +1,64 @@
+Command exited with code 0.
+
+Command output:
+
+Filename                           LineNumber Line                                                              
+--------                           ---------- ----                                                              
+BLOQUES_ASCII_COMPLETOS_SESION.txt        574    Uncompressing Kernel Image ... };bootm ${loadaddr}             
+BLOQUES_ASCII_COMPLETOS_SESION.txt        884 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1690 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_ASCII_COMPLETOS_SESION.txt       2640    Uncompressing Kernel Image ... };bootm ${loadaddr}             
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3416 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_ASCII_COMPLETOS_SESION.txt       4294 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_ASCII_COMPLETOS_SESION.txt       5953    Uncompressing Kernel Image ... };bootm ${loadaddr}             
+BLOQUES_ASCII_COMPLETOS_SESION.txt       7695    Uncompressing Kernel Image ... };bootm ${loadaddr}             
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14239 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_ASCII_COMPLETOS_SESION.txt      14648 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_ASCII_COMPLETOS_SESION.txt      15312    Uncompressing Kernel Image ... };bootm ${loadaddr}             
+BLOQUES_ASCII_COMPLETOS_SESION.txt      16030 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_UTF16_COMPLETOS_SESION.txt        682 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3515 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3531 'ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadad    
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3735 ztebsp: cmdT = imgread kernel boot ${loadaddr                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3738 ztebsp: cmdT = imgread kernel boot ${loadaddr}                    
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3741 ztebsp: cmdT = imgread kernel boot ${loadaddr};                   
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3744 ztebsp: cmdT = imgread kernel boot ${loadaddr};b                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3747 ztebsp: cmdT = imgread kernel boot ${loadaddr};bo                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3750 ztebsp: cmdT = imgread kernel boot ${loadaddr};boo                
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3753 ztebsp: cmdT = imgread kernel boot ${loadaddr};boot               
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3756 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm              
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3759 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm $            
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3762 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${           
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3765 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${l          
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3768 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${lo         
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3771 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loa        
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3774 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${load       
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3777 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loada      
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3780 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadad     
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3783 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadadd    
+BLOQUES_UTF16_COMPLETOS_SESION.txt       3786 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr   
+BLOQUES_UTF16_COMPLETOS_SESION.txt       5598 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32567 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32578 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32581 'ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}'
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32749 ztebsp: cmdT = imgread kernel boot ${loadaddr                     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32752 ztebsp: cmdT = imgread kernel boot ${loadaddr}                    
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32755 ztebsp: cmdT = imgread kernel boot ${loadaddr};                   
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32758 ztebsp: cmdT = imgread kernel boot ${loadaddr};b                  
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32761 ztebsp: cmdT = imgread kernel boot ${loadaddr};bo                 
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32764 ztebsp: cmdT = imgread kernel boot ${loadaddr};boo                
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32767 ztebsp: cmdT = imgread kernel boot ${loadaddr};boot               
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32770 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm              
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32773 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm $            
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32776 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${           
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32779 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${l          
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32782 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${lo         
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32785 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loa        
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32788 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${load       
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32791 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loada      
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32794 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadad     
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32797 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadadd    
+BLOQUES_UTF16_COMPLETOS_SESION.txt      32800 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr   
+BLOQUES_UTF16_COMPLETOS_SESION.txt      34107 ztebsp: cmdT = imgread kernel boot ${loadaddr};bootm ${loadaddr}  
+
+

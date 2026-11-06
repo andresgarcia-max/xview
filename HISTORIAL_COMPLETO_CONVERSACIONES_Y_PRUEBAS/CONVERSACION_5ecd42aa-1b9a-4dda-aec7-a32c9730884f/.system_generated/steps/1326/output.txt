@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+
+Name                               Length
+----                               ------
+1_HERRAMIENTAS_MOTOR                     
+2_APKS_LIBERACION_Y_TV                   
+3_LLAVES_USB_PARA_LA_CAJA                
+4_DRIVERS_Y_GUI_WINDOWS                  
+5_FIRMWARE_SEGURO_B866V2                 
+BITACORA_EN_VIVO_EXE.log           83126 
+LEEME_GUIA_PROGRAMA_PERFECTO.md    2366  
+NOTAS_VERIFICACION_EN_VIVO.md      5410  
+PROGRAMA_PERFECTO_XVIEW_B866V2.exe 58368 
+
+
+
+Status Class     FriendlyName   InstanceId                                    
+------ -----     ------------   ----------                                    
+OK     USBDevice android_winusb USB\VID_1B8E&PID_C004\00199321C9402A2200000000
+
+

@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  10:31 a. m.          41472 ACCESO_CLIENTES_LEGENDS.exe                                          
+-a---l     24/10/2026  11:36 a. m.          40960 CONTROL_DE_ACCESO.exe                                                
+-a----     24/10/2026  11:36 a. m.           1951 FITNESS LEGENDS - Control de Acceso.lnk                              
+-a----     24/10/2026  11:36 a. m.           1943 FITNESS LEGENDS - Sistema ERP.lnk                                    
+-a---l     24/10/2026  11:36 a. m.          40448 FITNESS_LEGENDS_SISTEMA_ERP.exe                                      
+-a---l     24/10/2026  11:36 a. m.          40960 FITNESS_LEGENDS_TERMINAL_ACCESO.exe                                  
+-a---l     24/10/2026  11:36 a. m.          40448 SISTEMA_ERP.exe                                                      
+
+

@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                       Length LastWriteTime            
+--------                                                                       ------ -------------            
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\Control_De_Acceso_Web.html   8348420 24/10/2026 10:05:06 a. m.
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\Control_De_Acceso_Web.html 8348420 24/10/2026 10:05:06 a. m.
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMIN... 8348420 24/10/2026 10:24:42 a. m.
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMIN... 8348341 24/10/2026 09:43:36 a. m.
+C:\Users\andre\OneDrive\Desktop\gym\repositorios\legends-gym\public\Contro... 3908563 23/10/2026 10:19:54 p. m.
+
+

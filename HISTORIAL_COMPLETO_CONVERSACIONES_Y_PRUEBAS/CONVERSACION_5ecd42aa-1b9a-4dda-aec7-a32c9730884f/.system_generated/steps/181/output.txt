@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\xview\experimento\04_apks_dispositivo\com.ztestb.basecomp.apk
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\1_PREPARAR_MEMORIA_USB_QADEBUG.bat
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\QADEBUG.ini
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\12_KIT_USB_QADEBUG_Y_EXTRACCION\1_PREPARAR_MEMORIA_USB_QADEBUG.bat
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\12_KIT_USB_QADEBUG_Y_EXTRACCION\ARCHIVOS_PARA_RAIZ_USB\QADEBUG.ini
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\12_KIT_USB_QADEBUG_Y_EXTRACCION\ARCHIVOS_PARA_RAIZ_USB\QADEBUGTOOL.ini
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\ARCHIVOS_PARA_RAIZ_USB\QADEBUG.ini
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\ARCHIVOS_PARA_RAIZ_USB\QADEBUGTOOL.ini

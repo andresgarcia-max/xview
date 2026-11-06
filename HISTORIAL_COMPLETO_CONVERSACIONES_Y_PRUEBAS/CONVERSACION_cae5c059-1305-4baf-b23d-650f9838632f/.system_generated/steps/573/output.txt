@@ -1,0 +1,52 @@
+Command exited with code 0.
+
+Command output:
+
+> LEGENDS\src\components\auth\LoginScreen.tsx:10:  LogIn, 
+  LEGENDS\src\components\auth\LoginScreen.tsx:11:  Sparkles, 
+  LEGENDS\src\components\auth\LoginScreen.tsx:12:  AlertCircle, 
+> LEGENDS\src\components\auth\LoginScreen.tsx:27:export const LoginScreen: React.FC = () => {
+> LEGENDS\src\components\auth\LoginScreen.tsx:28:  const { login, employees, securityAlert, clearSecurityAlert, 
+securityAuditLogs } = useGym();
+  LEGENDS\src\components\auth\LoginScreen.tsx:29:
+  LEGENDS\src\components\auth\LoginScreen.tsx:30:  const [identifier, setIdentifier] = useState('');
+> LEGENDS\src\components\auth\LoginScreen.tsx:39:  const [showPinPad, setShowPinPad] = useState(false);
+  LEGENDS\src\components\auth\LoginScreen.tsx:40:  const [showAuditModal, setShowAuditModal] = useState(false);
+  LEGENDS\src\components\auth\LoginScreen.tsx:41:  const [showDemoHints, setShowDemoHints] = useState(false);
+> LEGENDS\src\components\auth\LoginScreen.tsx:43:  const [supervisorOverridePin, setSupervisorOverridePin] = 
+useState('');
+  LEGENDS\src\components\auth\LoginScreen.tsx:44:
+  LEGENDS\src\components\auth\LoginScreen.tsx:45:  const passwordInputRef = useRef<HTMLInputElement>(null);
+> LEGENDS\src\components\auth\LoginScreen.tsx:50:      const { lockoutUntil } = storage.getLoginLockout();
+  LEGENDS\src\components\auth\LoginScreen.tsx:51:      if (lockoutUntil && lockoutUntil > Date.now()) {
+  LEGENDS\src\components\auth\LoginScreen.tsx:52:        setLockoutSeconds(Math.ceil((lockoutUntil - Date.now()) / 
+1000));
+> LEGENDS\src\components\auth\LoginScreen.tsx:70:    e.preventDefault();
+  LEGENDS\src\components\auth\LoginScreen.tsx:71:    setErrorMessage('');
+  LEGENDS\src\components\auth\LoginScreen.tsx:72:
+> LEGENDS\src\components\auth\LoginScreen.tsx:79:      setErrorMessage('Por favor ingresa tu correo/usuario y tu 
+contrase�a o PIN personal.');
+  LEGENDS\src\components\auth\LoginScreen.tsx:80:      return;
+  LEGENDS\src\components\auth\LoginScreen.tsx:81:    }
+> LEGENDS\src\components\auth\LoginScreen.tsx:83:    if (requiresSupervisorOverride && !supervisorOverridePin.trim()) {
+> LEGENDS\src\components\auth\LoginScreen.tsx:84:      setErrorMessage('Ingresa el PIN o contrase�a del 
+Supervisor/Administrador para autorizar el ingreso fuera de turno.');
+  LEGENDS\src\components\auth\LoginScreen.tsx:85:      return;
+  LEGENDS\src\components\auth\LoginScreen.tsx:86:    }
+> LEGENDS\src\components\auth\LoginScreen.tsx:91:      const result = login(
+  LEGENDS\src\components\auth\LoginScreen.tsx:92:        identifier,
+  LEGENDS\src\components\auth\LoginScreen.tsx:93:        password,
+> LEGENDS\src\components\auth\LoginScreen.tsx:94:        requiresSupervisorOverride ? supervisorOverridePin : undefined
+  LEGENDS\src\components\auth\LoginScreen.tsx:95:      );
+  LEGENDS\src\components\auth\LoginScreen.tsx:96:      setIsLoading(false);
+> LEGENDS\src\components\auth\LoginScreen.tsx:101:        setSupervisorOverridePin('');
+  LEGENDS\src\components\auth\LoginScreen.tsx:102:        confetti({
+  LEGENDS\src\components\auth\LoginScreen.tsx:103:          particleCount: 50,
+> LEGENDS\src\components\auth\LoginScreen.tsx:112:          setSupervisorOverridePin('');
+  LEGENDS\src\components\auth\LoginScreen.tsx:113:        } else {
+  LEGENDS\src\components\auth\LoginScreen.tsx:114:          setRequiresSupervisorOverride(false);
+> LEGENDS\src\components\auth\LoginScreen.tsx:115:          setSupervisorOverridePin('');
+  LEGENDS\src\components\auth\LoginScreen.tsx:116:          setPassword('');
+  LEGENDS\src\components\auth\LoginScreen.tsx:117:        }
+
+

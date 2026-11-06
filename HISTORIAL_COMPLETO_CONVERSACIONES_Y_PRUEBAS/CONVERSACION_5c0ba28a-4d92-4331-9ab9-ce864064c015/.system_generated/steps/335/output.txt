@@ -1,0 +1,56 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\App.tsx:23:import { IndependentTerminalApp } from './components/access/IndependentTerminalApp';
+  LEGENDS\src\App.tsx:24:import gymDumbbellBg from './assets/gym-dumbbell-background.jpg';
+  LEGENDS\src\App.tsx:25:
+> LEGENDS\src\App.tsx:26:export const isClientsMode = (): boolean => {
+  LEGENDS\src\App.tsx:27:  if (typeof window === 'undefined') return false;
+  LEGENDS\src\App.tsx:28:  const searchParams = new URLSearchParams(window.location.search);
+> LEGENDS\src\App.tsx:29:  if (searchParams.get('mode') === 'clients' || searchParams.get('tab') === 'clients') return 
+true;
+  LEGENDS\src\App.tsx:30:  return false;
+  LEGENDS\src\App.tsx:31:};
+  LEGENDS\src\App.tsx:32:
+> LEGENDS\src\App.tsx:33:export const isTerminalMode = (): boolean => {
+  LEGENDS\src\App.tsx:34:  if (typeof window === 'undefined') return false;
+  LEGENDS\src\App.tsx:35:  const searchParams = new URLSearchParams(window.location.search);
+> LEGENDS\src\App.tsx:36:  if (searchParams.get('mode') === 'main' || searchParams.get('mode') === 'pos' || 
+searchParams.get('tab') === 'pos') return false;
+> LEGENDS\src\App.tsx:37:  if (searchParams.get('mode') === 'terminal' || searchParams.get('terminal') === 'true') 
+return true;
+  LEGENDS\src\App.tsx:38:  if (window.location.pathname.toLowerCase().includes('terminal')) return true;
+  LEGENDS\src\App.tsx:39:  if (window.location.hash.includes('terminal')) return true;
+> LEGENDS\src\App.tsx:40:  if (localStorage.getItem('legends_device_mode') === 'main' || 
+localStorage.getItem('legends_device_mode') === 'pos') return false;
+> LEGENDS\src\App.tsx:41:  if (localStorage.getItem('legends_device_mode') === 'terminal') return true;
+> LEGENDS\src\App.tsx:42:  if ((window as any).electronAPI?.appMode === 'terminal') return true;
+  LEGENDS\src\App.tsx:43:  return false;
+  LEGENDS\src\App.tsx:44:};
+  LEGENDS\src\App.tsx:45:
+  LEGENDS\src\App.tsx:46:const getInitialTab = (): string => {
+  LEGENDS\src\App.tsx:47:  if (typeof window === 'undefined') return 'dashboard';
+  LEGENDS\src\App.tsx:48:  const searchParams = new URLSearchParams(window.location.search);
+> LEGENDS\src\App.tsx:49:  const target = searchParams.get('tab') || searchParams.get('mode');
+  LEGENDS\src\App.tsx:50:  if (target === 'pos') return 'pos';
+  LEGENDS\src\App.tsx:51:  if (target === 'access') return 'access';
+  LEGENDS\src\App.tsx:52:  if (target === 'clients') return 'clients';
+  LEGENDS\src\App.tsx:53:  if (target === 'catalog') return 'catalog';
+  LEGENDS\src\App.tsx:54:  if (target === 'cash') return 'cash';
+  LEGENDS\src\App.tsx:180:
+  LEGENDS\src\App.tsx:181:const AppContent: React.FC = () => {
+  LEGENDS\src\App.tsx:182:  const { isAuthenticated } = useGym();
+> LEGENDS\src\App.tsx:183:  const [terminalMode] = useState<boolean>(() => isTerminalMode());
+  LEGENDS\src\App.tsx:184:  const [terminalView, setTerminalView] = useState<'terminal' | 'clients'>('terminal');
+  LEGENDS\src\App.tsx:185:
+> LEGENDS\src\App.tsx:186:  // Independent Turnstile terminal mode for separate computer
+> LEGENDS\src\App.tsx:187:  if (terminalMode) {
+  LEGENDS\src\App.tsx:188:    if (terminalView === 'clients') {
+  LEGENDS\src\App.tsx:189:      return (
+  LEGENDS\src\App.tsx:190:        <div className="min-h-screen bg-slate-950 text-white flex flex-col">
+  LEGENDS\src\App.tsx:191:          <div className="p-4 bg-slate-900 border-b border-amber-500/30 flex items-center 
+justify-between shadow-xl">
+  LEGENDS\src\App.tsx:192:            <div className="flex items-center gap-3">
+
+

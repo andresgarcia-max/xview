@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+Generating updated single-file HTML with 3 clean options (No black box)...
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\ACCESO_WEB_FITNESS_LEGENDS.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\terminal.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\terminal.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html
+ExitCode: 0

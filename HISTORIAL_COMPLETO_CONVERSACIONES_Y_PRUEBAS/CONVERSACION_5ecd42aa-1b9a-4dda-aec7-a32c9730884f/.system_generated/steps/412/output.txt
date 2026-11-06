@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+Parser Errors: 0
+================================================================================
+          PROGRAMA PERFECTO - MEGACABLE XVIEW+ (ZTE ZXV10 B866V2)               
+     Motor de Salto Directo (WorldCup 48ms / Fastbootd / Fastboot / ADB)        
+      Regla: 100% Externo Sin Abrir Tornillos | Proteccion Widevine L1/MAC      
+================================================================================
+
+ [RADAR DE HARDWARE USB EN TIEMPO REAL]
+  * Caja Detectada   : Xview+ (Serie: Z41220090388172)
+  * Estado Cable USB : Modo MTP Android (PID_4EE1) - Usa Opcion 1 para Salto Automatico
+  * Sesion ADB       : Sin sesion activa
+  * Sesion Fastboot  : En espera de salto (Opcion 1 caza WorldCup/Fastboot)
+--------------------------------------------------------------------------------
+  [1] SALTO AUTOMATICO MULTI-CANAL (Caza WorldCup InUsbBurn en 48ms + Fastbootd + Fastboot + ADB)
+  [2] FLASHEO SEGURO ANDROID 12 LIBERADO (B866V2) Conservando Widevine L1 y MAC
+  [3] Instalador de Apps de TV y Entretenimiento (MagisTV, Xuper, Hdplay, Launchers, Button Mapper)
+  [4] Motor Amlogic DNL / WorldCup (adnl.exe + update.exe por boton externo RESET)
+  [5] Preparar Memoria USB (QADEBUG.ini + factory_update_param.aml) y Descifrar Logs ZTE
+  [6] Instalar Drivers USB (WorldCup VID_1B8E) o Abrir ADB AppControl GUI
+  [0] Conectar por IP Local o Refrescar Radar USB   |   [7] Salir
+--------------------------------------------------------------------------------

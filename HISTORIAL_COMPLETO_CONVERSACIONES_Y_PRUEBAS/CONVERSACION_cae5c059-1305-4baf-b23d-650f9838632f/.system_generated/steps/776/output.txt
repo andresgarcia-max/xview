@@ -1,0 +1,60 @@
+Command exited with code 0.
+
+Command output:
+commit 9696c8e90cf60c27c9b821b7d30f4e8ff6b4cbeb
+Author: Cristiansairec94 <cristian@sairec.com>
+Date:   Fri Oct 23 23:07:55 2026 -0600
+
+    feat(ui): establecer nueva imagen 8K con caminadoras y logo oficial como fondo principal del sistema
+
+diff --git a/public/gym-background-4k.jpg b/public/gym-background-4k.jpg
+index 1b97ccb..b2ae591 100644
+Binary files a/public/gym-background-4k.jpg and b/public/gym-background-4k.jpg differ
+diff --git a/public/gym-background-club-8k.jpg b/public/gym-background-club-8k.jpg
+index e8cd94c..b2ae591 100644
+Binary files a/public/gym-background-club-8k.jpg and b/public/gym-background-club-8k.jpg differ
+diff --git a/public/gym-background.jpg b/public/gym-background.jpg
+index 624736b..b2ae591 100644
+Binary files a/public/gym-background.jpg and b/public/gym-background.jpg differ
+diff --git a/repositorios/02_IMAGENES_ALTA_CALIDAD/maquinas_y_equipamiento/legends_gym_caminadoras_8k.jpg b/repositorios/02_IMAGENES_ALTA_CALIDAD/maquinas_y_equipamiento/legends_gym_caminadoras_8k.jpg
+index e8cd94c..b2ae591 100644
+Binary files a/repositorios/02_IMAGENES_ALTA_CALIDAD/maquinas_y_equipamiento/legends_gym_caminadoras_8k.jpg and b/repositorios/02_IMAGENES_ALTA_CALIDAD/maquinas_y_equipamiento/legends_gym_caminadoras_8k.jpg differ
+diff --git a/src/assets/gym-background-4k.jpg b/src/assets/gym-background-4k.jpg
+index 32924e0..b2ae591 100644
+Binary files a/src/assets/gym-background-4k.jpg and b/src/assets/gym-background-4k.jpg differ
+diff --git a/src/assets/gym-background-club-8k.jpg b/src/assets/gym-background-club-8k.jpg
+index e8cd94c..b2ae591 100644
+Binary files a/src/assets/gym-background-club-8k.jpg and b/src/assets/gym-background-club-8k.jpg differ
+diff --git a/src/assets/gym-background.jpg b/src/assets/gym-background.jpg
+index 624736b..b2ae591 100644
+Binary files a/src/assets/gym-background.jpg and b/src/assets/gym-background.jpg differ
+diff --git a/src/components/access/IndependentTerminalApp.tsx b/src/components/access/IndependentTerminalApp.tsx
+index 71695fa..a054ba1 100644
+--- a/src/components/access/IndependentTerminalApp.tsx
++++ b/src/components/access/IndependentTerminalApp.tsx
+@@ -148,8 +148,8 @@ export const IndependentTerminalApp: React.FC<IndependentTerminalAppProps> = ({
+   const [showEscHint, setShowEscHint] = useState(false);
+   const [isMuted, setIsMuted] = useState(false);
+   const [bgImage, setBgImage] = useState<string>(() => {
+-    if (typeof window !== 'undefined' && localStorage.getItem('legends_terminal_bg_version') !== 'v7_fixed_bright_8k') {
+-      localStorage.setItem('legends_terminal_bg_version', 'v7_fixed_bright_8k');
++    if (typeof window !== 'undefined' && localStorage.getItem('legends_terminal_bg_version') !== 'v8_caminadoras_club_8k') {
++      localStorage.setItem('legends_terminal_bg_version', 'v8_caminadoras_club_8k');
+       localStorage.setItem('legends_terminal_bg', gymBg);
+       return gymBg;
+     }
+diff --git a/src/components/access/TurnstileTerminal.tsx b/src/components/access/TurnstileTerminal.tsx
+index 490e691..76f4084 100644
+--- a/src/components/access/TurnstileTerminal.tsx
++++ b/src/components/access/TurnstileTerminal.tsx
+@@ -39,8 +39,8 @@ export const TurnstileTerminal: React.FC = () => {
+   const [searchQuery, setSearchQuery] = useState('');
+   const [isFullScreen, setIsFullScreen] = useState(false);
+   const [bgImage, setBgImage] = useState<string>(() => {
+-    if (typeof window !== 'undefined' && localStorage.getItem('legends_terminal_bg_version') !== 'v7_fixed_bright_8k') {
+-      localStorage.setItem('legends_terminal_bg_version', 'v7_fixed_bright_8k');
++    if (typeof window !== 'undefined' && localStorage.getItem('legends_terminal_bg_version') !== 'v8_caminadoras_club_8k') {
++      localStorage.setItem('legends_terminal_bg_version', 'v8_caminadoras_club_8k');
+       localStorage.setItem('legends_terminal_bg', gymBg);
+       return gymBg;
+     }

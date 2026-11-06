@@ -1,0 +1,38 @@
+Command exited with code 0.
+
+Command output:
+  X,
+  Calendar,
+  Mail,
+  User,
+  CreditCard,
+  Banknote,
+  ArrowRightLeft,
+  Fingerprint,
+  Check,
+  Dumbbell,
+  BicepsFlexed,
+  RotateCw,
+  UserPlus,
+  Users,
+  Ticket,
+  QrCode
+} from 'lucide-react';
+import { Client, MembershipPlanType, PaymentMethod } from '../../types';
+import { getGymAvatar } from '../../utils/genderAvatar';
+import { checkServerHealth, fetchMembersFromServer } from '../../services/syncService';
+
+interface IndependentTerminalAppProps {
+  isEmbeddedFullScreen?: boolean;
+  onExitFullScreen?: () => void;
+  onOpenClients?: () => void;
+}
+
+export const IndependentTerminalApp: React.FC<IndependentTerminalAppProps> = ({
+  isEmbeddedFullScreen = false,
+  onExitFullScreen,
+  onOpenClients,
+}) => {
+  const { 
+    verifyBiometricAccess, 
+    members, 

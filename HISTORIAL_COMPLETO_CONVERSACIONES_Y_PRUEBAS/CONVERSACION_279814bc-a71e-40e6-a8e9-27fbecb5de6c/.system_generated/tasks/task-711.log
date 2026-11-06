@@ -1,0 +1,23 @@
+
+[DB] Base de datos cargada desde c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\data\legends_database.json (8 socios, 14 accesos)
+
+======================================================
+   FITNESS LEGENDS - SERVIDOR DE SINCRONIZACIÓN LAN
+======================================================
+[*] Puerto activo: 3001
+[*] Direcciones IP disponibles para conectar la terminal:
+    -> http://192.168.1.24:3001
+    -> http://localhost:3001 (mismo equipo)
+======================================================
+
+[SSE] Nuevo cliente conectado. Clientes activos en vivo: 1
+[SSE] Nuevo cliente conectado. Clientes activos en vivo: 2
+[SSE] Cliente desconectado. Clientes activos restantes: 1
+[SSE] Nuevo cliente conectado. Clientes activos en vivo: 2
+[SSE] Cliente desconectado. Clientes activos restantes: 1
+[SSE] Nuevo cliente conectado. Clientes activos en vivo: 2
+[SSE] Cliente desconectado. Clientes activos restantes: 1
+[SSE] Nuevo cliente conectado. Clientes activos en vivo: 2
+[SSE] Cliente desconectado. Clientes activos restantes: 1
+[SSE] Nuevo cliente conectado. Clientes activos en vivo: 2
+[SSE] Cliente desconectado. Clientes activos restantes: 1

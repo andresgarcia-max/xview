@@ -1,0 +1,62 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                            Length
+----                                            ------
+ABRIR_CARTERA_CLIENTES_PRO.bat                     432
+ABRIR_CONTROL_DE_ACCESO_WEB.bat                    668
+ABRIR_VERSION_WEB.bat                              642
+ACCESO_CLIENTES_LEGENDS.exe                      41472
+ACCESO_WEB_FITNESS_LEGENDS.html                4126786
+ACCESO_WEB_FITNESS_LEGENDS.url                     123
+ACCESO_WEB_NUBE.url                                137
+CARTERA_CLIENTES_INTERFAZ_PRO.html               87405
+CONTROL_DE_ACCESO.exe                            40960
+Control_De_Acceso_Web.html                     4126786
+CONTROL_DE_ACCESO_WEB.url                          138
+create_wide_logo.js                               3975
+diagnose.log                                       627
+diagnose_after_login.png                        305657
+diagnose_after_roberto_login.png                305657
+diagnose_authenticated.log                        1557
+diagnose_login_roberto.log                        1181
+diagnose_packaged.log                              729
+diagnose_screen.png                             307271
+dumbbell_test.jpg                                30900
+dumbbell_widescreen_test.jpg                    291177
+EJECUTAR_FITNESS_LEGENDS.bat                       150
+EJECUTAR_TERMINAL_ACCESO.bat                       172
+FITNESS LEGENDS - Control de Acceso.lnk           1951
+FITNESS LEGENDS - Nube Vercel (Enlace Web).url     141
+FITNESS LEGENDS - Sistema ERP.lnk                 1943
+FITNESS_LEGENDS_SISTEMA_ERP.exe                  40448
+FITNESS_LEGENDS_TERMINAL_ACCESO.exe              40960
+gym-background-4k.jpg                           812097
+gym-background-club-8k.jpg                      812097
+gym-background-motto.jpg                       1024389
+gym-background-real.jpg                         698002
+gym-background.jpg                              812097
+gym-dumbbell-background.jpg                     322819
+GYM_FUNCIONAL_WEB.bat                              480
+GYM_FUNCIONAL_WEB.url                              142
+LEYENDS_GYM_8K_CUADRADA_1X1.jpg                5985780
+LEYENDS_GYM_8K_ESTUDIO_16X9.jpg                5969677
+LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg              3594959
+modal-gym-bg-hd.jpg                             227074
+PUNTO_DE_VENTA_GYM.bat                             410
+PUNTO_DE_VENTA_GYM.url                             151
+scratch_extract_exe.ps1                            651
+SISTEMA_ERP.exe                                  40448
+temp_extracted.js                              2253936
+test_diagnose.js                                  1193
+test_diagnose_auth.js                             3641
+test_diagnose_packaged.js                         1698
+test_login_roberto.js                             2906
+WhatsApp Image 2026-10-19 at 8.32.23 AM.jpeg    186225
+WhatsApp Image 2026-10-19 at 8.32.24 AM.jpeg    297334
+wide_dumbbell_seamless.jpg                      368957
+wide_dumbbell_test.jpg                          412673
+wide_dumbbell_with_logo.jpg                     388359
+
+

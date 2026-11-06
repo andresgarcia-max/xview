@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+Copiado: com.google.android.tvlauncher.apk
+Copiado: ControlDevice.apk
+Copiado: tv.mxlmovies.app.apk
+Copiado: com.xuper.netxxus.apk
+
+Name                              SizeMB
+----                              ------
+AppDMC.apk                          0.55
+autostart.apk                       0.01
+Button_Mapper_Pro_2.54.apk          4.67
+com.google.android.tvlauncher.apk  12.93
+com.xuper.netxxus.apk              32.83
+ControlDevice.apk                  17.05
+DLStore.apk                         3.16
+Downloader_2.0.4.apk                5.72
+Filemanager.apk                     5.47
+Hdplay.apk                           3.4
+Home_Screen_Launcher_1.1.3.apk      0.77
+signMagisTV_APS-MUTO.apk           32.59
+tv.mxlmovies.app.apk                38.5
+TVLauncher_4_GoogleTV.apk          36.45
+xuper_hydra.apk                    34.27
+
+

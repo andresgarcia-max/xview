@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+[2026-11-05 00:23:54.886] [UI] Writing 'super'                                    OKAY [  8.232s]
+[2026-11-05 00:24:01.827] [UI] Sending sparse 'super' 9/11 (129192 KB)            OKAY [  6.937s]
+[2026-11-05 00:24:12.048] [UI] Writing 'super'                                    OKAY [ 10.221s]
+[2026-11-05 00:24:18.470] [UI] Sending sparse 'super' 10/11 (131071 KB)           OKAY [  6.420s]
+[2026-11-05 00:24:28.905] [UI] Writing 'super'                                    OKAY [ 10.437s]
+[2026-11-05 00:24:32.351] [UI] Sending sparse 'super' 11/11 (70704 KB)            OKAY [  3.446s]
+[2026-11-05 00:24:56.961] [UI] Writing 'super'                                    OKAY [ 24.589s]
+[2026-11-05 00:24:56.966] [UI] Finished. Total time: 210.140s
+[2026-11-05 00:24:56.974] [CMD_INTERACTIVE_END] fastboot_moderno.exe ExitCode=0
+[2026-11-05 00:24:56.976] [UI] [OK] Particion 'super' (1.88 GB - DMC.v2.25) escrita e inyectada al 100%.
+[2026-11-05 00:24:57.078] [UI] -> Limpiando cache / userdata y reiniciando hacia el Firmware Liberado DMC.v2.25...
+[2026-11-05 00:24:57.243] [CMD] fastboot_moderno.exe erase cache (Exit=0) -> ******** Did you mean to fastboot format this ext4 partition?  | Erasing 'cache'                                    OKAY [  0.066s]  | Finished. Total time: 0.069s
+[2026-11-05 00:24:57.821] [CMD] fastboot_moderno.exe erase userdata (Exit=0) -> ******** Did you mean to fastboot format this ext4 partition?  | Erasing 'userdata'                                 OKAY [  0.504s]  | Finished. Total time: 0.504s
+[2026-11-05 00:24:57.901] [CMD] fastboot_moderno.exe reboot (Exit=0) -> Rebooting                                          OKAY [  0.000s]  | Finished. Total time: 0.000s
+[2026-11-05 00:24:57.903] [UI] -> Esperando encendido de DMC.v2.25 para instalar /data/app (Xuper + MXL) y validar Visto Bueno...
+[2026-11-05 00:25:44.381] [NET_SCAN] Escaneando subred local para puerto ADB 5555...
+[2026-11-05 00:25:44.385] [UI] [*] Escaneando red local en busca de la caja (:5555)...
+[2026-11-05 00:25:48.669] [UI] [PASO 4/4] ¡VISTO BUENO FASTBOOT APROBADO (13/13 PARTICIONES + SUPER.IMG)!
+[2026-11-05 00:25:48.673] [UI] * Firmware DMC.v2.25 (ViettelBox_B866V2 Android 12) inyectado al 100%.
+[2026-11-05 00:25:48.673] [UI] * Interfaz en super.img: TVLauncher + TVWall Slimbox + AppDMC + DLStore +
+[2026-11-05 00:25:48.673] [UI] HDPlay + Filemanager + ControlDevice + Google Play Store.
+[2026-11-05 00:25:48.677] [UI] * Certificados Widevine L1 (factory) y MAC/Serie (cri_data) 100% protegidos.
+[2026-11-05 00:25:48.680] [VISTO_BUENO] === PASO 4/4: VISTO BUENO FASTBOOT 13/13 COMPLETADO ===
+[2026-11-05 00:25:48.681] [UI] Presiona [ENTER] para volver al menu principal:
+[2026-11-05 08:47:35.439] [SESION] === INICIO DE PROGRAMA_PERFECTO_XVIEW_B866V2.EXE v4.1 (PID=21540) ===

@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+_Z23read_bootloader_messageP18bootloader_messagePNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+_Z24write_bootloader_messageRK18bootloader_messagePNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+_Z25update_bootloader_messageRKNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEEPS6_
+_Z6RebootNSt3__117basic_string_viewIcNS_11char_traitsIcEEEE
+_Z24clear_bootloader_messagePNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+libbootloader_message.so
+bootloader
+ Reboot system now
+Rebooting to recovery...
+Rebooting automatically.
+Reboot failed
+sideload_auto_reboot
+reboot,
+Failed to write bootloader message: 
+Partitions may be mounted - rebooting to enter fastboot.
+Unexpected merge-needs-reboot state in recovery.
+Invalid status code of INSTALL_REBOOT
+Update state is being processed before reboot, taking no action.
+Rebooting to recovery/fastboot...
+Rebooting to recovery/rescue...
+Bootloader version - 
+enable_reboot
+Rebooting...
+, reboot, then try again.
+ATV mutilcast upgrade successfull,need to reboot
+reboot
+need to reboot blink green,so just do nothing here!
+have app to install,need to reboot
+Rebooting to bootloader...
+merge-needs-reboot
+  Confirm reboot?
+ro.bootloader
+Reboot system now
+Reboot to bootloader
+  Your device may fail to boot if you reboot or power off now.
+Reboot System Now?

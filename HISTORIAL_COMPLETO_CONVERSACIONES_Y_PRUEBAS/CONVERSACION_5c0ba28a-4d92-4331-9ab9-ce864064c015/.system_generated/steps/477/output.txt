@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\tmp_update_storage.cjs:6
+const replacement = \// In Desktop / Electron app, sessions persist directly across application restarts
+                    ^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1868:18)
+    at Module._compile (node:internal/modules/cjs/loader:1910:20)
+    at Object..js (node:internal/modules/cjs/loader:2070:10)
+    at Module.load (node:internal/modules/cjs/loader:1658:32)
+    at Module._load (node:internal/modules/cjs/loader:1450:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.21.0

@@ -1,0 +1,80 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:2:import cardVisita from '../../assets/card-visita.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:3:import cardHuella from '../../assets/card-huella.jpg';
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:4:import gymBg from '../../assets/gym-background.jpg';
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:5:import gymBgMotto from 
+'../../assets/gym-background-motto.jpg';
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:6:import modalGymBg from '../../assets/modal-gym-bg.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:7:import logoImg from '../../assets/logo.png';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:8:import React, { useState, useEffect, useRef, useCallback 
+} from 'react';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:149:  const [showEscHint, setShowEscHint] = useState(false);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:150:  const [isMuted, setIsMuted] = useState(false);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:151:  const [bgImage, setBgImage] = useState<string>(() => {
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:152:    if (typeof window !== 'undefined' && 
+localStorage.getItem('legends_terminal_bg_version') !== 'v10_clear_photo') {
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:153:      
+localStorage.setItem('legends_terminal_bg_version', 'v10_clear_photo');
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:154:      localStorage.setItem('legends_terminal_bg', 
+gymBg);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:155:      return gymBg;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:156:    }
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:157:    return localStorage.getItem('legends_terminal_bg') 
+|| gymBg;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:158:  });
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:159:
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:626:
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:627:  // Fullscreen / Kiosk toggle
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:628:  const toggleBackground = () => {
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:629:    const nextBg = bgImage === gymBg ? gymBgMotto : 
+(bgImage === gymBgMotto ? modalGymBg : gymBg);
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:630:    setBgImage(nextBg);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:631:    if (typeof window !== 'undefined') {
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:632:      localStorage.setItem('legends_terminal_bg', 
+nextBg);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:699:          </button>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:700:          <button
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:701:            onClick={toggleBackground}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:702:            className="px-3.5 py-2.5 rounded-2xl 
+bg-black/70 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white font-bold text-xs sm:text-sm flex 
+items-center gap-2 shadow-2xl transition-all cursor-pointer transform hover:scale-105 active:scale-95 select-none"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:703:            title="Cambiar imagen de fondo (Mancuernas 
+/ Estudio / Ne�n)"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:722:      <div className="fixed inset-0 pointer-events-none 
+z-0 overflow-hidden">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:723:        <img
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:724:          src={bgImage}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:725:          alt="Fitness Legends Gym Background"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:726:          style={{
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:727:            filter: 'brightness(1.06) contrast(1.06) 
+saturate(1.06)',
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:728:            objectPosition: bgImage === gymBg ? 'center 
+38%' : 'center center',
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:729:          }}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:730:          className="w-full h-full object-cover"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:891:            <div className="absolute inset-0 
+pointer-events-none z-0 overflow-hidden">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:892:              <img 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:893:                src={modalGymBg} 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:894:                alt="Fondo Mancuernas Fitness" 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:895:                style={{ filter: 'brightness(1.25) 
+contrast(1.12)' }}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1413:            <div className="absolute inset-0 
+pointer-events-none z-0 overflow-hidden">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1414:              <img 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:1415:                src={modalGymBg} 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1416:                alt="Fondo Mancuernas Fitness" 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1417:                style={{ filter: 'brightness(1.25) 
+contrast(1.12)' }}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1478:            <div className="absolute inset-0 
+pointer-events-none z-0 overflow-hidden">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1479:              <img 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:1480:                src={modalGymBg} 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1481:                alt="Fondo Mancuernas Fitness" 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1482:                style={{ filter: 'brightness(1.25) 
+contrast(1.12)' }}
+
+

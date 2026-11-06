@@ -1,0 +1,149 @@
+[2026-11-04 00:27:48.073] [SESION] === INICIO DE PROGRAMA_PERFECTO_XVIEW_B866V2.EXE (PID=18392) ===
+[2026-11-04 00:27:48.432] [RADAR] SN=Z41220090388172 | RawPid=0D02 | FastbootLive=True | ADB=
+[2026-11-04 00:27:48.437] [UI] Selecciona el numero de la opcion [0-7]:
+[2026-11-04 00:30:30.185] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 00:30:30.190] [OPCION_1] Iniciando Radar Multi-Canal (48ms WorldCup + Fastbootd + Fastboot + ADB)...
+[2026-11-04 00:30:30.191] [UI] OPCION 1: CAPTURA Y SALTO AUTOMATICO MULTI-CANAL (SALTA CANDADO QR / AZUL)
+[2026-11-04 00:30:30.194] [UI] Este modo atrapa tu caja en milisegundos sin abrir tornillos y sin codigo QR:
+[2026-11-04 00:30:30.195] [UI] PASOS RAPIDOS EN LA CAJA:
+[2026-11-04 00:30:30.196] [UI] * PARA DESBLOQUEAR Y FLASHEAR DESDE CERO (WorldCup 48ms -> Fastboot):
+[2026-11-04 00:30:30.197] [UI] 1. Deja conectado SOLO el cable USB Macho-a-Macho a la PC (retira la memoria
+[2026-11-04 00:30:30.198] [UI] USB de la caja por un momento para que no salte a Recovery).
+[2026-11-04 00:30:30.199] [UI] 2. Desconecta la corriente de la caja, manten presionado el boton RESET
+[2026-11-04 00:30:30.200] [UI] y conecta la corriente (manten RESET 5 segundos).
+[2026-11-04 00:30:30.201] [UI] -> Este radar cazara 'InUsbBurn (VID_1B8E)' en 48ms, inyectara
+[2026-11-04 00:30:30.201] [UI] 'env_unlocked.img' (lock=10100000) y dejara Fastboot 100% DESBLOQUEADO!
+[2026-11-04 00:30:30.202] [UI] [*] RADAR ULTRARRAPIDO (48ms) ESCUCHANDO EN VIVO... (Presiona ESC para volver al menu)
+[2026-11-04 00:30:31.035] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: no  | Finished. Total time: 0.014s
+[2026-11-04 00:30:31.041] [UBOOT_FASTBOOT_CAUGHT] Detectado U-Boot Fastboot en vivo (PID_0D02 / Z41220090388172).
+[2026-11-04 00:30:31.043] [UI] [+] Caja atrapada en U-Boot Fastboot en vivo (Serie: Z41220090388172)!
+[2026-11-04 00:30:31.045] [UI] Reteniendo Watchdog y ejecutando secuencia de desbloqueo limpia...
+[2026-11-04 00:30:31.124] [CMD] fastboot_moderno.exe flashing get_unlock_ability (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:31.195] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:31.272] [CMD] fastboot_moderno.exe flashing unlock (Exit=0) -> OKAY [  0.005s]  | Finished. Total time: 0.006s
+[2026-11-04 00:30:31.371] [CMD] fastboot_moderno.exe oem "watchdog off" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:31.466] [CMD] fastboot_moderno.exe oem "setenv lock 10100000;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:31.591] [CMD] fastboot_moderno.exe oem "setenv otg_device 1;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:31.670] [CMD] fastboot_moderno.exe oem "saveenv" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:31.758] [CMD] fastboot_moderno.exe getvar unlocked (Exit=0) -> unlocked: no  | Finished. Total time: 0.030s
+[2026-11-04 00:30:31.941] [CMD] fastboot_moderno.exe flash _aml_dtb "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img" (Exit=1) -> Sending '_aml_dtb' (256 KB)                        FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:31.942] [FASTBOOT_LOCKED_ASSIST] Entrando en StartDedicatedWorldCupHuntFromLockedFastboot (lock=10001000).
+[2026-11-04 00:30:31.944] [UI] DESBLOQUEO AUTOMATICO DE 'locked device' (lock=10001000 -> lock=10100000)
+[2026-11-04 00:30:31.945] [UI] Por que salio 'FAILED (remote: locked device)':
+[2026-11-04 00:30:31.946] [UI] * Tu caja (U-Boot Sep 05 2023) tiene lock=10001000 en la particion 'env'.
+[2026-11-04 00:30:31.948] [UI] * Con la memoria USB KINGSTON puesta, al presionar RESET la caja salta la
+[2026-11-04 00:30:31.949] [UI] ventana de 1.5s de Amlogic WorldCup (InUsbBurn) y entra directo a Recovery.
+[2026-11-04 00:30:31.950] [UI] COMO DESBLOQUEARLA EN 5 SEGUNDOS AHORA MISMO (SIN ABRIR TORNILLOS):
+[2026-11-04 00:30:31.951] [UI] 1. Desconecta temporalmente la memoria USB KINGSTON de la caja (deja SOLO el
+[2026-11-04 00:30:31.951] [UI] cable USB Macho-a-Macho conectado entre la caja y la PC).
+[2026-11-04 00:30:31.953] [UI] 2. Manten presionado el boton fisico RESET (con el clip) en la caja.
+[2026-11-04 00:30:31.954] [UI] 3. Sin soltar RESET, presiona [1] aqui abajo (el programa reiniciara la caja
+[2026-11-04 00:30:31.955] [UI] y cazara el modo WorldCup InUsbBurn en 48ms para inyectar env_unlocked.img)
+[2026-11-04 00:30:31.956] [UI] O bien desconecta y reconecta el cable de corriente manteniendo RESET.
+[2026-11-04 00:30:31.957] [UI] --------------------------------------------------------------------------------
+[2026-11-04 00:30:31.958] [UI] [1] Ya tengo presionado RESET -> Reiniciar caja y cazar WorldCup (48ms) AHORA
+[2026-11-04 00:30:31.960] [UI] [2] Volver al menu principal (manteniendo la caja en Fastboot)
+[2026-11-04 00:30:31.963] [UI] Elige 1 o 2 (1/2):
+[2026-11-04 00:30:40.226] [UI] 2
+[2026-11-04 00:30:40.227] [INPUT] Eleccion del usuario (KeepAlive): 2
+[2026-11-04 00:30:40.228] [UI] Presiona ENTER para volver al menu:
+[2026-11-04 00:30:43.162] [RADAR] SN=Z41220090388172 | RawPid=0D02 | FastbootLive=True | ADB=
+[2026-11-04 00:30:43.168] [UI] Selecciona el numero de la opcion [0-7]:
+[2026-11-04 00:30:44.267] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 00:30:44.268] [OPCION_1] Iniciando Radar Multi-Canal (48ms WorldCup + Fastbootd + Fastboot + ADB)...
+[2026-11-04 00:30:44.271] [UI] OPCION 1: CAPTURA Y SALTO AUTOMATICO MULTI-CANAL (SALTA CANDADO QR / AZUL)
+[2026-11-04 00:30:44.272] [UI] Este modo atrapa tu caja en milisegundos sin abrir tornillos y sin codigo QR:
+[2026-11-04 00:30:44.273] [UI] PASOS RAPIDOS EN LA CAJA:
+[2026-11-04 00:30:44.275] [UI] * PARA DESBLOQUEAR Y FLASHEAR DESDE CERO (WorldCup 48ms -> Fastboot):
+[2026-11-04 00:30:44.276] [UI] 1. Deja conectado SOLO el cable USB Macho-a-Macho a la PC (retira la memoria
+[2026-11-04 00:30:44.277] [UI] USB de la caja por un momento para que no salte a Recovery).
+[2026-11-04 00:30:44.278] [UI] 2. Desconecta la corriente de la caja, manten presionado el boton RESET
+[2026-11-04 00:30:44.278] [UI] y conecta la corriente (manten RESET 5 segundos).
+[2026-11-04 00:30:44.279] [UI] -> Este radar cazara 'InUsbBurn (VID_1B8E)' en 48ms, inyectara
+[2026-11-04 00:30:44.279] [UI] 'env_unlocked.img' (lock=10100000) y dejara Fastboot 100% DESBLOQUEADO!
+[2026-11-04 00:30:44.280] [UI] [*] RADAR ULTRARRAPIDO (48ms) ESCUCHANDO EN VIVO... (Presiona ESC para volver al menu)
+[2026-11-04 00:30:45.102] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: no  | Finished. Total time: 0.015s
+[2026-11-04 00:30:45.103] [UBOOT_FASTBOOT_CAUGHT] Detectado U-Boot Fastboot en vivo (PID_0D02 / Z41220090388172).
+[2026-11-04 00:30:45.104] [UI] [+] Caja atrapada en U-Boot Fastboot en vivo (Serie: Z41220090388172)!
+[2026-11-04 00:30:45.105] [UI] Reteniendo Watchdog y ejecutando secuencia de desbloqueo limpia...
+[2026-11-04 00:30:45.164] [CMD] fastboot_moderno.exe flashing get_unlock_ability (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:45.221] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:45.289] [CMD] fastboot_moderno.exe flashing unlock (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:45.380] [CMD] fastboot_moderno.exe oem "watchdog off" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:45.467] [CMD] fastboot_moderno.exe oem "setenv lock 10100000;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:45.572] [CMD] fastboot_moderno.exe oem "setenv otg_device 1;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:45.696] [CMD] fastboot_moderno.exe oem "saveenv" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:45.794] [CMD] fastboot_moderno.exe getvar unlocked (Exit=0) -> unlocked: no  | Finished. Total time: 0.030s
+[2026-11-04 00:30:45.983] [CMD] fastboot_moderno.exe flash _aml_dtb "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img" (Exit=1) -> Sending '_aml_dtb' (256 KB)                        FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:45.983] [FASTBOOT_LOCKED_ASSIST] Entrando en StartDedicatedWorldCupHuntFromLockedFastboot (lock=10001000).
+[2026-11-04 00:30:45.984] [UI] DESBLOQUEO AUTOMATICO DE 'locked device' (lock=10001000 -> lock=10100000)
+[2026-11-04 00:30:45.986] [UI] Por que salio 'FAILED (remote: locked device)':
+[2026-11-04 00:30:45.988] [UI] * Tu caja (U-Boot Sep 05 2023) tiene lock=10001000 en la particion 'env'.
+[2026-11-04 00:30:45.988] [UI] * Con la memoria USB KINGSTON puesta, al presionar RESET la caja salta la
+[2026-11-04 00:30:45.989] [UI] ventana de 1.5s de Amlogic WorldCup (InUsbBurn) y entra directo a Recovery.
+[2026-11-04 00:30:45.991] [UI] COMO DESBLOQUEARLA EN 5 SEGUNDOS AHORA MISMO (SIN ABRIR TORNILLOS):
+[2026-11-04 00:30:45.991] [UI] 1. Desconecta temporalmente la memoria USB KINGSTON de la caja (deja SOLO el
+[2026-11-04 00:30:45.992] [UI] cable USB Macho-a-Macho conectado entre la caja y la PC).
+[2026-11-04 00:30:45.993] [UI] 2. Manten presionado el boton fisico RESET (con el clip) en la caja.
+[2026-11-04 00:30:45.994] [UI] 3. Sin soltar RESET, presiona [1] aqui abajo (el programa reiniciara la caja
+[2026-11-04 00:30:45.995] [UI] y cazara el modo WorldCup InUsbBurn en 48ms para inyectar env_unlocked.img)
+[2026-11-04 00:30:45.996] [UI] O bien desconecta y reconecta el cable de corriente manteniendo RESET.
+[2026-11-04 00:30:45.997] [UI] --------------------------------------------------------------------------------
+[2026-11-04 00:30:45.997] [UI] [1] Ya tengo presionado RESET -> Reiniciar caja y cazar WorldCup (48ms) AHORA
+[2026-11-04 00:30:45.998] [UI] [2] Volver al menu principal (manteniendo la caja en Fastboot)
+[2026-11-04 00:30:45.999] [UI] Elige 1 o 2 (1/2):
+[2026-11-04 00:30:46.750] [UI] 2
+[2026-11-04 00:30:46.750] [INPUT] Eleccion del usuario (KeepAlive): 2
+[2026-11-04 00:30:46.751] [UI] Presiona ENTER para volver al menu:
+[2026-11-04 00:30:48.689] [RADAR] SN=Z41220090388172 | RawPid=0D02 | FastbootLive=True | ADB=
+[2026-11-04 00:30:48.693] [UI] Selecciona el numero de la opcion [0-7]:
+[2026-11-04 00:30:49.477] [MENU] Usuario selecciono opcion: '1'
+[2026-11-04 00:30:49.477] [OPCION_1] Iniciando Radar Multi-Canal (48ms WorldCup + Fastbootd + Fastboot + ADB)...
+[2026-11-04 00:30:49.478] [UI] OPCION 1: CAPTURA Y SALTO AUTOMATICO MULTI-CANAL (SALTA CANDADO QR / AZUL)
+[2026-11-04 00:30:49.479] [UI] Este modo atrapa tu caja en milisegundos sin abrir tornillos y sin codigo QR:
+[2026-11-04 00:30:49.479] [UI] PASOS RAPIDOS EN LA CAJA:
+[2026-11-04 00:30:49.480] [UI] * PARA DESBLOQUEAR Y FLASHEAR DESDE CERO (WorldCup 48ms -> Fastboot):
+[2026-11-04 00:30:49.480] [UI] 1. Deja conectado SOLO el cable USB Macho-a-Macho a la PC (retira la memoria
+[2026-11-04 00:30:49.482] [UI] USB de la caja por un momento para que no salte a Recovery).
+[2026-11-04 00:30:49.482] [UI] 2. Desconecta la corriente de la caja, manten presionado el boton RESET
+[2026-11-04 00:30:49.483] [UI] y conecta la corriente (manten RESET 5 segundos).
+[2026-11-04 00:30:49.483] [UI] -> Este radar cazara 'InUsbBurn (VID_1B8E)' en 48ms, inyectara
+[2026-11-04 00:30:49.484] [UI] 'env_unlocked.img' (lock=10100000) y dejara Fastboot 100% DESBLOQUEADO!
+[2026-11-04 00:30:49.485] [UI] [*] RADAR ULTRARRAPIDO (48ms) ESCUCHANDO EN VIVO... (Presiona ESC para volver al menu)
+[2026-11-04 00:30:50.390] [CMD] fastboot_moderno.exe getvar is-userspace (Exit=0) -> is-userspace: no  | Finished. Total time: 0.014s
+[2026-11-04 00:30:50.390] [UBOOT_FASTBOOT_CAUGHT] Detectado U-Boot Fastboot en vivo (PID_0D02 / Z41220090388172).
+[2026-11-04 00:30:50.391] [UI] [+] Caja atrapada en U-Boot Fastboot en vivo (Serie: Z41220090388172)!
+[2026-11-04 00:30:50.392] [UI] Reteniendo Watchdog y ejecutando secuencia de desbloqueo limpia...
+[2026-11-04 00:30:50.458] [CMD] fastboot_moderno.exe flashing get_unlock_ability (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:50.513] [CMD] fastboot_moderno.exe flashing unlock_critical (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:50.564] [CMD] fastboot_moderno.exe flashing unlock (Exit=0) -> OKAY [  0.004s]  | Finished. Total time: 0.004s
+[2026-11-04 00:30:50.642] [CMD] fastboot_moderno.exe oem "watchdog off" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:50.725] [CMD] fastboot_moderno.exe oem "setenv lock 10100000;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:50.806] [CMD] fastboot_moderno.exe oem "setenv otg_device 1;save" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:50.897] [CMD] fastboot_moderno.exe oem "saveenv" (Exit=1) -> FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:50.982] [CMD] fastboot_moderno.exe getvar unlocked (Exit=0) -> unlocked: no  | Finished. Total time: 0.030s
+[2026-11-04 00:30:51.163] [CMD] fastboot_moderno.exe flash _aml_dtb "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img" (Exit=1) -> Sending '_aml_dtb' (256 KB)                        FAILED (remote: 'locked device')  | fastboot: error: Command failed
+[2026-11-04 00:30:51.163] [FASTBOOT_LOCKED_ASSIST] Entrando en StartDedicatedWorldCupHuntFromLockedFastboot (lock=10001000).
+[2026-11-04 00:30:51.164] [UI] DESBLOQUEO AUTOMATICO DE 'locked device' (lock=10001000 -> lock=10100000)
+[2026-11-04 00:30:51.165] [UI] Por que salio 'FAILED (remote: locked device)':
+[2026-11-04 00:30:51.166] [UI] * Tu caja (U-Boot Sep 05 2023) tiene lock=10001000 en la particion 'env'.
+[2026-11-04 00:30:51.167] [UI] * Con la memoria USB KINGSTON puesta, al presionar RESET la caja salta la
+[2026-11-04 00:30:51.169] [UI] ventana de 1.5s de Amlogic WorldCup (InUsbBurn) y entra directo a Recovery.
+[2026-11-04 00:30:51.169] [UI] COMO DESBLOQUEARLA EN 5 SEGUNDOS AHORA MISMO (SIN ABRIR TORNILLOS):
+[2026-11-04 00:30:51.170] [UI] 1. Desconecta temporalmente la memoria USB KINGSTON de la caja (deja SOLO el
+[2026-11-04 00:30:51.171] [UI] cable USB Macho-a-Macho conectado entre la caja y la PC).
+[2026-11-04 00:30:51.171] [UI] 2. Manten presionado el boton fisico RESET (con el clip) en la caja.
+[2026-11-04 00:30:51.172] [UI] 3. Sin soltar RESET, presiona [1] aqui abajo (el programa reiniciara la caja
+[2026-11-04 00:30:51.173] [UI] y cazara el modo WorldCup InUsbBurn en 48ms para inyectar env_unlocked.img)
+[2026-11-04 00:30:51.173] [UI] O bien desconecta y reconecta el cable de corriente manteniendo RESET.
+[2026-11-04 00:30:51.175] [UI] --------------------------------------------------------------------------------
+[2026-11-04 00:30:51.176] [UI] [1] Ya tengo presionado RESET -> Reiniciar caja y cazar WorldCup (48ms) AHORA
+[2026-11-04 00:30:51.176] [UI] [2] Volver al menu principal (manteniendo la caja en Fastboot)
+[2026-11-04 00:30:51.177] [UI] Elige 1 o 2 (1/2):
+[2026-11-04 00:30:52.176] [UI] 1
+[2026-11-04 00:30:52.177] [INPUT] Eleccion del usuario (KeepAlive): 1
+[2026-11-04 00:30:52.178] [UI] [*] Enviando 'fastboot reboot' y activando Caza Ultrarrapida WorldCup (cada 48ms)...
+[2026-11-04 00:30:52.181] [UI] (Manten presionado el boton RESET en la caja durante 6 segundos!)
+[2026-11-04 00:30:52.257] [CMD] fastboot_moderno.exe reboot (Exit=0) -> Rebooting                                          OKAY [  0.002s]  | Finished. Total time: 0.002s
+[2026-11-04 00:31:32.329] [UI] [!] No se detecto la senal WorldCup (VID_1B8E) en estos 40 segundos.
+=== WAKEUP_REASON: CYCLE_EVENT_DETECTED ===

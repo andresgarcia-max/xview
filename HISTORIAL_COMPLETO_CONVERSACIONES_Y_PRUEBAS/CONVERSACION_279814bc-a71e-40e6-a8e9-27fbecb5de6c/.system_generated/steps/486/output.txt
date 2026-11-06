@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+Name                       Length LastWriteTime            
+----                       ------ -------------            
+CONTROL_BIOMETRICO_WEB.exe  40448 24/10/2026 09:15:44 a. m.
+INICIAR_SISTEMA_WEB.exe     48128 24/10/2026 09:15:44 a. m.
+LegendsGym_Web.exe          48128 24/10/2026 09:15:44 a. m.
+
+

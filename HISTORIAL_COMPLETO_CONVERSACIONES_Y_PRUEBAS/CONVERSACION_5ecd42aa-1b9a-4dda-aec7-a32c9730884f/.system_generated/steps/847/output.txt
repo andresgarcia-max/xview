@@ -1,0 +1,70 @@
+Command exited with code 0.
+
+Command output:
+l update state after acknowleding cancelled update.
+ to be merged, 
+Snapshot status for 
+Cannot unmap image 
+Snapshot: 
+Wipe will be scheduled. Allowing forward merge of snapshots.
+-src
+Operation size unknown, read 
+inflateInit returned error code 
+incompatible version
+Can't open COW device: 
+Non-primitive types can't be packed.
+external/protobuf/src/google/protobuf/io/coded_stream.cc
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+%lld
+CHECK failed: value != nullptr: 
+, range_count 
+' failed
+Number of tokens must be even: 
+,%zu,%zu
+range_start
+64211847
+ entry hash_table, entry size: 
+Invalid file
+%m-%d %H:%M:%S
+XXVDIWEF
+ro.debuggable
+) on 
+Shutting down...
+VDIWEF
+sys.usb.config
+sideload
+sideload_auto_reboot
+SetUSBHost 
+Failed to mount 
+Can't unlink 
+<3>systemcontrol: [ubootenv] Get MTD info error
+install_ota failed, ret = %d 
+%d: Calculateed MD5=0x%02x, Image MD5=0x%02x
+MultiplexConfigFile
+FfsOpen return %d,file not exist
+/cache/recovery/last_zteconfig.ini
+/tmp/zteconfigTmp.ini
+[%s][%d]filename is null
+Unsupported command code: 
+Error exit from the fuse process: 
+Failed to extract 
+payload_properties.txt
+--headers=
+current stb sdk level: 31, prepare update ota sdk level: 
+failed to write 
+  Trying BLKDISCARD...
+META-INF/com/android/metadata.pb
+boot0
+E:Can't get blk_device
+-t
+-C
+extra_attr
+ANDROID_SOCKET_
+critical error: %s: failed to read block group descriptors: %s
+vroot
+/compatible
+invalid blockdev size for 
+Merge is unexpectedly incomplete for device 
+Unable to collapse snapshot: 
+C

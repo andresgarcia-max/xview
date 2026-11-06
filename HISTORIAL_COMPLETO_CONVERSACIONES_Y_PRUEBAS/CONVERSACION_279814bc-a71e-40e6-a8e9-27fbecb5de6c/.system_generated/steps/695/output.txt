@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\gym\accesos directos\2. TERMINAL_TORNIQUETE_ACCESO.exe
+--terminal

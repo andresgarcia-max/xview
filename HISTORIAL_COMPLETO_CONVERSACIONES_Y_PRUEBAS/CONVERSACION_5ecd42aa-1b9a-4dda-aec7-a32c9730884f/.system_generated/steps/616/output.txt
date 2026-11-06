@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\cache_ext4.img                      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\EJECUTAR_VALIDADOR_FIRMWARE_ZTE.bat 
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\FLASHEAR_B866V2_ANDROID12_SEGURO_...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\init.recovery.amlogic.rc            
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\prop.default                        
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\recovery_original_zte.img           
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\releasekey.x509.pem                 
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\REPORTE_VALIDACION_FIRMWARE_Y_OTA...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\system_bin_recovery                 
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\system_etc_recovery.fstab           
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\system_etc_security_otacerts.zip    
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\system_lib_librecovery_zte_conf.so  
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\VALIDAR_FIRMWARE_Y_OTA_ZTE.ps1      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\aml_upgrade_package.conf    
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12-common.dtsi       
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a-u200.dts         
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a-x96-max.dts      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-g12a.dtsi             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\meson-s4.dtsi               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\optimizar_imagen_y_hdmi_x...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\uboot_env_franklin_b866v2...
+
+

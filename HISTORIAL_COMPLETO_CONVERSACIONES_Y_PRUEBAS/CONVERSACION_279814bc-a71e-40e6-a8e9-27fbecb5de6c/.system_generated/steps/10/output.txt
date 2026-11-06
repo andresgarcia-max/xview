@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:782:          {/* Opci�n 1: CLIENTE NUEVO */}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:789:              alt="Cliente Nuevo Gym" 
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:802:                Cliente Nuevo
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:894:      {/* MODAL 1: REGISTRO CLIENTE NUEVO */}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:919:                      Registro de Cliente Nuevo
+
+

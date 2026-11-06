@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+commit 1f99c7e61993676b3fd0132e6973ab3272ba09ad
+Author: Cristiansairec94 <cristian@sairec.com>
+Date:   Fri Oct 23 22:58:39 2026 -0600
+
+    chore(assets): agregar imagenes originales de WhatsApp de fondo del gimnasio
+
+ WhatsApp Image 2026-10-19 at 8.32.23 AM.jpeg | Bin 0 -> 186225 bytes
+ WhatsApp Image 2026-10-19 at 8.32.24 AM.jpeg | Bin 0 -> 297334 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+

@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+Path                                                                                                     Line          
+----                                                                                                     ----          
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\MOTOR_FASTBOOT_B866V2.ps1        $adnlExe   ...
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\MOTOR_PROGRAMA_PERFECTO.ps1 $ADNL      ...
+
+

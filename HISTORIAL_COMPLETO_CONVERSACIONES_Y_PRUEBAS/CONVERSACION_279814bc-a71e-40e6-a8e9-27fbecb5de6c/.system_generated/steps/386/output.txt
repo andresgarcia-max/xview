@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+Value                                                                                
+-----                                                                                
+LEGENDS                                                                              
+FITNESS_LEGENDS_TERMINAL-win32-x64                                                   
+ControlDeAccesoLegends.exe                                                           
+C:\Users\andre\OneDrive\Desktop\gym                                                  
+leyends\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\ControlDeAccesoLegends.exe
+LEGENDS\release\...\ControlDeAccesoLegends.exe                                       
+Legends                                                                              
+CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe                                                
+
+

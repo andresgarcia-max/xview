@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+ecovery/recovery_main.cpp|Rebooting to recovery...||Entering fastboot|Can't read |wipe_ab|otg_device|.|Set USB Status Success!|%s=%s|do not need to install app,n
+--- Around 0x34430..0x34490 ---
+usb.config|sideload|sideload_auto_reboot|SetUSBHost |Failed to mount |Can't unlink |<3>systemcont
+--- Around 0x37E60..0x37F20 ---
+ fchmod failed|*:|/:|Rebooting to recovery/fastboot...||Rebooting to recovery/rescue...||Check failed: |Got |Failed to initialize UI; using stub UI instead.|SetUSBDevice |Failed to clear BCB me

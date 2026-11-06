@@ -1,0 +1,143 @@
+Command exited with code 0.
+
+Command output:
+Cloning https://github.com/ITJamie/UBNT-AirOS.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\UBNT-AirOS
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\UBNT-AirOS'...
+Cloning https://github.com/ematthews/ubnt_airos.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\ubnt_airos
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\ubnt_airos'...
+Cloning https://github.com/CoMPaTech/python-airos.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\python-airos
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\python-airos'...
+Cloning https://github.com/sabueso/UbntInfo.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\UbntInfo
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\UbntInfo'...
+Cloning https://github.com/aruncs31s/PowerBeam_M5_Signal_Strength_monitor.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\PowerBeam_M5_Signal_Strength_monitor
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\PowerBeam_M5_Signal_Strength_monitor'...
+Cloning https://github.com/talehm/Python-script-for-Ubiquiti-Powerbeam-M5.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\Python-script-for-Ubiquiti-Powerbeam-M5
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\Python-script-for-Ubiquiti-Powerbeam-M5'...
+Cloning https://github.com/petikwastaken/powerbeam-airserv.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\powerbeam-airserv
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\powerbeam-airserv'...
+Cloning https://github.com/JuanBindez/AuntoConfRadio.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\AuntoConfRadio
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\AuntoConfRadio'...
+Cloning https://github.com/Abdul-Mustafa/litebeam-powerbeam-setup.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\litebeam-powerbeam-setup
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\litebeam-powerbeam-setup'...
+Cloning https://github.com/stevenservo-hub/airos-backup.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\airos-backup
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\airos-backup'...
+Cloning https://github.com/jeffersonraimon/backup-auto-ubiquiti-airos.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\backup-auto-ubiquiti-airos
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\backup-auto-ubiquiti-airos'...
+Cloning https://github.com/scracha/airos-config-cloner.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\airos-config-cloner
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\airos-config-cloner'...
+Cloning https://github.com/buraglio/ubnt-airos-tshaper.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\ubnt-airos-tshaper
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\01_Control_airOS_PowerBeam_y_LiteBeam\ubnt-airos-tshaper'...
+Cloning https://github.com/guerrerocarlos/ubnt-discover.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt-discover
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt-discover'...
+Cloning https://github.com/nitefood/python-ubnt-discovery.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\python-ubnt-discovery
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\python-ubnt-discovery'...
+Cloning https://github.com/digineo/ubnt-tools.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt-tools
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt-tools'...
+Cloning https://github.com/shujaaae/ubnt_discovery.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt_discovery
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt_discovery'...
+Cloning https://github.com/kk7ds/ubnt-proxy.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt-proxy
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\ubnt-proxy'...
+Cloning https://github.com/diegocanton/remove_ubnt_mf.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\remove_ubnt_mf
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\remove_ubnt_mf'...
+Cloning https://github.com/wolverin0/openmax.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\openmax
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\openmax'...
+error: unable to create file artifacts/autoresearch/lap120_loco195_r135_hmac_per_peer_tid_bidir_8flow_voip_covclass2_1000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r136_hmac_per_peer_tid_bidir_8flow_voip_covclass6_3000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r137_hmac_per_peer_tid_bidir_8flow_voip_covclass13_6000m_be1550_2100_q1514_codel10_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r138_hmac_per_peer_tid_bidir_8flow_voip_covclass20_9000m_be1550_2100_q1514_codel12_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r139_hmac_per_peer_tid_bidir_8flow_voip_covclass26_12000m_be1550_2100_q1514_codel14_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r140_hmac_per_peer_tid_bidir_8flow_voip_covclass31_14000m_be1550_2100_q1514_codel16_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r141_hmac_per_peer_tid_bidir_8flow_voip_covclass2_1000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r142_hmac_per_peer_tid_bidir_8flow_voip_covclass6_3000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r143_hmac_per_peer_tid_bidir_8flow_voip_covclass13_6000m_be1550_2100_q1514_codel10_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r144_hmac_per_peer_tid_bidir_8flow_voip_covclass20_9000m_be1550_2100_q1514_codel12_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r145_hmac_per_peer_tid_bidir_8flow_voip_covclass26_12000m_be1550_2100_q1514_codel14_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r146_hmac_per_peer_tid_bidir_8flow_voip_covclass31_14000m_be1550_2100_q1514_codel16_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r147_hmac_per_peer_tid_bidir_8flow_voip_covclass2_1000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r148_hmac_per_peer_tid_bidir_8flow_voip_covclass6_3000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r149_hmac_per_peer_tid_bidir_8flow_voip_covclass13_6000m_be1550_2100_q1514_codel10_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r150_hmac_per_peer_tid_bidir_8flow_voip_covclass20_9000m_be1550_2100_q1514_codel12_rc22_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r151_hmac_per_peer_tid_bidir_8flow_voip_covclass26_12000m_be1550_2100_q1514_codel14_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r152_hmac_per_peer_tid_bidir_8flow_voip_covclass31_14000m_be1550_2100_q1514_codel16_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r153_hmac_per_peer_tid_bidir_8flow_voip_covclass2_1000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r154_hmac_per_peer_tid_bidir_8flow_voip_covclass6_3000m_be1550_2650_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r155_hmac_per_peer_tid_bidir_8flow_voip_covclass13_6000m_be1550_3200_q1514_codel10_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r156_hmac_per_peer_tid_bidir_8flow_voip_covclass20_9000m_be1550_3600_q1514_codel12_rc22_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r157_hmac_per_peer_tid_bidir_8flow_voip_covclass26_12000m_be1550_3900_q1514_codel14_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r158_hmac_per_peer_tid_bidir_8flow_voip_covclass31_14000m_be1550_4100_q1514_codel16_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r159_hmac_per_peer_tid_bidir_8flow_voip_covclass2_1000m_be1650_2150_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r160_hmac_per_peer_tid_bidir_8flow_voip_covclass6_3000m_be1750_2250_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r161_hmac_per_peer_tid_bidir_8flow_voip_covclass13_6000m_be1850_2400_q1514_codel10_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r162_hmac_per_peer_tid_bidir_8flow_voip_covclass20_9000m_be1950_2500_q1514_codel12_rc22_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r163_hmac_per_peer_tid_bidir_8flow_voip_covclass26_12000m_be2050_2650_q1514_codel14_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r164_hmac_per_peer_tid_bidir_8flow_voip_covclass31_14000m_be2150_2750_q1514_codel16_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r167_isolated_codel_target10_interval50_only_bidir_8flow_voip_covclass13_6000m_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r173_stepwise_aql_plus_fq_quantum1514_dscp0_bidir_8flow_voip_covclass13_6000m_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r174_stepwise_aql_plus_q1514_plus_codel10_dscp0_bidir_8flow_voip_covclass13_6000m_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r175_pure_ct_special_7_rc_per_thresh24_only_bidir_8flow_voip_covclass13_6000m_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r177_hmac_per_peer_tid_bidir_8flow_voip_covclass2_1000m_dscp0_be1650_2150_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r178_hmac_per_peer_tid_bidir_8flow_voip_covclass6_3000m_dscp0_be1750_2250_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r179_hmac_per_peer_tid_bidir_8flow_voip_covclass13_6000m_dscp0_be1850_2400_q1514_codel10_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r180_hmac_per_peer_tid_bidir_8flow_voip_covclass20_9000m_dscp0_be1950_2500_q1514_codel12_rc22_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r181_hmac_per_peer_tid_bidir_8flow_voip_covclass26_12000m_dscp0_be2050_2650_q1514_codel14_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r182_hmac_per_peer_tid_bidir_8flow_voip_covclass31_14000m_dscp0_be2150_2750_q1514_codel16_rc20_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r183_hmac_per_peer_tid_bidir_8flow_voip_covclass2_1000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r184_hmac_per_peer_tid_bidir_8flow_voip_covclass6_3000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r185_hmac_per_peer_tid_bidir_8flow_voip_covclass13_6000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r186_hmac_per_peer_tid_bidir_8flow_voip_covclass20_9000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r187_hmac_per_peer_tid_bidir_8flow_voip_covclass26_12000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+error: unable to create file artifacts/autoresearch/lap120_loco195_r188_hmac_per_peer_tid_bidir_8flow_voip_covclass31_14000m_be1550_2100_q1514_codel8_rc24_af1_retry64_abba16_dyadic_zero_loss_wds_20261024.json: Filename too long
+Updating files:  14% (585/4149)Updating files:  15% (623/4149)Updating files:  16% (664/4149)Updating files:  17% (706/4149)Updating files:  18% (747/4149)Updating files:  19% (789/4149)Updating files:  20% (830/4149)Updating files:  21% (872/4149)Updating files:  22% (913/4149)Updating files:  23% (955/4149)Updating files:  24% (996/4149)Updating files:  25% (1038/4149)Updating files:  26% (1079/4149)Updating files:  27% (1121/4149)Updating files:  28% (1162/4149)Updating files:  29% (1204/4149)Updating files:  30% (1245/4149)Updating files:  31% (1287/4149)Updating files:  31% (1309/4149)Updating files:  32% (1328/4149)Updating files:  33% (1370/4149)Updating files:  34% (1411/4149)Updating files:  35% (1453/4149)Updating files:  36% (1494/4149)Updating files:  37% (1536/4149)Updating files:  38% (1577/4149)Updating files:  39% (1619/4149)Updating files:  40% (1660/4149)Updating files:  41% (1702/4149)Updating files:  42% (1743/4149)Updating files:  43% (1785/4149)Updating files:  44% (1826/4149)Updating files:  45% (1868/4149)Updating files:  46% (1909/4149)Updating files:  47% (1951/4149)Updating files:  48% (1992/4149)Updating files:  49% (2034/4149)Updating files:  50% (2075/4149)Updating files:  51% (2116/4149)Updating files:  51% (2141/4149)Updating files:  52% (2158/4149)Updating files:  53% (2199/4149)Updating files:  54% (2241/4149)Updating files:  55% (2282/4149)Updating files:  56% (2324/4149)Updating files:  57% (2365/4149)Updating files:  58% (2407/4149)Updating files:  59% (2448/4149)Updating files:  60% (2490/4149)Updating files:  61% (2531/4149)Updating files:  62% (2573/4149)Updating files:  63% (2614/4149)Updating files:  64% (2656/4149)Updating files:  65% (2697/4149)Updating files:  66% (2739/4149)Updating files:  67% (2780/4149)Updating files:  67% (2821/4149)Updating files:  68% (2822/4149)Updating files:  69% (2863/4149)Updating files:  70% (2905/4149)Updating files:  71% (2946/4149)Updating files:  72% (2988/4149)Updating files:  73% (3029/4149)Updating files:  74% (3071/4149)Updating files:  75% (3112/4149)Updating files:  76% (3154/4149)Updating files:  77% (3195/4149)Updating files:  78% (3237/4149)Updating files:  79% (3278/4149)Updating files:  80% (3320/4149)Updating files:  81% (3361/4149)Updating files:  82% (3403/4149)Updating files:  83% (3444/4149)Updating files:  84% (3486/4149)Updating files:  85% (3527/4149)Updating files:  86% (3569/4149)Updating files:  87% (3610/4149)Updating files:  88% (3652/4149)Updating files:  88% (3663/4149)Updating files:  89% (3693/4149)Updating files:  90% (3735/4149)Updating files:  91% (3776/4149)Updating files:  92% (3818/4149)Updating files:  93% (3859/4149)Updating files:  94% (3901/4149)Updating files:  95% (3942/4149)Updating files:  96% (3984/4149)Updating files:  97% (4025/4149)Updating files:  98% (4067/4149)Updating files:  99% (4108/4149)Updating files: 100% (4149/4149)Updating files: 100% (4149/4149), done.
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+Cloning https://github.com/gillespiem/Ubiquiperf.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\Ubiquiperf
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\Ubiquiperf'...
+Cloning https://github.com/biostudio/UBNT-AC-TOOLKIT.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\UBNT-AC-TOOLKIT
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\02_Descubrimiento_Seguridad_y_Herramientas_RF\UBNT-AC-TOOLKIT'...
+Cloning https://github.com/MadaMzandu/uisp-ros-plugin.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\uisp-ros-plugin
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\uisp-ros-plugin'...
+Cloning https://github.com/MadaMzandu/ucrm-uisp-routeros-pppoe.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\ucrm-uisp-routeros-pppoe
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\ucrm-uisp-routeros-pppoe'...
+Cloning https://github.com/Bonabrux/mkt-queue-sync-pro.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\mkt-queue-sync-pro
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\mkt-queue-sync-pro'...
+Cloning https://github.com/JacksCodeVault/ros-plugin.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\ros-plugin
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\ros-plugin'...
+Cloning https://github.com/sukhe/UBNT-and-MikroTik-command-line-discovery-utility.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\UBNT-and-MikroTik-command-line-discovery-utility
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\UBNT-and-MikroTik-command-line-discovery-utility'...
+Cloning https://github.com/Homsi700/mikrotik-ubnt-dashboard_v2.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\mikrotik-ubnt-dashboard_v2
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\mikrotik-ubnt-dashboard_v2'...
+Cloning https://github.com/lucasrgoncalves/coletaSinalAntenas.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\coletaSinalAntenas
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\coletaSinalAntenas'...
+Cloning https://github.com/itcrew/wisp-scripts.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\wisp-scripts
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\wisp-scripts'...
+Cloning https://github.com/admirschaurich/ScriptsTelecom.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\ScriptsTelecom
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\03_Integracion_Directa_Ubiquiti_y_MikroTik_WISP\ScriptsTelecom'...
+fatal: unable to access 'https://github.com/admirschaurich/ScriptsTelecom.git/': Failed to connect to github.com:443 after 33104 ms: Could not connect to server
+Cloning https://github.com/Nico640/docker-unms.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\docker-unms
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\docker-unms'...
+fatal: unable to access 'https://github.com/Nico640/docker-unms.git/': Failed to connect to github.com:443 after 21101 ms: Could not connect to server
+Cloning https://github.com/ffddorf/unms-exporter.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\unms-exporter
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\unms-exporter'...
+fatal: unable to access 'https://github.com/ffddorf/unms-exporter.git/': Failed to connect to github.com:443 after 21109 ms: Could not connect to server
+Cloning https://github.com/rdmcguire/airos-exporter.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\airos-exporter
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\airos-exporter'...
+fatal: unable to access 'https://github.com/rdmcguire/airos-exporter.git/': Failed to connect to github.com:443 after 33101 ms: Could not connect to server
+Cloning https://github.com/denisbee/airos_exporter.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\airos_exporter
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\airos_exporter'...
+Cloning https://github.com/hostbyte/Template_SNMP_Ubiquiti_AirMax.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\Template_SNMP_Ubiquiti_AirMax
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\Template_SNMP_Ubiquiti_AirMax'...
+Cloning https://github.com/Orynbayeva-ss/Ubiquiti-Zabbix-Template-AirOS-AirFiber.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\Ubiquiti-Zabbix-Template-AirOS-AirFiber
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\Ubiquiti-Zabbix-Template-AirOS-AirFiber'...
+Cloning https://github.com/Kalarumeth/Monitoring-AirOs.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\Monitoring-AirOs
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\Monitoring-AirOs'...
+Cloning https://github.com/mohammedalatallah/ubiquiti-airmax-monitor.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\ubiquiti-airmax-monitor
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\ubiquiti-airmax-monitor'...
+Updating files:  85% (583/684)Updating files:  86% (589/684)Updating files:  87% (596/684)Updating files:  88% (602/684)Updating files:  89% (609/684)Updating files:  90% (616/684)Updating files:  91% (623/684)Updating files:  92% (630/684)Updating files:  93% (637/684)Updating files:  94% (643/684)Updating files:  95% (650/684)Updating files:  96% (657/684)Updating files:  97% (664/684)Updating files:  98% (671/684)Updating files:  99% (678/684)Updating files: 100% (684/684)Updating files: 100% (684/684), done.
+Cloning https://github.com/Ubiquiti-App/UISP-Plugins.git -> C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\UISP-Plugins
+Cloning into 'C:\Users\andre\OneDrive\Desktop\microtik\ubiquiti\04_Servidores_UISP_UNMS_y_Monitoreo_SNMP\UISP-Plugins'...
+remote: Repository not found.
+fatal: repository 'https://github.com/Ubiquiti-App/UISP-Plugins.git/' not found
+ALL CLONES COMPLETED!

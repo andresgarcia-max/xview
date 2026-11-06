@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\App.tsx:195:                Cartera de Clientes & Membres�as
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:733:            title="Abrir Cartera de Clientes & Membres�as 
+sin cerrar el programa"
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:736:            <span className="font-black">CARTERA DE 
+CLIENTES</span>
+LEGENDS\src\components\clients\ClientList.tsx:247:                    Cartera de Clientes & Membres�as
+LEGENDS\src\components\config\RolesManager.tsx:28:    { key: 'manageClients', label: 'Gesti�n de Cartera de Clientes', 
+desc: 'Consultar expedientes, dar de alta socios y ver fichas m�dicas', icon: <Users className="w-4 h-4 text-blue-400" 
+/> },
+LEGENDS\src\components\config\SystemCatalogs.tsx:160:              Estos planes aparecen autom�ticamente en la cartera 
+de clientes, terminal de acceso y renovaciones.
+LEGENDS\src\components\dashboard\Dashboard.tsx:110:                Monitoreo en tiempo real de accesos biom�tricos, 
+cartera de clientes y ventas de la tienda de suplementos.
+
+

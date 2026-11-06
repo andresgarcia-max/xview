@@ -1,0 +1,48 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                Length
+----                                                ------
+1_FLASHEAR_FIRMWARE_COMPLETO_B866V2.bat                180
+2_PREPARAR_MEMORIA_KINGSTON_DESBLOQUEO_Y_APPS.bat     2581
+adb.exe                                            5992960
+AdbWinApi.dll                                        97792
+AdbWinUsbApi.dll                                     62976
+adnl.exe                                           2436809
+Amldbglog.dll                                        11776
+AmlLibusb.dll                                        26624
+AmlUsbScanX3.dll                                     26112
+boot.img                                          16777216
+bootloader.img                                     1857536
+cache_ext4.img                                    67108864
+conf.img                                           4194304
+dtb.img                                             262144
+dtbo.img                                           8388608
+env_unlocked.img                                     65536
+factory_update_param.aml                                11
+fastboot.exe                                       1775104
+libwinpthread-1.dll                                 141538
+libztebasecomp_jni.so                               403664
+logo.img                                            287800
+misc_clean.img                                        4096
+misc_fastboot.img                                     4096
+mke2fs.conf                                           1157
+mke2fs.exe                                          749568
+MOTOR_FASTBOOT_B866V2.ps1                            58343
+msvcp100.dll                                        421200
+msvcp140.dll                                        419984
+msvcr100.dll                                        773968
+oem.img                                           16777216
+param.img                                         16777216
+recovery.img                                      25165824
+RESUMEN_PROCESO_B866V2.txt                            1965
+SESION_FASTBOOT_B866V2.log                          428405
+update.exe                                           59904
+UsbRomDrv.dll                                        24576
+vbmeta.img                                         2097152
+vccorlib140.dll                                     264032
+vcruntime140.dll                                     77576
+zlib1.dll                                           107520
+
+

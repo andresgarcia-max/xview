@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\diagramas\WhatsApp Unknown 2026-10-26 at 5.24.40 PM.zip                          
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_Android_Fastboot_ADB\usb_driver_r13-windows.zip                          
+C:\Users\andre\OneDrive\Desktop\xview\Drivers_TTL\CP210x_Universal_Windows_Driver.zip                                  
+C:\Users\andre\OneDrive\Desktop\xview\experimento\otacerts_recovery_b866v2.zip                                         
+C:\Users\andre\OneDrive\Desktop\xview\experimento\03_configuraciones_etc\vendor_etc\bootvideo.zip                      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\02_repositorios_github_y_herramientas...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\02_repositorios_github_y_herramientas...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\system_etc_security_otacerts.zip    
+
+

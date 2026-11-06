@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+
+✓ Captured modal screenshot to: C:/Users/andre/.gemini/antigravity/brain/cae5c059-1305-4baf-b23d-650f9838632f/modal_captured.png
+Modal capture script exited with: 0

@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+[ACTIVO] Ventana interactiva abierta en tu escritorio (PID=22960)
+[2026-11-04 00:55:09.126] [RADAR] SN=No detectado | RawPid= | FastbootLive=False | ADB=
+[2026-11-04 00:55:09.136] [UI] Selecciona el numero de la opcion [0-8]:
+[2026-11-04 00:55:09.136] [UI] Selecciona el numero de la opcion [0-8]:
+[CERRADO] El usuario cerro PROGRAMA_PERFECTO_XVIEW_B866V2.exe (PID=22960).

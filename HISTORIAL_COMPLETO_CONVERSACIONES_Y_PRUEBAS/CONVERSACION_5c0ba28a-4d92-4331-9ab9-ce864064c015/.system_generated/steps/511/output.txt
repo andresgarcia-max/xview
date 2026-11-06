@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+ROOT SISTEMA_ERP.exe launch: OK
+ACCESOS DIRECTOS 1. SISTEMA_ERP_ADMINISTRADOR.exe launch: OK

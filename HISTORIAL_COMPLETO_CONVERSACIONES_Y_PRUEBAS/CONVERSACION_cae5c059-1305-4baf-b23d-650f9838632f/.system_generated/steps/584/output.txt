@@ -1,0 +1,1 @@
+A1: Abrir la Terminal de Acceso pero con un botón para cambiar a la Cartera de Clientes sin cerrar el programa

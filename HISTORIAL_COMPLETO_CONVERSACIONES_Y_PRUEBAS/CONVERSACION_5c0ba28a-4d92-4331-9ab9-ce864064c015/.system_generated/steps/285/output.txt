@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+
+    "lucide-react": "^1.58.0",
+
+

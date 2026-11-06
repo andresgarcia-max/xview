@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+Status Class     FriendlyName   InstanceId                                    
+------ -----     ------------   ----------                                    
+OK     USBDevice android_winusb USB\VID_1B8E&PID_C004\00199321C9402A2200000000
+
+
+
+   Id ProcessName  
+   -- -----------  
+21940 adnl         
+ 6312 Aml_Burn_Tool
+
+

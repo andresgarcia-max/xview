@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+List of devices attached
+
+Z41220090388172	fastboot
+Name                  DeviceID                              Status
+----                  --------                              ------
+Android ADB Interface USB\VID_18D1&PID_0D02\Z41220090388172 OK    
+
+

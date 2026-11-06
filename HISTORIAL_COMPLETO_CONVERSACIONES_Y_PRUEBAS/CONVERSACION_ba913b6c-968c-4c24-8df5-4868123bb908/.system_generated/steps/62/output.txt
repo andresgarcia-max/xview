@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\microtik\microtik\00_Plantillas_RSC_Listas_Para_Usar
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     05/11/2026  03:40 p. m.           3488 01_configuracion_basica_ip_dhcp_nat.rsc                              
+-a---l     05/11/2026  03:40 p. m.           2347 02_seguridad_hardening_y_servicios.rsc                               
+-a---l     05/11/2026  03:40 p. m.           6850 03_firewall_completo_y_proteccion_puertos.rsc                        
+-a---l     05/11/2026  03:40 p. m.           5175 04_apertura_de_puertos_port_forwarding_y_vlans.rsc                   
+-a---l     05/11/2026  04:34 p. m.           3195 05_puerto1_internet_sin_restricciones.rsc                            
+
+

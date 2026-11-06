@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+
+Name             : FITNESS LEGENDS - Control de Acceso.lnk
+TargetPath       : C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe
+Arguments        : --terminal
+WorkingDirectory : C:\Users\andre\OneDrive\Desktop\gym
+
+Name             : FITNESS LEGENDS - Sistema ERP.lnk
+TargetPath       : C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\FitnessLegend
+                   s.exe
+Arguments        : --main
+WorkingDirectory : C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64
+
+
+

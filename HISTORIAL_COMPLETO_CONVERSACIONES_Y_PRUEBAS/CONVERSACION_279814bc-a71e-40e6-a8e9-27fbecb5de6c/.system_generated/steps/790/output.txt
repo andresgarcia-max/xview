@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+
+status          : online
+app             : FITNESS LEGENDS ERP SYNC SERVER
+version         : 48
+updatedAt       : 2026-10-28T23:46:05.539Z
+membersCount    : 8
+logsCount       : 14
+sseClientsCount : 1
+serverTime      : 2026-10-28T23:48:28.269Z
+
+
+

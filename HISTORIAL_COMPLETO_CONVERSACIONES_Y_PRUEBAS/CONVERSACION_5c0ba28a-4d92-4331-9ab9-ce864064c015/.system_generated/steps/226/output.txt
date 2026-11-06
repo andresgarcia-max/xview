@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+
+======================================================
+1. Compilando TypeScript + Vite (Versión más reciente)...
+======================================================
+src/components/access/IndependentTerminalApp.tsx(152,1): error TS1185: Merge conflict marker encountered.
+src/components/access/IndependentTerminalApp.tsx(155,1): error TS1185: Merge conflict marker encountered.
+src/components/access/IndependentTerminalApp.tsx(158,1): error TS1185: Merge conflict marker encountered.
+Error crítico al empaquetar la aplicación: Error: Error en compilación TypeScript
+    at main (C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\scripts\package-app.cjs:58:11)
+    at Object.<anonymous> (C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\scripts\package-app.cjs:181:1)
+    at Module._compile (node:internal/modules/cjs/loader:1937:14)
+    at Object..js (node:internal/modules/cjs/loader:2070:10)
+    at Module.load (node:internal/modules/cjs/loader:1658:32)
+    at Module._load (node:internal/modules/cjs/loader:1450:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:268:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+Package ExitCode: 1

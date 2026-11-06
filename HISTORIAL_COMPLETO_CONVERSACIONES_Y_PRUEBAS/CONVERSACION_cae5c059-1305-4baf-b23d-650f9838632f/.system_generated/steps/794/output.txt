@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+5200bac Merge remote-tracking branch 'origin/main' with local updates
+8d82cb3 feat: integracion de ejecutables actualizados, pantalla completa y mejoras en terminal
+4775fd7 feat(ui): aplicar acercamiento cinematografico 8K al fondo para resaltar logo y caminadoras
+9696c8e feat(ui): establecer nueva imagen 8K con caminadoras y logo oficial como fondo principal del sistema
+fc04616 feat: agregar coleccion completa de repositorios, assets, sonidos, videos y guias para POS y control de acceso gym
+7f7c247 style: corregir contraste de texto a blanco brillante y ajustar altura de tarjetas para despejar CLUB FITNESS
+74587e7 feat(terminal): redesign entry cards without black container blocks into full-bleed neon cards with frosted glass docks
+0590957 feat: fondo de mancuernas fitness con acabado de lujo en cuadro de registro y terminal
+19e3eb6 style: bajar tarjetas para despejar completamente las letras CLUB FITNESS
+7c23f53 style: eliminar titulo central y texto superpuesto sobre CLUB FITNESS
+ad0f970 style: compactar tarjetas eliminando espacio vacio inferior excesivo
+34b1832 fix: solucionar pantalla negra, restaurar variables de tarjetas y fondo iluminado nítido
+2a3defe style: eliminar textos descriptivos de las tarjetas y restaurar fondos originales con boton de alternar
+2032872 revert: restaurar fondos e imagenes originales de LEYENDS GYM tal como estaban al inicio
+9d8dbc8 feat: fondo 4K cinematografico con iluminacion neon y estilo a juego con las tarjetas

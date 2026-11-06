@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+bg_before_9696c8e.jpg: c1979c69163661201f8bcd0efdf32eb5
+bg_34b1832.jpg:        c1979c69163661201f8bcd0efdf32eb5
+repo_bg1.jpg:          c1979c69163661201f8bcd0efdf32eb5

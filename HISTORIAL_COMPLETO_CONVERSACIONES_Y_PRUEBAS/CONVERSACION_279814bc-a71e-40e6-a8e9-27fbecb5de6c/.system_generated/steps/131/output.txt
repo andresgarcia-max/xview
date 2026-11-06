@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:150:  const [bgImage, setBgImage] = useState<string>(() => {
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:627:    const nextBg = bgImage === gymBg ? gymBgMotto : 
+(bgImage === gymBgMotto ? modalGymBg : gymBg);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:628:    setBgImage(nextBg);
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:714:          src={bgImage}
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:719:            objectPosition: bgImage === gymBg ? 'center 
+38%' : 'center center',
+
+

@@ -1,0 +1,26 @@
+Command exited with code 0.
+
+Command output:
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\gym-background.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym-background.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\gym-background.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\gym-background.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\gym-background.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\gym-background.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\gym-background-4k.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\gym-background-club-8k.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\gym-background-4k.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym-background-4k.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\gym-background-real.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym-background-real.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\gym-background-real.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\gym-background-real.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\gym-background-real.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\gym-background-real.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\assets\gym-background-motto.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\gym-background-motto.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\gym-background-motto.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\gym-background-motto.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\public\gym-background-motto.jpg
+Copied to: c:\Users\andre\OneDrive\Desktop\gym\gym-background-motto.jpg
+Finished updating gym background assets.

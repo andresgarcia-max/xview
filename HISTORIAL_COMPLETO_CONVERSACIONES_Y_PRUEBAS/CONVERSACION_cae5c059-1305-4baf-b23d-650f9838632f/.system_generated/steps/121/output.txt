@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\AppData\Roaming\Antigravity\bin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     23/10/2026  04:21 p. m.            108 agy-node.cmd                                                         
+
+
+    Directorio: C:\Users\andre\AppData\Local\Temp
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     23/10/2026  05:29 p. m.                node-compile-cache                                                   
+d-----     23/10/2026  05:30 p. m.                node-jiti                                                            
+
+

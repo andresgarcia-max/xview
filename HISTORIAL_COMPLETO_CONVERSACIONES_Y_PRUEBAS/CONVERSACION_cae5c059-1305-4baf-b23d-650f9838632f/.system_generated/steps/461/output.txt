@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Line endings: "\n  BicepsFlexed,\r\n  RotateCw\r\n} from 'lucide-react';\r\nimport"

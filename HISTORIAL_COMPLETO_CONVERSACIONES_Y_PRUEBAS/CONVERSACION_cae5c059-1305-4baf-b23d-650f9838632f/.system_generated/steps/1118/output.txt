@@ -1,0 +1,50 @@
+Command exited with code 0.
+
+Command output:
+scripts/build-single-html.cjs-121-    const { useState, useEffect, useRef, useCallback } = React;
+scripts/build-single-html.cjs-122-
+scripts/build-single-html.cjs-123-    const BG_PHOTO_1 = "${img1Base64}";
+scripts/build-single-html.cjs-124-    const BG_PHOTO_2 = "${img2Base64}";
+scripts/build-single-html.cjs-125-    const BG_PHOTO_3 = "${modalBgBase64}";
+scripts/build-single-html.cjs:126:    const MODAL_GYM_BG = "${modalBgBase64}";
+scripts/build-single-html.cjs-127-    const LOGO_IMG = "${logoBase64}";
+scripts/build-single-html.cjs-128-    const IMG_CARD_NUEVO = "${cardNuevoBase64}";
+scripts/build-single-html.cjs-129-    const IMG_CARD_VISITA = "${cardVisitaBase64}";
+scripts/build-single-html.cjs-130-    const IMG_CARD_HUELLA = "${cardHuellaBase64}";
+scripts/build-single-html.cjs-131-
+--
+scripts/build-single-html.cjs-1113-            <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+scripts/build-single-html.cjs-1114-              <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-xl w-full p-5 sm:p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 my-auto max-h-[95vh] overflow-y-auto overflow-hidden">
+scripts/build-single-html.cjs-1115-                {/* Fondo de Mancuernas y Textura Fitness */}
+scripts/build-single-html.cjs-1116-                <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+scripts/build-single-html.cjs-1117-                  <img 
+scripts/build-single-html.cjs:1118:                    src={MODAL_GYM_BG} 
+scripts/build-single-html.cjs-1119-                    alt="Fondo Mancuernas Fitness" 
+scripts/build-single-html.cjs-1120-                    style={{ filter: 'brightness(1.25) contrast(1.12)' }}
+scripts/build-single-html.cjs-1121-                    className="w-full h-full object-cover object-bottom opacity-65 select-none pointer-events-none"
+scripts/build-single-html.cjs-1122-                  />
+scripts/build-single-html.cjs-1123-                  <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/55 via-[#0e1017]/65 to-[#0e1017]/80 pointer-events-none" />
+--
+scripts/build-single-html.cjs-1623-          {showVisitModal && (
+scripts/build-single-html.cjs-1624-            <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+scripts/build-single-html.cjs-1625-              <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-emerald-500/50 rounded-3xl max-w-md w-full p-6 shadow-2xl shadow-emerald-500/15 animate-in zoom-in-95 duration-200 overflow-hidden">
+scripts/build-single-html.cjs-1626-                <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+scripts/build-single-html.cjs-1627-                  <img 
+scripts/build-single-html.cjs:1628:                    src={MODAL_GYM_BG} 
+scripts/build-single-html.cjs-1629-                    alt="Fondo Mancuernas Fitness" 
+scripts/build-single-html.cjs-1630-                    style={{ filter: 'brightness(1.25) contrast(1.12)' }}
+scripts/build-single-html.cjs-1631-                    className="w-full h-full object-cover object-bottom opacity-65 select-none pointer-events-none"
+scripts/build-single-html.cjs-1632-                  />
+scripts/build-single-html.cjs-1633-                  <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/55 via-[#0e1017]/65 to-[#0e1017]/80 pointer-events-none" />
+--
+scripts/build-single-html.cjs-1698-          {showDirectAccessModal && (
+scripts/build-single-html.cjs-1699-            <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+scripts/build-single-html.cjs-1700-              <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-lg w-full p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 overflow-hidden">
+scripts/build-single-html.cjs-1701-                <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+scripts/build-single-html.cjs-1702-                  <img 
+scripts/build-single-html.cjs:1703:                    src={MODAL_GYM_BG} 
+scripts/build-single-html.cjs-1704-                    alt="Fondo Mancuernas Fitness" 
+scripts/build-single-html.cjs-1705-                    style={{ filter: 'brightness(1.25) contrast(1.12)' }}
+scripts/build-single-html.cjs-1706-                    className="w-full h-full object-cover object-bottom opacity-65 select-none pointer-events-none"
+scripts/build-single-html.cjs-1707-                  />
+scripts/build-single-html.cjs-1708-                  <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/55 via-[#0e1017]/65 to-[#0e1017]/80 pointer-events-none" />

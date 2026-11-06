@@ -1,0 +1,39 @@
+Command exited with code 0.
+
+Command output:
+
+Name                              Length 
+----                              ------ 
+avatars                                  
+card-cliente-nuevo.jpg            140204 
+card-huella.jpg                   165191 
+card-visita.jpg                   134325 
+gym-background-2.jpg              297334 
+gym-background-4k.jpg             3978592
+gym-background-club-4k.jpg        963759 
+gym-background-club-8k.jpg        3978592
+gym-background-club-noceiling.jpg 879111 
+gym-background-club-perfect.jpg   963759 
+gym-background-motto.jpg          1024389
+gym-background.jpg                3978592
+gym-dumbbell-background.jpg       322819 
+hero.png                          13057  
+logo.png                          68651  
+modal-gym-bg.jpg                  227074 
+pos-banner.jpg                    775598 
+react.svg                         4126   
+vite.svg                          8710   
+web-gym-nuevo.jpg                 83260  
+web-gym-visita.jpg                68834  
+web-gym-weights.jpg               94038  
+avatarBase64.ts                   4233236
+female_gym_1.jpg                  700042 
+female_gym_2.jpg                  760070 
+gym_cable.jpg                     864638 
+gym_cardio.jpg                    833985 
+gym_dumbbells.jpg                 682520 
+gym_rack.jpg                      793355 
+male_gym_1.jpg                    695637 
+male_gym_2.jpg                    672383 
+
+

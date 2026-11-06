@@ -1,0 +1,68 @@
+Command exited with code 0.
+
+Command output:
+
+Filename                           LineNumber Line                                                                     
+--------                           ---------- ----                                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt        597 at ../drivers/usb/gadget/f_fastboot.c:987/getvar()                       
+BLOQUES_ASCII_COMPLETOS_SESION.txt        617 reboot_mode:::: watchdog_reboot                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt        642 HDMI_EDID_BLOCK_TYPE_VENDER: pRXCap->ColorDeepSupport=0xb8               
+BLOQUES_ASCII_COMPLETOS_SESION.txt        645 pixel_clock 24150                                                        
+BLOQUES_ASCII_COMPLETOS_SESION.txt        655 pixel_clock 0                                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt        665 pixel_clock 0                                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt        685 HDMI_EDID_BLOCK_TYPE_VENDER: pRXCap->ColorDeepSupport=0xb8               
+BLOQUES_ASCII_COMPLETOS_SESION.txt        688 pixel_clock 24150                                                        
+BLOQUES_ASCII_COMPLETOS_SESION.txt        698 pixel_clock 0                                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt        708 pixel_clock 0                                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt        908 avb verification: locked = 1, result = 0                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1279 lock state: 10001000                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1282 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1283 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1284 info->lock_critical_state = 0                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1285 info->lock_bootloader = 0                                                
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1286 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1326 reboot_mode:::: fastboot                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1340 avb verification: locked = 1, result = 0                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1361 lock state: 10001000                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1364 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1365 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1366 info->lock_critical_state = 0                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1408 lock state: 10001000                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1411 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1412 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1413 info->lock_critical_state = 0                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1414 info->lock_bootloader = 0                                                
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1415 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1542 pixel_clock 0                                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1592 reboot_mode:::: watchdog_reboot                                          
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1609 lock state: 10001000                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1612 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1613 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1614 info->lock_critical_state = 0                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1615 info->lock_bootloader = 0                                                
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1616 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1649 lock state: 10001000                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1652 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1653 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1654 info->lock_critical_state = 0                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1655 info->lock_bootloader = 0                                                
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1656 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1715 co-phase 0x3, tx-dly 0, clock 400000                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1716 co-phase 0x3, tx-dly 0, clock 400000                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1717 co-phase 0x3, tx-dly 0, clock 400000                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       1746 reboot_mode=watchdog_reboot                                              
+BLOQUES_ASCII_COMPLETOS_SESION.txt       2663 at ../drivers/usb/gadget/f_fastboot.c:987/getvar()                       
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3005 lock state: 10001000                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3008 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3009 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3010 info->lock_critical_state = 0                                            
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3011 info->lock_bootloader = 0                                                
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3012 ERROR: device is locked, can not run this cmd.Please flashing unlock &...
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3052 reboot_mode:::: fastboot                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3066 avb verification: locked = 1, result = 0                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3087 lock state: 10001000                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3090 info->unlock_ability = 0                                                 
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3091 info->lock_state = 1                                                     
+BLOQUES_ASCII_COMPLETOS_SESION.txt       3092 info->lock_critical_state = 0                                            
+
+

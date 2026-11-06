@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:800:            <div className="relative z-10 p-3.5 
+rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:834:            <div className="relative z-10 p-3.5 
+rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-emerald-400/40 transition-colors">
+LEGENDS\src\components\access\IndependentTerminalApp.tsx:868:            <div className="relative z-10 p-3.5 
+rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+LEGENDS\src\components\access\TurnstileTerminal.tsx:207:            className="flex items-center gap-1.5 px-3.5 py-2 
+rounded-xl bg-black/40 hover:bg-black/60 backdrop-blur-md border border-white/25 text-xs font-bold text-gray-100 
+hover:text-white cursor-pointer transition-all shadow-md group"
+LEGENDS\src\components\clients\ClientDetailModal.tsx:48:            <span className="text-xs font-mono text-gray-300 
+bg-black/40 px-2 py-0.5 rounded">
+LEGENDS\src\components\clients\ClientDetailModal.tsx:55:            className="p-1.5 rounded-lg bg-black/40 
+text-gray-300 hover:text-white hover:bg-black/60 transition-colors"
+LEGENDS\src\components\dashboard\CashRegisterView.tsx:447:                <div className="p-3 rounded-lg bg-black/40 
+border border-gym-border/60 space-y-1.5 text-xs font-mono">
+
+

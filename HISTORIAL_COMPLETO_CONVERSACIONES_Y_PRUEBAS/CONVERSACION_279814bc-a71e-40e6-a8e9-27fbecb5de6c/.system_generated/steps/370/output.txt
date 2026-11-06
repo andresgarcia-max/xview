@@ -1,0 +1,32 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     23/10/2026  05:19 p. m.                locales                                                              
+dar--l     23/10/2026  05:19 p. m.                resources                                                            
+-a---l     17/10/2026  01:03 p. m.         719654 chrome_100_percent.pak                                               
+-a---l     17/10/2026  01:03 p. m.        1269017 chrome_200_percent.pak                                               
+-a---l     24/10/2026  09:43 a. m.      246300160 ControlDeAccesoLegends.exe                                           
+-a---l     17/10/2026  01:03 p. m.        4741488 d3dcompiler_47.dll                                                   
+-a---l     17/10/2026  01:03 p. m.       25744384 dxcompiler.dll                                                       
+-a---l     17/10/2026  01:03 p. m.        1509760 dxil.dll                                                             
+-a---l     17/10/2026  01:03 p. m.        3113472 ffmpeg.dll                                                           
+-a---l     24/10/2026  09:33 a. m.      246300160 FitnessLegends.exe                                                   
+-a---l     17/10/2026  01:03 p. m.       10875024 icudtl.dat                                                           
+-a---l     17/10/2026  01:03 p. m.           1096 LICENSE                                                              
+-a---l     17/10/2026  01:03 p. m.       20477229 LICENSES.chromium.html                                               
+-a---l     17/10/2026  01:03 p. m.       12436174 resources.pak                                                        
+-a---l     17/10/2026  01:03 p. m.         368768 snapshot_blob.bin                                                    
+-a---l     17/10/2026  01:03 p. m.         742200 v8_context_snapshot.bin                                              
+-a---l     17/10/2026  01:03 p. m.              6 version                                                              
+-a---l     17/10/2026  01:03 p. m.        5520384 vk_swiftshader.dll                                                   
+-a---l     17/10/2026  01:03 p. m.            106 vk_swiftshader_icd.json                                              
+-a---l     17/10/2026  01:03 p. m.         939520 vulkan-1.dll                                                         
+
+

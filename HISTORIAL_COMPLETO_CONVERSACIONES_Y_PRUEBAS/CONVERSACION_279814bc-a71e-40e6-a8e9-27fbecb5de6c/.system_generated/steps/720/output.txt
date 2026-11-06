@@ -1,0 +1,49 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d----l     28/10/2026  05:44 p. m.                accesos directos                                                     
+dar--l     23/10/2026  05:10 p. m.                IMAGENES_8K                                                          
+dar--l     28/10/2026  05:44 p. m.                LEGENDS                                                              
+dar--l     24/10/2026  09:11 a. m.                repositorios                                                         
+dar--l     23/10/2026  05:19 p. m.                scripts                                                              
+-a----     28/10/2026  05:44 p. m.        4126720 ACCESO_WEB_FITNESS_LEGENDS.html                                      
+-a---l     20/10/2026  09:14 a. m.            123 ACCESO_WEB_FITNESS_LEGENDS.url                                       
+-a---l     20/10/2026  09:14 a. m.            137 ACCESO_WEB_NUBE.url                                                  
+-a---l     24/10/2026  10:52 a. m.          87405 CARTERA_CLIENTES_INTERFAZ_PRO.html                                   
+-a----     28/10/2026  05:44 p. m.          40448 CONTROL_DE_ACCESO.exe                                                
+-a----     28/10/2026  05:44 p. m.        4126720 Control_De_Acceso_Web.html                                           
+-a---l     20/10/2026  09:14 a. m.            138 CONTROL_DE_ACCESO_WEB.url                                            
+-a---l     23/10/2026  02:49 p. m.          30900 dumbbell_test.jpg                                                    
+-a---l     23/10/2026  02:50 p. m.         291177 dumbbell_widescreen_test.jpg                                         
+-a----     28/10/2026  05:44 p. m.            150 EJECUTAR_FITNESS_LEGENDS.bat                                         
+-a----     28/10/2026  05:44 p. m.            172 EJECUTAR_TERMINAL_ACCESO.bat                                         
+-a---l     20/10/2026  04:19 p. m.            141 FITNESS LEGENDS - Nube Vercel (Enlace Web).url                       
+-a----     28/10/2026  05:44 p. m.          40448 FITNESS_LEGENDS_SISTEMA_ERP.exe                                      
+-a----     28/10/2026  05:44 p. m.          40448 FITNESS_LEGENDS_TERMINAL_ACCESO.exe                                  
+-a---l     24/10/2026  10:49 a. m.         812097 gym-background-4k.jpg                                                
+-a---l     24/10/2026  10:49 a. m.         812097 gym-background-club-8k.jpg                                           
+-a---l     24/10/2026  10:56 a. m.        1024389 gym-background-motto.jpg                                             
+-a---l     24/10/2026  10:50 a. m.         698002 gym-background-real.jpg                                              
+-a---l     24/10/2026  10:49 a. m.         812097 gym-background.jpg                                                   
+-a---l     23/10/2026  02:55 p. m.         322819 gym-dumbbell-background.jpg                                          
+-a---l     20/10/2026  09:20 a. m.            142 GYM_FUNCIONAL_WEB.url                                                
+-a---l     23/10/2026  08:52 a. m.        5985780 LEYENDS_GYM_8K_CUADRADA_1X1.jpg                                      
+-a---l     23/10/2026  08:52 a. m.        5969677 LEYENDS_GYM_8K_ESTUDIO_16X9.jpg                                      
+-a---l     23/10/2026  08:52 a. m.        3594959 LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg                                    
+-a---l     23/10/2026  02:49 p. m.         227074 modal-gym-bg-hd.jpg                                                  
+-a---l     20/10/2026  08:42 a. m.            151 PUNTO_DE_VENTA_GYM.url                                               
+-a----     28/10/2026  05:44 p. m.          39936 SISTEMA_ERP.exe                                                      
+-a---l     19/10/2026  07:33 a. m.         186225 WhatsApp Image 2026-10-19 at 8.32.23 AM.jpeg                         
+-a---l     19/10/2026  07:33 a. m.         297334 WhatsApp Image 2026-10-19 at 8.32.24 AM.jpeg                         
+-a---l     23/10/2026  02:52 p. m.         368957 wide_dumbbell_seamless.jpg                                           
+-a---l     23/10/2026  02:52 p. m.         412673 wide_dumbbell_test.jpg                                               
+-a---l     23/10/2026  02:54 p. m.         388359 wide_dumbbell_with_logo.jpg                                          
+
+

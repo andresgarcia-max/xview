@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\BITACORA_EN_VIVO_EXE.log                                       
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\MONITOR_EN_VIVO_EXE.ps1                   
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\MOTOR_PROGRAMA_PERFECTO.ps1               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090453546_C4741EF2...
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\SESION_FASTBOOT_B866V2.log                     
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\MOTOR_FASTBOOT_B866V2.ps1                      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090388172_C4741EF6...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\LOGS_CAJA_Z41220090388172_C4741EF6...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_MONITOREO_EN_VIVO_SMARTTY\AUTO_ACCESO_TOTAL_XVIEW.ps1             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_MONITOREO_EN_VIVO_SMARTTY\CONECTAR_Y_MONITOREAR_MTP_XVIEW.ps1     
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_MONITOREO_EN_VIVO_SMARTTY\CENTINELA_USB_MACHO_MACHO.log           
+C:\Users\andre\OneDrive\Desktop\xview\experimento\12_KIT_USB_QADEBUG_Y_EXTRACCION\12_KIT_USB_QADEBUG_Y_EXTRACCION\de...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\VALIDAR_FIRMWARE_Y_OTA_ZTE.ps1      
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_MONITOREO_EN_VIVO_SMARTTY\CAPTURA_DIRECTA_CONTROLADOR.log         
+
+

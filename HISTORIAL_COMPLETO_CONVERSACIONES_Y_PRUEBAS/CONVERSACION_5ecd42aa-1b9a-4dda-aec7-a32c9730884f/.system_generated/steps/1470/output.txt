@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+CRC32: 0xA7BDF97B - env_unlocked.img and recovery.img updated!

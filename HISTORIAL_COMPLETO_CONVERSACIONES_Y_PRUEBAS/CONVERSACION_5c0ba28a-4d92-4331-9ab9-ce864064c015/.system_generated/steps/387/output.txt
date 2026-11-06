@@ -1,0 +1,12 @@
+Command exited with code 1.
+
+Command output:
+
+Get-Content : No se encuentra la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\diagnose.log' porque no existe.
+En l�nea: 2 Car�cter: 1
++ Get-Content "c:\Users\andre\OneDrive\Desktop\gym\diagnose.log"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\andre\...ym\diagnose.log:String) [Get-Content], ItemNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+ 

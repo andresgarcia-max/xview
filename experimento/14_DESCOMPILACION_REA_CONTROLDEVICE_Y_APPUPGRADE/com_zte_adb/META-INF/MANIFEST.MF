@@ -1,0 +1,168 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 9OiXPywgPoPSwruezTuD3L8LbBVwpPOwdS3SI9KIuWg=
+
+Name: META-INF/com/android/otacert
+SHA-256-Digest: 3RnjCZQEVjV6NLcIP0QjRNYHTcQcPdTb3I2b8mkGTiU=
+
+Name: classes.dex
+SHA-256-Digest: 0ZpT+2AuLd/Q382aZPuQ0NMHo3sDDlq0/zH90kMYxEA=
+
+Name: com/zte/adb/common/ClientManager.java.bak
+SHA-256-Digest: eCINZ/4DTtKVeKfCHNR0/OfjUy1JJnSEDFHRfpdAx0k=
+
+Name: com/zte/adb/common/UtilsInstance.java.bak
+SHA-256-Digest: HP6viX1lZ9b9D7Hhf4FaJed07pMR2RIcRZMngutKFRc=
+
+Name: lib/armeabi/libbase.so
+SHA-256-Digest: R5kU5bKHi/7x7gZnvbiafn/IZQsrDL15uEaxwmK2p0Y=
+
+Name: lib/armeabi/libc++.so
+SHA-256-Digest: 3WwTDxhbMKd3RNyVhCXJLhgKrwWdqHfn2JfJdUO2v7c=
+
+Name: lib/armeabi/libcrypto.so
+SHA-256-Digest: X8vWPoAiCG9rqwkuPhGFyDlbkMxAnyZu4+MTjS1aEys=
+
+Name: lib/armeabi/libcutils.so
+SHA-256-Digest: vRZ9ohX2lIdVWOwC47iNrjd9x/s3qhVy/gZNvatb12E=
+
+Name: lib/armeabi/libencryCode.so
+SHA-256-Digest: Oxnv003qz6SBjz/WPLhgKzR2XEbMrxz3rz4DAS2wY54=
+
+Name: lib/armeabi/liblog.so
+SHA-256-Digest: llbH7H+AUHa0mr1+6mOItYXcozOUbvcj4hs76HU3rv0=
+
+Name: res/drawable-mdpi-v4/button_bg_focus.png
+SHA-256-Digest: ZF9aoIE47Zlb7gSz4Q2k2G4Fbl5GGZCmqr5tY+CDgNc=
+
+Name: res/drawable-mdpi-v4/button_bg_focus_disable.png
+SHA-256-Digest: T/gnG6UBgPQYOfi109473YbigTe1p02pqJF5x1AHHnQ=
+
+Name: res/drawable-mdpi-v4/button_bg_normal.png
+SHA-256-Digest: tROm5KicvMZUpgbt3SVqKigCEYZTI6njiTWgMdIRRN4=
+
+Name: res/drawable-mdpi-v4/button_bg_normal_disable.png
+SHA-256-Digest: 2rhjMrvqkbS9vFYDLk8vQK1oO/JY0cF2LKRaw7BJTHk=
+
+Name: res/drawable/amx_selector_button.xml
+SHA-256-Digest: 226c0ZlTKvmI8ybsxg68tR6YViugjJKS8xvORuBBwj8=
+
+Name: res/drawable/amx_shape_bg_cursor.xml
+SHA-256-Digest: dPM35IFpwqN36FYKtf7gC6AOJAA9n4aFKKA8abPOdlo=
+
+Name: res/drawable/amx_shape_button_focus.xml
+SHA-256-Digest: zlYfunUwAJfzLHNB0A5B+K4IGeyyPr8V416HhhE/EP4=
+
+Name: res/drawable/amx_shape_button_normal.xml
+SHA-256-Digest: GktRVrGbQuD6DcuLobkwXswrfSS3IqwWfPrCFQ+wDhA=
+
+Name: res/drawable/amx_shape_button_press.xml
+SHA-256-Digest: cDZP8zn3K6uKgzqRaEEmS4iARCzjBXvtKsCReZ5axQU=
+
+Name: res/drawable/amx_shape_edit.xml
+SHA-256-Digest: Cf4EJAL3nMpKf+iduj9OAs7h9CqrWcYDWe8swJCTZqM=
+
+Name: res/drawable/amx_shape_frame_white.xml
+SHA-256-Digest: 5XehYnABQNhBmwkqbXKbD+YeNW5hdakKBmQwTEuN4mQ=
+
+Name: res/drawable/background_title.png
+SHA-256-Digest: OBGC3irw8zJAfhYIhnVYJl7z1wFrPneejynk/AgD1Lg=
+
+Name: res/drawable/bg.jpg
+SHA-256-Digest: pZDk+gD6tLbDmxlTwI0K/+Ps/K9P8RYVgt14YN5tVZg=
+
+Name: res/drawable/btn_selector.xml
+SHA-256-Digest: sxkD4HCvVXYKGWsz7U9zgi5e9fWpViL9oximdV77SnM=
+
+Name: res/drawable/button_bg_focus.png
+SHA-256-Digest: ZF9aoIE47Zlb7gSz4Q2k2G4Fbl5GGZCmqr5tY+CDgNc=
+
+Name: res/drawable/button_bg_focus_disable.png
+SHA-256-Digest: T/gnG6UBgPQYOfi109473YbigTe1p02pqJF5x1AHHnQ=
+
+Name: res/drawable/button_bg_normal.png
+SHA-256-Digest: tROm5KicvMZUpgbt3SVqKigCEYZTI6njiTWgMdIRRN4=
+
+Name: res/drawable/button_bg_normal_disable.png
+SHA-256-Digest: 2rhjMrvqkbS9vFYDLk8vQK1oO/JY0cF2LKRaw7BJTHk=
+
+Name: res/drawable/button_text_selector.xml
+SHA-256-Digest: 5IYh6stm9YQu5pY5PY2QVkLABmsIfDk8zYGr4KDbmvY=
+
+Name: res/drawable/buttonstyle.xml
+SHA-256-Digest: ja5ggT6z+1WEHbtnM8BoEmXg5k7QDP1yf/bpngMiuNQ=
+
+Name: res/drawable/color_cursor.xml
+SHA-256-Digest: zM0rWp+SbGYWuFsOByxBvJzt3rHy3X9ZfvppQZ2AN1M=
+
+Name: res/drawable/dialog_bg.9.png
+SHA-256-Digest: L05Ugwy9f9iNNjfXdxE9NN8zkSQTTJQVhInFz2L5xvg=
+
+Name: res/drawable/edittext_selector.xml
+SHA-256-Digest: sRRPLTJnmmH4JBAPls3ErA0dFfOq4e5vuD8Ru9IhrHo=
+
+Name: res/drawable/ic_launcher.png
+SHA-256-Digest: 2OTOrXSGQMgAymxeuphbQt3OppGmdjpnrugIJtT4iaM=
+
+Name: res/drawable/input_long_bg_focus.png
+SHA-256-Digest: qPJciQ05c53MDP4MFAqqXcHjbRRXzceS9AFwiebktBk=
+
+Name: res/drawable/input_long_bg_normal.png
+SHA-256-Digest: GITnwC0dpmbhDArmu/ELs/SwL2AugWTA/77oZgWy5R4=
+
+Name: res/drawable/ipaddr_editbox_default.png
+SHA-256-Digest: kl0W/pnjUMxZfLtazsoma+9oXawyCHkFpzTrvcEkpF8=
+
+Name: res/drawable/ipaddr_editbox_selected.png
+SHA-256-Digest: Rd/5t2swXPkSkaMiWVm/2MDTXbfBFArz1W3d0oLN2oE=
+
+Name: res/drawable/ipaddr_editbox_selector.xml
+SHA-256-Digest: 9KznjC254rX3Abo2r8tXDJjqXDScbPfgCmjy7LDqORE=
+
+Name: res/drawable/itemcolor.xml
+SHA-256-Digest: QNrHpTUCASDsNyN1eMGeOROH2qw2XUeji0QtsZLuaeM=
+
+Name: res/drawable/setting_focus_bg.png
+SHA-256-Digest: Pud5vEa3xtn6/RGuxOyO1QRzn419OdMffgY/+2liGTw=
+
+Name: res/drawable/subitem_focus.png
+SHA-256-Digest: W6+biU60A057ffxiURImdNQv2aOK/YxwurQr26So/1c=
+
+Name: res/drawable/subitem_selector.xml
+SHA-256-Digest: M41sV7K0mJSTCp46yCN17oU5sjW88X4aowmQU+L/79c=
+
+Name: res/layout/activity_main.xml
+SHA-256-Digest: wzyhLDaP4MLyOaDR/hQIOrPknBfnOOSl99WjuKfxkhY=
+
+Name: res/layout/activity_start_adb.xml
+SHA-256-Digest: uXpW0id1eU8VzMvPQ+DdqfChJZx/3JCl6jXnNMiiDJw=
+
+Name: res/layout/activity_start_adb_amx.xml
+SHA-256-Digest: oFpd3DnKnlOWhy5L5RyADuYmOqPYPs0KjEh0Q6QtIx4=
+
+Name: res/layout/activity_start_adb_atv9.xml
+SHA-256-Digest: ooOrS2WnAulcz2TuThbqUhIdTCa4wM9VAeHVdJd/SKU=
+
+Name: res/layout/authalertdialog.xml
+SHA-256-Digest: 5IBJgKDQU55Gegk9a0I1/Rk0st9L1HBddYV0BFm9chQ=
+
+Name: res/layout/commom_dialog.xml
+SHA-256-Digest: jHA7QKFD+4n9koGOpTul3Hcb4jTuR/9CLYK1y+17r20=
+
+Name: res/layout/commom_dialog_fr.xml
+SHA-256-Digest: AyPyc+I2Cxi6+B8Dcg9Chg88u1GFyPrxDxRwQz0PSVQ=
+
+Name: res/layout/connect_cfgtool.xml
+SHA-256-Digest: f1IlGXZ8HuPKnpPDjTEejM7B1TjNPmBYjlrgOAG/NZw=
+
+Name: res/layout/operation_main_item.xml
+SHA-256-Digest: yv65L3hQqaxU2jXtEieqgScmvvRrpwUvIPRtDzIalrI=
+
+Name: res/layout/usb_log.xml
+SHA-256-Digest: Ajf6F+XJTXK8+WNKkaY6LmTkWOHL8ZYjexfIy8cEsbU=
+
+Name: resources.arsc
+SHA-256-Digest: BB5E91buKJn16ISqAtaoLPatI1JdvClMsLz39DGwXl8=
+

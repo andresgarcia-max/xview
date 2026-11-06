@@ -1,0 +1,90 @@
+Command exited with code 0.
+
+Command output:
+
+
+UEFISecureBootEnabled : 0
+PSPath                : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecureB
+                        oot\State
+PSParentPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecureB
+                        oot
+PSChildName           : State
+PSDrive               : HKLM
+PSProvider            : Microsoft.PowerShell.Core\Registry
+
+Type         : 1
+Start        : 3
+ErrorControl : 0
+ImagePath    : \SystemRoot\system32\DRIVERS\libusb0.sys
+DisplayName  : libusb-win32 - Kernel Driver 02/23/2013 1.2.6.0
+Owners       : {oem80.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\libusb0
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : libusb0
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+ImagePath    : \SystemRoot\System32\drivers\WinUSB.SYS
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @winusb.inf,%WINUSB_SvcName%;WinUsb Driver
+Owners       : {wpdmtp.inf, transfercable.inf, winusb.inf, oem79.inf...}
+Description  : @winusb.inf,%WINUSB_SvcDesc%;Generic driver for USB devices
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinUSB
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : WinUSB
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+ImagePath       : \SystemRoot\System32\drivers\USBXHCI.SYS
+Type            : 1
+Start           : 3
+ErrorControl    : 1
+DependOnService : {Ucx01000}
+DisplayName     : @usbxhci.inf,%PCI\CC_0C0330.DeviceDesc%;USB xHCI Compliant Host Controller
+Owners          : {usbxhci.inf}
+BootFlags       : 16
+PSPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBXHCI
+PSParentPath    : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName     : USBXHCI
+PSDrive         : HKLM
+PSProvider      : Microsoft.PowerShell.Core\Registry
+
+ImagePath    : \SystemRoot\System32\drivers\UsbHub3.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+Group        : Base
+Tag          : 20
+DisplayName  : @usbhub3.inf,%UsbHub3.SVCDESC%;SuperSpeed Hub
+Owners       : {usbhub3.inf}
+BootFlags    : 16
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBHUB3
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : USBHUB3
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+Type         : 1
+Start        : 3
+ErrorControl : 1
+ImagePath    : \SystemRoot\System32\drivers\WUDFRd.sys
+ObjectName   : \Driver\WudfRd
+Owners       : {wpdmtp.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WUDFWpdMtp
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : WUDFWpdMtp
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+LastWriteTime : 24/10/2026 11:36:00 a. m.
+Length        : 1736
+Name          : adbkey
+
+LastWriteTime : 24/10/2026 11:36:00 a. m.
+Length        : 716
+Name          : adbkey.pub
+
+
+

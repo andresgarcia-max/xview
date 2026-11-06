@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+0x31737: Set USB Status Success!
+0x31C8B: Failed to set USB config to 
+0x31DE0: Failed to set usb config to sideload
+0x350F6: Partitions may be mounted - rebooting to enter fastboot.
+0x3669F: Set USB Status Failed!

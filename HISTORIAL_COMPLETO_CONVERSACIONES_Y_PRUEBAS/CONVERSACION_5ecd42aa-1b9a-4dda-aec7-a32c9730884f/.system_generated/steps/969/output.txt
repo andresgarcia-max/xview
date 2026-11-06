@@ -1,0 +1,211 @@
+Command exited with code 0.
+
+Command output:
+0x3E000: t = %lld: %s
+0x3E00D:  (zerr=
+0x3E018: /cache/recovery/last_locale
+0x3E038: /system/bin/update_engine_sideload
+0x3E060: /cache/recovery
+0x3E070: post-timestamp
+0x3E080: NOT_SUPPORTED
+0x3E090: PERMISSION_DENIED
+0x3E0A8: persist.log.tag.
+0x3E0C0: /snapshots
+0x3E0D0: /snapshots/
+0x3E0E0: (cannot determine missing fields for lite message)
+0x3E118: Unspecified assertion failed
+0x3E138: Secure boot - 
+0x3E148: ro.system.build.version.sdk
+0x3E168: ro.virtual_ab.allow_non_ab
+0x3E188: --show_text
+0x3E198: /cache/recovery/last_log
+0x3E1B8: build.tools.releasetools.PartitionState
+0x3E1E0: /tmp/convert_fbe
+0x3E1F8: /cache/recovery/last_kmsg
+0x3E218: FAILED_PRECONDITION
+0x3E230: /mnt/system
+0x3E240: /sideload/package.zip
+0x3E258: /metadata/ota
+0x3E268: /tmp/last_install
+0x3E280: /tmp/update-binary
+0x3E298:  Factory data reset
+0x3E2B0: /dev/block/ubootenv
+0x3E2C8: /cache/recovery/uncrypt_status
+0x3E2E8: sys.powerctl
+0x3E2F8:   Confirm reboot?
+0x3E310: ro.build.date.utc
+0x3E328: DATA_LOSS
+0x3E338: ro.debuggable
+0x3E348: /sdcard/factory_update_param.aml
+0x3E370: OUT_OF_RANGE
+0x3E380: /dev/socket/logdw
+0x3E398: --fastboot
+0x3E3A8: ro.boot.bootreason
+0x3E3C0: ro.virtual_ab.enabled
+0x3E3D8: default-key
+0x3E3E8: chromeos_update_engine.Extent
+0x3E408: CANCELLED
+0x3E418: UNIMPLEMENTED
+0x3E428: ro.build.fingerprint
+0x3E440: ro.bootloader
+0x3E450: external_storage.projid.enabled
+0x3E470: post-build-incremental
+0x3E488: CALLBACK_DIED
+0x3E498: INVALID_ARGUMENT
+0x3E4B0: RESOURCE_EXHAUSTED
+0x3E4C8: ro.boot.quiescent
+0x3E4E0: DISCHARGING
+0x3E4F0: /dev/socket/
+0x3E500: /cache/recovery/last_command
+0x3E520: Reboot system now
+0x3E538: Choose a package to install:
+0x3E558: ro.build.version.sdk
+0x3E570: Wipe all user data?
+0x3E588:   THIS CAN NOT BE UNDONE!
+0x3E5A8: Reboot to bootloader
+0x3E5C0: /merge_state
+0x3E5D0: sys.usb.state
+0x3E5E0: Select file to view
+0x3E5F8: recovery.wipe
+0x3E608: DEADLINE_EXCEEDED
+0x3E620: ro.boot.verifiedbootstate
+0x3E640: /dev/nand_env
+0x3E650: /system/etc/security/otacerts.zip
+0x3E678: ALREADY_EXISTS
+0x3E688: /cache/recovery/command
+0x3E6A0: ro.build.expect.baseband
+0x3E6C0: ro.build.ab_update
+0x3E6D8: ro.boot.slot_suffix
+0x3E6F0: Wipe cache?
+0x3E700: /sdcard
+0x3E708: pre-device
+0x3E718: WARNING: Previous installation has failed.
+0x3E748: chromeos_update_engine.InstallOperation
+0x3E770: Can't load Android system. Your data may be corrupt. If you continue to get this message, you may need to perform a factory data reset and erase all user data stored on this device.
+0x3E828: Factory data reset
+0x3E840: Android Fastboot
+0x3E858: external_storage.casefold.enabled
+0x3E880: /cache/saved.file
+0x3E898: /tmp/recovery.log
+0x3E8B0: pre-build-incremental
+0x3E8C8: pre-build
+0x3E8D8: /metadata
+0x3E8E8: ramdisk
+0x3E8F0: build.tools.releasetools.DeviceState
+0x3E918: UNAVAILABLE
+0x3E928: ro.product.device
+0x3E940: ro.secure
+0x3E950: recovery/last_kmsg
+0x3E968: /cache/recovery/log
+0x3E980: Android Recovery
+0x3E998:   Your device may fail to boot if you reboot or power off now.
+0x3E9D8: Reboot System Now?
+0x3E9F0: Enter recovery
+0x3EA00: /cache/recovery/last_install
+0x3EA20: /res/images
+0x3EA30: ro.build.version.security_patch
+0x3EA50: Try again
+0x3EA60: UNAUTHENTICATED
+0x3EA70: ro.boot.dynamic_partitions
+0x3EA90: Power off
+0x3EAA0: ro.serialno
+0x3EAB0: ro.revision
+0x3EAC0: ro.build.version.incremental
+0x3EAE0: recovery/last_log
+0x3EAF8: --reason=update_in_progress
+0x3EB18: ota-downgrade
+0x3EB28: NOT_CHARGING
+0x3EB38: /dev/block/env
+0x3EB48: /etc/recovery.wipe
+0x3EB60: NOT_FOUND
+0x3EB70: build.tools.releasetools.OtaMetadata
+0x3EB95: ARBSCTDUEVFWGXHYIZJPKOLNMMNLOKPEQDRCSBTAUQVJWIXHYGZFarbsctduevfwgxhyizjpkolnmmnlokpeqdrcsbtauqvjwixhygzf45509440
+0x3EC2B: l?a??9?Z+??
+0x3EC5B: N???s?
+0x3EC64: 6PG?
+0x3EC8E:  @?
+0x3EC92: 6l??M?/^?c??5j??}????9r???a??%J?3f??
+0x3ECB7: :t???
+0x3ECC1:  @?
+0x3ECC5: 6l??M?/^?c??5j??}????9r???a??%J?3f??
+0x3ECEA: :t???
+0x3ECF4:  @?
+0x3ECF8: 6l??M?/^?c??5j??}????9r???a??%J?3f??
+0x3ED1D: :t???
+0x3ED27:  @?
+0x3ED2B: 6l??M?/^?c??5j??}????9r???a??%J?3f??
+0x3ED50: :t???
+0x3ED5A:  @?
+0x3ED5E: 6l??M?/^?c??5j??}????9r???a??%J?3f??
+0x3ED83: :t??c|w{?ko?0
+0x3ED91: g+???v???}?YG???????r????&6???4???q?1
+0x3EDB8: ?#?
+0x3EDC1: ???'?u
+0x3EDCC: nZ?R;??)?/?S?
+0x3EDDA: ? ??[j??9JLX?????CM3?E?
+0x3EDF3: P<??Q?@???8????!
+0x3EE04: ????
+0x3EE0A: ?_?D
+0x3EE0F: ??~=d]
+0x3EE16: s`?O?"*??F??
+0x3EE26: ??2:
+0x3EE2D: $\???b???y??7m??N?lV??ez?
+0x3EE47: ?x%.
+0x3EE4C: ?????t
+0x3EE53: K???p>?fH
+0x3EE5F: a5W???
+0x3EE66: ????
+0x3EE6B: i????
+0x3EE71: ???U(????
+0x3EE7B: ??BhA?-
+0x3EE83: ?T?
+0x3EE89: j?06?8?@??????|?9??/??4?CD????T{?2??#=?L?
+0x3EEB3: B??N
+0x3EEB8: .?f(?$?v[?Im??%r??d?h?
+0x3EECF: ??\?]e??lpHP????^
+0x3EEE1: FW???????
+0x3EEEB: ???
+0x3EEEF: ??X
+0x3EEF3: ??E
+0x3EEFA: ???
+0x3EEFF: ???
+0x3EF05: ?k:?
+0x3EF0A: AOg?????????s??t"??5???7?
+0x3EF24: u?nG?
+0x3EF2C: )??o?b
+0x3EF37: ?V>K??y ????x?Z?
+0x3EF48: ??3?
+0x3EF4D: ?1?
+0x3EF52: Y'??_`Q
+0x3EF5F: -?z???????;M?*?????<?S?a
+0x3EF7A: ~?w?&?i
+0x3EF82: cU!
+0x3EF86: }COMD
+0x3EF8C: NSt3__14__fs10filesystem16filesystem_errorE
+0x3EFB8: NSt3__120__shared_ptr_emplaceINS_4__fs10filesystem16filesystem_error8_StorageENS_9allocatorIS4_EEEE
+0x3F01C: NSt3__120__shared_ptr_emplaceINS_4__fs10filesystem12__dir_streamENS_9allocatorIS3_EEEE
+0x3F073: /dev/kmsg
+0x3F07D: /avb
+0x3F082: userdata_gsi
+0x3F08F: _gsi
+0x3F094: scratch_gsi
+0x3F0A0: /metadata/gsi/dsu/booted
+0x3F0B9: /metadata/gsi/dsu/lp_names
+0x3F0D4: /system/system_ext/etc/init/config/skip_mount.cfg
+0x3F106: /metadata/vold/metadata_encryption/dsu/
+0x3F12E: /metadata/gsi/dsu/active
+0x3F147: /proc/device-tree/firmware/android
+0x3F173: w,a
+0x3F177: ??Q
+0x3F180: ??jp5?c???d?2??
+0x3F190: ???y
+0x3F195: ???????+L?
+0x3F1A0: ?|?~
+0x3F1A5: -???
+0x3F1AA: ??d
+0x3F1B0: ? ?jHq???A??}??
+0x3F1C0: ???mQ???????V?l
+0x3F1D0: ??kdz?b???e?O\
+0x3F1E3: cc=
+0x3F1EB: ?? n;^
+0x3F1F2: iL?A`?rqg???

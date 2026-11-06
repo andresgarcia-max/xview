@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+[08:22:00 204][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:00 222][Global][Inf]-------->[Port2]\\?\usb#vid_1b8e&pid_c004#00199321c9402a2200000000#{f72fe0d4-cbcb-407d-8814-9ed673d0dd6b}
+[08:22:00 246][Global][Inf]--ScanUSBDevice 1 dnl device
+[08:22:00 246][Global][Inf]--UpdateDeviceData Hub1-2
+[08:22:00 248][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:22:00 249][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:22:00 250][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:00 265][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:22:00 266][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:22:00 267][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:22:00 267][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:00 282][Global][Inf]--ScanUSBDevice 0 dnl device
+[08:22:00 282][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:22:00 282][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:22:00 282][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:00 295][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:22:32 081][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:22:32 082][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:22:32 082][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:32 113][Global][Inf]--ScanUSBDevice 0 dnl device
+[08:22:32 113][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:22:32 115][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:22:32 115][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:32 132][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:22:46 229][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:22:46 231][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:22:46 231][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:46 245][Global][Inf]--ScanUSBDevice 0 dnl device
+[08:22:46 245][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:22:46 248][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:22:46 248][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:22:46 262][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:23:01 765][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:23:01 766][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:23:01 766][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:23:01 781][Global][Inf]-------->[Port2]\\?\usb#vid_1b8e&pid_c004#00199321c9402a2200000000#{f72fe0d4-cbcb-407d-8814-9ed673d0dd6b}
+[08:23:01 791][Global][Inf]--ScanUSBDevice 1 dnl device
+[08:23:01 791][Global][Inf]--UpdateDeviceData Hub1-2
+[08:23:01 791][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:23:01 792][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:23:01 792][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:23:01 807][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:27:24 282][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:27:24 284][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:27:24 284][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:27:24 297][Global][Inf]--ScanUSBDevice 0 dnl device
+[08:27:24 297][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:27:24 299][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:27:24 299][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:27:24 308][Global][Inf]--ScanUSBDevice 0 worldcup device
+[08:29:15 824][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:29:15 826][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:29:15 826][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:29:15 841][Global][Inf]-------->[Port2]\\?\usb#vid_1b8e&pid_c004#00199321c9402a2200000000#{f72fe0d4-cbcb-407d-8814-9ed673d0dd6b}
+[08:29:15 858][Global][Inf]--ScanUSBDevice 1 dnl device
+[08:29:15 858][Global][Inf]--UpdateDeviceData Hub1-2
+[08:29:15 862][Global][Inf]--±éÀúÃ¿Ò»¸öÖ÷¿Ø!
+[08:29:15 863][Global][Inf]--Host: Controladora de host USB genérico compatible con xHCI
+[08:29:15 863][Global][Inf]---->Roothub:USB#ROOT_HUB30#4&2782102e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+[08:29:15 887][Global][Inf]--ScanUSBDevice 0 worldcup device

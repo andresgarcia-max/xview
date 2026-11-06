@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                        
+--------                                        
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\.git
+
+

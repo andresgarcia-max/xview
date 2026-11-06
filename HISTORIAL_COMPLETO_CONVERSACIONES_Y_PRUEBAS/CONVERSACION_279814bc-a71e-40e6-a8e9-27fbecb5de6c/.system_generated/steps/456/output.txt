@@ -1,0 +1,45 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: 
+    C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     24/10/2026  10:24 a. m.                assets                                                               
+dar--l     23/10/2026  05:19 p. m.                avatars                                                              
+dar--l     24/10/2026  09:39 a. m.                badges                                                               
+dar--l     24/10/2026  09:39 a. m.                gym_media                                                            
+dar--l     24/10/2026  09:39 a. m.                sounds                                                               
+-a---l     24/10/2026  10:24 a. m.          14487 biometric-fingerprint-opt.png                                        
+-a---l     24/10/2026  10:24 a. m.         120941 biometric-fingerprint.png                                            
+-a---l     24/10/2026  10:24 a. m.          48954 biometric-green-fp-opt.png                                           
+-a---l     24/10/2026  10:24 a. m.         250300 biometric-green-fp.png                                               
+-a---l     24/10/2026  10:24 a. m.          91975 biometric-rings-opt.png                                              
+-a---l     24/10/2026  10:24 a. m.         871862 biometric-rings.png                                                  
+-a---l     24/10/2026  10:24 a. m.         841623 biometric-scanner-full.png                                           
+-a---l     24/10/2026  10:24 a. m.          89413 biometric-scanner-opt.png                                            
+-a---l     24/10/2026  09:43 a. m.        8348341 Control_De_Acceso_Web.html                                           
+-a---l     24/10/2026  10:24 a. m.          35079 favicon.ico                                                          
+-a---l     24/10/2026  10:24 a. m.           9522 favicon.svg                                                          
+-a---l     24/10/2026  10:24 a. m.         186225 gym-background-1.jpg                                                 
+-a---l     24/10/2026  10:24 a. m.         297334 gym-background-2.jpg                                                 
+-a---l     24/10/2026  10:24 a. m.        3978592 gym-background-4k.jpg                                                
+-a---l     24/10/2026  10:24 a. m.        3978592 gym-background-club-8k.jpg                                           
+-a---l     24/10/2026  10:24 a. m.        1764592 gym-background-full.jpg                                              
+-a---l     24/10/2026  10:24 a. m.        1024389 gym-background-motto.jpg                                             
+-a---l     24/10/2026  09:15 a. m.        3978592 gym-background.jpg                                                   
+-a---l     24/10/2026  10:24 a. m.         322819 gym-dumbbell-background.jpg                                          
+-a---l     24/10/2026  10:24 a. m.           5055 icons.svg                                                            
+-a---l     24/10/2026  10:24 a. m.            602 index.html                                                           
+-a---l     24/10/2026  10:24 a. m.          68651 logo.png                                                             
+-a---l     24/10/2026  10:24 a. m.         227074 modal-gym-bg.jpg                                                     
+-a---l     24/10/2026  10:24 a. m.         775598 pos-banner.jpg                                                       
+-a---l     24/10/2026  09:43 a. m.        8348341 terminal.html                                                        
+-a---l     24/10/2026  10:24 a. m.         183712 test-rot-plus.jpg                                                    
+-a---l     24/10/2026  10:24 a. m.         184051 test-rot.jpg                                                         
+
+

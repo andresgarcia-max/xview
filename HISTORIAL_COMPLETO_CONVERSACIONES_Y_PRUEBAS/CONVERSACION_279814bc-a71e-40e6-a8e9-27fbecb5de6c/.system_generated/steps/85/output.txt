@@ -1,0 +1,12 @@
+Command exited with code 1.
+
+Command output:
+git : El t�rmino 'git' no se reconoce como nombre de un cmdlet, funci�n, archivo de script o programa ejecutable. 
+Compruebe si escribi� correctamente el nombre o, si incluy� una ruta de acceso, compruebe que dicha ruta es correcta e 
+int�ntelo de nuevo.
+En l�nea: 1 Car�cter: 1
++ git status
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

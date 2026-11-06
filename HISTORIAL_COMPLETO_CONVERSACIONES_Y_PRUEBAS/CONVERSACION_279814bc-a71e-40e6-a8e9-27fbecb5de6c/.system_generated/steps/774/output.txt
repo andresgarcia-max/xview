@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+
+Name                              Length LastWriteTime            
+----                              ------ -------------            
+1. Iniciar Sistema ERP.lnk          2481 28/10/2026 05:47:11 p. m.
+1. INICIAR_ERP_ADMINISTRADOR.bat     821 28/10/2026 05:46:31 p. m.
+2. ABRIR_ERP_WEB_NAVEGADOR.bat       865 28/10/2026 05:46:38 p. m.
+2. Cartera de Clientes Pro.lnk      2163 28/10/2026 05:47:11 p. m.
+3. ACCESO_CARTERA_DE_CLIENTES.bat    527 28/10/2026 05:46:43 p. m.
+3. Punto de Venta POS.lnk           2107 28/10/2026 05:47:11 p. m.
+4. Corte de Caja y Finanzas.lnk     2127 28/10/2026 05:47:11 p. m.
+4. PUNTO_DE_VENTA_POS.bat            663 28/10/2026 05:46:49 p. m.
+5. CORTE_DE_CAJA_Y_FINANZAS.bat      510 28/10/2026 05:46:53 p. m.
+6. SERVIDOR_DE_SINCRONIZACION.bat    693 28/10/2026 05:46:58 p. m.
+7. VINCULAR_CON_TORNIQUETE.bat      1440 28/10/2026 05:47:04 p. m.
+MANUAL_DE_USO_ERP_LEGENDS.md        4904 28/10/2026 05:47:21 p. m.
+
+

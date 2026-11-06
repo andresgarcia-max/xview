@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+Name                        Length LastWriteTime            
+----                        ------ -------------            
+ACCESO_CLIENTES_LEGENDS.exe  39936 24/10/2026 10:17:20 a. m.
+
+

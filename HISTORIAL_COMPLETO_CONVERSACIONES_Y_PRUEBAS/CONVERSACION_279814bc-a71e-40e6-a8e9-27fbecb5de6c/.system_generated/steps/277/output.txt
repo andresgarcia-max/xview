@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+
+CARTERA_CLIENTES_INTERFAZ_PRO.html:754:    // Initial dataset synchronized with Legends ERP
+
+

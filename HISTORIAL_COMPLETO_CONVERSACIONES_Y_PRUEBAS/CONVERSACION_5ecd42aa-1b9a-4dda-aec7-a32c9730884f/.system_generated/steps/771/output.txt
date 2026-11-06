@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+Name                           DeviceID                                                                                
+----                           --------                                                                                
+WorldCup Device                ROOT\UNKNOWN\0000                                                                       
+WorldCup Device                ROOT\UNKNOWN\0001                                                                       
+Android TV Remote              BTHENUM\{CBBFE0E2-F7F3-4206-84E0-84CBB3D09DFC}_VID&000100E0_PID&1200\7&311B6E22&0&9C2...
+Android TV A2DP SNK            BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2...
+WorldCup Device                ROOT\LIBUSB-WIN32_USB_DEVICES\0000                                                      
+Android TV Hands-Free HF Audio BTHHFENUM\BTHHFPAUDIO\8&25CF0917&0&97                                                   
+Android TV Hands-Free HF       BTHENUM\{0000111F-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2...
+Android TV                     BTHENUM\DEV_9C2F4E99A11B\7&311B6E22&0&BLUETOOTHDEVICE_9C2F4E99A11B                      
+Android TV Transporte AVRCP    BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2...
+Android TV Transporte AVRCP    BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&1200\7&311B6E22&0&9C2...
+
+

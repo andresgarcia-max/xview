@@ -1,0 +1,30 @@
+Command exited with code 0.
+
+Command output:
+
+Name                          Length 
+----                          ------ 
+STARTUPLOG                           
+U_C4741EF6BE19_202309041417_1        
+MiddleWareCfgInfo                    
+cfgchglog                            
+CfgChg.log                    19208  
+ztecfg                               
+config.eini                   248    
+update_4301_5.eini            152    
+update_4301_5.eini.back       152    
+arp.info                      0      
+CfgChg_DEC.log                19208  
+ifconfig.info                 1304   
+meminfo.info                  57030  
+ps.info                       466    
+route.info                    0      
+top.info                      741    
+ULog_1.log                    7252177
+ULog_1_DEC.log                7252177
+logconfig.ini                 88     
+logconfig.ini_lock            0      
+startedTimes.ini              24     
+startedTimes.ini_lock         0      
+
+

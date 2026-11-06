@@ -1,0 +1,50 @@
+
+Status Class     FriendlyName                    InstanceId                                   
+------ -----     ------------                    ----------                                   
+OK     Camera    Integrated Webcam               USB\VID_0BDA&PID_5650&MI_00\6&1D5726D5&0&0000
+OK     USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41221040106995        
+OK     USB       Dispositivo compuesto USB       USB\VID_0BDA&PID_5650\200901010001           
+OK     USB       Concentrador raíz USB (USB 3.0) USB\ROOT_HUB30\4&2782102E&0&0                
+OK     Bluetooth Intel(R) Wireless Bluetooth(R)  USB\VID_8087&PID_0A2B\5&2B41B6C5&0&7         
+
+
+[2026-11-05 00:21:05.410] [UI] [1/12] Inyectando Entorno Desbloqueado (env_unlocked.img)...
+[2026-11-05 00:21:05.522] [CMD] fastboot_moderno.exe flash env "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\env_unlocked.img" (Exit=0) -> Sending 'env' (64 KB)                              OKAY [  0.006s]  | Writing 'env'                                      OKAY [  0.000s]  | Finished. Total time: 0.010s
+[2026-11-05 00:21:05.522] [UI] [OK] Particion 'env' escrita correctamente.
+[2026-11-05 00:21:05.599] [UI] [2/12] Inyectando Kernel Android 12 (boot.img)...
+[2026-11-05 00:21:07.196] [CMD] fastboot_moderno.exe flash boot "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\boot.img" (Exit=0) -> Sending 'boot' (16384 KB)                          OKAY [  0.795s]  | Writing 'boot'                                     OKAY [  0.697s]  | Finished. Total time: 1.493s
+[2026-11-05 00:21:07.209] [UI] [OK] Particion 'boot' escrita correctamente.
+[2026-11-05 00:21:07.361] [UI] [3/12] Inyectando Bootloader B866V2 (bootloader.img)...
+[2026-11-05 00:21:07.760] [CMD] fastboot_moderno.exe flash bootloader "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\bootloader.img" (Exit=0) -> Sending 'bootloader' (1814 KB)                     OKAY [  0.086s]  | Writing 'bootloader'                               OKAY [  0.085s]  | Finished. Total time: 0.176s
+[2026-11-05 00:21:07.764] [UI] [OK] Particion 'bootloader' escrita correctamente.
+[2026-11-05 00:21:07.896] [UI] [4/12] Inyectando Device Tree (_aml_dtb / dtb.img)...
+[2026-11-05 00:21:08.137] [CMD] fastboot_moderno.exe flash _aml_dtb "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtb.img" (Exit=0) -> Sending '_aml_dtb' (256 KB)                        OKAY [  0.012s]  | Writing '_aml_dtb'                                 OKAY [  0.015s]  | Finished. Total time: 0.032s
+[2026-11-05 00:21:08.141] [UI] [OK] Particion '_aml_dtb' escrita correctamente.
+[2026-11-05 00:21:08.296] [UI] [5/12] Inyectando DTB Overlay (dtbo.img)...
+[2026-11-05 00:21:09.628] [CMD] fastboot_moderno.exe flash dtbo "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\dtbo.img" (Exit=0) -> Sending 'dtbo' (8192 KB)                           OKAY [  0.396s]  | Writing 'dtbo'                                     OKAY [  0.779s]  | Finished. Total time: 1.180s
+[2026-11-05 00:21:09.632] [UI] [OK] Particion 'dtbo' escrita correctamente.
+[2026-11-05 00:21:09.818] [UI] [6/12] Inyectando Logo de Arranque Liberado (logo.img)...
+[2026-11-05 00:21:10.215] [CMD] fastboot_moderno.exe flash logo "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\logo.img" (Exit=0) -> Sending 'logo' (281 KB)                            OKAY [  0.017s]  | Writing 'logo'                                     OKAY [  0.189s]  | Finished. Total time: 0.212s
+[2026-11-05 00:21:10.217] [UI] [OK] Particion 'logo' escrita correctamente.
+[2026-11-05 00:21:10.324] [UI] [7/12] Inyectando Parametros de Sistema (param.img)...
+[2026-11-05 00:21:12.309] [CMD] fastboot_moderno.exe flash param "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\param.img" (Exit=0) -> Sending 'param' (16384 KB)                         OKAY [  0.798s]  | Writing 'param'                                    OKAY [  1.058s]  | Finished. Total time: 1.860s
+[2026-11-05 00:21:12.314] [UI] [OK] Particion 'param' escrita correctamente.
+[2026-11-05 00:21:12.493] [UI] [8/12] Inyectando Perfil Liberado Viettel_OTT_12 (conf.img)...
+[2026-11-05 00:21:13.027] [CMD] fastboot_moderno.exe flash conf "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\conf.img" (Exit=0) -> Sending 'conf' (4096 KB)                           OKAY [  0.209s]  | Writing 'conf'                                     OKAY [  0.169s]  | Finished. Total time: 0.404s
+[2026-11-05 00:21:13.029] [UI] [OK] Particion 'conf' escrita correctamente.
+[2026-11-05 00:21:13.119] [UI] [9/12] Inyectando Particion OEM Limpia (oem.img)...
+[2026-11-05 00:21:15.004] [CMD] fastboot_moderno.exe flash oem "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\oem.img" (Exit=0) -> Sending 'oem' (16384 KB)                           OKAY [  0.805s]  | Writing 'oem'                                      OKAY [  0.973s]  | Finished. Total time: 1.780s
+[2026-11-05 00:21:15.007] [UI] [OK] Particion 'oem' escrita correctamente.
+[2026-11-05 00:21:15.221] [UI] [10/12] Inyectando AVB Desbloqueado flags=0x03 (vbmeta.img)...
+[2026-11-05 00:21:15.527] [CMD] fastboot_moderno.exe flash vbmeta "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\vbmeta.img" (Exit=0) -> Sending 'vbmeta' (2048 KB)                         OKAY [  0.098s]  | Writing 'vbmeta'                                   OKAY [  0.091s]  | Finished. Total time: 0.193s
+[2026-11-05 00:21:15.531] [UI] [OK] Particion 'vbmeta' escrita correctamente.
+[2026-11-05 00:21:15.707] [UI] [11/12] Inyectando Recovery Desbloqueado (recovery.img)...
+[2026-11-05 00:21:18.140] [CMD] fastboot_moderno.exe flash recovery "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\recovery.img" (Exit=0) -> Sending 'recovery' (24576 KB)                      OKAY [  1.192s]  | Writing 'recovery'                                 OKAY [  1.047s]  | Finished. Total time: 2.247s
+[2026-11-05 00:21:18.147] [UI] [OK] Particion 'recovery' escrita correctamente.
+[2026-11-05 00:21:18.304] [UI] [12/12] Inyectando Cache Reparado EXT4 (cache_ext4.img)...
+[2026-11-05 00:21:26.508] [CMD] fastboot_moderno.exe flash cache "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img" (Exit=0) -> Sending 'cache' (65536 KB)                         OKAY [  3.136s]  | Writing 'cache'                                    OKAY [  4.930s]  | Finished. Total time: 8.076s
+[2026-11-05 00:21:26.516] [UI] [OK] Particion 'cache' escrita correctamente.
+[2026-11-05 00:21:26.684] [UI] [13/13] Inyectando 'super.img' (Sistema Completo DMC.v2.25 Android 12 Liberado - 1.88 GB)...
+[2026-11-05 00:21:26.689] [UI] (Contiene: TVLauncher, TVWall Slimbox, AppDMC, DLStore, HDPlay, ControlDevice, PlayStore)
+[2026-11-05 00:21:26.694] [CMD_INTERACTIVE] fastboot_moderno.exe flash super "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img"
+[2026-11-05 00:21:41.740] [UI] Sending sparse 'super' 1/11 (131068 KB)            OKAY [  6.516s]

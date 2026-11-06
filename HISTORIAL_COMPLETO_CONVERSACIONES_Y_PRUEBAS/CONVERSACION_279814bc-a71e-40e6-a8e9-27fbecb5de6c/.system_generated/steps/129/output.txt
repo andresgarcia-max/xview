@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Extracted scratch_huella.jpg, size: 165191
+Extracted scratch_nuevo.jpg, size: 140204

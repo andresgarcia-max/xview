@@ -1,0 +1,2 @@
+Compiling: "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /nologo /target:winexe /out:"C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe" "/win32icon:C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\build\icon.ico" /reference:System.Windows.Forms.dll "C:\Users\andre\OneDrive\Desktop\gym\temp_launcher.cs"
+✓ Successfully created: C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe

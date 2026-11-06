@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Compiling to: C:\Users\andre\OneDrive\Desktop\gym\accesos directos\CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe
+Copied to: C:\Users\andre\OneDrive\Desktop\gym\CONTROL_DE_ACCESO_FITNESS_LEGENDS.exe
+Copied to: C:\Users\andre\OneDrive\Desktop\gym\accesos directos\ACCESO_CLIENTES_LEGENDS.exe
+Copied to: C:\Users\andre\OneDrive\Desktop\gym\ACCESO_CLIENTES_LEGENDS.exe
+✓ All executables generated successfully.

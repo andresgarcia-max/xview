@@ -1,0 +1,22 @@
+Task: cae5c059-1305-4baf-b23d-650f9838632f/task-266
+Status: DONE
+Log: file:///C:/Users/andre/.gemini/antigravity/brain/cae5c059-1305-4baf-b23d-650f9838632f/.system_generated/tasks/task-266.log
+Log output:
+<truncated 105 lines>
+g : No se puede leer el archivo C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\sounds: Acceso denegado 
+a la ruta de acceso 'C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\sounds'.
+En l�nea: 1 Car�cter: 1
++ Select-String -Path "LEGENDS\src\**\*", "LEGENDS\public\*", "*.html"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-String], ArgumentException
+    + FullyQualifiedErrorId : ProcessingFile,Microsoft.PowerShell.Commands.SelectStringCommand
+ 
+
+LEGENDS\public\Control_De_Acceso_Web.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+LEGENDS\public\terminal.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+ACCESO_WEB_FITNESS_LEGENDS.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+Control_De_Acceso_Web.html:892:                <span className="hidden sm:inline">CAMBIAR FONDO</span>
+
+
+
+Last progress: 1s ago

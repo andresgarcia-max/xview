@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     24/10/2026  10:25 a. m.                gym                                                                  
+d----l     24/10/2026  10:11 a. m.                xview                                                                
+
+

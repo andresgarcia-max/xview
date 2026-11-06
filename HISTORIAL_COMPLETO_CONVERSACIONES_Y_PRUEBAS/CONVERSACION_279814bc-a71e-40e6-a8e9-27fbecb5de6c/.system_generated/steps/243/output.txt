@@ -1,0 +1,1 @@
+Made 1 replacement in c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\auth\LoginScreen.tsx starting at line 24 (+2/-1 lines).

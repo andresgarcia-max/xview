@@ -1,0 +1,41 @@
+Command exited with code 0.
+
+Command output:
+<3>systemcontrol: [ubootenv] read error 0x%x 
+<3>systemcontrol: [ubootenv] CRC Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+otg_device
+Set USB Status Success!
+Failed to set USB config to 
+<3>systemcontrol: [ubootenv] get MTD info error
+<6>systemcontrol: [ubootenv] set property count: %d
+Failed to set usb config to sideload
+<3>systemcontrol: [ubootenv] %s is not a ubootenv varible.
+<3>systemcontrol: [ubootenv] Not enough memory for environment (%u bytes)
+<3>systemcontrol: [ubootenv] don't init done
+<3>systemcontrol: [ubootenv] SYS_LOGE write, size %d 
+<3>systemcontrol: [ubootenv] open devices error: %s
+SetUSBHost 
+<3>systemcontrol: [ubootenv] Get MTD info error
+<3>systemcontrol: [ubootenv] bootenv do not init
+<3>systemcontrol: [ubootenv] Invalid env data key:%s, value:%s
+<3>systemcontrol: [ubootenv] CRC2 Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+<3>systemcontrol: [ubootenv] Read access failed !!!
+Set USB Status Failed!
+<6>systemcontrol: [ubootenv] update value name [%s]: value [%s] 
+<3>systemcontrol: [ubootenv] %s is not a ubootenv variable.
+<3>systemcontrol: [ubootenv] MEMERASE SYS_LOGE %d
+SetUSBDevice 
+ubootenv.var.
+<3>systemcontrol: [ubootenv] Out of memory!!!
+<6>systemcontrol: [ubootenv] using %s with size(%d) (%d)
+<3>systemcontrol: [ubootenv] parse attribute malloc error 
+ubootenv.var.bootcmd
+<5>systemcontrol: [ubootenv] ubootenv.var.%s not found, create it.
+<3>systemcontrol: [ubootenv] open devices error
+<3>systemcontrol: [ubootenv] error need '=' skip this value
+<3>systemcontrol: [ubootenv] Cannot write %s: %d.
+<6>systemcontrol: [ubootenv] Save ubootenv to %s succeed!
+<3>systemcontrol: [ubootenv] read %s failed 
+<3>systemcontrol: [ubootenv] Cannot read %s: %d.
+<3>systemcontrol: [ubootenv] open device(%s) error
+/dev/block/ubootenv

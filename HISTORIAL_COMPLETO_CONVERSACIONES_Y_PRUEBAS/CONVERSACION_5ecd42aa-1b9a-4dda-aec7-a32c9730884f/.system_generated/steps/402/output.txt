@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+update.exe identify time: 69 ms
+Filtered WMI time: 746 ms
+Unfiltered WMI time: 430 ms

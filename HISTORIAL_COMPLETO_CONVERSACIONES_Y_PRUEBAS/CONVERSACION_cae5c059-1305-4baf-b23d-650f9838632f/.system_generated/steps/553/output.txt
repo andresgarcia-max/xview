@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+@echo off
+title FITNESS LEGENDS - Cartera de Clientes & Membresias Pro
+color 0E
+
+echo ======================================================================
+echo    FITNESS LEGENDS GYM - CARTERA DE CLIENTES Y MEMBRESIAS PRO
+echo ======================================================================
+echo.
+echo [*] Abriendo la nueva interfaz en tu navegador predeterminado...
+start "" "%~dp0CARTERA_CLIENTES_INTERFAZ_PRO.html"
+exit

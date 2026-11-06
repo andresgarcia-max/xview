@@ -1,0 +1,41 @@
+Command exited with code 0.
+
+Command output:
+
+Name                                                                                                    Manufacturer   
+----                                                                                                    ------------   
+Controlador de host eXtensible Intel(R) USB 3.0 - 1.0 (Microsoft)                                       Controladora   
+                                                                                                        de host USB    
+                                                                                                        genérico xHCI  
+Mobile Intel(R) Processor Family I/O SMBUS - 9D23                                                       INTEL          
+Controladora de host de Intel(R) Serial IO I2C: 9D62                                                    Intel          
+                                                                                                        Corporation    
+Intel(R) Active Management Technology - SOL (COM3)                                                      Intel          
+Mobile Intel(R) Processor Family I/O Thermal subsystem - 9D31                                           INTEL          
+Mobile 7th/8th Generation Intel(R) Processor Family I/O LPC Controller (U with iHDCP2.2 Premium) - 9D4E INTEL          
+Intel(R) 6th Generation Core Processor Family Platform I/O SATA AHCI Controller                         Intel          
+                                                                                                        Corporation    
+Intel(R) Management Engine Interface #1                                                                 Intel          
+Mobile Intel(R) Processor Family I/O PCI Express Root Port #1 - 9D10                                    INTEL          
+Intel(R) UHD Graphics 620                                                                               Intel          
+                                                                                                        Corporation    
+Controladora de host de Intel(R) Serial IO I2C: 9D61                                                    Intel          
+                                                                                                        Corporation    
+Realtek PCIE CardReader                                                                                 Realtek        
+                                                                                                        Semiconductor  
+                                                                                                        Corp.          
+Mobile Intel(R) Processor Family I/O PCI Express Root Port #3 - 9D12                                    INTEL          
+Intel(R) Ethernet Connection (4) I219-LM                                                                Intel          
+Controladora de host de Intel(R) Serial IO I2C: 9D63                                                    Intel          
+                                                                                                        Corporation    
+Intel(R) Dual Band Wireless-AC 8265                                                                     Intel          
+                                                                                                        Corporation    
+Mobile Intel(R) Processor Family I/O PMC - 9D21                                                         INTEL          
+Intel(R) Host Bridge/DRAM Registers - 5914                                                              INTEL          
+Controladora de host de Intel(R) Serial IO I2C: 9D60                                                    Intel          
+                                                                                                        Corporation    
+Controlador de audio de la tecnología Intel(R) Smart Sound                                              Intel(R)       
+                                                                                                        Corporation    
+Intel(R) Dynamic Tuning Processor Participant                                                           Intel          
+
+

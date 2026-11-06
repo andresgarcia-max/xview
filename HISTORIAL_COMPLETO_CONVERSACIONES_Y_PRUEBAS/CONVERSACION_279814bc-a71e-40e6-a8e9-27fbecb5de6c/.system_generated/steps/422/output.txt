@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\accesos directos
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  10:48 a. m.            734 1. SISTEMA_ERP_ADMINISTRADOR.bat                                     
+-a---l     24/10/2026  10:31 a. m.          41472 ACCESO_CLIENTES_LEGENDS.exe                                          
+
+

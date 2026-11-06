@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+commit 9696c8e90cf60c27c9b821b7d30f4e8ff6b4cbeb
+Author: Cristiansairec94 <cristian@sairec.com>
+Date:   Fri Oct 23 23:07:55 2026 -0600
+
+    feat(ui): establecer nueva imagen 8K con caminadoras y logo oficial como fondo principal del sistema
+
+ public/gym-background-4k.jpg                       | Bin 1790166 -> 3709372 bytes
+ public/gym-background-club-8k.jpg                  | Bin 4416514 -> 3709372 bytes
+ public/gym-background.jpg                          | Bin 812097 -> 3709372 bytes
+ .../legends_gym_caminadoras_8k.jpg                 | Bin 4416514 -> 3709372 bytes
+ src/assets/gym-background-4k.jpg                   | Bin 963759 -> 3709372 bytes
+ src/assets/gym-background-club-8k.jpg              | Bin 4416514 -> 3709372 bytes
+ src/assets/gym-background.jpg                      | Bin 812097 -> 3709372 bytes
+ src/components/access/IndependentTerminalApp.tsx   |   4 ++--
+ src/components/access/TurnstileTerminal.tsx        |   4 ++--
+ 9 files changed, 4 insertions(+), 4 deletions(-)
+

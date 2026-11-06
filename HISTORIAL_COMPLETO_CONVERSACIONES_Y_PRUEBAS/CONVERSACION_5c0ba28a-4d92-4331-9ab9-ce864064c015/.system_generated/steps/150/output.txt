@@ -1,0 +1,68 @@
+Command exited with code 0.
+
+Command output:
+
+======================================================
+1. Compilando TypeScript + Vite (Versión más reciente)...
+======================================================
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 1980 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                    0.60 kB │ gzip:     0.40 kB
+dist/assets/logo-EicIKV0G.png                     68.65 kB
+dist/assets/card-visita-Dv6RuRxl.jpg             134.32 kB
+dist/assets/card-cliente-nuevo-Di25OL0W.jpg      140.20 kB
+dist/assets/card-huella-KqLoqcdy.jpg             165.19 kB
+dist/assets/modal-gym-bg-D4650c6a.jpg            227.07 kB
+dist/assets/gym-background-svx8pCn8.jpg          812.09 kB
+dist/assets/gym-background-motto-BzSRG4ad.jpg  1,024.38 kB
+dist/assets/index-CGZ-nJhR.css                   104.62 kB │ gzip:    15.49 kB
+dist/assets/index-Yqbac3eG.js                  5,327.23 kB │ gzip: 3,468.53 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 31.89s
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 8.3s of this 31.9s build (26%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:css transform (22%, 6.9s, 1 call)
+  - plugin vite:css-post renderChunk (3%, 1.0s, 1 call)
+Additional callback time came from the callbacks below and from callbacks under 1s.
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:asset load (7 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+
+
+======================================================
+2. Generando versión HTML autocontenida actualizada...
+======================================================
+Generating updated single-file HTML with 3 clean options (No black box)...
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\ACCESO_WEB_FITNESS_LEGENDS.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\terminal.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\terminal.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html
+✓ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html
+
+======================================================
+3. Actualizando Ejecutable Nativo en release/...
+======================================================
+   Carpeta release actualizada: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64
+   Ejecutable ERP:              C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\FitnessLegends.exe
+   Ejecutable Terminal:         C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\ControlDeAccesoLegends.exe
+
+======================================================
+4. Generando lanzadores .EXE nativos en la carpeta principal...
+======================================================
+   ✓ Ejecutable creado: C:\Users\andre\OneDrive\Desktop\gym\FITNESS_LEGENDS_SISTEMA_ERP.exe
+   ✓ Ejecutable creado: C:\Users\andre\OneDrive\Desktop\gym\FITNESS_LEGENDS_TERMINAL_ACCESO.exe
+
+¡Proceso de actualización y generación de ejecutables completado con éxito!
+
+ExitCode: 0

@@ -1,0 +1,66 @@
+Command exited with code 0.
+
+Command output:
+=== 1. Inspecting D:\adnl.exe PE & Protocol Strings ===
+identify
+burnsteps
+mread:status=request
+bl2_boot[%s]
+bl1_boot[%s]
+usage: adnl [ -s <specific para> ] <command> <command para>
+  bl1_boot -f <bootloaderPath>             BL1 download and boot bl2.
+  bl2_boot -f <bootloaderPath>             BL2 download and boot TPL.
+mwrite:verify=addsum
+oem mwrite 0x%llx %s %s %s 0x%llx
+mwrite
+fail in queue mwrite
+mread:status=request
+oem mread 0x%llx %s %s %s 0x%llx
+fail in queue mread
+bl1_boot
+bl2_boot
+fail in send mwrite cmd[%s]
+mwrite finish
+mread:status=request
+fail in mread[%s]
+mread finish
+illegle fileoffset 0x%llx for mread
+mread:status=upload
+mread:status=finish
+getvar:identify
+Fail in get identify
+illegle fw mode %d for bl2_boot
+err, bl2_boot can't support bulkin
+add idVendor '1b8e' to GROUP 'plugdev' to udev rules.d
+adnl.cpp
+__Z15fb_queue_mwritePvxPKc
+__Z14fb_queue_mreadib
+__ZL26match_fastboot_with_serialP12usb_ifc_infoPKc
+__ZL13do_aml_mwritePPci
+__ZL12do_aml_mreadPPcib
+__Z14fb_mwrite_dataP9TransportixPKc
+__Z13fb_mread_dataP9Transportib
+__Z11fb_bl2_bootP9Transportij
+__Z11fb_bl1_bootP9Transportij
+
+=== 2. Inspecting vendor_boot.img and boot.img headers (D:\xview 2\v2f\B866FA) ===
+VNDRBOOT
+androidboot.dynamic_partitions=true androidboot.dtbo_idx=0 androidboot.boot_devices=soc/fe08c000.mmc use_uvm=1 buildvari
+ant=user
+
+=== 3. Inspecting odm_ext.img and oem.img strings ===
+tv:model="mbox"
+ro.tv.tvinchannel.atv=TVIN_PORT_CVBS3
+ro.tv.tvinchannel.av1=TVIN_PORT_CVBS1
+ro.tv.tvinchannel.av2=TVIN_PORT_CVBS2
+ro.tv.tvinchannel.hdmi1=TVIN_PORT_HDMI0
+ro.tv.tvinchannel.hdmi2=TVIN_PORT_HDMI1
+ro.tv.tvinchannel.hdmi3=TVIN_PORT_HDMI2
+ro.tv.tvinchannel.hdmi4=TVIN_PORT_HDMI3
+ro.product.name=oppen
+ro.product.brand=Droidlogic
+ro.product.device=oppen
+ro.product.manufacturer=Droidlogic
+ro.product.model=oppen
+oem.buildnumber=eng.luan.y.20210311.113746
+??,?s4??H?[Z?

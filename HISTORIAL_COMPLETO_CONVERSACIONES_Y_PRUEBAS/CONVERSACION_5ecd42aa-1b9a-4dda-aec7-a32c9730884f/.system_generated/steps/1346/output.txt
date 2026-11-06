@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\06_internet_y_repositorios\github_repos\superna9999__pyamlboot\pya...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\06_internet_y_repositorios\github_repos\superna9999__pyamlboot\pya...
+
+

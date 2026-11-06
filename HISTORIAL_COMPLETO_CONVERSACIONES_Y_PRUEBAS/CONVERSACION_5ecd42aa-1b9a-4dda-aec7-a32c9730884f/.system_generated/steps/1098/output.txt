@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+Name       Length LastWriteTime            
+----       ------ -------------            
+adbkey       1736 24/10/2026 11:36:00 a. m.
+adbkey.pub    716 24/10/2026 11:36:00 a. m.
+
+

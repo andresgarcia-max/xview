@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+Hash               Length LastWrite                 Path                                                               
+----               ------ ---------                 ----                                                               
+497B76DF356F457C 25165824 01/11/2026 12:41:23 p. m. C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_...
+9AE79A6F88D0E541 25165824 01/11/2026 01:14:57 p. m. C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_F...
+497B76DF356F457C 25165824 26/12/2023 09:29:20 a. m. C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\recovery.img   
+9AE79A6F88D0E541 25165824 01/11/2026 01:14:57 p. m. C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWA...
+7CB3D56D3200966B 25165824 01/11/2026 12:41:23 p. m. C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v...
+
+

@@ -3027,3 +3027,573 @@
 [23:04:24] [Paso 2][FALLO] U-Boot rechaza desbloqueo y escritura USB (ERROR: device is locked / lock=10001000)
 [23:04:24] [Paso 3][FALLO] Cancelado porque U-Boot (PID_0D02) bloquea la descarga de particiones
 [23:04:24] [Paso 4][FALLO] Reporte guardado en RESUMEN_PROCESO_B866V2.txt (Caja retenida en Fastboot)
+[23:41:30] ==========================================================================
+[23:41:30]  INYECTADOR FASTBOOT B866V2 (MODO 100% EXTERNO - SIN ABRIR LA CAJA)
+[23:41:30] ==========================================================================
+[23:41:30] [Paso 1][EN CURSO] Esperando caja en Fastboot (Con USB KINGSTON en USB 1, mantenga RESET 8s)...
+[23:41:53] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[23:41:53] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[23:41:53]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[23:41:53] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[23:41:57] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[23:41:57] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[23:41:57] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[23:41:58]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[23:41:58] [PASO 2] Ejecutando: fastboot flashing unlock
+[23:41:58]          Respuesta: OKAY [  0.002s] | Finished. Total time: 0.002s
+[23:41:58] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[23:41:58]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[23:41:58] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[23:41:58] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[23:41:58] [Paso 2][FALLO] U-Boot rechaza desbloqueo y escritura USB (ERROR: device is locked / lock=10001000)
+[23:41:58] [Paso 3][FALLO] Cancelado porque U-Boot (PID_0D02) bloquea la descarga de particiones
+[23:41:58] [Paso 4][FALLO] Reporte guardado en RESUMEN_PROCESO_B866V2.txt (Caja retenida en Fastboot)
+[00:09:56] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[00:09:56] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[00:09:56] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[00:09:57] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[00:09:57] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[00:09:57] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[00:09:57]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[00:09:57] [PASO 2] Ejecutando: fastboot flashing unlock
+[00:09:57]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[00:09:57] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[00:09:57]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[00:09:58] [PASO 2] Saltando a Recovery fastbootd (PID_4EE7) via 'fastboot reboot fastboot' para probar desbloqueo de '/dev/block/env' sin abrir la caja...
+[00:10:16] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[00:10:17] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[00:10:17]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[00:10:17] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[00:10:21] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[00:10:21] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[00:10:22] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[00:10:22]          Respuesta: OKAY [  0.003s] | Finished. Total time: 0.004s
+[00:10:22] [PASO 2] Ejecutando: fastboot flashing unlock
+[00:10:22]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.006s
+[00:10:22] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[00:10:22]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[00:10:22] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[00:10:22] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[00:10:23] [Paso 2][FALLO] U-Boot rechaza desbloqueo y escritura USB (ERROR: device is locked / lock=10001000)
+[00:10:23] [Paso 3][FALLO] Cancelado porque U-Boot (PID_0D02) bloquea la descarga de particiones
+[00:10:23] [Paso 4][FALLO] Reporte guardado en RESUMEN_PROCESO_B866V2.txt (Caja retenida en Fastboot)
+[19:55:00] ==========================================================================
+[19:55:00]  INYECTADOR FASTBOOT B866V2 (MODO 100% EXTERNO - SIN ABRIR LA CAJA)
+[19:55:00] ==========================================================================
+[19:55:00] [Paso 1][EN CURSO] Esperando caja en Fastboot (Con USB KINGSTON en USB 1, mantenga RESET 8s)...
+[21:33:47] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[21:33:47] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[21:33:47] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[21:34:17] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[21:34:17] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[21:34:17]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[21:34:17] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[21:34:22] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[21:34:22] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[21:34:22] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[21:34:22]          Respuesta: OKAY [  0.003s] | Finished. Total time: 0.003s
+[21:34:22] [PASO 2] Ejecutando: fastboot flashing unlock
+[21:34:22]          Respuesta: OKAY [  0.006s] | Finished. Total time: 0.006s
+[21:34:23] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[21:34:23]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[21:34:23] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[21:34:23] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[21:34:23] [Paso 2][EN CURSO] U-Boot en lock=10001000. Ahora: 1) Retire la USB KINGSTON, 2) Desconecte corriente 3s, 3) Mantenga RESET al conectar corriente (con cable USB Macho-Macho)
+[21:34:23] [Paso 3][PENDIENTE] En espera de que Paso 2 desbloquee 'env' (lock=10100000) para inyectar las 12 particiones
+[21:34:23] [Paso 4][PENDIENTE] En espera de completar la inyeccion en Paso 3
+[21:34:23] ==========================================================================
+[21:34:23] [ACCION REQUERIDA PARA COMPLETAR PASO 2 (SIN ABRIR LA CAJA)]:
+[21:34:23]   1. RETIRE la memoria USB KINGSTON de la caja (con ella puesta entra a fastbootd en vez de WorldCup).
+[21:34:23]   2. Deje conectado UNICAMENTE el cable USB Macho-a-Macho entre la PC y la caja.
+[21:34:23]   3. Desconecte el cable de corriente de la caja durante 3 segundos.
+[21:34:23]   4. Mantenga presionado el boton RESET y conecte la corriente (mantengalo 6s).
+[21:34:23]   -> Al detectar VID_1B8E (WorldCup), update.exe inyectara env_unlocked.img (lock=10100000) y pasara al Paso 3 automaticamente.
+[21:34:23] ==========================================================================
+[21:36:43] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[21:36:43] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[21:36:43] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[21:36:45] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[21:36:45] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[21:36:46] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[21:37:26] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[21:37:26] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[21:37:26] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[21:37:34] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[21:37:34] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[21:37:34]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[21:37:34] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[21:37:39] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[21:37:39] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[21:37:39] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[21:37:39]          Respuesta: OKAY [  0.002s] | Finished. Total time: 0.002s
+[21:37:39] [PASO 2] Ejecutando: fastboot flashing unlock
+[21:37:39]          Respuesta: OKAY [  0.002s] | Finished. Total time: 0.002s
+[21:37:40] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[21:37:40]          Respuesta: OKAY [  0.009s] | Finished. Total time: 0.009s
+[21:37:40] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[21:37:40] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[21:37:40] [Paso 2][EN CURSO] U-Boot en lock=10001000. Ahora: 1) Retire la USB KINGSTON, 2) Desconecte corriente 3s, 3) Mantenga RESET al conectar corriente (con cable USB Macho-Macho)
+[21:37:40] [Paso 3][PENDIENTE] En espera de que Paso 2 desbloquee 'env' (lock=10100000) para inyectar las 12 particiones
+[21:37:40] [Paso 4][PENDIENTE] En espera de completar la inyeccion en Paso 3
+[21:37:40] ==========================================================================
+[21:37:40] [ACCION REQUERIDA PARA COMPLETAR PASO 2 (SIN ABRIR LA CAJA)]:
+[21:37:40]   1. RETIRE la memoria USB KINGSTON de la caja (con ella puesta entra a fastbootd en vez de WorldCup).
+[21:37:40]   2. Deje conectado UNICAMENTE el cable USB Macho-a-Macho entre la PC y la caja.
+[21:37:40]   3. Desconecte el cable de corriente de la caja durante 3 segundos.
+[21:37:40]   4. Mantenga presionado el boton RESET y conecte la corriente (mantengalo 6s).
+[21:37:40]   -> Al detectar VID_1B8E (WorldCup), update.exe inyectara env_unlocked.img (lock=10100000) y pasara al Paso 3 automaticamente.
+[21:37:40] ==========================================================================
+[22:09:08] [Paso 1][EN CURSO] Caja en Android (PID_4EE1). Inserte USB KINGSTON y mantenga RESET 8s...
+[22:09:17] [Paso 1][EN CURSO] Caja en Android (PID_4EE1). Inserte USB KINGSTON y mantenga RESET 8s...
+[22:10:29] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:10:29] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:10:29]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:10:29] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:10:34] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:10:34] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:10:34] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:10:34]          Respuesta: OKAY [  0.007s] | Finished. Total time: 0.007s
+[22:10:34] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:10:34]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:10:34] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:10:35]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:10:35] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:10:35] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:10:35] [Paso 2][EN CURSO] U-Boot en lock=10001000. Ahora: 1) Retire la USB KINGSTON, 2) Desconecte corriente 3s, 3) Mantenga RESET al conectar corriente (con cable USB Macho-Macho)
+[22:10:35] [Paso 3][PENDIENTE] En espera de que Paso 2 desbloquee 'env' (lock=10100000) para inyectar las 12 particiones
+[22:10:35] [Paso 4][PENDIENTE] En espera de completar la inyeccion en Paso 3
+[22:10:35] ==========================================================================
+[22:10:35] [ACCION REQUERIDA PARA COMPLETAR PASO 2 (SIN ABRIR LA CAJA)]:
+[22:10:35]   1. RETIRE la memoria USB KINGSTON de la caja (con ella puesta entra a fastbootd en vez de WorldCup).
+[22:10:35]   2. Deje conectado UNICAMENTE el cable USB Macho-a-Macho entre la PC y la caja.
+[22:10:35]   3. Desconecte el cable de corriente de la caja durante 3 segundos.
+[22:10:35]   4. Mantenga presionado el boton RESET y conecte la corriente (mantengalo 6s).
+[22:10:35]   -> Al detectar VID_1B8E (WorldCup), update.exe inyectara env_unlocked.img (lock=10100000) y pasara al Paso 3 automaticamente.
+[22:10:35] ==========================================================================
+[22:12:45] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[22:12:45] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[22:12:45] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[22:13:26] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:13:30] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:13:30]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:13:30] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:13:35] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:13:35] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:13:35] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:13:36]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[22:13:36] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:13:36]          Respuesta: OKAY [  0.001s] | Finished. Total time: 0.001s
+[22:13:36] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:13:36]          Respuesta: OKAY [  0.006s] | Finished. Total time: 0.006s
+[22:13:37] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:13:37] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:13:37] [Paso 2][EN CURSO] U-Boot en lock=10001000. Ahora: 1) Retire la USB KINGSTON, 2) Desconecte corriente 3s, 3) Mantenga RESET al conectar corriente (con cable USB Macho-Macho)
+[22:13:37] [Paso 3][PENDIENTE] En espera de que Paso 2 desbloquee 'env' (lock=10100000) para inyectar las 12 particiones
+[22:13:37] [Paso 4][PENDIENTE] En espera de completar la inyeccion en Paso 3
+[22:13:37] ==========================================================================
+[22:13:37] [ACCION REQUERIDA PARA COMPLETAR PASO 2 (SIN ABRIR LA CAJA)]:
+[22:13:37]   1. RETIRE la memoria USB KINGSTON de la caja (con ella puesta entra a fastbootd en vez de WorldCup).
+[22:13:37]   2. Deje conectado UNICAMENTE el cable USB Macho-a-Macho entre la PC y la caja.
+[22:13:37]   3. Desconecte el cable de corriente de la caja durante 3 segundos.
+[22:13:37]   4. Mantenga presionado el boton RESET y conecte la corriente (mantengalo 6s).
+[22:13:37]   -> Al detectar VID_1B8E (WorldCup), update.exe inyectara env_unlocked.img (lock=10100000) y pasara al Paso 3 automaticamente.
+[22:13:37] ==========================================================================
+[22:14:26] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:14:26] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:14:26]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:14:26] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:14:32] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:14:32] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:14:32] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:14:32]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[22:14:32] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:14:32]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[22:14:32] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:14:32]          Respuesta: OKAY [  0.008s] | Finished. Total time: 0.008s
+[22:14:33] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:14:33] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:14:33] [Paso 2][EN CURSO] U-Boot en lock=10001000. Ahora: 1) Retire la USB KINGSTON, 2) Desconecte corriente 3s, 3) Mantenga RESET al conectar corriente (con cable USB Macho-Macho)
+[22:14:33] [Paso 3][PENDIENTE] En espera de que Paso 2 desbloquee 'env' (lock=10100000) para inyectar las 12 particiones
+[22:14:33] [Paso 4][PENDIENTE] En espera de completar la inyeccion en Paso 3
+[22:14:33] ==========================================================================
+[22:14:33] [ACCION REQUERIDA PARA COMPLETAR PASO 2 (SIN ABRIR LA CAJA)]:
+[22:14:33]   1. RETIRE la memoria USB KINGSTON de la caja (con ella puesta entra a fastbootd en vez de WorldCup).
+[22:14:33]   2. Deje conectado UNICAMENTE el cable USB Macho-a-Macho entre la PC y la caja.
+[22:14:33]   3. Desconecte el cable de corriente de la caja durante 3 segundos.
+[22:14:33]   4. Mantenga presionado el boton RESET y conecte la corriente (mantengalo 6s).
+[22:14:33]   -> Al detectar VID_1B8E (WorldCup), update.exe inyectara env_unlocked.img (lock=10100000) y pasara al Paso 3 automaticamente.
+[22:14:33] ==========================================================================
+[22:25:15] ==========================================================================
+[22:25:16]  INYECTADOR FASTBOOT B866V2 (MODO 100% EXTERNO - SIN ABRIR LA CAJA)
+[22:25:16] ==========================================================================
+[22:25:16] [Paso 1][EN CURSO] Esperando caja en Fastboot (Con USB KINGSTON en USB 1, mantenga RESET 8s)...
+[22:26:41] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:26:41] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:26:41]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:26:41] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:26:46] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:26:46] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:26:46] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:26:46]          Respuesta: OKAY [  0.003s] | Finished. Total time: 0.003s
+[22:26:46] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:26:46]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.005s
+[22:26:47] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:26:47]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[22:26:47] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:26:47] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:26:47] [Paso 2][FALLO] U-Boot rechaza escritura por lock=10001000 (unlock_ability=0). requiere habilitar ADB/OEM en Android primero
+[22:26:47] [Paso 3][PENDIENTE] En espera de desbloquear /dev/block/env (lock=10100000) antes de inyectar las 12 particiones
+[22:26:47] [Paso 4][PENDIENTE] Diagnostico detallado guardado en RESUMEN_PROCESO_B866V2.txt
+[22:26:47] ==========================================================================
+[22:26:47] [DIAGNOSTICO EN VIVO DEL PASO 2]:
+[22:26:47]   * Paso 1A (fastbootd PID_4EE7): Rechazo 'flash env' (Download is not allowed on locked devices).
+[22:26:47]   * Paso 2  (U-Boot PID_0D02)   : 'flashing unlock' respondio OKAY, pero 'getvar unlocked' sigue en 'no' porque unlock_ability=0 (lock=10001000).
+[22:26:47]   * Nota importante             : NO desconecte la USB KINGSTON con RESET (eso solo abre el menu azul de Android Recovery y desconecta el USB).
+[22:26:47]   * La caja se mantiene retenida en Fastboot (PID_0D02) o puede pulsar 'Reiniciar a Android'.
+[22:26:47] ==========================================================================
+[22:27:52] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[22:27:52] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[22:27:52] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[22:27:52] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:27:52] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:27:53] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:27:53]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:27:53] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:27:53]          Respuesta: OKAY [  0.003s] | Finished. Total time: 0.004s
+[22:27:53] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:27:53]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[22:27:53] [PASO 2] Saltando a Recovery fastbootd (PID_4EE7) via 'fastboot reboot fastboot' para probar desbloqueo de '/dev/block/env' sin abrir la caja...
+[22:28:12] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:28:12] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:28:12]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:28:13] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:28:18] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:28:18] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:28:18] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:28:18]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:28:18] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:28:18]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:28:18] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:28:18]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:28:18] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:28:19] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:28:19] [Paso 2][FALLO] U-Boot rechaza escritura por lock=10001000 (unlock_ability=0). requiere habilitar ADB/OEM en Android primero
+[22:28:19] [Paso 3][PENDIENTE] En espera de desbloquear /dev/block/env (lock=10100000) antes de inyectar las 12 particiones
+[22:28:19] [Paso 4][PENDIENTE] Diagnostico detallado guardado en RESUMEN_PROCESO_B866V2.txt
+[22:28:19] ==========================================================================
+[22:28:19] [DIAGNOSTICO EN VIVO DEL PASO 2]:
+[22:28:19]   * Paso 1A (fastbootd PID_4EE7): Rechazo 'flash env' (Download is not allowed on locked devices).
+[22:28:19]   * Paso 2  (U-Boot PID_0D02)   : 'flashing unlock' respondio OKAY, pero 'getvar unlocked' sigue en 'no' porque unlock_ability=0 (lock=10001000).
+[22:28:19]   * Nota importante             : NO desconecte la USB KINGSTON con RESET (eso solo abre el menu azul de Android Recovery y desconecta el USB).
+[22:28:19]   * La caja se mantiene retenida en Fastboot (PID_0D02) o puede pulsar 'Reiniciar a Android'.
+[22:28:19] ==========================================================================
+[22:28:32] ==========================================================================
+[22:28:32]  INYECTADOR FASTBOOT B866V2 (MODO 100% EXTERNO - SIN ABRIR LA CAJA)
+[22:28:32] ==========================================================================
+[22:28:32] [Paso 1][EN CURSO] Esperando caja en Fastboot (Con USB KINGSTON en USB 1, mantenga RESET 8s)...
+[22:28:33] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:28:33] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:28:33] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:28:33]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[22:28:33] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:28:33]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[22:28:33] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:28:33]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[22:28:33] [PASO 2] Saltando a Recovery fastbootd (PID_4EE7) via 'fastboot reboot fastboot' para probar desbloqueo de '/dev/block/env' sin abrir la caja...
+[22:28:52] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:28:52] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:28:52]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:28:52] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:28:57] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:28:57] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:28:57] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:28:57]          Respuesta: OKAY [  0.002s] | Finished. Total time: 0.002s
+[22:28:57] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:28:57]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[22:28:57] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:28:58]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:28:58] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:28:58] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:28:58] [Paso 2][FALLO] U-Boot rechaza escritura por lock=10001000 (unlock_ability=0). requiere habilitar ADB/OEM en Android primero
+[22:28:58] [Paso 3][PENDIENTE] En espera de desbloquear /dev/block/env (lock=10100000) antes de inyectar las 12 particiones
+[22:28:58] [Paso 4][PENDIENTE] Diagnostico detallado guardado en RESUMEN_PROCESO_B866V2.txt
+[22:28:58] ==========================================================================
+[22:28:58] [DIAGNOSTICO EN VIVO DEL PASO 2]:
+[22:28:58]   * Paso 1A (fastbootd PID_4EE7): Rechazo 'flash env' (Download is not allowed on locked devices).
+[22:28:58]   * Paso 2  (U-Boot PID_0D02)   : 'flashing unlock' respondio OKAY, pero 'getvar unlocked' sigue en 'no' porque unlock_ability=0 (lock=10001000).
+[22:28:58]   * Nota importante             : NO desconecte la USB KINGSTON con RESET (eso solo abre el menu azul de Android Recovery y desconecta el USB).
+[22:28:58]   * La caja se mantiene retenida en Fastboot (PID_0D02) o puede pulsar 'Reiniciar a Android'.
+[22:28:58] ==========================================================================
+[22:37:17] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[22:37:17] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[22:37:17] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[22:37:18] [Paso 2][PENDIENTE] Pendiente de aplicar lock=10100000 y verificar escritura
+[22:37:18] [Paso 3][PENDIENTE] Pendiente de inyectar particiones del sistema B866V2
+[22:37:18] [Paso 4][PENDIENTE] Pendiente de finalizar proceso y generar reporte
+[22:37:41] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:37:41] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:37:41]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:37:42] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:37:46] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:37:46] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:37:46] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:37:46]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.006s
+[22:37:47] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:37:47]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:37:47] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:37:47]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:37:47] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:37:47] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:37:48] [Paso 2][FALLO] U-Boot rechaza escritura por lock=10001000 (unlock_ability=0). requiere habilitar ADB/OEM en Android primero
+[22:37:48] [Paso 3][PENDIENTE] En espera de desbloquear /dev/block/env (lock=10100000) antes de inyectar las 12 particiones
+[22:37:48] [Paso 4][PENDIENTE] Diagnostico detallado guardado en RESUMEN_PROCESO_B866V2.txt
+[22:37:48] ==========================================================================
+[22:37:48] [DIAGNOSTICO EN VIVO DEL PASO 2]:
+[22:37:48]   * Paso 1A (fastbootd PID_4EE7): Rechazo 'flash env' (Download is not allowed on locked devices).
+[22:37:48]   * Paso 2  (U-Boot PID_0D02)   : 'flashing unlock' respondio OKAY, pero 'getvar unlocked' sigue en 'no' porque unlock_ability=0 (lock=10001000).
+[22:37:48]   * Nota importante             : NO desconecte la USB KINGSTON con RESET (eso solo abre el menu azul de Android Recovery y desconecta el USB).
+[22:37:48]   * La caja se mantiene retenida en Fastboot (PID_0D02) o puede pulsar 'Reiniciar a Android'.
+[22:37:48] ==========================================================================
+[22:49:47] ==========================================================================
+[22:49:47]  INYECTADOR FASTBOOT B866V2 (MODO 100% EXTERNO - SIN ABRIR LA CAJA)
+[22:49:47] ==========================================================================
+[22:49:47] [Paso 1][EN CURSO] Esperando caja en Fastboot (Con USB KINGSTON en USB 1, mantenga RESET 8s)...
+[22:49:48] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:49:48] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:49:48] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:49:48]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[22:49:48] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:49:48]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:49:48] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:49:48]          Respuesta: OKAY [  0.000s] | Finished. Total time: 0.000s
+[22:49:48] [PASO 2] Saltando a Recovery fastbootd (PID_4EE7) via 'fastboot reboot fastboot' para probar desbloqueo de '/dev/block/env' sin abrir la caja...
+[22:50:07] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:50:08] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:50:08]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:50:08] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:50:13] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:50:13] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:50:13] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:50:13]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[22:50:13] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:50:13]          Respuesta: OKAY [  0.003s] | Finished. Total time: 0.003s
+[22:50:13] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:50:13]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:50:13] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:50:13] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:50:14] [Paso 2][FALLO] U-Boot rechaza escritura por lock=10001000 (unlock_ability=0). requiere habilitar ADB/OEM en Android primero
+[22:50:14] [Paso 3][PENDIENTE] En espera de desbloquear /dev/block/env (lock=10100000) antes de inyectar las 12 particiones
+[22:50:14] [Paso 4][PENDIENTE] Diagnostico detallado guardado en RESUMEN_PROCESO_B866V2.txt
+[22:50:14] ==========================================================================
+[22:50:14] [DIAGNOSTICO EN VIVO DEL PASO 2]:
+[22:50:14]   * Paso 1A (fastbootd PID_4EE7): Rechazo 'flash env' (Download is not allowed on locked devices).
+[22:50:14]   * Paso 2  (U-Boot PID_0D02)   : 'flashing unlock' respondio OKAY, pero 'getvar unlocked' sigue en 'no' porque unlock_ability=0 (lock=10001000).
+[22:50:14]   * Nota importante             : NO desconecte la USB KINGSTON con RESET (eso solo abre el menu azul de Android Recovery y desconecta el USB).
+[22:50:14]   * La caja se mantiene retenida en Fastboot (PID_0D02) o puede pulsar 'Reiniciar a Android'.
+[22:50:14] ==========================================================================
+[22:51:10] [ACCION] Enviando 'fastboot reboot' para reiniciar hacia Android...
+[22:51:10] [Paso 1][EN CURSO] Caja reiniciada hacia Android. Esperando nueva entrada a Fastboot...
+[22:51:10] [Paso 1][EXITO] Caja detectada en USB (PID_0D02), pero con sesion USB previa saturada
+[22:51:10] [Paso 2][EN CURSO] Desconecte y reconecte la corriente de la caja (con USB KINGSTON en USB 1 y presionando RESET 8s) para continuar...
+[22:51:10] [AVISO USB] El canal USB de la caja quedo ocupado por la sesion anterior. Desconecte la corriente de la caja 3s y reconectela manteniendo RESET 8s (con la USB KINGSTON puesta).
+[22:51:38] [Paso 1][EN CURSO] Caja en Android (PID_4EE1). Inserte USB KINGSTON y mantenga RESET 8s...
+[22:51:47] [Paso 1][EN CURSO] Caja en Android (PID_4EE1). Inserte USB KINGSTON y mantenga RESET 8s...
+[22:53:09] [Paso 1][EXITO] Detectado fastbootd (PID_4EE7 / Z41220090388172). Verificando desbloqueo de env y particiones...
+[22:53:10] [PASO 1A] Intentando desbloquear '/dev/block/env' desde fastbootd (PID_4EE7)...
+[22:53:10]           Respuesta env (4EE7): Sending 'env' (64 KB)                              FAILED (remote: 'Download is not allowed on locked devices') | fastboot: error: Command failed
+[22:53:10] [PASO 1A] Saltando de fastbootd (PID_4EE7) a U-Boot Fastboot (PID_0D02)...
+[22:53:14] [Paso 1][EXITO] Caja conectada y retenida en U-Boot Fastboot (PID_0D02 / Z41220090388172) con Keep-Alive
+[22:53:15] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:53:15] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:53:15]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[22:53:15] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:53:15]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:53:15] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:53:15]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:53:16] [PASO 2] Aviso: 'getvar unlocked' reporta 'no' (lock=10001000, unlock_ability=0 en U-Boot Sep 05 2023).
+[22:53:16] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:53:16] [Paso 2][FALLO] U-Boot rechaza escritura por lock=10001000 (unlock_ability=0). requiere habilitar ADB/OEM en Android primero
+[22:53:16] [Paso 3][PENDIENTE] En espera de desbloquear /dev/block/env (lock=10100000) antes de inyectar las 12 particiones
+[22:53:16] [Paso 4][PENDIENTE] Diagnostico detallado guardado en RESUMEN_PROCESO_B866V2.txt
+[22:53:16] ==========================================================================
+[22:53:16] [DIAGNOSTICO EN VIVO DEL PASO 2]:
+[22:53:16]   * Paso 1A (fastbootd PID_4EE7): Rechazo 'flash env' (Download is not allowed on locked devices).
+[22:53:16]   * Paso 2  (U-Boot PID_0D02)   : 'flashing unlock' respondio OKAY, pero 'getvar unlocked' sigue en 'no' porque unlock_ability=0 (lock=10001000).
+[22:53:16]   * Nota importante             : NO desconecte la USB KINGSTON con RESET (eso solo abre el menu azul de Android Recovery y desconecta el USB).
+[22:53:16]   * La caja se mantiene retenida en Fastboot (PID_0D02) o puede pulsar 'Reiniciar a Android'.
+[22:53:16] ==========================================================================
+[22:56:56] ==========================================================================
+[22:56:56]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[22:56:56] ==========================================================================
+[22:56:56] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[22:56:57] [Paso 1][EXITO] Caja conectada en U-Boot Fastboot (PID_0D02 / Z41220090388172)
+[22:56:57] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:56:57] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:56:57]          Respuesta: OKAY [  0.003s] | Finished. Total time: 0.003s
+[22:56:57] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:56:57]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:56:57] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:57:29] ==========================================================================
+[22:57:29]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[22:57:29] ==========================================================================
+[22:57:29] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[22:57:30] [Paso 1][EXITO] Caja conectada en U-Boot Fastboot (PID_0D02 / Z41220090388172)
+[22:57:30] [Paso 2][EN CURSO] Consultando estado de U-Boot y ejecutando secuencia de desbloqueo USB...
+[22:57:30] [PASO 2] Ejecutando: fastboot flashing get_unlock_ability
+[22:57:30]          Respuesta: OKAY [  0.005s] | Finished. Total time: 0.005s
+[22:57:30] [PASO 2] Ejecutando: fastboot flashing unlock
+[22:57:30]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:57:30] [PASO 2] Ejecutando: fastboot flashing unlock_critical
+[22:57:30]          Respuesta: OKAY [  0.004s] | Finished. Total time: 0.004s
+[22:57:30] [PASO 2] Verificando escritura en particion '_aml_dtb'...
+[22:57:31] [PASO 2] U-Boot Sep 05 2023 tiene lock=10001000 (unlock_ability=0). Reiniciando automaticamente a Android para continuar por Puente ADB...
+[22:57:31] [Paso 2][EN CURSO] U-Boot con lock=10001000: Reiniciando automaticamente a Android para activar puente ADB...
+[22:58:00] [Paso 1][EXITO] Caja conectada por USB en Android 12 (PID_4EE1 / Z41220090388172)
+[22:58:00] [Paso 2][EN CURSO] En la TV: Ajustes -> Preferencias -> Informacion -> Compilacion (7 veces OK) -> Opciones de programador -> Active 'Depuracion por USB'
+[22:58:00] ==========================================================================
+[22:58:00]  [PASO 2 EN CURSO - COMO ACTIVAR EL PUENTE ADB EN SU TV (SIN ABRIR CAJA)]:
+[22:58:00]   1. La caja ya esta encendida en Android y conectada por USB (PID_4EE1).
+[22:58:00]   2. En su TV, abra Ajustes (tecla Win+I con teclado USB, boton Voz 'Abrir Configuracion' o icono Engranaje).
+[22:58:00]   3. Entre a: Preferencias del dispositivo -> Informacion -> Compilacion (presione OK 7 veces).
+[22:58:00]   4. Regrese un menu atras -> Opciones de programador -> Active 'Depuracion por USB' (y 'Desbloqueo de OEM').
+[22:58:00]   5. Al activarlo, este programa detectara PID_4EE2 automaticamente y completara los Pasos 2, 3 y 4.
+[22:58:00] ==========================================================================
+[23:26:13] [Paso 2][PENDIENTE] Pendiente de desbloquear acceso de escritura (Fastboot o ADB)
+[23:27:41] ==========================================================================
+[23:27:41]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:27:41] ==========================================================================
+[23:27:41] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:33:01] ==========================================================================
+[23:33:01]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:33:01] ==========================================================================
+[23:33:01] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:33:24] ==========================================================================
+[23:33:24]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:33:24] ==========================================================================
+[23:33:24] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:33:25] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:33:25] ==========================================================================
+[23:33:25]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:33:25]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:33:25]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:33:25]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:33:25]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:33:25]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:33:25]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:33:25] ==========================================================================
+[23:34:32] ==========================================================================
+[23:34:32]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:34:32] ==========================================================================
+[23:34:32] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:34:33] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:34:33] ==========================================================================
+[23:34:33]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:34:33]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:34:33]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:34:33]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:34:33]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:34:33]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:34:33]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:34:33] ==========================================================================
+[23:37:01] ==========================================================================
+[23:37:01]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:37:01] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:37:01] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:37:01] ==========================================================================
+[23:37:01]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:37:01]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:37:01]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:37:01]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:37:01]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:37:01]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:37:01]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:37:02] ==========================================================================
+[23:37:29] ==========================================================================
+[23:37:29]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:37:29] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:37:30] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:37:30] ==========================================================================
+[23:37:30]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:37:30]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:37:30]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:37:30]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:37:30]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:37:30]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:37:30]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:37:30] ==========================================================================
+[23:38:30] ==========================================================================
+[23:38:30]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:38:30] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:38:31] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:38:31] ==========================================================================
+[23:38:31]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:38:31]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:38:31]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:38:31]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:38:31]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:38:31]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:38:31]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:38:31] ==========================================================================
+[23:38:31] ==========================================================================
+[23:38:31]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:38:31] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:38:31] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:38:31] ==========================================================================
+[23:38:31]  [POR QUE UNA CAJA XVIEW+ NUEVA NO APARECE EN USB AL CONECTARLA EN ANDROID]:
+[23:38:31]   * De fabrica, las cajas Xview+ traen 'otg_device=0' (puerto USB en modo Host).
+[23:38:31]   * Asegurese de conectar el cable Macho-a-Macho en el puerto 'USB 2' (trasero, junto a MicroSD).
+[23:38:31]   * Para que la nueva caja active su puerto USB hacia la PC (100% sin abrirla), elija 1 opcion:
+[23:38:31]     OPCION A (Directo a Fastboot): Inserte la USB KINGSTON en 'USB 1' (lateral), desconecte corriente, mantenga presionado RESET al conectar corriente por 8s y suelte.
+[23:38:32]     OPCION B (Desde Recovery en TV): En el menu Recovery de la TV seleccione 'Set USB device' -> 'Yes' (activa otg_device=1 permanente).
+[23:38:32]     OPCION C (Desde Android en TV): Active 'Depuracion por USB' en Ajustes -> Opciones de programador (o use el boton 'Conectar ADB IP' por Wi-Fi/Red).
+[23:38:32] ==========================================================================
+[23:39:45] ==========================================================================
+[23:39:45]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:39:45] ==========================================================================
+[23:39:45] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:42:23] ==========================================================================
+[23:42:23]  INYECTADOR B866V2 (MODO 100% EXTERNO - SIN ABRIR NINGUN TORNILLO)
+[23:42:23] ==========================================================================
+[23:42:23] [Paso 1][EN CURSO] Buscando caja Xview+ en USB (Android PID_4EE1 / ADB PID_4EE2 / Fastboot PID_0D02)...
+[23:42:24] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:42:24] ==========================================================================
+[23:42:24]  [CAJA NUEVA EN PANTALLA 'Android Fastboot' (fastbootd) SIN SENAL USB]:
+[23:42:24]   * Causa: Una caja Xview+ nueva trae 'otg_device=0' de fabrica, por lo que
+[23:42:24]     el kernel de fastbootd mantiene apagado el USB hacia la PC hasta activarlo.
+[23:42:24]   * SOLUCION INMEDIATA EN SU TV (toma 5 segundos con el control o teclado):
+[23:42:24]     1. En la pantalla 'Android Fastboot' de la TV, seleccione 'Enter recovery'.
+[23:42:24]     2. En el menu 'Android Recovery', baje hasta 'Set USB device' y pulse OK -> 'Yes'.
+[23:42:24]     3. Eso activa 'otg_device=1' permanentemente en esta caja y la PC la detectara
+[23:42:24]        al instante (tanto en Android como en fastbootd / Fastboot).
+[23:42:24]     (O bien seleccione 'Reboot to bootloader' en la pantalla de fastbootd).
+[23:42:24] ==========================================================================
+[23:49:30] ==========================================================================
+[23:49:30]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:49:30] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:49:31] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:49:31] ==========================================================================
+[23:49:31]  [CAJA NUEVA EN PANTALLA 'Android Fastboot' (fastbootd) SIN SENAL USB]:
+[23:49:31]   * Causa: Una caja Xview+ nueva trae 'otg_device=0' de fabrica, por lo que
+[23:49:31]     el kernel de fastbootd mantiene apagado el USB hacia la PC hasta activarlo.
+[23:49:31]   * SOLUCION INMEDIATA EN SU TV (toma 5 segundos con el control o teclado):
+[23:49:31]     1. En la pantalla 'Android Fastboot' de la TV, seleccione 'Enter recovery'.
+[23:49:31]     2. En el menu 'Android Recovery', baje hasta 'Set USB device' y pulse OK -> 'Yes'.
+[23:49:31]     3. Eso activa 'otg_device=1' permanentemente en esta caja y la PC la detectara
+[23:49:31]        al instante (tanto en Android como en fastbootd / Fastboot).
+[23:49:31]     (O bien seleccione 'Reboot to bootloader' en la pantalla de fastbootd).
+[23:49:31] ==========================================================================
+[23:49:31] ==========================================================================
+[23:49:31]  [REINICIO] Buscando nueva caja Xview+ en el bus USB...
+[23:49:31] [Paso 1][EN CURSO] Buscando nueva caja Xview+ en USB (Puerto USB 2 trasero junto a MicroSD)...
+[23:49:32] [Paso 1][EN CURSO] Esperando deteccion USB (Conecte cable en USB 2 trasero + active Fastboot o Set USB device)...
+[23:49:32] ==========================================================================
+[23:49:32]  [CAJA NUEVA EN PANTALLA 'Android Fastboot' (fastbootd) SIN SENAL USB]:
+[23:49:32]   * Causa: Una caja Xview+ nueva trae 'otg_device=0' de fabrica, por lo que
+[23:49:32]     el kernel de fastbootd mantiene apagado el USB hacia la PC hasta activarlo.
+[23:49:32]   * SOLUCION INMEDIATA EN SU TV (toma 5 segundos con el control o teclado):
+[23:49:32]     1. En la pantalla 'Android Fastboot' de la TV, seleccione 'Enter recovery'.
+[23:49:32]     2. En el menu 'Android Recovery', baje hasta 'Set USB device' y pulse OK -> 'Yes'.
+[23:49:32]     3. Eso activa 'otg_device=1' permanentemente en esta caja y la PC la detectara
+[23:49:32]        al instante (tanto en Android como en fastbootd / Fastboot).
+[23:49:32]     (O bien seleccione 'Reboot to bootloader' en la pantalla de fastbootd).
+[23:49:32] ==========================================================================

@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\components\auth\LoginScreen.tsx:220:
+  LEGENDS\src\components\auth\LoginScreen.tsx:221:          <div className="hidden md:flex items-center gap-2 px-3 
+py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-xs text-emerald-300 font-semibold">
+  LEGENDS\src\components\auth\LoginScreen.tsx:222:            <Shield className="w-3.5 h-3.5 text-emerald-400" />
+> LEGENDS\src\components\auth\LoginScreen.tsx:223:            <span>Blindaje Anti-Multitab & Firma Activos</span>
+  LEGENDS\src\components\auth\LoginScreen.tsx:224:          </div>
+  LEGENDS\src\components\auth\LoginScreen.tsx:225:        </div>
+  LEGENDS\src\components\auth\LoginScreen.tsx:226:      </header>
+  LEGENDS\src\components\auth\LoginScreen.tsx:227:
+  LEGENDS\src\components\auth\LoginScreen.tsx:228:      {/* Main Center Content */}
+  LEGENDS\src\components\auth\LoginScreen.tsx:613:                <div className="flex items-center justify-between">
+  LEGENDS\src\components\auth\LoginScreen.tsx:614:                  <div className="flex items-center gap-2 text-white 
+font-bold">
+  LEGENDS\src\components\auth\LoginScreen.tsx:615:                    <ShieldCheck className="w-4 h-4 
+text-emerald-400" />
+> LEGENDS\src\components\auth\LoginScreen.tsx:616:                    <span>Blindaje de Seguridad Activo</span>
+  LEGENDS\src\components\auth\LoginScreen.tsx:617:                  </div>
+  LEGENDS\src\components\auth\LoginScreen.tsx:618:                  <button
+  LEGENDS\src\components\auth\LoginScreen.tsx:619:                    type="button"
+  LEGENDS\src\components\auth\LoginScreen.tsx:620:                    onClick={() => setShowDemoHints(!showDemoHints)}
+  LEGENDS\src\components\auth\LoginScreen.tsx:621:                    className="text-[10px] text-gym-muted 
+hover:text-white underline flex items-center gap-1"
+
+

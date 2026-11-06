@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Total printable strings >=12 chars: 45340

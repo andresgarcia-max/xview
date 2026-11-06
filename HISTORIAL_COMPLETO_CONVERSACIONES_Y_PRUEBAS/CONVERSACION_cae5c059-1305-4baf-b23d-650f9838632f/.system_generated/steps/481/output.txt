@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                     
+--------                                                                                                     
+C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components\access\IndependentTerminalApp.tsx                 
+C:\Users\andre\OneDrive\Desktop\gym\repositorios\legends-gym\src\components\access\IndependentTerminalApp.tsx
+
+

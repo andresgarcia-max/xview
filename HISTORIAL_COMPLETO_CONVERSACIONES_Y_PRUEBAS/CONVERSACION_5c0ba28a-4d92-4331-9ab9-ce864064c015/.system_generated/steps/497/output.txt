@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+Verifying ERP direct startup...
+[RENDERER CONSOLE 2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged. (node:electron/js2c/sandbox_bundle:2)
+Page text: LEYENDS FITNESS GYM  Sistema ERP & Control en Vivo  11:54:28 a.m. En l�nea 2  Roberto Garza Vega  Administrador  Cerrar Sesi�n M�"DULOS DEL SISTEMA Dashboard / Inicio Control de Acceso BiomǸtrico Punto de Venta Clientes / Membres�as Catǭlogo de Productos Inventario & Stock 2 bajos Registro de Ingresos Abonos Registro de Gastos Control Corte de Caja & Turno ADMINISTRACI�"N Configuraci�n Catǭlogos de 
+Captured screen: 1899x914

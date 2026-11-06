@@ -1,0 +1,14 @@
+Command exited with code 1.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\AppData\Local\Programs
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----     23/10/2026  04:21 p. m.                antigravity                                                          
+d-----     24/10/2026  09:13 a. m.                Git                                                                  
+
+

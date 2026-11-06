@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\services\syncService.ts:93:export const CLOUD_SERVER_URL = 'https://legends-gym-gold.vercel.app';
+LEGENDS\src\services\syncService.ts:94:export const LOCAL_SERVER_URL = 'http://localhost:3001';
+LEGENDS\src\services\syncService.ts:124:      return `http://${host}:3001`;
+LEGENDS\src\services\syncService.ts:131:  return CLOUD_SERVER_URL;
+LEGENDS\src\services\syncService.ts:145:    targets.add(CLOUD_SERVER_URL);
+LEGENDS\src\services\syncService.ts:147:    targets.add(LOCAL_SERVER_URL);
+LEGENDS\src\services\syncService.ts:148:    targets.add(CLOUD_SERVER_URL);
+LEGENDS\src\services\syncService.ts:170:        const res = await fetch(`${base}/api/sync/status`, {
+LEGENDS\src\services\syncService.ts:206: * Fetch and merge members from all active sync servers (Local + Cloud)
+LEGENDS\src\services\syncService.ts:208:export async function fetchMembersFromServer(
+
+

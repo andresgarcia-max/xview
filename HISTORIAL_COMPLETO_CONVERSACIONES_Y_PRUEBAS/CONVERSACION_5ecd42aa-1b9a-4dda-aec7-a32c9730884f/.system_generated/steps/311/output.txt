@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+List of devices attached
+
+Name   Status DeviceID                             
+----   ------ --------                             
+Xview+ OK     USB\VID_18D1&PID_4EE1\Z41220090388172
+
+

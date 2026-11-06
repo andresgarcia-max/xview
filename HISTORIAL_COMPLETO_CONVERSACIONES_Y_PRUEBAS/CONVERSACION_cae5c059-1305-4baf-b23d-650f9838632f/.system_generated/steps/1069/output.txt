@@ -1,0 +1,38 @@
+Command exited with code 0.
+
+Command output:
+        isOpen={isSyncModalOpen}
+        onClose={() => setIsSyncModalOpen(false)}
+      />
+
+      {/* Global Supervisor PIN Authorization Modal for Critical Operations */}
+      <SupervisorPinModal />
+
+    </div>
+  );
+};
+
+const AppContent: React.FC = () => {
+  const { isAuthenticated } = useGym();
+  const [terminalMode] = useState<boolean>(() => isTerminalMode());
+
+  // Independent Turnstile terminal mode for separate computer
+  if (terminalMode) {
+    return <IndependentTerminalApp />;
+  }
+
+  if (!isAuthenticated) {
+    return <LoginScreen />;
+  }
+
+  return <MainLayout />;
+};
+
+export default function App() {
+  return (
+    <GymProvider>
+      <AppContent />
+    </GymProvider>
+  );
+}
+

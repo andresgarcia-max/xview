@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     24/10/2026  09:40 a. m.            432 ABRIR_CARTERA_CLIENTES_PRO.bat                                       
+-a---l     20/10/2026  09:41 a. m.            668 ABRIR_CONTROL_DE_ACCESO_WEB.bat                                      
+-a---l     19/10/2026  08:44 a. m.            642 ABRIR_VERSION_WEB.bat                                                
+-a---l     24/10/2026  09:43 a. m.            150 EJECUTAR_FITNESS_LEGENDS.bat                                         
+-a---l     24/10/2026  09:43 a. m.            172 EJECUTAR_TERMINAL_ACCESO.bat                                         
+-a---l     20/10/2026  08:20 a. m.            480 GYM_FUNCIONAL_WEB.bat                                                
+-a---l     20/10/2026  08:42 a. m.            410 PUNTO_DE_VENTA_GYM.bat                                               
+
+

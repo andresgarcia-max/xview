@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\scripts
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     20/10/2026  09:46 a. m.            878 build-portal.cjs                                                     
+-a---l     24/10/2026  09:31 a. m.         100034 build-single-html.cjs                                                
+-a---l     22/10/2026  08:50 a. m.           4904 complete_biometric.cjs                                               
+-a---l     24/10/2026  09:15 a. m.           2384 ImageUpscaler.cs                                                     
+-a---l     24/10/2026  09:15 a. m.           5632 ImageUpscaler.exe                                                    
+-a---l     24/10/2026  09:15 a. m.           3305 ImageUpscaler8K.cs                                                   
+-a---l     24/10/2026  09:15 a. m.           6144 ImageUpscaler8K.exe                                                  
+-a---l     24/10/2026  09:15 a. m.           2451 LanzadorBiometrico.cs                                                
+-a---l     24/10/2026  09:15 a. m.          12249 LanzadorWeb.cs                                                       
+-a---l     16/10/2026  03:32 p. m.            923 makeBase64.cjs                                                       
+-a---l     23/10/2026  05:31 p. m.           7592 package-app.cjs                                                      
+-a---l     19/10/2026  08:38 a. m.           2409 process-gym-bg.cjs                                                   
+-a---l     22/10/2026  09:17 a. m.           2553 process_green_fingerprint.cjs                                        
+-a---l     24/10/2026  09:15 a. m.            606 sync-dist.cjs                                                        
+-a---l     24/10/2026  09:15 a. m.           4142 ZoomGymBackground.cs                                                 
+-a---l     24/10/2026  09:15 a. m.           6144 ZoomGymBackground.exe                                                
+
+

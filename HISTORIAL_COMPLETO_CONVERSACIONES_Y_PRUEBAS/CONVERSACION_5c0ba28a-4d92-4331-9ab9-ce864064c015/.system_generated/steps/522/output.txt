@@ -1,0 +1,95 @@
+Command exited with code 0.
+
+Command output:
+
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:1:import cardClienteNuevo from 
+'../../assets/card-cliente-nuevo.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:2:import cardVisita from '../../assets/card-visita.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:3:import cardHuella from '../../assets/card-huella.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:886:        <div className="grid grid-cols-1 md:grid-cols-3 
+gap-5 lg:gap-6 w-full max-w-5xl mx-auto">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:887:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:888:          {/* Opci�n 1: CLIENTE NUEVO */}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:889:          <div 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:890:            onClick={() => setShowNewMemberModal(true)}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:892:          >
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:893:            <img 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:894:              src={cardClienteNuevo} 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:895:              alt="Cliente Nuevo Gym" 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:896:              className="absolute inset-0 w-full h-full 
+object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 
+group-hover:brightness-105"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:897:            />
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:906:            <div className="relative z-10 p-3.5 
+rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 group-hover:border-amber-400/40 transition-colors">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:907:              <h3 className="text-xl sm:text-2xl 
+font-black text-white uppercase tracking-wider group-hover:text-amber-300 transition-colors 
+drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:908:                Cliente Nuevo
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:909:              </h3>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:910:              
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:911:              <div className="mt-2.5 pt-2 border-t 
+border-white/15 flex items-center justify-between">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:912:                <span className="text-xs font-bold 
+text-amber-400 group-hover:text-amber-300 flex items-center gap-1">
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:913:                  Registrarme &rarr;
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:914:                </span>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:915:                <span className="w-8 h-8 rounded-full 
+bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white flex items-center 
+justify-center font-black text-lg shadow-lg group-hover:scale-110 transition-transform">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:997:      </div>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:998:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:999:      {/* MODAL 1: REGISTRO CLIENTE NUEVO */}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1000:      {showNewMemberModal && (
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1001:        <div className="fixed inset-0 z-50 
+bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1022:                  <div className="flex items-center 
+gap-2">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1023:                    <h3 className="text-lg sm:text-xl 
+font-black text-white uppercase tracking-wider">
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:1024:                      Registro de Cliente Nuevo
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1025:                    </h3>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1026:                    <span className="text-[10px] 
+uppercase font-black px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/40">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1433:                    <span className="w-2 h-2 
+rounded-full bg-cyan-400 animate-pulse" />
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1434:                    <span className="text-xs 
+font-black text-cyan-300 uppercase tracking-wider">
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:1435:                      SENSOR LISTO  TOCA EL ESC�NER O 
+PULSA REGISTRARME
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1436:                    </span>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1437:                  </div>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1476:            </div>
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1477:
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:1478:            {/* Primary Action Button: REGISTRARME */}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1479:            <div className="pt-2">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:1480:              <button
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:324:    // Call GymContext addMember
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:325:    const newClient = addMember({
+> LEGENDS\src\components\access\SmartFitKiosk.tsx:326:      fullName: formData.fullName.trim() || (isVisitOnly ? 
+'Visita del D�a' : 'Nuevo Atleta'),
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:327:      email: formData.email.trim() || 
+`atleta-${docId}@leyendsgym.com`,
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:328:      phone: formData.phone.trim() || '+52 55 0000 0000',
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:553:              </div>
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:554:
+> LEGENDS\src\components\access\SmartFitKiosk.tsx:555:              {/* CARD 2: SOY NUEVO  INSCRIBIRME (Planes) */}
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:556:              <div
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:557:                onClick={() => {
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:575:
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:576:                  <h3 className="text-2xl font-black uppercase 
+text-white group-hover:text-amber-300 transition-colors drop-shadow">
+> LEGENDS\src\components\access\SmartFitKiosk.tsx:577:                    Soy Nuevo  Inscribirme
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:578:                  </h3>
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:579:                  <p className="text-xs sm:text-sm text-gray-200 
+font-medium mt-2 leading-relaxed">
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:583:
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:584:                <div className="mt-6 pt-4 border-t 
+border-amber-400/30 flex items-center justify-between text-amber-300 font-black text-sm group-hover:translate-x-1 
+transition-transform">
+> LEGENDS\src\components\access\SmartFitKiosk.tsx:585:                  <span>Ver Planes y Registrarme</span>
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:586:                  <ArrowRight className="w-5 h-5 text-amber-400" 
+/>
+  LEGENDS\src\components\access\SmartFitKiosk.tsx:587:                </div>
+
+

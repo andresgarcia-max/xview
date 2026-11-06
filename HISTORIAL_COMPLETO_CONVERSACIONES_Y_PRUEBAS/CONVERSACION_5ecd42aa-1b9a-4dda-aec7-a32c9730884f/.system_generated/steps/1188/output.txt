@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+=== COMPARACION SHA256: 5_FIRMWARE_SEGURO_B866V2 vs normal\B866V2 ===
+
+File                   Size Hash_5_FW        Hash_Normal         Match
+----                   ---- ---------        -----------         -----
+boot.img           16777216 80EA01A3CD790586 80EA01A3CD790586     True
+bootloader.img      1857536 5E2D75B503898C22 5E2D75B503898C22     True
+cache_ext4.img     67108864 2CA0C2D59413C92F NO_EXISTE_EN_NORMAL False
+conf.img            4194304 62F3DBF4D1402D03 62F3DBF4D1402D03     True
+dtb.img              262144 DA5D342D327DEA07 DA5D342D327DEA07     True
+dtbo.img            8388608 446040AA48DB036F 446040AA48DB036F     True
+env_unlocked.img      65536 24C011131C52967F NO_EXISTE_EN_NORMAL False
+logo.img             287800 2F6F6636F2E64AEC 2F6F6636F2E64AEC     True
+misc_clean.img         4096 AD7FACB2586FC6E9 NO_EXISTE_EN_NORMAL False
+oem.img            16777216 080ACF35A507AC98 080ACF35A507AC98     True
+param.img          16777216 048594B9FB17D123 048594B9FB17D123     True
+recovery.img       25165824 9AE79A6F88D0E541 497B76DF356F457C    False
+super.img        1887436800 DEC2929D81CBFEFB DEC2929D81CBFEFB     True
+vbmeta.img          2097152 D5DF0D60A74AF48E NO_EXISTE_EN_NORMAL False
+
+
+=== CONTENIDO DE env_unlocked.img ===
+baudrate=115200
+board=franklin
+soc=g12a
+arch=arm
+cpu=armv8
+bootdelay=3
+boot_part=boot
+recovery_part=recovery
+loadaddr=0x1080000
+dtb_mem_addr=0x1000000
+fdt_high=0x20000000
+initrd_high=0x7f800000
+lock=10100000
+unlock_ability=1
+lock_State=unlocked
+otg_device=1
+EnableSelinux=permissive
+hdmimode=1080p60hz
+outputmode=1080p60hz
+colorattribute=444,8bit
+cvbsmode=480cvbs
+dolby_status=0
+hdr_policy=0
+frac_rate_policy=1
+fb_width=1920
+fb_height=1080
+display_bpp=32
+display_color_index=32
+display_layer=osd0
+active_slot=normal
+ab_suffix=
+has_boot_slot=0
+dynamic_partition=true
+initargs=rootfstype=ramfs init=/init console=ttyS0,115200 no_console_suspend earlycon=aml-uart,0xff803000 ramoops.pstore_en=1 ramoops.record_size=0x8000 ramoops.console_size=0x4000 otg_device=1 androidboot.selinux=permissive
+storeboot=imgread kernel boot ${loadaddr}; bootm ${loadaddr};
+update=run usb_burning; run sdc_burning
+usb_burning=update 1000
+sdc_burning=sdc_burn ${sdcburncfg}
+bootcmd=run storeboot

@@ -1,0 +1,93 @@
+Command exited with code 0.
+
+Command output:
+          </div>
+        </div>
+      )}
+
+      {/* MODAL 2: PASE DE VISITA / CLASE PRUEBA */}
+      {showVisitModal && (
+        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-emerald-500/50 rounded-3xl max-w-md w-full p-6 shadow-2xl shadow-emerald-500/15 animate-in zoom-in-95 duration-200 overflow-hidden">
+            <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+              <img 
+                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+                className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent shadow-[0_0_15px_#10b981] pointer-events-none" />
+            </div>
+            <div className="relative z-10 flex items-center justify-between border-b border-white/15 pb-4 mb-4">
+              <div className="flex items-center gap-2.5">
+                <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center"><Dumbbell className="w-5 h-5 text-emerald-400" /></div>
+                <div>
+                  <h3 className="text-lg font-black text-white uppercase tracking-wider">
+                    Pase de Visita por 1 Día
+                  </h3>
+                  <p className="text-xs text-gray-300">Ingreso rápido para entrenamiento diario</p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setShowVisitModal(false)}
+                className="p-1.5 rounded-xl hover:bg-white/10 text-gray-400 hover:text-white transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <div className="relative z-10 space-y-4">
+
+              <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-between">
+                <div>
+                  <p className="text-xs font-bold text-gray-300">Tarifa de Visita Diaria:</p>
+                  <p className="text-2xl font-black text-emerald-400 font-mono">{'$' + visitCost}</p>
+                </div>
+                <span className="text-[11px] px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-bold border border-emerald-500/30">
+                  Paso Inmediato
+                </span>
+              </div>
+
+              <div className="pt-2 flex gap-3">
+                <button
+                  type="button"
+                  onClick={() => setShowVisitModal(false)}
+                  className="flex-1 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-xs font-bold text-gray-300"
+                >
+                  Cancelar
+                </button>
+                <button
+                  type="button"
+                  onClick={handleRegisterVisit}
+                  className="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-xs font-black text-white shadow-glow-green uppercase tracking-wider"
+                >
+                  🔓 Conceder Acceso
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL 3: YA TENGO MEMBRESÍA (ACCESO DIRECTO) */}
+      {showDirectAccessModal && (
+        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-lg w-full p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 overflow-hidden">
+            <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+              <img 
+                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+                className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent shadow-[0_0_15px_#f59e0b] pointer-events-none" />
+            </div>
+            <div className="relative z-10 flex items-center justify-between border-b border-white/15 pb-4 mb-4">
+              <div className="flex items-center gap-2.5">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-400/60 flex items-center justify-center"><Fingerprint className="w-5 h-5 text-amber-400" /></div>
+                <div>
+                  <h3 className="text-lg font-black text-white uppercase tracking-wider">
+                    Validación de Socio Activo
+                  </h3>
+                  <p className="text-xs text-gray-300">Posa tu huella o ingresa tu cédula / ID</p>
+                </div>
+              </div>
+              <button 

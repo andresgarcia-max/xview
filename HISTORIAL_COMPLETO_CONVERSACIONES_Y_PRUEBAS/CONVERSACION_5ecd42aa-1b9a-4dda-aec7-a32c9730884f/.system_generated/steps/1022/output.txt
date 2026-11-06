@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+
+Status Class     FriendlyName                    InstanceId                                   
+------ -----     ------------                    ----------                                   
+OK     Camera    Integrated Webcam               USB\VID_0BDA&PID_5650&MI_00\6&1D5726D5&0&0000
+OK     USB       Dispositivo compuesto USB       USB\VID_0BDA&PID_5650\200901010001           
+OK     USBDevice Android ADB Interface           USB\VID_18D1&PID_0D02\Z41220110063684        
+OK     USB       Concentrador raíz USB (USB 3.0) USB\ROOT_HUB30\4&2782102E&0&0                
+OK     Bluetooth Intel(R) Wireless Bluetooth(R)  USB\VID_8087&PID_0A2B\5&2B41B6C5&0&7         
+
+
+List of devices attached
+
+Z41220110063684        fastboot
+
+FullName                                                          Length
+--------                                                          ------
+C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\super.img 1887436800
+
+

@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+
+Status Name                           DeviceID                                     
+------ ----                           --------                                     
+OK     Integrated Webcam              USB\VID_0BDA&PID_5650&MI_00\6&1D5726D5&0&0000
+OK     Dispositivo compuesto USB      USB\VID_0BDA&PID_5650\200901010001           
+OK     Intel(R) Wireless Bluetooth(R) USB\VID_8087&PID_0A2B\5&2B41B6C5&0&7         
+
+

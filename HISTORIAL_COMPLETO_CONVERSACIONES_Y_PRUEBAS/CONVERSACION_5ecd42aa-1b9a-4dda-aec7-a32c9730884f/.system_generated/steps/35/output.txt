@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+C:\Users\andre\OneDrive\Desktop\xview\experimento\03_configuraciones_etc\product_etc\permissions\priv_app_droidtvsettings.xml
+C:\Users\andre\OneDrive\Desktop\xview\experimento\14_DESCOMPILACION_REA_CONTROLDEVICE_Y_APPUPGRADE\ControlDevice\jadx_src\sources\com\android\tv\twopanelsettings\slices\TvSettingsStatsLog.java

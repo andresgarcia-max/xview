@@ -1,0 +1,43 @@
+Command exited with code 0.
+
+Command output:
+Se ha restaurado con total fidelidad la **imagen de fondo original de Legends Gym** en la terminal de acceso y torniquetes, resolviendo la causa raíz del fallo y corrigiendo los caracteres especiales en las tarjetas de acceso.
+
+---
+
+### 1. Causa del problema
+* **Ruta obsoleta en `localStorage`**: La terminal guardaba en la memoria del navegador/Electron la ruta física de compilaciones anteriores (`legends_terminal_bg`). Al recompilarse Vite con un nuevo hash de archivo, la terminal seguía intentando cargar la URL antigua inexistente, mostrando el icono de imagen rota con el texto `alt="Fitness Legends Gym Background"`.
+* **Ausencia de mecanismo de recuperación**: Si la imagen fallaba al cargar, no existía un manejador `onError` de respaldo automático hacia las carpetas públicas ni hacia los activos empaquetados.
+* **Corrupción de caracteres UTF-8**: En las tarjetas se visualizaban errores de codificación (`?? INSCRIPCIÃ³N`, `??? PASE DEL DÃA`, `YA TENGO MEMBRESÃA`).
+
+---
+
+### 2. Cambios y mejoras implementadas
+
+1. **Restauración de la foto original de Legends Gym**:
+   * Se restauró la fotografía real 8K del gimnasio con el letrero iluminado en neón **"LEYENDS GYM - CLUB FITNESS"** y la fila de caminadoras modernas, centrada a `center 35%` en perfecta armonía con el reflector ámbar y los degradados de contraste.
+   * Archivo de imagen verificado: [`gym-background.jpg`](file:///c:/Users/andre/OneDrive/Desktop/gym/LEGENDS/src/assets/gym-background.jpg).
+
+2. **Mecanismo de respaldo multicanal (*Failover* a prueba de fallos)**:
+   * **Nivel 1**: Carga directa del bundle optimizado por Vite.
+   * **Nivel 2**: Respaldo automático mediante `onError` hacia `./gym-background.jpg` en la raíz de distribución.
+   * **Nivel 3**: Respaldo hacia `./assets/gym-background.jpg`.
+   * **Limpieza de caché**: Se incrementó la clave de versión a `v12_bulletproof_original_bg`, la cual purga cualquier URL rota previa en el almacenamiento local y garantiza que inicie de forma predeterminada con la pared neón original. El selector guarda únicamente el índice numérico seguro (`0`, `1`, `2`), nunca rutas efímeras.
+
+3. **Corrección de iconos y tipografía en las tarjetas**:
+   * **Tarjeta 1**: Badge con icono `<UserPlus />` + texto limpio **`Inscripción`** y título **`Cliente Nuevo`**.
+   * **Tarjeta 2**: Badge con icono `<Ticket />` + texto limpio **`Pase del Día`** y título **`Quiero Visita`**.
+   * **Tarjeta 3**: Badge con icono `<Zap />` + texto limpio **`Acceso Directo`**, título **`Ya Tengo Membresía`** y botón con icono biométrico `<Fingerprint />` en lugar de los signos `??`.
+
+4. **Compilación y sincronización total**:
+   * Se verificaron los tipos TypeScript con 0 errores ([`IndependentTerminalApp.tsx`](file:///c:/Users/andre/OneDrive/Desktop/gym/LEGENDS/src/components/access/IndependentTerminalApp.tsx) y [`TurnstileTerminal.tsx`](file:///c:/Users/andre/OneDrive/Desktop/gym/LEGENDS/src/components/access/TurnstileTerminal.tsx)).
+   * Se ejecutó la compilación de producción en Vite (`LEGENDS/dist`).
+   * Se sincronizaron todos los archivos y recursos en la aplicación de escritorio Electron: [`LEGENDS/release/FITNESS_LEGENDS_TERMINAL-win32-x64`](file:///c:/Users/andre/OneDrive/Desktop/gym/LEGENDS/release/FITNESS_LEGENDS_TERMINAL-win32-x64).
+
+---
+
+### 3. Cómo abrirlo y comprobarlo
+
+Puedes abrir la terminal con cualquiera de los accesos directos del proyecto:
+* **Aplicación de Escritorio**: Ejecuta [EJECUTAR_TERMINAL_ACCESO.bat](file:///c:/Users/andre/OneDrive/Desktop/gym/EJECUTAR_TERMINAL_ACCESO.bat).
+* **Versión Web**: Ejecuta [ABRIR_CONTROL_DE_ACCESO_WEB.bat](file:///c:/Users/andre/OneDrive/Desktop/gym/ABRIR_CONTROL_DE_ACCESO_WEB.bat).

@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+ProcessId ParentProcessId CommandLine                                                                                  
+--------- --------------- -----------                                                                                  
+    21340            4888 "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\PROGRAMA_PERFECTO_XVIEW_B866V2.exe" 
+
+

@@ -1,0 +1,148 @@
+Command exited with code 0.
+
+Command output:
+=== Tools cek slot .bat (UTF8 skip BOM) ===
+
+@echo off
+mode con lines=33 cols=80
+chcp 65001>nul
+color F
+cls
+title MULTI TOOL MyRepublic DV9135
+:main
+echo.
+echo		    ██████╗ ██╗   ██╗██████╗     ██████╗  ██████╗ ███╗   ███╗
+echo		    ██╔══██╗╚██╗ ██╔╝██╔══██╗    ██╔══██╗██╔═══██╗████╗ ████║
+echo		    ██║  ██║ ╚████╔╝ ██████╔╝    ██████╔╝██║   ██║██╔████╔██║
+echo		    ██║  ██║  ╚██╔╝  ██╔══██╗    ██╔══██╗██║   ██║██║╚██╔╝██║
+echo		    ██████╔╝   ██║   ██║  ██║    ██║  ██║╚██████╔╝██║ ╚═╝ ██║
+echo		    ╚═════╝    ╚═╝   ╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝
+echo.
+echo ################################################################################
+echo #                    Android TV Box MyRepublic DV9135 OS-11                    #
+echo #             Hailstorm Version : 4.1.3 Firmware Version : 11.2.29             #
+echo #           Kernel Version : 5.4.125-android11-2-gff0346233560-dirty           #
+echo #              OS Version : RTTO.210829.002.20221118 release-keys              #
+echo ################################################################################
+echo.
+echo SILAHKAN PILIH MENU DIBAWAH
+echo.
+echo   1 - Scan Device
+echo   2 - Reboot Bootloader
+echo   3 - Reboot Fastboot
+echo   4 - Cek Status Bootloader/Fastboot
+echo   5 - Unlock Bootloader
+echo   6 - Erase Data/Cache
+echo   7 - Flashing
+echo   8 - Reboot system
+echo   9 - exit
+echo.
+set /p main=Silahkan Pilih Nomor Diatas :
+if %main% == 1 goto Scan Device
+if %main% == 2 goto Bootloader
+if %main% == 3 goto Fastboot
+if %main% == 4 goto Status Bootloader/Fastboot
+if %main% == 5 goto Unlock Bootloader
+if %main% == 6 goto Erase Data/Cache
+if %main% == 7 goto Flashing
+if %main% == 8 goto System
+if %main% == 9 goto exit
+echo Silahkan Pilih Menu Yang Benar...
+timeout 2 >nul
+cls
+goto main
+:Scan Device
+fastboot devices
+echo.
+pause
+cls
+goto main
+:Bootloader
+start bootloader.bat
+echo.
+cls
+goto main
+:Fastboot
+start fastboot.bat
+echo.
+cls
+goto main
+:Status Bootloader/Fastboot
+fastboot getvar all
+echo.
+pause
+cls
+goto main
+:Unlock Bootloader
+fastboot flashing unlock
+echo.
+fastboot flashing unlock_critical
+echo.
+pause
+cls
+goto main
+:Erase Data/Cache
+fastboot -w
+echo.
+pause
+cls
+goto main
+:Flashing
+fastboot delete-logical-partition system_a-cow
+echo.
+fastboot delete-logical-partition system_b-cow
+echo.
+fastboot flash boot boot.img
+echo.
+fastboot flash bootloader bootloader.img
+echo.
+fastboot flash dtbo dtbo.img
+echo.
+fastboot flash logo logo.img
+echo.
+fastboot flash odm odm.img
+echo.
+fastboot flash odm_ext odm_ext.img
+echo.
+fastboot flash oem oem.img
+echo.
+fastboot flash product product.img
+echo.
+fastboot flash system system.img
+echo.
+fastboot flash system_ext system_ext.img
+echo.
+fastboot flash --disable-verity --disable-verification vbmeta vbmeta.img
+echo.
+fastboot flash vbmeta_system vbmeta_system.img
+echo.
+fastboot flash vendor vendor.img
+echo.
+fastboot flash vendor_boot vendor_boot.img
+echo.
+pause
+cls
+goto main
+:system
+fastboot reboot
+echo.
+pause
+cls
+goto main
+:exit
+exit
+
+=== Chinese txt (UTF8) ===
+  这个文件的操作方式（空片通过adnl来升级uboot）：
+1，把需要更新的uboot.bin.signed和u-boot.bin.usb.signed 替换原来的；
+2，连接USB启动；
+3，运行：S905Y4.bat 批处理即可；
+--或者在cmd 下逐句输入：
+adnl devices
+adnl getvar identify
+adnl bl1_boot -f u-boot.bin.usb.signed
+adnl getvar identify
+adnl bl2_boot -F u-boot.bin.signed
+adnl getvar identify
+adnl oem disk_initial
+adnl Partition -P bootloader -F u-boot.bin.signed

@@ -1,0 +1,62 @@
+
+======================================================
+1. Compilando TypeScript + Vite (Versión más reciente)...
+======================================================
+vite v8.3.3 building client environment for production...
+transforming...
+✓ 1978 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                    0.60 kB │ gzip:     0.40 kB
+dist/assets/logo-EicIKV0G.png                     68.65 kB
+dist/assets/modal-gym-bg-D4650c6a.jpg            227.07 kB
+dist/assets/pos-banner-BOmoHBRJ.jpg              775.59 kB
+dist/assets/gym-background-motto-BzSRG4ad.jpg  1,024.38 kB
+dist/assets/gym-background-C2ZRMS71.jpg        3,978.59 kB
+dist/assets/index-C5U8s1TZ.css                   118.81 kB │ gzip:    16.87 kB
+dist/assets/index-BLekBjvX.js                  5,336.93 kB │ gzip: 3,470.31 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 5.61s
+[PLUGIN_TIMINGS] JavaScript callbacks ran for 3.6s of this 5.6s build (65%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:css transform (60%, 3.3s, 1 call)
+Additional callback time came from the callbacks below and from callbacks under 1s.
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:asset load (5 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+
+
+======================================================
+2. Generando versión HTML autocontenida actualizada...
+======================================================
+Generating updated single-file HTML with 3 clean options (No black box)...
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\Control_De_Acceso_Web.html
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\ACCESO_WEB_FITNESS_LEGENDS.html
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\Control_De_Acceso_Web.html
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\public\terminal.html
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\Control_De_Acceso_Web.html
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\dist\terminal.html
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html
+âœ“ Successfully generated: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html
+
+======================================================
+3. Actualizando Ejecutable Nativo en release/...
+======================================================
+   Carpeta release actualizada: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64
+   Ejecutable ERP:              C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\FitnessLegends.exe
+   Ejecutable Terminal:         C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\ControlDeAccesoLegends.exe
+
+======================================================
+4. Generando lanzadores .EXE nativos en la carpeta principal...
+======================================================
+   ✓ Ejecutable creado: C:\Users\andre\OneDrive\Desktop\gym\FITNESS_LEGENDS_SISTEMA_ERP.exe
+   ✓ Ejecutable creado: C:\Users\andre\OneDrive\Desktop\gym\FITNESS_LEGENDS_TERMINAL_ACCESO.exe
+
+¡Proceso de actualización y generación de ejecutables completado con éxito!
+
+Package ExitCode: 0

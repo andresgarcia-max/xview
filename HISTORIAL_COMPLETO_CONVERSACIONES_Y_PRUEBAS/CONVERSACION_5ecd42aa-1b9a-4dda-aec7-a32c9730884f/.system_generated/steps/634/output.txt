@@ -1,0 +1,199 @@
+Command exited with code 0.
+
+Command output:
+_ZNSt3__16chrono12steady_clock3nowEv
+pthread_mutex_lock
+pthread_mutex_unlock
+flock
+_ZN21FuseBlockDataProvider18CreateFromBlockMapERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEj
+_ZNSt3__118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILx1ELx1000000000EEEEEEE
+_ZNSt3__15mutex4lockEv
+_ZNSt3__15mutex6unlockEv
+_ZNSt3__16chrono12system_clock3nowEv
+clock_gettime
+get_block_device_size
+wipe_block_device
+_Z18ext4_parse_sb_infoP16ext4_super_block
+_Z7read_sbiP16ext4_super_block
+ext4_bg_has_super_block
+is_block_device_fd
+_ZNK7android6fs_mgr15MetadataBuilder27GetBlockDevicePartitionNameEy
+_ZN6google8protobuf8internal14WireFormatLite9ReadBytesEPNS0_2io16CodedInputStreamEPNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
+_ZNK7android6fs_mgr15MetadataBuilder18logical_block_sizeEv
+_ZN6google8protobuf8internal9ArenaImpl10FreeBlocksEv
+_ZN6google8protobuf8internal9ArenaImpl11SerialArena3NewEPNS2_5BlockEPvPS2_
+_ZN6google8protobuf8internal9ArenaImpl11SerialArena4FreeEPS3_PNS2_5BlockEPFvPvjE
+_ZN6google8protobuf8internal9ArenaImpl5BlockC1EjPS3_
+_ZN6google8protobuf8internal9ArenaImpl5BlockC2EjPS3_
+_ZN6google8protobuf8internal9ArenaImpl8NewBlockEPNS2_5BlockEj
+_ZN6google8protobuf8internal14WireFormatLite9ReadBytesEPNS0_2io16CodedInputStreamEPPNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
+_ZNK8RangeSet14GetBlockNumberEj
+_ZN10MemMapping12MapBlockFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+_ZN12BlockMapData17ParseBlockMapFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+NandFlashLock
+_ZNSt3__115recursive_mutex4lockEv
+_ZNSt3__115recursive_mutex6unlockEv
+pthread_mutex_trylock
+<3>systemcontrol: [ubootenv] read error 0x%x 
+critical error: %s: failed to seek to superblock: %s
+Check failed: lock->lock_mode() == LOCK_EX
+invalid block type
+bootreason is in the blocklist; skip OTA installation
+<3>systemcontrol: [ubootenv] CRC Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+-- No package file selected.
+Block device size for 
+failed to open block device 
+Zip: Found `Disk Start Number` field in extra block. Ignoring it.
+Entering fastboot
+/dev/block/mmcblk
+critical error: %s: failed to seek to block group descriptors: %s
+logical_block_size is not power of 2
+<3>systemcontrol: [ubootenv] get MTD info error
+<6>systemcontrol: [ubootenv] set property count: %d
+-- Couldn't mount 
+/metadata is mounted, but errors occur when acquiring a shared lock. Subsequent calls to SnapshotManager will fail. Unmounting /metadata now.
+ total number of blocks: 
+<3>systemcontrol: [ubootenv] %s is not a ubootenv varible.
+<3>systemcontrol: [ubootenv] Not enough memory for environment (%u bytes)
+    Block size: %d
+checkpoint=block
+<3>systemcontrol: [ubootenv] don't init done
+<3>systemcontrol: [ubootenv] SYS_LOGE write, size %d 
+-- Install %s ...
+    Blocks per group: %d
+(adbd status 
+    Block groups: %d
+    Reserved block group size: %d
+Failed to construct byte ranges to read, start_block: 
+<3>systemcontrol: [ubootenv] open devices error: %s
+error: %s: superblock magic incorrect
+Cannot create update snapshots with overlayfs setup. Run `adb enable-verity`
+--retry_count
+You need adb 1.0.32 or newer to sideload
+    Block group descriptor size: %d
+sys.usb.config
+<3>systemcontrol: [ubootenv] Get MTD info error
+--headers=
+critical error: %s: failed to read block group descriptors: %s
+invalid blockdev size for 
+Acquire flock failed: 
+invalid code -- missing end-of-block
+Partitions may be mounted - rebooting to enter fastboot.
+<3>systemcontrol: [ubootenv] bootenv do not init
+<3>systemcontrol: [ubootenv] Invalid env data key:%s, value:%s
+--status_fd=%d
+ total number of blocks the range contains is 
+bootable/recovery/fastboot/fastboot.cpp
+<3>systemcontrol: [ubootenv] CRC2 Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+<3>systemcontrol: [ubootenv] Read access failed !!!
+/dev/block
+AddRawBlocks: compression failed
+Compressed block is too large: 
+fastboot
+<6>systemcontrol: [ubootenv] update value name [%s]: value [%s] 
+%s_lock
+/udisk
+CHECK failed: (min_bytes) <= (std::numeric_limits<size_t>::max() - kBlockHeaderSize): 
+ num_of_blocks 
+/dev/block/conf
+--retry_count=%d
+--socket_fd
+--offset=%ld
+/udisk/factory_update_param.aml
+Unable to unmap all partitions; fastboot may fail to flash.
+Block device was lazily unmounted and is still in-use: 
+Invalid size in block map file: size 
+<3>systemcontrol: [ubootenv] %s is not a ubootenv variable.
+<3>systemcontrol: [ubootenv] MEMERASE SYS_LOGE %d
+    Blocks: %llu
+, blocks_=
+block_start 
+Rebooting to recovery/fastboot...
+-- Wiping data...
+critical error: %s: first data block does not match
+read_block_group_descriptors
+critical error: %s: failed to read all the block group descriptors
+Failed to parse file size and block size: 
+ubootenv.var.
+<3>systemcontrol: [ubootenv] Out of memory!!!
+--payload=file://
+Failed to unlock file: 
+Could not find signature DER block
+bootable/recovery/install/adb_install.cpp
+Check failed: lock
+<6>systemcontrol: [ubootenv] using %s with size(%d) (%d)
+/dev/block/by-name
+AddRawBlocks: write failed
+Check failed: logical_block_size != 0 && !(logical_block_size & (logical_block_size - 1))
+Invalid ranges: remaining blocks 
+<3>systemcontrol: [ubootenv] parse attribute malloc error 
+wipe_block_device
+Block size is too large
+ubootenv.var.bootcmd
+<5>systemcontrol: [ubootenv] ubootenv.var.%s not found, create it.
+<3>systemcontrol: [ubootenv] open devices error
+critical error: %s: failed to read superblock: %s
+ (total blocks: 
+Install from ADB complete (status: %d).
+<3>systemcontrol: [ubootenv] error need '=' skip this value
+--rescue
+<3>systemcontrol: [ubootenv] Cannot write %s: %d.
+Timeout waiting for messages from minadbd
+/dev/block/sd
+to the device with "adb sideload <filename>"...
+Failed to read message from minadbd
+bootable/recovery/install/udisk_upgrade.cpp
+Could not determine block device size: 
+number of blocks do not equal in src_extents and dst_extents
+Invalid data in block map file: size 
+blocks_
+<6>systemcontrol: [ubootenv] Save ubootenv to %s succeed!
+<3>systemcontrol: [ubootenv] read %s failed 
+critical error: %s: failed to read all of superblock
+/dev/block/
+Check failed: current_metadata->GetBlockDevicePartitionName(0) == LP_METADATA_DEFAULT_PARTITION_NAME && target_metadata->GetBlockDevicePartitionName(0) == LP_METADATA_DEFAULT_PARTITION_NAME
+num_of_blocks is zero when calling GetSubRanges()
+userrequested,fastboot
+<3>systemcontrol: [ubootenv] Cannot read %s: %d.
+/dev/block/mmcblk#p#
+Block map file is too short: 
+Failed to parse block map header: 
+<3>systemcontrol: [ubootenv] open device(%s) error
+/system/bin/minadbd
+/dev/block/bootdevice/by-name
+invalid stored block lengths
+    Used %d/%d inodes and %d/%d blocks
+/sys/class/block/
+boot-fastboot
+-- Wiping cache...
+/dev/block/sd##
+Failed to find block number for index 
+, num_of_blocks: 
+CopyFileToFile: copy read failed, block_size = %u, offset = %lld: %s
+--show_text
+/dev/block/ubootenv
+/sdcard/factory_update_param.aml
+--fastboot
+sys.usb.state
+Android Fastboot
+--reason=update_in_progress
+/dev/block/env
+timedownlifeleftbackcodedatashowonlysitecityopenjustlikefreeworktextyearoverbodyloveformbookplaylivelinehelphomesidemorewordlongthemviewfindpagedaysfullheadtermeachareafromtruemarkableuponhighdatelandnewsevennextcasebothpostusedmadehandherewhatnameLinkblogsizebaseheldmakemainuser') +holdendswithNewsreadweresigntakehavegameseencallpathwellplusmenufilmpartjointhislistgoodneedwayswestjobsmindalsologorichuseslastteamarmyfoodkingwilleastwardbestfirePageknowaway.pngmovethanloadgiveselfnotemuchfeedmanyrockicononcelookhidediedHomerulehostajaxinfoclublawslesshalfsomesuchzone100%onescareTimeracebluefourweekfacehopegavehardlostwhenparkkeptpassshiproomHTMLplanTypedonesavekeepflaglinksoldfivetookratetownjumpthusdarkcardfilefearstaykillthatfallautoever.comtalkshopvotedeepmoderestturnbornbandfellroseurl(skinrolecomeactsagesmeetgold.jpgitemvaryfeltthensenddropViewcopy1.0"</a>stopelseliestourpack.gifpastcss?graymean&gt;rideshotlatesaidroadvar feeljohnrickportfast'UA-dead</b>poorbilltypeU.S.woodmust2px;Inforankwidewantwalllead[0];paulwavesure$('#waitmassarmsgoesgainlangpaid!-- lockunitrootwalkfirmwifexml"songtest20pxkindrowstoolfontmailsafestarmapscorerainflowbabyspansays4px;6px;artsfootrealwikiheatsteptriporg/lakeweaktoldFormcastfansbankveryrunsjulytask1px;goalgrewslowedgeid="sets5px;.js?40pxif (soonseatnonetubezerosentreedfactintogiftharm18pxcamehillboldzoomvoideasyringfillpeakinitcost3px;jacktagsbitsrolleditknewnear<!--growJSONdutyNamesaleyou lotspainjazzcoldeyesfishwww.risktabsprev10pxrise25pxBlueding300,ballfordearnwildbox.fairlackverspairjunetechif(!pickevil$("#warmlorddoespull,000ideadrawhugespotfundburnhrefcellkeystickhourlossfuel12pxsuitdealRSS"agedgreyGET"easeaimsgirlaids8px;navygridtips#999warsladycars); }php?helltallwhomzh:?*/
+201420152016201720182019202020212022202320242025202620272028202920302031203220332034203520362037201320122011201020092008200720062005200420032002200120001999199819971996199519941993199219911990198919881987198619851984198319821981198019791978197719761975197419731972197119701969196819671966196519641963196219611960195919581957195619551954195319521951195010001024139400009999comom??sesteestaperotodohacecadaa??obiend??aas??vidacasootroforosolootracualdijosidograntipotemadebealgoqu??estonadatrespococasabajotodasinoaguapuesunosantediceluisellamayozonaamorpisoobraclicellodioshoracasi????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????firstvideolightworldmediawhitecloseblackrightsmallbooksplacemusicfieldorderpointvalueleveltableboardhousegroupworksyearsstatetodaywaterstartstyledeathpowerphonenighterrorinputabouttermstitletoolseventlocaltimeslargewordsgamesshortspacefocusclearmodelblockguideradiosharewomenagainmoneyimagenamesyounglineslatercolorgreenfront&amp;watchforcepricerulesbeginaftervisitissueareasbelowindextotalhourslabelprintpressbuiltlinksspeedstudytradefoundsenseundershownformsrangeaddedstillmovedtakenaboveflashfixedoftenotherviewschecklegalriveritemsquickshapehumanexistgoingmoviethirdbasicpeacestagewidthloginideaswrotepagesusersdrivestorebreaksouthvoicesitesmonthwherebuildwhichearthforumthreesportpartyClicklowerlivesclasslayerentrystoryusagesoundcourtyour birthpopuptypesapplyImagebeinguppernoteseveryshowsmeansextramatchtrackknownearlybegansuperpapernorthlearngivennamedendedTermspartsGroupbrandusingwomanfalsereadyaudiotakeswhile.com/livedcasesdailychildgreatjudgethoseunitsneverbroadcoastcoverapplefilescyclesceneplansclickwritequeenpieceemailframeolderphotolimitcachecivilscaleenterthemetheretouchboundroyalaskedwholesincestock namefaithheartemptyofferscopeownedmightalbumthinkbloodarraymajortrustcanonunioncountvalidstoneStyleLoginhappyoccurleft:freshquitefilmsgradeneedsurbanfightbasishoverauto;route.htmlmixedfinalYour slidetopicbrownalonedrawnsplitreachRightdatesmarchquotegoodsLinksdoubtasyncthumballowchiefyouthnovel10px;serveuntilhandsCheckSpacequeryjamesequaltwice0,000Startpanelsongsroundeightshiftworthpostsleadsweeksavoidthesemilesplanesmartalphaplantmarksratesplaysclaimsalestextsstarswrong</h3>thing.org/multiheardPowerstandtokensolid(thisbringshipsstafftriedcallsfullyfactsagentThis //-->adminegyptEvent15px;Emailtrue"crossspentblogsbox">notedleavechinasizesguest</h4>robotheavytrue,sevengrandcrimesignsawaredancephase><!--en_US&#39;200px_namelatinenjoyajax.ationsmithU.S. holdspeterindianav">chainscorecomesdoingpriorShare1990sromanlistsjapanfallstrialowneragree</h2>abusealertopera"-//WcardshillsteamsPhototruthclean.php?saintmetallouismeantproofbriefrow">genretrucklooksValueFrame.net/-->
+<!--POST"ocean<br/>floorspeakdepth sizebankscatchchart20px;aligndealswould50px;url="parksmouseMost ...</amongbrainbody none;basedcarrydraftreferpage_home.meterdelaydreamprovejoint</tr>drugs<!-- aprilidealallenexactforthcodeslogicView seemsblankports (200saved_linkgoalsgrantgreekhomesringsrated30px;whoseparse();" Blocklinuxjonespixel');">);if(-leftdavidhorseFocusraiseboxesTrackement</em>bar">.src=toweralt="cablehenry24px;setupitalysharpminortastewantsthis.resetwheelgirls/css/100%;clubsstuffbiblevotes 1000korea});
+aheadclockirishlike ratiostatsForm"yahoo)[0];Aboutfinds</h1>debugtasksURL =cells})();12px;primetellsturns0x600.jpg"spainbeachtaxesmicroangel--></giftssteve-linkbody.});
+.gif" onloadloaderOxfordsistersurvivlistenfemaleDesignsize="appealtext">levelsthankshigherforcedanimalanyoneAfricaagreedrecentPeople<br />wonderpricesturned|| {};main">inlinesundaywrap">failedcensusminutebeaconquotes150px|estateremoteemail"linkedright;signalformal1.htmlsignupprincefloat:.png" forum.AccesspaperssoundsextendHeightsliderUTF-8"&amp; Before. WithstudioownersmanageprofitjQueryannualparamsboughtfamousgooglelongeri++) {israelsayingdecidehome">headerensurebranchpiecesblock;statedtop"><racingresize--&gt;pacitysexualbureau.jpg" 10,000obtaintitlesamount, Inc.comedymenu" lyricstoday.indeedcounty_logo.FamilylookedMarketlse ifPlayerturkey);var forestgivingerrorsDomain}else{insertBlog</footerlogin.fasteragents<body 10px 0pragmafridayjuniordollarplacedcoversplugin5,000 page">boston.test(avatartested_countforumsschemaindex,filledsharesreaderalert(appearSubmitline">body">
+In  powerPolski-colorjordanBottomStart -count2.htmlnews">01.jpgOnline-rightmillerseniorISBN 00,000 guidesvalue)ectionrepair.xml"  rights.html-blockregExp:hoverwithinvirginphones</tr>
+<!--Daniel bindingblock">imposedutilizeAbraham(except{width:putting).html(|| [];
+monthlyofficercouncilgainingeven inSummarydate ofloyaltyfitnessand wasemperorsupremeSecond hearingRussianlongestAlbertalateralset of small">.appenddo withfederalbank ofbeneathDespiteCapitalgrounds), and percentit fromclosingcontainInsteadfifteenas well.yahoo.respondfighterobscurereflectorganic= Math.editingonline paddinga wholeonerroryear ofend of barrierwhen itheader home ofresumedrenamedstrong>heatingretainscloudfrway of March 1knowingin partBetweenlessonsclosestvirtuallinks">crossedEND -->famous awardedLicenseHealth fairly wealthyminimalAfricancompetelabel">singingfarmersBrasil)discussreplaceGregoryfont copursuedappearsmake uproundedboth ofblockedsaw theofficescoloursif(docuwhen heenforcepush(fuAugust UTF-8">Fantasyin mostinjuredUsuallyfarmingclosureobject defenceuse of Medical<body>
+<link rel=" src='http://interested inconventional " alt="" /></are generallyhas also beenmost popular correspondingcredited withtyle="border:</a></span></.gif" width="<iframe src="table class="inline-block;according to together withapproximatelyparliamentarymore and moredisplay:none;traditionallypredominantly&nbsp;|&nbsp;&nbsp;</span> cellspacing=<input name="or" content="controversialproperty="og:/x-shockwave-demonstrationsurrounded byNevertheless,was the firstconsiderable Although the collaborationshould not beproportion of<span style="known as the shortly afterfor instance,described as /head>
+<div style="almost alwaysare currentlyexpression ofphilosophy offor more thancivilizationson the islandselectedIndexcan result in" value="" />the structure /></a></div>Many of thesecaused by theof the Unitedspan class="mcan be tracedis related tobecame one ofis frequentlyliving in thetheoreticallyFollowing theRevolutionarygovernment inis determinedthe politicalintroduced insufficient todescription">short storiesseparation ofas to whetherknown for itswas initiallydisplay:blockis an examplethe principalconsists of arecognized as/body></html>a substantialreconstructedhead of stateresistance toundergraduateThere are twogravitationalare describedintentionallyserved as theclass="headeropposition tofundamentallydominated theand the otheralliance withwas forced torespectively,and politicalin support ofpeople in the20th century.and publishedloadChartbeatto understandmember statesenvironmentalfirst half ofcountries andarchitecturalbe consideredcharacterizedclearIntervalauthoritativeFederation ofwas succeededand there area consequencethe Presidentalso includedfree softwaresuccession ofdeveloped thewas destroyedaway from the;
+display:block;Unfortunately,">&nbsp;</div>/favicon.ico">='stylesheet' identification, for example,<li><a href="/an alternativeas a result ofpt"></script>
+<div class="</span></span><In other words,display: block;control of the introduction of/>
+interchangeably withmore closely relatedsocial and politicalthat would otherwiseperpendicular to thestyle type="text/csstype="submit" name="families residing indeveloping countriescomputer programmingeconomic developmentdetermination of thefor more informationon several occasionsportugu??s (Europeu)????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????html; charset=UTF-8" setTimeout(function()display:inline-block;<input type="submit" type = 'text/javascri<img src="http://www." "http://www.w3.org/shortcut icon" href="" autocomplete="off" </a></div><div class=</a></li>
+/sdcard/ZTESTBUSB/ota.zip
+/udisk/ZTESTBUSB/ota.zip
+/udisk/ZTESTBUSB/increment.zip
+/sdcard/ZTESTBUSB/increment.zip
+/udisk/ZTESTBUSB/ota_logo.zip
+/sdcard/ZTESTBUSB/ota_logo.zip

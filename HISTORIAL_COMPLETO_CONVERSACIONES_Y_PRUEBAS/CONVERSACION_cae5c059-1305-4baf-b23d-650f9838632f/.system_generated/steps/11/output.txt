@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\LEGENDS\src\components
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l     24/10/2026  09:15 a. m.                access                                                               
+dar--l     23/10/2026  05:19 p. m.                auth                                                                 
+dar--l     24/10/2026  09:15 a. m.                clients                                                              
+dar--l     23/10/2026  05:19 p. m.                config                                                               
+dar--l     23/10/2026  05:19 p. m.                dashboard                                                            
+dar--l     23/10/2026  05:19 p. m.                finance                                                              
+dar--l     24/10/2026  09:15 a. m.                layout                                                               
+dar--l     24/10/2026  09:15 a. m.                pos                                                                  
+dar--l     23/10/2026  05:19 p. m.                products                                                             
+
+

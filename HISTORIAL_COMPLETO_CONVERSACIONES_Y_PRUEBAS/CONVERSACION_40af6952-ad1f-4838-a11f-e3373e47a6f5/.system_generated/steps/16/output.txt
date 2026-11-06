@@ -1,0 +1,10 @@
+Command exited with code 1.
+
+Command output:
+En línea: 24 Carácter: 3
++ } | Format-List
++   ~
+No se permiten elementos de canalización vacíos.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : EmptyPipeElement
+ 

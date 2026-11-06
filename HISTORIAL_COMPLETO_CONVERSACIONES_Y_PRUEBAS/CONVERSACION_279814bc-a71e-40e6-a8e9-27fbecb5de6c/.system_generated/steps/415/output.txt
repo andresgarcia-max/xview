@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+Restored: Control_De_Acceso_Web.html
+Restored: ACCESO_WEB_FITNESS_LEGENDS.html
+Restored: LEGENDS\public\Control_De_Acceso_Web.html
+Restored: LEGENDS\public\terminal.html
+Restored: LEGENDS\dist\Control_De_Acceso_Web.html
+Restored: LEGENDS\dist\terminal.html
+Restored: LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\Control_De_Acceso_Web.html
+Restored: LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\terminal.html

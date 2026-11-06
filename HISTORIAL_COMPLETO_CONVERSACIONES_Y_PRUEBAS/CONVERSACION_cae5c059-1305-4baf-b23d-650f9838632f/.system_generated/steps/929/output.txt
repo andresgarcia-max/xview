@@ -1,0 +1,113 @@
+Command exited with code 0.
+
+Command output:
+Line 941:               {/* Opción 1: CLIENTE NUEVO */}
+            
+
+            {/* The 3 Clean High-Impact Options Grid with Full-Bleed Action Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6 w-full max-w-5xl mx-auto">
+
+              {/* Opción 1: CLIENTE NUEVO */}
+              <div 
+                onClick={() => setShowNewMemberModal(true)}
+                className="group relative h-[300px] sm:h-[330px] lg:h-[350px] max-h-[40vh] rounded-3xl overflow-hidden border-2 border-amber-400/60 hover:border-amber-400 transition-all duration-500 shadow-[0_0_25px_rgba(245,158,11,0.25)] hover:shadow-[0_0_45px_rgba(245,158,11,0.55)] flex flex-col justify-between p-5 cursor-pointer transform hover:-translate-y-2 select-none"
+              >
+                <img 
+                  src={IMG_CARD_NUEVO} 
+                  alt="Cliente Nuevo Gym" 
+                  className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/20 pointer-events-none" />
+                <div className="absolute inset-0 bg-amber-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+                <div className="relative z-10 self-end px-3.5 py-1 rounded-full bg-black/75 backdrop-blur-md border border-amber-400/80 flex items-center gap-1.5 text-white font-black text-xs uppercase tracking-wider shadow-lg drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+                  <span>💪</span>
+---
+Line 975:               {/* Opción 2: QUIERO VISITA */}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Opción 2: QUIERO VISITA */}
+              <div 
+                onClick={() => setShowVisitModal(true)}
+                className="group relative h-[300px] sm:h-[330px] lg:h-[350px] max-h-[40vh] rounded-3xl overflow-hidden border-2 border-emerald-400/60 hover:border-emerald-400 transition-all duration-500 shadow-[0_0_25px_rgba(16,185,129,0.25)] hover:shadow-[0_0_45px_rgba(16,185,129,0.55)] flex flex-col justify-between p-5 cursor-pointer transform hover:-translate-y-2 select-none"
+              >
+                <img 
+                  src={IMG_CARD_VISITA} 
+                  alt="Pase de Visita Gym" 
+                  className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/20 pointer-events-none" />
+                <div className="absolute inset-0 bg-emerald-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+                <div className="relative z-10 self-end px-3.5 py-1 rounded-full bg-black/75 backdrop-blur-md border border-emerald-400/80 flex items-center gap-1.5 text-white font-black text-xs uppercase tracking-wider shadow-lg drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+                  <span>🎟️</span>
+---
+Line 1009:               {/* Opción 3: YA TENGO MEMBRESÍA (ACCESO DIRECTO) */}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Opción 3: YA TENGO MEMBRESÍA (ACCESO DIRECTO) */}
+              <div 
+                onClick={() => setShowDirectAccessModal(true)}
+                className="group relative h-[300px] sm:h-[330px] lg:h-[350px] max-h-[40vh] rounded-3xl overflow-hidden border-2 border-amber-400/70 hover:border-amber-400 transition-all duration-500 shadow-[0_0_25px_rgba(245,158,11,0.3)] hover:shadow-[0_0_50px_rgba(245,158,11,0.6)] flex flex-col justify-between p-5 cursor-pointer transform hover:-translate-y-2 select-none"
+              >
+                <img 
+                  src={IMG_CARD_HUELLA} 
+                  alt="Lector Biométrico de Huella Gym" 
+                  className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/20 pointer-events-none" />
+                <div className="absolute inset-0 bg-amber-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+
+                <div className="relative z-10 self-end px-3.5 py-1 rounded-full bg-black/75 backdrop-blur-md border border-amber-400/80 flex items-center gap-1.5 text-white font-black text-xs uppercase tracking-wider shadow-lg drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+                  <span>👆</span>
+---
+Line 1048:           {/* MODAL 1: REGISTRO CLIENTE NUEVO */}
+            </div>
+          </main>
+
+
+
+          {/* MODAL 1: REGISTRO CLIENTE NUEVO */}
+          {showNewMemberModal && (
+            <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+              <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-xl w-full p-5 sm:p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 my-auto max-h-[95vh] overflow-y-auto overflow-hidden">
+                {/* Fondo de Mancuernas y Textura Fitness */}
+                <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+                  <img 
+                    src={MODAL_GYM_BG} 
+                    alt="Fondo Mancuernas Fitness" 
+                    className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent shadow-[0_0_15px_#f59e0b] pointer-events-none" />
+                </div>
+                
+---
+Line 1632:           {/* MODAL 3: YA TENGO MEMBRESÍA (ACCESO DIRECTO) */}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* MODAL 3: YA TENGO MEMBRESÍA (ACCESO DIRECTO) */}
+          {showDirectAccessModal && (
+            <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+              <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-lg w-full p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 overflow-hidden">
+                <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+                  <img 
+                    src={MODAL_GYM_BG} 
+                    alt="Fondo Mancuernas Fitness" 
+                    className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent shadow-[0_0_15px_#f59e0b] pointer-events-none" />
+                </div>
+                <div className="relative z-10 flex items-center justify-between border-b border-white/15 pb-4 mb-4">
+                  <div className="flex items-center gap-2.5">
+---

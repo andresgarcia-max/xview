@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+ForceStopPreference
+ForceStopPreference.java
+SLcom/android/tv/settings/device/apps/ForceStopPreference$$ExternalSyntheticLambda0;
+;Lcom/android/tv/settings/device/apps/ForceStopPreference$1;
+NLcom/android/tv/settings/device/apps/ForceStopPreference$ConfirmationFragment;
+9Lcom/android/tv/settings/device/apps/ForceStopPreference;
+Megacable,set invisible
+Megacable_OTT
+com.dotscreen.megacable.core
+com.dotscreen.megacable.livetv
+com.dotscreen.megacable.portal
+com.dotscreen.megacable.updater
+com.dotscreen.nordnet.tv
+(com.dotscreen.nordnet.tv.ui.MainActivity
+forceStop
+forceStopAndRequestAudioFocus
+forceStopPackage
+forceStopPreferenceNotShow
+isMEXICO_MEGACABLE_OTT
+mForceStopPreference
+notShowForceStop
+sendForceStopBroadCastToVod

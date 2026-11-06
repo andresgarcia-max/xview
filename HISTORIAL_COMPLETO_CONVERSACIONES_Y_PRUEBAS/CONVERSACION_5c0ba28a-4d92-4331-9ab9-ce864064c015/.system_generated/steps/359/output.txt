@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\accesos directos
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----     24/10/2026  11:36 a. m.           2185 1. Sistema ERP Administrador.lnk                                     
+-a---l     24/10/2026  10:53 a. m.            825 1. SISTEMA_ERP_ADMINISTRADOR.bat                                     
+-a---l     24/10/2026  11:36 a. m.          40448 1. SISTEMA_ERP_ADMINISTRADOR.exe                                     
+-a----     24/10/2026  11:36 a. m.           2168 2. Terminal Torniquete de Acceso.lnk                                 
+-a---l     24/10/2026  10:53 a. m.           1059 2. TERMINAL_TORNIQUETE_ACCESO.bat                                    
+-a---l     24/10/2026  11:36 a. m.          40960 2. TERMINAL_TORNIQUETE_ACCESO.exe                                    
+-a---l     24/10/2026  10:53 a. m.            642 3. ACCESO_CARTERA_CLIENTES.bat                                       
+-a----     24/10/2026  10:53 a. m.           2119 3. Cartera de Clientes & Socios.lnk                                  
+-a----     24/10/2026  10:53 a. m.           2116 4. Vincular Equipos en Red LAN.lnk                                   
+-a---l     24/10/2026  10:53 a. m.           2402 4. VINCULAR_EQUIPOS_RED_LAN.bat                                      
+-a---l     24/10/2026  10:31 a. m.          41472 ACCESO_CLIENTES_LEGENDS.exe                                          
+-a---l     24/10/2026  11:36 a. m.          40960 CONTROL_DE_ACCESO.exe                                                
+-a---l     24/10/2026  11:36 a. m.          40448 SISTEMA_ERP.exe                                                      
+
+

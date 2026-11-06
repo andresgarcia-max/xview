@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\App.tsx:18:import { IncomeHistoryView } from './components/finance/IncomeHistoryView';
+  LEGENDS\src\App.tsx:19:import { NotificationsDrawer } from './components/layout/NotificationsDrawer';
+  LEGENDS\src\App.tsx:20:import { DataSyncModal } from './components/config/DataSyncModal';
+> LEGENDS\src\App.tsx:21:import { LoginScreen } from './components/auth/LoginScreen';
+  LEGENDS\src\App.tsx:22:import { SupervisorPinModal } from './components/auth/SupervisorPinModal';
+  LEGENDS\src\App.tsx:23:import { IndependentTerminalApp } from './components/access/IndependentTerminalApp';
+  LEGENDS\src\App.tsx:24:import gymDumbbellBg from './assets/gym-dumbbell-background.jpg';
+  LEGENDS\src\App.tsx:179:};
+  LEGENDS\src\App.tsx:180:
+  LEGENDS\src\App.tsx:181:const AppContent: React.FC = () => {
+> LEGENDS\src\App.tsx:182:  const { isAuthenticated } = useGym();
+  LEGENDS\src\App.tsx:183:  const [terminalMode] = useState<boolean>(() => isTerminalMode());
+  LEGENDS\src\App.tsx:184:  const [terminalView, setTerminalView] = useState<'terminal' | 'clients'>('terminal');
+  LEGENDS\src\App.tsx:185:
+  LEGENDS\src\App.tsx:211:    return <IndependentTerminalApp onOpenClients={() => setTerminalView('clients')} />;
+  LEGENDS\src\App.tsx:212:  }
+  LEGENDS\src\App.tsx:213:
+> LEGENDS\src\App.tsx:214:  if (!isAuthenticated) {
+> LEGENDS\src\App.tsx:215:    return <LoginScreen />;
+  LEGENDS\src\App.tsx:216:  }
+  LEGENDS\src\App.tsx:217:
+  LEGENDS\src\App.tsx:218:  return <MainLayout />;
+
+

@@ -1,0 +1,70 @@
+The search for "AMD Ryzen B550 fastboot amlogic worldcup usb bug registry fix usbflags xhci" returned the following summary:
+When attempting to use fastboot, flash firmware, or communicate with recovery modes (like **Amlogic WorldCup USB mode** or Android devices) on **AMD Ryzen (such as B550/X570 chipset)** motherboards, users frequently run into connection drops, device freezing, or failure of the host to recognize the device. 
+
+This issue is typically caused by compatibility bugs between the AMD xHCI (USB 3.0/3.1) host controller implementation, Windows USB descriptor handling, and older bootloaders/fastboot implementations that fail when attempting high-speed packet handshakes or BOS (Binary Object Store) descriptor queries.
+
+The standard workaround involves using Windows Registry **`UsbFlags`** to force the xHCI controller to bypass problematic descriptor requests for the specific device ID, or forcing connection through an older USB 2.0 port.
+
+---
+
+### Method 1: The Registry Fix (`UsbFlags`) for xHCI Bugs
+
+To prevent Windows xHCI stack from querying unsupported descriptors (which causes fastboot or WorldCup mode to hang or disconnect on AMD chipsets), you can apply specific `UsbFlags` overrides in the Windows Registry[1].
+
+1. **Identify your device's Hardware ID** (Vendor ID and Product ID):
+   * Open **Device Manager** while the device is plugged in (even if it has an error or shows up as an unknown device like *WorldCup Device*).
+   * Right-click the device $\rightarrow$ **Properties** $\rightarrow$ **Details** tab.
+   * Select **Hardware IDs** from the dropdown. 
+   * Note the string, which typically looks like `USB\VID_xxxx&PID_xxxx` (for example, Amlogic WorldCup mode often uses `VID_1B8E&PID_C003`[2], while standard fastboot devices often use variations like `VID_18D1&PID_D00D`).
+
+2. **Open the Registry Editor**:
+   * Press `Win + R`, type `regedit`, and hit Enter.
+
+3. **Navigate to the UsbFlags key**:
+   ```text
+   HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags
+   ```
+
+4. **Create a subkey matching your Device ID**:
+   * Right-click the `usbflags` folder $\rightarrow$ **New** $\rightarrow$ **Key**.
+   * Name the key using your device's VID and PID combined **without** separators or the `VID_/PID_` prefix (e.g., if your hardware ID is `VID_1B8E&PID_C003`, name the key `1B8EC003`. If it's a fastboot device like `18D1D00D`, name it `18D1D00D`).
+
+5. **Add the Bug-Workaround Binary Values**:
+   Inside your newly created device key (`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\[VID+PID]`), create the following **DWORD (32-bit)** or **Binary** values to disable problematic xHCI queries:
+
+   * **Disable BOS Descriptor Queries** (Fixes hangs on newer xHCI stacks):
+     * Name: `SkipBOSDescriptorQuery`
+     * Type: `REG_BINARY` 
+     * Data: `01 00 00 00` (or `REG_DWORD` with value `1`)[1]
+
+   * **Disable Container ID Queries**:
+     * Name: `SkipContainerIdQuery`
+     * Type: `REG_BINARY`
+     * Data: `01 00 00 00` (or `REG_DWORD` with value `1`)[1]
+
+   * **Disable OS String Descriptor (OSVC) Queries**:
+     * Name: `osvc`
+     * Type: `REG_BINARY`
+     * Data: `00 00`[1]
+
+6. **Reconnect the Device**:
+   Unplug your device, restart your computer (or disable/enable the USB root hub in Device Manager), put the device back into fastboot/WorldCup mode, and reconnect.
+
+---
+
+### Method 2: Physical Workarounds for AMD B550 USB Issues
+
+AMD B550 platforms manage USB lines natively through the CPU (providing USB 3.2 Gen 2 ports) and via the B550 Chipset hub. If the registry flags do not entirely resolve connection stability during low-level flashing:
+
+1. **Use an explicit USB 2.0 Port:** 
+   Amlogic WorldCup mode and older U-Boot fastboot implementations struggle heavily with xHCI protocol handshakes. If your B550 motherboard has a dedicated USB 2.0 port (often designated for BIOS flashback or keyboard/mouse routing, driven safely through legacy protocols), plug your device into that port. 
+2. **Use a USB 2.0 Hub as a Buffer:**
+   Placing an old, cheap USB 2.0 external hub between your Ryzen B550 motherboard and the device forces the traffic to drop down to USB 2.0 EHCI/xHCI translation mode, bypassing the strict timing and descriptor bugs native to AMD's direct USB 3.0 implementation.
+3. **Disable Global C-States / PCIe Gen 4 in BIOS (Extreme troubleshooting):**
+   If your entire system experiences WHEA logger warnings or USB dropouts under heavy loads alongside these flashing tools, temporarily disabling *Global C-States* or forcing PCIe slots down to *Gen 3* in your B550 BIOS can stabilize the internal SoC clock generation tied to the Ryzen chipset's downstream USB controller.
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhAVD410Pmw1OZDlLeSrStg7d45OJN_FD0vrQoG0BBMqYbAtkbJ3x2MEPwh4gHLRLrD0CyH9Mce0fAFfXzeQmESN-8vI7BjEFFVjcsVSAnDj_TYutEE2jvF0GK3G9X2YqKMe43vUGNAbIYWOeYduAjQcwg1GifkGf9tGZxYvA9iay3rxxPcDCdnFVk5VuGSusoRXqsdkE=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEImEajdx5-H2TGOGn8KNAFMCNp6odRKfuwZvR4hcHtR_NjJhMF_tIdEsxLm-CZZdhM110Sjb1-z9REoB7hnksAVRgkLzwt5tSZqBcxe9UHRn6g-hiJqf9u1qXfQqgsL-KgADmZ1byrk1w4oHu0ExLrkTLsVqkynUMd4w7iTCHbHkDpzL3L9u77RYB51nWSP01e5GMgPL5nS0G7q48j_ZtRSmINICNZepZqMX5AzjAZ5pj_ROA=)
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

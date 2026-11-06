@@ -1,0 +1,98 @@
+Command exited with code 0.
+
+Command output:
+src/components/access/IndependentTerminalApp.tsx-148-  };
+src/components/access/IndependentTerminalApp.tsx-149-
+src/components/access/IndependentTerminalApp.tsx-150-  // Visit pass state
+src/components/access/IndependentTerminalApp.tsx-151-  const [visitClientName, setVisitClientName] = useState('');
+src/components/access/IndependentTerminalApp.tsx-152-  const [visitCost, setVisitCost] = useState('5.00');
+src/components/access/IndependentTerminalApp.tsx-153-  const [searchQuery, setSearchQuery] = useState('');
+src/components/access/IndependentTerminalApp.tsx-154-  const [isFullScreen, setIsFullScreen] = useState(isEmbeddedFullScreen);
+src/components/access/IndependentTerminalApp.tsx-155-  const [showEscHint, setShowEscHint] = useState(false);
+src/components/access/IndependentTerminalApp.tsx-156-  const [isMuted, setIsMuted] = useState(false);
+src/components/access/IndependentTerminalApp.tsx-157-  // Bulletproof gym background wallpapers with multi-tier fallbacks
+src/components/access/IndependentTerminalApp.tsx:158:  const BG_OPTIONS = [
+src/components/access/IndependentTerminalApp.tsx-159-    { id: 'gymBg', name: 'Gimnasio Legends (Pared Neón & Caminadoras)', primary: gymBg, fallback: './gym-background.jpg' },
+src/components/access/IndependentTerminalApp.tsx-160-    { id: 'gymBgMotto', name: 'Mural Motivacional Legends', primary: gymBgMotto, fallback: './gym-background-motto.jpg' },
+src/components/access/IndependentTerminalApp.tsx-161-    { id: 'modalGymBg', name: 'Mancuernas Pro Dark', primary: modalGymBg, fallback: './modal-gym-bg.jpg' }
+src/components/access/IndependentTerminalApp.tsx-162-  ];
+src/components/access/IndependentTerminalApp.tsx-163-
+src/components/access/IndependentTerminalApp.tsx-164-  const [bgIndex, setBgIndex] = useState<number>(() => {
+src/components/access/IndependentTerminalApp.tsx-165-    if (typeof window !== 'undefined') {
+src/components/access/IndependentTerminalApp.tsx-166-      try {
+src/components/access/IndependentTerminalApp.tsx-167-        const ver = localStorage.getItem('legends_terminal_bg_ver');
+src/components/access/IndependentTerminalApp.tsx-168-        if (ver !== 'v12_bulletproof_original_bg') {
+src/components/access/IndependentTerminalApp.tsx-169-          localStorage.setItem('legends_terminal_bg_ver', 'v12_bulletproof_original_bg');
+src/components/access/IndependentTerminalApp.tsx-170-          localStorage.removeItem('legends_terminal_bg');
+src/components/access/IndependentTerminalApp.tsx-171-          localStorage.setItem('legends_terminal_bg_index', '0');
+src/components/access/IndependentTerminalApp.tsx-172-          return 0;
+src/components/access/IndependentTerminalApp.tsx-173-        }
+src/components/access/IndependentTerminalApp.tsx-174-        const saved = localStorage.getItem('legends_terminal_bg_index');
+src/components/access/IndependentTerminalApp.tsx-175-        if (saved !== null) {
+src/components/access/IndependentTerminalApp.tsx-176-          const parsed = parseInt(saved, 10);
+src/components/access/IndependentTerminalApp.tsx:177:          if (!isNaN(parsed) && parsed >= 0 && parsed < BG_OPTIONS.length) return parsed;
+src/components/access/IndependentTerminalApp.tsx-178-        }
+src/components/access/IndependentTerminalApp.tsx-179-      } catch {}
+src/components/access/IndependentTerminalApp.tsx-180-    }
+src/components/access/IndependentTerminalApp.tsx-181-    return 0;
+src/components/access/IndependentTerminalApp.tsx-182-  });
+src/components/access/IndependentTerminalApp.tsx-183-
+src/components/access/IndependentTerminalApp.tsx:184:  const activeBg = BG_OPTIONS[bgIndex] || BG_OPTIONS[0];
+src/components/access/IndependentTerminalApp.tsx-185-  const [currentBgSrc, setCurrentBgSrc] = useState<string>(() => activeBg.primary || activeBg.fallback);
+src/components/access/IndependentTerminalApp.tsx-186-
+src/components/access/IndependentTerminalApp.tsx-187-  useEffect(() => {
+src/components/access/IndependentTerminalApp.tsx:188:    const chosen = BG_OPTIONS[bgIndex] || BG_OPTIONS[0];
+src/components/access/IndependentTerminalApp.tsx-189-    setCurrentBgSrc(chosen.primary || chosen.fallback);
+src/components/access/IndependentTerminalApp.tsx-190-  }, [bgIndex]);
+src/components/access/IndependentTerminalApp.tsx-191-
+src/components/access/IndependentTerminalApp.tsx-192-  // Standalone terminal configuration
+src/components/access/IndependentTerminalApp.tsx-193-  const [config, setConfig] = useState<TerminalConfig>(() => getTerminalConfig());
+src/components/access/IndependentTerminalApp.tsx-194-  const [isSyncing, setIsSyncing] = useState(false);
+src/components/access/IndependentTerminalApp.tsx-195-  const [lastSyncTime, setLastSyncTime] = useState<Date | null>(new Date());
+src/components/access/IndependentTerminalApp.tsx-196-  const [serverStatus, setServerStatus] = useState<'connected' | 'disconnected' | 'checking'>('disconnected');
+src/components/access/IndependentTerminalApp.tsx-197-
+src/components/access/IndependentTerminalApp.tsx-198-  // Turnstile relay pulse countdown state
+--
+src/components/access/IndependentTerminalApp.tsx-622-      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+src/components/access/IndependentTerminalApp.tsx-623-      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+src/components/access/IndependentTerminalApp.tsx-624-      document.removeEventListener('mozfullscreenchange', handleFullscreenChange);
+src/components/access/IndependentTerminalApp.tsx-625-      document.removeEventListener('MSFullscreenChange', handleFullscreenChange);
+src/components/access/IndependentTerminalApp.tsx-626-    };
+src/components/access/IndependentTerminalApp.tsx-627-  }, [onExitFullScreen]);
+src/components/access/IndependentTerminalApp.tsx-628-
+src/components/access/IndependentTerminalApp.tsx-629-  // Fullscreen / Kiosk toggle
+src/components/access/IndependentTerminalApp.tsx-630-  const toggleBackground = () => {
+src/components/access/IndependentTerminalApp.tsx-631-    setBgIndex(prev => {
+src/components/access/IndependentTerminalApp.tsx:632:      const next = (prev + 1) % BG_OPTIONS.length;
+src/components/access/IndependentTerminalApp.tsx-633-      if (typeof window !== 'undefined') {
+src/components/access/IndependentTerminalApp.tsx-634-        try {
+src/components/access/IndependentTerminalApp.tsx-635-          localStorage.setItem('legends_terminal_bg_index', String(next));
+src/components/access/IndependentTerminalApp.tsx-636-          localStorage.removeItem('legends_terminal_bg');
+src/components/access/IndependentTerminalApp.tsx-637-        } catch {}
+src/components/access/IndependentTerminalApp.tsx-638-      }
+src/components/access/IndependentTerminalApp.tsx-639-      return next;
+src/components/access/IndependentTerminalApp.tsx-640-    });
+src/components/access/IndependentTerminalApp.tsx-641-  };
+src/components/access/IndependentTerminalApp.tsx-642-  const toggleFullScreen = () => {
+--
+src/components/access/IndependentTerminalApp.tsx-727-
+src/components/access/IndependentTerminalApp.tsx-728-
+src/components/access/IndependentTerminalApp.tsx-729-
+src/components/access/IndependentTerminalApp.tsx-730-      {/* Real Gym Background Photo */}
+src/components/access/IndependentTerminalApp.tsx-731-      <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-732-        <img
+src/components/access/IndependentTerminalApp.tsx-733-          key={currentBgSrc}
+src/components/access/IndependentTerminalApp.tsx-734-          src={currentBgSrc}
+src/components/access/IndependentTerminalApp.tsx-735-          alt="Fitness Legends Gym Background"
+src/components/access/IndependentTerminalApp.tsx-736-          onError={() => {
+src/components/access/IndependentTerminalApp.tsx:737:            const chosen = BG_OPTIONS[bgIndex] || BG_OPTIONS[0];
+src/components/access/IndependentTerminalApp.tsx-738-            if (currentBgSrc !== chosen.fallback) {
+src/components/access/IndependentTerminalApp.tsx-739-              setCurrentBgSrc(chosen.fallback);
+src/components/access/IndependentTerminalApp.tsx-740-            } else if (currentBgSrc !== './gym-background.jpg') {
+src/components/access/IndependentTerminalApp.tsx-741-              setCurrentBgSrc('./gym-background.jpg');
+src/components/access/IndependentTerminalApp.tsx-742-            }
+src/components/access/IndependentTerminalApp.tsx-743-          }}
+src/components/access/IndependentTerminalApp.tsx-744-          style={{
+src/components/access/IndependentTerminalApp.tsx-745-            filter: 'brightness(1.06) contrast(1.08) saturate(1.06)',
+src/components/access/IndependentTerminalApp.tsx-746-            objectPosition: bgIndex === 0 ? 'center 35%' : 'center center',
+src/components/access/IndependentTerminalApp.tsx-747-          }}

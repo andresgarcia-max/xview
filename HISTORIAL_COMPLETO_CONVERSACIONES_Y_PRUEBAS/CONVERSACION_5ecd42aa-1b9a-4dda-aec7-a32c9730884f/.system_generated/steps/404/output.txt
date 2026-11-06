@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+identify 7 (162 ms): [update]:No [WorldCup Device] device after scan [update]ERR(L1094):can not find device
+bulkcmd (48 ms): [update]:No [WorldCup Device] device after scan [update]ERR(L1094):can not find device

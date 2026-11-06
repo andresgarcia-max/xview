@@ -1,0 +1,88 @@
+The search for "github mikrotik configuration security firewall scripts awesome-mikrotik routeros" returned the following summary:
+When looking for **MikroTik RouterOS** configurations, security hardening, firewall templates, and automated scripts on GitHub, several key community-driven repositories, tools, and best-practice baseline scripts stand out. 
+
+---
+
+### 1. Notable GitHub Repositories & Resources
+* **`jlbyh2o/awesome-mikrotik`**: A curated "Awesome List" containing open-source tools, scripts, management interfaces, and monitoring utilities tailored for RouterOS[1].
+* **`eworm-de/routeros-scripts`**: A widely referenced collection of utility and maintenance scripts for RouterOS (compatible heavily with v7), ranging from dynamic DNS updaters to system health checks.
+* **`Benewend/mikrotik-config-templates`**: A structured layout containing boilerplate templates for basic ISP configurations, VPN setups, monitoring solutions, and robust **firewall templates**[2].
+* **`bile0026/mikrotik_security`**: An Ansible-based auditing tool designed to scan MikroTik configurations for common exposure risks, unauthenticated users, baseline misconfigurations, and known vulnerabilities[3].
+
+---
+
+### 2. Core Security & Firewall Configuration Practices
+Most GitHub security baselines and `.rsc` configuration scripts enforce a standard set of hardening steps to protect RouterOS from external threats and brute-force attacks.
+
+#### A. Restricting and Disabling Unused Services
+By default, multiple management services may be active. Hardening scripts typically disable what isn't needed and restrict entry points to a local management subnet[4]:
+```routeros
+# Disable vulnerable or unused management protocols
+/ip service disable telnet,ftp,www,api,api-ssl
+
+# Change default ports (e.g., SSH) to minimize automated brute-force hits
+/ip service set ssh port=2222
+
+# Restrict Winbox/SSH access strictly to a trusted management subnet (e.g., 192.168.88.0/24)
+/ip service set winbox address=192.168.88.0/24
+/ip service set ssh address=192.168.88.0/24
+```
+
+#### B. Securing Layer 2 Discovery (NDP, MAC Server)
+Exposing Layer 2 discovery tools globally can leak device data outside your network boundary:
+```routeros
+# Disable MAC-Winbox and MAC-Telnet globally or restrict them to a safe interface list
+/tool mac-server set allowed-interface-list=none
+/tool mac-server mac-winbox set allowed-interface-list=none
+/tool mac-server ping set enabled=no
+
+# Disable IP Cloud / DDNS and Bandwidth Server if unused
+/ip cloud set ddns-enabled=no update-time=no
+/tool bandwidth-server set enabled=no
+```
+
+#### C. Essential Firewall Filter Baselines
+A secure input/forward chain template found across GitHub hardening guides usually follows this logic: allow established/related traffic, accept local/trusted management, drop invalid packets, and block everything else inbound on the WAN interface[5].
+
+```routeros
+/ip firewall filter
+# 1. Allow established, related, and untracked connections
+add chain=input action=accept connection-state=established,related,untracked comment="defconf: accept established,related,untracked"
+
+# 2. Drop invalid connections
+add chain=input action=drop connection-state=invalid comment="defconf: drop invalid"
+
+# 3. Allow ICMP (Ping) with rate limiting (optional protection)
+add chain=input action=accept protocol=icmp comment="defconf: accept ICMP"
+
+# 4. Allow local subnet or specific management IP to access the router
+add chain=input action=accept src-address=192.168.88.0/24 comment="Allow LAN management"
+
+# 5. Drop everything else coming from the WAN (or outside input)
+add chain=input action=drop in-interface-list=WAN comment="defconf: drop all from WAN"
+
+# Forward Chain Protection
+add chain=forward action=accept connection-state=established,related,untracked comment="defconf: accept established,related"
+add chain=forward action=drop connection-state=invalid comment="defconf: drop invalid forward"
+add chain=forward action=drop connection-nat-state=!dstnat connection-state=new in-interface-list=WAN comment="defconf: drop all from WAN not DSTNATed"
+```
+
+---
+
+### 3. How to Use & Import Scripts from GitHub
+1. **Download/Copy the `.rsc` file** or raw configuration text from your chosen repository.
+2. Open **Winbox** and click on **Files**, then drag and drop the script into the router storage[2].
+3. Alternatively, open the **New Terminal** in Winbox/WebFig and run the import command[2]:
+   ```routeros
+   /import file-name.rsc
+   ```
+   *(Always review scripts line-by-line in a text editor before importing them into a production router to ensure interface names like `ether1` or bridge names match your unique network architecture.)*
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn_-I6gRb9MXQ8DfcXsgHaNwIHrv6Wkj3-eT5-VKBaOhuQ-Gt73AuOhqcb_wNanoqUtWqdxX-D3LD2pVzoM6hKjiDFtuGXuvAezYx4mf-0mpzd4-SfeSQFWil79M2T2-jI)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEplYI4isGBoS6r2durc5DPQW9rKhuMRFplk3WqeNBgddZ0Tftncm3In2eoexEtdjvn661lBmhdv1-dHzYH0lBNa00rNnt0VY0oZdixfiGtExpp5fmovez7Z1holbPdO2jUqm-I_A9ql3V7WA==)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjKl9nkWiL3y48TXOqAsy6tMfsY81az31PhU_eGDPfOUUt02Bjjtfa_xbUgq1hmq9LcHJUInQ7iTkl-q8F1atF1tlnZ8DT5RT6k_XS0Rfgk_hbAQFvZVHfIKaFTo_vHB5QMJ8=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCdOqKrGJdNxwc_K8hyZoWiVFoDNWtNDNDI0aTyb_njk2lx2tzQ66jDmC22Glok7a_VtWoijS0ffmqYt6LCS1Gl70bHO3ww2st0Qih08_KraiECy4HujrZlMU8enfLXPGnPGbdunet47DcLewsZSuKfAYxN6CAT0kpPTgoOHlgajKAkGQZVx1Qm-S3Q4s-KP8H5vFA31QJmSM=)
+[5] [github.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFggMdveI2jSkArtZxrqveBP_C2WkCIv58C7yapZ2h7Ngzqu8Em8iG10TTZl-eihUAtBVr4XKKp3d8ny54FLV2cThJdnDFvajSsNpOqfG0uO4Nyn_wBjOD-rofFaLLY0_L-HPyCuTh-NA==)
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

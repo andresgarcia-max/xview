@@ -17,3 +17,8 @@ description: Regla obligatoria del proyecto Xview+ (ZTE ZXV10 B866V2): Prohibido
 
 3. **Protección de claves únicas:**
    - Jamás flashear `factory.img` (claves DRM Widevine L1) ni `cri_data.img` (MAC y Número de Serie).
+
+4. **Prohibido pedir o mencionar el paso de `Configuración → Preferencias del dispositivo → Información → Compilación (presionar OK 7 veces)`:**
+   - En las cajas Megacable Xview+ (`ZTE ZXV10 B866V2`, `MarketCode 4301`), ese paso está bloqueado por el reto RSA-2048 / Código QR de ZTE (`com.zte.adb` / `libencryCode.so`).
+   - **No es viable y es inútil** si no se cuenta con un generador de código QR válido o si no se salta esa parte mediante los programas/métodos externos (salto por botón externo `RESET` a Recovery `fastbootd` `PID_4EE7`, U-Boot Fastboot `PID_0D02`, modo WorldCup/ADNL `VID_1B8E`, llave `QADEBUG.ini`, o inyección de `/cache/recovery/last_QR` = `"EE@"`).
+   - Nunca menciones ni instruyas al usuario a hacer clic 7 veces en `Compilación`.

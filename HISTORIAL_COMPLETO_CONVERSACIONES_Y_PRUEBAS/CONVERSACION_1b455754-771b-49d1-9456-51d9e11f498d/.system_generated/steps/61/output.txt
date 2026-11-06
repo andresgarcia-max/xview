@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+warning: in the working copy of '00_Plantillas_RSC_Listas_Para_Usar/05_puerto1_internet_sin_restricciones.rsc', LF will be replaced by CRLF the next time Git touches it
+[main 6cca2fe] Agregar plantilla 05: Puerto 1 WAN libre sin restricciones y Puertos 2 al 5 con DHCP 192.168.15.x
+ 1 file changed, 59 insertions(+)
+ create mode 100644 00_Plantillas_RSC_Listas_Para_Usar/05_puerto1_internet_sin_restricciones.rsc

@@ -1,0 +1,19 @@
+Command exited with code 0.
+
+Command output:
+Starting diagnosis for authenticated state...
+Loading packaged indexPath: c:\Users\andre\OneDrive\Desktop\gym\LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\resources\app\dist\index.html
+[RENDERER CONSOLE 2] %cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged. (node:electron/js2c/sandbox_bundle:2)
+[RENDERER CONSOLE 1] Existing localStorage keys: ["legends_access_logs_v1","legends_branches_v1","legends_employees_v1","legends_sales_v1","legends_catalog_plans_v1","legends_roles_v1","legends_notifications_v1","legends_expenses_v1","legends_terminal_bg_ver","legends_settings_v1","legends_products_v1","legends_members_v1","legends_cash_session_v1","legends_terminal_bg_index"] (:6)
+Initial state: {"status":"ok","keys":["legends_access_logs_v1","legends_branches_v1","legends_employees_v1","legends_sales_v1","legends_catalog_plans_v1","legends_roles_v1","legends_notifications_v1","legends_expenses_v1","legends_terminal_bg_ver","legends_settings_v1","legends_products_v1","legends_members_v1","legends_cash_session_v1","legends_terminal_bg_index"]}
+[RENDERER CONSOLE 1] Found empCards: 14 (:6)
+[RENDERER CONSOLE 1] Clicked submit button! (:19)
+Login attempt: submitted
+Captured after login screen: 1899x914

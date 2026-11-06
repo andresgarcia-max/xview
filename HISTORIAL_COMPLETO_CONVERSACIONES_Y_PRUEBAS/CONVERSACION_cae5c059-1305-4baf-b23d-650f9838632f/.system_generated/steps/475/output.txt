@@ -1,0 +1,261 @@
+Command exited with code 1.
+
+Command output:
+src/components/access/IndependentTerminalApp.tsx(56,3): error TS1131: Property or signature expected.
+src/components/access/IndependentTerminalApp.tsx(56,23): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(56,24): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(57,19): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(57,20): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(57,32): error TS1109: Expression expected.
+src/components/access/IndependentTerminalApp.tsx(58,1): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(78,17): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(79,17): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(80,18): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(80,19): error TS1136: Property assignment expected.
+src/components/access/IndependentTerminalApp.tsx(80,27): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(81,19): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(82,14): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(82,15): error TS1136: Property assignment expected.
+src/components/access/IndependentTerminalApp.tsx(82,23): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(83,33): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(110,5): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(111,5): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(225,39): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(225,53): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(257,45): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(257,46): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(275,9): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(276,9): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(281,45): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(281,46): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(283,5): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(283,7): error TS1005: 'try' expected.
+src/components/access/IndependentTerminalApp.tsx(286,3): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(314,37): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(314,38): error TS1134: Variable declaration expected.
+src/components/access/IndependentTerminalApp.tsx(314,45): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(314,55): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(314,57): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(321,58): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(321,60): error TS1134: Variable declaration expected.
+src/components/access/IndependentTerminalApp.tsx(321,105): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(322,39): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(322,56): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(323,43): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(323,60): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(324,38): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(324,55): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(327,66): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(327,68): error TS1134: Variable declaration expected.
+src/components/access/IndependentTerminalApp.tsx(327,128): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(327,142): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(331,7): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(332,7): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(333,9): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(334,9): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(533,36): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(533,48): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(559,22): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(559,23): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(559,24): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(559,30): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(559,32): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(559,58): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(561,5): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(577,24): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(577,25): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(577,26): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(577,40): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(579,11): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(610,5): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(614,3): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(614,4): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(614,173): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(633,20): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(633,21): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(633,22): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(633,40): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(633,42): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(641,20): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(641,21): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(641,22): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(641,34): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(654,3): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(654,4): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(654,24): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(670,36): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(670,37): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(670,38): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(670,54): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(725,9): error TS2657: JSX expressions must have one parent element.
+src/components/access/IndependentTerminalApp.tsx(727,94): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(727,126): error TS1005: '}' expected.
+src/components/access/IndependentTerminalApp.tsx(727,128): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(727,161): error TS1005: '}' expected.
+src/components/access/IndependentTerminalApp.tsx(727,163): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(727,165): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(727,166): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(730,11): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/access/IndependentTerminalApp.tsx(733,13): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/access/IndependentTerminalApp.tsx(750,9): error TS1005: ')' expected.
+src/components/access/IndependentTerminalApp.tsx(751,8): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(771,43): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(772,11): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(772,12): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(774,10): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/access/IndependentTerminalApp.tsx(802,13): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(802,15): error TS1003: Identifier expected.
+src/components/access/IndependentTerminalApp.tsx(803,13): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(804,9): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(804,11): error TS1109: Expression expected.
+src/components/access/IndependentTerminalApp.tsx(805,11): error TS2657: JSX expressions must have one parent element.
+src/components/access/IndependentTerminalApp.tsx(827,9): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(828,7): error TS1109: Expression expected.
+src/components/access/IndependentTerminalApp.tsx(828,8): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(972,14): error TS17008: JSX element 'form' has no corresponding closing tag.
+src/components/access/IndependentTerminalApp.tsx(1078,29): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1080,25): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1080,27): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1081,23): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/access/IndependentTerminalApp.tsx(1084,39): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1088,28): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1100,19): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1100,21): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1116,25): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1118,21): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1118,23): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1119,19): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/access/IndependentTerminalApp.tsx(1122,21): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/access/IndependentTerminalApp.tsx(1128,25): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1130,21): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1130,23): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1131,19): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/access/IndependentTerminalApp.tsx(1134,21): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/access/IndependentTerminalApp.tsx(1140,25): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1142,21): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1142,23): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/access/IndependentTerminalApp.tsx(1143,19): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/access/IndependentTerminalApp.tsx(1146,21): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/access/IndependentTerminalApp.tsx(1147,17): error TS1005: ')' expected.
+src/components/access/IndependentTerminalApp.tsx(1148,15): error TS1109: Expression expected.
+src/components/access/IndependentTerminalApp.tsx(1152,26): error TS1136: Property assignment expected.
+src/components/access/IndependentTerminalApp.tsx(1152,29): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1156,28): error TS1136: Property assignment expected.
+src/components/access/IndependentTerminalApp.tsx(1158,21): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1159,21): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1160,17): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1163,36): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1163,41): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1163,46): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1163,55): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/components/access/IndependentTerminalApp.tsx(1163,58): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(1163,76): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1163,91): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1163,97): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/components/access/IndependentTerminalApp.tsx(1163,121): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1163,132): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1163,143): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1165,23): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1166,23): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1175,41): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1175,49): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/components/access/IndependentTerminalApp.tsx(1175,53): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1175,64): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1175,79): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1175,86): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1175,99): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1177,27): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1178,27): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1185,28): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1185,30): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(1185,49): error TS1005: ',' expected.
+src/components/access/IndependentTerminalApp.tsx(1185,67): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1185,68): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1185,69): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1185,71): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(1185,76): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(1185,81): error TS1434: Unexpected keyword or identifier.
+src/components/access/IndependentTerminalApp.tsx(1185,89): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1197,31): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,38): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,43): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,54): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,62): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,73): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,88): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,109): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,120): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,129): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1197,144): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1199,23): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1200,23): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1254,37): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1254,41): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1254,45): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1254,58): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1255,55): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1255,85): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1256,56): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1256,75): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,33): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,38): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,45): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,56): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,64): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,74): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,89): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,108): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1289,123): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1291,25): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1292,25): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1313,34): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1313,51): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1313,64): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1313,70): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/components/access/IndependentTerminalApp.tsx(1313,88): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1313,101): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1313,121): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1315,21): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1316,21): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1317,21): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1318,21): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1333,33): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1333,40): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1333,47): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1333,62): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1333,90): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1333,103): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1335,25): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1336,25): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1342,38): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1342,43): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1342,50): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1342,67): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1342,82): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1343,58): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1343,82): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1345,38): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1345,42): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1345,49): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1347,25): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1348,25): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1412,29): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,36): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,43): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,51): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,60): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/components/access/IndependentTerminalApp.tsx(1412,74): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,82): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,95): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,120): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,128): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/components/access/IndependentTerminalApp.tsx(1412,146): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,175): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,195): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,213): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,228): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,236): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1412,251): error TS1005: ';' expected.
+src/components/access/IndependentTerminalApp.tsx(1414,21): error TS1127: Invalid character.
+src/components/access/IndependentTerminalApp.tsx(1415,21): error TS1128: Declaration or statement expected.
+src/components/access/IndependentTerminalApp.tsx(1658,1): error TS1160: Unterminated template literal.

@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Saved repo_bg1.jpg, size: 1082796
+Saved repo_bg2.jpg, size: 1365852
+Saved repo_bg3.jpg, size: 195268

@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+Name                               Length
+----                               ------
+gym-dumbbell-background.jpg        322819
+GYM_FUNCIONAL_WEB.bat                 480
+GYM_FUNCIONAL_WEB.html              10257
+GYM_FUNCIONAL_WEB.url                 142
+LEYENDS_GYM_8K_CUADRADA_1X1.jpg   5985780
+LEYENDS_GYM_8K_ESTUDIO_16X9.jpg   5969677
+LEYENDS_GYM_8K_FOTO_REAL_16X9.jpg 3594959
+modal-gym-bg-hd.jpg                227074
+PUNTO_DE_VENTA_GYM.bat                410
+PUNTO_DE_VENTA_GYM.url                151
+
+

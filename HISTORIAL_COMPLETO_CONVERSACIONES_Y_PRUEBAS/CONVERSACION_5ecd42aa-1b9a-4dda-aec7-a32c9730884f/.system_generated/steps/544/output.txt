@@ -1,0 +1,84 @@
+Command exited with code 0.
+
+Command output:
+--American
+--Controlclassescoveredoutlineattacksdevices
+--Daniel
+--en_US
+--fastboot
+--female
+--growJSONdutyNamesaleyou
+--headers
+--offset
+--payload
+--POST
+----prop
+--reason
+--rescue
+--retry_count
+--show_text
+--socket_fd
+--status_fd
+--towardsRecordsPrivateForeignPremierchoicesVirtualreturnsCommentPoweredinline
+=== ZTE STRINGS IN RECOVERY ===
+librecovery_zte_conf.so
+<3>systemcontrol: [ubootenv] read error 0x%x 
+<3>systemcontrol: [ubootenv] CRC Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+do not need to install app,need to remove %s
+bootable/recovery/zte/zte_inifile.c
+<3>systemcontrol: [ubootenv] get MTD info error
+<6>systemcontrol: [ubootenv] set property count: %d
+ota_path_http = [%s]
+UpdateModefile:%d
+<3>systemcontrol: [ubootenv] %s is not a ubootenv varible.
+<3>systemcontrol: [ubootenv] Not enough memory for environment (%u bytes)
+config file zteconfig.ini is error.
+<3>systemcontrol: [ubootenv] don't init done
+<3>systemcontrol: [ubootenv] SYS_LOGE write, size %d 
+zte_restore_factory_config success!!!
+<3>systemcontrol: [ubootenv] open devices error: %s
+<3>systemcontrol: [ubootenv] Get MTD info error
+/cache/recovery/last_zteconfig.ini
+/tmp/zteconfigTmp.ini
+einifile_export_buff %s error
+read_einifile_content
+<3>systemcontrol: [ubootenv] bootenv do not init
+<3>systemcontrol: [ubootenv] Invalid env data key:%s, value:%s
+<3>systemcontrol: [ubootenv] CRC2 Check SYS_LOGE save_crc=%08x, crcCalc = %08x 
+<3>systemcontrol: [ubootenv] Read access failed !!!
+bootable/recovery/zte/zte_recovery.cpp
+select_and_read_einifile
+<6>systemcontrol: [ubootenv] update value name [%s]: value [%s] 
+/udisk
+/udisk/factory_update_param.aml
+<3>systemcontrol: [ubootenv] %s is not a ubootenv variable.
+<3>systemcontrol: [ubootenv] MEMERASE SYS_LOGE %d
+UpdateMode:%d
+ubootenv.var.
+<3>systemcontrol: [ubootenv] Out of memory!!!
+<6>systemcontrol: [ubootenv] using %s with size(%d) (%d)
+<3>systemcontrol: [ubootenv] parse attribute malloc error 
+/cache/recovery/last_zteconfigbak.ini
+ubootenv.var.bootcmd
+<5>systemcontrol: [ubootenv] ubootenv.var.%s not found, create it.
+<3>systemcontrol: [ubootenv] open devices error
+ERROR:package is not exist! ota_path = %s
+/tmp/zteconfigflash.ini
+<3>systemcontrol: [ubootenv] error need '=' skip this value
+<3>systemcontrol: [ubootenv] Cannot write %s: %d.
+/cache/recovery/last_updatemode
+bootable/recovery/install/udisk_upgrade.cpp
+<6>systemcontrol: [ubootenv] Save ubootenv to %s succeed!
+<3>systemcontrol: [ubootenv] read %s failed 
+<3>systemcontrol: [ubootenv] Cannot read %s: %d.
+increment_ota_path_http = [%s]
+<3>systemcontrol: [ubootenv] open device(%s) error
+UpdateMode=1,need to wipe_data
+zte_restore_factory_config failed!!!
+/dev/block/ubootenv
+/sdcard/ZTESTBUSB/ota.zip
+/udisk/ZTESTBUSB/ota.zip
+/udisk/ZTESTBUSB/increment.zip
+/sdcard/ZTESTBUSB/increment.zip
+/udisk/ZTESTBUSB/ota_logo.zip
+/sdcard/ZTESTBUSB/ota_logo.zip

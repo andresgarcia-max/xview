@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+ERROR: no se pudo terminar el proceso "adnl.exe" con PID 21940.
+Motivo: Acceso denegado.

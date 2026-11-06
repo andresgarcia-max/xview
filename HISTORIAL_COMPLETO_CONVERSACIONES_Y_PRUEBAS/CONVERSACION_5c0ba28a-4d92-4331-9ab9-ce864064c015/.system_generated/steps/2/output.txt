@@ -1,0 +1,39 @@
+The search for "gym access control management system open source repository" returned the following summary:
+Open-source gym management systems featuring modules for member tracking, check-ins, and access control typically range from full-stack web platforms to self-hostable apps. Popular repositories and projects matching these criteria include:
+
+### 1. **GymPulse** (`Miftah-Fentaw / GymPulse`)
+* **Tech Stack:** Go (Golang) API, PostgreSQL, React (Admin & PWA), Vue (Landing page)[1]
+* **Description:** A self-hostable, modern gym management platform explicitly built to avoid SaaS lock-in[1]. 
+* **Key Features:** Member management, **QR check-in/access logic**, billing, classes, and trainer schedules[1]. 
+* **Repository:** Search `Miftah-Fentaw/GymPulse` on GitHub[1].
+
+### 2. **GYM One** (`mayerbalintdev / GYM-One`)
+* **Tech Stack:** PHP, MySQL, Bootstrap[2]
+* **Description:** A comprehensive open-source gym management software designed to optimize sports clubs and fitness centers[3]. 
+* **Key Features:** Member tracking, membership expiration alerts, ticketing/day passes, payment processing, and a built-in admin dashboard[2].
+* **Repository:** Search `mayerbalintdev/GYM-One` on GitHub[4].
+
+### 3. **Gym Management System with QR Attendance** (`rjgaton007 / gyms`)
+* **Tech Stack:** Python (CustomTkinter GUI), SQLite/File persistence, QR code scanner library[1]
+* **Description:** A desktop-oriented application tailored for managing gym memberships combined with a scanner system[1].
+* **Key Features:** Uses unique QR codes generated for users to handle attendance logging via webcam/scanners.
+* **Repository:** Search `rjgaton007/gyms` on GitHub[1].
+
+### 4. **TrainMate** (`Michael-Moris / TrainMate`)
+* **Tech Stack:** ASP.NET Core MVC (C#), Entity Framework Core, Microsoft SQL Server, Bootstrap[5]
+* **Description:** Built following clean architecture and enterprise patterns (Repository & Unit of Work pattern)[5].
+* **Key Features:** Role-based authentication (Admin/SuperAdmin), member and trainer management, session booking, and attendance logs[5].
+* **Repository:** Search `Michael-Moris/TrainMate` on GitHub[5].
+
+### Looking for Hardware-Integrated Access Control (RFID / Turnstiles)?
+Most software repositories handle access control via **software check-ins** (such as QR code scanning or dashboard permission toggles)[1][6]. If you need to integrate physical gates, turnstiles, or Wiegand/RFID readers (like Arduino, Raspberry Pi, or ESP32 hardware controllers), developers usually extend these open-source backends by writing a custom hardware-listener microservice that queries the main database via REST API to verify membership status before popping a relay switch.
+
+Sources:
+[1] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXPUtmsHXwvJPUeD0GRgbYV_havLr78mqQIL7G6reHOEUKzpKrCu0IJjsEI9xhsqro13JAqL6i7wdD6GyXQ35CmbXSopmqNLL3Gch2_80lkVcZD2Zg7ObNWU3v3HgKjWgg8Os=)
+[2] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuLv6di0sEoxSgNhT2SrET_amRwfpGj4td0CzFRM7AEUmxqFk7s8XV8v49qeJOPcoqMsbqe3cuERRoY_tXfh0ASpgSo50K2vGZ1q4Ra5W2YFnNto2qgD7VlyFQyGkP)
+[3] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_8uT7bx2yhdTnM2ItJBbURxVGcKcg-vSCA2frFDm6JD4pEzF5QdljvsKzcK3gjac7J_QDmE1W-5uHBbQ8L2E1CZHKIYq_QiFgFuR5ZiK681UtU6MFS5Bz-Q4xQF0=)
+[4] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuLv6di0sEoxSgNhT2SrET_amRwfpGj4td0CzFRM7AEUmxqFk7s8XV8v49qeJOPcoqMsbqe3cuERRoY_tXfh0ASpgSo50K2vGZ1q4Ra5W2YFnNto2qgD7VlyFQyGkP)
+[5] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzbHMT-saOfKlIZ7YfO4mqBjVSVEFds3fjbocpP4WDAkkhNAlkdWzMpgYJCbm1M3S01fo0JvOij-Lt31pR5o3BrhYnuT-peOQg41m7lZcKqW0hXAcUKFpEHtd1m_6_YQ==)
+[6] [github.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0IzvXtA92SeiM81V9kZgAyHKfvFq02n2gQFknKYr8VaqKMKbfYgEYvoRcK1rkChPfGpCvmyqKDChLHFgUxX7ZmOgWV2-SwK4c_QLlfD3ZrXZFUp7qS2Jlvccy8UDI)
+
+Note: Source URLs are HTTP redirects; check where they resolve if you need the direct link.

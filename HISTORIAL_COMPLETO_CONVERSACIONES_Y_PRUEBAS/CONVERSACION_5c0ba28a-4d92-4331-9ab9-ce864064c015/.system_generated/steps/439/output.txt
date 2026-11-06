@@ -1,0 +1,18 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\services\storage.ts:375:  },
+  LEGENDS\src\services\storage.ts:376:
+> LEGENDS\src\services\storage.ts:377:  getCurrentUser(): Employee | null {
+  LEGENDS\src\services\storage.ts:378:    return this.validateOrKillTabSession();
+  LEGENDS\src\services\storage.ts:379:  },
+  LEGENDS\src\services\storage.ts:380:
+> LEGENDS\src\services\storage.ts:381:  saveCurrentUser(user: Employee | null): void {
+  LEGENDS\src\services\storage.ts:382:    try {
+  LEGENDS\src\services\storage.ts:383:      if (typeof window === 'undefined') return;
+  LEGENDS\src\services\storage.ts:384:      if (user) {
+  LEGENDS\src\services\storage.ts:385:        let token = sessionStorage.getItem(KEYS.TAB_SESSION_TOKEN);
+  LEGENDS\src\services\storage.ts:386:        if (!token || window.name !== token) {
+
+

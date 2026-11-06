@@ -1,0 +1,20 @@
+Command exited with code 1.
+
+Command output:
+mke2fs 1.46.2 (28-Feb-2021)
+	Using EXT2FS Library version v1.46.2-1113-gb00aa279
+mke2fs.exe : Usage: C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\mke2fs.exe [-c|-l 
+filename] [-b block-size] [-C cluster-size]
+En línea: 2 Carácter: 1
++ & "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIE ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Usage: C:\Users...C cluster-size]:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+	[-i bytes-per-inode] [-I inode-size] [-J journal-options]
+	[-G flex-group-size] [-N number-of-inodes] [-d root-directory]
+	[-m reserved-blocks-percentage] [-o creator-os]
+	[-g blocks-per-group] [-L volume-label] [-M last-mounted-directory]
+	[-O feature[,...]] [-r fs-revision] [-E extended-option[,...]]
+	[-t fs-type] [-T usage-type ] [-U UUID] [-e errors_behavior][-z undo_file]
+	[-jnqvDFSV] device [blocks-count]

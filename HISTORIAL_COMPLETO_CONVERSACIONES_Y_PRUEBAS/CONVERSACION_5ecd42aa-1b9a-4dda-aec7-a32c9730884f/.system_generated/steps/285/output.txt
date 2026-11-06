@@ -1,0 +1,1 @@
+Made 1 replacement in c:\Users\andre\OneDrive\Desktop\xview\.agents\rules\REGLA_SIN_ABRIR_TORNILLOS_NO_TTL.md starting at line 18 (+5/-0 lines).

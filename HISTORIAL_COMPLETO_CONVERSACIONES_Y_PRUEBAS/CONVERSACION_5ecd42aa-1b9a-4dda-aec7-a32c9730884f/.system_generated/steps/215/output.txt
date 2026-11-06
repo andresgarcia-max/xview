@@ -1,0 +1,37 @@
+Command exited with code 0.
+
+Command output:
+PowerShell Parser Errors: 21
+Falta una expresión de índice de matriz o no es válida.
+Falta una expresión de índice de matriz o no es válida.
+Falta un argumento en la lista de parámetros.
+Token '&' inesperado en la expresión o la instrucción.
+Falta el paréntesis de cierre ')' en la expresión.
+No se permite usar el carácter de Y comercial (&). El operador & está reservado para un uso futuro; encierre un símbolo de Y comercial entre comillas dobles ("&") para pasarlo como parte de una cadena.
+No se permiten elementos de canalización vacíos.
+Falta un argumento en la lista de parámetros.
+Falta la llave de cierre "}" en el bloque de instrucciones o la definición de tipo.
+Token ')' inesperado en la expresión o la instrucción.
+Token '&' inesperado en la expresión o la instrucción.
+Falta el paréntesis de cierre ')' en la expresión.
+Falta un argumento en la lista de parámetros.
+Token '&' inesperado en la expresión o la instrucción.
+Falta el paréntesis de cierre ')' en la expresión.
+No se permite usar el carácter de Y comercial (&). El operador & está reservado para un uso futuro; encierre un símbolo de Y comercial entre comillas dobles ("&") para pasarlo como parte de una cadena.
+Falta una expresión después del operador unario '!'.
+Token '}' inesperado en la expresión o la instrucción.
+Falta un argumento en la lista de parámetros.
+Falta la cadena en el terminador: ".
+Falta la llave de cierre "}" en el bloque de instrucciones o la definición de tipo.
+
+Name                               Mode   Length
+----                               ----   ------
+1_HERRAMIENTAS_MOTOR               dar--l       
+2_APKS_LIBERACION_Y_TV             dar--l       
+3_LLAVES_USB_PARA_LA_CAJA          dar--l       
+4_DRIVERS_Y_GUI_WINDOWS            dar--l       
+5_FIRMWARE_SEGURO_B866V2           dar--l       
+LEEME_GUIA_PROGRAMA_PERFECTO.md    -a---l 2366  
+PROGRAMA_PERFECTO_XVIEW_B866V2.bat -a---l 196   
+
+

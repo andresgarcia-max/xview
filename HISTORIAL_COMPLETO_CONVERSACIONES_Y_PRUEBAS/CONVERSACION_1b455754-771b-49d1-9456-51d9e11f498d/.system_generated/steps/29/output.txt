@@ -1,0 +1,52 @@
+Command exited with code 0.
+
+Command output:
+Port 21 : OPEN
+Port 22 : OPEN
+Port 23 : OPEN
+Port 53 : OPEN
+Port 80 : OPEN
+Port 443 : CLOSED
+Port 2000 : OPEN
+Port 8080 : CLOSED
+Port 8291 : OPEN
+Port 8728 : OPEN
+Port 8729 : OPEN
+HTTP Status: 200
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="/favicon.png"/>
+<title>RouterOS router configuration page</title>
+<style type="text/css">
+body {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 11px;
+}
+img {border: none}
+img:hover {opacity: 0.8;}
+h1 {
+font-size: 1.7em;
+display: inline;
+margin-bottom: 10px;
+}
+fieldset {
+margin-top: 20px;
+background: #fff;
+padding: 20px;
+border: 1px solid #c1c1c1; 
+}
+#container {
+width: 70%;
+margin: 10% auto;
+}
+#box {
+background-color: #fff; 
+-moz-border-radius: 7px; 
+-webkit-border-radius: 7px; 
+border: 1px solid #c1c1c1; 
+padding: 30px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f3f3f3'); /* for IE */
+background: -webkit-gradient(linear, left top, left b
+MNDP finished/timeout: Excepción al llamar a "Receive" con los argumentos "1": "Se ha forzado la interrupción de una conexión existente por el host remoto"

@@ -1,0 +1,51 @@
+Command exited with code 0.
+
+Command output:
+
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:1:import cardClienteNuevo from 
+'../../assets/card-cliente-nuevo.jpg';
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:2:import cardVisita from '../../assets/card-visita.jpg';
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:3:import cardHuella from '../../assets/card-huella.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:4:import gymBg from '../../assets/gym-background.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:5:import gymBgMotto from 
+'../../assets/gym-background-motto.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:6:import modalGymBg from '../../assets/modal-gym-bg.jpg';
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:818:            className="group relative h-[300px] 
+sm:h-[330px] lg:h-[350px] max-h-[40vh] rounded-3xl overflow-hidden border-2 border-amber-400/60 hover:border-amber-400 
+transition-all duration-500 shadow-[0_0_25px_rgba(245,158,11,0.25)] hover:shadow-[0_0_45px_rgba(245,158,11,0.55)] flex 
+flex-col justify-between p-5 cursor-pointer transform hover:-translate-y-2 select-none"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:819:          >
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:820:            <img 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:821:              src={cardClienteNuevo} 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:822:              alt="Cliente Nuevo Gym" 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:823:              className="absolute inset-0 w-full h-full 
+object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 
+group-hover:brightness-105"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:824:            />
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:852:            className="group relative h-[300px] 
+sm:h-[330px] lg:h-[350px] max-h-[40vh] rounded-3xl overflow-hidden border-2 border-emerald-400/60 
+hover:border-emerald-400 transition-all duration-500 shadow-[0_0_25px_rgba(16,185,129,0.25)] 
+hover:shadow-[0_0_45px_rgba(16,185,129,0.55)] flex flex-col justify-between p-5 cursor-pointer transform 
+hover:-translate-y-2 select-none"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:853:          >
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:854:            <img 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:855:              src={cardVisita} 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:856:              alt="Pase de Visita Gym" 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:857:              className="absolute inset-0 w-full h-full 
+object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 
+group-hover:brightness-105"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:858:            />
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:886:            className="group relative h-[300px] 
+sm:h-[330px] lg:h-[350px] max-h-[40vh] rounded-3xl overflow-hidden border-2 border-amber-400/70 hover:border-amber-400 
+transition-all duration-500 shadow-[0_0_25px_rgba(245,158,11,0.3)] hover:shadow-[0_0_50px_rgba(245,158,11,0.6)] flex 
+flex-col justify-between p-5 cursor-pointer transform hover:-translate-y-2 select-none"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:887:          >
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:888:            <img 
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:889:              src={cardHuella} 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:890:              alt="Lector Biom�trico de Huella Gym" 
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:891:              className="absolute inset-0 w-full h-full 
+object-cover object-center group-hover:scale-108 transition-transform duration-700 brightness-95 
+group-hover:brightness-105"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:892:            />
+
+

@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+040000 tree 84e4566348a5d7667bb3d9b19961dcbc06e2a171	src/assets/avatars
+100644 blob 934c84e6f0a5940dc71b5a837d59992c9e34b3ef	src/assets/card-cliente-nuevo.jpg
+100644 blob f6446f34cc098ee458a3ccdeb0825e2cb00cab2d	src/assets/card-huella.jpg
+100644 blob 18ef223fca19844e17bbfe6caf34c99c3dbe83e7	src/assets/card-visita.jpg
+100644 blob e3021fe0caab565fd5f942bada5d885122681667	src/assets/gym-background.jpg
+100644 blob 02251f4b956c55af2d76fd0788124d7eee2b45eb	src/assets/hero.png
+100644 blob c30f93e47e4922f530fa58c43e18ce0ee8d1596a	src/assets/logo.png
+100644 blob 6c87de9bb3358469122cc991d5cf578927246184	src/assets/react.svg
+100644 blob 5101b674df391399da71c767aa5c976426c9dc7a	src/assets/vite.svg
+100644 blob 072e89a382e7981adef75dcaf0bcd5f849749497	src/assets/web-gym-nuevo.jpg
+100644 blob e28e0ed0cb88d81d3515b629a226afddb5641a04	src/assets/web-gym-visita.jpg
+100644 blob cf349f2f667f37b42c45019107f65354b5acb361	src/assets/web-gym-weights.jpg
+

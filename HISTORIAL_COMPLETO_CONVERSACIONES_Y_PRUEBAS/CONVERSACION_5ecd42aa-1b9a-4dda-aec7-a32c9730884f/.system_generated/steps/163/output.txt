@@ -1,0 +1,95 @@
+Command exited with code 0.
+
+Command output:
+=== Key findings in Box Z41220090453546 (Feb 2024 build) ===
+12-31 18:00:47.876     0     0 I prk     : [    0.000000@0]d Kernel command line: init=/init console=ttyS0,115200 no_console_suspend earlyprintk=aml-uart,0xff803000 ramoops.pstore_en=1 ramoops.record_size=0x8000 ramoops.console_size=0x4000 phy_idx= tvts_mode=0 hdr_policy=0 hdr_priority= reboot_mode_android=normal fb_width=1920 fb_height=1080 display_bpp=24 outputmode=1080p60hz panel_type=lcd_1 lcd_ctrl=0x00000000 hdmitx=,422,12bit hdmimode=1080p60hz tvts_mode=0 hdmichecksum=0xb0b40000 dolby_vision_on=0 frac_rate_policy=1 hdmi_read_edid=1 cvbsmode=480cvbs osd_reverse=0 video_reverse=0 irq_check_en=0 androidboot.selinux=enforcing androidboot.firstboot=0 jtag=disable androidboot.hardware=amlogic 2015.01-g3be660d-dirty androidboot.build.expect.baseband=N/A androidboot.rpmb_state=1 CTSEnable=0 market=4301,5 ProductID=74100499007041200000C4741EF2FAFB androidboot.wificountrycode=MX androidboot.serialno=Z41220090453546 mac=C4:74:1E:F2:FA:FB loglevel=1 keyshield=1 otg_device=0 MTU=1452 androidboot.boardtype=8 boot_revision=V0001 androidboot.bo
+12-31 18:00:49.830  3411  3411 D vold_prepare_subdirs: Setting up mode 771 uid 0 gid 1000 context u:object_r:apex_module_data_file:s0 on path: /data/misc_de/0/apexdata/com.android.adbd
+12-31 18:00:50.894  3441  3441 D SystemControl: [CPQControl]:Cpq_LoadBasicRegs: BlackExtension moudle disabled!
+12-31 18:00:50.925  3441  3441 D SystemControl: [CPQControl]:Cpq_LoadBasicRegs: Sharpness1 moudle disabled!
+12-31 18:00:51.000     1     1 I auditd  : type=1107 audit(0.0:42): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=ro.build.id pid=3500 uid=0 gid=0 scontext=u:r:ztepropertyd:s0 tcontext=u:object_r:build_prop:s0 tclass=property_service permissive=0'
+12-31 18:00:51.000     1     1 W /system/bin/init: type=1107 audit(0.0:42): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=ro.build.id pid=3500 uid=0 gid=0 scontext=u:r:ztepropertyd:s0 tcontext=u:object_r:build_prop:s0 tclass=property_service permissive=0'
+12-31 18:00:51.002  3500  3500 W libc    : Unable to set property "ro.build.id" to "KOT49H": error code: 0x18
+12-31 18:00:51.850  3433  3433 I zygote  : option[47]=-Xfingerprint:Megacable/B866V2_ZTE/B866V2_ZTE:12/SC/V82815417.2033:user/release-keys
+12-31 18:00:58.775  3655  3655 D CompatConfig: Adding: com.android.server.compat.config.Change@adbbd92
+12-31 18:00:58.800  3655  3655 D CompatConfig: No directory /apex/com.android.adbd/etc/compatconfig, skipping
+12-31 18:00:59.326  3655  3655 D PackageManager: Directories scanned as system partitions: [/system:0, /vendor:524288, /odm:4194304, /oem:262144, /product:1048576, /system/system_ext:2097152, /apex/com.android.wifi:8388608, /apex/com.android.vndk.v31:8388608, /apex/com.android.tzdata:8388608, /apex/com.android.tethering:8388608, /apex/com.android.sdkext:8388608, /apex/com.android.scheduling:8388608, /apex/com.android.runtime:8388608, /apex/com.android.resolv:8388608, /apex/com.android.permission:8388608, /apex/com.android.os.statsd:8388608, /apex/com.android.neuralnetworks:8388608, /apex/com.android.mediaprovider:8388608, /apex/com.android.media.swcodec:8388608, /apex/com.android.media:8388608, /apex/com.android.ipsec:8388608, /apex/com.android.i18n:8388608, /apex/com.android.extservices:8388608, /apex/com.android.conscrypt:8388608, /apex/com.android.art:8388608, /apex/com.android.appsearch:8388608, /apex/com.android.adbd:8388608]
+12-31 18:00:59.779  3655  3655 W PackageManager: Failed to scan /system/priv-app/MegaCable-Portal: Package com.dotscreen.megacable.portal at /system/priv-app/MegaCable-Portal ignored: updated version 470 better than this 470
+12-31 18:01:00.034  3655  3655 D PackageManager: No files in app dir /apex/com.android.adbd/priv-app
+12-31 18:01:00.034  3655  3655 D PackageManager: No files in app dir /apex/com.android.adbd/app
+12-31 18:01:00.242  3655  3655 W PackageManager: Relax SCAN_REQUIRE_KNOWN requirement for package com.dotscreen.megacable.portal
+12-31 18:01:00.987  3569  3586 W installd: Ignoring /data/data/com.zte.adb/lib with unexpected GID 0 instead of 1000
+12-31 18:01:01.059  3569  3586 W installd: Ignoring /data/data/com.dotscreen.megacable.portal/lib with unexpected GID 0 instead of 10012
+02-05 02:17:30.089  3655  3655 I SystemServerTiming: StartAdbService
+02-05 02:17:30.089  3655  3655 I SystemServiceManager: Starting com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:30.409  3655  3655 I SystemServerTiming: OnBootPhase_480_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:30.566  3655  3655 I SystemServerTiming: OnBootPhase_500_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:30.775  3655  3655 I SystemServerTiming: OnBootPhase_520_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:30.794  3655  3776 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.dotscreen.megacable.portal changed
+02-05 02:17:30.799  3655  3686 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.zte.adb changed
+02-05 02:17:31.208  3655  3655 I SystemServerTiming: OnBootPhase_550_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:31.812  3655  3655 I SystemServerTiming: OnBootPhase_600_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:31.951  3655  3655 V StorageManagerService: Package com.dotscreen.megacable.portal does not have legacy storage
+02-05 02:17:31.952  3655  3655 V StorageManagerService: Package com.zte.adb has legacy storage
+02-05 02:17:31.983  3655  3655 I SystemServerTiming: ssm.onStartUser-0_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:32.179     0     0 I prk     : [   22.829186@2]- [wlan][3493]wlanDownloadBufferBin:(INIT INFO) Start Efuse Buffer Mode ..
+02-05 02:17:32.179     0     0 I prk     : [   22.829191@2]- [wlan][3493]wlanDownloadBufferBin:(INIT INFO) ucEfuseBUfferModeCal is 0
+02-05 02:17:38.614  3655  3682 I ActivityManagerTiming: OnBootPhase_1000_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:38.852  4412  4412 D vold_prepare_subdirs: Setting up mode 771 uid 0 gid 1000 context u:object_r:apex_module_data_file:s0 on path: /data/misc_ce/0/apexdata/com.android.adbd
+02-05 02:17:39.104     0     0 I prk     : [   29.759023@1]- mkswap: Swapspace size: 393212k, UUID=fa669dfc-f523-4983-8103-34cdf9eadbe2
+02-05 02:17:39.469  4118  4296 D BufferPoolAccessor2.0: bufferpool2 0xe1dadb68 : 0(0 size) total buffers - 0(0 size) used buffers - 2/7 (recycle/alloc) - 5/92 (fetch/transfer)
+02-05 02:17:39.525  3655  3691 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:39.714  3655  4032 V [FrameworkCustomization]PMSImpl: Megacable_OTT Execute choose best Activity is :com.dotscreen.megacable.portal
+02-05 02:17:39.974  3655  3691 I SystemServerTimingAsync: ssm.onUnlockedUser-0_com.android.server.adb.AdbService$Lifecycle
+02-05 02:17:39.982  3655  3682 V [FrameworkCustomization]PMSImpl: Megacable_OTT Execute choose best Activity is :com.dotscreen.megacable.portal
+02-05 02:17:39.982  3655  3682 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+02-05 02:17:39.998  3655  3682 I wm_create_activity: [0,80218372,2383,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,android.intent.action.MAIN,NULL,NULL,268435712]
+02-05 02:17:40.200  3655  3692 I am_proc_start: [0,4614,10012,com.dotscreen.megacable.portal,top-activity,{com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity}]
+02-05 02:17:40.201  3655  3692 I ActivityManager: Start proc 4614:com.dotscreen.megacable.portal/u0a12 for top-activity {com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity}
+02-05 02:17:40.239  3655  4553 I am_proc_bound: [0,4614,com.dotscreen.megacable.portal]
+02-05 02:17:40.245  3655  4553 I wm_restart_activity: [0,80218372,2383,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity]
+=== From Log 2 ===
+02-05 02:19:28.896     0     0 I prk     : [    0.000000@0]d Kernel command line: init=/init console=ttyS0,115200 no_console_suspend earlyprintk=aml-uart,0xff803000 ramoops.pstore_en=1 ramoops.record_size=0x8000 ramoops.console_size=0x4000 phy_idx= tvts_mode=0 hdr_policy=0 hdr_priority= reboot_mode_android=normal fb_width=1920 fb_height=1080 display_bpp=24 outputmode=2160p60hz panel_type=lcd_1 lcd_ctrl=0x00000000 hdmitx=,420,10bit hdmimode=2160p60hz tvts_mode=0 hdmichecksum=0xe3770000 dolby_vision_on=0 frac_rate_policy=1 hdmi_read_edid=1 cvbsmode=480cvbs osd_reverse=0 video_reverse=0 irq_check_en=0 androidboot.selinux=enforcing androidboot.firstboot=0 jtag=disable androidboot.hardware=amlogic 2015.01-g3be660d-dirty androidboot.build.expect.baseband=N/A androidboot.rpmb_state=1 CTSEnable=0 market=4301,5 ProductID=74100499007041200000C4741EF2FAFB androidboot.wificountrycode=MX androidboot.serialno=Z41220090453546 mac=C4:74:1E:F2:FA:FB loglevel=1 keyshield=1 otg_device=0 MTU=1452 androidboot.boardtype=8 boot_revision=V0001 androidboot.bo
+02-05 02:19:30.821  3437  3437 D vold_prepare_subdirs: Setting up mode 771 uid 0 gid 1000 context u:object_r:apex_module_data_file:s0 on path: /data/misc_de/0/apexdata/com.android.adbd
+02-05 02:19:32.256  3467  3467 D SystemControl: [CPQControl]:Cpq_LoadBasicRegs: BlackExtension moudle disabled!
+02-05 02:19:32.320  3467  3467 D SystemControl: [CPQControl]:Cpq_LoadBasicRegs: Sharpness1 moudle disabled!
+02-05 02:19:32.395  3524  3524 W libc    : Unable to set property "ro.build.id" to "KOT49H": error code: 0x18
+02-05 02:19:32.392     1     1 I auditd  : type=1107 audit(0.0:42): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=ro.build.id pid=3524 uid=0 gid=0 scontext=u:r:ztepropertyd:s0 tcontext=u:object_r:build_prop:s0 tclass=property_service permissive=0'
+02-05 02:19:32.392     1     1 W /system/bin/init: type=1107 audit(0.0:42): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc: denied { set } for property=ro.build.id pid=3524 uid=0 gid=0 scontext=u:r:ztepropertyd:s0 tcontext=u:object_r:build_prop:s0 tclass=property_service permissive=0'
+02-05 02:19:33.283  3459  3459 I zygote  : option[47]=-Xfingerprint:Megacable/B866V2_ZTE/B866V2_ZTE:12/SC/V82815417.2033:user/release-keys
+02-05 02:19:40.388  3680  3680 D CompatConfig: No directory /apex/com.android.adbd/etc/compatconfig, skipping
+02-05 02:19:40.912  3680  3680 D PackageManager: Directories scanned as system partitions: [/system:0, /vendor:524288, /odm:4194304, /oem:262144, /product:1048576, /system/system_ext:2097152, /apex/com.android.wifi:8388608, /apex/com.android.vndk.v31:8388608, /apex/com.android.tzdata:8388608, /apex/com.android.tethering:8388608, /apex/com.android.sdkext:8388608, /apex/com.android.scheduling:8388608, /apex/com.android.runtime:8388608, /apex/com.android.resolv:8388608, /apex/com.android.permission:8388608, /apex/com.android.os.statsd:8388608, /apex/com.android.neuralnetworks:8388608, /apex/com.android.mediaprovider:8388608, /apex/com.android.media.swcodec:8388608, /apex/com.android.media:8388608, /apex/com.android.ipsec:8388608, /apex/com.android.i18n:8388608, /apex/com.android.extservices:8388608, /apex/com.android.conscrypt:8388608, /apex/com.android.art:8388608, /apex/com.android.appsearch:8388608, /apex/com.android.adbd:8388608]
+02-05 02:19:41.639  3680  3680 D PackageManager: No files in app dir /apex/com.android.adbd/priv-app
+02-05 02:19:41.640  3680  3680 D PackageManager: No files in app dir /apex/com.android.adbd/app
+02-05 02:19:42.171  3592  3616 W installd: Ignoring /data/data/com.zte.adb/lib with unexpected GID 0 instead of 1000
+02-05 02:19:43.897  3680  3680 I SystemServerTiming: StartAdbService
+02-05 02:19:43.897  3680  3680 I SystemServiceManager: Starting com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:44.219  3680  3680 I SystemServerTiming: OnBootPhase_480_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:44.376  3680  3680 I SystemServerTiming: OnBootPhase_500_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:44.602  3680  3680 I SystemServerTiming: OnBootPhase_520_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:44.623  3680  3790 I SystemServerTimingAsync: InitThreadPoolExec:Update app-ops uidState in case package com.zte.adb changed
+02-05 02:19:44.987  3680  3680 I SystemServerTiming: OnBootPhase_550_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:45.671  3680  3680 I SystemServerTiming: OnBootPhase_600_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:45.797  3680  3680 V StorageManagerService: Package com.zte.adb has legacy storage
+02-05 02:19:45.806  3680  3680 I SystemServerTiming: ssm.onStartUser-0_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:45.987  3680  3680 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.android.tv.settings/.system.FallbackHome (has extras)} from uid 0
+02-05 02:19:46.053     0     0 I prk     : [   23.038991@3]- [wlan][3520]wlanDownloadBufferBin:(INIT INFO) Start Efuse Buffer Mode ..
+02-05 02:19:46.053     0     0 I prk     : [   23.038996@3]- [wlan][3520]wlanDownloadBufferBin:(INIT INFO) ucEfuseBUfferModeCal is 0
+02-05 02:19:46.150  3680  3680 I wm_create_task: [0,2]
+02-05 02:19:46.150  3680  3680 I wm_create_activity: [0,228102927,2,com.android.tv.settings/.system.FallbackHome,android.intent.action.MAIN,NULL,NULL,276824320]
+02-05 02:19:52.054  3680  3709 I ActivityManagerTiming: OnBootPhase_1000_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:52.236  4439  4439 D vold_prepare_subdirs: Setting up mode 771 uid 0 gid 1000 context u:object_r:apex_module_data_file:s0 on path: /data/misc_ce/0/apexdata/com.android.adbd
+02-05 02:19:52.806  3680  3717 I SystemServerTimingAsync: ssm.onUnlockingUser-0_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:53.056  3680  3717 I SystemServerTimingAsync: ssm.onUnlockedUser-0_com.android.server.adb.AdbService$Lifecycle
+02-05 02:19:53.091  3680  4568 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity (has extras)} from uid 0
+02-05 02:19:53.108  3680  4568 I wm_create_task: [0,2383]
+02-05 02:19:53.108  3680  4568 I wm_create_activity: [0,48417611,2383,com.dotscreen.megacable.portal/com.dotscreen.portal.ui.screens.home.HomeActivity,android.intent.action.MAIN,NULL,NULL,268435712]
+02-05 02:19:53.736  3680  3856 D BackupManagerService: user:0 readBackupEnableState enabled:false
+02-05 02:19:54.527  4443  4655 I ManifestedDataDownloader: ManifestedDataDownloader.checkVersionAndDownload():98 filegroup __KLP_delight__es-MX with version 2024122600 is already downloaded
+02-05 02:19:56.604  4914  5157 E mcsplog_debug: [652] Get ro.build.version.sdk =31
+02-05 02:19:56.706  4150  4839 D [TvSettings]: [BootReceiver]<getAppListUidPack> appUid = 1000, packageName = com.zte.adb
+02-05 02:19:56.786  5104  5104 D Upgrade_C: [JudgeAndroidSystemVer]: ro.build.version.release = 12
+02-05 02:19:58.374  4686  4936 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+02-05 02:19:58.375  4686  4936 I FA      :   adb shell setprop debug.firebase.analytics.app tv.broadpeak.nanocdnwrapper
+02-05 02:19:58.836  5104  5182 D Upgrade_C: [JudgeAndroidSystemVer]: ro.build.version.release = 12
+02-05 02:19:59.574  4641  5345 I VO_FMA  : FirmwareVersion=V82815417.2033
+02-05 02:19:59.574  4641  5345 I VO_FMA  : PlayerId=557483bc75d125c3d074adb27debf45c3cde2e0e03e7ff51c4d200a744832b64

@@ -1,0 +1,680 @@
+Command exited with code 0.
+
+Command output:
+=== android_winusb.inf_amd64_0d73b058037ef25e ===
+
+=== android_winusb.inf_amd64_bd75d06c56998078 ===
+=== android_winusb.inf_amd64_e173223db663f87f ===
+=== worldcup_device.inf_amd64_381096806342dd2f ===
+=== android_winusb.inf_amd64_0d73b058037ef25e.ini ===
+FullName                                                                                                              
+--------                                                                                                              
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_0d73b058037ef25e\amd64                        
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_0d73b058037ef25e\android_winusb.cat           
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_0d73b058037ef25e\android_winusb.inf           
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_0d73b058037ef25e\android_winusb.PNF           
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_0d73b058037ef25e\amd64\WdfCoInstaller01009.dll
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_0d73b058037ef25e\amd64\WinUSBCoInstaller2.dll 
+; 
+; Android WinUsb driver installation
+;
+[Strings]
+DeviceName = "android_winusb"
+VendorName = "Amlogic, Inc."
+SourceName = "android_winusb Install Disk"
+DeviceID   = "VID_1B8E&PID_C004"
+DeviceGUID = "{f72fe0d4-cbcb-407d-8814-9ed673d0dd6b}"
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = "USBDevice"
+ClassGuid   = {3F966BD9-FA04-4ec5-991C-D326973B5128}
+Provider    = "libwdi"
+CatalogFile = android_winusb.cat
+DriverVer   = 04/03/2019, 6.1.7600.16385
+
+[ClassInstall32]
+Addreg = WinUSBDeviceClassReg
+
+[WinUSBDeviceClassReg]
+HKR,,,0,"Universal Serial Bus devices"
+HKR,,Icon,,-20
+
+[Manufacturer]
+%VendorName% = libusbDevice_WinUSB,NTx86,NTamd64,NTarm
+
+[libusbDevice_WinUSB.NTx86]
+%DeviceName% = USB_Install, USB\%DeviceID%
+
+[libusbDevice_WinUSB.NTamd64]
+%DeviceName% = USB_Install, USB\%DeviceID%
+
+[libusbDevice_WinUSB.NTarm]
+%DeviceName% = USB_Install, USB\%DeviceID%
+
+[USB_Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[USB_Install.Services]
+Include    = winusb.inf
+AddService = WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[WinUSB_ServiceInstall]
+DisplayName   = "WinUSB - Kernel Driver 04/03/2019 6.1.7600.16385"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %12%\WinUSB.sys
+
+[USB_Install.Wdf]
+KmdfService = WINUSB, WinUsb_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion = 1.9
+
+[USB_Install.HW]
+AddReg = AddDeviceInterfaceGUID
+
+[NoDeviceInterfaceGUID]
+; Avoids adding a DeviceInterfaceGUID for generic driver
+
+[AddDeviceInterfaceGUID]
+HKR,,DeviceInterfaceGUIDs,0x10000,%DeviceGUID%
+
+[USB_Install.CoInstallers]
+AddReg    = CoInstallers_AddReg
+CopyFiles = CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles = 11
+
+[SourceDisksNames]
+1 = %SourceName%
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll = 1,x86
+WdfCoInstaller01009.dll = 1,x86
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll = 1,amd64
+WdfCoInstaller01009.dll = 1,amd64
+
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_bd75d06c56998078\amd64                        
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_bd75d06c56998078\androidwinusba64.cat         
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_bd75d06c56998078\android_winusb.inf           
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_bd75d06c56998078\android_winusb.PNF           
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_bd75d06c56998078\amd64\WdfCoInstaller01009.dll
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_bd75d06c56998078\amd64\WinUSBCoInstaller2.dll 
+;
+; Android WinUsb driver installation.
+;
+[Version]
+Signature           = "$Windows NT$"
+Class               = AndroidUsbDeviceClass
+ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
+Provider            = %ProviderName%
+DriverVer           = 08/28/2014,11.0.0000.00000
+CatalogFile.NTx86   = androidwinusb86.cat
+CatalogFile.NTamd64 = androidwinusba64.cat
+
+[ClassInstall32]
+Addreg = AndroidWinUsbClassReg
+
+[AndroidWinUsbClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-1
+
+
+[Manufacturer]
+%ProviderName% = Google, NTx86, NTamd64
+
+
+[Google.NTx86]
+
+;Google Nexus One
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+
+;Google Nexus S
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E21
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E23
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E24&MI_01
+
+;Google Nexus 7
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+
+;Google Nexus Q
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_2C10
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_2C11
+
+;Google Nexus (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4EE0
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE4&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE7
+
+;Google Glass
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9001
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9001&MI_01
+
+;Project Tango (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4D00
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D02&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D04&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D06&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D07
+
+
+[Google.NTamd64]
+
+;Google Nexus One
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+
+;Google Nexus S
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E21
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E23
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E24&MI_01
+
+;Google Nexus 7
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+
+;Google Nexus Q
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_2C10
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_2C11
+
+;Google Nexus (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4EE0
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE4&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE7
+
+;Google Glass
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9001
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9001&MI_01
+
+;Project Tango (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4D00
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D02&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D04&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D06&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D07
+
+
+[USB_Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[USB_Install.Services]
+Include     = winusb.inf
+AddService  = WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+[USB_Install.Wdf]
+KmdfService = WINUSB, WinUSB_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion  = 1.9
+
+[USB_Install.HW]
+AddReg  = Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{F72FE0D4-CBCB-407d-8814-9ED673D0DD6B}"
+
+[USB_Install.CoInstallers]
+AddReg    = CoInstallers_AddReg
+CopyFiles = CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+[SourceDisksNames]
+1 = %DISK_NAME%,,,\i386
+2 = %DISK_NAME%,,,\amd64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll  = 1
+WdfCoInstaller01009.dll = 1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll  = 2
+WdfCoInstaller01009.dll = 2
+
+[Strings]
+ProviderName                = "Google, Inc."
+SingleAdbInterface          = "Android ADB Interface"
+CompositeAdbInterface       = "Android Composite ADB Interface"
+SingleBootLoaderInterface   = "Android Bootloader Interface"
+WinUSB_SvcDesc              = "Android USB Driver"
+DISK_NAME                   = "Android WinUsb installation disk"
+ClassName                   = "Android Device"
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_e173223db663f87f\amd64                        
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_e173223db663f87f\androidwinusba64.cat         
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_e173223db663f87f\android_winusb.inf           
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_e173223db663f87f\android_winusb.PNF           
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_e173223db663f87f\amd64\WdfCoInstaller01009.dll
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_e173223db663f87f\amd64\WinUSBCoInstaller2.dll 
+;
+; Android WinUsb driver installation.
+;
+[Version]
+Signature           = "$Windows NT$"
+Class               = AndroidUsbDeviceClass
+ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
+Provider            = %ProviderName%
+DriverVer           = 08/28/2014,11.0.0000.00000
+CatalogFile.NTx86   = androidwinusb86.cat
+CatalogFile.NTamd64 = androidwinusba64.cat
+
+[ClassInstall32]
+Addreg = AndroidWinUsbClassReg
+
+[AndroidWinUsbClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-1
+
+
+[Manufacturer]
+%ProviderName% = Google, NTx86, NTamd64
+
+
+[Google.NTx86]
+
+;Google Nexus One
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+
+;Google Nexus S
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E21
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E23
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E24&MI_01
+
+;Google Nexus 7
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+
+;Google Nexus Q
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_2C10
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_2C11
+
+;Google Nexus (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4EE0
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE4&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE7
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_D001
+
+;Google Glass
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9001
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9001&MI_01
+
+;Google Glass EE1
+
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9003
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9003&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_9004
+
+;Google Glass EE2
+
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9005
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9005&MI_00
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_9006
+
+;Project Tango (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4D00
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D02&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D04&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D06&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D07
+
+
+[Google.NTamd64]
+
+;Google Nexus One
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+
+;Google Nexus S
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E21
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E23
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E24&MI_01
+
+;Google Nexus 7
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+
+;Google Nexus Q
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_2C10
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_2C11
+
+;Google Nexus (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4EE0
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE4&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE7
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_D001
+
+;Google Glass
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9001
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9001&MI_01
+
+;Google Glass EE1
+
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9003
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9003&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_9004
+
+;Google Glass EE2
+
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_9005
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_9005&MI_00
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_9006
+
+;Project Tango (generic)
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4D00
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D02&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D04&MI_02
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D06&MI_01
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4D07
+
+
+[USB_Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[USB_Install.Services]
+Include     = winusb.inf
+AddService  = WinUSB,0x00000002,WinUSB_ServiceInstall
+
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+[USB_Install.Wdf]
+KmdfService = WINUSB, WinUSB_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion  = 1.9
+
+[USB_Install.HW]
+AddReg  = Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{F72FE0D4-CBCB-407d-8814-9ED673D0DD6B}"
+
+[USB_Install.CoInstallers]
+AddReg    = CoInstallers_AddReg
+CopyFiles = CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+[SourceDisksNames]
+1 = %DISK_NAME%,,,\i386
+2 = %DISK_NAME%,,,\amd64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll  = 1
+WdfCoInstaller01009.dll = 1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll  = 2
+WdfCoInstaller01009.dll = 2
+
+[Strings]
+ProviderName                = "Google, Inc."
+SingleAdbInterface          = "Android ADB Interface"
+CompositeAdbInterface       = "Android Composite ADB Interface"
+SingleBootLoaderInterface   = "Android Bootloader Interface"
+WinUSB_SvcDesc              = "Android USB Driver"
+DISK_NAME                   = "Android WinUsb installation disk"
+ClassName                   = "Android Device"
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\amd64                       
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\x86                         
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\WorldCup_Device.cat         
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\worldcup_device.inf         
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\worldcup_device.PNF         
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\amd64\libusb0.dll           
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\amd64\libusb0.sys           
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\amd64\libusbK.dll           
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\x86\libusb0_x86.dll         
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f\x86\libusbK_x86.dll         
+; Copyright (c) 2012 libusb-win32
+;
+; Module Name: WorldCup_Device.inf
+; Description: Installation inf for WorldCup Device device.
+;
+; THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY
+; KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+; IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR
+; PURPOSE.
+
+[Strings]
+DeviceName = "WorldCup Device"
+VendorName = "Amlogic, Inc."
+SourceName = "WorldCup Device Install Disk"
+DeviceID   = "VID_1B8E&PID_C003"
+DeviceGUID = "{912B0D4A-A651-E597-CF02-42EBE2985286}"
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = "libusb-win32 Usb Devices"
+ClassGuid   = {EB781AAF-9C70-4523-A5DF-642A87ECA567}
+Provider    = "libusb-win32"
+CatalogFile = WorldCup_Device.cat
+DriverVer   = 02/23/2013, 1.2.6.0
+DriverPackageDisplayName = "WorldCup Device"
+
+[ClassInstall32]
+Addreg = libusb_class_install_add_reg
+
+[libusb_class_install_add_reg]
+HKR,,,0,"libusb-win32 Usb Devices"
+HKR,,Icon,,-20
+
+[Manufacturer]
+%VendorName% = Devices, NT, NTAMD64
+
+;--------------------------------------------------------------------------
+; libusb-win32 files
+;--------------------------------------------------------------------------
+
+[SourceDisksNames]
+1 = %SourceName%
+
+[SourceDisksFiles.x86]
+libusb0.sys     = 1,x86
+libusb0_x86.dll = 1,x86
+libusbK_x86.dll = 1,x86
+
+[SourceDisksFiles.amd64]
+libusb0.sys     = 1,amd64
+libusb0.dll     = 1,amd64
+libusbK.dll     = 1,amd64
+libusbK_x86.dll = 1,x86
+libusb0_x86.dll = 1,x86
+
+[DestinationDirs]
+libusb_files_sys       = 10,system32\drivers
+libusb_files_dll       = 10,system32
+libusb_files_dll_wow64 = 10,syswow64
+libusb_files_dll_x86   = 10,system32
+
+[libusb_files_sys]
+libusb0.sys
+
+[libusb_files_dll]
+libusb0.dll
+libusbK.dll
+
+[libusb_files_dll_x86]
+libusb0.dll, libusb0_x86.dll
+libusbK.dll, libusbK_x86.dll
+
+[libusb_files_dll_wow64]
+libusb0.dll, libusb0_x86.dll
+libusbK.dll, libusbK_x86.dll
+
+;--------------------------------------------------------------------------
+; libusb-win32 device driver
+;--------------------------------------------------------------------------
+
+[LIBUSB_WIN32_DEV.NT]
+CopyFiles = libusb_files_sys, libusb_files_dll_x86
+
+[LIBUSB_WIN32_DEV.NTAMD64]
+CopyFiles = libusb_files_sys, libusb_files_dll, libusb_files_dll_wow64
+
+[LIBUSB_WIN32_DEV.NT.HW]
+DelReg = libusb_del_reg_hw
+AddReg = libusb_add_reg_hw
+
+[LIBUSB_WIN32_DEV.NTAMD64.HW]
+DelReg = libusb_del_reg_hw
+AddReg = libusb_add_reg_hw
+
+[LIBUSB_WIN32_DEV.NT.Services]
+AddService = libusb0, 0x00000002, libusb_add_service
+
+[LIBUSB_WIN32_DEV.NTAMD64.Services]
+AddService = libusb0, 0x00000002, libusb_add_service
+
+; Older versions of this .inf file installed filter drivers. They are not
+; needed any more and must be removed
+[libusb_del_reg_hw]
+HKR,,LowerFilters
+HKR,,UpperFilters
+
+; libusb-win32 device properties
+[libusb_add_reg_hw]
+HKR,,SurpriseRemovalOK,0x00010001,1
+
+; (Optional) the usb configuration value to select when this device
+; is started.  If this key does not exist the first config is selected.
+;HKR,,InitialConfigValue,0x00010001,<your config value>
+
+;--------------------------------------------------------------------------
+; libusb-win32 service
+;--------------------------------------------------------------------------
+
+[libusb_add_service]
+DisplayName   = "libusb-win32 - Kernel Driver 02/23/2013 1.2.6.0"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 0
+ServiceBinary = %12%\libusb0.sys
+
+;--------------------------------------------------------------------------
+; libusb-win32 devices
+;--------------------------------------------------------------------------
+
+; Hardware IDs in a 'Devices' section can be installed by libusb-win32
+; using usb_install_driver_np(), usb_install_driver_np_rundll(), or the
+; inf-wizard utility.
+;
+[Devices]
+%DeviceName% = LIBUSB_WIN32_DEV, USB\%DeviceID%
+
+[Devices.NT]
+%DeviceName% = LIBUSB_WIN32_DEV.NT, USB\%DeviceID%
+
+[Devices.NTAMD64]
+%DeviceName% = LIBUSB_WIN32_DEV.NTAMD64, USB\%DeviceID%
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_0d73b058037ef25e.ini                          
+[DriverPackage]
+Id=android_winusb.inf_amd64_0d73b058037ef25e
+FileCount=4
+[Files]
+amd64\WdfCoInstaller01009.dll=1721576,0x20,2025-05-29 20:39:59:470,2019-04-08 23:07:28:000,056399FAACB9FC49F3CF78BFC3D9F2F463E5012E
+amd64\WinUSBCoInstaller2.dll=1002728,0x20,2025-05-29 20:39:59:652,2019-04-08 23:07:28:000,C82AC57D4CEFC2663A0351B1C2B5788B96D02C74
+android_winusb.cat=2784,0x20,2025-05-29 20:39:59:339,2025-05-29 20:40:05:602,AC55340A0CC5C3DD7CDF56090DE0E348A2ACDDE8
+android_winusb.inf=4314,0x20,2025-05-29 20:39:59:348,2019-04-08 23:07:28:000,513EF6948500F4B0FEC81BD25E607A6B5354CE8D
+=== android_winusb.inf_amd64_bd75d06c56998078.ini ===
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_bd75d06c56998078.ini                          
+[DriverPackage]
+Id=android_winusb.inf_amd64_bd75d06c56998078
+FileCount=4
+[Files]
+amd64\WdfCoInstaller01009.dll=1721576,0x20,2025-05-29 20:39:13:992,2014-09-20 10:49:59:541,056399FAACB9FC49F3CF78BFC3D9F2F463E5012E
+amd64\WinUSBCoInstaller2.dll=1002728,0x20,2025-05-29 20:39:13:999,2014-09-20 10:49:59:501,C82AC57D4CEFC2663A0351B1C2B5788B96D02C74
+androidwinusba64.cat=11187,0x20,2025-05-29 20:39:13:842,2014-09-20 10:49:59:541,EBFB8E016ADC7506ED55B4A797F8696DD50F27B1
+android_winusb.inf=5917,0x20,2025-05-29 20:39:13:842,2014-09-20 10:49:59:491,092555911492C6959D2596D612F52DCA71881CA2
+=== android_winusb.inf_amd64_e173223db663f87f.ini ===
+C:\Windows\System32\DriverStore\FileRepository\android_winusb.inf_amd64_e173223db663f87f.ini                          
+[DriverPackage]
+Id=android_winusb.inf_amd64_e173223db663f87f
+FileCount=4
+[Files]
+amd64\WdfCoInstaller01009.dll=1721576,0x20,2025-09-30 21:37:35:085,2009-01-01 00:00:00:000,056399FAACB9FC49F3CF78BFC3D9F2F463E5012E
+amd64\WinUSBCoInstaller2.dll=1002728,0x20,2025-09-30 21:37:35:099,2009-01-01 00:00:00:000,C82AC57D4CEFC2663A0351B1C2B5788B96D02C74
+androidwinusba64.cat=12825,0x20,2025-09-30 21:37:35:119,2009-01-01 00:00:00:000,245A42431CF544D96EECA340E5618024BEF4CE1E
+android_winusb.inf=6957,0x20,2025-09-30 21:37:35:120,2009-01-01 00:00:00:000,8245A509114C0F5769D97CB0A35EDAFB89C0F535
+=== worldcup_device.inf_amd64_381096806342dd2f.ini ===
+C:\Windows\System32\DriverStore\FileRepository\worldcup_device.inf_amd64_381096806342dd2f.ini                         
+[DriverPackage]
+Id=worldcup_device.inf_amd64_381096806342dd2f
+FileCount=7
+[Files]
+amd64\libusb0.dll=76384,0x20,2025-06-13 14:52:22:570,2014-06-17 09:09:17:124,1B716084EBBE371049894A8EF201038E100973BB
+amd64\libusb0.sys=52832,0x20,2025-06-13 14:52:22:579,2014-06-17 09:09:17:108,28557E165583BB28B7CBC08BC8880633365A484E
+amd64\libusbK.dll=98400,0x20,2025-06-13 14:52:22:575,2014-06-17 09:09:17:124,C39FE97B7A9E8E107D825B650C6633030FF6E0B5
+WorldCup_Device.cat=4139,0x20,2025-06-13 14:52:22:959,2025-06-13 14:52:23:396,6FF78EC89AFD0FB217E26934A72EA169A975AA3E
+worldcup_device.inf=8176,0x20,2025-06-13 14:52:22:510,2014-06-17 09:09:17:202,607E81836F3E58EDC7289F7B7047149AE2C7F301
+x86\libusb0_x86.dll=67680,0x20,2025-06-13 14:52:22:572,2014-06-17 09:09:17:124,0AC60D0E3C2801A99DD55EF2FBACD489C64A2C3D
+x86\libusbK_x86.dll=83552,0x20,2025-06-13 14:52:22:577,2014-06-17 09:09:17:139,249D1D5C88EE45C9BD0BDB01DAA6DACE58DCBB1B
+
+

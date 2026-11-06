@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+bg_before_9696c8e.jpg: { width: 2560, height: 1440 }
+bg_2032872.jpg:        { width: 1920, height: 1440 }
+motto_34b1832.jpg:     { width: 1920, height: 1440 }

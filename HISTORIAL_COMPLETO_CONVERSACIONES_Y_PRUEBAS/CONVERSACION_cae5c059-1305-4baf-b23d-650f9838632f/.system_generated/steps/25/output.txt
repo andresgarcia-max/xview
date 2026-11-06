@@ -1,0 +1,59 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\repositorios\02_IMAGENES_ALTA_CALIDAD\logos_y_badges
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     23/10/2026  10:19 p. m.           1224 badge_black_pass.svg                                                 
+-a---l     23/10/2026  10:19 p. m.           1170 badge_vip_gold.svg                                                   
+-a---l     23/10/2026  10:19 p. m.           1142 logo_legends_gym_pro.svg                                             
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\repositorios\02_IMAGENES_ALTA_CALIDAD\maquinas_y_equipamiento
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     23/10/2026  10:19 p. m.         332670 banco_pesas_reclinable.jpg                                           
+-a---l     23/10/2026  10:19 p. m.         255191 barra_olimpica_y_discos.jpg                                          
+-a---l     23/10/2026  10:19 p. m.         230173 caminadoras_cardio_fila.jpg                                          
+-a---l     23/10/2026  10:19 p. m.         112140 entrada_gimnasio_recepcion.jpg                                       
+-a---l     23/10/2026  10:19 p. m.        3978592 legends_gym_caminadoras_8k.jpg                                       
+-a---l     23/10/2026  10:19 p. m.         351843 pesas_rusas_kettlebells.jpg                                          
+-a---l     23/10/2026  10:19 p. m.         186300 rack_mancuernas_profesional.jpg                                      
+-a---l     23/10/2026  10:19 p. m.         177159 sala_maquinas_gimnasio_panoramica.jpg                                
+-a---l     23/10/2026  10:19 p. m.         183947 zona_entrenamiento_funcional.jpg                                     
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\repositorios\02_IMAGENES_ALTA_CALIDAD\modelos_y_atletas
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     23/10/2026  10:19 p. m.         212508 atleta_boxeo_entrenamiento.jpg                                       
+-a---l     23/10/2026  10:19 p. m.         276430 atleta_crossfit_cuerdas.jpg                                          
+-a---l     23/10/2026  10:19 p. m.          43793 avatar_socia_atleta_2.jpg                                            
+-a---l     23/10/2026  10:19 p. m.          56473 avatar_socia_mujer_1.jpg                                             
+-a---l     23/10/2026  10:19 p. m.          64019 avatar_socio_atleta_2.jpg                                            
+-a---l     23/10/2026  10:19 p. m.         106479 avatar_socio_hombre_1.jpg                                            
+-a---l     23/10/2026  10:19 p. m.         126692 entrenadora_personal_fit.jpg                                         
+-a---l     23/10/2026  10:19 p. m.         130050 modelo_culturista_pose.jpg                                           
+-a---l     23/10/2026  10:19 p. m.         198147 modelo_femenino_mancuernas.jpg                                       
+-a---l     23/10/2026  10:19 p. m.         116325 modelo_masculino_fuerza.jpg                                          
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym\repositorios\02_IMAGENES_ALTA_CALIDAD\suplementos_punto_de_venta
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a---l     23/10/2026  10:19 p. m.         121340 bebida_hidratante_fitness.jpg                                        
+-a---l     23/10/2026  10:19 p. m.         197940 bote_proteina_shaker.jpg                                             
+-a---l     23/10/2026  10:19 p. m.          53443 guantes_y_straps_gimnasio.jpg                                        
+-a---l     23/10/2026  10:19 p. m.          99671 shaker_botella_mezcladora.jpg                                        
+
+

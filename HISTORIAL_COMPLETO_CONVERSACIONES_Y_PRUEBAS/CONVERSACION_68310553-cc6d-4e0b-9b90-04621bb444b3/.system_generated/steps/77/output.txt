@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 149
+Ticks             : 1495187
+TotalDays         : 1.73054050925926E-06
+TotalHours        : 4.15329722222222E-05
+TotalMinutes      : 0.00249197833333333
+TotalSeconds      : 0.1495187
+TotalMilliseconds : 149.5187
+
+[update]:No [WorldCup Device] device after scan
+[update]ERR(L1094):can not find device
+
+

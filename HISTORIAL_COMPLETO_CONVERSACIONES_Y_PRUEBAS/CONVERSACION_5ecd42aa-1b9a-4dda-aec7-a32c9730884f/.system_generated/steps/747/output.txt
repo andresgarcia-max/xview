@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+
+Length: 2136 | First 16 bytes: 40-65-63-68-6F-20-6F-66-66-0A-73-65-74-6C-6F-63
+FullName                                                                                                   Length LastW
+                                                                                                                  riteT
+                                                                                                                  ime  
+--------                                                                                                   ------ -----
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2-FlashATV12 - Evoca.bat   2136 01...
+
+

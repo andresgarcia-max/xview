@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+
+Name                               
+----                               
+1. SISTEMA_ERP_ADMINISTRADOR.exe   
+2. TERMINAL_TORNIQUETE_ACCESO.exe  
+3. CARTERA_DE_CLIENTES.html        
+4. VINCULAR_EQUIPOS_RED_LAN.bat    
+CONTROL_DE_ACCESO.exe              
+LEEME_INSTRUCCIONES_VINCULACION.txt
+SISTEMA_ERP.exe                    
+
+

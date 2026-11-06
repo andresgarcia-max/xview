@@ -1,0 +1,20 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directorio: C:\Users\andre\OneDrive\Desktop\gym
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d----l     24/10/2026  10:13 a. m.                accesos directos                                                     
+-a---l     20/10/2026  09:41 a. m.            668 ABRIR_CONTROL_DE_ACCESO_WEB.bat                                      
+-a---l     24/10/2026  10:25 a. m.          39936 ACCESO_CLIENTES_LEGENDS.exe                                          
+-a---l     20/10/2026  09:14 a. m.            123 ACCESO_WEB_FITNESS_LEGENDS.url                                       
+-a---l     20/10/2026  09:14 a. m.            137 ACCESO_WEB_NUBE.url                                                  
+-a---l     20/10/2026  09:14 a. m.            138 CONTROL_DE_ACCESO_WEB.url                                            
+-a---l     24/10/2026  09:43 a. m.            172 EJECUTAR_TERMINAL_ACCESO.bat                                         
+-a----     24/10/2026  10:25 a. m.           2073 FITNESS LEGENDS - Control de Acceso.lnk                              
+
+

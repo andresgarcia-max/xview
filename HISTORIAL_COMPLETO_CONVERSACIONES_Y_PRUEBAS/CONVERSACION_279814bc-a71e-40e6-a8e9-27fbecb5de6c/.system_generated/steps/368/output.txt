@@ -1,0 +1,4 @@
+Command exited with code 1.
+
+Command output:
+INFORMACI�N: no se pudo encontrar ning�n archivo para los patrones dados.

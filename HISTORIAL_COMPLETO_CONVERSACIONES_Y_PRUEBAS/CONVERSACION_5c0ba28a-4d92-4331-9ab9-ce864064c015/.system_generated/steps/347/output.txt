@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+Terminal Launchers updated successfully:
+
+Name                                DirectoryName                                        Length
+----                                -------------                                        ------
+CONTROL_DE_ACCESO.exe               C:\Users\andre\OneDrive\Desktop\gym                   40960
+FITNESS_LEGENDS_TERMINAL_ACCESO.exe C:\Users\andre\OneDrive\Desktop\gym                   40960
+2. TERMINAL_TORNIQUETE_ACCESO.exe   C:\Users\andre\OneDrive\Desktop\gym\accesos directos  40960
+CONTROL_DE_ACCESO.exe               C:\Users\andre\OneDrive\Desktop\gym\accesos directos  40960
+
+

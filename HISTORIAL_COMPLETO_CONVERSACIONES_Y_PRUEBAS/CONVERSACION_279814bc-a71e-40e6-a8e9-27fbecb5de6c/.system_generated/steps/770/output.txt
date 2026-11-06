@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Shortcuts created in SISTEMA_ERP_ADMINISTRADOR.

@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+mke2fs 1.46.2 (28-Feb-2021)
+Creating regular file C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img
+Creating filesystem with 16384 4k blocks and 16384 inodes
+
+Allocating group tables: 0/1   done                            
+Writing inode tables: 0/1   done                            
+Creating journal (1024 blocks): done
+Copying files into the device: __populate_fs: No such file or directory while lstat "�b0("
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\1_HERRAMIENTAS_MOTOR\mke2fs.exe: No such file or directory while populating file system
+cache_ext4.img size: 67108864 bytes

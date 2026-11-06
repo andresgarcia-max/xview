@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                              MB
+--------                                                                                              --
+C:\Users\andre\OneDrive\Desktop\xview\Liberacion_Xview_B866V2_Portatil.exe                          99.1
+C:\Users\andre\OneDrive\Desktop\xview\experimento\11_VALIDACION_OTA_Y_FIRMWARE_ZTE\cache_ext4.img     64
+C:\Users\andre\OneDrive\Desktop\xview\FIRMWARE_COMPLETO_B866V2_FASTBOOT\cache_ext4.img                64
+C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\product.img                                   547.42
+C:\Users\andre\OneDrive\Desktop\xview\normal\B866V2\super.img                                       1800
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\cache_ext4.img       64
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img          1800
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\super.img       1800
+
+

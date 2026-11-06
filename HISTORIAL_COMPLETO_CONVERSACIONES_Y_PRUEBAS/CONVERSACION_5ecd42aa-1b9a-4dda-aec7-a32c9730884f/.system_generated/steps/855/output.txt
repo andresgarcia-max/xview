@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Set USB Status -> offset 0x31737
+SetUSBHost -> offset 0x34459
+SetUSBDevice -> offset 0x37EFD
+Entering fastboot -> offset 0x31704
+--fastboot -> offset 0x3E398

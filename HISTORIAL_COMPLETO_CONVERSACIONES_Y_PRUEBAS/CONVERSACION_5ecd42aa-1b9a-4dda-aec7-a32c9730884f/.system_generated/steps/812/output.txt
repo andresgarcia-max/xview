@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware                             
+C:\Users\andre\OneDrive\Desktop\xview\experimento\06_internet_y_repositorios\github_repos\superna9999__pyamlboot\pya...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\08_device_trees_uboot_y_configs_firmware\uboot_env_franklin_b866v2...
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\03_firmware_configs_dtb_y_uboot         
+C:\Users\andre\OneDrive\Desktop\xview\experimento\10_ZTE_B820C_A15_LE_COMPLETO\03_firmware_configs_dtb_y_uboot\uboot...
+
+

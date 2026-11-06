@@ -1,0 +1,62 @@
+Command exited with code 0.
+
+Command output:
+src/components/access/IndependentTerminalApp.tsx-2-import cardVisita from '../../assets/card-visita.jpg';
+src/components/access/IndependentTerminalApp.tsx-3-import cardHuella from '../../assets/card-huella.jpg';
+src/components/access/IndependentTerminalApp.tsx-4-import gymBg from '../../assets/gym-background.jpg';
+src/components/access/IndependentTerminalApp.tsx-5-import gymBgReal from '../../assets/gym-background-real.jpg';
+src/components/access/IndependentTerminalApp.tsx-6-import gymBgMotto from '../../assets/gym-background-motto.jpg';
+src/components/access/IndependentTerminalApp.tsx:7:import modalGymBg from '../../assets/modal-gym-bg.jpg';
+src/components/access/IndependentTerminalApp.tsx-8-import logoImg from '../../assets/logo.png';
+src/components/access/IndependentTerminalApp.tsx-9-import React, { useState, useEffect, useRef, useCallback } from 'react';
+src/components/access/IndependentTerminalApp.tsx-10-import { useGym } from '../../context/GymContext';
+src/components/access/IndependentTerminalApp.tsx-11-import { FingerprintScanner } from './FingerprintScanner';
+src/components/access/IndependentTerminalApp.tsx-12-import { AccessHistory } from './AccessHistory';
+--
+src/components/access/IndependentTerminalApp.tsx-182-    },
+src/components/access/IndependentTerminalApp.tsx-183-    { 
+src/components/access/IndependentTerminalApp.tsx-184-      id: 'modalGymBg', 
+src/components/access/IndependentTerminalApp.tsx-185-      name: 'Textura Mancuernas Pro Dark', 
+src/components/access/IndependentTerminalApp.tsx-186-      primary: modalGymBg, 
+src/components/access/IndependentTerminalApp.tsx:187:      fallback: './modal-gym-bg.jpg',
+src/components/access/IndependentTerminalApp.tsx-188-      position: 'center center'
+src/components/access/IndependentTerminalApp.tsx-189-    }
+src/components/access/IndependentTerminalApp.tsx-190-  ];
+src/components/access/IndependentTerminalApp.tsx-191-
+src/components/access/IndependentTerminalApp.tsx-192-  const [bgIndex, setBgIndex] = useState<number>(() => {
+--
+src/components/access/IndependentTerminalApp.tsx-965-        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
+src/components/access/IndependentTerminalApp.tsx-966-          <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-xl w-full p-5 sm:p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 my-auto max-h-[95vh] overflow-y-auto overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-967-            {/* Background Fitness Dumbbell Photo */}
+src/components/access/IndependentTerminalApp.tsx-968-            <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-969-              <img 
+src/components/access/IndependentTerminalApp.tsx:970:                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+src/components/access/IndependentTerminalApp.tsx-971-                className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+src/components/access/IndependentTerminalApp.tsx-972-              />
+src/components/access/IndependentTerminalApp.tsx-973-              <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+src/components/access/IndependentTerminalApp.tsx-974-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent shadow-[0_0_15px_#f59e0b] pointer-events-none" />
+src/components/access/IndependentTerminalApp.tsx-975-            </div>
+--
+src/components/access/IndependentTerminalApp.tsx-1485-      {showVisitModal && (
+src/components/access/IndependentTerminalApp.tsx-1486-        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-4">
+src/components/access/IndependentTerminalApp.tsx-1487-          <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-emerald-500/50 rounded-3xl max-w-md w-full p-6 shadow-2xl shadow-emerald-500/15 animate-in zoom-in-95 duration-200 overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-1488-            <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-1489-              <img 
+src/components/access/IndependentTerminalApp.tsx:1490:                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+src/components/access/IndependentTerminalApp.tsx-1491-                className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+src/components/access/IndependentTerminalApp.tsx-1492-              />
+src/components/access/IndependentTerminalApp.tsx-1493-              <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+src/components/access/IndependentTerminalApp.tsx-1494-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent shadow-[0_0_15px_#10b981] pointer-events-none" />
+src/components/access/IndependentTerminalApp.tsx-1495-            </div>
+--
+src/components/access/IndependentTerminalApp.tsx-1548-      {showDirectAccessModal && (
+src/components/access/IndependentTerminalApp.tsx-1549-        <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-4">
+src/components/access/IndependentTerminalApp.tsx-1550-          <div className="relative bg-[#0d0f17]/92 backdrop-blur-2xl border-2 border-amber-500/50 rounded-3xl max-w-lg w-full p-6 shadow-2xl shadow-amber-500/15 animate-in zoom-in-95 duration-200 overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-1551-            <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+src/components/access/IndependentTerminalApp.tsx-1552-              <img 
+src/components/access/IndependentTerminalApp.tsx:1553:                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+src/components/access/IndependentTerminalApp.tsx-1554-                className="w-full h-full object-cover object-bottom opacity-35 select-none pointer-events-none"
+src/components/access/IndependentTerminalApp.tsx-1555-              />
+src/components/access/IndependentTerminalApp.tsx-1556-              <div className="absolute inset-0 bg-gradient-to-t from-[#090a0f]/95 via-[#0e1017]/85 to-[#0e1017]/90 pointer-events-none" />
+src/components/access/IndependentTerminalApp.tsx-1557-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent shadow-[0_0_15px_#f59e0b] pointer-events-none" />
+src/components/access/IndependentTerminalApp.tsx-1558-            </div>

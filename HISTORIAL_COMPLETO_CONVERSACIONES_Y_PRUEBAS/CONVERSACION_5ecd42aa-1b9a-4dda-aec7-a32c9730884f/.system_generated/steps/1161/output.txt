@@ -1,0 +1,17 @@
+Task: 5ecd42aa-1b9a-4dda-aec7-a32c9730884f/task-1139
+Status: RUNNING
+Log: file:///C:/Users/andre/.gemini/antigravity/brain/5ecd42aa-1b9a-4dda-aec7-a32c9730884f/.system_generated/tasks/task-1139.log
+Log output:
+<truncated 87 lines>
+ 1.88 GB)...
+[2026-11-05 00:21:26.689] [UI] (Contiene: TVLauncher, TVWall Slimbox, AppDMC, DLStore, HDPlay, ControlDevice, PlayStore)
+[2026-11-05 00:21:26.694] [CMD_INTERACTIVE] fastboot_moderno.exe flash super "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img"
+[2026-11-05 00:21:41.740] [UI] Sending sparse 'super' 1/11 (131068 KB)            OKAY [  6.516s]
+[2026-11-05 00:21:53.293] [UI] Writing 'super'                                    OKAY [ 11.501s]
+[2026-11-05 00:21:59.724] [UI] Sending sparse 'super' 2/11 (129368 KB)            OKAY [  6.482s]
+[2026-11-05 00:22:10.583] [UI] Writing 'super'                                    OKAY [ 10.855s]
+[2026-11-05 00:22:17.217] [UI] Sending sparse 'super' 3/11 (128582 KB)            OKAY [  6.634s]
+[2026-11-05 00:22:27.856] [UI] Writing 'super'                                    OKAY [ 10.641s]
+[2026-11-05 00:22:34.494] [UI] Sending sparse 'super' 4/11 (124879 KB)            OKAY [  6.638s]
+
+Last progress: 7s ago

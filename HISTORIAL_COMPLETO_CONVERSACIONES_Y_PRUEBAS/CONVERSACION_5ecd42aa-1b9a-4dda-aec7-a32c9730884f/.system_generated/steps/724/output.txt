@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+ProcessId Name                               CommandLine                                                               
+--------- ----                               -----------                                                               
+    20576 adb.exe                            adb -L tcp:5037 fork-server server --reply-fd 616                         
+    20392 PROGRAMA_PERFECTO_XVIEW_B866V2.exe "C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\PROGRAMA_PERFE...
+
+

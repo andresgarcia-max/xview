@@ -1,0 +1,180 @@
+
+
+TimeCreated : 03/11/2026 11:41:29 p. m.
+Id          : 410
+Message     : El dispositivo SWD\PRINTENUM\{11A0A276-A26F-4717-BA47-41B331D798D0} se inició.
+              
+              Nombre del controlador: printqueue.inf
+              GUID de clase: {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+              Servicio: 
+              Filtros inferiores: 
+              Filtros superiores: 
+
+TimeCreated : 03/11/2026 11:41:29 p. m.
+Id          : 400
+Message     : El dispositivo SWD\PRINTENUM\{11A0A276-A26F-4717-BA47-41B331D798D0} fue configurado.
+              
+              Nombre del controlador: printqueue.inf
+              Id. del paquete del controlador: printqueue.inf_amd64_044b5f13f940e7c8
+              Clase GUID: {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+              Fecha del controlador: 06/21/2006
+              Versión del controlador: 10.0.26100.1
+              Proveedor del controlador: Microsoft
+              Sección del controlador: NO_DRV_LOCAL
+              Rango del controlador: 0x1
+              Identificación del dispositivo coincidente: PRINTENUM\LocalPrintQueue
+              Conductores sin ranking: oem1.inf:{3ee39114-30b4-45a4-a109-19d4a40fcc22}:00FF0002 
+              c_swdevice.inf:SWD\GenericRaw:00FF3001
+              Dispositivo actualizado: false
+              Dispositivo padre: SWD\PRINTENUM\PrintQueues
+
+TimeCreated : 03/11/2026 11:41:28 p. m.
+Id          : 420
+Message     : El dispositivo SWD\PRINTENUM\{B81B5A9F-C9E5-469E-9821-C6FB98A08ECF} fue borrado.
+              
+              Clase GUID: {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+
+TimeCreated : 01/11/2026 02:21:28 p. m.
+Id          : 430
+Message     : El dispositivo SWD\WPDBUSENUM\_??_USBSTOR#Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_0000#2CFDA15C4BFA17
+              C1C90B06B4&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} requiere más instalación.
+
+TimeCreated : 01/11/2026 02:21:28 p. m.
+Id          : 410
+Message     : El dispositivo STORAGE\Volume\_??_USBSTOR#Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_0000#2CFDA15C4BFA17
+              C1C90B06B4&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} se inició.
+              
+              Nombre del controlador: volume.inf
+              GUID de clase: {71a27cdd-812a-11d0-bec7-08002be2092f}
+              Servicio: volume
+              Filtros inferiores: 
+              Filtros superiores: 
+
+TimeCreated : 01/11/2026 02:21:28 p. m.
+Id          : 400
+Message     : El dispositivo STORAGE\Volume\_??_USBSTOR#Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_0000#2CFDA15C4BFA17
+              C1C90B06B4&0#{53f56307-b6bf-11d0-94f2-00a0c91efb8b} fue configurado.
+              
+              Nombre del controlador: volume.inf
+              Id. del paquete del controlador: volume.inf_amd64_6a657d6f29264781
+              Clase GUID: {71a27cdd-812a-11d0-bec7-08002be2092f}
+              Fecha del controlador: 06/21/2006
+              Versión del controlador: 10.0.26100.5074
+              Proveedor del controlador: Microsoft
+              Sección del controlador: volume_install.NT
+              Rango del controlador: 0xFF0000
+              Identificación del dispositivo coincidente: STORAGE\Volume
+              Conductores sin ranking: 
+              Dispositivo actualizado: false
+              Dispositivo padre: ROOT\volmgr\0000
+
+TimeCreated : 01/11/2026 02:21:28 p. m.
+Id          : 410
+Message     : El dispositivo USBSTOR\Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_0000\2CFDA15C4BFA17C1C90B06B4&0 se 
+              inició.
+              
+              Nombre del controlador: disk.inf
+              GUID de clase: {4d36e967-e325-11ce-bfc1-08002be10318}
+              Servicio: disk
+              Filtros inferiores: 
+              Filtros superiores: 
+
+TimeCreated : 01/11/2026 02:21:28 p. m.
+Id          : 400
+Message     : El dispositivo USBSTOR\Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_0000\2CFDA15C4BFA17C1C90B06B4&0 fue 
+              configurado.
+              
+              Nombre del controlador: disk.inf
+              Id. del paquete del controlador: disk.inf_amd64_4ceca9409ceb9cb5
+              Clase GUID: {4d36e967-e325-11ce-bfc1-08002be10318}
+              Fecha del controlador: 06/21/2006
+              Versión del controlador: 10.0.26100.9711
+              Proveedor del controlador: Microsoft
+              Sección del controlador: disk_install.NT
+              Rango del controlador: 0xFF0006
+              Identificación del dispositivo coincidente: GenDisk
+              Conductores sin ranking: disk.inf:GenDisk:00FF2002
+              Dispositivo actualizado: false
+              Dispositivo padre: USB\VID_0951&PID_1666\2CFDA15C4BFA17C1C90B06B4
+
+TimeCreated : 01/11/2026 02:21:28 p. m.
+Id          : 410
+Message     : El dispositivo USB\VID_0951&PID_1666\2CFDA15C4BFA17C1C90B06B4 se inició.
+              
+              Nombre del controlador: usbstor.inf
+              GUID de clase: {36fc9e60-c465-11cf-8056-444553540000}
+              Servicio: USBSTOR
+              Filtros inferiores: 
+              Filtros superiores: 
+
+TimeCreated : 01/11/2026 02:21:28 p. m.
+Id          : 400
+Message     : El dispositivo USB\VID_0951&PID_1666\2CFDA15C4BFA17C1C90B06B4 fue configurado.
+              
+              Nombre del controlador: usbstor.inf
+              Id. del paquete del controlador: usbstor.inf_amd64_eba9abf3c675355c
+              Clase GUID: {36fc9e60-c465-11cf-8056-444553540000}
+              Fecha del controlador: 06/21/2006
+              Versión del controlador: 10.0.26100.9444
+              Proveedor del controlador: Microsoft
+              Sección del controlador: USBSTOR_BULK.NT
+              Rango del controlador: 0xFF2003
+              Identificación del dispositivo coincidente: USB\Class_08&SubClass_06&Prot_50
+              Conductores sin ranking: 
+              Dispositivo actualizado: false
+              Dispositivo padre: USB\ROOT_HUB30\4&2782102e&0&0
+
+TimeCreated : 01/11/2026 12:46:33 p. m.
+Id          : 410
+Message     : El dispositivo SWD\PRINTENUM\{B81B5A9F-C9E5-469E-9821-C6FB98A08ECF} se inició.
+              
+              Nombre del controlador: printqueue.inf
+              GUID de clase: {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+              Servicio: 
+              Filtros inferiores: 
+              Filtros superiores: 
+
+TimeCreated : 01/11/2026 12:46:33 p. m.
+Id          : 400
+Message     : El dispositivo SWD\PRINTENUM\{B81B5A9F-C9E5-469E-9821-C6FB98A08ECF} fue configurado.
+              
+              Nombre del controlador: printqueue.inf
+              Id. del paquete del controlador: printqueue.inf_amd64_044b5f13f940e7c8
+              Clase GUID: {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+              Fecha del controlador: 06/21/2006
+              Versión del controlador: 10.0.26100.1
+              Proveedor del controlador: Microsoft
+              Sección del controlador: NO_DRV_LOCAL
+              Rango del controlador: 0x1
+              Identificación del dispositivo coincidente: PRINTENUM\LocalPrintQueue
+              Conductores sin ranking: oem1.inf:{3ee39114-30b4-45a4-a109-19d4a40fcc22}:00FF0002 
+              c_swdevice.inf:SWD\GenericRaw:00FF3001
+              Dispositivo actualizado: false
+              Dispositivo padre: SWD\PRINTENUM\PrintQueues
+
+TimeCreated : 01/11/2026 12:46:33 p. m.
+Id          : 420
+Message     : El dispositivo SWD\PRINTENUM\{B40102B9-0517-46BC-97CE-C7B12D02FE3E} fue borrado.
+              
+              Clase GUID: {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+
+TimeCreated : 30/10/2026 03:53:58 p. m.
+Id          : 430
+Message     : El dispositivo SWD\WPDBUSENUM\{3df678fd-d429-11f1-a4a1-50e085143d94}#0000000000100000 requiere más 
+              instalación.
+
+TimeCreated : 30/10/2026 03:53:57 p. m.
+Id          : 410
+Message     : El dispositivo STORAGE\Volume\{3df678fd-d429-11f1-a4a1-50e085143d94}#0000000000100000 se inició.
+              
+              Nombre del controlador: volume.inf
+              GUID de clase: {71a27cdd-812a-11d0-bec7-08002be2092f}
+              Servicio: volume
+              Filtros inferiores: 
+              Filtros superiores: 
+
+
+
+Device: USB\VID_18D1&PID_4EE1\Z41220090388172 | Status: Unknown | Last: 11/04/2026 01:11:37
+Device: USB\VID_18D1&PID_0D02\Z41220090388172 | Status: Unknown | Last: 11/04/2026 01:10:44
+Device: USB\VID_18D1&PID_4EE7\Z41220090388172 | Status: Unknown | Last: 11/04/2026 01:10:28

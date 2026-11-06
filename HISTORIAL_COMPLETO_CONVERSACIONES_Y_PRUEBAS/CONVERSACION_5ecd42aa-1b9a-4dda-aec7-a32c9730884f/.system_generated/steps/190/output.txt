@@ -1,0 +1,96 @@
+Command exited with code 0.
+
+Command output:
+=== D:\adb comandos.txt ===
+# 1. Otorgar permiso de instalador a la aplicaciÃ³n de Headwind MDM
+shell pm grant com.hmdm.launcher android.permission.REQUEST_INSTALL_PACKAGES
+
+# 2. Quitar el aviso rojo de "AplicaciÃ³n Peligrosa" de Google Play Protect
+shell settings put global package_verifier_user_consent -1
+
+# 3. Desactivar el anÃ¡lisis de aplicaciones de Google Play Protect
+shell settings put global package_verifier_enable 0
+
+# 4. Desactivar el Launcher original de Google (Bloquea la caja en Headwind MDM)
+shell pm disable-user --user 0 com.google.android.tvlauncher
+
+# 5. Desactivar el sistema de copias de seguridad de Google (Evita recordar correos viejos)
+shell bmgr enable false
+=== D:\Comandos.txt ===
+reboot fastboot
+=== D:\MULTI TOOLS  googletv.cmd ===
+@echo off
+mode con lines=33 cols=80
+chcp 65001>nul
+color F
+cls
+title B866F TOOLS V1.1
+:main
+echo â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+echo â”‚                                                                              â”‚
+echo â”‚               MULTI TOOLS ZTE B866F V1.1 ANDROID TV 11                       â”‚
+echo â”‚                                 AMLOGIC DNL                                  â”‚
+echo â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+echo.
+echo   PLEASE SELECT MENU
+echo.
+echo   1  - Scan Device
+echo   2  - Disk Initial
+echo   3  - Flash ROM Slot A  
+echo   4  - Flash ROM Slot B
+echo   5  - Reboot
+echo   6  - Exit
+echo.
+set /p main=Please Enter Your Choice: 
+if %main% == 1 goto Scan Device
+if %main% == 2 goto Disk
+if %main% == 3 goto B866FA
+if %main% == 4 goto B866FB
+if %main% == 5 goto System
+if %main% == 6 goto exit
+echo Please select [1..6]
+timeout 2 >nul
+cls
+goto main
+:Scan Device
+adnl devices
+echo.
+pause
+cls
+goto main
+:Disk Initial
+adnl oem disk_initial
+echo.
+pause
+cls
+goto main
+:B866FA
+adnl partition -p super -f .\B866FA\super_a.img
+adnl partition -p vendor_boot_a -f .\B866FA\vendor_boot.img
+adnl partition -p odm_ext_a -f .\B866FA\odm_ext.img
+adnl partition -p boot_a -f .\B866FA\boot.img
+adnl partition -p vbmeta_a -f .\B866FA\vbmeta.img
+adnl partition -p vbmeta_system_a -f .\B866FA\vbmeta_system.img
+echo.
+pause
+cls
+goto main
+:B866FB
+adnl partition -p super -f .\B866FB\super_b.img
+adnl partition -p vendor_boot_b -f .\B866FA\vendor_boot.img
+adnl partition -p odm_ext_b -f .\B866FB\odm_ext.img
+adnl partition -p boot_b -f .\B866FB\boot.img
+adnl partition -p vbmeta_b -f .\B866FB\vbmeta.img
+adnl partition -p vbmeta_system_b -f .\B866FB\vbmeta_system.img
+echo.
+pause
+cls
+goto main
+:system
+adnl reboot
+echo.
+pause
+cls
+goto main
+:exit
+adnl exit

@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+Line 4: import gymBg from '../../assets/gym-background.jpg';
+Line 149:     return localStorage.getItem('legends_terminal_bg') || gymBg;
+Line 674:       {/* Real Gym Background Photo */}
+Line 676:         <img
+Line 678:           alt="Fitness Legends Gym Background"
+Line 685:           className="w-full h-full object-cover"
+Line 716:               <img 
+Line 719:                 className="w-12 h-12 rounded-xl object-cover border border-white/20 shadow-md"
+Line 765:               <img 
+Line 768:                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+Line 804:               <img 
+Line 807:                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+Line 843:               <img 
+Line 846:                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 brightness-95 group-hover:brightness-105"
+Line 1270:                 <img 
+Line 1278:                   <img 
+Line 1490:                 {/* Cyber Grid Lines Background */}
+Line 1498:                   <img 

@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+scripts/build-single-html.cjs:10:const modalBgBase64 = 'data:image/jpeg;base64,' + fs.readFileSync(path.join(__dirname, '../src/assets/modal-gym-bg.jpg')).toString('base64');
+src/components/access/IndependentTerminalApp.tsx:7:import modalGymBg from '../../assets/modal-gym-bg.jpg';
+src/components/access/IndependentTerminalApp.tsx:187:      fallback: './modal-gym-bg.jpg',
+src/components/access/IndependentTerminalApp.tsx:1006:                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+src/components/access/IndependentTerminalApp.tsx:1526:                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 
+src/components/access/IndependentTerminalApp.tsx:1589:                src={modalGymBg} onError={(e) => { (e.currentTarget as HTMLImageElement).src = './modal-gym-bg.jpg'; }} alt="Fondo Mancuernas Fitness" 

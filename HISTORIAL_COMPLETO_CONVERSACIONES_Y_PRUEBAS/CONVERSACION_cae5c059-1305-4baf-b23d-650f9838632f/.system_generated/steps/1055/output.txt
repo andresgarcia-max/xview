@@ -1,0 +1,87 @@
+Command exited with code 0.
+
+Command output:
+                setIsCartOpen={setIsCartOpen} 
+                onNavigateToCash={() => setActiveTab('cash')}
+              />
+            )}
+            {activeTab === 'clients' && <ClientList />}
+            {activeTab === 'catalog' && <ProductsCatalog />}
+            {activeTab === 'inventory' && <InventoryManager />}
+            {activeTab === 'incomes' && <IncomeHistoryView />}
+            {activeTab === 'expenses' && <ExpensesManager />}
+            {activeTab === 'cash' && <CashRegisterView />}
+            
+            {/* Configuración Módulos */}
+            {activeTab === 'config_catalogs' && <SystemCatalogs />}
+            {activeTab === 'config_roles' && <RolesManager />}
+            {activeTab === 'config_employees' && <EmployeesManager />}
+            {activeTab === 'config_sync' && (
+              <div className="space-y-4">
+                <div className="p-6 bg-gym-card rounded-2xl border border-gym-border">
+                  <h2 className="text-xl font-black text-white">Sincronización & Base de Datos</h2>
+                  <p className="text-xs text-gym-muted mt-1">Configuración del motor de datos offline y respaldos en la nube.</p>
+                  <button 
+                    onClick={() => setIsSyncModalOpen(true)}
+                    className="mt-4 px-4 py-2 bg-amber-500 hover:bg-amber-400 text-black text-xs font-bold rounded-xl"
+                  >
+                    Abrir Centro de Sincronización y Backup
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </main>
+      </div>
+
+      {/* Global Quick Cart Drawer */}
+      <CartDrawer 
+        isOpen={isCartOpen} 
+        onClose={() => setIsCartOpen(false)} 
+        onSaleCompleted={() => setIsCartOpen(false)} 
+      />
+
+      {/* Global Notifications Drawer */}
+      <NotificationsDrawer 
+        isOpen={isNotificationsOpen}
+        onClose={() => setIsNotificationsOpen(false)}
+        onNavigateTab={(tab) => setActiveTab(tab)}
+      />
+
+      {/* Global Cloud Sync & Database Backup Modal */}
+      <DataSyncModal
+        isOpen={isSyncModalOpen}
+        onClose={() => setIsSyncModalOpen(false)}
+      />
+
+      {/* Global Supervisor PIN Authorization Modal for Critical Operations */}
+      <SupervisorPinModal />
+
+    </div>
+  );
+};
+
+const AppContent: React.FC = () => {
+  const { isAuthenticated } = useGym();
+  const [terminalMode] = useState<boolean>(() => isTerminalMode());
+
+  // Independent Turnstile terminal mode for separate computer
+  if (terminalMode) {
+    return <IndependentTerminalApp />;
+  }
+
+  if (!isAuthenticated) {
+    return <LoginScreen />;
+  }
+
+  return <MainLayout />;
+};
+
+export default function App() {
+  return (
+    <GymProvider>
+      <AppContent />
+    </GymProvider>
+  );
+}
+

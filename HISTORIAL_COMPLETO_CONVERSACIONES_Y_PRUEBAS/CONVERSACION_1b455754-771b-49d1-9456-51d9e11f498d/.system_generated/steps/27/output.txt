@@ -1,0 +1,110 @@
+Command exited with code 0.
+
+Command output:
+
+Configuraci�n IP de Windows
+
+   Nombre de host. . . . . . . . . : tecnicos
+   Sufijo DNS principal  . . . . . : 
+   Tipo de nodo. . . . . . . . . . : h�brido
+   Enrutamiento IP habilitado. . . : no
+   Proxy WINS habilitado . . . . . : no
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec�fico para la conexi�n. . : 
+   Descripci�n . . . . . . . . . . . . . . . : Intel(R) Ethernet Connection (4) I219-LM
+   Direcci�n f�sica. . . . . . . . . . . . . : 00-07-29-55-35-57
+   DHCP habilitado . . . . . . . . . . . . . : s�
+   Configuraci�n autom�tica habilitada . . . : s�
+   V�nculo: direcci�n IPv6 local. . . : fe80::b8dd:476d:f681:20d0%18(Preferido) 
+   Direcci�n IPv4. . . . . . . . . . . . . . : 192.168.10.228(Preferido) 
+   M�scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Concesi�n obtenida. . . . . . . . . . . . : jueves, 5 de noviembre de 2026 03:45:26 p. m.
+   La concesi�n expira . . . . . . . . . . . : jueves, 5 de noviembre de 2026 04:55:25 p. m.
+   Puerta de enlace predeterminada . . . . . : 192.168.10.1
+   Servidor DHCP . . . . . . . . . . . . . . : 192.168.10.1
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 328787779
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-2E-A9-A1-6D-34-CF-F6-7D-67-75
+   Servidores DNS. . . . . . . . . . . . . . : 1.1.1.1
+                                       1.0.0.1
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+
+Adaptador de LAN inal�mbrica Conexi�n de �rea local* 11:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec�fico para la conexi�n. . : 
+   Descripci�n . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #3
+   Direcci�n f�sica. . . . . . . . . . . . . : 50-E0-85-14-3D-91
+   DHCP habilitado . . . . . . . . . . . . . : s�
+   Configuraci�n autom�tica habilitada . . . : s�
+
+Adaptador de LAN inal�mbrica Conexi�n de �rea local* 12:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec�fico para la conexi�n. . : 
+   Descripci�n . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #4
+   Direcci�n f�sica. . . . . . . . . . . . . : 52-E0-85-14-3D-90
+   DHCP habilitado . . . . . . . . . . . . . : s�
+   Configuraci�n autom�tica habilitada . . . : s�
+
+Adaptador de LAN inal�mbrica Wi-Fi 2:
+
+   Sufijo DNS espec�fico para la conexi�n. . : 
+   Descripci�n . . . . . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 8265
+   Direcci�n f�sica. . . . . . . . . . . . . : 56-16-22-2A-8C-28
+   DHCP habilitado . . . . . . . . . . . . . : s�
+   Configuraci�n autom�tica habilitada . . . : s�
+   Direcci�n IPv6 . . . . . . . . . . : fd71:15de:1766:0:5a1d:8c64:6e2a:5e87(Preferido) 
+   Direcci�n IPv6 temporal. . . . . . : fd71:15de:1766:0:c8f5:1e99:35f2:4c93(Preferido) 
+   V�nculo: direcci�n IPv6 local. . . : fe80::32e4:12ab:c943:7d99%14(Preferido) 
+   Direcci�n IPv4. . . . . . . . . . . . . . : 192.168.1.23(Preferido) 
+   M�scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Concesi�n obtenida. . . . . . . . . . . . : jueves, 5 de noviembre de 2026 12:01:05 p. m.
+   La concesi�n expira . . . . . . . . . . . : viernes, 6 de noviembre de 2026 03:30:41 p. m.
+   Puerta de enlace predeterminada . . . . . : 192.168.1.2
+   Servidor DHCP . . . . . . . . . . . . . . : 192.168.1.2
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 240522786
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-03-00-01-56-16-22-2A-8C-28
+   Servidores DNS. . . . . . . . . . . . . . : 8.8.8.8
+                                       1.1.1.1
+                                       fe80::1%14
+                                       fe80::da21:daff:fe33:ae0%14
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+
+Adaptador de Ethernet Conexi�n de red Bluetooth 2:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec�fico para la conexi�n. . : 
+   Descripci�n . . . . . . . . . . . . . . . : Bluetooth Device (Personal Area Network) #2
+   Direcci�n f�sica. . . . . . . . . . . . . : 50-E0-85-14-3D-94
+   DHCP habilitado . . . . . . . . . . . . . : s�
+   Configuraci�n autom�tica habilitada . . . : s�
+
+NextHop      InterfaceAlias InterfaceIndex
+-------      -------------- --------------
+192.168.10.1 Ethernet                   18
+192.168.1.2  Wi-Fi 2                    14
+
+
+
+IPAddress                 LinkLayerAddress      State InterfaceAlias
+---------                 ----------------      ----- --------------
+fe80::dc7e:b3d7:31f6:c057 DC-FB-48-C8-3F-84     Stale Wi-Fi 2       
+fe80::dbce:b16e:2d25:9ebb E4-C7-67-4D-F9-40     Stale Wi-Fi 2       
+fe80::da21:daff:fe33:ae0  D8-21-DA-33-0A-E0     Stale Wi-Fi 2       
+fe80::c29f:51ff:fee1:8f00 C0-9F-51-E1-8F-00 Reachable Wi-Fi 2       
+fe80::70f0:6682:7940:2d2f 90-E8-68-F8-12-79     Stale Wi-Fi 2       
+fe80::571c:697c:b103:fdcc E0-8F-4C-E6-9D-DF     Stale Wi-Fi 2       
+fe80::1                   00-00-01-00-10-D3     Stale Wi-Fi 2       
+192.168.10.1              DC-2C-6E-53-55-73     Probe Ethernet      
+192.168.1.38              64-E0-03-F5-92-49     Stale Wi-Fi 2       
+192.168.1.36              DC-FB-48-C8-3F-84     Stale Wi-Fi 2       
+192.168.1.27              E0-8F-4C-E6-9D-DF     Stale Wi-Fi 2       
+192.168.1.21              94-E7-0B-82-13-15     Stale Wi-Fi 2       
+192.168.1.12              E4-C7-67-4D-F9-40     Stale Wi-Fi 2       
+192.168.1.9               50-E4-78-6A-B4-46     Stale Wi-Fi 2       
+192.168.1.5               90-E8-68-F8-12-79     Stale Wi-Fi 2       
+192.168.1.2               00-00-01-00-10-D3 Reachable Wi-Fi 2       
+
+

@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+
+LEGENDS\src\components\finance\ExpensesManager.tsx:286:                  Registro de Gastos Operativos
+
+

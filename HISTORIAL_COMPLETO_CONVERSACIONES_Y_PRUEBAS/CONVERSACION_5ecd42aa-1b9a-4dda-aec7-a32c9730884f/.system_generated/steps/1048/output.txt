@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                          Length
+--------                                                                                          ------
+C:\Users\andre\OneDrive\Desktop\xview\programa perfecto\5_FIRMWARE_SEGURO_B866V2\super.img    1887436800
+C:\Users\andre\OneDrive\Desktop\xview\V2\B866v2 Android 12\B866v2 Android 12\B866V2\super.img 1887436800
+
+

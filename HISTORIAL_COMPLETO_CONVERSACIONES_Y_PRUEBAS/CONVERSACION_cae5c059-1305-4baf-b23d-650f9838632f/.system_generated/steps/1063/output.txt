@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+import { Users, Zap } from 'lucide-react';
+﻿import React, { useState } from 'react';
+import { GymProvider, useGym } from './context/GymContext';
+import { Navbar } from './components/layout/Navbar';
+import { Sidebar } from './components/layout/Sidebar';
+import { TurnstileTerminal } from './components/access/TurnstileTerminal';
+import { PosTerminal } from './components/pos/PosTerminal';
+import { ClientList } from './components/clients/ClientList';
+import { InventoryManager } from './components/pos/InventoryManager';
+import { CashRegisterView } from './components/dashboard/CashRegisterView';
+import { Dashboard } from './components/dashboard/Dashboard';
+import { CartDrawer } from './components/pos/CartDrawer';
+import { EmployeesManager } from './components/config/EmployeesManager';
+import { RolesManager } from './components/config/RolesManager';
+import { SystemCatalogs } from './components/config/SystemCatalogs';
+import { ProductsCatalog } from './components/products/ProductsCatalog';
+import { ExpensesManager } from './components/finance/ExpensesManager';
+import { IncomeHistoryView } from './components/finance/IncomeHistoryView';
+import { NotificationsDrawer } from './components/layout/NotificationsDrawer';
+import { DataSyncModal } from './components/config/DataSyncModal';
+import { LoginScreen } from './components/auth/LoginScreen';
+import { SupervisorPinModal } from './components/auth/SupervisorPinModal';
+import { IndependentTerminalApp } from './components/access/IndependentTerminalApp';
+import gymDumbbellBg from './assets/gym-dumbbell-background.jpg';
+
+export const isClientsMode = (): boolean => {
+  if (typeof window === 'undefined') return false;
+  const searchParams = new URLSearchParams(window.location.search);
+  if (searchParams.get('mode') === 'clients' || searchParams.get('tab') === 'clients') return true;
+  return false;

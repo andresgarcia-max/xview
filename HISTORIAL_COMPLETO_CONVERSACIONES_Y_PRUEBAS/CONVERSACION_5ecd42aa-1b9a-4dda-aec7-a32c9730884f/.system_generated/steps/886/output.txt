@@ -1,0 +1,63 @@
+Command exited with code 0.
+
+Command output:
+_ZN10RecoveryUIC2Ev
+_ZTV14StubRecoveryUI
+_ZN16ScreenRecoveryUI25CheckBackgroundTextImagesEv
+_ZN16ScreenRecoveryUIC1Ev
+_ZN6DeviceC1EP10RecoveryUI
+libbootloader_message.so
+librecovery_zte_conf.so
+librecovery_ui.so
+recovery/
+recovery
+Failed to open recovery socket
+bootloader
+Quiescent recovery mode.
+recoveryonly
+bootable/recovery/recovery_main.cpp
+Rebooting to recovery...
+Entering fastboot
+Set USB Status Success!
+bootable/recovery/zte/zte_inifile.c
+bootable/recovery/otautil/rangeset.cpp
+bootable/recovery/otautil/verifier.cpp
+Failed to set USB config to 
+/cache/recovery/last_log
+Failed to set usb config to sideload
+bootable/recovery/recovery_utils/logging.cpp
+/cache/recovery/last_kmsg
+recovery filesystem table
+Entering recovery
+bootable/recovery/otautil/package.cpp
+bootable/recovery/recovery.cpp
+/system/bin/recovery
+Update state in recovery: 
+sys.usb.config
+SetUSBHost 
+/cache/recovery/last_zteconfig.ini
+bootable/recovery/recovery_utils/battery_utils.cpp
+Snapshots cannot be written in first-stage init or recovery
+Starting recovery (pid 
+Failed to write bootloader message: 
+Partitions may be mounted - rebooting to enter fastboot.
+Unexpected merge-needs-reboot state in recovery.
+userrequested,recovery
+bootable/recovery/fastboot/fastboot.cpp
+bootable/recovery/zte/zte_recovery.cpp
+fastboot
+Set USB Status Failed!
+bootable/recovery/install/wipe_data.cpp
+Unable to unmap all partitions; fastboot may fail to flash.
+bootable/recovery/otautil/sysutil.cpp
+in finishrecovery, upgrade_step is %s
+Rebooting to recovery/fastboot...
+Rebooting to recovery/rescue...
+SetUSBDevice 
+Failed to clear USB config
+Bootloader version - 
+/cache/recovery/last_upflag
+Failed to create pipe for updater-recovery communication
+/cache/recovery/last_middwarecfg_otaUpgrade.ini
+bootable/recovery/install/adb_install.cpp
+/cache/recovery/last_zteconfigbak.ini

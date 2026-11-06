@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+Size of file 1: 3908365
+Number of scripts: 7
+Line 107:     const BG_PHOTO_1 = "data:image/jpeg;base64,/9j/2wBDAAICAgICAQICAgIDAgIDAwYEAwMDAwcFBQQGCAcJCAgHCAgJCg0LCQoMCggICw8LDA0ODg8OCQsQERAOEQ0ODg7/2wBDAQI
+Line 108:     const BG_PHOTO_2 = "data:image/jpeg;base64,/9j/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQI
+Line 109:     const BG_PHOTO_3 = "data:image/jpeg;base64,/9j/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQM
+Line 834:       const selectedBg = currentBgIndex === 0 ? BG_PHOTO_1 : (currentBgIndex === 1 ? BG_PHOTO_2 : BG_PHOTO_3);
+Line 1155:                         Teléfono / WhatsApp

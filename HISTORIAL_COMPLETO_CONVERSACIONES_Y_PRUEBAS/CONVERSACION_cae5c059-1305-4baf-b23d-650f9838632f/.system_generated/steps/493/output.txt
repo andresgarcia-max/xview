@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:595:
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:596:  // Fullscreen / Kiosk toggle
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:597:  const toggleBackground = () => {
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:598:    const nextBg = bgImage === gymBg ? gymBgMotto : 
+(bgImage === gymBgMotto ? modalGymBg : gymBg);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:599:    setBgImage(nextBg);
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:660:        <div className="fixed top-4 right-4 z-40 flex 
+items-center gap-2">
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:661:          <button
+> LEGENDS\src\components\access\IndependentTerminalApp.tsx:662:            onClick={toggleBackground}
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:663:            className="px-3.5 py-2.5 rounded-2xl 
+bg-black/70 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white font-bold text-xs sm:text-sm flex 
+items-center gap-2 shadow-2xl transition-all cursor-pointer transform hover:scale-105 active:scale-95 select-none"
+  LEGENDS\src\components\access\IndependentTerminalApp.tsx:664:            title="Cambiar imagen de fondo (Mancuernas 
+/ Estudio / Ne�n)"
+
+

@@ -1,0 +1,14 @@
+Command exited with code 1.
+
+Command output:
+En l�nea: 1 Car�cter: 49
++  = New-Object -ComObject WScript.Shell; foreach( in Get-ChildItem -Fi ...
++                                                 ~
+Falta el nombre de variable despu�s de foreach.
+En l�nea: 1 Car�cter: 82
++ ... ect WScript.Shell; foreach( in Get-ChildItem -Filter '*.lnk') {  = .C ...
++                                                                 ~
+Token ')' inesperado en la expresi�n o la instrucci�n.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingVariableNameAfterForeach
+ 

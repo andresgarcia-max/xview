@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+@echo off
+title FITNESS LEGENDS - Control de Acceso Web
+color 0E
+
+echo ======================================================================
+echo           FITNESS LEGENDS GYM - CONTROL DE ACCESO WEB
+echo ======================================================================
+echo.
+echo [*] Iniciando Servidor Central de Sincronizacion (Puerto 3001)...
+start "FITNESS LEGENDS - Sync Server" /MIN node "%~dp0LEGENDS\server\syncServer.cjs"
+
+echo [*] Abriendo Terminal de Control de Acceso en tu Navegador Web...
+start http://localhost:5174/?mode=terminal
+
+echo [*] Iniciando Servidor Web (Vite)...
+cd /d "%~dp0LEGENDS"
+call npm.cmd run dev -- --host --port 5174
+
+pause
+@echo off
+title FITNESS LEGENDS - Sistema Central ERP
+start "" "%~dp0LEGENDS\release\FITNESS_LEGENDS_TERMINAL-win32-x64\FitnessLegends.exe" --main
