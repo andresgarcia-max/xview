@@ -13,14 +13,14 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-[assembly: AssemblyTitle("PROGRAMA PERFECTO v4.1 - FLUJO DIRECTO 4 PASOS (XVIEW+ B866V2)")]
-[assembly: AssemblyDescription("1. Escanear Memoria -> 2. Modo Fastboot -> 3. Inyectar Firmware -> 4. Exito Total")]
+[assembly: AssemblyTitle("PROGRAMA PERFECTO v4.2 - FLUJO DIRECTO 4 PASOS (XVIEW+ B866V2)")]
+[assembly: AssemblyDescription("1. Escanear Memoria -> 2. Modo Fastboot/DNL -> 3. Inyectar Firmware -> 4. Exito Total")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Xview+ B866V2 Tools")]
-[assembly: AssemblyProduct("PROGRAMA PERFECTO XVIEW+ B866V2 v4.1")]
+[assembly: AssemblyProduct("PROGRAMA PERFECTO XVIEW+ B866V2 v4.2")]
 [assembly: AssemblyCopyright("Copyright (C) 2026")]
-[assembly: AssemblyVersion("4.1.0.0")]
-[assembly: AssemblyFileVersion("4.1.0.0")]
+[assembly: AssemblyVersion("4.2.0.0")]
+[assembly: AssemblyFileVersion("4.2.0.0")]
 
 namespace ProgramaPerfectoB866V2
 {
@@ -478,7 +478,7 @@ namespace ProgramaPerfectoB866V2
         {
             if (!File.Exists(ADNL_EXE)) return false;
 
-            ToolResult res = InvokeAdnlSafe("oem \"setenv loadaddr 0x03080000;setenv -f lock 10100000;setenv lock 10100000;setenv bootcmd bootsys;setenv upgrade_step 2;saveenv\"", 650, false);
+            ToolResult res = InvokeAdnlSafe("oem \"setenv loadaddr 0x03080000;setenv -f lock 10100000;setenv lock 10100000;setenv bootcmd bootsys;setenv upgrade_step 2;saveenv\"", 220, false);
             if (!res.TimedOut &&
                 res.ExitCode == 0 &&
                 !string.IsNullOrWhiteSpace(res.Output) &&
@@ -515,7 +515,7 @@ namespace ProgramaPerfectoB866V2
             if (TryCatchAdnlDnlMode()) return true;
             if (!File.Exists(UPDATE_EXE)) return false;
 
-            ToolResult res = InvokeUpdateSafe("bulkcmd \"setenv -f lock 10100000\"", 900, false);
+            ToolResult res = InvokeUpdateSafe("bulkcmd \"setenv -f lock 10100000\"", 220, false);
             if (!res.TimedOut &&
                 !string.IsNullOrWhiteSpace(res.Output) &&
                 res.Output.IndexOf("No [WorldCup Device]", StringComparison.OrdinalIgnoreCase) < 0 &&
@@ -689,8 +689,8 @@ namespace ProgramaPerfectoB866V2
         {
             try { Console.Clear(); } catch { }
             WriteColor("================================================================================", ConsoleColor.Cyan, true, false);
-            WriteColor("   PROGRAMA PERFECTO v4.1 - LIBERACION DIRECTA EN 4 PASOS (XVIEW+ ZTE B866V2)   ", ConsoleColor.Cyan, true, false);
-            WriteColor("   1. Escanear Memoria -> 2. Modo Fastboot -> 3. Inyectar Firmware -> 4. Exito  ", ConsoleColor.Cyan, true, false);
+            WriteColor("   PROGRAMA PERFECTO v4.2 - LIBERACION DIRECTA EN 4 PASOS (XVIEW+ ZTE B866V2)   ", ConsoleColor.Cyan, true, false);
+            WriteColor("   1. Escanear Memoria -> 2. Modo Fastboot/DNL -> 3. Inyectar -> 4. Exito Total ", ConsoleColor.Cyan, true, false);
             WriteColor("================================================================================", ConsoleColor.Cyan, true, false);
 
             BoxConnectionState st = GetBoxConnectionState();
@@ -708,7 +708,7 @@ namespace ProgramaPerfectoB866V2
         // ==============================================================================
         static void ExecuteFourStepDirectMission()
         {
-            LogEvent("MISION_4_PASOS", "=== INICIANDO FLUJO DIRECTO DE 4 PASOS (v4.1) ===");
+            LogEvent("MISION_4_PASOS", "=== INICIANDO FLUJO DIRECTO DE 4 PASOS (v4.2) ===");
             Console.WriteLine();
 
             // --------------------------------------------------------------------------
@@ -753,16 +753,15 @@ namespace ProgramaPerfectoB866V2
             // --------------------------------------------------------------------------
             Console.WriteLine();
             WriteColor("================================================================================", ConsoleColor.Cyan);
-            WriteColor(" [PASO 2/4] ENTRANDO EN MODO FASTBOOT...", ConsoleColor.Cyan);
+            WriteColor(" [PASO 2/4] ENTRANDO EN MODO FASTBOOT / RESCATE DIRECTO DNL...", ConsoleColor.Cyan);
             WriteColor("================================================================================", ConsoleColor.Cyan);
             WriteColor("  * SI TU TV YA ESTA EN LA PANTALLA AZUL 'fastbootd' (letras rosas):", ConsoleColor.Yellow);
             WriteColor("    1. Conecta el cable USB Macho-a-Macho en el puerto TRASERO (junto a MicroSD y HDMI).", ConsoleColor.White);
             WriteColor("    2. En la TV baja a 'Reboot to bootloader' y presiona OK (o entra a 'Enter recovery'", ConsoleColor.Green);
             WriteColor("       -> 'Set USB device' -> 'Yes' para activar el puerto USB de la caja).", ConsoleColor.Green);
-            WriteColor("  * O si la caja esta encendida normal: desconecta corriente, manten presionado RESET", ConsoleColor.Gray);
-            WriteColor("    y vuelve a conectar corriente...", ConsoleColor.Gray);
+            WriteColor("  * O si la caja esta en foco verde / encendida: desconecta corriente 2s y vuelve a conectar...", ConsoleColor.Gray);
             WriteColor("--------------------------------------------------------------------------------", ConsoleColor.DarkCyan);
-            WriteColor("  [*] ESCUCHANDO EN VIVO (Fastboot PID_0D02 / Fastbootd PID_4EE7 / WorldCup 48ms / ADB)...", ConsoleColor.Cyan);
+            WriteColor("  [*] ESCUCHANDO EN VIVO (Fastboot PID_0D02 / Fastbootd PID_4EE7 / DNL PID_C004 / WorldCup / ADB)...", ConsoleColor.Cyan);
 
             string caughtSerial = "";
             string caughtMode = ""; // "FASTBOOT", "WORLDCUP_FLASHED" o "ADB"
